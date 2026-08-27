@@ -1,0 +1,42 @@
+name: Collect weather market prices
+
+on:
+  schedule:
+    - cron: '5 * * * *'   # каждый час в :05 UTC (в т.ч. 16:05 = 19:05 Минск)
+  workflow_dispatch:
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Collect snapshot
+        run: python collector.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "weather-collector"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git commit -m "snapshot $(date -u +'%Y-%m-%d %H:%M') UTC"
+          for i in 1 2 3 4; do
+            git push && exit 0
+            git pull --rebase
+            sleep $((i * 2))
+          done
+          exit 1
