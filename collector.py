@@ -177,6 +177,13 @@ def main():
     prev = d - timedelta(days=1)
     if (hour >= 17 or hour < 4) and not prev_market_resolved(prev):
         take_snapshot(prev, with_wx=False)
+    # Пилотные города (Сингапур, КЛ, Тель-Авив, Даллас) — отдельный
+    # сбор; его сбой не должен ломать основной.
+    try:
+        import pilot
+        pilot.collect()
+    except Exception as e:  # noqa: BLE001
+        print(f"WARN: pilot collect failed: {e}", file=sys.stderr)
 
 
 if __name__ == "__main__":

@@ -69,19 +69,60 @@ def actual_max_f(city_cfg: dict, d: date):
     return round(max(temps) * 9 / 5 + 32)
 
 
-def forecast_wx(d: date):
-    """wx из последнего снапшота даты d, где он есть (≈19:05 Минска)."""
-    f = Path(__file__).parent / "data" / f"{d.isoformat()}.jsonl"
-    if not f.exists():
-        return {}
-    result = {}
-    for line in f.read_text(encoding="utf-8").splitlines():
-        snap = json.loads(line)
-        if snap.get("market_date") != d.isoformat():
+def actual_max_intl_c(city_cfg: dict, d: date):
+    """Максимум за локальные сутки по METAR intl-станции (IEM), целые °C."""
+    tz = ZoneInfo(city_cfg["tz"])
+    url = ("https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?"
+           f"station={city_cfg['station']}&data=tmpc"
+           f"&year1={d.year}&month1={d.month}&day1={max(d.day - 1, 1)}"
+           f"&year2={d.year}&month2={d.month}&day2={d.day + 1 if d.day < 28 else d.day}"
+           "&tz=Etc/UTC&format=onlycomma&latlon=no&missing=M&trace=T&report_type=3")
+    last_err = None
+    for _ in range(3):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "weather-monitor/1.0"})
+            with urllib.request.urlopen(req, timeout=90) as r:
+                text = r.read().decode()
+            break
+        except Exception as e:  # noqa: BLE001
+            last_err = e
+    else:
+        print(f"WARN: IEM {city_cfg['station']}: {last_err}", file=sys.stderr)
+        return None
+    best = None
+    for line in text.splitlines()[1:]:
+        parts = line.split(",")
+        if len(parts) < 3 or parts[2] in ("M", ""):
             continue
-        for slug, c in snap.get("cities", {}).items():
-            if c.get("wx"):
-                result[slug] = c["wx"]
+        try:
+            t = float(parts[2])
+            dt = datetime.strptime(parts[1], "%Y-%m-%d %H:%M").replace(
+                tzinfo=ZoneInfo("UTC")).astimezone(tz)
+        except ValueError:
+            continue
+        if dt.date() == d:
+            best = t if best is None else max(best, t)
+    return round(best) if best is not None else None
+
+
+def forecast_wx(d: date):
+    """wx из последних снапшотов даты d: основные города + пилотные."""
+    result = {}
+    f = Path(__file__).parent / "data" / f"{d.isoformat()}.jsonl"
+    if f.exists():
+        for line in f.read_text(encoding="utf-8").splitlines():
+            snap = json.loads(line)
+            if snap.get("market_date") != d.isoformat():
+                continue
+            for slug, c in snap.get("cities", {}).items():
+                if c.get("wx"):
+                    result[slug] = c["wx"]
+    pf = Path(__file__).parent / "pilot_data" / f"{d.isoformat()}.jsonl"
+    if pf.exists():
+        for line in pf.read_text(encoding="utf-8").splitlines():
+            rec = json.loads(line)
+            if rec.get("wx"):
+                result[rec["city"]] = rec["wx"]
     return result
 
 
@@ -101,23 +142,31 @@ def main():
     if d.isoformat() in existing:
         print(f"{d}: уже записано, пропуск")
     else:
+        import pilot
         wx_all = forecast_wx(d)
         rec = {"date": d.isoformat(), "cities": {}}
-        for slug, c in config.CITIES.items():
-            actual = actual_max_f(c, d)
+        all_cities = list(config.CITIES.items()) + list(pilot.PILOT_CITIES.items())
+        for slug, c in all_cities:
+            unit = c.get("unit", "F")
+            if unit == "F":
+                actual = actual_max_f(c, d)
+            else:
+                actual = actual_max_intl_c(c, d)
             wx = wx_all.get(slug) or {}
             errors = {m: round(v - actual, 1) for m, v in wx.items()
                       if actual is not None and v is not None}
-            rec["cities"][slug] = {"actual_max_f": actual, "forecast": wx, "error": errors}
-            print(f"{c['code']}: факт {actual}°F, ошибки {errors}")
+            rec["cities"][slug] = {f"actual_max_{unit.lower()}": actual,
+                                   "unit": unit, "forecast": wx, "error": errors}
+            print(f"{c['code']}: факт {actual}°{unit}, ошибки {errors}")
         with actuals_f.open("a", encoding="utf-8") as f:
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
     # скользящие поправки
     records = [json.loads(l) for l in actuals_f.read_text(encoding="utf-8").splitlines()]
     records = sorted(records, key=lambda r: r["date"])[-ROLL_DAYS:]
+    import pilot as _p
     bias = {}
-    for slug in config.CITIES:
+    for slug in list(config.CITIES) + list(_p.PILOT_CITIES):
         per_model = {}
         for r in records:
             for m, e in r["cities"].get(slug, {}).get("error", {}).items():
