@@ -106,7 +106,8 @@ def fetch_weather(city_cfg: dict, d: date):
         "&daily=temperature_2m_max&temperature_unit=fahrenheit"
         "&timezone=auto&cell_selection=land"
         f"&start_date={d.isoformat()}&end_date={d.isoformat()}"
-        "&models=best_match,ecmwf_ifs025,gfs_seamless,icon_seamless")
+        "&models=best_match,ecmwf_ifs025,gfs_seamless,icon_seamless,"
+        "ecmwf_aifs025_single,ncep_nbm_conus,ukmo_seamless")
     if om:
         for k, v in om.get("daily", {}).items():
             if k.startswith("temperature_2m_max") and v:
