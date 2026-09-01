@@ -10,7 +10,7 @@ import json
 import sys
 import urllib.request
 import urllib.error
-from datetime import datetime, timezone, date
+from datetime import datetime, timedelta, timezone, date
 from pathlib import Path
 
 import config
@@ -87,11 +87,35 @@ def fetch_kalshi(series: str, d: date):
     return {"event_ticker": ticker, "buckets": buckets}
 
 
-def main():
-    if len(sys.argv) > 1:
-        d = date.fromisoformat(sys.argv[1])
-    else:
-        d = config.target_date()
+def fetch_weather(city_cfg: dict, d: date):
+    """Прогнозы максимальной температуры на дату d (°F).
+
+    nws — дневной максимум NWS для станции резолва Polymarket;
+    om_* — модели через Open-Meteo (ECMWF, GFS, ICON и best_match).
+    """
+    wx = {}
+    nws = fetch_json(city_cfg["nws_grid"])
+    if nws:
+        for p in nws.get("properties", {}).get("periods", []):
+            if p.get("isDaytime") and p.get("startTime", "")[:10] == d.isoformat():
+                wx["nws"] = p.get("temperature")
+                break
+    om = fetch_json(
+        "https://api.open-meteo.com/v1/forecast"
+        f"?latitude={city_cfg['lat']}&longitude={city_cfg['lon']}"
+        "&daily=temperature_2m_max&temperature_unit=fahrenheit"
+        "&timezone=auto&cell_selection=land"
+        f"&start_date={d.isoformat()}&end_date={d.isoformat()}"
+        "&models=best_match,ecmwf_ifs025,gfs_seamless,icon_seamless")
+    if om:
+        for k, v in om.get("daily", {}).items():
+            if k.startswith("temperature_2m_max") and v:
+                model = k.replace("temperature_2m_max", "").lstrip("_") or "best_match"
+                wx["om_" + model] = v[0]
+    return wx or None
+
+
+def take_snapshot(d: date, with_wx: bool):
     now_utc = datetime.now(timezone.utc)
     snapshot = {
         "ts_utc": now_utc.strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -102,18 +126,56 @@ def main():
     for slug, c in config.CITIES.items():
         pm = fetch_polymarket(slug, d)
         ks = fetch_kalshi(c["kalshi_series"], d)
-        snapshot["cities"][slug] = {
+        entry = {
             "name": c["name"], "code": c["code"],
             "polymarket": pm, "kalshi": ks,
         }
+        if with_wx:
+            entry["wx"] = fetch_weather(c, d)
+        snapshot["cities"][slug] = entry
+        wx_note = f", wx {entry.get('wx')}" if with_wx else ""
         print(f"{c['code']}: PM {len(pm['buckets']) if pm else 0} корзин, "
-              f"KS {len(ks['buckets']) if ks else 0} корзин")
+              f"KS {len(ks['buckets']) if ks else 0} корзин{wx_note}")
 
     out = Path(__file__).parent / "data" / f"{d.isoformat()}.jsonl"
     out.parent.mkdir(exist_ok=True)
     with out.open("a", encoding="utf-8") as f:
         f.write(json.dumps(snapshot, ensure_ascii=False) + "\n")
     print(f"OK: снапшот {snapshot['ts_utc']} -> {out}")
+    return snapshot
+
+
+def prev_market_resolved(d: date) -> bool:
+    """Резолв: в последнем снапшоте дня d в каждом городе есть корзина >=97¢."""
+    f = Path(__file__).parent / "data" / f"{d.isoformat()}.jsonl"
+    if not f.exists():
+        return True
+    try:
+        last = json.loads(f.read_text(encoding="utf-8").splitlines()[-1])
+    except (ValueError, IndexError):
+        return False
+    for c in last.get("cities", {}).values():
+        pm = c.get("polymarket") or {}
+        if not any((b.get("last") or 0) >= 97 for b in pm.get("buckets", [])):
+            return False
+    return True
+
+
+def main():
+    if len(sys.argv) > 1:
+        d = date.fromisoformat(sys.argv[1])
+        take_snapshot(d, with_wx=False)
+        return
+    d = config.target_date()
+    take_snapshot(d, with_wx=True)
+    # Вечерняя развязка вчерашнего рынка: максимум дня в США случается
+    # после 19:05 Минска, поэтому с 17:00 UTC до 04:00 UTC следим и за
+    # вчерашним рынком, пока он не резолвится (нужно для вторых прогнозов
+    # и калибровки времени входа по городам).
+    hour = datetime.now(timezone.utc).hour
+    prev = d - timedelta(days=1)
+    if (hour >= 17 or hour < 4) and not prev_market_resolved(prev):
+        take_snapshot(prev, with_wx=False)
 
 
 if __name__ == "__main__":
