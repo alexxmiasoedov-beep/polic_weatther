@@ -20,6 +20,37 @@
    "cut": "20:05 Минск",
    "rationale": "лидер PM + Kalshi 95-96 82¢ (офсет +1) + консенсус моделей ~95",
    "winner": null
+  },
+  "austin": {
+   "bucket": "98-99°F",
+   "prob_pct": 55,
+   "last": 61.0,
+   "bid": 53.0,
+   "ask": 62.0,
+   "cut": "22:05 Минск",
+   "rationale": "лидер дня + модели ~97-98; Kalshi тянет выше — конфликт, беру лидера",
+   "winner": null
+  },
+  "houston": {
+   "bucket": "86-87°F",
+   "prob_pct": 75,
+   "last": 86.0,
+   "bid": 86.0,
+   "ask": 90.0,
+   "cut": "22:05 Минск",
+   "rationale": "рынок решён (86¢), Kalshi 88- 94¢; поздно для входа",
+   "winner": null
+  },
+  "dallas": {
+   "bucket": "98-99°F",
+   "prob_pct": 55,
+   "last": 75.0,
+   "bid": 71.0,
+   "ask": 78.0,
+   "cut": "22:05 Минск",
+   "pilot": true,
+   "rationale": "лидер + консенсус моделей ~99; NWS 101 оставляет хвост 100-101",
+   "winner": null
   }
  }
 }
