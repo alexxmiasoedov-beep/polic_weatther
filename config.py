@@ -23,17 +23,18 @@ CITIES = {
         "nws_grid": "https://api.weather.gov/gridpoints/FFC/49,81/forecast",
     },
     "austin": {
-        # Camp Mabry, не аэропорт: факт 31.08 (99.0°F) сошёлся с корзиной
-        # 98-99, у KAUS было 100.4°F
-        "station": "KATT", "tz": "America/Chicago",
+        # Бергстром (site=kaus в описании рынка). Факт считать ТОЛЬКО по
+        # часовым METAR (:53): 5-минутные отсчёты идут в целых °C и
+        # завышают максимум (38°C=100.4°F при METAR-максимуме 99.0°F)
+        "station": "KAUS", "tz": "America/Chicago",
         "name": "Остин", "code": "AUS",
         "kalshi_series": "KXHIGHAUS", "ks_pm_offset": 0.5,
-        "lat": 30.321, "lon": -97.760,
-        "nws_grid": "https://api.weather.gov/gridpoints/EWX/155,93/forecast",
+        "lat": 30.183, "lon": -97.680,
+        "nws_grid": "https://api.weather.gov/gridpoints/EWX/158,87/forecast",
     },
     "houston": {
-        # Hobby, не IAH: факт 31.08 (90.0°F) сошёлся с корзиной 90-91,
-        # у KIAH было 95.0°F
+        # Hobby, не IAH (site=khou в описании рынка; факт 31.08 90.0°F
+        # сошёлся с корзиной 90-91, у KIAH было 95.0°F)
         "station": "KHOU", "tz": "America/Chicago",
         "name": "Хьюстон", "code": "HOU",
         "kalshi_series": "KXHIGHTHOU", "ks_pm_offset": 1.0,

@@ -41,7 +41,14 @@ def fetch_json(url: str, tries: int = 3):
 
 
 def actual_max_f(city_cfg: dict, d: date):
-    """Максимум за локальные сутки d по наблюдениям станции, °F."""
+    """Максимум за локальные сутки d по станции, целые °F.
+
+    Рынок резолвится по колонке Temp «Show Hourly Data» на
+    weather.gov/wrh/timeseries — это ЧАСОВЫЕ METAR (точность 0.1°C),
+    округлённые до целых °F. 5-минутные отсчёты API идут в целых °C и
+    завышают максимум (38°C=100.4°F при METAR-максимуме 99.0°F, кейс
+    KAUS 31.08), поэтому берём только наблюдения с rawMessage-METAR.
+    """
     tz = ZoneInfo(city_cfg["tz"])
     start = datetime(d.year, d.month, d.day, tzinfo=tz)
     end = start + timedelta(days=1)
@@ -50,11 +57,16 @@ def actual_max_f(city_cfg: dict, d: date):
         f"?start={start.isoformat()}&end={end.isoformat()}&limit=500")
     if not o:
         return None
-    temps = [f["properties"]["temperature"]["value"] for f in o.get("features", [])
-             if f["properties"]["temperature"]["value"] is not None]
+    temps = []
+    for f in o.get("features", []):
+        p = f["properties"]
+        t = p["temperature"]["value"]
+        raw = p.get("rawMessage") or ""
+        if t is not None and raw and not raw.startswith("SPECI"):
+            temps.append(t)
     if not temps:
         return None
-    return round(max(temps) * 9 / 5 + 32, 1)
+    return round(max(temps) * 9 / 5 + 32)
 
 
 def forecast_wx(d: date):
