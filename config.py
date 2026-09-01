@@ -16,42 +16,53 @@ MINSK_UTC_OFFSET = 3  # Минск круглый год UTC+3, DST нет
 # Polymarket); nws_grid — готовый gridpoint-URL прогноза NWS для станции.
 CITIES = {
     "atlanta": {
+        "station": "KATL", "tz": "America/New_York",
         "name": "Атланта", "code": "ATL",
         "kalshi_series": "KXHIGHTATL", "ks_pm_offset": 1.0,
         "lat": 33.630, "lon": -84.442,
         "nws_grid": "https://api.weather.gov/gridpoints/FFC/49,81/forecast",
     },
     "austin": {
+        # Camp Mabry, не аэропорт: факт 31.08 (99.0°F) сошёлся с корзиной
+        # 98-99, у KAUS было 100.4°F
+        "station": "KATT", "tz": "America/Chicago",
         "name": "Остин", "code": "AUS",
         "kalshi_series": "KXHIGHAUS", "ks_pm_offset": 0.5,
-        "lat": 30.183, "lon": -97.680,
-        "nws_grid": "https://api.weather.gov/gridpoints/EWX/158,87/forecast",
+        "lat": 30.321, "lon": -97.760,
+        "nws_grid": "https://api.weather.gov/gridpoints/EWX/155,93/forecast",
     },
     "houston": {
+        # Hobby, не IAH: факт 31.08 (90.0°F) сошёлся с корзиной 90-91,
+        # у KIAH было 95.0°F
+        "station": "KHOU", "tz": "America/Chicago",
         "name": "Хьюстон", "code": "HOU",
         "kalshi_series": "KXHIGHTHOU", "ks_pm_offset": 1.0,
-        "lat": 29.980, "lon": -95.360,
-        "nws_grid": "https://api.weather.gov/gridpoints/HGX/63,104/forecast",
+        "lat": 29.638, "lon": -95.282,
+        "nws_grid": "https://api.weather.gov/gridpoints/HGX/66,89/forecast",
     },
     "los-angeles": {
+        "station": "KLAX", "tz": "America/Los_Angeles",
         "name": "Лос-Анджелес", "code": "LAX",
         "kalshi_series": "KXHIGHLAX", "ks_pm_offset": 1.0,
         "lat": 33.938, "lon": -118.389,
         "nws_grid": "https://api.weather.gov/gridpoints/LOX/149,41/forecast",
     },
     "miami": {
+        "station": "KMIA", "tz": "America/New_York",
         "name": "Майами", "code": "MIA",
         "kalshi_series": "KXHIGHMIA", "ks_pm_offset": 0.0,
         "lat": 25.788, "lon": -80.317,
         "nws_grid": "https://api.weather.gov/gridpoints/MFL/105,51/forecast",
     },
     "seattle": {
+        "station": "KSEA", "tz": "America/Los_Angeles",
         "name": "Сиэтл", "code": "SEA",
         "kalshi_series": "KXHIGHTSEA", "ks_pm_offset": 1.0,
         "lat": 47.445, "lon": -122.314,
         "nws_grid": "https://api.weather.gov/gridpoints/SEW/124,60/forecast",
     },
     "san-francisco": {
+        "station": "KSFO", "tz": "America/Los_Angeles",
         "name": "Сан-Франциско", "code": "SFO",
         "kalshi_series": "KXHIGHTSFO", "ks_pm_offset": 2.0,
         "lat": 37.620, "lon": -122.365,
