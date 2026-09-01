@@ -51,6 +51,36 @@
    "pilot": true,
    "rationale": "лидер + консенсус моделей ~99; NWS 101 оставляет хвост 100-101",
    "winner": null
+  },
+  "los-angeles": {
+   "bucket": "74-75°F",
+   "prob_pct": 55,
+   "last": 68.0,
+   "bid": 68.0,
+   "ask": 84.0,
+   "cut": "23:05 Минск",
+   "rationale": "лидер дня; KS с офсетом на границе, NBM 73.5",
+   "winner": null
+  },
+  "seattle": {
+   "bucket": "70-71°F",
+   "prob_pct": 60,
+   "last": 69.0,
+   "bid": 56.0,
+   "ask": 60.0,
+   "cut": "23:05 Минск",
+   "rationale": "лидер + консенсус моделей ~71",
+   "winner": null
+  },
+  "san-francisco": {
+   "bucket": "70-71°F",
+   "prob_pct": 80,
+   "last": 85.0,
+   "bid": 81.0,
+   "ask": 84.0,
+   "cut": "23:05 Минск",
+   "rationale": "рынок почти решён (85¢), поздно для входа",
+   "winner": null
   }
  }
 }
