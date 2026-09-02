@@ -1,0 +1,27 @@
+{
+ "date": "2026-09-02",
+ "picks": {
+  "singapore": {
+   "bucket": "33°C",
+   "prob_pct": 65,
+   "last": 78.0,
+   "bid": 73.0,
+   "ask": 79.0,
+   "cut": "04:05 Минск",
+   "pilot": true,
+   "rationale": "стабильный лидер + консенсус моделей 32.6; дорого",
+   "winner": null
+  },
+  "kuala-lumpur": {
+   "bucket": "33°C",
+   "prob_pct": 45,
+   "last": 34.0,
+   "bid": 31.0,
+   "ask": 35.0,
+   "cut": "04:05 Минск",
+   "pilot": true,
+   "rationale": "против лидера 34: модели 32.2-33.2 + разворот цен (34 сдулся 73→60, 33 растёт)",
+   "winner": null
+  }
+ }
+}
