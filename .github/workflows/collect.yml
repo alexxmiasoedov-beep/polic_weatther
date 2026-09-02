@@ -1,9 +1,9 @@
 name: Collect weather market prices
 # schedule re-registered 2026-08-27
 
+# Расписание отключено владельцем 02.09.2026 («stop all processes»).
+# Для возобновления вернуть блок schedule с cron '5 * * * *'.
 on:
-  schedule:
-    - cron: '5 * * * *'   # каждый час в :05 UTC (в т.ч. 16:05 = 19:05 Минск)
   workflow_dispatch:
 
 concurrency:
