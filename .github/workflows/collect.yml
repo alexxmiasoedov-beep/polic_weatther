@@ -1,9 +1,11 @@
 name: Collect weather market prices
 # schedule re-registered 2026-08-27
 
-# Расписание отключено владельцем 02.09.2026 («stop all processes»).
-# Для возобновления вернуть блок schedule с cron '5 * * * *'.
+# Каждые 30 минут: cron GitHub спорадический, плотное расписание даёт
+# >=1 снапшот в час без резервной Claude-сессии (оптимизация 02.09).
 on:
+  schedule:
+    - cron: '5,35 * * * *'
   workflow_dispatch:
 
 concurrency:
