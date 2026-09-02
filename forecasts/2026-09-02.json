@@ -55,6 +55,26 @@
    "pilot": true,
    "rationale": "лидер + модели ~98-99",
    "winner": null
+  },
+  "los-angeles": {
+   "bucket": "76-77°F",
+   "prob_pct": 80,
+   "last": 89.0,
+   "bid": 86.0,
+   "ask": 90.0,
+   "cut": "23:00 Минск",
+   "rationale": "рынок решён, KS 94¢",
+   "winner": null
+  },
+  "san-francisco": {
+   "bucket": "70-71°F",
+   "prob_pct": 55,
+   "last": 52.0,
+   "bid": 45.0,
+   "ask": 72.0,
+   "cut": "23:05 Минск",
+   "rationale": "переворот с 72-73 + KS с офсетом + модели ~71",
+   "winner": null
   }
  }
 }
