@@ -10,7 +10,8 @@
    "cut": "04:05 Минск",
    "pilot": true,
    "rationale": "стабильный лидер + консенсус моделей 32.6; дорого",
-   "winner": null
+   "winner": "33°C",
+   "hit": true
   },
   "kuala-lumpur": {
    "bucket": "33°C",
@@ -21,7 +22,8 @@
    "cut": "04:05 Минск",
    "pilot": true,
    "rationale": "против лидера 34: модели 32.2-33.2 + разворот цен (34 сдулся 73→60, 33 растёт)",
-   "winner": null
+   "winner": "34°C",
+   "hit": false
   },
   "miami": {
    "bucket": "90-91°F",
