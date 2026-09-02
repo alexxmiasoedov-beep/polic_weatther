@@ -9,7 +9,8 @@
    "ask": 64.0,
    "cut": "18:05 Минск",
    "rationale": "переворот последнего часа на обеих площадках + модели ниже; лидер PM",
-   "winner": null
+   "winner": "88-89°F",
+   "hit": true
   },
   "atlanta": {
    "bucket": "94-95°F",
@@ -19,7 +20,8 @@
    "ask": 69.0,
    "cut": "20:05 Минск",
    "rationale": "лидер PM + Kalshi 95-96 82¢ (офсет +1) + консенсус моделей ~95",
-   "winner": null
+   "winner": "92-93°F",
+   "hit": false
   },
   "austin": {
    "bucket": "98-99°F",
@@ -29,7 +31,8 @@
    "ask": 62.0,
    "cut": "22:05 Минск",
    "rationale": "лидер дня + модели ~97-98; Kalshi тянет выше — конфликт, беру лидера",
-   "winner": null
+   "winner": "100-101°F",
+   "hit": false
   },
   "houston": {
    "bucket": "86-87°F",
@@ -39,7 +42,8 @@
    "ask": 90.0,
    "cut": "22:05 Минск",
    "rationale": "рынок решён (86¢), Kalshi 88- 94¢; поздно для входа",
-   "winner": null
+   "winner": "86-87°F",
+   "hit": true
   },
   "dallas": {
    "bucket": "98-99°F",
@@ -50,7 +54,8 @@
    "cut": "22:05 Минск",
    "pilot": true,
    "rationale": "лидер + консенсус моделей ~99; NWS 101 оставляет хвост 100-101",
-   "winner": null
+   "winner": "98-99°F",
+   "hit": true
   },
   "los-angeles": {
    "bucket": "74-75°F",
@@ -60,7 +65,8 @@
    "ask": 84.0,
    "cut": "23:05 Минск",
    "rationale": "лидер дня; KS с офсетом на границе, NBM 73.5",
-   "winner": null
+   "winner": "74-75°F",
+   "hit": true
   },
   "seattle": {
    "bucket": "70-71°F",
@@ -70,7 +76,8 @@
    "ask": 60.0,
    "cut": "23:05 Минск",
    "rationale": "лидер + консенсус моделей ~71",
-   "winner": null
+   "winner": "66-67°F",
+   "hit": false
   },
   "san-francisco": {
    "bucket": "70-71°F",
@@ -80,7 +87,9 @@
    "ask": 84.0,
    "cut": "23:05 Минск",
    "rationale": "рынок почти решён (85¢), поздно для входа",
-   "winner": null
+   "winner": "70-71°F",
+   "hit": true
   }
- }
+ },
+ "score": "основные 4/7, пилот 1/1"
 }
