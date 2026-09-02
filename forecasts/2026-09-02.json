@@ -34,6 +34,27 @@
    "cut": "18:05 Минск",
    "rationale": "лидер PM + Kalshi 57¢; модели ~88 и сползание цен — переворот не завершён",
    "winner": null
+  },
+  "houston": {
+   "bucket": "92-93°F",
+   "prob_pct": 55,
+   "last": 71.0,
+   "bid": 59.0,
+   "ask": 63.0,
+   "cut": "22:05 Минск",
+   "rationale": "взлёт дня + модели ~92; KS делит 92-95",
+   "winner": null
+  },
+  "dallas": {
+   "bucket": "98-99°F",
+   "prob_pct": 60,
+   "last": 68.0,
+   "bid": 50.0,
+   "ask": 68.0,
+   "cut": "22:05 Минск",
+   "pilot": true,
+   "rationale": "лидер + модели ~98-99",
+   "winner": null
   }
  }
 }
