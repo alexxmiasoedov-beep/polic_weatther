@@ -1,0 +1,27 @@
+{
+ "date": "2026-09-03",
+ "picks": {
+  "singapore": {
+   "bucket": "33°C",
+   "prob_pct": 70,
+   "last": 82.0,
+   "bid": 75.0,
+   "ask": 80.0,
+   "cut": "04:05 Минск",
+   "pilot": true,
+   "rationale": "лидер укрепляется, модели согласны",
+   "winner": null
+  },
+  "kuala-lumpur": {
+   "bucket": "33°C",
+   "prob_pct": 55,
+   "last": 65.0,
+   "bid": 64.0,
+   "ask": 65.0,
+   "cut": "04:05 Минск",
+   "pilot": true,
+   "rationale": "лидер растёт; модели ниже, но станция теплее сетки — не фейдим",
+   "winner": null
+  }
+ }
+}
