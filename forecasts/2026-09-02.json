@@ -33,7 +33,8 @@
    "ask": 50.0,
    "cut": "18:05 Минск",
    "rationale": "лидер PM + Kalshi 57¢; модели ~88 и сползание цен — переворот не завершён",
-   "winner": null
+   "winner": "90-91°F",
+   "hit": true
   },
   "houston": {
    "bucket": "92-93°F",
@@ -43,7 +44,8 @@
    "ask": 63.0,
    "cut": "22:05 Минск",
    "rationale": "взлёт дня + модели ~92; KS делит 92-95",
-   "winner": null
+   "winner": "94-95°F",
+   "hit": false
   },
   "dallas": {
    "bucket": "98-99°F",
@@ -54,7 +56,8 @@
    "cut": "22:05 Минск",
    "pilot": true,
    "rationale": "лидер + модели ~98-99",
-   "winner": null
+   "winner": "100-101°F",
+   "hit": false
   },
   "los-angeles": {
    "bucket": "76-77°F",
@@ -64,7 +67,8 @@
    "ask": 90.0,
    "cut": "23:00 Минск",
    "rationale": "рынок решён, KS 94¢",
-   "winner": null
+   "winner": "76-77°F",
+   "hit": true
   },
   "san-francisco": {
    "bucket": "70-71°F",
@@ -74,7 +78,8 @@
    "ask": 72.0,
    "cut": "23:05 Минск",
    "rationale": "переворот с 72-73 + KS с офсетом + модели ~71",
-   "winner": null
+   "winner": "72-73°F",
+   "hit": false
   },
   "atlanta": {
    "bucket": "94-95°F",
@@ -84,7 +89,8 @@
    "ask": 95.0,
    "cut": "23:25 Минск",
    "rationale": "переворот 96-97→94-95 завершился к 23:02, вход опоздал",
-   "winner": null
+   "winner": "94-95°F",
+   "hit": true
   },
   "austin": {
    "bucket": "98-99°F",
@@ -94,7 +100,8 @@
    "ask": 89.0,
    "cut": "00:25 Минск",
    "rationale": "переворот 100-101→98-99 к 00:01; модели ~99",
-   "winner": null
+   "winner": "100-101°F",
+   "hit": false
   },
   "seattle": {
    "bucket": "68-69°F",
@@ -104,7 +111,9 @@
    "ask": 100.0,
    "cut": "00:25 Минск",
    "rationale": "рынок решён к 22:10",
-   "winner": null
+   "winner": "68-69°F",
+   "hit": true
   }
- }
+ },
+ "score": "основные 4/7, пилот 1/3"
 }

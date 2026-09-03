@@ -16,6 +16,7 @@ calibration/bias.json. Анализ вычитает поправку из пр�
 """
 import json
 import sys
+import time
 import urllib.request
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -47,9 +48,42 @@ def actual_max_f(city_cfg: dict, d: date):
     weather.gov/wrh/timeseries — это ЧАСОВЫЕ METAR (точность 0.1°C),
     округлённые до целых °F. 5-минутные отсчёты API идут в целых °C и
     завышают максимум (38°C=100.4°F при METAR-максимуме 99.0°F, кейс
-    KAUS 31.08), поэтому берём только наблюдения с rawMessage-METAR.
+    KAUS 31.08). Основной источник — IEM ASOS (report_type=3 = только
+    METAR, tmpf сразу в °F): у api.weather.gov rawMessage у части METAR
+    пуст, и фильтр по нему терял наблюдения (KMIA/KSFO 02.09 дали
+    88/71 вместо 89/72). Фолбэк — api.weather.gov с фильтром METAR.
     """
     tz = ZoneInfo(city_cfg["tz"])
+    st = city_cfg["station"].lstrip("K")
+    url = ("https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?"
+           f"station={st}&data=tmpf"
+           f"&year1={d.year}&month1={d.month}&day1={max(d.day - 1, 1)}"
+           f"&year2={d.year}&month2={d.month}&day2={d.day + 1 if d.day < 28 else d.day}"
+           "&tz=Etc/UTC&format=onlycomma&latlon=no&missing=M&trace=T&report_type=3")
+    for _ in range(3):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "weather-monitor/1.0"})
+            with urllib.request.urlopen(req, timeout=90) as r:
+                text = r.read().decode()
+        except Exception:  # noqa: BLE001 — сеть, ретраим
+            continue
+        best = None
+        for line in text.splitlines()[1:]:
+            parts = line.split(",")
+            if len(parts) < 3 or parts[2] in ("M", ""):
+                continue
+            try:
+                t = float(parts[2])
+                dt = datetime.strptime(parts[1], "%Y-%m-%d %H:%M").replace(
+                    tzinfo=ZoneInfo("UTC")).astimezone(tz)
+            except ValueError:
+                continue
+            if dt.date() == d:
+                best = t if best is None else max(best, t)
+        if best is not None:
+            return round(best)
+        break
+    # фолбэк: api.weather.gov, только записи с rawMessage-METAR
     start = datetime(d.year, d.month, d.day, tzinfo=tz)
     end = start + timedelta(days=1)
     o = fetch_json(
@@ -147,6 +181,7 @@ def main():
         rec = {"date": d.isoformat(), "cities": {}}
         all_cities = list(config.CITIES.items()) + list(pilot.PILOT_CITIES.items())
         for slug, c in all_cities:
+            time.sleep(3)  # IEM режет параллельные/частые запросы (429)
             unit = c.get("unit", "F")
             if unit == "F":
                 actual = actual_max_f(c, d)
