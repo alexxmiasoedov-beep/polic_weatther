@@ -1,18 +1,324 @@
 {
- "updated": "2026-09-05",
+ "updated": "2026-09-06",
  "roll_days": 14,
  "note": "bias = средняя (прогноз - факт); калиброванный прогноз = прогноз - bias",
  "cities": {
-  "atlanta": {},
-  "austin": {},
-  "houston": {},
-  "los-angeles": {},
-  "miami": {},
-  "seattle": {},
-  "san-francisco": {},
-  "singapore": {},
-  "kuala-lumpur": {},
-  "tel-aviv": {},
+  "atlanta": {
+   "nws": {
+    "bias": 0.8,
+    "days": 5
+   },
+   "om_best_match": {
+    "bias": 1.4,
+    "days": 5
+   },
+   "om_ecmwf_ifs025": {
+    "bias": -0.3,
+    "days": 5
+   },
+   "om_gfs_seamless": {
+    "bias": 1.4,
+    "days": 5
+   },
+   "om_icon_seamless": {
+    "bias": -1.1,
+    "days": 5
+   },
+   "om_ecmwf_aifs025_single": {
+    "bias": -2.0,
+    "days": 5
+   },
+   "om_ncep_nbm_conus": {
+    "bias": 0.2,
+    "days": 5
+   },
+   "om_ukmo_seamless": {
+    "bias": -1.5,
+    "days": 5
+   }
+  },
+  "austin": {
+   "nws": {
+    "bias": -2.0,
+    "days": 5
+   },
+   "om_best_match": {
+    "bias": -1.7,
+    "days": 5
+   },
+   "om_ecmwf_ifs025": {
+    "bias": -1.3,
+    "days": 5
+   },
+   "om_gfs_seamless": {
+    "bias": -1.7,
+    "days": 5
+   },
+   "om_icon_seamless": {
+    "bias": -1.2,
+    "days": 5
+   },
+   "om_ecmwf_aifs025_single": {
+    "bias": -4.5,
+    "days": 5
+   },
+   "om_ncep_nbm_conus": {
+    "bias": -2.8,
+    "days": 5
+   },
+   "om_ukmo_seamless": {
+    "bias": -1.7,
+    "days": 5
+   }
+  },
+  "houston": {
+   "nws": {
+    "bias": -0.6,
+    "days": 5
+   },
+   "om_best_match": {
+    "bias": 2.5,
+    "days": 5
+   },
+   "om_ecmwf_ifs025": {
+    "bias": -3.8,
+    "days": 5
+   },
+   "om_gfs_seamless": {
+    "bias": 2.5,
+    "days": 5
+   },
+   "om_icon_seamless": {
+    "bias": -0.8,
+    "days": 5
+   },
+   "om_ecmwf_aifs025_single": {
+    "bias": -3.9,
+    "days": 5
+   },
+   "om_ncep_nbm_conus": {
+    "bias": -2.5,
+    "days": 5
+   },
+   "om_ukmo_seamless": {
+    "bias": 0.6,
+    "days": 5
+   }
+  },
+  "los-angeles": {
+   "nws": {
+    "bias": -1.0,
+    "days": 5
+   },
+   "om_best_match": {
+    "bias": 0.0,
+    "days": 5
+   },
+   "om_ecmwf_ifs025": {
+    "bias": 7.6,
+    "days": 5
+   },
+   "om_gfs_seamless": {
+    "bias": 0.0,
+    "days": 5
+   },
+   "om_icon_seamless": {
+    "bias": 4.3,
+    "days": 5
+   },
+   "om_ecmwf_aifs025_single": {
+    "bias": 4.3,
+    "days": 5
+   },
+   "om_ncep_nbm_conus": {
+    "bias": -2.2,
+    "days": 5
+   },
+   "om_ukmo_seamless": {
+    "bias": 0.7,
+    "days": 5
+   }
+  },
+  "miami": {
+   "nws": {
+    "bias": 0.0,
+    "days": 5
+   },
+   "om_best_match": {
+    "bias": -2.7,
+    "days": 5
+   },
+   "om_ecmwf_ifs025": {
+    "bias": -3.1,
+    "days": 5
+   },
+   "om_gfs_seamless": {
+    "bias": -2.7,
+    "days": 5
+   },
+   "om_icon_seamless": {
+    "bias": -0.6,
+    "days": 5
+   },
+   "om_ecmwf_aifs025_single": {
+    "bias": -3.7,
+    "days": 5
+   },
+   "om_ncep_nbm_conus": {
+    "bias": -2.0,
+    "days": 5
+   },
+   "om_ukmo_seamless": {
+    "bias": 0.4,
+    "days": 5
+   }
+  },
+  "seattle": {
+   "nws": {
+    "bias": 1.6,
+    "days": 5
+   },
+   "om_best_match": {
+    "bias": 1.0,
+    "days": 5
+   },
+   "om_ecmwf_ifs025": {
+    "bias": -1.2,
+    "days": 5
+   },
+   "om_gfs_seamless": {
+    "bias": 1.0,
+    "days": 5
+   },
+   "om_icon_seamless": {
+    "bias": -1.2,
+    "days": 5
+   },
+   "om_ecmwf_aifs025_single": {
+    "bias": -3.5,
+    "days": 5
+   },
+   "om_ncep_nbm_conus": {
+    "bias": -1.5,
+    "days": 5
+   },
+   "om_ukmo_seamless": {
+    "bias": 0.2,
+    "days": 5
+   }
+  },
+  "san-francisco": {
+   "nws": {
+    "bias": -2.0,
+    "days": 5
+   },
+   "om_best_match": {
+    "bias": -1.4,
+    "days": 5
+   },
+   "om_ecmwf_ifs025": {
+    "bias": 0.9,
+    "days": 5
+   },
+   "om_gfs_seamless": {
+    "bias": -1.4,
+    "days": 5
+   },
+   "om_icon_seamless": {
+    "bias": -0.4,
+    "days": 5
+   },
+   "om_ecmwf_aifs025_single": {
+    "bias": -1.3,
+    "days": 5
+   },
+   "om_ncep_nbm_conus": {
+    "bias": -1.7,
+    "days": 5
+   },
+   "om_ukmo_seamless": {
+    "bias": -0.5,
+    "days": 5
+   }
+  },
+  "singapore": {
+   "om_best_match": {
+    "bias": 0.0,
+    "days": 5
+   },
+   "om_ecmwf_ifs025": {
+    "bias": -0.7,
+    "days": 5
+   },
+   "om_gfs_seamless": {
+    "bias": -1.2,
+    "days": 5
+   },
+   "om_icon_seamless": {
+    "bias": 0.1,
+    "days": 5
+   },
+   "om_ecmwf_aifs025_single": {
+    "bias": -0.9,
+    "days": 5
+   },
+   "om_ukmo_seamless": {
+    "bias": 0.1,
+    "days": 5
+   }
+  },
+  "kuala-lumpur": {
+   "om_best_match": {
+    "bias": 0.8,
+    "days": 5
+   },
+   "om_ecmwf_ifs025": {
+    "bias": -0.5,
+    "days": 5
+   },
+   "om_gfs_seamless": {
+    "bias": -1.1,
+    "days": 5
+   },
+   "om_icon_seamless": {
+    "bias": 0.1,
+    "days": 5
+   },
+   "om_ecmwf_aifs025_single": {
+    "bias": -0.6,
+    "days": 5
+   },
+   "om_ukmo_seamless": {
+    "bias": -0.5,
+    "days": 5
+   }
+  },
+  "tel-aviv": {
+   "om_best_match": {
+    "bias": 0.1,
+    "days": 5
+   },
+   "om_ecmwf_ifs025": {
+    "bias": 1.8,
+    "days": 5
+   },
+   "om_gfs_seamless": {
+    "bias": 0.3,
+    "days": 5
+   },
+   "om_icon_seamless": {
+    "bias": 0.1,
+    "days": 5
+   },
+   "om_ecmwf_aifs025_single": {
+    "bias": 1.2,
+    "days": 5
+   },
+   "om_ukmo_seamless": {
+    "bias": 0.6,
+    "days": 5
+   }
+  },
   "dallas": {}
  }
 }
