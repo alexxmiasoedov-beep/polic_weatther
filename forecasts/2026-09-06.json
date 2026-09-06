@@ -67,6 +67,26 @@
    "pilot": true,
    "rationale": "корзины впритык, по bid 100-101 лидер; NWS 102, NBM 100.1; техасское правило — верхняя",
    "winner": null
+  },
+  "los-angeles": {
+   "bucket": "74-75°F",
+   "prob_pct": 55,
+   "last": 62.0,
+   "bid": 50.0,
+   "ask": 60.0,
+   "cut": "23:00 Минск",
+   "rationale": "переворот вниз: холодный день, 74-75 вырвался 37→62 при обвале 76-77; Kalshi 75- 46¢; NBM/UKMO/ECMWF за низ",
+   "winner": null
+  },
+  "san-francisco": {
+   "bucket": "70-71°F",
+   "prob_pct": 65,
+   "last": 66.0,
+   "bid": 74.0,
+   "ask": 83.0,
+   "cut": "23:05 Минск",
+   "rationale": "лидер весь день, bid 74 выше last; Kalshi 71-72 87¢; NWS 69, медиана ~70",
+   "winner": null
   }
  },
  "score": "пилот 2/3 (не все резолвлены)"
