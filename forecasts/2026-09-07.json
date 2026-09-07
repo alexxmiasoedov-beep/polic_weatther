@@ -54,6 +54,55 @@
     "edge_pp": 18
    },
    "winner": null
+  },
+  "houston": {
+   "bucket": "94-95°F",
+   "prob_pct": 55,
+   "last": 61.0,
+   "bid": 42.0,
+   "ask": 61.0,
+   "cut": "22:05 Минск",
+   "rationale": "лидер восстановился; Kalshi 95-96 68¢ (офсет −1); калибр. медиана 94.0; пик-эдж мал",
+   "bet": {
+    "bucket": "96-97°F",
+    "limit": 14,
+    "edge_pp": null,
+    "kind": "texas_value"
+   },
+   "winner": null
+  },
+  "dallas": {
+   "bucket": "100-101°F",
+   "prob_pct": 75,
+   "last": 82.0,
+   "bid": 76.0,
+   "ask": 80.0,
+   "cut": "22:05 Минск",
+   "pilot": true,
+   "rationale": "доминирует весь день, калибр. консенсус 101; вход пропущен (>=70)",
+   "bet": {
+    "bucket": "102-103°F",
+    "limit": 21,
+    "edge_pp": null,
+    "kind": "texas_value"
+   },
+   "winner": null
+  },
+  "los-angeles": {
+   "bucket": "84-85°F",
+   "prob_pct": 50,
+   "last": 44.0,
+   "bid": 53.0,
+   "ask": 58.0,
+   "cut": "22:05 Минск",
+   "rationale": "лидер дня; Kalshi 84+ 99¢; калибр. консенсус 87.1 — корзиной выше (один сигнал, лидера держим)",
+   "bet": {
+    "bucket": "86-87°F",
+    "limit": 12,
+    "edge_pp": 15,
+    "kind": "value_up"
+   },
+   "winner": null
   }
  },
  "score": "пилот 3/3"
