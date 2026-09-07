@@ -46,6 +46,28 @@ PILOT_CITIES = {
         "lat": 32.847, "lon": -96.852,
         "nws_grid": "https://api.weather.gov/gridpoints/FWD/87,107/forecast",
     },
+    # --- Тихий сбор (наблюдение, БЕЗ прогнозов; добавлены 07.09 по
+    # запросу владельца): σ за 45 дней у всех плохая (WLG 2.4/перс 9%,
+    # MOW 4.2/2%, MIL 3.1/32%), решение о прогнозах — после 2 недель
+    # накопления bias и наблюдения за ленивостью рынков. У Веллингтона
+    # объём ~$90k/день — главный кандидат.
+    "wellington": {
+        "name": "Веллингтон", "code": "WLG", "unit": "C",
+        "station": "NZWN", "tz": "Pacific/Auckland",
+        "lat": -41.327, "lon": 174.805, "nws_grid": None,
+    },
+    "moscow": {
+        # Резолв по Внуково (site в описании рынка)
+        "name": "Москва", "code": "MOW", "unit": "C",
+        "station": "UUWW", "tz": "Europe/Moscow",
+        "lat": 55.596, "lon": 37.267, "nws_grid": None,
+    },
+    "milan": {
+        # Резолв по Мальпенсе
+        "name": "Милан", "code": "MIL", "unit": "C",
+        "station": "LIMC", "tz": "Europe/Rome",
+        "lat": 45.630, "lon": 8.723, "nws_grid": None,
+    },
 }
 
 OM_MODELS_GLOBAL = ("best_match,ecmwf_ifs025,gfs_seamless,icon_seamless,"
