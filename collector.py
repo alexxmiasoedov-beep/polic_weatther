@@ -184,6 +184,15 @@ def main():
         pilot.collect()
     except Exception as e:  # noqa: BLE001
         print(f"WARN: pilot collect failed: {e}", file=sys.stderr)
+    # Обзорный сбор всех температурных городов PM (только цены,
+    # параллельно): раз в 2 часа — в почасовом запуске чётного часа.
+    now = datetime.now(timezone.utc)
+    if now.hour % 2 == 0 and now.minute < 15:
+        try:
+            import observe
+            observe.collect()
+        except Exception as e:  # noqa: BLE001
+            print(f"WARN: observe collect failed: {e}", file=sys.stderr)
 
 
 if __name__ == "__main__":
