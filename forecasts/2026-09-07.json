@@ -103,6 +103,21 @@
     "kind": "value_up"
    },
    "winner": null
+  },
+  "san-francisco": {
+   "bucket": "80-81°F",
+   "prob_pct": 40,
+   "last": 25.0,
+   "bid": 28.0,
+   "ask": 36.0,
+   "cut": "23:05 Минск",
+   "rationale": "отклонение вверх по двум сигналам: Kalshi 80-81/82+ и калибр. консенсус 84.6 против лидера 78-79; правило вверх",
+   "bet": {
+    "bucket": "80-81°F",
+    "limit": 30,
+    "edge_pp": 10
+   },
+   "winner": null
   }
  },
  "score": "пилот 3/3"
