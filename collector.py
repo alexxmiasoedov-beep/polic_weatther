@@ -168,7 +168,11 @@ def main():
         take_snapshot(d, with_wx=False)
         return
     d = config.target_date()
-    take_snapshot(d, with_wx=True)
+    # Репозиторий публичный (07.09) — минуты Actions бесплатны, сбор
+    # каждые 10 минут. Тяжёлую погоду тянем раз в час (:05), цены — всегда.
+    minute = datetime.now(timezone.utc).minute
+    hourly = minute < 12
+    take_snapshot(d, with_wx=hourly)
     # Вечерняя развязка вчерашнего рынка: максимум дня в США случается
     # после 19:05 Минска, поэтому с 17:00 UTC до 04:00 UTC следим и за
     # вчерашним рынком, пока он не резолвится (нужно для вторых прогнозов
@@ -181,13 +185,12 @@ def main():
     # сбор; его сбой не должен ломать основной.
     try:
         import pilot
-        pilot.collect()
+        pilot.collect(with_wx=hourly)
     except Exception as e:  # noqa: BLE001
         print(f"WARN: pilot collect failed: {e}", file=sys.stderr)
     # Обзорный сбор всех температурных городов PM (только цены,
-    # параллельно): раз в 2 часа — в почасовом запуске чётного часа.
-    now = datetime.now(timezone.utc)
-    if now.hour % 2 == 0 and now.minute < 15:
+    # параллельно): каждые полчаса (:05 и :35).
+    if minute % 30 < 12:
         try:
             import observe
             observe.collect()

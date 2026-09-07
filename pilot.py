@@ -143,7 +143,7 @@ def market_resolved(city_slug: str, d) -> bool:
     return False
 
 
-def collect():
+def collect(with_wx: bool = True):
     out_dir = Path(__file__).parent / "pilot_data"
     out_dir.mkdir(exist_ok=True)
     now_utc = datetime.now(timezone.utc)
@@ -159,7 +159,7 @@ def collect():
                 "ts_utc": now_utc.strftime("%Y-%m-%dT%H:%M:%SZ"),
                 "ts_minsk": config.minsk_now().strftime("%Y-%m-%d %H:%M"),
                 "city": slug, "code": c["code"], "market_date": d.isoformat(),
-                "pm": pm, "wx": fetch_wx(c, d),
+                "pm": pm, "wx": fetch_wx(c, d) if with_wx else None,
             }
             with (out_dir / f"{d.isoformat()}.jsonl").open("a", encoding="utf-8") as f:
                 f.write(json.dumps(rec, ensure_ascii=False) + "\n")
