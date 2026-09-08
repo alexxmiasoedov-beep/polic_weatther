@@ -53,7 +53,10 @@
     "limit": 32,
     "edge_pp": 18
    },
-   "winner": null
+   "winner": "90-91°F",
+   "hit": true,
+   "pnl_pick": 1.27,
+   "pnl_bet": 2.12
   },
   "houston": {
    "bucket": "94-95°F",
@@ -69,7 +72,10 @@
     "edge_pp": null,
     "kind": "texas_value"
    },
-   "winner": null
+   "winner": "94-95°F",
+   "hit": true,
+   "pnl_pick": 0.64,
+   "pnl_bet": -1.0
   },
   "dallas": {
    "bucket": "100-101°F",
@@ -86,7 +92,10 @@
     "edge_pp": null,
     "kind": "texas_value"
    },
-   "winner": null
+   "winner": "100-101°F",
+   "hit": true,
+   "pnl_pick": 0.22,
+   "pnl_bet": -1.0
   },
   "los-angeles": {
    "bucket": "84-85°F",
@@ -102,7 +111,10 @@
     "edge_pp": 15,
     "kind": "value_up"
    },
-   "winner": null
+   "winner": "84-85°F",
+   "hit": true,
+   "pnl_pick": 1.27,
+   "pnl_bet": -1.0
   },
   "san-francisco": {
    "bucket": "80-81°F",
@@ -117,7 +129,10 @@
     "limit": 30,
     "edge_pp": 10
    },
-   "winner": null
+   "winner": "80-81°F",
+   "hit": true,
+   "pnl_pick": 3.0,
+   "pnl_bet": 2.33
   },
   "atlanta": {
    "bucket": "82-83°F",
@@ -128,7 +143,9 @@
    "cut": "23:25 Минск",
    "rationale": "переворот вниз 22:08-23:09 на обеих площадках; METAR макс 82.4; вход пропущен — окно было в 22:08 по 40-50¢",
    "bet": null,
-   "winner": null
+   "winner": "82-83°F",
+   "hit": true,
+   "pnl_pick": 0.18
   },
   "austin": {
    "bucket": "100-101°F",
@@ -139,7 +156,9 @@
    "cut": "00:25 Минск",
    "rationale": "станция догревается (5-мин 100.4 дважды, METAR 20:53=99.0); правило «ещё греется = выше» + рынок 15→68; Kalshi расколот; риск кейса 31.08",
    "bet": null,
-   "winner": null
+   "winner": "100-101°F",
+   "hit": true,
+   "pnl_pick": 0.47
   },
   "seattle": {
    "bucket": "70-71°F",
@@ -150,8 +169,10 @@
    "cut": "01:30 Минск",
    "rationale": "лидер дня + Kalshi 74¢; станция 69.8 и греется — 0.2°F до корзины; вне торговли",
    "bet": null,
-   "winner": null
+   "winner": "70-71°F",
+   "hit": true,
+   "pnl_pick": 0.69
   }
  },
- "score": "пилот 3/3"
+ "score": "основные 7/7, пилот 4/4"
 }

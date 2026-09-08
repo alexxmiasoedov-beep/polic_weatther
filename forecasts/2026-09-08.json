@@ -11,7 +11,9 @@
    "pilot": true,
    "rationale": "стабильный лидер, калибр. консенсус 33.0; 7-й день одна корзина; вход пропущен",
    "bet": null,
-   "winner": null
+   "winner": "33°C",
+   "hit": true,
+   "pnl_pick": 0.25
   },
   "tel-aviv": {
    "bucket": "33°C",
@@ -28,7 +30,11 @@
     "edge_pp": 10,
     "kind": "value_up"
    },
-   "winner": null
+   "winner": "34°C",
+   "hit": false,
+   "pnl_pick": -1.0,
+   "pnl_bet": 2.57
   }
- }
+ },
+ "score": "пилот 1/2"
 }
