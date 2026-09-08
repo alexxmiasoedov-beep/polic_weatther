@@ -127,6 +127,23 @@
     "kind": "fact_flip"
    },
    "winner": null
+  },
+  "austin": {
+   "bucket": "100-101°F",
+   "prob_pct": 75,
+   "last": 88.0,
+   "bid": 88.0,
+   "ask": 90.0,
+   "cut": "00:25 Минск",
+   "rationale": "часовой METAR-макс 100, 5-минутки 38°C на пике; Kalshi 100-101 без 85+ на другой; вход пропущен (88¢)",
+   "bet": {
+    "bucket": "102-103°F",
+    "limit": 10,
+    "bet_bid": 8.0,
+    "edge_pp": 12,
+    "kind": "value_up"
+   },
+   "winner": null
   }
  },
  "score": "пилот 1/2"
