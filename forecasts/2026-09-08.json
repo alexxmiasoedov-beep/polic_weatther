@@ -1,0 +1,34 @@
+{
+ "date": "2026-09-08",
+ "picks": {
+  "singapore": {
+   "bucket": "33°C",
+   "prob_pct": 72,
+   "last": 80.0,
+   "bid": 78.0,
+   "ask": 79.0,
+   "cut": "04:05 Минск",
+   "pilot": true,
+   "rationale": "стабильный лидер, калибр. консенсус 33.0; 7-й день одна корзина; вход пропущен",
+   "bet": null,
+   "winner": null
+  },
+  "tel-aviv": {
+   "bucket": "33°C",
+   "prob_pct": 55,
+   "last": 72.0,
+   "bid": 70.0,
+   "ask": 71.0,
+   "cut": "04:05 Минск",
+   "pilot": true,
+   "rationale": "жаркий день, лидер 33; калибр. консенсус 33.8 (GFS 34.1); вход пропущен",
+   "bet": {
+    "bucket": "34°C",
+    "limit": 28,
+    "edge_pp": 10,
+    "kind": "value_up"
+   },
+   "winner": null
+  }
+ }
+}
