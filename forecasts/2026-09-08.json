@@ -46,6 +46,58 @@
    "bet": null,
    "bet_note": "лидер без эджа (85 против mid 91); 92-93: prob ~15% vs mid 9 — эдж 6 п.п. < 10, пропуск",
    "winner": null
+  },
+  "houston": {
+   "bucket": "92-93°F",
+   "prob_pct": 78,
+   "last": 77.0,
+   "bid": 64.0,
+   "ask": 77.0,
+   "cut": "22:05 Минск",
+   "rationale": "METAR-макс уже 93; Kalshi 93-94=84¢; консенсус 91.4; вход пропущен (77¢)",
+   "bet": {
+    "bucket": "94-95°F",
+    "limit": 25,
+    "bet_bid": 23.0,
+    "edge_pp": null,
+    "kind": "texas_value_up"
+   },
+   "winner": null
+  },
+  "dallas": {
+   "bucket": "100-101°F",
+   "prob_pct": 65,
+   "last": 82.0,
+   "bid": 75.0,
+   "ask": 79.0,
+   "cut": "22:05 Минск",
+   "pilot": true,
+   "rationale": "METAR-макс 98 к 14:00, консенсус 100.9, NWS 102; риск плато 98-99; вход пропущен (82¢)",
+   "bet": {
+    "bucket": "102-103°F",
+    "limit": 5,
+    "bet_bid": 3.0,
+    "edge_pp": null,
+    "kind": "texas_value_up"
+   },
+   "winner": null
+  },
+  "los-angeles": {
+   "bucket": "86-87°F",
+   "prob_pct": 35,
+   "last": 34.0,
+   "bid": 27.0,
+   "ask": 35.0,
+   "cut": "22:05 Минск",
+   "rationale": "лидер в споре 84-85/86-87 (правило вверх); факт 80.6 в 11:50 LA, но NBM 88.3, NWS 92, Kalshi 88+ ~60%",
+   "bet": {
+    "bucket": "88-89°F",
+    "limit": 13,
+    "bet_bid": 11.0,
+    "edge_pp": 15,
+    "kind": "value_up"
+   },
+   "winner": null
   }
  },
  "score": "пилот 1/2"
