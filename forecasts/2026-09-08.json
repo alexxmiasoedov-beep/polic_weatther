@@ -144,6 +144,18 @@
     "kind": "value_up"
    },
    "winner": null
+  },
+  "seattle": {
+   "bucket": "74-75°F",
+   "prob_pct": 65,
+   "last": 67.0,
+   "bid": 66.0,
+   "ask": 71.0,
+   "cut": "01:30 Минск",
+   "rationale": "лидер, не фейдим; факт 73/73.4 в 15:10 на границе, тренд вверх, Kalshi 74-75=73-79¢",
+   "bet": null,
+   "bet_note": "город вне торговли",
+   "winner": null
   }
  },
  "score": "пилот 1/2"
