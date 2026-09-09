@@ -45,7 +45,9 @@
    "rationale": "METAR-макс 90°F к 13:00, плато 89.6 + TCU; калибр. консенсус 91.0; Kalshi 92-93=25¢ — один сигнал, не хватает; вход пропущен (89¢>70)",
    "bet": null,
    "bet_note": "лидер без эджа (85 против mid 91); 92-93: prob ~15% vs mid 9 — эдж 6 п.п. < 10, пропуск",
-   "winner": null
+   "winner": "90-91°F",
+   "hit": true,
+   "pnl_pick": 0.124
   },
   "houston": {
    "bucket": "92-93°F",
@@ -62,7 +64,10 @@
     "edge_pp": null,
     "kind": "texas_value_up"
    },
-   "winner": null
+   "winner": "92-93°F",
+   "hit": true,
+   "pnl_pick": 0.299,
+   "pnl_bet": -1.0
   },
   "dallas": {
    "bucket": "100-101°F",
@@ -80,7 +85,10 @@
     "edge_pp": null,
     "kind": "texas_value_up"
    },
-   "winner": null
+   "winner": "100-101°F",
+   "hit": true,
+   "pnl_pick": 0.22,
+   "pnl_bet": -1.0
   },
   "los-angeles": {
    "bucket": "86-87°F",
@@ -97,7 +105,10 @@
     "edge_pp": 15,
     "kind": "value_up"
    },
-   "winner": null
+   "winner": "90-91°F",
+   "hit": false,
+   "pnl_pick": -1.0,
+   "pnl_bet": -1.0
   },
   "san-francisco": {
    "bucket": "84-85°F",
@@ -109,7 +120,9 @@
    "rationale": "лидер; факт 75 в 12:56 при консенсусе 93.1 — темп +2.5°F/ч даёт пик ~83-85; Kalshi 84+ 56%; риск вверх 86-87",
    "bet": null,
    "bet_note": "вход в лидера доступен (44¢), но эджа нет: 32 vs mid 33; 88-89 эдж 8 п.п. < 10",
-   "winner": null
+   "winner": "86-87°F",
+   "hit": false,
+   "pnl_pick": -1.0
   },
   "atlanta": {
    "bucket": "88-89°F",
@@ -126,7 +139,10 @@
     "edge_pp": 22,
     "kind": "fact_flip"
    },
-   "winner": null
+   "winner": "88-89°F",
+   "hit": true,
+   "pnl_pick": 3.167,
+   "pnl_bet": 3.0
   },
   "austin": {
    "bucket": "100-101°F",
@@ -143,7 +159,10 @@
     "edge_pp": 12,
     "kind": "value_up"
    },
-   "winner": null
+   "winner": "100-101°F",
+   "hit": true,
+   "pnl_pick": 0.136,
+   "pnl_bet": -1.0
   },
   "seattle": {
    "bucket": "74-75°F",
@@ -155,8 +174,10 @@
    "rationale": "лидер, не фейдим; факт 73/73.4 в 15:10 на границе, тренд вверх, Kalshi 74-75=73-79¢",
    "bet": null,
    "bet_note": "город вне торговли",
-   "winner": null
+   "winner": "74-75°F",
+   "hit": true,
+   "pnl_pick": 0.493
   }
  },
- "score": "пилот 1/2"
+ "score": "семёрка 5/7, пилот 2/3"
 }

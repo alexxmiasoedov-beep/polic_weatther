@@ -12,7 +12,9 @@
    "rationale": "спор 32/33 после ночного переворота; консенсус 32.6, best_match/UKMO за 33, 33 выигрывал 2 дня; вход доступен (47¢)",
    "bet": null,
    "bet_note": "эдж 5 п.п. < 10",
-   "winner": null
+   "winner": "33°C",
+   "hit": true,
+   "pnl_pick": 1.128
   },
   "tel-aviv": {
    "bucket": "33°C",
