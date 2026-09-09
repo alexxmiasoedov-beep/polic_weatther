@@ -40,6 +40,52 @@
    "bet": null,
    "bet_note": "90-91: 15% vs mid 11 — эдж 4 п.п. < 10",
    "winner": null
+  },
+  "houston": {
+   "bucket": "90-91°F",
+   "prob_pct": 72,
+   "last": 78.0,
+   "bid": 82.0,
+   "ask": 88.0,
+   "cut": "22:05 Минск",
+   "rationale": "METAR-макс 90, 5-минутки 91.4 греются; Kalshi лидером свою 92-93 (57-64) — риск вверх; вход пропущен",
+   "bet": {
+    "bucket": "92-93°F",
+    "limit": 13,
+    "bet_bid": 12.0,
+    "edge_pp": 12,
+    "kind": "value_up+texas"
+   },
+   "winner": null
+  },
+  "dallas": {
+   "bucket": "100-101°F",
+   "prob_pct": 48,
+   "last": 39.0,
+   "bid": 25.0,
+   "ask": 40.0,
+   "cut": "22:05 Минск",
+   "pilot": true,
+   "rationale": "отклонение вверх от лидера 98-99 (68¢): консенсус ~100, NWS 101, вчерашний паттерн 98@14:00→100; правило вверх",
+   "bet": {
+    "bucket": "100-101°F",
+    "limit": 27,
+    "bet_bid": 25.0,
+    "edge_pp": 15,
+    "kind": "value_up"
+   },
+   "winner": null
+  },
+  "los-angeles": {
+   "bucket": "96°F or higher",
+   "prob_pct": 97,
+   "last": 99.9,
+   "bid": 99.8,
+   "ask": 100.0,
+   "cut": "22:05 Минск",
+   "rationale": "тепловой прорыв доигран, 96+ = 99.9; вход пропущен",
+   "bet": null,
+   "winner": null
   }
  }
 }
