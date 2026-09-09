@@ -110,6 +110,23 @@
    "bet": null,
    "bet_note": "эдж 1.5 п.п. — рынок цену не отдаёт",
    "winner": null
+  },
+  "austin": {
+   "bucket": "98-99°F",
+   "prob_pct": 85,
+   "last": 99.0,
+   "bid": 99.2,
+   "ask": 99.8,
+   "cut": "00:25 Минск",
+   "rationale": "METAR-макс 99; Kalshi 98¢ на 100-101 — это CLI-максимум от гребня 100.4 в 15:55 (источники резолва разные); откат к 96.8; вход пропущен",
+   "bet": {
+    "bucket": "100-101°F",
+    "limit": 2,
+    "bet_bid": 0.2,
+    "edge_pp": 10,
+    "kind": "tail_flip"
+   },
+   "winner": null
   }
  }
 }
