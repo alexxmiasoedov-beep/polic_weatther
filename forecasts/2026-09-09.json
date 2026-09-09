@@ -1,0 +1,31 @@
+{
+ "date": "2026-09-09",
+ "picks": {
+  "singapore": {
+   "bucket": "33°C",
+   "prob_pct": 50,
+   "last": 47.0,
+   "bid": 43.0,
+   "ask": 48.0,
+   "cut": "04:05 Минск",
+   "pilot": true,
+   "rationale": "спор 32/33 после ночного переворота; консенсус 32.6, best_match/UKMO за 33, 33 выигрывал 2 дня; вход доступен (47¢)",
+   "bet": null,
+   "bet_note": "эдж 5 п.п. < 10",
+   "winner": null
+  },
+  "tel-aviv": {
+   "bucket": "33°C",
+   "prob_pct": 60,
+   "last": 70.0,
+   "bid": 68.0,
+   "ask": 70.0,
+   "cut": "04:05 Минск",
+   "pilot": true,
+   "rationale": "лидер; калибр. консенсус 33.3; вход пропущен (70¢)",
+   "bet": null,
+   "bet_note": "34: 35% vs mid 29 — эдж 6 п.п. < 10",
+   "winner": null
+  }
+ }
+}
