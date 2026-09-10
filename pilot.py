@@ -68,6 +68,36 @@ PILOT_CITIES = {
         "station": "LIMC", "tz": "Europe/Rome",
         "lat": 45.630, "lon": 8.723, "nws_grid": None,
     },
+    # --- Тихий сбор №2 (10.09): кандидаты из обзорного сбора 41 города —
+    # утренний лидер побеждал 3/3 (2/2 Денвер) при цене 39-66¢. Выборка
+    # крошечная (3 дня), станции резолва НЕ подтверждены (взяты главные
+    # аэропорты) — цель: копить bias и ленивость, решение через 2 недели.
+    "toronto": {
+        "name": "Торонто", "code": "YYZ", "unit": "C",
+        "station": "CYYZ", "tz": "America/Toronto",
+        "lat": 43.677, "lon": -79.631, "nws_grid": None,
+    },
+    "london": {
+        "name": "Лондон", "code": "LHR", "unit": "C",
+        "station": "EGLL", "tz": "Europe/London",
+        "lat": 51.477, "lon": -0.461, "nws_grid": None,
+    },
+    "amsterdam": {
+        "name": "Амстердам", "code": "AMS", "unit": "C",
+        "station": "EHAM", "tz": "Europe/Amsterdam",
+        "lat": 52.310, "lon": 4.768, "nws_grid": None,
+    },
+    "helsinki": {
+        "name": "Хельсинки", "code": "HEL", "unit": "C",
+        "station": "EFHK", "tz": "Europe/Helsinki",
+        "lat": 60.317, "lon": 24.963, "nws_grid": None,
+    },
+    "denver": {
+        "name": "Денвер", "code": "DEN", "unit": "F",
+        "station": "KDEN", "tz": "America/Denver",
+        "lat": 39.856, "lon": -104.674,
+        "nws_grid": "https://api.weather.gov/gridpoints/BOU/74,66/forecast",
+    },
 }
 
 OM_MODELS_GLOBAL = ("best_match,ecmwf_ifs025,gfs_seamless,icon_seamless,"

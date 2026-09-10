@@ -45,6 +45,39 @@ def bucket_of(buckets, t):
     return None
 
 
+def parse_range(name):
+    m = re.match(r"(\d+)-(\d+)", name)
+    if m:
+        return int(m.group(1)), int(m.group(2))
+    m = re.match(r"(\d+)°F or below", name)
+    if m:
+        return -999, int(m.group(1))
+    m = re.match(r"(\d+)°F or higher", name)
+    if m:
+        return int(m.group(1)), 999
+    return None
+
+
+def neighbor(buckets, bk, t):
+    """Соседняя корзина со стороны, куда тянет медиана (пара корзин).
+
+    Бэктест 10.09: пара при |медиана − центр корзины| ≥ 0.6 бьёт 9/10
+    вечером и 6/7 утром, но ROI +24..38% против +100% у одиночной —
+    это режим меньших просадок, не большей прибыли.
+    """
+    r = parse_range(bk)
+    if not r or r[0] < -900 or r[1] > 900:
+        return None, False
+    center = (r[0] + r[1]) / 2
+    near_edge = abs(t - center) >= 0.6
+    want = r[1] + 1 if t >= center else r[0] - 1
+    for b in buckets:
+        rr = parse_range(b["bucket"])
+        if rr and (rr[0] == want or rr[1] == want):
+            return b["bucket"], near_edge
+    return None, near_edge
+
+
 def latest_snapshot(d):
     f = ROOT / "data" / f"{d.isoformat()}.jsonl"
     if not f.exists():
@@ -107,14 +140,23 @@ def evaluate(d):
         reason = ("" if verdict == "enter" else
                   "дорого" if (last or 0) >= MAX_PRICE else "неликвид/дёшево")
         precip = wx.get("precip_prob")
+        nb, near_edge = neighbor(bs, bk, med)
+        nbp = next((x for x in bs if x["bucket"] == nb), None) or {}
+        pair = None
+        if nb and near_edge and last is not None and nbp.get("last") is not None:
+            pair_cost = round(last + nbp["last"])
+            if pair_cost < 85:
+                pair = {"buckets": [bk, nb], "cost": pair_cost, "neighbor_last": nbp["last"]}
         print(f"  {c['code']}: медиана {med:.1f} → {bk} @{last} (bid {bid}/ask {ask}); "
               f"NBM {nbm} → {nbm_bk}; лидер PM {lead['bucket']} {lead.get('last')}¢; "
-              f"осадки {precip}% → {'ВХОД лимит ' + str(limit) if verdict == 'enter' else 'ПРОПУСК ' + reason}")
+              f"осадки {precip}% → {'ВХОД лимит ' + str(limit) if verdict == 'enter' else 'ПРОПУСК ' + reason}"
+              + (f"; ПАРА {bk}+{nb} за {pair['cost']}¢ (медиана у границы)" if pair else ""))
         out[slug] = {"bucket": bk, "consensus": round(med, 1), "nbm_bucket": nbm_bk,
                      "models": cal, "last": last, "bid": bid, "ask": ask,
                      "entry_price": limit if verdict == "enter" else None,
                      "pm_leader": lead["bucket"], "pm_leader_price": lead.get("last"),
                      "precip_prob": precip, "verdict": verdict, "reason": reason,
+                     "pair": pair,
                      "cut": "19:20 Минск накануне", "ts_utc": snap["ts_utc"], "winner": None}
     return out
 
@@ -142,6 +184,10 @@ def resolve(d):
         if e.get("verdict") == "enter" and e.get("entry_price"):
             e["pnl_entry"] = round(100 / e["entry_price"] - 1, 3) if e["hit"] else -1.0
             n += 1; hits += e["hit"]; pnl += e["pnl_entry"]
+        pr = e.get("pair")
+        if pr:
+            e["pair_hit"] = w in pr["buckets"]
+            e["pnl_pair"] = round(100 / pr["cost"] - 1, 3) if e["pair_hit"] else -1.0
     f.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"{d}: вечерние входы {hits}/{n}, P&L {pnl:+.2f}; попадания медианы всего "
           f"{sum(1 for e in ev.values() if e.get('hit'))}/{sum(1 for e in ev.values() if e.get('winner'))}")
