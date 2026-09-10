@@ -1,0 +1,30 @@
+{
+ "date": "2026-09-10",
+ "picks": {
+  "singapore": {
+   "bucket": "32°C",
+   "prob_pct": 40,
+   "last": 44.0,
+   "bid": 43.0,
+   "ask": 46.0,
+   "cut": "04:05 Минск",
+   "pilot": true,
+   "rationale": "лидер на сползающем рынке; консенсус 31.65 (модели в разброде); вход доступен (44¢)",
+   "bet": null,
+   "bet_note": "эджа нет (40 vs mid 44.5)",
+   "winner": null
+  },
+  "tel-aviv": {
+   "bucket": "32°C",
+   "prob_pct": 75,
+   "last": 83.0,
+   "bid": 78.0,
+   "ask": 81.0,
+   "cut": "04:05 Минск",
+   "pilot": true,
+   "rationale": "лидер; калибр. консенсус 32.25; вход пропущен (83¢)",
+   "bet": null,
+   "winner": null
+  }
+ }
+}
