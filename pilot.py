@@ -70,17 +70,20 @@ PILOT_CITIES = {
     },
     # --- Тихий сбор №2 (10.09): кандидаты из обзорного сбора 41 города —
     # утренний лидер побеждал 3/3 (2/2 Денвер) при цене 39-66¢. Выборка
-    # крошечная (3 дня), станции резолва НЕ подтверждены (взяты главные
-    # аэропорты) — цель: копить bias и ленивость, решение через 2 недели.
+    # крошечная (3 дня) — цель: копить bias и ленивость, решение через
+    # 2 недели. Станции резолва СВЕРЕНЫ с описаниями рынков PM 10.09
+    # (weather.gov/wrh/timeseries?site=…): Лондон — London City EGLC (НЕ
+    # Хитроу), Денвер — Buckley SFB KBKF (НЕ KDEN); остальные — главные
+    # аэропорты. IEM отдаёт METAR по BKF и EGLC.
     "toronto": {
         "name": "Торонто", "code": "YYZ", "unit": "C",
         "station": "CYYZ", "tz": "America/Toronto",
         "lat": 43.677, "lon": -79.631, "nws_grid": None,
     },
     "london": {
-        "name": "Лондон", "code": "LHR", "unit": "C",
-        "station": "EGLL", "tz": "Europe/London",
-        "lat": 51.477, "lon": -0.461, "nws_grid": None,
+        "name": "Лондон", "code": "LCY", "unit": "C",
+        "station": "EGLC", "tz": "Europe/London",
+        "lat": 51.505, "lon": 0.055, "nws_grid": None,
     },
     "amsterdam": {
         "name": "Амстердам", "code": "AMS", "unit": "C",
@@ -93,10 +96,10 @@ PILOT_CITIES = {
         "lat": 60.317, "lon": 24.963, "nws_grid": None,
     },
     "denver": {
-        "name": "Денвер", "code": "DEN", "unit": "F",
-        "station": "KDEN", "tz": "America/Denver",
-        "lat": 39.856, "lon": -104.674,
-        "nws_grid": "https://api.weather.gov/gridpoints/BOU/74,66/forecast",
+        "name": "Денвер", "code": "BKF", "unit": "F",
+        "station": "KBKF", "tz": "America/Denver",
+        "lat": 39.702, "lon": -104.752,
+        "nws_grid": "https://api.weather.gov/gridpoints/BOU/71,59/forecast",
     },
 }
 
