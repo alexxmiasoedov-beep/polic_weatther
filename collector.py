@@ -103,16 +103,25 @@ def fetch_weather(city_cfg: dict, d: date):
     om = fetch_json(
         "https://api.open-meteo.com/v1/forecast"
         f"?latitude={city_cfg['lat']}&longitude={city_cfg['lon']}"
-        "&daily=temperature_2m_max&temperature_unit=fahrenheit"
+        "&daily=temperature_2m_max,precipitation_probability_max,precipitation_sum"
+        "&temperature_unit=fahrenheit"
         "&timezone=auto&cell_selection=land"
         f"&start_date={d.isoformat()}&end_date={d.isoformat()}"
         "&models=best_match,ecmwf_ifs025,gfs_seamless,icon_seamless,"
-        "ecmwf_aifs025_single,ncep_nbm_conus,ukmo_seamless")
+        "ecmwf_aifs025_single,ncep_nbm_conus,ukmo_seamless,gfs_hrrr")
     if om:
         for k, v in om.get("daily", {}).items():
-            if k.startswith("temperature_2m_max") and v:
+            if not v:
+                continue
+            if k.startswith("temperature_2m_max"):
                 model = k.replace("temperature_2m_max", "").lstrip("_") or "best_match"
-                wx["om_" + model] = v[0]
+                if v[0] is not None:  # HRRR даёт только сегодня, на завтра None
+                    wx["om_" + model] = v[0]
+            # осадки (best_match) — дождевой обвал максимума (MIA 09.09)
+            elif k == "precipitation_probability_max_best_match":
+                wx["precip_prob"] = v[0]
+            elif k == "precipitation_sum_best_match":
+                wx["precip_mm"] = v[0]
     return wx or None
 
 

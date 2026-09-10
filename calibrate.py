@@ -189,7 +189,8 @@ def main():
                 actual = actual_max_intl_c(c, d)
             wx = wx_all.get(slug) or {}
             errors = {m: round(v - actual, 1) for m, v in wx.items()
-                      if actual is not None and v is not None}
+                      if actual is not None and v is not None
+                      and (m == "nws" or m.startswith("om_"))}  # осадки — не температура
             rec["cities"][slug] = {f"actual_max_{unit.lower()}": actual,
                                    "unit": unit, "forecast": wx, "error": errors}
             print(f"{c['code']}: факт {actual}°{unit}, ошибки {errors}")
