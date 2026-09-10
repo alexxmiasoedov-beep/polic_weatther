@@ -28,6 +28,7 @@ MODELS = ["om_ncep_nbm_conus", "nws", "om_best_match", "om_gfs_seamless",
           "om_ecmwf_aifs025_single", "om_gfs_hrrr"]
 SKIP = {"seattle"}  # выведен из прогнозов 10.09
 MIN_PRICE, MAX_PRICE = 15, 60
+PROFILES = json.loads((ROOT / "city_profiles.json").read_text(encoding="utf-8"))["cities"]
 
 
 def bucket_of(buckets, t):
@@ -154,9 +155,29 @@ def evaluate(d):
         if bid is not None and mid is not None:
             limit = round(min(mid, bid + 2))
         lead = max(bs, key=lambda x: x.get("last") or 0)
-        verdict = "enter" if last is not None and MIN_PRICE <= last < MAX_PRICE else "skip"
+        prof = PROFILES.get(slug, {}); strat = prof.get("strategy", "evening")
+        max_price = prof.get("max_price", MAX_PRICE)
+        if strat == "evening_leader":
+            # рынок ленивее нашего консенсуса — берём лидера PM (KUL, SIN)
+            if bk != lead["bucket"] and abs(med - (parse_range(lead["bucket"]) or (med, med))[0]) >= 2:
+                bk, b = None, {}
+            else:
+                bk = lead["bucket"]; b = lead
+                last, bid, ask = b.get("last"), b.get("bid"), b.get("ask")
+                mid = (bid + ask) / 2 if bid is not None and ask is not None else last
+                limit = round(min(mid, bid + 2)) if bid is not None and mid is not None else None
+        verdict = "enter" if bk and last is not None and MIN_PRICE <= last < max_price else "skip"
         reason = ("" if verdict == "enter" else
-                  "дорого" if (last or 0) >= MAX_PRICE else "неликвид/дёшево")
+                  "консенсус спорит с лидером на 2+" if bk is None else
+                  "дорого" if (last or 0) >= max_price else "неликвид/дёшево")
+        if strat in ("late", "skip", "observe"):
+            verdict, reason = "skip", {"late": "профиль: поздний рынок (факт)", "skip": "профиль: вне торговли",
+                                       "observe": "профиль: наблюдение"}[strat]
+        elif strat == "deviation_only" and bk == lead["bucket"]:
+            verdict, reason = "skip", "профиль: только отклонение от лидера"
+        elif strat == "morning" and verdict == "enter":
+            reason = "профиль: лучше утром (17:05), вечером справочно"
+        size = prof.get("size", 1.0)
         precip = wx.get("precip_prob")
         nb, near_edge = neighbor(bs, bk, med)
         nbp = next((x for x in bs if x["bucket"] == nb), None) or {}
@@ -167,14 +188,14 @@ def evaluate(d):
                 pair = {"buckets": [bk, nb], "cost": pair_cost, "neighbor_last": nbp["last"]}
         print(f"  {c['code']}: медиана {med:.1f} → {bk} @{last} (bid {bid}/ask {ask}); "
               f"NBM {nbm} → {nbm_bk}; лидер PM {lead['bucket']} {lead.get('last')}¢; "
-              f"осадки {precip}% → {'ВХОД лимит ' + str(limit) if verdict == 'enter' else 'ПРОПУСК ' + reason}"
+              f"осадки {precip}% → {'ВХОД лимит ' + str(limit) + (' size ' + str(size) if size != 1.0 else '') + (' (' + reason + ')' if reason else '') if verdict == 'enter' else 'ПРОПУСК ' + reason}"
               + (f"; ПАРА {bk}+{nb} за {pair['cost']}¢ (медиана у границы)" if pair else ""))
         out[slug] = {"bucket": bk, "consensus": round(med, 1), "nbm_bucket": nbm_bk,
                      "models": cal, "last": last, "bid": bid, "ask": ask,
                      "entry_price": limit if verdict == "enter" else None,
                      "pm_leader": lead["bucket"], "pm_leader_price": lead.get("last"),
                      "precip_prob": precip, "verdict": verdict, "reason": reason,
-                     "pair": pair,
+                     "pair": pair, "strategy": strat, "size": size,
                      "cut": "19:20 Минск накануне", "ts_utc": c.get("ts"), "winner": None}
     return out
 
