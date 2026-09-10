@@ -1,0 +1,314 @@
+{
+ "amsterdam": {
+  "site": "EHAM",
+  "n": 46,
+  "sigma": 3.96,
+  "mad1": 2.62,
+  "persist": 0.2,
+  "unit": "C"
+ },
+ "ankara": {
+  "site": "LTAC",
+  "n": 46,
+  "sigma": 3.07,
+  "mad1": 1.84,
+  "persist": 0.2,
+  "unit": "C"
+ },
+ "atlanta": {
+  "site": "KATL",
+  "n": 46,
+  "sigma": 3.32,
+  "mad1": 2.36,
+  "persist": 0.27,
+  "unit": "F"
+ },
+ "austin": {
+  "site": "KAUS",
+  "n": 46,
+  "sigma": 2.38,
+  "mad1": 1.76,
+  "persist": 0.36,
+  "unit": "F"
+ },
+ "beijing": {
+  "site": "ZBAA",
+  "n": 46,
+  "sigma": 3.01,
+  "mad1": 1.82,
+  "persist": 0.24,
+  "unit": "C"
+ },
+ "buenos-aires": {
+  "site": "SAEZ",
+  "n": 46,
+  "sigma": 3.47,
+  "mad1": 2.18,
+  "persist": 0.2,
+  "unit": "C"
+ },
+ "busan": {
+  "site": "RKPK",
+  "n": 46,
+  "sigma": 3.45,
+  "mad1": 1.4,
+  "persist": 0.31,
+  "unit": "C"
+ },
+ "cape-town": {
+  "site": "FACT",
+  "n": 46,
+  "sigma": 3.91,
+  "mad1": 2.82,
+  "persist": 0.22,
+  "unit": "C"
+ },
+ "chicago": {
+  "site": "KORD",
+  "n": 46,
+  "sigma": 4.76,
+  "mad1": 3.64,
+  "persist": 0.2,
+  "unit": "F"
+ },
+ "chongqing": {
+  "site": "ZUCK",
+  "n": 46,
+  "sigma": 3.38,
+  "mad1": 1.98,
+  "persist": 0.29,
+  "unit": "C"
+ },
+ "dallas": {
+  "site": "KDAL",
+  "n": 46,
+  "sigma": 2.79,
+  "mad1": 1.78,
+  "persist": 0.58,
+  "unit": "F"
+ },
+ "denver": {
+  "site": "KBKF",
+  "n": 46,
+  "sigma": 5.74,
+  "mad1": 4.38,
+  "persist": 0.22,
+  "unit": "F"
+ },
+ "helsinki": {
+  "site": "EFHK",
+  "n": 46,
+  "sigma": 2.3,
+  "mad1": 1.58,
+  "persist": 0.13,
+  "unit": "C"
+ },
+ "houston": {
+  "site": "KHOU",
+  "n": 46,
+  "sigma": 2.88,
+  "mad1": 2.02,
+  "persist": 0.27,
+  "unit": "F"
+ },
+ "istanbul": {
+  "site": "LTFM",
+  "n": 46,
+  "sigma": 1.66,
+  "mad1": 1.22,
+  "persist": 0.36,
+  "unit": "C"
+ },
+ "kuala-lumpur": {
+  "site": "WMKK",
+  "n": 46,
+  "sigma": 0.87,
+  "mad1": 0.78,
+  "persist": 0.33,
+  "unit": "C"
+ },
+ "london": {
+  "site": "EGLC",
+  "n": 46,
+  "sigma": 3.63,
+  "mad1": 2.56,
+  "persist": 0.11,
+  "unit": "C"
+ },
+ "los-angeles": {
+  "site": "KLAX",
+  "n": 46,
+  "sigma": 4.36,
+  "mad1": 2.09,
+  "persist": 0.36,
+  "unit": "F"
+ },
+ "madrid": {
+  "site": "LEMD",
+  "n": 46,
+  "sigma": 3.95,
+  "mad1": 2.18,
+  "persist": 0.18,
+  "unit": "C"
+ },
+ "manila": {
+  "site": "RPLL",
+  "n": 46,
+  "sigma": 1.8,
+  "mad1": 1.44,
+  "persist": 0.24,
+  "unit": "C"
+ },
+ "mexico-city": {
+  "site": "MMMX",
+  "n": 46,
+  "sigma": 1.69,
+  "mad1": 1.42,
+  "persist": 0.27,
+  "unit": "C"
+ },
+ "miami": {
+  "site": "KMIA",
+  "n": 46,
+  "sigma": 2.42,
+  "mad1": 1.64,
+  "persist": 0.47,
+  "unit": "F"
+ },
+ "milan": {
+  "site": "LIMC",
+  "n": 46,
+  "sigma": 2.99,
+  "mad1": 1.31,
+  "persist": 0.33,
+  "unit": "C"
+ },
+ "moscow": {
+  "site": "UUWW",
+  "n": 46,
+  "sigma": 4.11,
+  "mad1": 3.09,
+  "persist": 0.02,
+  "unit": "C"
+ },
+ "munich": {
+  "site": "EDDM",
+  "n": 46,
+  "sigma": 4.9,
+  "mad1": 3.64,
+  "persist": 0.11,
+  "unit": "C"
+ },
+ "nyc": {
+  "site": "KLGA",
+  "n": 46,
+  "sigma": 4.43,
+  "mad1": 3.27,
+  "persist": 0.2,
+  "unit": "F"
+ },
+ "paris": {
+  "site": "LFPB",
+  "n": 46,
+  "sigma": 4.15,
+  "mad1": 2.44,
+  "persist": 0.07,
+  "unit": "C"
+ },
+ "san-francisco": {
+  "site": "KSFO",
+  "n": 46,
+  "sigma": 5.08,
+  "mad1": 3.13,
+  "persist": 0.18,
+  "unit": "F"
+ },
+ "sao-paulo": {
+  "site": "SBGR",
+  "n": 46,
+  "sigma": 4.72,
+  "mad1": 3.36,
+  "persist": 0.09,
+  "unit": "C"
+ },
+ "seattle": {
+  "site": "KSEA",
+  "n": 46,
+  "sigma": 5.15,
+  "mad1": 3.44,
+  "persist": 0.22,
+  "unit": "F"
+ },
+ "seoul": {
+  "site": "RKSI",
+  "n": 46,
+  "sigma": 2.61,
+  "mad1": 1.09,
+  "persist": 0.27,
+  "unit": "C"
+ },
+ "shanghai": {
+  "site": "ZSPD",
+  "n": 46,
+  "sigma": 2.29,
+  "mad1": 0.93,
+  "persist": 0.38,
+  "unit": "C"
+ },
+ "singapore": {
+  "site": "WSSS",
+  "n": 46,
+  "sigma": 0.84,
+  "mad1": 0.64,
+  "persist": 0.51,
+  "unit": "C"
+ },
+ "tel-aviv": {
+  "site": "LLBG",
+  "n": 46,
+  "sigma": 1.03,
+  "mad1": 0.56,
+  "persist": 0.53,
+  "unit": "C"
+ },
+ "tokyo": {
+  "site": "RJTT",
+  "n": 46,
+  "sigma": 2.95,
+  "mad1": 1.93,
+  "persist": 0.11,
+  "unit": "C"
+ },
+ "toronto": {
+  "site": "CYYZ",
+  "n": 46,
+  "sigma": 2.41,
+  "mad1": 1.98,
+  "persist": 0.18,
+  "unit": "C"
+ },
+ "warsaw": {
+  "site": "EPWA",
+  "n": 46,
+  "sigma": 4.23,
+  "mad1": 3.2,
+  "persist": 0.04,
+  "unit": "C"
+ },
+ "wellington": {
+  "site": "NZWN",
+  "n": 46,
+  "sigma": 2.37,
+  "mad1": 1.82,
+  "persist": 0.09,
+  "unit": "C"
+ },
+ "wuhan": {
+  "site": "ZHHH",
+  "n": 46,
+  "sigma": 3.52,
+  "mad1": 2.04,
+  "persist": 0.18,
+  "unit": "C"
+ }
+}

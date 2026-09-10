@@ -101,6 +101,26 @@ PILOT_CITIES = {
         "lat": 39.702, "lon": -104.752,
         "nws_grid": "https://api.weather.gov/gridpoints/BOU/71,59/forecast",
     },
+    # --- Тихий сбор №3 (10.09, пересчёт скрининга по точным станциям
+    # резолва из описаний рынков, calibration/screening_2026-09-10.json):
+    # недооценённые в первом скрининге — Стамбул σ=1.7/|Δ|1.2/перс. 36%,
+    # Мехико 1.7/1.4/27%, Шанхай 2.3/0.9/38%. У Азии «сегодняшний» рынок
+    # торгуется нашим вечером — кандидаты в вечерний портфель.
+    "istanbul": {
+        "name": "Стамбул", "code": "IST", "unit": "C",
+        "station": "LTFM", "tz": "Europe/Istanbul",
+        "lat": 41.262, "lon": 28.742, "nws_grid": None,
+    },
+    "mexico-city": {
+        "name": "Мехико", "code": "MEX", "unit": "C",
+        "station": "MMMX", "tz": "America/Mexico_City",
+        "lat": 19.436, "lon": -99.072, "nws_grid": None,
+    },
+    "shanghai": {
+        "name": "Шанхай", "code": "PVG", "unit": "C",
+        "station": "ZSPD", "tz": "Asia/Shanghai",
+        "lat": 31.143, "lon": 121.805, "nws_grid": None,
+    },
 }
 
 OM_MODELS_GLOBAL = ("best_match,ecmwf_ifs025,gfs_seamless,icon_seamless,"

@@ -1,0 +1,207 @@
+{
+ "amsterdam": {
+  "site": "EHAM",
+  "name": "Amsterdam Airport Schiphol",
+  "unit": "C"
+ },
+ "ankara": {
+  "site": "LTAC",
+  "name": "Esenboğa Intl Airport",
+  "unit": "C"
+ },
+ "atlanta": {
+  "site": "KATL",
+  "name": "Hartsfield-Jackson International Airport",
+  "unit": "C"
+ },
+ "austin": {
+  "site": "KAUS",
+  "name": "Austin-Bergstrom International Airport",
+  "unit": "C"
+ },
+ "beijing": {
+  "site": "ZBAA",
+  "name": "Beijing Capital International Airport",
+  "unit": "C"
+ },
+ "buenos-aires": {
+  "site": "SAEZ",
+  "name": "Minister Pistarini Intl Airport",
+  "unit": "C"
+ },
+ "busan": {
+  "site": "RKPK",
+  "name": "Gimhae Intl Airport",
+  "unit": "C"
+ },
+ "cape-town": {
+  "site": "FACT",
+  "name": "Cape Town International Airport",
+  "unit": "C"
+ },
+ "chicago": {
+  "site": "KORD",
+  "name": "Chicago O'Hare Intl Airport",
+  "unit": "C"
+ },
+ "chongqing": {
+  "site": "ZUCK",
+  "name": "Chongqing Jiangbei International Airport",
+  "unit": "C"
+ },
+ "dallas": {
+  "site": "KDAL",
+  "name": "Dallas Love Field",
+  "unit": "C"
+ },
+ "denver": {
+  "site": "KBKF",
+  "name": "Buckley Space Force Base",
+  "unit": "C"
+ },
+ "helsinki": {
+  "site": "EFHK",
+  "name": "Helsinki Vantaa Airport",
+  "unit": "C"
+ },
+ "hong-kong": {
+  "site": null,
+  "name": null,
+  "unit": "C"
+ },
+ "houston": {
+  "site": "KHOU",
+  "name": "William P. Hobby Airport",
+  "unit": "C"
+ },
+ "istanbul": {
+  "site": "LTFM",
+  "name": null,
+  "unit": "C"
+ },
+ "kuala-lumpur": {
+  "site": "WMKK",
+  "name": "Kuala Lumpur Intl Airport",
+  "unit": "C"
+ },
+ "london": {
+  "site": "EGLC",
+  "name": "London City Airport",
+  "unit": "C"
+ },
+ "los-angeles": {
+  "site": "KLAX",
+  "name": "Los Angeles International Airport",
+  "unit": "C"
+ },
+ "madrid": {
+  "site": "LEMD",
+  "name": "Adolfo Suárez Madrid-Barajas Airport",
+  "unit": "C"
+ },
+ "manila": {
+  "site": "RPLL",
+  "name": "Ninoy Aquino International Airport",
+  "unit": "C"
+ },
+ "mexico-city": {
+  "site": "MMMX",
+  "name": "Benito Juárez International Airport",
+  "unit": "C"
+ },
+ "miami": {
+  "site": "KMIA",
+  "name": "Miami Intl Airport",
+  "unit": "C"
+ },
+ "milan": {
+  "site": "LIMC",
+  "name": "Malpensa Intl Airport",
+  "unit": "C"
+ },
+ "moscow": {
+  "site": "UUWW",
+  "name": null,
+  "unit": "C"
+ },
+ "munich": {
+  "site": "EDDM",
+  "name": "Munich Airport",
+  "unit": "C"
+ },
+ "nyc": {
+  "site": "KLGA",
+  "name": "LaGuardia Airport",
+  "unit": "C"
+ },
+ "paris": {
+  "site": "LFPB",
+  "name": "Paris-Le Bourget Airport",
+  "unit": "C"
+ },
+ "san-francisco": {
+  "site": "KSFO",
+  "name": "San Francisco International Airport",
+  "unit": "C"
+ },
+ "sao-paulo": {
+  "site": "SBGR",
+  "name": "Sao Paulo-Guarulhos International Airport",
+  "unit": "C"
+ },
+ "seattle": {
+  "site": "KSEA",
+  "name": "Seattle-Tacoma International Airport",
+  "unit": "C"
+ },
+ "seoul": {
+  "site": "RKSI",
+  "name": "Incheon Intl Airport",
+  "unit": "C"
+ },
+ "shanghai": {
+  "site": "ZSPD",
+  "name": "Shanghai Pudong International Airport",
+  "unit": "C"
+ },
+ "singapore": {
+  "site": "WSSS",
+  "name": "Singapore Changi Airport",
+  "unit": "C"
+ },
+ "taipei": {
+  "site": null,
+  "name": null,
+  "unit": "C"
+ },
+ "tel-aviv": {
+  "site": "LLBG",
+  "name": null,
+  "unit": "C"
+ },
+ "tokyo": {
+  "site": "RJTT",
+  "name": "Tokyo Haneda Airport",
+  "unit": "C"
+ },
+ "toronto": {
+  "site": "CYYZ",
+  "name": "Toronto Pearson Intl Airport",
+  "unit": "C"
+ },
+ "warsaw": {
+  "site": "EPWA",
+  "name": "Warsaw Chopin Airport",
+  "unit": "C"
+ },
+ "wellington": {
+  "site": "NZWN",
+  "name": "Wellington Intl Airport",
+  "unit": "C"
+ },
+ "wuhan": {
+  "site": "ZHHH",
+  "name": "Wuhan Tianhe International Airport",
+  "unit": "C"
+ }
+}
