@@ -26,5 +26,46 @@
    "bet": null,
    "winner": null
   }
+ },
+ "entries": {
+  "houston": {
+   "bucket": "90-91°F",
+   "entry_price": 25,
+   "bid": 23.0,
+   "ask": 28.0,
+   "last": 27.0,
+   "prob_pct": 48,
+   "size": 1.0,
+   "verdict": "enter",
+   "reason": "консенсус 90.6, Kalshi 91-92 лидер, рынок раздроблен после прохладного утра; профиль morning",
+   "cut": "17:05 Минск",
+   "winner": null
+  },
+  "miami": {
+   "bucket": "90-91°F",
+   "entry_price": 38,
+   "bid": 36.0,
+   "ask": 40.0,
+   "last": 40.0,
+   "prob_pct": 58,
+   "size": 1.0,
+   "verdict": "enter",
+   "reason": "ничья 88-89/90-91; Kalshi 90-91 54-57, NBM 90.5, NWS 90.9, утро +2 к вчера; правило вверх",
+   "cut": "17:05 Минск",
+   "winner": null
+  },
+  "atlanta": {
+   "bucket": "90-91°F",
+   "entry_price": null,
+   "bid": 33.0,
+   "ask": 40.0,
+   "last": 41.0,
+   "prob_pct": 45,
+   "size": 0,
+   "verdict": "skip",
+   "reason": "профиль late; справочно консенсус 90.65 за 90-91 при лидере 92-93=53",
+   "cut": "17:05 Минск",
+   "winner": null
+  }
  }
 }
