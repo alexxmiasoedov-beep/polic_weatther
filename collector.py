@@ -181,6 +181,18 @@ def main():
     # каждые 10 минут. Тяжёлую погоду тянем раз в час (:05), цены — всегда.
     minute = datetime.now(timezone.utc).minute
     hourly = minute < 12
+    # Обзорный сбор всех температурных городов PM (только цены) — в фоне
+    # на КАЖДОМ запуске (10.09: планировщик GitHub даёт лишь 6-8 запусков
+    # в сутки, а ленивость рынков — главная метрика денег, ей нужна
+    # плотность; сбор ~15-20 с параллельно, основной сбор не тормозит).
+    import threading
+    obs_thread = None
+    try:
+        import observe
+        obs_thread = threading.Thread(target=observe.collect, daemon=True)
+        obs_thread.start()
+    except Exception as e:  # noqa: BLE001
+        print(f"WARN: observe start failed: {e}", file=sys.stderr)
     take_snapshot(d, with_wx=hourly)
     # Вечерняя развязка вчерашнего рынка: максимум дня в США случается
     # после 19:05 Минска, поэтому с 17:00 UTC до 04:00 UTC следим и за
@@ -190,21 +202,15 @@ def main():
     prev = d - timedelta(days=1)
     if (hour >= 17 or hour < 4) and not prev_market_resolved(prev):
         take_snapshot(prev, with_wx=False)
-    # Пилотные города (Сингапур, КЛ, Тель-Авив, Даллас) — отдельный
-    # сбор; его сбой не должен ломать основной.
+    # Пилотные и наблюдаемые города — отдельный сбор; его сбой не должен
+    # ломать основной.
     try:
         import pilot
         pilot.collect(with_wx=hourly)
     except Exception as e:  # noqa: BLE001
         print(f"WARN: pilot collect failed: {e}", file=sys.stderr)
-    # Обзорный сбор всех температурных городов PM (только цены,
-    # параллельно): каждые полчаса (:05 и :35).
-    if minute % 30 < 12:
-        try:
-            import observe
-            observe.collect()
-        except Exception as e:  # noqa: BLE001
-            print(f"WARN: observe collect failed: {e}", file=sys.stderr)
+    if obs_thread:
+        obs_thread.join(timeout=120)
 
 
 if __name__ == "__main__":

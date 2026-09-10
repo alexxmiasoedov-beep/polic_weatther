@@ -1,0 +1,1185 @@
+{
+ "updated": "2026-09-10",
+ "horizons_h": [
+  30,
+  18,
+  12,
+  8,
+  4
+ ],
+ "note": "wprice_med — медианная цена победителя за h часов до конца локальных суток; lead_win — доля побед лидера; lead_ev — EV слепой покупки лидера <70¢ (ед.)",
+ "cities": [
+  {
+   "city": "paris",
+   "days": 3,
+   "18": {
+    "n": 1,
+    "wprice_med": 3.6,
+    "lead_win": 0.0,
+    "lead_ev": -1
+   },
+   "12": {
+    "n": 3,
+    "wprice_med": 28.0,
+    "lead_win": 0.0,
+    "lead_ev": -2
+   },
+   "8": {
+    "n": 3,
+    "wprice_med": 28.0,
+    "lead_win": 0.0,
+    "lead_ev": -2
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.9,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "cape-town",
+   "days": 3,
+   "18": {
+    "n": 1,
+    "wprice_med": 20.0,
+    "lead_win": 0.0,
+    "lead_ev": -1
+   },
+   "12": {
+    "n": 3,
+    "wprice_med": 34.0,
+    "lead_win": 0.3333333333333333,
+    "lead_ev": -0.06
+   },
+   "8": {
+    "n": 3,
+    "wprice_med": 34.0,
+    "lead_win": 0.3333333333333333,
+    "lead_ev": -0.06
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.9,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": -1
+   }
+  },
+  {
+   "city": "sao-paulo",
+   "days": 3,
+   "18": {
+    "n": 2,
+    "wprice_med": 20.5,
+    "lead_win": 0.0,
+    "lead_ev": -2
+   },
+   "12": {
+    "n": 3,
+    "wprice_med": 26.0,
+    "lead_win": 0.3333333333333333,
+    "lead_ev": -0.78
+   },
+   "8": {
+    "n": 3,
+    "wprice_med": 67.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": -0.51
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.9,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "ankara",
+   "days": 3,
+   "18": {
+    "n": 1,
+    "wprice_med": 31.0,
+    "lead_win": 0.0,
+    "lead_ev": -1
+   },
+   "12": {
+    "n": 2,
+    "wprice_med": 52.5,
+    "lead_win": 0.5,
+    "lead_ev": -1
+   },
+   "8": {
+    "n": 3,
+    "wprice_med": 23.0,
+    "lead_win": 0.3333333333333333,
+    "lead_ev": 0
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 23.0,
+    "lead_win": 0.3333333333333333,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "san-francisco",
+   "days": 14,
+   "30": {
+    "n": 13,
+    "wprice_med": 27.0,
+    "lead_win": 0.46153846153846156,
+    "lead_ev": 0.97
+   },
+   "18": {
+    "n": 13,
+    "wprice_med": 32.0,
+    "lead_win": 0.46153846153846156,
+    "lead_ev": -0.27
+   },
+   "12": {
+    "n": 14,
+    "wprice_med": 38.5,
+    "lead_win": 0.42857142857142855,
+    "lead_ev": -0.25
+   },
+   "8": {
+    "n": 14,
+    "wprice_med": 88.5,
+    "lead_win": 0.7142857142857143,
+    "lead_ev": -1.97
+   },
+   "4": {
+    "n": 14,
+    "wprice_med": 99.44999999999999,
+    "lead_win": 0.7142857142857143,
+    "lead_ev": -1.97
+   }
+  },
+  {
+   "city": "mexico-city",
+   "days": 2,
+   "18": {
+    "n": 2,
+    "wprice_med": 37.0,
+    "lead_win": 0.5,
+    "lead_ev": 1.12
+   },
+   "12": {
+    "n": 2,
+    "wprice_med": 27.0,
+    "lead_win": 0.5,
+    "lead_ev": 1.03
+   },
+   "8": {
+    "n": 2,
+    "wprice_med": 24.5,
+    "lead_win": 0.0,
+    "lead_ev": -2
+   },
+   "4": {
+    "n": 2,
+    "wprice_med": 99.2,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "seattle",
+   "days": 14,
+   "30": {
+    "n": 13,
+    "wprice_med": 36.0,
+    "lead_win": 0.5384615384615384,
+    "lead_ev": 1.91
+   },
+   "18": {
+    "n": 13,
+    "wprice_med": 38.0,
+    "lead_win": 0.15384615384615385,
+    "lead_ev": -9.64
+   },
+   "12": {
+    "n": 14,
+    "wprice_med": 42.5,
+    "lead_win": 0.5,
+    "lead_ev": -1.99
+   },
+   "8": {
+    "n": 14,
+    "wprice_med": 57.0,
+    "lead_win": 0.7142857142857143,
+    "lead_ev": 2.45
+   },
+   "4": {
+    "n": 14,
+    "wprice_med": 98.5,
+    "lead_win": 0.8571428571428571,
+    "lead_ev": 0.45
+   }
+  },
+  {
+   "city": "denver",
+   "days": 2,
+   "18": {
+    "n": 2,
+    "wprice_med": 39.0,
+    "lead_win": 0.5,
+    "lead_ev": 0.5
+   },
+   "12": {
+    "n": 2,
+    "wprice_med": 37.5,
+    "lead_win": 0.5,
+    "lead_ev": 0.04
+   },
+   "8": {
+    "n": 2,
+    "wprice_med": 31.0,
+    "lead_win": 0.5,
+    "lead_ev": 0.78
+   },
+   "4": {
+    "n": 2,
+    "wprice_med": 99.05,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "nyc",
+   "days": 3,
+   "18": {
+    "n": 3,
+    "wprice_med": 40.0,
+    "lead_win": 0.3333333333333333,
+    "lead_ev": -1.18
+   },
+   "12": {
+    "n": 3,
+    "wprice_med": 40.0,
+    "lead_win": 0.3333333333333333,
+    "lead_ev": -1.18
+   },
+   "8": {
+    "n": 3,
+    "wprice_med": 48.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": 0.08
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.3,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "atlanta",
+   "days": 14,
+   "30": {
+    "n": 13,
+    "wprice_med": 36.0,
+    "lead_win": 0.38461538461538464,
+    "lead_ev": -3.42
+   },
+   "18": {
+    "n": 13,
+    "wprice_med": 42.0,
+    "lead_win": 0.46153846153846156,
+    "lead_ev": -1.8
+   },
+   "12": {
+    "n": 14,
+    "wprice_med": 49.0,
+    "lead_win": 0.5714285714285714,
+    "lead_ev": 1.19
+   },
+   "8": {
+    "n": 14,
+    "wprice_med": 50.5,
+    "lead_win": 0.5714285714285714,
+    "lead_ev": -1.18
+   },
+   "4": {
+    "n": 14,
+    "wprice_med": 99.2,
+    "lead_win": 0.9285714285714286,
+    "lead_ev": 2.2
+   }
+  },
+  {
+   "city": "houston",
+   "days": 14,
+   "30": {
+    "n": 12,
+    "wprice_med": 37.0,
+    "lead_win": 0.5,
+    "lead_ev": 1.81
+   },
+   "18": {
+    "n": 12,
+    "wprice_med": 42.5,
+    "lead_win": 0.5,
+    "lead_ev": 0.48
+   },
+   "12": {
+    "n": 14,
+    "wprice_med": 44.5,
+    "lead_win": 0.6428571428571429,
+    "lead_ev": 6.24
+   },
+   "8": {
+    "n": 14,
+    "wprice_med": 75.0,
+    "lead_win": 0.7857142857142857,
+    "lead_ev": 1.96
+   },
+   "4": {
+    "n": 14,
+    "wprice_med": 99.9,
+    "lead_win": 0.8571428571428571,
+    "lead_ev": 1.96
+   }
+  },
+  {
+   "city": "dallas",
+   "days": 8,
+   "30": {
+    "n": 7,
+    "wprice_med": 39.0,
+    "lead_win": 0.42857142857142855,
+    "lead_ev": -1.63
+   },
+   "18": {
+    "n": 7,
+    "wprice_med": 43.0,
+    "lead_win": 0.5714285714285714,
+    "lead_ev": 1.19
+   },
+   "12": {
+    "n": 8,
+    "wprice_med": 50.5,
+    "lead_win": 0.625,
+    "lead_ev": 0.83
+   },
+   "8": {
+    "n": 8,
+    "wprice_med": 74.5,
+    "lead_win": 0.625,
+    "lead_ev": -2
+   },
+   "4": {
+    "n": 8,
+    "wprice_med": 98.5,
+    "lead_win": 0.875,
+    "lead_ev": -1
+   }
+  },
+  {
+   "city": "milan",
+   "days": 3,
+   "30": {
+    "n": 2,
+    "wprice_med": 46.5,
+    "lead_win": 1.0,
+    "lead_ev": 2.84
+   },
+   "18": {
+    "n": 2,
+    "wprice_med": 43.5,
+    "lead_win": 0.5,
+    "lead_ev": -0.44
+   },
+   "12": {
+    "n": 3,
+    "wprice_med": 47.0,
+    "lead_win": 0.3333333333333333,
+    "lead_ev": -2
+   },
+   "8": {
+    "n": 3,
+    "wprice_med": 56.0,
+    "lead_win": 0.3333333333333333,
+    "lead_ev": -2
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.8,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "buenos-aires",
+   "days": 3,
+   "18": {
+    "n": 2,
+    "wprice_med": 44.0,
+    "lead_win": 0.5,
+    "lead_ev": -0.33
+   },
+   "12": {
+    "n": 3,
+    "wprice_med": 62.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": 0.2
+   },
+   "8": {
+    "n": 3,
+    "wprice_med": 62.0,
+    "lead_win": 1.0,
+    "lead_ev": 1.61
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.9,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "chicago",
+   "days": 3,
+   "18": {
+    "n": 3,
+    "wprice_med": 46.0,
+    "lead_win": 0.3333333333333333,
+    "lead_ev": -1.18
+   },
+   "12": {
+    "n": 3,
+    "wprice_med": 46.0,
+    "lead_win": 0.3333333333333333,
+    "lead_ev": -1.18
+   },
+   "8": {
+    "n": 3,
+    "wprice_med": 62.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": -0.39
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.0,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "miami",
+   "days": 14,
+   "30": {
+    "n": 13,
+    "wprice_med": 51.0,
+    "lead_win": 0.7692307692307693,
+    "lead_ev": 5.55
+   },
+   "18": {
+    "n": 13,
+    "wprice_med": 48.0,
+    "lead_win": 0.7692307692307693,
+    "lead_ev": 5.94
+   },
+   "12": {
+    "n": 14,
+    "wprice_med": 50.5,
+    "lead_win": 0.7142857142857143,
+    "lead_ev": 4.48
+   },
+   "8": {
+    "n": 14,
+    "wprice_med": 78.0,
+    "lead_win": 0.9285714285714286,
+    "lead_ev": 2.73
+   },
+   "4": {
+    "n": 14,
+    "wprice_med": 99.75,
+    "lead_win": 1.0,
+    "lead_ev": 2.88
+   }
+  },
+  {
+   "city": "los-angeles",
+   "days": 14,
+   "30": {
+    "n": 13,
+    "wprice_med": 42.0,
+    "lead_win": 0.6923076923076923,
+    "lead_ev": 4.84
+   },
+   "18": {
+    "n": 13,
+    "wprice_med": 49.0,
+    "lead_win": 0.6153846153846154,
+    "lead_ev": 0.52
+   },
+   "12": {
+    "n": 14,
+    "wprice_med": 54.5,
+    "lead_win": 0.7142857142857143,
+    "lead_ev": 2.46
+   },
+   "8": {
+    "n": 14,
+    "wprice_med": 72.5,
+    "lead_win": 0.7857142857142857,
+    "lead_ev": 2.0
+   },
+   "4": {
+    "n": 14,
+    "wprice_med": 99.19999999999999,
+    "lead_win": 0.8571428571428571,
+    "lead_ev": 0.92
+   }
+  },
+  {
+   "city": "warsaw",
+   "days": 3,
+   "18": {
+    "n": 1,
+    "wprice_med": 51.0,
+    "lead_win": 1.0,
+    "lead_ev": 0.96
+   },
+   "12": {
+    "n": 3,
+    "wprice_med": 45.0,
+    "lead_win": 0.3333333333333333,
+    "lead_ev": -1.44
+   },
+   "8": {
+    "n": 3,
+    "wprice_med": 45.0,
+    "lead_win": 0.3333333333333333,
+    "lead_ev": -1.44
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.9,
+    "lead_win": 1.0,
+    "lead_ev": 0.56
+   }
+  },
+  {
+   "city": "austin",
+   "days": 14,
+   "30": {
+    "n": 13,
+    "wprice_med": 46.0,
+    "lead_win": 0.6923076923076923,
+    "lead_ev": 4.88
+   },
+   "18": {
+    "n": 13,
+    "wprice_med": 51.0,
+    "lead_win": 0.6153846153846154,
+    "lead_ev": 0.43
+   },
+   "12": {
+    "n": 14,
+    "wprice_med": 51.5,
+    "lead_win": 0.6428571428571429,
+    "lead_ev": 3.58
+   },
+   "8": {
+    "n": 14,
+    "wprice_med": 51.5,
+    "lead_win": 0.6428571428571429,
+    "lead_ev": 3.22
+   },
+   "4": {
+    "n": 14,
+    "wprice_med": 99.9,
+    "lead_win": 0.9285714285714286,
+    "lead_ev": 2.02
+   }
+  },
+  {
+   "city": "kuala-lumpur",
+   "days": 9,
+   "30": {
+    "n": 6,
+    "wprice_med": 47.0,
+    "lead_win": 0.8333333333333334,
+    "lead_ev": 4.55
+   },
+   "18": {
+    "n": 8,
+    "wprice_med": 53.0,
+    "lead_win": 0.75,
+    "lead_ev": 3.13
+   },
+   "12": {
+    "n": 8,
+    "wprice_med": 49.5,
+    "lead_win": 0.625,
+    "lead_ev": 1.19
+   },
+   "8": {
+    "n": 8,
+    "wprice_med": 89.0,
+    "lead_win": 0.75,
+    "lead_ev": -0.31
+   },
+   "4": {
+    "n": 8,
+    "wprice_med": 97.5,
+    "lead_win": 0.875,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "toronto",
+   "days": 3,
+   "18": {
+    "n": 3,
+    "wprice_med": 56.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": 0.28
+   },
+   "12": {
+    "n": 3,
+    "wprice_med": 56.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": 0.28
+   },
+   "8": {
+    "n": 3,
+    "wprice_med": 63.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": 0.08
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.9,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "madrid",
+   "days": 3,
+   "18": {
+    "n": 1,
+    "wprice_med": 57.0,
+    "lead_win": 1.0,
+    "lead_ev": 0.75
+   },
+   "12": {
+    "n": 3,
+    "wprice_med": 64.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": 0.03
+   },
+   "8": {
+    "n": 3,
+    "wprice_med": 64.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": 0.03
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.7,
+    "lead_win": 1.0,
+    "lead_ev": 0.47
+   }
+  },
+  {
+   "city": "munich",
+   "days": 3,
+   "18": {
+    "n": 1,
+    "wprice_med": 65.0,
+    "lead_win": 1.0,
+    "lead_ev": 0.54
+   },
+   "12": {
+    "n": 3,
+    "wprice_med": 70.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": -1
+   },
+   "8": {
+    "n": 3,
+    "wprice_med": 70.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": -1
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.9,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "wellington",
+   "days": 4,
+   "30": {
+    "n": 2,
+    "wprice_med": 51.0,
+    "lead_win": 0.5,
+    "lead_ev": -0.39
+   },
+   "18": {
+    "n": 3,
+    "wprice_med": 66.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": -0.48
+   },
+   "12": {
+    "n": 3,
+    "wprice_med": 74.0,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   },
+   "8": {
+    "n": 3,
+    "wprice_med": 96.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": -1
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.1,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "helsinki",
+   "days": 3,
+   "18": {
+    "n": 1,
+    "wprice_med": 67.0,
+    "lead_win": 1.0,
+    "lead_ev": 0.49
+   },
+   "12": {
+    "n": 2,
+    "wprice_med": 67.0,
+    "lead_win": 1.0,
+    "lead_ev": 0.56
+   },
+   "8": {
+    "n": 3,
+    "wprice_med": 66.0,
+    "lead_win": 1.0,
+    "lead_ev": 1.37
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 66.0,
+    "lead_win": 1.0,
+    "lead_ev": 1.37
+   }
+  },
+  {
+   "city": "amsterdam",
+   "days": 3,
+   "18": {
+    "n": 1,
+    "wprice_med": 71.0,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   },
+   "12": {
+    "n": 3,
+    "wprice_med": 50.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": 0.0
+   },
+   "8": {
+    "n": 3,
+    "wprice_med": 50.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": 0.0
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.9,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": -1
+   }
+  },
+  {
+   "city": "istanbul",
+   "days": 3,
+   "18": {
+    "n": 1,
+    "wprice_med": 73.0,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   },
+   "12": {
+    "n": 2,
+    "wprice_med": 80.0,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   },
+   "8": {
+    "n": 3,
+    "wprice_med": 60.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": 0.67
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 60.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": 0.67
+   }
+  },
+  {
+   "city": "tel-aviv",
+   "days": 9,
+   "30": {
+    "n": 8,
+    "wprice_med": 60.0,
+    "lead_win": 0.625,
+    "lead_ev": 0.34
+   },
+   "18": {
+    "n": 8,
+    "wprice_med": 73.5,
+    "lead_win": 0.75,
+    "lead_ev": 0.59
+   },
+   "12": {
+    "n": 8,
+    "wprice_med": 74.0,
+    "lead_win": 0.75,
+    "lead_ev": 0.59
+   },
+   "8": {
+    "n": 9,
+    "wprice_med": 74.0,
+    "lead_win": 0.7777777777777778,
+    "lead_ev": -1.41
+   },
+   "4": {
+    "n": 9,
+    "wprice_med": 99.9,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "moscow",
+   "days": 3,
+   "30": {
+    "n": 2,
+    "wprice_med": 44.5,
+    "lead_win": 1.0,
+    "lead_ev": 2.49
+   },
+   "18": {
+    "n": 2,
+    "wprice_med": 73.5,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   },
+   "12": {
+    "n": 3,
+    "wprice_med": 56.0,
+    "lead_win": 1.0,
+    "lead_ev": 2.35
+   },
+   "8": {
+    "n": 3,
+    "wprice_med": 57.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": -0.25
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 98.0,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "singapore",
+   "days": 9,
+   "30": {
+    "n": 7,
+    "wprice_med": 65.0,
+    "lead_win": 1.0,
+    "lead_ev": 3.3
+   },
+   "18": {
+    "n": 8,
+    "wprice_med": 77.5,
+    "lead_win": 1.0,
+    "lead_ev": 0.96
+   },
+   "12": {
+    "n": 8,
+    "wprice_med": 80.0,
+    "lead_win": 0.875,
+    "lead_ev": -1
+   },
+   "8": {
+    "n": 8,
+    "wprice_med": 98.5,
+    "lead_win": 0.875,
+    "lead_ev": -1
+   },
+   "4": {
+    "n": 8,
+    "wprice_med": 99.0,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "london",
+   "days": 3,
+   "18": {
+    "n": 1,
+    "wprice_med": 90.0,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   },
+   "12": {
+    "n": 3,
+    "wprice_med": 52.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": -0.08
+   },
+   "8": {
+    "n": 3,
+    "wprice_med": 52.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": -0.08
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.7,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": -1
+   }
+  },
+  {
+   "city": "beijing",
+   "days": 3,
+   "12": {
+    "n": 1,
+    "wprice_med": 8.0,
+    "lead_win": 0.0,
+    "lead_ev": -1
+   },
+   "8": {
+    "n": 2,
+    "wprice_med": 29.5,
+    "lead_win": 0.0,
+    "lead_ev": -2
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.8,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "busan",
+   "days": 3,
+   "12": {
+    "n": 1,
+    "wprice_med": 46.0,
+    "lead_win": 1.0,
+    "lead_ev": 1.17
+   },
+   "8": {
+    "n": 2,
+    "wprice_med": 59.0,
+    "lead_win": 0.5,
+    "lead_ev": 0
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.9,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "chongqing",
+   "days": 4,
+   "12": {
+    "n": 1,
+    "wprice_med": 36.0,
+    "lead_win": 0.0,
+    "lead_ev": -1
+   },
+   "8": {
+    "n": 3,
+    "wprice_med": 50.0,
+    "lead_win": 1.0,
+    "lead_ev": 2.04
+   },
+   "4": {
+    "n": 4,
+    "wprice_med": 99.0,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "hong-kong",
+   "days": 3,
+   "12": {
+    "n": 1,
+    "wprice_med": 35.0,
+    "lead_win": 0.0,
+    "lead_ev": -1
+   },
+   "8": {
+    "n": 2,
+    "wprice_med": 31.5,
+    "lead_win": 0.5,
+    "lead_ev": -0.15
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.8,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "manila",
+   "days": 3,
+   "12": {
+    "n": 1,
+    "wprice_med": 31.0,
+    "lead_win": 0.0,
+    "lead_ev": -1
+   },
+   "8": {
+    "n": 2,
+    "wprice_med": 71.0,
+    "lead_win": 1.0,
+    "lead_ev": 0.85
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 98.9,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "seoul",
+   "days": 3,
+   "12": {
+    "n": 1,
+    "wprice_med": 21.0,
+    "lead_win": 0.0,
+    "lead_ev": -1
+   },
+   "8": {
+    "n": 2,
+    "wprice_med": 44.0,
+    "lead_win": 0.5,
+    "lead_ev": 0.47
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.8,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "shanghai",
+   "days": 3,
+   "12": {
+    "n": 1,
+    "wprice_med": 47.0,
+    "lead_win": 1.0,
+    "lead_ev": 1.13
+   },
+   "8": {
+    "n": 2,
+    "wprice_med": 52.5,
+    "lead_win": 0.5,
+    "lead_ev": 0
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.7,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "taipei",
+   "days": 4,
+   "12": {
+    "n": 1,
+    "wprice_med": 38.0,
+    "lead_win": 1.0,
+    "lead_ev": 1.63
+   },
+   "8": {
+    "n": 3,
+    "wprice_med": 97.0,
+    "lead_win": 0.6666666666666666,
+    "lead_ev": 0
+   },
+   "4": {
+    "n": 4,
+    "wprice_med": 99.80000000000001,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "tokyo",
+   "days": 3,
+   "12": {
+    "n": 1,
+    "wprice_med": 33.0,
+    "lead_win": 1.0,
+    "lead_ev": 2.03
+   },
+   "8": {
+    "n": 2,
+    "wprice_med": 50.0,
+    "lead_win": 0.5,
+    "lead_ev": -1
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.9,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  },
+  {
+   "city": "wuhan",
+   "days": 3,
+   "12": {
+    "n": 1,
+    "wprice_med": 31.0,
+    "lead_win": 0.0,
+    "lead_ev": -1
+   },
+   "8": {
+    "n": 2,
+    "wprice_med": 66.0,
+    "lead_win": 0.5,
+    "lead_ev": -1
+   },
+   "4": {
+    "n": 3,
+    "wprice_med": 99.0,
+    "lead_win": 1.0,
+    "lead_ev": 0
+   }
+  }
+ ]
+}

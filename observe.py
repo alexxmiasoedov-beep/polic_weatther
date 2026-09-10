@@ -4,9 +4,10 @@
 «ленивость» рынка (как часто утренний лидер побеждает, когда цена
 пересекает 70¢) — и найти новые города для торговли.
 
-Экономия минут Actions: только цены (без погоды), только сегодняшний
-локальный рынок, параллельные запросы (8 потоков ~15-20 сек на всё),
-запуск раз в 2 часа (чётный час UTC, вызов из collector.py). Список
+Только цены (без погоды), рынки UTC-сегодня и UTC-завтра, параллельные
+запросы (8 потоков ~15-20 сек на дату); с 10.09 запускается в фоне на
+КАЖДОМ запуске collector.py — ленивость рынка (почём отдают победителя
+за сутки/12/6 часов) — главная метрика денег, см. lazy.py. Список
 городов автообновляется раз в сутки через Gamma API (discover) и
 кэшируется в observe_cities.json. Данные — observe_data/<дата UTC>.jsonl,
 одна строка на снапшот со всеми городами.
@@ -18,7 +19,7 @@ import json
 import sys
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import config
@@ -109,23 +110,24 @@ def fetch_city(args):
 
 def collect():
     now = datetime.now(timezone.utc)
-    # Дата рынка: для обзора берём дату UTC — почти у всех городов их
-    # «сегодня» в чётные часы UTC совпадает или отстаёт на сутки; для
-    # скрининга ленивости этого достаточно, резолв виден по 99¢.
-    d = now.date()
     cities = [c for c in load_cities() if c not in SKIP]
     if not cities:
         print("WARN observe: список городов пуст", file=sys.stderr)
         return
-    snap = {"ts_utc": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "cities": {}}
-    with ThreadPoolExecutor(max_workers=8) as ex:
-        for slug, pm in ex.map(fetch_city, [(c, d) for c in cities]):
-            if pm:
-                snap["cities"][slug] = pm
-    OUT_DIR.mkdir(exist_ok=True)
-    with (OUT_DIR / f"{d.isoformat()}.jsonl").open("a", encoding="utf-8") as f:
-        f.write(json.dumps(snap, ensure_ascii=False) + "\n")
-    print(f"observe: {len(snap['cities'])} городов -> observe_data/{d.isoformat()}.jsonl")
+    # Дата рынка — UTC-сегодня и UTC-завтра: вечерние цены завтрашнего
+    # рынка нужны для метрики ленивости (почём отдают победителя за сутки).
+    for d in (now.date(), now.date() + timedelta(days=1)):
+        snap = {"ts_utc": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "cities": {}}
+        with ThreadPoolExecutor(max_workers=8) as ex:
+            for slug, pm in ex.map(fetch_city, [(c, d) for c in cities]):
+                if pm:
+                    snap["cities"][slug] = pm
+        if not snap["cities"]:
+            continue
+        OUT_DIR.mkdir(exist_ok=True)
+        with (OUT_DIR / f"{d.isoformat()}.jsonl").open("a", encoding="utf-8") as f:
+            f.write(json.dumps(snap, ensure_ascii=False) + "\n")
+        print(f"observe: {len(snap['cities'])} городов -> observe_data/{d.isoformat()}.jsonl")
 
 
 if __name__ == "__main__":

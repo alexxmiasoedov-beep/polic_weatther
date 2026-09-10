@@ -32,29 +32,26 @@ MIN_PRICE, MAX_PRICE = 15, 60
 
 def bucket_of(buckets, t):
     for b in buckets:
-        name = b["bucket"]
-        m = re.match(r"(\d+)-(\d+)", name)
-        if m and int(m.group(1)) <= round(t) <= int(m.group(2)):
-            return name
-        m = re.match(r"(\d+)°F or below", name)
-        if m and round(t) <= int(m.group(1)):
-            return name
-        m = re.match(r"(\d+)°F or higher", name)
-        if m and round(t) >= int(m.group(1)):
-            return name
+        r = parse_range(b["bucket"])
+        if r and r[0] <= round(t) <= r[1]:
+            return b["bucket"]
     return None
 
 
 def parse_range(name):
+    """Корзина → (lo, hi): «88-89°F», «33°C», «79°F or below», «94°F or higher»."""
     m = re.match(r"(\d+)-(\d+)", name)
     if m:
         return int(m.group(1)), int(m.group(2))
-    m = re.match(r"(\d+)°F or below", name)
+    m = re.match(r"(\d+)°[FC] or below", name)
     if m:
         return -999, int(m.group(1))
-    m = re.match(r"(\d+)°F or higher", name)
+    m = re.match(r"(\d+)°[FC] or higher", name)
     if m:
         return int(m.group(1)), 999
+    m = re.match(r"(\d+)°C$", name)
+    if m:
+        return int(m.group(1)), int(m.group(1))
     return None
 
 
@@ -100,18 +97,39 @@ def wx_for(d, slug, snap):
     return None
 
 
+def pilot_cities(d):
+    """{slug: {code, polymarket{buckets}, wx}} из pilot_data — последняя запись на дату."""
+    import pilot as _p
+    f = ROOT / "pilot_data" / f"{d.isoformat()}.jsonl"
+    if not f.exists():
+        return {}
+    out, last_wx = {}, {}
+    for line in f.read_text(encoding="utf-8").splitlines():
+        r = json.loads(line)
+        slug = r["city"]
+        if r.get("wx"):
+            last_wx[slug] = r["wx"]
+        out[slug] = {"code": _p.PILOT_CITIES.get(slug, {}).get("code", slug), "polymarket": r["pm"],
+                     "wx": last_wx.get(slug), "ts": r["ts_utc"]}
+    return out
+
+
 def evaluate(d):
     snap = latest_snapshot(d)
-    if not snap:
+    cities = {}
+    if snap:
+        cities.update({k: dict(v, ts=snap["ts_utc"]) for k, v in snap["cities"].items()})
+    cities.update(pilot_cities(d))
+    if not cities:
         print(f"нет снапшота рынка {d}")
         return {}
     bias = json.loads((ROOT / "calibration" / "bias.json").read_text(encoding="utf-8"))["cities"]
     out = {}
-    print(f"Рынок {d}, снапшот {snap['ts_utc']}")
-    for slug, c in snap["cities"].items():
+    print(f"Рынок {d}")
+    for slug, c in cities.items():
         if slug in SKIP:
             continue
-        wx = wx_for(d, slug, snap)
+        wx = c.get("wx") if slug not in (snap or {}).get("cities", {}) else wx_for(d, slug, snap)
         if not wx:
             print(f"  {c['code']}: нет wx"); continue
         cal = {}
@@ -157,7 +175,7 @@ def evaluate(d):
                      "pm_leader": lead["bucket"], "pm_leader_price": lead.get("last"),
                      "precip_prob": precip, "verdict": verdict, "reason": reason,
                      "pair": pair,
-                     "cut": "19:20 Минск накануне", "ts_utc": snap["ts_utc"], "winner": None}
+                     "cut": "19:20 Минск накануне", "ts_utc": c.get("ts"), "winner": None}
     return out
 
 
