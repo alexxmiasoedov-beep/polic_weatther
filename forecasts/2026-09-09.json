@@ -27,7 +27,9 @@
    "rationale": "лидер; калибр. консенсус 33.3; вход пропущен (70¢)",
    "bet": null,
    "bet_note": "34: 35% vs mid 29 — эдж 6 п.п. < 10",
-   "winner": null
+   "winner": "34°C",
+   "hit": false,
+   "pnl_pick": -1.0
   },
   "miami": {
    "bucket": "88-89°F",
@@ -39,7 +41,9 @@
    "rationale": "дождь: макс 88 в 10:53, ливень сбил до 83; Kalshi 89-90 допускает 89; риск отскока к 90 ~15%; вход пропущен (95¢)",
    "bet": null,
    "bet_note": "90-91: 15% vs mid 11 — эдж 4 п.п. < 10",
-   "winner": null
+   "winner": "90-91°F",
+   "hit": false,
+   "pnl_pick": -1.0
   },
   "houston": {
    "bucket": "90-91°F",
@@ -56,7 +60,10 @@
     "edge_pp": 12,
     "kind": "value_up+texas"
    },
-   "winner": null
+   "winner": "90-91°F",
+   "hit": true,
+   "pnl_pick": 0.282,
+   "pnl_bet": -1.0
   },
   "dallas": {
    "bucket": "100-101°F",
@@ -74,7 +81,10 @@
     "edge_pp": 15,
     "kind": "value_up"
    },
-   "winner": null
+   "winner": "100-101°F",
+   "hit": true,
+   "pnl_pick": 1.564,
+   "pnl_bet": 2.704
   },
   "los-angeles": {
    "bucket": "96°F or higher",
@@ -85,7 +95,9 @@
    "cut": "22:05 Минск",
    "rationale": "тепловой прорыв доигран, 96+ = 99.9; вход пропущен",
    "bet": null,
-   "winner": null
+   "winner": "96°F or higher",
+   "hit": true,
+   "pnl_pick": 0.001
   },
   "san-francisco": {
    "bucket": "92-93°F",
@@ -97,7 +109,9 @@
    "rationale": "день-2 жары: полдень 78.8 (+3.8 к вчера, вчера финиш 86); Kalshi 90+ 78%; консенсус 93.1; вход доступен (30¢)",
    "bet": null,
    "bet_note": "эджа нет: рынок оценил прорыв честно",
-   "winner": null
+   "winner": "92-93°F",
+   "hit": true,
+   "pnl_pick": 2.333
   },
   "atlanta": {
    "bucket": "90-91°F",
@@ -109,7 +123,9 @@
    "rationale": "5-минутки держат 32°C (89.6→METAR 90) при часовом максимуме 89; Kalshi 90-91=72-80; лидер подтверждён фактом",
    "bet": null,
    "bet_note": "эдж 1.5 п.п. — рынок цену не отдаёт",
-   "winner": null
+   "winner": "88-89°F",
+   "hit": false,
+   "pnl_pick": -1.0
   },
   "austin": {
    "bucket": "98-99°F",
@@ -126,7 +142,10 @@
     "edge_pp": 10,
     "kind": "tail_flip"
    },
-   "winner": null
+   "winner": "98-99°F",
+   "hit": true,
+   "pnl_pick": 0.01,
+   "pnl_bet": -1.0
   },
   "seattle": {
    "bucket": "78-79°F",
@@ -138,7 +157,10 @@
    "rationale": "переворот на обеих площадках (PM 32→58, KS 83-91), 5-минутки 77.0 и рост; риск финала на 77 → 76-77",
    "bet": null,
    "bet_note": "город вне торговли; эдж 11.5 < 15 для исключения",
-   "winner": null
+   "winner": "76-77°F",
+   "hit": false,
+   "pnl_pick": -1.0
   }
- }
+ },
+ "score": "семёрка 4/7, пилот 2/3"
 }

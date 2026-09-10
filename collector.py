@@ -173,8 +173,10 @@ def prev_market_resolved(d: date) -> bool:
 
 def main():
     if len(sys.argv) > 1:
+        # явная дата — всегда с погодой (бухгалтерия 19:20 снимает так
+        # завтрашний рынок для вечернего портфеля; в :20 hourly=False)
         d = date.fromisoformat(sys.argv[1])
-        take_snapshot(d, with_wx=False)
+        take_snapshot(d, with_wx=True)
         return
     d = config.target_date()
     # Репозиторий публичный (07.09) — минуты Actions бесплатны, сбор

@@ -12,7 +12,9 @@
    "rationale": "лидер на сползающем рынке; консенсус 31.65 (модели в разброде); вход доступен (44¢)",
    "bet": null,
    "bet_note": "эджа нет (40 vs mid 44.5)",
-   "winner": null
+   "winner": "32°C",
+   "hit": true,
+   "pnl_pick": 1.273
   },
   "tel-aviv": {
    "bucket": "32°C",
@@ -24,7 +26,9 @@
    "pilot": true,
    "rationale": "лидер; калибр. консенсус 32.25; вход пропущен (83¢)",
    "bet": null,
-   "winner": null
+   "winner": "33°C",
+   "hit": false,
+   "pnl_pick": -1.0
   }
  },
  "entries": {
@@ -67,5 +71,6 @@
    "cut": "17:05 Минск",
    "winner": null
   }
- }
+ },
+ "score": "семёрка 0/0, пилот 1/2"
 }
