@@ -89,6 +89,17 @@
     "kind": "value_up"
    },
    "winner": null
+  },
+  "san-francisco": {
+   "bucket": "84-85°F",
+   "prob_pct": 42,
+   "last": 62.0,
+   "bid": 47.0,
+   "ask": 61.0,
+   "cut": "23:05 Минск",
+   "rationale": "спор 82-83/84-85 (правило вверх); макс 83 в 11:56, бриз 26-28°C; консенсус 85.1, NBM 80.4; профиль deviation_only — консенсус = лидер; вход доступен, эджа нет",
+   "bet": null,
+   "winner": null
   }
  },
  "entries": {
