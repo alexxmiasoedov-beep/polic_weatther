@@ -12,7 +12,9 @@
    "rationale": "спор 31/32 после ночного захода в 31; консенсус 31.0 (best_match 30 дождь, GFS 32.5); профиль evening_leader — держим лидера; вечерний вход 32@54 → 41",
    "bet": null,
    "bet_note": "эдж ≤8 п.п.",
-   "winner": null
+   "winner": "32°C",
+   "hit": true,
+   "pnl_pick": 1.439
   },
   "tel-aviv": {
    "bucket": "32°C",
@@ -24,7 +26,9 @@
    "pilot": true,
    "rationale": "лидер; консенсус 31.8, все модели 31.2-32.0; профиль deviation_only, расхождения нет; вход пропущен",
    "bet": null,
-   "winner": null
+   "winner": "31°C",
+   "hit": false,
+   "pnl_pick": -1.0
   }
  },
  "evening_entries": {
@@ -234,7 +238,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-10T16:21:34Z",
-   "winner": null
+   "winner": "32°C",
+   "hit": true,
+   "pnl_entry": 0.852
   },
   "kuala-lumpur": {
    "bucket": "31°C",
@@ -290,7 +296,8 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-10T16:21:34Z",
-   "winner": null
+   "winner": "31°C",
+   "hit": false
   },
   "dallas": {
    "bucket": "96-97°F",
@@ -363,5 +370,6 @@
    "cut": "17:05 Минск",
    "winner": null
   }
- }
+ },
+ "score": "шестёрка 0/0, пилот 1/2"
 }

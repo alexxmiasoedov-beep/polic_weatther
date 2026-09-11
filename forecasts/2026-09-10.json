@@ -39,7 +39,9 @@
    "cut": "20:05 Минск",
    "rationale": "макс 90 в 10:53, гроза обвалила до 77; рынок 99¢; ранний вход 90-91@38 → 99; вход пропущен",
    "bet": null,
-   "winner": null
+   "winner": "90-91°F",
+   "hit": true,
+   "pnl_pick": 0.01
   },
   "houston": {
    "bucket": "88-89°F",
@@ -51,7 +53,9 @@
    "rationale": "макс 89, 13:53 уже 87, осадки 27%; Kalshi 91-92 81-86 — конфликт площадок; ранний вход 90-91@25 → 8¢; вход пропущен",
    "bet": null,
    "bet_note": "90-91 <20¢ и станция против",
-   "winner": null
+   "winner": "88-89°F",
+   "hit": true,
+   "pnl_pick": 0.124
   },
   "los-angeles": {
    "bucket": "90-91°F",
@@ -69,7 +73,10 @@
     "size": 0.5,
     "kind": "value_up"
    },
-   "winner": null
+   "winner": "90-91°F",
+   "hit": true,
+   "pnl_pick": 0.562,
+   "pnl_bet": -0.5
   },
   "dallas": {
    "bucket": "98-99°F",
@@ -88,7 +95,10 @@
     "size": 0.5,
     "kind": "value_up"
    },
-   "winner": null
+   "winner": "98-99°F",
+   "hit": true,
+   "pnl_pick": 0.266,
+   "pnl_bet": -0.5
   },
   "san-francisco": {
    "bucket": "84-85°F",
@@ -99,7 +109,9 @@
    "cut": "23:05 Минск",
    "rationale": "спор 82-83/84-85 (правило вверх); макс 83 в 11:56, бриз 26-28°C; консенсус 85.1, NBM 80.4; профиль deviation_only — консенсус = лидер; вход доступен, эджа нет",
    "bet": null,
-   "winner": null
+   "winner": "84-85°F",
+   "hit": true,
+   "pnl_pick": 0.613
   },
   "atlanta": {
    "bucket": "90-91°F",
@@ -110,7 +122,9 @@
    "cut": "23:25 Минск",
    "rationale": "METAR 15:52 = 90 (32.2°C), 5-минутки 32°C, TCU; Kalshi 90-91 76-83; спор 61/47 час назад не был сетапом по правилу запаса; вход пропущен",
    "bet": null,
-   "winner": null
+   "winner": "90-91°F",
+   "hit": true,
+   "pnl_pick": 0.111
   },
   "austin": {
    "bucket": "98-99°F",
@@ -121,7 +135,9 @@
    "cut": "00:25 Минск",
    "rationale": "METAR 15:53 = 99.0 (37.2°C), 5-минутки 36-37 остывают; Kalshi 99-100 81-83; вход пропущен",
    "bet": null,
-   "winner": null
+   "winner": "100-101°F",
+   "hit": false,
+   "pnl_pick": -1.0
   }
  },
  "entries": {
@@ -136,7 +152,9 @@
    "verdict": "enter",
    "reason": "консенсус 90.6, Kalshi 91-92 лидер, рынок раздроблен после прохладного утра; профиль morning",
    "cut": "17:05 Минск",
-   "winner": null
+   "winner": "88-89°F",
+   "entry_hit": false,
+   "pnl_entry": -1.0
   },
   "miami": {
    "bucket": "90-91°F",
@@ -149,7 +167,9 @@
    "verdict": "enter",
    "reason": "ничья 88-89/90-91; Kalshi 90-91 54-57, NBM 90.5, NWS 90.9, утро +2 к вчера; правило вверх",
    "cut": "17:05 Минск",
-   "winner": null
+   "winner": "90-91°F",
+   "entry_hit": true,
+   "pnl_entry": 1.632
   },
   "atlanta": {
    "bucket": "90-91°F",
@@ -162,8 +182,9 @@
    "verdict": "skip",
    "reason": "профиль late; справочно консенсус 90.65 за 90-91 при лидере 92-93=53",
    "cut": "17:05 Минск",
-   "winner": null
+   "winner": "90-91°F",
+   "entry_hit": true
   }
  },
- "score": "семёрка 0/0, пилот 1/2"
+ "score": "шестёрка 5/6, пилот 2/3"
 }
