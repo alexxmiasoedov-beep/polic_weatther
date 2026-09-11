@@ -29,6 +29,24 @@
    "winner": "31°C",
    "hit": false,
    "pnl_pick": -1.0
+  },
+  "miami": {
+   "bucket": "88-89°F",
+   "prob_pct": 45,
+   "last": 21.0,
+   "bid": 30.0,
+   "ask": 38.0,
+   "cut": "20:05 Минск",
+   "rationale": "отклонение вверх: дождевой обвал (макс 85 в 09:53, 83 в 12:53, небо чистится), Kalshi 88-89 55-61 vs PM mid 34, консенсус 89.45, NBM 90.6; прецедент восстановления 09.09",
+   "bet": {
+    "bucket": "88-89°F",
+    "limit": 32,
+    "bet_bid": 30.0,
+    "edge_pp": 13,
+    "size": 0.5,
+    "kind": "kalshi_divergence"
+   },
+   "winner": null
   }
  },
  "evening_entries": {
