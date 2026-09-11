@@ -1,6 +1,32 @@
 {
  "date": "2026-09-11",
- "picks": {},
+ "picks": {
+  "singapore": {
+   "bucket": "32°C",
+   "prob_pct": 40,
+   "last": 41.0,
+   "bid": 41.0,
+   "ask": 49.0,
+   "cut": "04:05 Минск",
+   "pilot": true,
+   "rationale": "спор 31/32 после ночного захода в 31; консенсус 31.0 (best_match 30 дождь, GFS 32.5); профиль evening_leader — держим лидера; вечерний вход 32@54 → 41",
+   "bet": null,
+   "bet_note": "эдж ≤8 п.п.",
+   "winner": null
+  },
+  "tel-aviv": {
+   "bucket": "32°C",
+   "prob_pct": 78,
+   "last": 82.0,
+   "bid": 82.0,
+   "ask": 83.0,
+   "cut": "04:05 Минск",
+   "pilot": true,
+   "rationale": "лидер; консенсус 31.8, все модели 31.2-32.0; профиль deviation_only, расхождения нет; вход пропущен",
+   "bet": null,
+   "winner": null
+  }
+ },
  "evening_entries": {
   "atlanta": {
    "bucket": "90-91°F",
