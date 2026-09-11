@@ -322,5 +322,46 @@
    "ts_utc": "2026-09-10T16:21:34Z",
    "winner": null
   }
+ },
+ "entries": {
+  "miami": {
+   "bucket": "90-91°F",
+   "entry_price": 32,
+   "bid": 30.0,
+   "ask": 36.0,
+   "last": 41.0,
+   "prob_pct": 50,
+   "size": 0.5,
+   "verdict": "enter",
+   "reason": "спор 88-89/90-91; Kalshi 90-91 52-54 vs PM mid 33; NBM 90.2, NWS 90.8; утро −2 к вчера; правило вверх",
+   "cut": "17:05 Минск",
+   "winner": null
+  },
+  "houston": {
+   "bucket": "90-91°F",
+   "entry_price": null,
+   "bid": 38.0,
+   "ask": 43.0,
+   "last": 43.0,
+   "prob_pct": 48,
+   "size": 0,
+   "verdict": "skip",
+   "reason": "эдж 7-8 п.п. (48 vs mid 40.5); консенсус 90.05 на границе; Kalshi пополам",
+   "cut": "17:05 Минск",
+   "winner": null
+  },
+  "atlanta": {
+   "bucket": "88-89°F",
+   "entry_price": null,
+   "bid": 40.0,
+   "ask": 50.0,
+   "last": 49.0,
+   "prob_pct": 45,
+   "size": 0,
+   "verdict": "skip",
+   "reason": "профиль late; справочно консенсус 88.15 = лидер",
+   "cut": "17:05 Минск",
+   "winner": null
+  }
  }
 }
