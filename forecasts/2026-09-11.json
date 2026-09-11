@@ -92,6 +92,17 @@
    "rationale": "жара кончилась: 70 в 12:56, 21°C плоско; Kalshi 72-73(=PM 70-71) 64-68, на PM 72-73 4-7; консенсус 73.45 разорван; вечерний вход 74-75@16 сгорел; эджа нет",
    "bet": null,
    "winner": null
+  },
+  "atlanta": {
+   "bucket": "88-89°F",
+   "prob_pct": 97,
+   "last": 99.0,
+   "bid": 99.1,
+   "ask": 99.7,
+   "cut": "23:25 Минск",
+   "rationale": "METAR KATL max 88 в 13:52, гроза -TSRA в 15:52 сбила до 80; PM 99¢, Kalshi ≤88 99-100¢; вход пропущен",
+   "bet": null,
+   "winner": null
   }
  },
  "evening_entries": {
