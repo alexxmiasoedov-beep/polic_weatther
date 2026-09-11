@@ -103,6 +103,17 @@
    "rationale": "METAR KATL max 88 в 13:52, гроза -TSRA в 15:52 сбила до 80; PM 99¢, Kalshi ≤88 99-100¢; вход пропущен",
    "bet": null,
    "winner": null
+  },
+  "austin": {
+   "bucket": "102-103°F",
+   "prob_pct": 96,
+   "last": 95.0,
+   "bid": 92.0,
+   "ask": 96.0,
+   "cut": "00:25 Минск",
+   "rationale": "METAR KAUS 102 в 15:53 (38.9°C), 5-мин 39°C в 16:00-16:05, к 16:10 остывает; PM 95¢, Kalshi 94¢. Упущен сетап монитора 22:55: 102-103@30 при Kalshi 60 и растущем METAR",
+   "bet": null,
+   "winner": null
   }
  },
  "evening_entries": {
