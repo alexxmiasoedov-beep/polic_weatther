@@ -47,6 +47,40 @@
     "kind": "kalshi_divergence"
    },
    "winner": null
+  },
+  "houston": {
+   "bucket": "92-93°F",
+   "prob_pct": 78,
+   "last": 84.0,
+   "bid": 53.0,
+   "ask": 84.0,
+   "cut": "22:05 Минск",
+   "rationale": "METAR 13:53 = 93, 5-минутки 34→33°C; Kalshi 93-94 86-90; вечерний вход 90-91@40 сгорел; вход пропущен",
+   "bet": null,
+   "winner": null
+  },
+  "los-angeles": {
+   "bucket": "84-85°F",
+   "prob_pct": 80,
+   "last": 94.0,
+   "bid": 65.0,
+   "ask": 94.0,
+   "cut": "22:05 Минск",
+   "rationale": "пик 85 в 10:53, бриз; Kalshi 84-85 79-80; консенсус 86.7 выше, но жара кончилась; вечерний вход 84-85@36 в плюсе; вход пропущен",
+   "bet": null,
+   "winner": null
+  },
+  "dallas": {
+   "bucket": "98-99°F",
+   "prob_pct": 55,
+   "last": 59.0,
+   "bid": 57.0,
+   "ask": 72.0,
+   "cut": "22:05 Минск",
+   "pilot": true,
+   "rationale": "96 в 13:53 при +2/ч; консенсус 99.05; вечерний вход 96-97@28 — консенсус ушёл вверх; эджа нет",
+   "bet": null,
+   "winner": null
   }
  },
  "evening_entries": {
