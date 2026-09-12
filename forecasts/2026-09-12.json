@@ -56,6 +56,47 @@
     "kind": "kalshi_divergence+fact_edge"
    },
    "winner": null
+  },
+  "houston": {
+   "bucket": "96-97°F",
+   "prob_pct": 45,
+   "last": 48.0,
+   "bid": 22.0,
+   "ask": 48.0,
+   "cut": "22:05 Минск",
+   "rationale": "отклонение вверх: медиана 96.1 vs NBM 94.9 → правило вверх; Kalshi ≈50% за 96-97 vs PM mid 35; факт 95 в 13:53, 5-мин до 36°C; лидер 94-95 по 70¢",
+   "bet": {
+    "bucket": "96-97°F",
+    "limit": 24,
+    "bet_bid": 22.0,
+    "edge_pp": 21,
+    "size": 1.0,
+    "kind": "kalshi_divergence+fact_edge"
+   },
+   "winner": null
+  },
+  "dallas": {
+   "bucket": "100-101°F",
+   "prob_pct": 60,
+   "last": 60.0,
+   "bid": 56.0,
+   "ask": 73.0,
+   "cut": "22:05 Минск",
+   "rationale": "лидер; консенсус 100.9, NBM 101.6; факт 98 в 13:53, 5-мин 37°C; вход доступен, ставки нет (вне 20-45)",
+   "bet": null,
+   "winner": null,
+   "pilot": true
+  },
+  "los-angeles": {
+   "bucket": "80-81°F",
+   "prob_pct": 50,
+   "last": 64.0,
+   "bid": 63.0,
+   "ask": 64.0,
+   "cut": "22:05 Минск",
+   "rationale": "лидер; медиана 81.6, NBM 82.9/NWS 84 за 82-83, Kalshi поровну; факт 81→80 к полудню, бриз; профиль evening — пропуск",
+   "bet": null,
+   "winner": null
   }
  },
  "evening_entries": {
