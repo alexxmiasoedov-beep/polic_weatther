@@ -38,6 +38,24 @@
    "hit": false,
    "pnl_pick": -1.0,
    "pnl_bet": -0.5
+  },
+  "miami": {
+   "bucket": "90-91°F",
+   "prob_pct": 50,
+   "last": 81.0,
+   "bid": 72.0,
+   "ask": 80.0,
+   "cut": "20:05 Минск",
+   "rationale": "лидер 81¢; факт 91 в 12:53 и растёт +1/час, 5-мин 33°C; консенсус 89.1 отстаёт; Kalshi 92-93 54 vs 90-91 50; вход пропущен",
+   "bet": {
+    "bucket": "92-93°F",
+    "limit": 20,
+    "bet_bid": 18.0,
+    "edge_pp": 25,
+    "size": 1.0,
+    "kind": "kalshi_divergence+fact_edge"
+   },
+   "winner": null
   }
  },
  "evening_entries": {
