@@ -221,7 +221,8 @@ def resolve(d):
         e["winner"] = w
         e["hit"] = e["bucket"] == w
         if e.get("verdict") == "enter" and e.get("entry_price"):
-            e["pnl_entry"] = round(100 / e["entry_price"] - 1, 3) if e["hit"] else -1.0
+            sz = e.get("size") or 1.0
+            e["pnl_entry"] = round((100 / e["entry_price"] - 1) * sz, 3) if e["hit"] else -sz
             n += 1; hits += e["hit"]; pnl += e["pnl_entry"]
         pr = e.get("pair")
         if pr:

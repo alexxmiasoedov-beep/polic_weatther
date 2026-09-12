@@ -10,8 +10,10 @@
    "cut": "04:05 Минск",
    "rationale": "лидер 71¢; консенсус 31.8 (30.6-32.0); профиль evening_leader — лидер дороже 55¢, вход пропущен",
    "bet": null,
-   "winner": null,
-   "pilot": true
+   "winner": "32°C",
+   "pilot": true,
+   "hit": true,
+   "pnl_pick": 0.408
   },
   "tel-aviv": {
    "bucket": "31°C",
@@ -27,10 +29,15 @@
     "bet_bid": 39.0,
     "edge_pp": 16,
     "size": 0.5,
-    "kind": "consensus"
+    "kind": "consensus",
+    "filled": true,
+    "hit": false
    },
-   "winner": null,
-   "pilot": true
+   "winner": "32°C",
+   "pilot": true,
+   "hit": false,
+   "pnl_pick": -1.0,
+   "pnl_bet": -0.5
   }
  },
  "evening_entries": {
