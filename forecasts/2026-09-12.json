@@ -108,6 +108,17 @@
    "rationale": "лидер; консенсус 70.0 = лидер, NBM 70.6; Kalshi 71-72 76; факт 71 в 12:56, 5-мин 22°C; профиль deviation_only — пропуск; вход пропущен",
    "bet": null,
    "winner": null
+  },
+  "atlanta": {
+   "bucket": "82-83°F",
+   "prob_pct": 70,
+   "last": 56.0,
+   "bid": 60.0,
+   "ask": 71.0,
+   "cut": "23:25 Минск",
+   "rationale": "факт 83 в 15:52 (28.3°C), 5-мин 28°C плоско 40 мин, облака TCU; PM 84-85 42 (bid 22) тянет против станции — фейд; Kalshi 84-85 56 (CLI +1); вход по ~65-71",
+   "bet": null,
+   "winner": null
   }
  },
  "evening_entries": {
