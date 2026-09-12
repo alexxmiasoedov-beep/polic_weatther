@@ -349,5 +349,49 @@
    "ts_utc": "2026-09-11T16:21:20Z",
    "winner": null
   }
+ },
+ "entries": {
+  "houston": {
+   "bucket": "94-95°F",
+   "entry_price": 49,
+   "bid": 48.0,
+   "ask": 51.0,
+   "last": 54.0,
+   "prob_pct": 60,
+   "size": 0.5,
+   "verdict": "enter",
+   "reason": "профиль morning; Kalshi 60 vs PM mid 49.5; NBM 94.6 арбитр при споре (медиана 95.6); факт 85 в 08:53 vs 84 вчера",
+   "cut": "17:05 Минск",
+   "ts_utc": "2026-09-12T14:06:00Z",
+   "winner": null
+  },
+  "miami": {
+   "bucket": "90-91°F",
+   "entry_price": 55,
+   "bid": 53.0,
+   "ask": 58.0,
+   "last": 55.0,
+   "prob_pct": 58,
+   "size": 0,
+   "verdict": "skip",
+   "reason": "эдж <10 п.п. (58% vs 55¢); консенсус 89.3, NBM 90.1, правило вверх; вечерний вход 88-89@44 не подтверждается",
+   "cut": "17:05 Минск",
+   "ts_utc": "2026-09-12T14:06:00Z",
+   "winner": null
+  },
+  "atlanta": {
+   "bucket": "82-83°F",
+   "entry_price": 36,
+   "bid": 28.0,
+   "ask": 39.0,
+   "last": 36.0,
+   "prob_pct": 35,
+   "size": 0,
+   "verdict": "skip",
+   "reason": "профиль late — утром не входим; консенсус 81.1, дождь 49%, факт 74 (−8 к вчера)",
+   "cut": "17:05 Минск",
+   "ts_utc": "2026-09-12T14:06:00Z",
+   "winner": null
+  }
  }
 }
