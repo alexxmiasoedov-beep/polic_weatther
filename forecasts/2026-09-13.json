@@ -46,6 +46,47 @@
     "kind": "kalshi_divergence+fact_edge"
    },
    "winner": null
+  },
+  "houston": {
+   "bucket": "92-93°F",
+   "prob_pct": 50,
+   "last": 57.0,
+   "bid": 47.0,
+   "ask": 62.0,
+   "cut": "22:05 Минск",
+   "rationale": "лидер; факт 91 в 13:53 после грозы, 5-мин 33°C растёт; Kalshi 93-94 69; консенсус 91.9, NBM 93.2; профиль morning — пропуск",
+   "bet": null,
+   "winner": null
+  },
+  "dallas": {
+   "bucket": "100-101°F",
+   "prob_pct": 45,
+   "last": 16.0,
+   "bid": 17.0,
+   "ask": 29.0,
+   "cut": "22:05 Минск",
+   "rationale": "отклонение вверх: консенсус 100.5/NBM 100.4/NWS 100.6 против лидера 98-99 по 71; факт 97 в 13:53, 5-мин 37°C растёт (вчера 98→101)",
+   "bet": {
+    "bucket": "100-101°F",
+    "limit": 19,
+    "bet_bid": 17.0,
+    "edge_pp": 26,
+    "size": 0.5,
+    "kind": "consensus+fact_edge"
+   },
+   "winner": null,
+   "pilot": true
+  },
+  "los-angeles": {
+   "bucket": "78-79°F",
+   "prob_pct": 70,
+   "last": 67.0,
+   "bid": 60.0,
+   "ask": 66.0,
+   "cut": "22:05 Минск",
+   "rationale": "лидер; Kalshi 78-79 84; консенсус 78.65, NBM 79.6; факт 77 в 11:53; профиль evening — пропуск",
+   "bet": null,
+   "winner": null
   }
  },
  "evening_entries": {
