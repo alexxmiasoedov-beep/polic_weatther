@@ -398,5 +398,49 @@
    "ts_utc": "2026-09-12T16:21:25Z",
    "winner": null
   }
+ },
+ "entries": {
+  "houston": {
+   "bucket": "92-93°F",
+   "entry_price": 53,
+   "bid": 51.0,
+   "ask": 55.0,
+   "last": 50.0,
+   "prob_pct": 40,
+   "size": 0,
+   "verdict": "skip",
+   "reason": "эджа нет: 92-93 ~40% vs mid 53; 94-95 ~30% vs 28; консенсус 91.9, NBM 93.1; факт 86 в 08:53 (вчера 85→96); дождь 20%",
+   "cut": "17:05 Минск",
+   "ts_utc": "2026-09-13T14:06:00Z",
+   "winner": null
+  },
+  "miami": {
+   "bucket": "90-91°F",
+   "entry_price": 59,
+   "bid": 55.0,
+   "ask": 63.0,
+   "last": 65.0,
+   "prob_pct": 40,
+   "size": 0,
+   "verdict": "skip",
+   "reason": "эджа нет; Kalshi ≥92 ~60% vs PM 28 — кандидат 92-93@24 на 20:05 при факте ≥91; осадки 48%/108 мм — ливневый риск",
+   "cut": "17:05 Минск",
+   "ts_utc": "2026-09-13T14:06:00Z",
+   "winner": null
+  },
+  "atlanta": {
+   "bucket": "90-91°F",
+   "entry_price": 60,
+   "bid": 60.0,
+   "ask": 62.0,
+   "last": 60.0,
+   "prob_pct": 50,
+   "size": 0,
+   "verdict": "skip",
+   "reason": "профиль late — утром не входим; консенсус 89.0, факт 78 (+4 к вчера), сухо",
+   "cut": "17:05 Минск",
+   "ts_utc": "2026-09-13T14:06:00Z",
+   "winner": null
+  }
  }
 }
