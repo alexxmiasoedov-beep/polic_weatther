@@ -116,6 +116,17 @@
     "kind": "fact_vs_market+consensus"
    },
    "winner": null
+  },
+  "austin": {
+   "bucket": "100-101°F",
+   "prob_pct": 88,
+   "last": 90.0,
+   "bid": 90.0,
+   "ask": 95.0,
+   "cut": "00:25 Минск",
+   "rationale": "факт 100 в 15:53 (37.8°C), 5-мин 38 плоско; Kalshi 101-102 99; консенсус 100.15; вход пропущен; 102-103 9¢ хвост",
+   "bet": null,
+   "winner": null
   }
  },
  "evening_entries": {
