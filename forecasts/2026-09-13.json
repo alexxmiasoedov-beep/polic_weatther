@@ -98,6 +98,24 @@
    "rationale": "лидер; консенсус 69.85/NBM 71.0 = лидер; Kalshi 71-72 76; факт 69 в 12:56, +1/час; профиль deviation_only — пропуск; вход доступен",
    "bet": null,
    "winner": null
+  },
+  "atlanta": {
+   "bucket": "88-89°F",
+   "prob_pct": 50,
+   "last": 37.0,
+   "bid": 21.0,
+   "ask": 40.0,
+   "cut": "23:25 Минск",
+   "rationale": "факт 89 в 15:52 (31.7°C, запас 0.5°C), 5-мин 32 плоско; PM 90-91 77 против станции — фейд; Kalshi 96 на 90-91 = вероятный конфликт площадок (CLI); консенсус 89.0",
+   "bet": {
+    "bucket": "88-89°F",
+    "limit": 23,
+    "bet_bid": 21.0,
+    "edge_pp": 27,
+    "size": 1.0,
+    "kind": "fact_vs_market+consensus"
+   },
+   "winner": null
   }
  },
  "evening_entries": {
