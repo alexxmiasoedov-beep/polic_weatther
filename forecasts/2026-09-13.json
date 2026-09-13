@@ -87,6 +87,17 @@
    "rationale": "лидер; Kalshi 78-79 84; консенсус 78.65, NBM 79.6; факт 77 в 11:53; профиль evening — пропуск",
    "bet": null,
    "winner": null
+  },
+  "san-francisco": {
+   "bucket": "70-71°F",
+   "prob_pct": 65,
+   "last": 68.0,
+   "bid": 52.0,
+   "ask": 69.0,
+   "cut": "23:05 Минск",
+   "rationale": "лидер; консенсус 69.85/NBM 71.0 = лидер; Kalshi 71-72 76; факт 69 в 12:56, +1/час; профиль deviation_only — пропуск; вход доступен",
+   "bet": null,
+   "winner": null
   }
  },
  "evening_entries": {
