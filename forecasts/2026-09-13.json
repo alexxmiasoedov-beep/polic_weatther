@@ -1,6 +1,31 @@
 {
  "date": "2026-09-13",
- "picks": {},
+ "picks": {
+  "singapore": {
+   "bucket": "33°C",
+   "prob_pct": 70,
+   "last": 82.0,
+   "bid": 79.0,
+   "ask": 82.0,
+   "cut": "04:05 Минск",
+   "rationale": "лидер 82¢; консенсус 32.7 (32.2-33.0); профиль evening_leader — дороже 55¢, вход пропущен",
+   "bet": null,
+   "winner": null,
+   "pilot": true
+  },
+  "tel-aviv": {
+   "bucket": "32°C",
+   "prob_pct": 72,
+   "last": 80.0,
+   "bid": 76.0,
+   "ask": 81.0,
+   "cut": "04:05 Минск",
+   "rationale": "лидер 80¢; консенсус 32.3 = лидер, расхождения нет; профиль deviation_only — пропуск; вход пропущен",
+   "bet": null,
+   "winner": null,
+   "pilot": true
+  }
+ },
  "evening_entries": {
   "atlanta": {
    "bucket": "88-89°F",
