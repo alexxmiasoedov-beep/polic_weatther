@@ -46,7 +46,8 @@
     "size": 0.5,
     "kind": "kalshi_divergence",
     "filled": true,
-    "hit": true
+    "hit": true,
+    "fill_confirmed": true
    },
    "winner": "88-89°F",
    "hit": true,

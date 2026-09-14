@@ -28,7 +28,8 @@
     "bucket": "34°C",
     "limit": 28,
     "edge_pp": 10,
-    "kind": "value_up"
+    "kind": "value_up",
+    "fill_confirmed": true
    },
    "winner": "34°C",
    "hit": false,
@@ -62,7 +63,8 @@
     "limit": 25,
     "bet_bid": 23.0,
     "edge_pp": null,
-    "kind": "texas_value_up"
+    "kind": "texas_value_up",
+    "fill_confirmed": true
    },
    "winner": "92-93°F",
    "hit": true,
@@ -83,7 +85,8 @@
     "limit": 5,
     "bet_bid": 3.0,
     "edge_pp": null,
-    "kind": "texas_value_up"
+    "kind": "texas_value_up",
+    "fill_confirmed": true
    },
    "winner": "100-101°F",
    "hit": true,
@@ -103,7 +106,8 @@
     "limit": 13,
     "bet_bid": 11.0,
     "edge_pp": 15,
-    "kind": "value_up"
+    "kind": "value_up",
+    "fill_confirmed": true
    },
    "winner": "90-91°F",
    "hit": false,
@@ -137,7 +141,8 @@
     "limit": 25,
     "bet_bid": 23.0,
     "edge_pp": 22,
-    "kind": "fact_flip"
+    "kind": "fact_flip",
+    "fill_confirmed": true
    },
    "winner": "88-89°F",
    "hit": true,
@@ -157,7 +162,8 @@
     "limit": 10,
     "bet_bid": 8.0,
     "edge_pp": 12,
-    "kind": "value_up"
+    "kind": "value_up",
+    "fill_confirmed": true
    },
    "winner": "100-101°F",
    "hit": true,

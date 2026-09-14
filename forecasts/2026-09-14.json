@@ -10,8 +10,10 @@
    "cut": "04:05 Минск",
    "rationale": "лидер сменился ночью 33→32; консенсус 31.85 (31.6-32.8); эджа нет ни на 32 (56 mid), ни на 33 (38-42); вход пропущен",
    "bet": null,
-   "winner": null,
-   "pilot": true
+   "winner": "33°C",
+   "pilot": true,
+   "hit": false,
+   "pnl_pick": -1.0
   },
   "tel-aviv": {
    "bucket": "33°C",
@@ -22,8 +24,10 @@
    "cut": "04:05 Минск",
    "rationale": "лидер 83¢; консенсус 32.8 = лидер; профиль deviation_only — пропуск; вход пропущен",
    "bet": null,
-   "winner": null,
-   "pilot": true
+   "winner": "33°C",
+   "pilot": true,
+   "hit": true,
+   "pnl_pick": 0.205
   }
  },
  "evening_entries": {

@@ -58,7 +58,8 @@
     "limit": 13,
     "bet_bid": 12.0,
     "edge_pp": 12,
-    "kind": "value_up+texas"
+    "kind": "value_up+texas",
+    "fill_confirmed": true
    },
    "winner": "90-91°F",
    "hit": true,
@@ -79,7 +80,8 @@
     "limit": 27,
     "bet_bid": 25.0,
     "edge_pp": 15,
-    "kind": "value_up"
+    "kind": "value_up",
+    "fill_confirmed": true
    },
    "winner": "100-101°F",
    "hit": true,
@@ -140,7 +142,8 @@
     "limit": 2,
     "bet_bid": 0.2,
     "edge_pp": 10,
-    "kind": "tail_flip"
+    "kind": "tail_flip",
+    "fill_confirmed": true
    },
    "winner": "98-99°F",
    "hit": true,

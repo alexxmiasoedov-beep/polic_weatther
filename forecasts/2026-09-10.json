@@ -71,7 +71,8 @@
     "bet_bid": 22.0,
     "edge_pp": 11,
     "size": 0.5,
-    "kind": "value_up"
+    "kind": "value_up",
+    "fill_confirmed": true
    },
    "winner": "90-91°F",
    "hit": true,
@@ -93,7 +94,8 @@
     "bet_bid": 19.0,
     "edge_pp": 20,
     "size": 0.5,
-    "kind": "value_up"
+    "kind": "value_up",
+    "fill_confirmed": true
    },
    "winner": "98-99°F",
    "hit": true,

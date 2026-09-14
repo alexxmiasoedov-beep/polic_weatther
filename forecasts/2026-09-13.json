@@ -43,9 +43,15 @@
     "bet_bid": 25.0,
     "edge_pp": 18,
     "size": 0.5,
-    "kind": "kalshi_divergence+fact_edge"
+    "kind": "kalshi_divergence+fact_edge",
+    "hit": false,
+    "filled": true,
+    "fill_confirmed": true
    },
-   "winner": null
+   "winner": "90-91°F",
+   "hit": true,
+   "pnl_pick": 0.37,
+   "pnl_bet": -0.5
   },
   "houston": {
    "bucket": "92-93°F",
@@ -56,7 +62,9 @@
    "cut": "22:05 Минск",
    "rationale": "лидер; факт 91 в 13:53 после грозы, 5-мин 33°C растёт; Kalshi 93-94 69; консенсус 91.9, NBM 93.2; профиль morning — пропуск",
    "bet": null,
-   "winner": null
+   "winner": "92-93°F",
+   "hit": true,
+   "pnl_pick": 0.754
   },
   "dallas": {
    "bucket": "100-101°F",
@@ -72,10 +80,16 @@
     "bet_bid": 17.0,
     "edge_pp": 26,
     "size": 0.5,
-    "kind": "consensus+fact_edge"
+    "kind": "consensus+fact_edge",
+    "hit": false,
+    "filled": true,
+    "fill_confirmed": true
    },
-   "winner": null,
-   "pilot": true
+   "winner": "98-99°F",
+   "pilot": true,
+   "hit": false,
+   "pnl_pick": -1.0,
+   "pnl_bet": -0.5
   },
   "los-angeles": {
    "bucket": "78-79°F",
@@ -86,7 +100,9 @@
    "cut": "22:05 Минск",
    "rationale": "лидер; Kalshi 78-79 84; консенсус 78.65, NBM 79.6; факт 77 в 11:53; профиль evening — пропуск",
    "bet": null,
-   "winner": null
+   "winner": "78-79°F",
+   "hit": true,
+   "pnl_pick": 0.493
   },
   "san-francisco": {
    "bucket": "70-71°F",
@@ -97,7 +113,9 @@
    "cut": "23:05 Минск",
    "rationale": "лидер; консенсус 69.85/NBM 71.0 = лидер; Kalshi 71-72 76; факт 69 в 12:56, +1/час; профиль deviation_only — пропуск; вход доступен",
    "bet": null,
-   "winner": null
+   "winner": "70-71°F",
+   "hit": true,
+   "pnl_pick": 0.471
   },
   "atlanta": {
    "bucket": "88-89°F",
@@ -113,9 +131,15 @@
     "bet_bid": 21.0,
     "edge_pp": 27,
     "size": 1.0,
-    "kind": "fact_vs_market+consensus"
+    "kind": "fact_vs_market+consensus",
+    "hit": false,
+    "filled": true,
+    "fill_confirmed": true
    },
-   "winner": null
+   "winner": "90-91°F",
+   "hit": false,
+   "pnl_pick": -1.0,
+   "pnl_bet": -1.0
   },
   "austin": {
    "bucket": "100-101°F",
@@ -126,7 +150,9 @@
    "cut": "00:25 Минск",
    "rationale": "факт 100 в 15:53 (37.8°C), 5-мин 38 плоско; Kalshi 101-102 99; консенсус 100.15; вход пропущен; 102-103 9¢ хвост",
    "bet": null,
-   "winner": null
+   "winner": "100-101°F",
+   "hit": true,
+   "pnl_pick": 0.111
   }
  },
  "evening_entries": {
@@ -158,7 +184,8 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-12T16:21:30Z",
-   "winner": null
+   "winner": "90-91°F",
+   "hit": false
   },
   "austin": {
    "bucket": "100-101°F",
@@ -188,7 +215,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-12T16:21:30Z",
-   "winner": null
+   "winner": "100-101°F",
+   "hit": true,
+   "pnl_entry": 1.381
   },
   "houston": {
    "bucket": "92-93°F",
@@ -218,7 +247,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-12T16:21:30Z",
-   "winner": null
+   "winner": "92-93°F",
+   "hit": true,
+   "pnl_entry": 1.564
   },
   "los-angeles": {
    "bucket": "78-79°F",
@@ -255,7 +286,11 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-12T16:21:30Z",
-   "winner": null
+   "winner": "78-79°F",
+   "hit": true,
+   "pnl_entry": 1.0,
+   "pair_hit": true,
+   "pnl_pair": 0.25
   },
   "miami": {
    "bucket": "88-89°F",
@@ -292,7 +327,11 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-12T16:21:30Z",
-   "winner": null
+   "winner": "90-91°F",
+   "hit": false,
+   "pnl_entry": -1.0,
+   "pair_hit": true,
+   "pnl_pair": 0.235
   },
   "san-francisco": {
    "bucket": "70-71°F",
@@ -322,7 +361,8 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-12T16:21:30Z",
-   "winner": null
+   "winner": "70-71°F",
+   "hit": true
   },
   "wellington": {
    "bucket": "14°C",
@@ -378,7 +418,8 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-12T16:21:25Z",
-   "winner": null
+   "winner": "33°C",
+   "hit": true
   },
   "kuala-lumpur": {
    "bucket": "33°C",
@@ -441,7 +482,8 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-12T16:21:25Z",
-   "winner": null
+   "winner": "32°C",
+   "hit": true
   },
   "milan": {
    "bucket": "26°C",
@@ -499,7 +541,9 @@
    "size": 0.5,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-12T16:21:25Z",
-   "winner": null
+   "winner": "98-99°F",
+   "hit": false,
+   "pnl_entry": -0.5
   }
  },
  "entries": {
@@ -515,7 +559,7 @@
    "reason": "эджа нет: 92-93 ~40% vs mid 53; 94-95 ~30% vs 28; консенсус 91.9, NBM 93.1; факт 86 в 08:53 (вчера 85→96); дождь 20%",
    "cut": "17:05 Минск",
    "ts_utc": "2026-09-13T14:06:00Z",
-   "winner": null
+   "winner": "92-93°F"
   },
   "miami": {
    "bucket": "90-91°F",
@@ -529,7 +573,7 @@
    "reason": "эджа нет; Kalshi ≥92 ~60% vs PM 28 — кандидат 92-93@24 на 20:05 при факте ≥91; осадки 48%/108 мм — ливневый риск",
    "cut": "17:05 Минск",
    "ts_utc": "2026-09-13T14:06:00Z",
-   "winner": null
+   "winner": "90-91°F"
   },
   "atlanta": {
    "bucket": "90-91°F",
@@ -543,7 +587,8 @@
    "reason": "профиль late — утром не входим; консенсус 89.0, факт 78 (+4 к вчера), сухо",
    "cut": "17:05 Минск",
    "ts_utc": "2026-09-13T14:06:00Z",
-   "winner": null
+   "winner": "90-91°F"
   }
- }
+ },
+ "score": "шестёрка 5/6, пилот 2/3"
 }

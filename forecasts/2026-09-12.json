@@ -31,7 +31,8 @@
     "size": 0.5,
     "kind": "consensus",
     "filled": true,
-    "hit": false
+    "hit": false,
+    "fill_confirmed": true
    },
    "winner": "32°C",
    "pilot": true,
@@ -55,7 +56,8 @@
     "size": 1.0,
     "kind": "kalshi_divergence+fact_edge",
     "filled": true,
-    "hit": true
+    "hit": true,
+    "fill_confirmed": false
    },
    "winner": "92-93°F",
    "hit": false,
@@ -78,7 +80,8 @@
     "size": 1.0,
     "kind": "kalshi_divergence+fact_edge",
     "filled": true,
-    "hit": true
+    "hit": true,
+    "fill_confirmed": false
    },
    "winner": "96-97°F",
    "hit": true,
