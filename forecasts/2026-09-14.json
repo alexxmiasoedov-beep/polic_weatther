@@ -1,6 +1,31 @@
 {
  "date": "2026-09-14",
- "picks": {},
+ "picks": {
+  "singapore": {
+   "bucket": "32°C",
+   "prob_pct": 50,
+   "last": 59.0,
+   "bid": 53.0,
+   "ask": 58.0,
+   "cut": "04:05 Минск",
+   "rationale": "лидер сменился ночью 33→32; консенсус 31.85 (31.6-32.8); эджа нет ни на 32 (56 mid), ни на 33 (38-42); вход пропущен",
+   "bet": null,
+   "winner": null,
+   "pilot": true
+  },
+  "tel-aviv": {
+   "bucket": "33°C",
+   "prob_pct": 75,
+   "last": 83.0,
+   "bid": 79.0,
+   "ask": 82.0,
+   "cut": "04:05 Минск",
+   "rationale": "лидер 83¢; консенсус 32.8 = лидер; профиль deviation_only — пропуск; вход пропущен",
+   "bet": null,
+   "winner": null,
+   "pilot": true
+  }
+ },
  "evening_entries": {
   "atlanta": {
    "bucket": "92-93°F",
