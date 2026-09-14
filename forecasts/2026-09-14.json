@@ -28,6 +28,17 @@
    "pilot": true,
    "hit": true,
    "pnl_pick": 0.205
+  },
+  "miami": {
+   "bucket": "88-89°F",
+   "prob_pct": 65,
+   "last": 83.0,
+   "bid": 82.0,
+   "ask": 88.0,
+   "cut": "20:05 Минск",
+   "rationale": "переворот по факту: 88 в 11:53, 5-мин 31°C плоско, TCU/CB; PM 88-89 83; Kalshi 54/46; консенсус 90.55 промахнулся; 90-91 хвост 14 mid — не даём; вход пропущен",
+   "bet": null,
+   "winner": null
   }
  },
  "evening_entries": {
