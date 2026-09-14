@@ -73,6 +73,26 @@
    "rationale": "лидер; консенсус 79.6/NBM 81.1 за 80-81, но факт 78 в 11:53 и Kalshi между корзинами; профиль evening — пропуск; вход пропущен",
    "bet": null,
    "winner": null
+  },
+  "san-francisco": {
+   "bucket": "76-77°F",
+   "prob_pct": 55,
+   "last": 40.0,
+   "bid": 35.0,
+   "ask": 44.0,
+   "cut": "23:05 Минск",
+   "rationale": "рынок расколот 76-77 40 / 74-75 36; консенсус 76.4 (NBM 76.3); Kalshi 78-79 80 = наша 76-77 с офсетом +2; факт 68→73 в 12:56, тёплый режим; вход доступен",
+   "bet": {
+    "bucket": "76-77°F",
+    "limit": 40,
+    "bet_bid": 35.0,
+    "bet_ask": 44.0,
+    "edge_pp": 15,
+    "size": 0.5,
+    "kind": "kalshi_divergence+consensus",
+    "ts_utc": "2026-09-14T20:07:00Z"
+   },
+   "winner": null
   }
  },
  "evening_entries": {
