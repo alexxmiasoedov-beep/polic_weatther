@@ -93,6 +93,17 @@
     "ts_utc": "2026-09-14T20:07:00Z"
    },
    "winner": null
+  },
+  "atlanta": {
+   "bucket": "92-93°F",
+   "prob_pct": 80,
+   "last": 90.0,
+   "bid": 79.0,
+   "ask": 90.0,
+   "cut": "23:25 Минск",
+   "rationale": "факт 92 в 14:52 и 15:52, 5-мин 33°C плоско; до 94 запас 1.1°C; PM 90, Kalshi 64/40 (CLI); консенсус 92.8; вход пропущен",
+   "bet": null,
+   "winner": null
   }
  },
  "evening_entries": {
