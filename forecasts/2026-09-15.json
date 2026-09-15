@@ -48,6 +48,26 @@
    },
    "hit": false,
    "pnl_pick": -1.0
+  },
+  "miami": {
+   "bucket": "90-91°F",
+   "prob_pct": 50,
+   "last": 66.0,
+   "bid": 57.0,
+   "ask": 73.0,
+   "cut": "20:05 Минск",
+   "rationale": "лидер 66¢; факт 91 в 11:53 и 12:53, 5-мин 32-33°C; Kalshi 92-93 83 vs PM 31 mid; консенсус 91.2; вход доступен, лидер вне 20-45",
+   "bet": {
+    "bucket": "92-93°F",
+    "limit": 31,
+    "bet_bid": 22.0,
+    "bet_ask": 40.0,
+    "edge_pp": 14,
+    "size": 0.5,
+    "kind": "kalshi_lag+fact_edge",
+    "ts_utc": "2026-09-15T17:06:00Z"
+   },
+   "winner": null
   }
  },
  "evening_entries": {
