@@ -68,6 +68,40 @@
     "ts_utc": "2026-09-15T17:06:00Z"
    },
    "winner": null
+  },
+  "houston": {
+   "bucket": "94-95°F",
+   "prob_pct": 65,
+   "last": 78.0,
+   "bid": 76.0,
+   "ask": 80.0,
+   "cut": "22:05 Минск",
+   "rationale": "лидер; факт 93 в 13:53, 5-мин 34-35°C; Kalshi 95-96 97; консенсус 95.7; профиль morning — пропуск; вход пропущен",
+   "bet": null,
+   "winner": null
+  },
+  "dallas": {
+   "bucket": "100-101°F",
+   "prob_pct": 60,
+   "last": 66.0,
+   "bid": 66.0,
+   "ask": 76.0,
+   "cut": "22:05 Минск",
+   "rationale": "лидер; консенсус 100.95/NBM 101.1; факт 97 в 13:53, +3/час; вход доступен, лидер вне 20-45",
+   "bet": null,
+   "winner": null,
+   "pilot": true
+  },
+  "los-angeles": {
+   "bucket": "78-79°F",
+   "prob_pct": 50,
+   "last": 76.0,
+   "bid": 39.0,
+   "ask": 47.0,
+   "cut": "22:05 Минск",
+   "rationale": "лидер по стакану (mid 43, last 76 устарел); консенсус 77.5, NBM 78.3/NWS 78.4; Kalshi 79-80 65; факт 76 в 11:53, 5-мин до 26°C; профиль evening — пропуск",
+   "bet": null,
+   "winner": null
   }
  },
  "evening_entries": {
