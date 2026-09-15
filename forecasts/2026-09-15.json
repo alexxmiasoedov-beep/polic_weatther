@@ -102,6 +102,17 @@
    "rationale": "лидер по стакану (mid 43, last 76 устарел); консенсус 77.5, NBM 78.3/NWS 78.4; Kalshi 79-80 65; факт 76 в 11:53, 5-мин до 26°C; профиль evening — пропуск",
    "bet": null,
    "winner": null
+  },
+  "san-francisco": {
+   "bucket": "72-73°F",
+   "prob_pct": 55,
+   "last": 68.0,
+   "bid": 47.0,
+   "ask": 68.0,
+   "cut": "23:05 Минск",
+   "rationale": "лидер (mid 58); консенсус 72.8/NBM 72.8 = лидер; факт 71 в 11:56, 5-мин 22°C плоско; Kalshi для SFO не сигнал; профиль deviation_only — пропуск",
+   "bet": null,
+   "winner": null
   }
  },
  "evening_entries": {
