@@ -1,6 +1,47 @@
 {
  "date": "2026-09-15",
- "picks": {},
+ "picks": {
+  "singapore": {
+   "bucket": "33°C",
+   "prob_pct": 72,
+   "last": 75.0,
+   "bid": 74.0,
+   "ask": 76.0,
+   "cut": "04:05 Минск",
+   "rationale": "лидер 75¢; консенсус 33.1; профиль evening_leader — дороже 55¢, вход пропущен",
+   "bet": null,
+   "winner": null,
+   "pilot": true
+  },
+  "tel-aviv": {
+   "bucket": "34°C",
+   "prob_pct": 65,
+   "last": 68.0,
+   "bid": 69.0,
+   "ask": 70.0,
+   "cut": "04:05 Минск",
+   "rationale": "лидер 68¢; консенсус 33.9 = лидер; профиль deviation_only — пропуск; вход доступен без эджа",
+   "bet": null,
+   "winner": null,
+   "pilot": true
+  },
+  "kuala-lumpur": {
+   "bucket": "34°C",
+   "prob_pct": 45,
+   "last": 65.0,
+   "bid": 65.0,
+   "ask": 69.0,
+   "cut": "04:05 Минск",
+   "rationale": "первый утренний срез (профиль morning): консенсус 33.8 = лидер 34 по 67 mid, эджа ≥10 нет — пропуск; справочно вход по бэктесту 34@67",
+   "bet": null,
+   "winner": null,
+   "pilot": true,
+   "backtest_entry": {
+    "bucket": "34°C",
+    "price": 67
+   }
+  }
+ },
  "evening_entries": {
   "atlanta": {
    "bucket": "90-91°F",
