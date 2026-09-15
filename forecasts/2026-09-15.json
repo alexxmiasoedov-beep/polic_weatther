@@ -113,6 +113,17 @@
    "rationale": "лидер (mid 58); консенсус 72.8/NBM 72.8 = лидер; факт 71 в 11:56, 5-мин 22°C плоско; Kalshi для SFO не сигнал; профиль deviation_only — пропуск",
    "bet": null,
    "winner": null
+  },
+  "atlanta": {
+   "bucket": "90-91°F",
+   "prob_pct": 85,
+   "last": 88.0,
+   "bid": 86.0,
+   "ask": 88.0,
+   "cut": "23:25 Минск",
+   "rationale": "факт 90.0 ровно в 15:52 (32.2°C) после 89→88; 5-мин 32 плоско, TCU; до 92 запас 1.1°C; PM 88, Kalshi 89-90 66; консенсус 90.8; вход пропущен",
+   "bet": null,
+   "winner": null
   }
  },
  "evening_entries": {
