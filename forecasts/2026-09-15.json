@@ -10,8 +10,10 @@
    "cut": "04:05 Минск",
    "rationale": "лидер 75¢; консенсус 33.1; профиль evening_leader — дороже 55¢, вход пропущен",
    "bet": null,
-   "winner": null,
-   "pilot": true
+   "winner": "33°C",
+   "pilot": true,
+   "hit": true,
+   "pnl_pick": 0.333
   },
   "tel-aviv": {
    "bucket": "34°C",
@@ -22,8 +24,10 @@
    "cut": "04:05 Минск",
    "rationale": "лидер 68¢; консенсус 33.9 = лидер; профиль deviation_only — пропуск; вход доступен без эджа",
    "bet": null,
-   "winner": null,
-   "pilot": true
+   "winner": "34°C",
+   "pilot": true,
+   "hit": true,
+   "pnl_pick": 0.471
   },
   "kuala-lumpur": {
    "bucket": "34°C",
@@ -34,12 +38,16 @@
    "cut": "04:05 Минск",
    "rationale": "первый утренний срез (профиль morning): консенсус 33.8 = лидер 34 по 67 mid, эджа ≥10 нет — пропуск; справочно вход по бэктесту 34@67",
    "bet": null,
-   "winner": null,
+   "winner": "33°C",
    "pilot": true,
    "backtest_entry": {
     "bucket": "34°C",
-    "price": 67
-   }
+    "price": 67,
+    "hit": false,
+    "pnl": -1.0
+   },
+   "hit": false,
+   "pnl_pick": -1.0
   }
  },
  "evening_entries": {
