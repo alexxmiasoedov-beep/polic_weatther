@@ -390,7 +390,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-12T16:21:25Z",
-   "winner": null
+   "winner": "16°C"
   },
   "singapore": {
    "bucket": "33°C",
@@ -454,7 +454,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-12T16:21:25Z",
-   "winner": null
+   "winner": "33°C"
   },
   "tel-aviv": {
    "bucket": "32°C",
@@ -511,7 +511,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-12T16:21:25Z",
-   "winner": null
+   "winner": "26°C"
   },
   "dallas": {
    "bucket": "100-101°F",
