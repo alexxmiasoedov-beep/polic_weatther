@@ -125,6 +125,18 @@
    "bet": null,
    "winner": null,
    "hit": null
+  },
+  "austin": {
+   "bucket": "98-99°F",
+   "prob_pct": 88,
+   "last": 87.0,
+   "bid": 86.0,
+   "ask": 95.0,
+   "cut": "00:25 Минск",
+   "rationale": "KAUS max 99.0 в 15:53, 5-мин плато 36-37°C; Kalshi 98-99 90; монитор 100-101@24 (справочно) проигрывает",
+   "bet": null,
+   "winner": null,
+   "hit": null
   }
  },
  "evening_entries": {
