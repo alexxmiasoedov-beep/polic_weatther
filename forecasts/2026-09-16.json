@@ -669,5 +669,21 @@
    "ts_utc": "2026-09-15T16:21:47Z",
    "winner": null
   }
+ },
+ "monitor_bets": {
+  "austin": {
+   "bucket": "100-101°F",
+   "limit": 24,
+   "bet_bid": 22.0,
+   "bet_ask": 48.0,
+   "prob_pct": 55,
+   "edge_pp": 31,
+   "size": 1.0,
+   "kind": "kalshi_lag",
+   "reference": true,
+   "ts_utc": "2026-09-16T19:58:00Z",
+   "note": "Kalshi 100-101 62 vs PM 48 (22/48); KAUS 97.0 в 19:53Z, 5-мин 37°C; справочно (ревизия 16.09)",
+   "winner": null
+  }
  }
 }
