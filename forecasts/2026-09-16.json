@@ -64,6 +64,43 @@
    "bet": null,
    "winner": null,
    "hit": null
+  },
+  "houston": {
+   "bucket": "94-95°F",
+   "prob_pct": 75,
+   "last": 78.0,
+   "bid": 68.0,
+   "ask": 81.0,
+   "cut": "22:05 Минск",
+   "rationale": "лидер 78¢, консенсус 95.2, Kalshi 84, KHOU 93.0 в 13:53 и греется",
+   "bet": null,
+   "winner": null,
+   "hit": null
+  },
+  "dallas": {
+   "bucket": "98-99°F",
+   "prob_pct": 55,
+   "last": 63.0,
+   "bid": 58.0,
+   "ask": 63.0,
+   "cut": "22:05 Минск",
+   "rationale": "лидер 63¢, консенсус 99.4/NBM 99.6 → 98-99, спор с ECMWF/ICON (100-101); KDAL 96.1 в 13:53",
+   "bet": null,
+   "winner": null,
+   "hit": null,
+   "pilot": true
+  },
+  "los-angeles": {
+   "bucket": "78-79°F",
+   "prob_pct": 55,
+   "last": 53.0,
+   "bid": 43.0,
+   "ask": 53.0,
+   "cut": "22:05 Минск",
+   "rationale": "KLAX 78.1 уже в 11:53; Kalshi 79-80 71; рынок переезжает с 76-77 на 78-79; риск 80-81 как вчера",
+   "bet": null,
+   "winner": null,
+   "hit": null
   }
  },
  "evening_entries": {
