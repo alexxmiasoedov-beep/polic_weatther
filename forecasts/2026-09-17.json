@@ -103,6 +103,18 @@
    "bet": null,
    "winner": null,
    "hit": null
+  },
+  "atlanta": {
+   "bucket": "90-91°F",
+   "prob_pct": 80,
+   "last": 59.0,
+   "bid": 70.0,
+   "ask": 81.0,
+   "cut": "23:25 Минск",
+   "rationale": "KATL 89.1 в 15:52, 5-мин 32°C; Kalshi 90-91 99 — CLI видел тик; фаворит 90-91@64 держится",
+   "bet": null,
+   "winner": null,
+   "hit": null
   }
  },
  "favorites": {
