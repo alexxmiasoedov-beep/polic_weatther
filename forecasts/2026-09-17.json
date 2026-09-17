@@ -115,6 +115,18 @@
    "bet": null,
    "winner": null,
    "hit": null
+  },
+  "austin": {
+   "bucket": "96-97°F",
+   "prob_pct": 95,
+   "last": 98.0,
+   "bid": 93.0,
+   "ask": 98.0,
+   "cut": "00:25 Минск",
+   "rationale": "KAUS max 96.1 в 15:53, плато; фаворит 98-99@56 проиграл",
+   "bet": null,
+   "winner": null,
+   "hit": null
   }
  },
  "favorites": {
