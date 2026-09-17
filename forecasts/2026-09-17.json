@@ -42,6 +42,18 @@
    "hit": true,
    "pilot": true,
    "pnl_pick": 0.818
+  },
+  "miami": {
+   "bucket": "80-81°F",
+   "prob_pct": 50,
+   "last": 25.5,
+   "bid": 31.5,
+   "ask": 49.9,
+   "cut": "20:05 Минск",
+   "rationale": "дождь с полудня, max 81.0 в 09:53; Kalshi ≤83 79; фаворит 86-87@52 проигрывает",
+   "bet": null,
+   "winner": null,
+   "hit": null
   }
  },
  "favorites": {
