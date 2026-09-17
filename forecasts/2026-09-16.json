@@ -62,8 +62,9 @@
    "cut": "20:05 Минск",
    "rationale": "лидер 78¢; часовой max 91.0 (15:53Z), 16:53Z 90.0 с CB; консенсус 89.9; Kalshi 92-93 79 = конфликт площадок (5-мин гребень 33°C), PM-лидер остаётся",
    "bet": null,
-   "winner": null,
-   "hit": null
+   "winner": "90-91°F",
+   "hit": true,
+   "pnl_pick": 0.282
   },
   "houston": {
    "bucket": "94-95°F",
@@ -74,8 +75,9 @@
    "cut": "22:05 Минск",
    "rationale": "лидер 78¢, консенсус 95.2, Kalshi 84, KHOU 93.0 в 13:53 и греется",
    "bet": null,
-   "winner": null,
-   "hit": null
+   "winner": "92-93°F",
+   "hit": false,
+   "pnl_pick": -1.0
   },
   "dallas": {
    "bucket": "98-99°F",
@@ -86,9 +88,10 @@
    "cut": "22:05 Минск",
    "rationale": "лидер 63¢, консенсус 99.4/NBM 99.6 → 98-99, спор с ECMWF/ICON (100-101); KDAL 96.1 в 13:53",
    "bet": null,
-   "winner": null,
-   "hit": null,
-   "pilot": true
+   "winner": "98-99°F",
+   "hit": true,
+   "pilot": true,
+   "pnl_pick": 0.587
   },
   "los-angeles": {
    "bucket": "78-79°F",
@@ -99,8 +102,9 @@
    "cut": "22:05 Минск",
    "rationale": "KLAX 78.1 уже в 11:53; Kalshi 79-80 71; рынок переезжает с 76-77 на 78-79; риск 80-81 как вчера",
    "bet": null,
-   "winner": null,
-   "hit": null
+   "winner": "78-79°F",
+   "hit": true,
+   "pnl_pick": 0.887
   },
   "san-francisco": {
    "bucket": "66-67°F",
@@ -123,8 +127,9 @@
    "cut": "23:25 Минск",
    "rationale": "KATL max 88.0 в 15:52, 5-мин 31-32°C; Kalshi 70 за; утренний лидер 90-91 не состоялся",
    "bet": null,
-   "winner": null,
-   "hit": null
+   "winner": "88-89°F",
+   "hit": true,
+   "pnl_pick": 0.124
   },
   "austin": {
    "bucket": "98-99°F",
@@ -135,8 +140,9 @@
    "cut": "00:25 Минск",
    "rationale": "KAUS max 99.0 в 15:53, 5-мин плато 36-37°C; Kalshi 98-99 90; монитор 100-101@24 (справочно) проигрывает",
    "bet": null,
-   "winner": null,
-   "hit": null
+   "winner": "98-99°F",
+   "hit": true,
+   "pnl_pick": 0.149
   }
  },
  "evening_entries": {
@@ -169,7 +175,8 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-15T16:21:54Z",
-   "winner": null
+   "winner": "88-89°F",
+   "hit": true
   },
   "austin": {
    "bucket": "100-101°F",
@@ -200,7 +207,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-15T16:21:54Z",
-   "winner": null
+   "winner": "98-99°F",
+   "hit": false,
+   "pnl_entry": -1.0
   },
   "houston": {
    "bucket": "94-95°F",
@@ -231,7 +240,8 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-15T16:21:54Z",
-   "winner": null
+   "winner": "92-93°F",
+   "hit": false
   },
   "los-angeles": {
    "bucket": "74-75°F",
@@ -262,7 +272,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-15T16:21:54Z",
-   "winner": null
+   "winner": "78-79°F",
+   "hit": false,
+   "pnl_entry": -1.0
   },
   "miami": {
    "bucket": "88-89°F",
@@ -293,7 +305,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-15T16:21:54Z",
-   "winner": null
+   "winner": "90-91°F",
+   "hit": false,
+   "pnl_entry": -1.0
   },
   "san-francisco": {
    "bucket": "68-69°F",
@@ -617,7 +631,9 @@
    "size": 0.5,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-15T16:21:47Z",
-   "winner": null
+   "winner": "98-99°F",
+   "hit": false,
+   "pnl_entry": -0.5
   },
   "toronto": {
    "bucket": "24°C",
@@ -645,7 +661,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-15T16:21:47Z",
-   "winner": null
+   "winner": "25°C"
   },
   "denver": {
    "bucket": "84-85°F",
@@ -675,7 +691,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-15T16:21:47Z",
-   "winner": null
+   "winner": "88-89°F"
   },
   "mexico-city": {
    "bucket": "26°C",
@@ -703,7 +719,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-15T16:21:47Z",
-   "winner": null
+   "winner": "26°C"
   }
  },
  "monitor_bets": {
@@ -719,7 +735,10 @@
    "reference": true,
    "ts_utc": "2026-09-16T19:58:00Z",
    "note": "Kalshi 100-101 62 vs PM 48 (22/48); KAUS 97.0 в 19:53Z, 5-мин 37°C; справочно (ревизия 16.09)",
-   "winner": null
+   "winner": "98-99°F",
+   "hit": false,
+   "pnl": -1.0,
+   "fill_confirmed": true
   }
  }
 }
