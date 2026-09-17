@@ -91,6 +91,18 @@
    "bet": null,
    "winner": null,
    "hit": null
+  },
+  "san-francisco": {
+   "bucket": "70-71°F",
+   "prob_pct": 55,
+   "last": 54.0,
+   "bid": 52.0,
+   "ask": 54.0,
+   "cut": "23:05 Минск",
+   "rationale": "лидер 54¢; KSFO 68.0 в 12:56 при слабом ветре; NWS 72.2; Kalshi 71-72 51",
+   "bet": null,
+   "winner": null,
+   "hit": null
   }
  },
  "favorites": {
