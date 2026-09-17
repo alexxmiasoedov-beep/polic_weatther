@@ -1,6 +1,46 @@
 {
  "date": "2026-09-17",
- "picks": {},
+ "picks": {
+  "singapore": {
+   "bucket": "33°C",
+   "prob_pct": 70,
+   "last": 69.0,
+   "bid": 68.0,
+   "ask": 70.0,
+   "cut": "04:05 Минск",
+   "rationale": "лидер 69¢, консенсус 32.7→33; фаворит 33@67 держится",
+   "bet": null,
+   "winner": null,
+   "hit": null,
+   "pilot": true
+  },
+  "tel-aviv": {
+   "bucket": "34°C",
+   "prob_pct": 65,
+   "last": 80.0,
+   "bid": 73.0,
+   "ask": 79.0,
+   "cut": "04:05 Минск",
+   "rationale": "лидер 80¢, консенсус 34.6 на границе 34/35; фаворит 34@65 держится",
+   "bet": null,
+   "winner": null,
+   "hit": null,
+   "pilot": true
+  },
+  "kuala-lumpur": {
+   "bucket": "33°C",
+   "prob_pct": 50,
+   "last": 55.0,
+   "bid": 52.0,
+   "ask": 55.0,
+   "cut": "04:05 Минск",
+   "rationale": "лидер 55¢, консенсус 32.35→32 против; фаворит 33@52 под вопросом",
+   "bet": null,
+   "winner": null,
+   "hit": null,
+   "pilot": true
+  }
+ },
  "favorites": {
   "amsterdam": {
    "bucket": "18°C",
