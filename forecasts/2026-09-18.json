@@ -103,6 +103,18 @@
    "bet": null,
    "winner": null,
    "hit": null
+  },
+  "atlanta": {
+   "bucket": "92-93°F",
+   "prob_pct": 50,
+   "last": 46.0,
+   "bid": 37.0,
+   "ask": 49.0,
+   "cut": "23:25 Минск",
+   "rationale": "KATL max 93.0 в 15:52, 5-мин 34°C без запаса; Kalshi 92-93 77; фаворит 94-95@66 под угрозой",
+   "bet": null,
+   "winner": null,
+   "hit": null
   }
  },
  "favorites": {
