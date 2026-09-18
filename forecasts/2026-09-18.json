@@ -54,6 +54,43 @@
    "bet": null,
    "winner": null,
    "hit": null
+  },
+  "houston": {
+   "bucket": "92-93°F",
+   "prob_pct": 70,
+   "last": 62.0,
+   "bid": 50.0,
+   "ask": 60.0,
+   "cut": "22:05 Минск",
+   "rationale": "лидер 62¢, консенсус 92.6, Kalshi 78; KHOU 91.0 в 13:53; фаворит 92-93@55 держится",
+   "bet": null,
+   "winner": null,
+   "hit": null
+  },
+  "dallas": {
+   "bucket": "98-99°F",
+   "prob_pct": 50,
+   "last": 49.0,
+   "bid": 45.0,
+   "ask": 50.0,
+   "cut": "22:05 Минск",
+   "rationale": "96-97 и 98-99 по 49; консенсус 97.35; правило вверх; KDAL 96.1 в 13:53 и греется",
+   "bet": null,
+   "winner": null,
+   "hit": null,
+   "pilot": true
+  },
+  "los-angeles": {
+   "bucket": "76-77°F",
+   "prob_pct": 65,
+   "last": 74.0,
+   "bid": 71.0,
+   "ask": 82.0,
+   "cut": "22:05 Минск",
+   "rationale": "KLAX 75.9 в 11:53; NBM 77.3; Kalshi 76-77 59; фаворит 76-77@61 держится",
+   "bet": null,
+   "winner": null,
+   "hit": null
   }
  },
  "favorites": {
