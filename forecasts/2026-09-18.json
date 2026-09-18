@@ -42,6 +42,18 @@
    "hit": true,
    "pilot": true,
    "pnl_pick": 1.564
+  },
+  "miami": {
+   "bucket": "88-89°F",
+   "prob_pct": 92,
+   "last": 94.0,
+   "bid": 92.0,
+   "ask": 94.0,
+   "cut": "20:05 Минск",
+   "rationale": "max 88.0 в 11:53, дождь с 12:53; Kalshi 96; фаворит пропуск",
+   "bet": null,
+   "winner": null,
+   "hit": null
   }
  },
  "favorites": {
