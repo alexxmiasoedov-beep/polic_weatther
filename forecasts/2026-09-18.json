@@ -787,6 +787,20 @@
    "ts_utc": "2026-09-18T18:58:00Z",
    "note": "Kalshi 93-94(+1)=PM 92-93 74¢ vs PM 20¢; KATL 90.0 в 17:52Z, 5-мин 33°C растёт; справочно",
    "winner": null
+  },
+  "austin": {
+   "bucket": "98-99°F",
+   "limit": 44,
+   "bet_bid": 42.0,
+   "bet_ask": 51.0,
+   "prob_pct": 55,
+   "edge_pp": 11,
+   "size": 0.5,
+   "kind": "kalshi_lag",
+   "reference": true,
+   "ts_utc": "2026-09-18T19:58:00Z",
+   "note": "Kalshi 98-99 76 vs PM 40 (42/51); KAUS 95.0 плато, 5-мин 36°C; справочно",
+   "winner": null
   }
  }
 }
