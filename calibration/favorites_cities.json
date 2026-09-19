@@ -1,0 +1,125 @@
+{
+ "updated": "2026-09-19",
+ "rule": "n>=7 and roi>=0.08 in rolling live-mechanic backtest",
+ "active": [
+  "istanbul",
+  "kuala-lumpur",
+  "los-angeles",
+  "miami",
+  "milan",
+  "singapore",
+  "tel-aviv"
+ ],
+ "stats": {
+  "austin": {
+   "n": 12,
+   "hit": 7,
+   "pnl": 0.02
+  },
+  "miami": {
+   "n": 13,
+   "hit": 9,
+   "pnl": 3.15
+  },
+  "seattle": {
+   "n": 7,
+   "hit": 4,
+   "pnl": 0.48
+  },
+  "houston": {
+   "n": 7,
+   "hit": 3,
+   "pnl": -1.78
+  },
+  "atlanta": {
+   "n": 9,
+   "hit": 4,
+   "pnl": -2.27
+  },
+  "los-angeles": {
+   "n": 8,
+   "hit": 6,
+   "pnl": 2.31
+  },
+  "san-francisco": {
+   "n": 1,
+   "hit": 1,
+   "pnl": 0.85
+  },
+  "singapore": {
+   "n": 8,
+   "hit": 8,
+   "pnl": 4.54
+  },
+  "kuala-lumpur": {
+   "n": 13,
+   "hit": 8,
+   "pnl": 1.07
+  },
+  "tel-aviv": {
+   "n": 9,
+   "hit": 6,
+   "pnl": 0.73
+  },
+  "dallas": {
+   "n": 8,
+   "hit": 5,
+   "pnl": 0.36
+  },
+  "wellington": {
+   "n": 10,
+   "hit": 6,
+   "pnl": -0.16
+  },
+  "milan": {
+   "n": 7,
+   "hit": 6,
+   "pnl": 3.42
+  },
+  "moscow": {
+   "n": 6,
+   "hit": 3,
+   "pnl": -0.85
+  },
+  "toronto": {
+   "n": 3,
+   "hit": 1,
+   "pnl": -1.25
+  },
+  "london": {
+   "n": 6,
+   "hit": 2,
+   "pnl": -2.32
+  },
+  "amsterdam": {
+   "n": 7,
+   "hit": 3,
+   "pnl": -2.12
+  },
+  "denver": {
+   "n": 2,
+   "hit": 0,
+   "pnl": -2.0
+  },
+  "istanbul": {
+   "n": 7,
+   "hit": 5,
+   "pnl": 0.94
+  },
+  "mexico-city": {
+   "n": 5,
+   "hit": 4,
+   "pnl": 2.47
+  },
+  "shanghai": {
+   "n": 7,
+   "hit": 4,
+   "pnl": -0.77
+  },
+  "helsinki": {
+   "n": 6,
+   "hit": 3,
+   "pnl": -1.4
+  }
+ }
+}
