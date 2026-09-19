@@ -156,9 +156,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-17T16:21:37Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "92-93°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "austin": {
    "bucket": "98-99°F",
@@ -171,9 +171,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-17T16:21:37Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "96-97°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "dallas": {
    "bucket": "98-99°F",
@@ -186,8 +186,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-17T16:21:31Z",
-   "winner": null,
-   "hit": null,
+   "winner": "96-97°F",
+   "hit": false,
    "pnl": null
   },
   "denver": {
@@ -201,9 +201,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-17T16:21:31Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "86-87°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "helsinki": {
    "bucket": "15°C",
@@ -231,9 +231,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-17T16:21:37Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "92-93°F",
+   "hit": true,
+   "pnl": 0.818
   },
   "istanbul": {
    "bucket": "23°C",
@@ -291,9 +291,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-17T16:21:37Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "76-77°F",
+   "hit": true,
+   "pnl": 0.639
   },
   "mexico-city": {
    "bucket": "25°C or higher",
@@ -306,8 +306,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-17T16:21:31Z",
-   "winner": null,
-   "hit": null,
+   "winner": "24°C",
+   "hit": false,
    "pnl": null
   },
   "miami": {
@@ -321,8 +321,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-17T16:21:37Z",
-   "winner": null,
-   "hit": null,
+   "winner": "88-89°F",
+   "hit": true,
    "pnl": null
   },
   "milan": {
@@ -366,8 +366,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-17T16:21:37Z",
-   "winner": null,
-   "hit": null,
+   "winner": "68-69°F",
+   "hit": false,
    "pnl": null
   },
   "seattle": {
@@ -381,8 +381,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-17T16:21:37Z",
-   "winner": null,
-   "hit": null,
+   "winner": "68-69°F",
+   "hit": false,
    "pnl": null
   },
   "shanghai": {
@@ -441,8 +441,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-17T16:21:31Z",
-   "winner": null,
-   "hit": null,
+   "winner": "21°C",
+   "hit": true,
    "pnl": null
   },
   "wellington": {
