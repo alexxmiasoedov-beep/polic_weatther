@@ -42,6 +42,18 @@
    "hit": true,
    "pilot": true,
    "pnl_pick": 1.564
+  },
+  "miami": {
+   "bucket": "88-89°F",
+   "prob_pct": 45,
+   "last": 52.0,
+   "bid": 32.0,
+   "ask": 38.0,
+   "cut": "20:05 Минск",
+   "rationale": "max 86.0 в 12:53, 5-мин 31°C растёт; Kalshi 88-89 59; биды за 86-87; гроза в модели",
+   "bet": null,
+   "winner": null,
+   "hit": null
   }
  },
  "favorites": {
