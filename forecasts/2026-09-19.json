@@ -115,6 +115,18 @@
    "bet": null,
    "winner": null,
    "hit": null
+  },
+  "austin": {
+   "bucket": "96-97°F",
+   "prob_pct": 92,
+   "last": 96.0,
+   "bid": 90.0,
+   "ask": 96.0,
+   "cut": "00:25 Минск",
+   "rationale": "KAUS max 97.0 в 15:53, остывает; Kalshi 96-97 93; фаворит 98-99@55 проиграл",
+   "bet": null,
+   "winner": null,
+   "hit": null
   }
  },
  "favorites": {
