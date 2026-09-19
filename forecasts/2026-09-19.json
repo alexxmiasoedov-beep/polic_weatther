@@ -1020,5 +1020,21 @@
    "ts_utc": "2026-09-18T16:21:13Z",
    "winner": null
   }
+ },
+ "monitor_bets": {
+  "atlanta": {
+   "bucket": "90-91°F",
+   "limit": 17,
+   "bet_bid": 15.0,
+   "bet_ask": 26.0,
+   "prob_pct": 55,
+   "edge_pp": 38,
+   "size": 1.0,
+   "kind": "fact_flip",
+   "reference": true,
+   "ts_utc": "2026-09-19T18:58:00Z",
+   "note": "часовой 18:52Z = 90.0°F при лидере PM 88-89; 5-мин 32°C растёт; справочно",
+   "winner": null
+  }
  }
 }
