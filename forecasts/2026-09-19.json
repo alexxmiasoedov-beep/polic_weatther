@@ -10,9 +10,10 @@
    "cut": "04:05 Минск",
    "rationale": "лидер 56¢, консенсус 32.3→32 спорит; фаворит пропуск",
    "bet": null,
-   "winner": null,
-   "hit": null,
-   "pilot": true
+   "winner": "34°C",
+   "hit": false,
+   "pilot": true,
+   "pnl_pick": -1.0
   },
   "tel-aviv": {
    "bucket": "30°C",
@@ -23,9 +24,10 @@
    "cut": "04:05 Минск",
    "rationale": "лидер 76¢, консенсус 29.6→30; фаворит 30@69 держится",
    "bet": null,
-   "winner": null,
-   "hit": null,
-   "pilot": true
+   "winner": "30°C",
+   "hit": true,
+   "pilot": true,
+   "pnl_pick": 0.316
   },
   "kuala-lumpur": {
    "bucket": "32°C",
@@ -36,9 +38,10 @@
    "cut": "04:05 Минск",
    "rationale": "лидер 39¢, консенсус 31.15→31; фаворит пропуск",
    "bet": null,
-   "winner": null,
-   "hit": null,
-   "pilot": true
+   "winner": "32°C",
+   "hit": true,
+   "pilot": true,
+   "pnl_pick": 1.564
   }
  },
  "favorites": {
@@ -53,9 +56,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "20°C",
+   "hit": false,
+   "pnl": -1.0
   },
   "atlanta": {
    "bucket": "94-95°F",
@@ -128,9 +131,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "16°C",
+   "hit": false,
+   "pnl": -1.0
   },
   "houston": {
    "bucket": "92-93°F",
@@ -158,9 +161,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "24°C",
+   "hit": true,
+   "pnl": 0.449
   },
   "kuala-lumpur": {
    "bucket": "32°C",
@@ -173,8 +176,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null,
-   "hit": null,
+   "winner": "32°C",
+   "hit": true,
    "pnl": null
   },
   "london": {
@@ -188,9 +191,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "22°C",
+   "hit": true,
+   "pnl": 1.0
   },
   "los-angeles": {
    "bucket": "76-77°F",
@@ -248,9 +251,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "26°C",
+   "hit": true,
+   "pnl": 0.471
   },
   "moscow": {
    "bucket": "18°C",
@@ -263,8 +266,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null,
-   "hit": null,
+   "winner": "18°C",
+   "hit": true,
    "pnl": null
   },
   "san-francisco": {
@@ -308,9 +311,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "27°C",
+   "hit": false,
+   "pnl": -1.0
   },
   "singapore": {
    "bucket": "32°C",
@@ -323,8 +326,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null,
-   "hit": null,
+   "winner": "34°C",
+   "hit": false,
    "pnl": null
   },
   "tel-aviv": {
@@ -338,9 +341,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "30°C",
+   "hit": true,
+   "pnl": 0.449
   },
   "toronto": {
    "bucket": "18°C",
@@ -368,9 +371,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "15°C",
+   "hit": false,
+   "pnl": -1.0
   }
  },
  "evening_entries": {
@@ -593,7 +596,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null
+   "winner": "15°C"
   },
   "singapore": {
    "bucket": "32°C",
@@ -628,7 +631,11 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null
+   "winner": "34°C",
+   "hit": false,
+   "pnl_entry": -1.0,
+   "pair_hit": false,
+   "pnl_pair": -1.0
   },
   "kuala-lumpur": {
    "bucket": "31°C",
@@ -656,7 +663,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null
+   "winner": "32°C",
+   "hit": false,
+   "pnl_entry": -1.0
   },
   "shanghai": {
    "bucket": "28°C",
@@ -684,7 +693,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null
+   "winner": "27°C"
   },
   "tel-aviv": {
    "bucket": "30°C",
@@ -712,7 +721,8 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null
+   "winner": "30°C",
+   "hit": true
   },
   "moscow": {
    "bucket": "18°C",
@@ -740,7 +750,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null
+   "winner": "18°C"
   },
   "helsinki": {
    "bucket": "17°C",
@@ -768,7 +778,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null
+   "winner": "16°C"
   },
   "istanbul": {
    "bucket": "24°C",
@@ -796,7 +806,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null
+   "winner": "24°C"
   },
   "milan": {
    "bucket": "25°C",
@@ -824,7 +834,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null
+   "winner": "26°C"
   },
   "amsterdam": {
    "bucket": "21°C",
@@ -852,7 +862,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null
+   "winner": "20°C"
   },
   "london": {
    "bucket": "22°C",
@@ -880,7 +890,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-18T16:21:13Z",
-   "winner": null
+   "winner": "22°C"
   },
   "toronto": {
    "bucket": "17°C",
