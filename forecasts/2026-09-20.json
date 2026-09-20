@@ -90,6 +90,18 @@
    "bet": null,
    "winner": null,
    "hit": null
+  },
+  "san-francisco": {
+   "bucket": "64-65°F",
+   "prob_pct": 50,
+   "last": 63.0,
+   "bid": 32.0,
+   "ask": 66.0,
+   "cut": "23:05 Минск",
+   "rationale": "KSFO 62.1 в 12:56 при бризе 12 kt; консенсус 63.8; риск 62-63",
+   "bet": null,
+   "winner": null,
+   "hit": null
   }
  },
  "favorites": {
