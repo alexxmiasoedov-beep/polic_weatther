@@ -712,5 +712,21 @@
    "ts_utc": "2026-09-19T16:20:46Z",
    "winner": "28°C"
   }
+ },
+ "monitor_bets": {
+  "austin": {
+   "bucket": "98-99°F",
+   "limit": 26,
+   "bet_bid": 24.0,
+   "bet_ask": 32.0,
+   "prob_pct": 40,
+   "edge_pp": 12,
+   "size": 0.5,
+   "kind": "kalshi_lag",
+   "reference": true,
+   "ts_utc": "2026-09-20T18:58:00Z",
+   "note": "Kalshi 99-100 56 vs PM 36; KAUS 93.9 плато, 5-мин 35°C; справочно, сетап проигрывал 16.09 и 18.09",
+   "winner": null
+  }
  }
 }
