@@ -41,6 +41,18 @@
    "hit": true,
    "pilot": true,
    "pnl_pick": 1.326
+  },
+  "miami": {
+   "bucket": "88-89°F",
+   "prob_pct": 60,
+   "last": 68.0,
+   "bid": 60.0,
+   "ask": 68.0,
+   "cut": "20:05 Минск",
+   "rationale": "KMIA 87.1 в 12:53 после утреннего дождя, растёт; Kalshi 62; риск грозы",
+   "bet": null,
+   "winner": null,
+   "hit": null
   }
  },
  "favorites": {
