@@ -10,9 +10,10 @@
    "cut": "04:05 Минск",
    "rationale": "лидер 67¢, консенсус 33.2→33; фаворит 33@63 держится",
    "bet": null,
-   "winner": null,
-   "hit": null,
-   "pilot": true
+   "winner": "33°C",
+   "hit": true,
+   "pilot": true,
+   "pnl_pick": 0.493
   },
   "tel-aviv": {
    "bucket": "31°C",
@@ -23,9 +24,10 @@
    "cut": "04:05 Минск",
    "rationale": "лидер 55¢, консенсус 30.4→30 против; фаворит 31@52 держится",
    "bet": null,
-   "winner": null,
-   "hit": null,
-   "pilot": true
+   "winner": "30°C",
+   "hit": false,
+   "pilot": true,
+   "pnl_pick": -1.0
   },
   "kuala-lumpur": {
    "bucket": "32°C",
@@ -36,9 +38,10 @@
    "cut": "04:05 Минск",
    "rationale": "спор 32/33 по 37/36; консенсус 32.5 на границе; фаворит пропуск",
    "bet": null,
-   "winner": null,
-   "hit": null,
-   "pilot": true
+   "winner": "33°C",
+   "hit": false,
+   "pilot": true,
+   "pnl_pick": -1.0
   }
  },
  "favorites": {
@@ -562,7 +565,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-20T16:20:59Z",
-   "winner": null
+   "winner": "15°C"
   },
   "singapore": {
    "bucket": "33°C",
@@ -590,7 +593,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-20T16:20:59Z",
-   "winner": null
+   "winner": "33°C"
   },
   "kuala-lumpur": {
    "bucket": "32°C",
@@ -618,7 +621,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-20T16:20:59Z",
-   "winner": null
+   "winner": "33°C"
   },
   "shanghai": {
    "bucket": "28°C",
@@ -646,7 +649,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-20T16:20:59Z",
-   "winner": null
+   "winner": "29°C"
   },
   "tel-aviv": {
    "bucket": "30°C",
@@ -674,7 +677,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-20T16:20:59Z",
-   "winner": null
+   "winner": "30°C"
   },
   "dallas": {
    "bucket": "94-95°F",

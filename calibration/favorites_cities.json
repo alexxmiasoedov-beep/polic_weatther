@@ -1,7 +1,8 @@
 {
- "updated": "2026-09-19",
+ "updated": "2026-09-21",
  "rule": "n>=7 and roi>=0.08 in rolling live-mechanic backtest",
  "active": [
+  "dallas",
   "istanbul",
   "kuala-lumpur",
   "los-angeles",
@@ -12,9 +13,9 @@
  ],
  "stats": {
   "austin": {
-   "n": 12,
+   "n": 14,
    "hit": 7,
-   "pnl": 0.02
+   "pnl": -1.98
   },
   "miami": {
    "n": 13,
@@ -27,9 +28,9 @@
    "pnl": 0.48
   },
   "houston": {
-   "n": 7,
-   "hit": 3,
-   "pnl": -1.78
+   "n": 9,
+   "hit": 4,
+   "pnl": -2.19
   },
   "atlanta": {
    "n": 9,
@@ -57,24 +58,24 @@
    "pnl": 1.07
   },
   "tel-aviv": {
-   "n": 9,
-   "hit": 6,
-   "pnl": 0.73
+   "n": 11,
+   "hit": 8,
+   "pnl": 1.72
   },
   "dallas": {
-   "n": 8,
-   "hit": 5,
-   "pnl": 0.36
+   "n": 9,
+   "hit": 6,
+   "pnl": 0.95
   },
   "wellington": {
-   "n": 10,
+   "n": 11,
    "hit": 6,
-   "pnl": -0.16
+   "pnl": -1.16
   },
   "milan": {
-   "n": 7,
-   "hit": 6,
-   "pnl": 3.42
+   "n": 9,
+   "hit": 8,
+   "pnl": 4.32
   },
   "moscow": {
    "n": 6,
@@ -87,14 +88,14 @@
    "pnl": -1.25
   },
   "london": {
-   "n": 6,
-   "hit": 2,
-   "pnl": -2.32
+   "n": 8,
+   "hit": 4,
+   "pnl": -0.47
   },
   "amsterdam": {
-   "n": 7,
-   "hit": 3,
-   "pnl": -2.12
+   "n": 9,
+   "hit": 4,
+   "pnl": -2.63
   },
   "denver": {
    "n": 2,
@@ -102,9 +103,9 @@
    "pnl": -2.0
   },
   "istanbul": {
-   "n": 7,
-   "hit": 5,
-   "pnl": 0.94
+   "n": 9,
+   "hit": 7,
+   "pnl": 1.93
   },
   "mexico-city": {
    "n": 5,
@@ -112,14 +113,14 @@
    "pnl": 2.47
   },
   "shanghai": {
-   "n": 7,
+   "n": 8,
    "hit": 4,
-   "pnl": -0.77
+   "pnl": -1.77
   },
   "helsinki": {
-   "n": 6,
-   "hit": 3,
-   "pnl": -1.4
+   "n": 8,
+   "hit": 4,
+   "pnl": -1.97
   }
  }
 }

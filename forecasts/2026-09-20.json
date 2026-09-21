@@ -51,8 +51,9 @@
    "cut": "20:05 Минск",
    "rationale": "KMIA 87.1 в 12:53 после утреннего дождя, растёт; Kalshi 62; риск грозы",
    "bet": null,
-   "winner": null,
-   "hit": null
+   "winner": "88-89°F",
+   "hit": true,
+   "pnl_pick": 0.471
   },
   "houston": {
    "bucket": "94-95°F",
@@ -63,8 +64,9 @@
    "cut": "22:05 Минск",
    "rationale": "спор 92-93/94-95; консенсус 93.9, NBM 94.6, правило вверх; KHOU 91.9 в 13:53",
    "bet": null,
-   "winner": null,
-   "hit": null
+   "winner": "92-93°F",
+   "hit": false,
+   "pnl_pick": -1.0
   },
   "dallas": {
    "bucket": "96-97°F",
@@ -75,9 +77,10 @@
    "cut": "22:05 Минск",
    "rationale": "лидер 44¢, консенсус 97.1; KDAL 93.9 без роста",
    "bet": null,
-   "winner": null,
-   "hit": null,
-   "pilot": true
+   "winner": "96-97°F",
+   "hit": true,
+   "pilot": true,
+   "pnl_pick": 1.273
   },
   "los-angeles": {
    "bucket": "76-77°F",
@@ -88,8 +91,9 @@
    "cut": "22:05 Минск",
    "rationale": "KLAX 73.9 в 11:53; NBM 77.9; Kalshi 76-77 79",
    "bet": null,
-   "winner": null,
-   "hit": null
+   "winner": "76-77°F",
+   "hit": true,
+   "pnl_pick": 0.515
   },
   "san-francisco": {
    "bucket": "64-65°F",
@@ -100,8 +104,9 @@
    "cut": "23:05 Минск",
    "rationale": "KSFO 62.1 в 12:56 при бризе 12 kt; консенсус 63.8; риск 62-63",
    "bet": null,
-   "winner": null,
-   "hit": null
+   "winner": "64-65°F",
+   "hit": true,
+   "pnl_pick": 0.587
   },
   "atlanta": {
    "bucket": "86-87°F",
@@ -112,8 +117,9 @@
    "cut": "23:25 Минск",
    "rationale": "KATL max 86.0 в 15:52, 5-мин 31°C без запаса; Kalshi 87-88 59; риск 88-89",
    "bet": null,
-   "winner": null,
-   "hit": null
+   "winner": "88-89°F",
+   "hit": false,
+   "pnl_pick": -1.0
   },
   "austin": {
    "bucket": "96-97°F",
@@ -124,8 +130,9 @@
    "cut": "00:25 Минск",
    "rationale": "KAUS 96.1 плато два часа; Kalshi 97-98 60; четвёртый день без 98",
    "bet": null,
-   "winner": null,
-   "hit": null
+   "winner": "96-97°F",
+   "hit": true,
+   "pnl_pick": 0.176
   }
  },
  "favorites": {
@@ -156,8 +163,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-19T16:20:50Z",
-   "winner": null,
-   "hit": null,
+   "winner": "88-89°F",
+   "hit": false,
    "pnl": null
   },
   "austin": {
@@ -171,9 +178,10 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-19T16:20:50Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "96-97°F",
+   "hit": false,
+   "pnl": null,
+   "pnl_ref": -1.0
   },
   "dallas": {
    "bucket": "96-97°F",
@@ -186,8 +194,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-19T16:20:46Z",
-   "winner": null,
-   "hit": null,
+   "winner": "96-97°F",
+   "hit": true,
    "pnl": null
   },
   "denver": {
@@ -201,8 +209,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-19T16:20:46Z",
-   "winner": null,
-   "hit": null,
+   "winner": "74-75°F",
+   "hit": false,
    "pnl": null
   },
   "helsinki": {
@@ -232,9 +240,10 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-19T16:20:50Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "92-93°F",
+   "hit": false,
+   "pnl": null,
+   "pnl_ref": -1.0
   },
   "istanbul": {
    "bucket": "24°C",
@@ -293,8 +302,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-19T16:20:50Z",
-   "winner": null,
-   "hit": null,
+   "winner": "76-77°F",
+   "hit": true,
    "pnl": null
   },
   "mexico-city": {
@@ -308,8 +317,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-19T16:20:46Z",
-   "winner": null,
-   "hit": null,
+   "winner": "26°C",
+   "hit": true,
    "pnl": null
   },
   "miami": {
@@ -323,8 +332,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-19T16:20:50Z",
-   "winner": null,
-   "hit": null,
+   "winner": "88-89°F",
+   "hit": true,
    "pnl": null
   },
   "milan": {
@@ -368,8 +377,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-19T16:20:50Z",
-   "winner": null,
-   "hit": null,
+   "winner": "64-65°F",
+   "hit": false,
    "pnl": null
   },
   "seattle": {
@@ -383,8 +392,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-19T16:20:50Z",
-   "winner": null,
-   "hit": null,
+   "winner": "70-71°F",
+   "hit": true,
    "pnl": null
   },
   "shanghai": {
@@ -443,8 +452,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-19T16:20:46Z",
-   "winner": null,
-   "hit": null,
+   "winner": "21°C",
+   "hit": true,
    "pnl": null
   },
   "wellington": {
@@ -493,7 +502,8 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-19T16:20:50Z",
-   "winner": null
+   "winner": "88-89°F",
+   "hit": true
   },
   "austin": {
    "bucket": "98-99°F",
@@ -531,7 +541,10 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-19T16:20:50Z",
-   "winner": null
+   "winner": "96-97°F",
+   "hit": false,
+   "pair_hit": false,
+   "pnl_pair": -1.0
   },
   "houston": {
    "bucket": "94-95°F",
@@ -562,7 +575,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-19T16:20:50Z",
-   "winner": null
+   "winner": "92-93°F",
+   "hit": false,
+   "pnl_entry": -1.0
   },
   "los-angeles": {
    "bucket": "76-77°F",
@@ -593,7 +608,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-19T16:20:50Z",
-   "winner": null
+   "winner": "76-77°F",
+   "hit": true,
+   "pnl_entry": 1.083
   },
   "miami": {
    "bucket": "86-87°F",
@@ -631,7 +648,11 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-19T16:20:50Z",
-   "winner": null
+   "winner": "88-89°F",
+   "hit": false,
+   "pnl_entry": -1.0,
+   "pair_hit": true,
+   "pnl_pair": 0.266
   },
   "san-francisco": {
    "bucket": "66-67°F",
@@ -669,7 +690,10 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-19T16:20:50Z",
-   "winner": null
+   "winner": "64-65°F",
+   "hit": false,
+   "pair_hit": true,
+   "pnl_pair": 0.449
   },
   "wellington": {
    "bucket": "14°C",
@@ -799,7 +823,10 @@
    "reference": true,
    "ts_utc": "2026-09-20T18:58:00Z",
    "note": "Kalshi 99-100 56 vs PM 36; KAUS 93.9 плато, 5-мин 35°C; справочно, сетап проигрывал 16.09 и 18.09",
-   "winner": null
+   "winner": "96-97°F",
+   "hit": false,
+   "pnl": -0.5,
+   "fill_confirmed": true
   }
  }
 }
