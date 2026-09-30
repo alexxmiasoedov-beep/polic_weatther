@@ -911,9 +911,9 @@
    "ask": 60.0,
    "ts_utc": "2026-09-29T21:55:49Z",
    "hte": 18.1,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "34°C",
+   "hit": false,
+   "pnl": -1.0
   },
   "munich": {
    "strategy": "lead:50-70@18",
@@ -931,9 +931,9 @@
    "ask": 48.0,
    "ts_utc": "2026-09-30T01:06:20Z",
    "hte": 13.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "27°C",
+   "hit": true,
+   "pnl": 1.083
   },
   "cape-town": {
    "strategy": "tail@24",
@@ -951,9 +951,24 @@
    "ask": 29.0,
    "ts_utc": "2026-09-29T15:41:13Z",
    "hte": 23.3,
+   "winner": "20°C",
+   "hit": false,
+   "pnl": -1.0
+  },
+  "madrid": {
+   "strategy": "lead:60-80@8",
+   "bucket": "29°C",
+   "ask": 72.3,
+   "ts_utc": "2026-09-30T13:54:28Z",
+   "hte": 8.1,
    "winner": null,
    "hit": null,
    "pnl": null
+  },
+  "beijing": {
+   "strategy": "lead:30-50@18",
+   "skip": true,
+   "winner": "20°C"
   }
  }
 }
