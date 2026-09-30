@@ -1,6 +1,46 @@
 {
  "date": "2026-09-30",
- "picks": {},
+ "picks": {
+  "singapore": {
+   "bucket": "32°C",
+   "prob_pct": 45,
+   "last": 49.0,
+   "bid": 48.0,
+   "ask": 49.0,
+   "cut": "04:05 Минск",
+   "pilot": true,
+   "bet": null,
+   "winner": null,
+   "hit": null,
+   "rationale": "PM 32 46→49 (48/49), 31 28, 33 16. Консенсус 30,8 (ECMWF/best 29,9–30,6, GFS 32,1, ICON 31,2) — модели ниже рынка, но вчера при консенсусе 32,65 факт 33. Лидер 32 с риском 31. Фаворит: пропуск (42¢)."
+  },
+  "tel-aviv": {
+   "bucket": "28°C",
+   "prob_pct": 65,
+   "last": 71.0,
+   "bid": 68.0,
+   "ask": 71.0,
+   "cut": "04:05 Минск",
+   "pilot": true,
+   "bet": null,
+   "winner": null,
+   "hit": null,
+   "rationale": "PM 28 64→71, 29 29. Консенсус 27,05 — модели занижают TLV четвёртый день (факты 30, 30, 29 при 28,9 / 29,7 / 27,9), поправка +1,5 даёт 28,5 → 28/29. Рынок за 28. Справочный фаворит 28 по 55 → 71, держится."
+  },
+  "kuala-lumpur": {
+   "bucket": "33°C",
+   "prob_pct": 42,
+   "last": 46.0,
+   "bid": 43.0,
+   "ask": 49.0,
+   "cut": "04:05 Минск",
+   "pilot": true,
+   "bet": null,
+   "winner": null,
+   "hit": null,
+   "rationale": "PM 33 47→46 (43/49), 32 29→36, 34 22→18. Консенсус 31,25 при расколе моделей: GFS/ICON 33, ECMWF/AIFS 29 — дождевая неопределённость. Лидер 33 с риском 32. Фаворит: пропуск (42¢)."
+  }
+ },
  "favorites": {
   "amsterdam": {
    "bucket": "24°C",
@@ -862,6 +902,58 @@
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-09-29T16:21:14Z",
    "winner": null
+  }
+ },
+ "top10": {
+  "hong-kong": {
+   "strategy": "lead:50-70@18",
+   "bucket": "33°C",
+   "ask": 60.0,
+   "ts_utc": "2026-09-29T21:55:49Z",
+   "hte": 18.1,
+   "winner": null,
+   "hit": null,
+   "pnl": null
+  },
+  "munich": {
+   "strategy": "lead:50-70@18",
+   "bucket": "25°C",
+   "ask": 52.0,
+   "ts_utc": "2026-09-30T01:06:20Z",
+   "hte": 20.9,
+   "winner": null,
+   "hit": null,
+   "pnl": null
+  },
+  "busan": {
+   "strategy": "lead:40-60@12",
+   "bucket": "27°C",
+   "ask": 48.0,
+   "ts_utc": "2026-09-30T01:06:20Z",
+   "hte": 13.9,
+   "winner": null,
+   "hit": null,
+   "pnl": null
+  },
+  "cape-town": {
+   "strategy": "tail@24",
+   "bucket": "32°C",
+   "ask": 29.0,
+   "ts_utc": "2026-09-29T21:55:49Z",
+   "hte": 24.1,
+   "winner": null,
+   "hit": null,
+   "pnl": null
+  },
+  "tokyo": {
+   "strategy": "tail@24",
+   "bucket": "22°C",
+   "ask": 29.0,
+   "ts_utc": "2026-09-29T15:41:13Z",
+   "hte": 23.3,
+   "winner": null,
+   "hit": null,
+   "pnl": null
   }
  }
 }
