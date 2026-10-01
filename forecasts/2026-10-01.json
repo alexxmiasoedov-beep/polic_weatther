@@ -62,6 +62,51 @@
    "ts_utc": "2026-10-01T17:07:08Z",
    "winner": null,
    "hit": null
+  },
+  "houston": {
+   "bucket": "90-91°F",
+   "prob_pct": 50,
+   "last": 43.0,
+   "bid": 37.0,
+   "ask": 46.0,
+   "consensus": "90-91°F (медиана 90,0; NBM 90,7)",
+   "fact": "KHOU 87.1°F 18:53Z, растёт после ливня (25.6→30.6°C), 5-мин 31°C 18:50Z",
+   "kalshi": "90-91 @65",
+   "cut": "22:05 Минск",
+   "bet": null,
+   "note": "отклонение от лидера 88-89 (45¢): Kalshi 65 + консенсус/NBM + правило ВВЕРХ",
+   "ts_utc": "2026-10-01T19:07:20Z",
+   "winner": null,
+   "hit": null
+  },
+  "dallas": {
+   "bucket": "80-81°F",
+   "prob_pct": 97,
+   "last": 99.0,
+   "bid": 98.9,
+   "ask": 99.0,
+   "consensus": "80-81°F (медиана 80,4)",
+   "fact": "KDFW max 81.0°F в 06:53Z (ночь до фронта), днём 72°F и падает",
+   "cut": "22:05 Минск",
+   "bet": null,
+   "ts_utc": "2026-10-01T18:56:01Z",
+   "winner": null,
+   "hit": null
+  },
+  "los-angeles": {
+   "bucket": "76-77°F",
+   "prob_pct": 65,
+   "last": 67.0,
+   "bid": 62.0,
+   "ask": 68.0,
+   "consensus": "78-81°F (медиана 79,1; NBM 80,7) — модели горячее, как вчера",
+   "fact": "KLAX 75.0°F 17:53 и 18:53Z плато, 5-мин 24°C",
+   "kalshi": "≤78 @81",
+   "cut": "22:05 Минск",
+   "bet": null,
+   "ts_utc": "2026-10-01T19:07:20Z",
+   "winner": null,
+   "hit": null
   }
  },
  "favorites": {
@@ -845,6 +890,22 @@
    "winner": "27°C",
    "hit": false,
    "pnl": -1.0
+  }
+ },
+ "monitor_bets": {
+  "houston": {
+   "bucket": "90-91°F",
+   "limit": 39,
+   "bet_bid": 37.0,
+   "bet_ask": 46.0,
+   "prob_pct": 50,
+   "edge_pp": 11,
+   "size": 0.5,
+   "kind": "kalshi_lag",
+   "reference": true,
+   "ts_utc": "2026-10-01T19:07:20Z",
+   "winner": null,
+   "note": "Kalshi 90-91 @65 (порог 65), PM 43¢ не лидер (88-89 45), METAR растёт 25.6→26.1→30.6°C после ливня; 5-мин 31°C"
   }
  }
 }
