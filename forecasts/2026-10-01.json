@@ -138,6 +138,20 @@
    "ts_utc": "2026-10-01T20:25:00Z",
    "winner": null,
    "hit": null
+  },
+  "austin": {
+   "bucket": "86-87°F",
+   "prob_pct": 97,
+   "last": 99.2,
+   "bid": 99.3,
+   "ask": 99.8,
+   "fact": "KAUS max 87.1°F 16:53Z, затем дождь, 20:53Z 74°F",
+   "kalshi": "87-88 @99",
+   "cut": "00:25 Минск",
+   "bet": null,
+   "ts_utc": "2026-10-01T21:26:00Z",
+   "winner": null,
+   "hit": null
   }
  },
  "favorites": {
