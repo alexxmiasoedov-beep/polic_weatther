@@ -47,6 +47,21 @@
    "winner": "34°C",
    "hit": false,
    "pnl_pick": -1.0
+  },
+  "miami": {
+   "bucket": "82-83°F",
+   "prob_pct": 80,
+   "last": 82.0,
+   "bid": 82.0,
+   "ask": 87.0,
+   "consensus": "84-85°F (медиана 85,0; NBM 85,5) — модели не видят дождь",
+   "fact": "KMIA max 82.9°F 12:53Z, с 13:53Z дождь, 16:53Z 77.0°F",
+   "kalshi": "83-84 @83 (= PM 82-83)",
+   "cut": "20:05 Минск",
+   "bet": null,
+   "ts_utc": "2026-10-01T17:07:08Z",
+   "winner": null,
+   "hit": null
   }
  },
  "favorites": {
