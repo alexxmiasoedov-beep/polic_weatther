@@ -13,8 +13,9 @@
    "bet": null,
    "note": "32°C 28¢; модели на SIN занижают 3 дня",
    "ts_utc": "2026-10-03T01:07:00Z",
-   "winner": null,
-   "hit": null
+   "winner": "32°C",
+   "hit": false,
+   "pnl_pick": -1.0
   },
   "tel-aviv": {
    "bucket": "30°C",
@@ -28,8 +29,9 @@
    "bet": null,
    "note": "31°C 23¢",
    "ts_utc": "2026-10-03T01:07:00Z",
-   "winner": null,
-   "hit": null
+   "winner": "32°C",
+   "hit": false,
+   "pnl_pick": -1.0
   },
   "kuala-lumpur": {
    "bucket": "33°C",
@@ -43,8 +45,9 @@
    "bet": null,
    "note": "32°C 35¢",
    "ts_utc": "2026-10-03T01:07:00Z",
-   "winner": null,
-   "hit": null
+   "winner": "33°C",
+   "hit": true,
+   "pnl_pick": 0.818
   }
  },
  "favorites": {
@@ -561,7 +564,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-02T16:21:20Z",
-   "winner": null
+   "winner": "13°C"
   },
   "singapore": {
    "bucket": "33°C",
@@ -596,7 +599,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-02T16:21:20Z",
-   "winner": null
+   "winner": "32°C"
   },
   "kuala-lumpur": {
    "bucket": "31°C",
@@ -624,7 +627,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-02T16:21:20Z",
-   "winner": null
+   "winner": "33°C"
   },
   "shanghai": {
    "bucket": "23°C",
@@ -652,7 +655,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-02T16:21:20Z",
-   "winner": null
+   "winner": "22°C"
   },
   "tel-aviv": {
    "bucket": "29°C",
@@ -680,7 +683,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-02T16:21:20Z",
-   "winner": null
+   "winner": "32°C"
   },
   "moscow": {
    "bucket": "9°C",
@@ -708,7 +711,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-02T16:21:20Z",
-   "winner": null
+   "winner": "11°C"
   },
   "helsinki": {
    "bucket": "14°C",
@@ -736,7 +739,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-02T16:21:20Z",
-   "winner": null
+   "winner": "13°C"
   },
   "istanbul": {
    "bucket": "19°C",
@@ -764,7 +767,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-02T16:21:20Z",
-   "winner": null
+   "winner": "19°C"
   },
   "milan": {
    "bucket": "22°C",
@@ -792,7 +795,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-02T16:21:20Z",
-   "winner": null
+   "winner": "24°C"
   },
   "london": {
    "bucket": "19°C",
@@ -820,7 +823,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-02T16:21:20Z",
-   "winner": null
+   "winner": "20°C"
   },
   "amsterdam": {
    "bucket": "18°C",
@@ -848,7 +851,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-02T16:21:20Z",
-   "winner": null
+   "winner": "20°C"
   },
   "dallas": {
    "bucket": "74-75°F",
@@ -972,6 +975,63 @@
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-02T16:21:20Z",
    "winner": null
+  }
+ },
+ "top10": {
+  "hong-kong": {
+   "strategy": "lead:50-70@18",
+   "bucket": "30°C",
+   "ask": 52.0,
+   "ts_utc": "2026-10-02T21:55:45Z",
+   "hte": 18.1,
+   "winner": "29°C",
+   "hit": false,
+   "pnl": -1.0
+  },
+  "munich": {
+   "strategy": "lead:50-70@18",
+   "skip": true,
+   "winner": "20°C"
+  },
+  "busan": {
+   "strategy": "lead:40-60@12",
+   "skip": true,
+   "winner": "25°C"
+  },
+  "beijing": {
+   "strategy": "lead:30-50@18",
+   "bucket": "23°C",
+   "ask": 41.0,
+   "ts_utc": "2026-10-02T21:55:45Z",
+   "hte": 18.1,
+   "winner": "23°C",
+   "hit": true,
+   "pnl": 1.439
+  },
+  "kuala-lumpur": {
+   "strategy": "cons@30",
+   "bucket": "32°C",
+   "ask": 23.0,
+   "ts_utc": "2026-10-02T08:53:43Z",
+   "hte": 31.1,
+   "winner": null,
+   "hit": null,
+   "pnl": null
+  },
+  "cape-town": {
+   "strategy": "tail@24",
+   "bucket": "22°C",
+   "ask": 17.0,
+   "ts_utc": "2026-10-02T21:55:45Z",
+   "hte": 24.1,
+   "winner": "21°C",
+   "hit": false,
+   "pnl": -1.0
+  },
+  "tokyo": {
+   "strategy": "tail@24",
+   "skip": true,
+   "winner": "22°C"
   }
  }
 }
