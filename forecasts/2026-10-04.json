@@ -1,6 +1,52 @@
 {
  "date": "2026-10-04",
- "picks": {},
+ "picks": {
+  "singapore": {
+   "bucket": "33°C",
+   "prob_pct": 55,
+   "last": 61.0,
+   "bid": 59.0,
+   "ask": 61.0,
+   "consensus": "31-32°C (медиана 31,5) — модели занижают SIN четвёртый день",
+   "fact": "WSSS 01:00Z 29°C",
+   "cut": "04:05 Минск",
+   "bet": null,
+   "note": "32°C 36¢",
+   "ts_utc": "2026-10-04T01:09:00Z",
+   "winner": null,
+   "hit": null
+  },
+  "tel-aviv": {
+   "bucket": "30°C",
+   "prob_pct": 60,
+   "last": 68.0,
+   "bid": 63.0,
+   "ask": 66.0,
+   "consensus": "29-30°C (медиана 29,1; сырая 30,2)",
+   "fact": "LLBG 00:50Z 22°C",
+   "cut": "04:05 Минск",
+   "bet": null,
+   "note": "31°C 23¢; вчера 30 при лидере 30 → факт 32",
+   "ts_utc": "2026-10-04T01:09:00Z",
+   "winner": null,
+   "hit": null
+  },
+  "kuala-lumpur": {
+   "bucket": "33°C",
+   "prob_pct": 55,
+   "last": 60.0,
+   "bid": 57.0,
+   "ask": 60.0,
+   "consensus": "31°C (медиана 31,1; сырая 31,9) — модели на KUL холоднее",
+   "fact": "WMKK 01:00Z 27°C",
+   "cut": "04:05 Минск",
+   "bet": null,
+   "note": "34°C 27¢",
+   "ts_utc": "2026-10-04T01:09:00Z",
+   "winner": null,
+   "hit": null
+  }
+ },
  "favorites": {
   "amsterdam": {
    "bucket": "20°C",
