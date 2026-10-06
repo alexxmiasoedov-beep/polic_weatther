@@ -575,3 +575,6 @@
 {"ts_utc": "2026-10-06T20:06:23Z", "station": "NZWN", "obs_utc": "2026-10-06T20:00:00Z", "temp_c": 13, "dewp_c": 9, "speci": false, "raw": "METAR NZWN 062000Z AUTO 02018KT 9999 BKN025/// OVC032/// 13/09 Q1019"}
 {"ts_utc": "2026-10-06T20:06:23Z", "station": "UUWW", "obs_utc": "2026-10-06T20:00:00Z", "temp_c": 12, "dewp_c": 10, "speci": false, "raw": "METAR UUWW 062000Z 25007MPS 9999 SCT011 BKN025 12/10 Q1006 R24/290050 NOSIG"}
 {"ts_utc": "2026-10-06T20:06:23Z", "station": "ZSPD", "obs_utc": "2026-10-06T20:00:00Z", "temp_c": 15, "dewp_c": 11, "speci": false, "raw": "METAR ZSPD 062000Z 00000MPS CAVOK 15/11 Q1022 NOSIG"}
+{"ts_utc": "2026-10-06T20:13:09Z", "station": "CYYZ", "obs_utc": "2026-10-06T20:00:00Z", "temp_c": 14, "dewp_c": 4, "speci": false, "raw": "METAR CYYZ 062000Z 16009KT 120V180 15SM FEW045 FEW120 FEW250 14/04 A3008 RMK CF1AC1CI2 CF TR AC TR SLP191"}
+{"ts_utc": "2026-10-06T20:13:09Z", "station": "KBKF", "obs_utc": "2026-10-06T20:00:00Z", "temp_c": 28.9, "dewp_c": -4.5, "speci": false, "raw": "METAR KBKF 061958Z 00000KT 10SM FEW090 FEW140 BKN220 29/M04 A3014 RMK AO2A SLP122 T02891045"}
+{"ts_utc": "2026-10-06T20:13:09Z", "station": "WMKK", "obs_utc": "2026-10-06T20:00:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 062000Z 00000KT 3000 HZ FEW030 26/24 Q1011 NOSIG"}
