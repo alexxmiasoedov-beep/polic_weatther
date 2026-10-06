@@ -1,0 +1,7 @@
+# Append-only журналы: при конфликте git сливает обе стороны построчно
+# (встроенный драйвер union) — два сборщика (Actions и Routine) больше
+# не упираются в ручное разрешение конфликтов.
+data/*.jsonl        merge=union
+pilot_data/*.jsonl  merge=union
+observe_data/*.jsonl merge=union
+metar_data/*.jsonl  merge=union

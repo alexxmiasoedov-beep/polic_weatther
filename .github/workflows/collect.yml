@@ -1,13 +1,24 @@
 name: Collect weather market prices
-# schedule re-registered 2026-08-27
+# schedule re-registered 2026-08-27; 06.10 — непрерывный цикл
 
 # Репозиторий ПУБЛИЧНЫЙ с 07.09 — минуты Actions бесплатны без лимита.
-# Сетка: цены каждые 10 минут круглосуточно; погода (wx) — раз в час
-# (:05); обзорный сбор всех городов PM — каждые полчаса (:05, :35).
-# Логика внутри collector.py по минуте запуска.
+#
+# 06.10 (владелец: «данные должны собираться в фоне»). Планировщик
+# GitHub при сетке «каждые 10 минут» реально запускал сбор 6-8 раз в
+# сутки — расписание на :05/:15/… он просто пропускал. Поэтому теперь
+# одна задача живёт ~5 ч 50 мин и внутри себя собирает каждые 10 минут,
+# а расписание лишь поставляет следующую задачу в очередь: группа
+# concurrency держит одну рабочую и одну ожидающую, ожидающая стартует
+# сразу после окончания рабочей. Даже если GitHub пропустит пять
+# запусков из шести, покрытие остаётся непрерывным.
+#
+# Внутри цикла: collector.py (цены PM/Kalshi, модели wx на каждом
+# запуске, пилоты, обзор 41 города, часовые METAR всех станций) ->
+# commit -> pull --rebase (jsonl сливаются объединением строк, см.
+# .gitattributes) -> push.
 on:
   schedule:
-    - cron: '5,15,25,35,45,55 * * * *'
+    - cron: '7 * * * *'
   workflow_dispatch:
 
 concurrency:
@@ -17,6 +28,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
+    timeout-minutes: 358
     permissions:
       contents: write
     steps:
@@ -26,22 +38,31 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Collect snapshot
-        run: python collector.py
-
-      - name: Commit and push
+      - name: Collect loop (every 10 min for ~5h50m)
         run: |
           git config user.name "weather-collector"
           git config user.email "actions@users.noreply.github.com"
-          git add data/ pilot_data/ observe_data/ observe_cities.json
-          if git diff --cached --quiet; then
-            echo "nothing to commit"
-            exit 0
-          fi
-          git commit -m "snapshot $(date -u +'%Y-%m-%d %H:%M') UTC"
-          for i in 1 2 3 4; do
-            git push && exit 0
-            git pull --rebase
-            sleep $((i * 2))
+          START=$(date +%s)
+          LIMIT=$((350 * 60))
+          while true; do
+            TICK=$(date +%s)
+            git pull --rebase -q || true
+            timeout 480 python collector.py || echo "WARN: collector rc=$?"
+            git add data/ pilot_data/ observe_data/ metar_data/ observe_cities.json
+            if ! git diff --cached --quiet; then
+              git commit -qm "snapshot $(date -u +'%Y-%m-%d %H:%M') UTC"
+              for i in 1 2 3 4; do
+                git push -q && break
+                git pull --rebase -q || true
+                sleep $((i * 3))
+              done
+            fi
+            NOW=$(date +%s)
+            if [ $((NOW - START)) -ge $LIMIT ]; then
+              echo "цикл завершён: $(( (NOW - START) / 60 )) мин"
+              break
+            fi
+            # ждём до следующей 10-минутной отметки от начала итерации
+            SLEEP=$((600 - (NOW - TICK)))
+            [ $SLEEP -gt 0 ] && sleep $SLEEP
           done
-          exit 1
