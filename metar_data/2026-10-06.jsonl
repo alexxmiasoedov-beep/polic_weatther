@@ -670,3 +670,10 @@
 {"ts_utc": "2026-10-06T23:03:11Z", "station": "LTFM", "obs_utc": "2026-10-06T23:00:00Z", "temp_c": 15, "dewp_c": 12, "speci": false, "raw": "METAR LTFM 062250Z VRB02KT CAVOK 15/12 Q1021 NOSIG"}
 {"ts_utc": "2026-10-06T23:03:11Z", "station": "MMMX", "obs_utc": "2026-10-06T23:00:00Z", "temp_c": 21, "dewp_c": 12, "speci": false, "raw": "METAR MMMX 062247Z 30012KT 10SM BKN020CB OVC080 21/12 A3019 NOSIG RMK 8/36/ HZY BINOVC PCPN NE"}
 {"ts_utc": "2026-10-06T23:03:11Z", "station": "WSSS", "obs_utc": "2026-10-06T23:00:00Z", "temp_c": 28, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 062300Z VRB04KT 5000 HZ FEW018 BKN300 28/25 Q1013 NOSIG"}
+{"ts_utc": "2026-10-06T23:13:51Z", "station": "CYYZ", "obs_utc": "2026-10-06T23:00:00Z", "temp_c": 13, "dewp_c": 6, "speci": false, "raw": "METAR CYYZ 062300Z 15007KT 15SM FEW130 FEW250 13/06 A3001 RMK AC1CI1 AC TR CONTRAILS SLP168"}
+{"ts_utc": "2026-10-06T23:13:51Z", "station": "KBKF", "obs_utc": "2026-10-06T23:00:00Z", "temp_c": 28.3, "dewp_c": -3.8, "speci": false, "raw": "METAR KBKF 062258Z 00000KT 10SM FEW090 SCT140 BKN220 28/M04 A3011 RMK AO2A SLP116 T02831038"}
+{"ts_utc": "2026-10-06T23:13:51Z", "station": "NZWN", "obs_utc": "2026-10-06T23:00:00Z", "temp_c": 15, "dewp_c": 10, "speci": false, "raw": "METAR NZWN 062300Z AUTO 02021KT 9999 BKN025/// OVC030/// 15/10 Q1018"}
+{"ts_utc": "2026-10-06T23:13:51Z", "station": "UUWW", "obs_utc": "2026-10-06T23:00:00Z", "temp_c": 11, "dewp_c": 10, "speci": false, "raw": "METAR UUWW 062300Z 25006MPS CAVOK 11/10 Q1007 R24/290050 NOSIG"}
+{"ts_utc": "2026-10-06T23:13:51Z", "station": "WMKK", "obs_utc": "2026-10-06T23:00:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 062300Z 00000KT 2000 HZ FEW030 26/24 Q1012 NOSIG"}
+{"ts_utc": "2026-10-06T23:13:51Z", "station": "ZSPD", "obs_utc": "2026-10-06T23:00:00Z", "temp_c": 18, "dewp_c": 10, "speci": false, "raw": "METAR ZSPD 062300Z 28002MPS CAVOK 18/10 Q1024 NOSIG"}
+{"ts_utc": "2026-10-06T23:13:51Z", "station": "MMMX", "obs_utc": "2026-10-06T23:07:00Z", "temp_c": 20, "dewp_c": 12, "speci": true, "raw": "SPECI MMMX 062307Z 03011KT 8SM -RA BKN020CB OVC080 20/12 A3020 NOSIG RMK 8/36/ HZY BINOVC RAB05"}
