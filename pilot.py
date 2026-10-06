@@ -133,7 +133,7 @@ def fetch_json(url: str, tries: int = 3):
     for _ in range(tries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "weather-monitor/1.0"})
-            with urllib.request.urlopen(req, timeout=45) as r:
+            with urllib.request.urlopen(req, timeout=15) as r:  # 06.10: было 45
                 return json.load(r)
         except Exception as e:  # noqa: BLE001
             last_err = e
@@ -200,7 +200,12 @@ def collect(with_wx: bool = True):
     out_dir = Path(__file__).parent / "pilot_data"
     out_dir.mkdir(exist_ok=True)
     now_utc = datetime.now(timezone.utc)
-    for slug, c in PILOT_CITIES.items():
+    ts_utc = now_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
+    ts_minsk = config.minsk_now().strftime("%Y-%m-%d %H:%M")
+
+    def one(item):
+        slug, c = item
+        recs = []
         local_today = now_utc.astimezone(ZoneInfo(c["tz"])).date()
         for d in (local_today, local_today + timedelta(days=1)):
             if d < local_today or market_resolved(slug, d):
@@ -208,15 +213,23 @@ def collect(with_wx: bool = True):
             pm = fetch_pm(slug, d)
             if not pm:
                 continue  # рынок ещё не создан или уже убран
-            rec = {
-                "ts_utc": now_utc.strftime("%Y-%m-%dT%H:%M:%SZ"),
-                "ts_minsk": config.minsk_now().strftime("%Y-%m-%d %H:%M"),
+            recs.append({
+                "ts_utc": ts_utc, "ts_minsk": ts_minsk,
                 "city": slug, "code": c["code"], "market_date": d.isoformat(),
                 "pm": pm, "wx": fetch_wx(c, d) if with_wx else None,
-            }
-            with (out_dir / f"{d.isoformat()}.jsonl").open("a", encoding="utf-8") as f:
+            })
+        return recs
+
+    # города параллельно (06.10): сбор с моделями был 7-8 минут из-за
+    # зависающих до таймаута запросов, теперь задержки не складываются
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=5) as pool:
+        results = list(pool.map(one, PILOT_CITIES.items()))
+    for recs in results:  # порядок как в PILOT_CITIES, запись последовательно
+        for rec in recs:
+            with (out_dir / f"{rec['market_date']}.jsonl").open("a", encoding="utf-8") as f:
                 f.write(json.dumps(rec, ensure_ascii=False) + "\n")
-            print(f"pilot {c['code']} {d}: PM {len(pm['buckets'])} корзин")
+            print(f"pilot {rec['code']} {rec['market_date']}: PM {len(rec['pm']['buckets'])} корзин")
 
 
 if __name__ == "__main__":

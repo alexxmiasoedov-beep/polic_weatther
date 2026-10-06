@@ -1,6 +1,7 @@
 """Снимок цен рынков «Highest temperature in …» на Polymarket и Kalshi.
 
-Запускается каждый час в :05 (GitHub Actions). Пишет одну JSON-строку
+Запускается каждые 10 минут (GitHub Actions, реально 6-8 раз в сутки)
+и ежечасно из Routine (06.10). Пишет одну JSON-строку
 в data/<дата-рынка>.jsonl со всеми городами и корзинами обеих площадок.
 Цены — в центах (0–100), как в ручной таблице.
 
@@ -16,12 +17,15 @@ from pathlib import Path
 import config
 
 
-def fetch_json(url: str, tries: int = 3):
+def fetch_json(url: str, tries: int = 3, timeout: int = 15):
+    # 06.10: таймаут 15 с вместо 30 — Open-Meteo/NWS иногда «висят» ровно
+    # до таймаута и со второй попытки отвечают за секунду; полный сбор с
+    # моделями занимал 7-8 минут, и упирался в лимит Routine.
     last_err = None
     for _ in range(tries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "weather-monitor/1.0"})
-            with urllib.request.urlopen(req, timeout=30) as r:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
                 return json.load(r)
         except Exception as e:  # noqa: BLE001 — сеть, ретраим
             last_err = e
@@ -133,7 +137,8 @@ def take_snapshot(d: date, with_wx: bool):
         "market_date": d.isoformat(),
         "cities": {},
     }
-    for slug, c in config.CITIES.items():
+    def one(item):
+        slug, c = item
         pm = fetch_polymarket(slug, d)
         ks = fetch_kalshi(c["kalshi_series"], d)
         entry = {
@@ -142,7 +147,16 @@ def take_snapshot(d: date, with_wx: bool):
         }
         if with_wx:
             entry["wx"] = fetch_weather(c, d)
+        return slug, entry
+
+    # города параллельно (06.10): сетевые задержки не складываются
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        results = list(pool.map(one, config.CITIES.items()))
+    for slug, entry in results:  # порядок как в config.CITIES
         snapshot["cities"][slug] = entry
+        c = config.CITIES[slug]
+        pm, ks = entry["polymarket"], entry["kalshi"]
         wx_note = f", wx {entry.get('wx')}" if with_wx else ""
         print(f"{c['code']}: PM {len(pm['buckets']) if pm else 0} корзин, "
               f"KS {len(ks['buckets']) if ks else 0} корзин{wx_note}")
@@ -181,8 +195,10 @@ def main():
     d = config.target_date()
     # Репозиторий публичный (07.09) — минуты Actions бесплатны, сбор
     # каждые 10 минут. Тяжёлую погоду тянем раз в час (:05), цены — всегда.
-    minute = datetime.now(timezone.utc).minute
-    hourly = minute < 12
+    # 06.10 (владелец): модели тянем на КАЖДОМ запуске — планировщик
+    # GitHub срабатывает 6-8 раз в сутки, а Routine-запуски стартуют не
+    # в первые минуты часа, и прогнозы в дневных рядах терялись.
+    hourly = True
     # Обзорный сбор всех температурных городов PM (только цены) — в фоне
     # на КАЖДОМ запуске (10.09: планировщик GitHub даёт лишь 6-8 запусков
     # в сутки, а ленивость рынков — главная метрика денег, ей нужна
@@ -195,6 +211,14 @@ def main():
         obs_thread.start()
     except Exception as e:  # noqa: BLE001
         print(f"WARN: observe start failed: {e}", file=sys.stderr)
+    # Часовые METAR всех станций — в metar_data/ (06.10), тоже в фоне.
+    metar_thread = None
+    try:
+        import metar
+        metar_thread = threading.Thread(target=metar.collect, daemon=True)
+        metar_thread.start()
+    except Exception as e:  # noqa: BLE001
+        print(f"WARN: metar start failed: {e}", file=sys.stderr)
     take_snapshot(d, with_wx=hourly)
     # Вечерняя развязка вчерашнего рынка: максимум дня в США случается
     # после 19:05 Минска, поэтому с 17:00 UTC до 04:00 UTC следим и за
@@ -213,6 +237,8 @@ def main():
         print(f"WARN: pilot collect failed: {e}", file=sys.stderr)
     if obs_thread:
         obs_thread.join(timeout=120)
+    if metar_thread:
+        metar_thread.join(timeout=60)
 
 
 if __name__ == "__main__":
