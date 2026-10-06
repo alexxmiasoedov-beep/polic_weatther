@@ -31,6 +31,7 @@ jobs:
     timeout-minutes: 358
     permissions:
       contents: write
+      actions: write   # самозапуск следующего цикла (workflow_dispatch)
     steps:
       - uses: actions/checkout@v4
 
@@ -39,6 +40,8 @@ jobs:
           python-version: '3.12'
 
       - name: Collect loop (every 10 min for ~5h50m)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "weather-collector"
           git config user.email "actions@users.noreply.github.com"
@@ -61,6 +64,18 @@ jobs:
             if [ $((NOW - START)) -ge $LIMIT ]; then
               echo "цикл завершён: $(( (NOW - START) / 60 )) мин"
               break
+            fi
+            # Эстафета (06.10 12:30): планировщик GitHub пропускает и
+            # ежечасные слоты (12:07 не встал в очередь), поэтому за
+            # ~12 минут до конца цикл сам ставит в очередь следующий
+            # запуск — он ждёт в группе concurrency и стартует сразу
+            # после завершения этого. Расписание остаётся запасным.
+            if [ -z "$CHAINED" ] && [ $((NOW - START)) -ge $((LIMIT - 720)) ]; then
+              curl -sS -X POST \
+                -H "Authorization: Bearer $GITHUB_TOKEN" \
+                -H "Accept: application/vnd.github+json" \
+                "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/workflows/collect.yml/dispatches" \
+                -d '{"ref":"main"}' && CHAINED=1 && echo "следующий цикл поставлен в очередь"
             fi
             # ждём до следующей 10-минутной отметки от начала итерации
             SLEEP=$((600 - (NOW - TICK)))
