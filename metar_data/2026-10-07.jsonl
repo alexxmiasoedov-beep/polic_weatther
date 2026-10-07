@@ -425,3 +425,6 @@
 {"ts_utc": "2026-10-07T12:04:39Z", "station": "NZWN", "obs_utc": "2026-10-07T12:00:00Z", "temp_c": 11, "dewp_c": 10, "speci": false, "raw": "METAR NZWN 071200Z AUTO 03006KT 9999 NCD 11/10 Q1022"}
 {"ts_utc": "2026-10-07T12:04:39Z", "station": "UUWW", "obs_utc": "2026-10-07T12:00:00Z", "temp_c": 14, "dewp_c": 4, "speci": false, "raw": "METAR UUWW 071200Z 27008MPS 9999 FEW040 14/04 Q1014 R24/000062 NOSIG"}
 {"ts_utc": "2026-10-07T12:04:39Z", "station": "WSSS", "obs_utc": "2026-10-07T12:00:00Z", "temp_c": 30, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 071200Z 12006KT 090V150 2000 HZ FEW020 BKN280 30/25 Q1012 NOSIG"}
+{"ts_utc": "2026-10-07T12:14:40Z", "station": "CYYZ", "obs_utc": "2026-10-07T12:00:00Z", "temp_c": 14, "dewp_c": 10, "speci": false, "raw": "METAR CYYZ 071200Z 21007KT 15SM BKN076 14/10 A2979 RMK AC7 SLP090 DENSITY ALT 800FT"}
+{"ts_utc": "2026-10-07T12:14:40Z", "station": "WMKK", "obs_utc": "2026-10-07T12:00:00Z", "temp_c": 28, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 071200Z 00000KT 4000 HZ FEW017CB 28/25 Q1012 NOSIG"}
+{"ts_utc": "2026-10-07T12:14:40Z", "station": "ZSPD", "obs_utc": "2026-10-07T12:00:00Z", "temp_c": 21, "dewp_c": 12, "speci": false, "raw": "METAR ZSPD 071200Z 23002MPS CAVOK 21/12 Q1023 NOSIG"}
