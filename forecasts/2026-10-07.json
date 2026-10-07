@@ -14,8 +14,9 @@
    "bet": null,
    "note": "пик = лидер; 34 — 39¢; фаворит пропуск (72¢ накануне); вчера 33 ✅",
    "ts_utc": "2026-10-07T01:10:00Z",
-   "winner": null,
-   "hit": null
+   "winner": "33°C",
+   "hit": true,
+   "pnl_pick": 0.724
   },
   "tel-aviv": {
    "bucket": "29°C",
@@ -30,8 +31,9 @@
    "bet": null,
    "note": "пик = лидер по правилу, но доверие низкое: 28 — 34¢; фаворит справочный 29 @55",
    "ts_utc": "2026-10-07T01:10:00Z",
-   "winner": null,
-   "hit": null
+   "winner": "29°C",
+   "hit": true,
+   "pnl_pick": 0.493
   },
   "kuala-lumpur": {
    "bucket": "34°C",
@@ -46,8 +48,9 @@
    "bet": null,
    "note": "пик = лидер; 33 — 25¢, 35 — 13¢; фаворит 34 @55 — держится, но дымка 2000 м и CB с утра — риск недобора до 33",
    "ts_utc": "2026-10-07T01:10:00Z",
-   "winner": null,
-   "hit": null
+   "winner": "34°C",
+   "hit": true,
+   "pnl_pick": 0.818
   }
  },
  "favorites": {
@@ -571,7 +574,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-06T16:21:39Z",
-   "winner": null
+   "winner": "15°C"
   },
   "singapore": {
    "bucket": "33°C",
@@ -606,7 +609,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-06T16:21:39Z",
-   "winner": null
+   "winner": "33°C"
   },
   "kuala-lumpur": {
    "bucket": "32°C",
@@ -634,7 +637,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-06T16:21:39Z",
-   "winner": null
+   "winner": "34°C"
   },
   "shanghai": {
    "bucket": "25°C",
@@ -662,7 +665,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-06T16:21:39Z",
-   "winner": null
+   "winner": "26°C"
   },
   "tel-aviv": {
    "bucket": "27°C",
@@ -690,7 +693,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-06T16:21:39Z",
-   "winner": null
+   "winner": "29°C"
   },
   "moscow": {
    "bucket": "13°C",
@@ -718,7 +721,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-06T16:21:39Z",
-   "winner": null
+   "winner": "14°C"
   },
   "helsinki": {
    "bucket": "13°C",
@@ -746,7 +749,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-06T16:21:39Z",
-   "winner": null
+   "winner": "14°C"
   },
   "istanbul": {
    "bucket": "21°C",
@@ -774,7 +777,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-06T16:21:39Z",
-   "winner": null
+   "winner": "20°C"
   },
   "milan": {
    "bucket": "17°C",
@@ -802,7 +805,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-06T16:21:39Z",
-   "winner": null
+   "winner": "18°C"
   },
   "london": {
    "bucket": "16°C",
@@ -830,7 +833,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-06T16:21:39Z",
-   "winner": null
+   "winner": "16°C"
   },
   "amsterdam": {
    "bucket": "20°C",
@@ -858,7 +861,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-06T16:21:39Z",
-   "winner": null
+   "winner": "22°C"
   },
   "dallas": {
    "bucket": "84-85°F",
@@ -982,6 +985,63 @@
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-06T16:21:39Z",
    "winner": null
+  }
+ },
+ "top10": {
+  "hong-kong": {
+   "strategy": "lead:50-70@18",
+   "skip": true,
+   "winner": "28°C"
+  },
+  "madrid": {
+   "strategy": "lead:60-80@8",
+   "bucket": "22°C",
+   "ask": 70.0,
+   "ts_utc": "2026-10-07T14:04:39Z",
+   "hte": 7.9,
+   "winner": "23°C",
+   "hit": false,
+   "pnl": -1.0
+  },
+  "munich": {
+   "strategy": "lead:50-70@18",
+   "bucket": "24°C",
+   "ask": 64.0,
+   "ts_utc": "2026-10-07T04:03:52Z",
+   "hte": 17.9,
+   "winner": "24°C",
+   "hit": true,
+   "pnl": 0.562
+  },
+  "busan": {
+   "strategy": "lead:40-60@12",
+   "skip": true,
+   "winner": "24°C"
+  },
+  "beijing": {
+   "strategy": "lead:30-50@18",
+   "skip": true,
+   "winner": "27°C"
+  },
+  "cape-town": {
+   "strategy": "tail@24",
+   "bucket": "20°C",
+   "ask": 22.0,
+   "ts_utc": "2026-10-06T22:03:10Z",
+   "hte": 23.9,
+   "winner": "20°C",
+   "hit": true,
+   "pnl": 3.545
+  },
+  "tokyo": {
+   "strategy": "tail@24",
+   "bucket": "23°C",
+   "ask": 17.0,
+   "ts_utc": "2026-10-06T15:02:48Z",
+   "hte": 24.0,
+   "winner": "25°C",
+   "hit": false,
+   "pnl": -1.0
   }
  }
 }
