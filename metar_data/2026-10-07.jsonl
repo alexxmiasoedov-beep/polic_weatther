@@ -739,3 +739,5 @@
 {"ts_utc": "2026-10-07T21:25:06Z", "station": "EFHK", "obs_utc": "2026-10-07T21:20:00Z", "temp_c": 4, "dewp_c": 4, "speci": false, "raw": "METAR EFHK 072120Z 23004KT CAVOK 04/04 Q1015 NOSIG"}
 {"ts_utc": "2026-10-07T21:25:06Z", "station": "EGLC", "obs_utc": "2026-10-07T21:20:00Z", "temp_c": 11, "dewp_c": 7, "speci": false, "raw": "METAR EGLC 072120Z AUTO 30007KT 260V340 9999 NCD 11/07 Q1014"}
 {"ts_utc": "2026-10-07T21:25:06Z", "station": "LLBG", "obs_utc": "2026-10-07T21:20:00Z", "temp_c": 23, "dewp_c": 16, "speci": false, "raw": "METAR LLBG 072120Z VRB03KT CAVOK 23/16 Q1019 NOSIG"}
+{"ts_utc": "2026-10-07T21:26:04Z", "station": "LIMC", "obs_utc": "2026-10-07T21:20:00Z", "temp_c": 15, "dewp_c": 15, "speci": false, "raw": "METAR LIMC 072120Z 35005KT 2000 -RA BKN010 15/15 Q1014 RERA NOSIG"}
+{"ts_utc": "2026-10-07T21:26:04Z", "station": "LTFM", "obs_utc": "2026-10-07T21:20:00Z", "temp_c": 16, "dewp_c": 12, "speci": false, "raw": "METAR LTFM 072120Z 13004KT 110V170 CAVOK 16/12 Q1021 NOSIG"}
