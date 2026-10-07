@@ -51,3 +51,6 @@
 {"ts_utc": "2026-10-07T01:06:33Z", "station": "NZWN", "obs_utc": "2026-10-07T01:00:00Z", "temp_c": 15, "dewp_c": 10, "speci": false, "raw": "METAR NZWN 070100Z AUTO 01022KT 9999 SCT021/// BKN028/// 15/10 Q1018"}
 {"ts_utc": "2026-10-07T01:06:33Z", "station": "UUWW", "obs_utc": "2026-10-07T01:00:00Z", "temp_c": 10, "dewp_c": 9, "speci": false, "raw": "METAR UUWW 070100Z 26006MPS CAVOK 10/09 Q1008 R24/290050 NOSIG"}
 {"ts_utc": "2026-10-07T01:06:33Z", "station": "ZSPD", "obs_utc": "2026-10-07T01:00:00Z", "temp_c": 23, "dewp_c": 9, "speci": false, "raw": "METAR ZSPD 070100Z 33003MPS 300V360 CAVOK 23/09 Q1024 NOSIG"}
+{"ts_utc": "2026-10-07T01:13:51Z", "station": "CYYZ", "obs_utc": "2026-10-07T01:00:00Z", "temp_c": 13, "dewp_c": 7, "speci": false, "raw": "METAR CYYZ 070100Z 21008KT 15SM SKC 13/07 A3000 RMK SLP163"}
+{"ts_utc": "2026-10-07T01:13:51Z", "station": "KBKF", "obs_utc": "2026-10-07T01:00:00Z", "temp_c": 25.9, "dewp_c": -3.7, "speci": false, "raw": "METAR KBKF 070058Z 00000KT 10SM FEW220 26/M04 A3013 RMK AO2A SLP130 T02591037"}
+{"ts_utc": "2026-10-07T01:13:51Z", "station": "WMKK", "obs_utc": "2026-10-07T01:00:00Z", "temp_c": 28, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 070100Z 00000KT 2000 HZ FEW017CB 28/25 Q1014 NOSIG"}
