@@ -223,3 +223,5 @@
 {"ts_utc": "2026-10-07T06:14:16Z", "station": "WMKK", "obs_utc": "2026-10-07T06:00:00Z", "temp_c": 34, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 070600Z VRB03KT 3000 HZ FEW018 34/25 Q1011 NOSIG"}
 {"ts_utc": "2026-10-07T06:14:16Z", "station": "ZSPD", "obs_utc": "2026-10-07T06:00:00Z", "temp_c": 26, "dewp_c": 3, "speci": false, "raw": "METAR ZSPD 070600Z 03003MPS 320V080 CAVOK 26/03 Q1022 NOSIG"}
 {"ts_utc": "2026-10-07T06:14:16Z", "station": "KSEA", "obs_utc": "2026-10-07T06:02:00Z", "temp_c": 11.1, "dewp_c": 10.6, "speci": true, "raw": "SPECI KSEA 070602Z 35005KT 1/2SM R16L/P6000FT BR OVC003 11/11 A3015 RMK AO2 SFC VIS 5 T01110106"}
+{"ts_utc": "2026-10-07T06:24:16Z", "station": "EFHK", "obs_utc": "2026-10-07T06:20:00Z", "temp_c": 10, "dewp_c": 6, "speci": false, "raw": "METAR EFHK 070620Z 27009KT 9999 FEW020 10/06 Q1008 NOSIG"}
+{"ts_utc": "2026-10-07T06:24:16Z", "station": "LLBG", "obs_utc": "2026-10-07T06:20:00Z", "temp_c": 26, "dewp_c": 16, "speci": false, "raw": "METAR LLBG 070620Z VRB01KT 9999 FEW035 26/16 Q1018 NOSIG"}
