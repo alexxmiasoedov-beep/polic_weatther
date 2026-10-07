@@ -557,3 +557,7 @@
 {"ts_utc": "2026-10-07T16:04:39Z", "station": "NZWN", "obs_utc": "2026-10-07T16:00:00Z", "temp_c": 9, "dewp_c": 8, "speci": false, "raw": "METAR NZWN 071600Z AUTO 06002KT 9999 BKN014/// 09/08 Q1023"}
 {"ts_utc": "2026-10-07T16:04:39Z", "station": "UUWW", "obs_utc": "2026-10-07T16:00:00Z", "temp_c": 11, "dewp_c": 4, "speci": false, "raw": "METAR UUWW 071600Z 25005MPS CAVOK 11/04 Q1016 R24/000062 NOSIG"}
 {"ts_utc": "2026-10-07T16:04:39Z", "station": "WSSS", "obs_utc": "2026-10-07T16:00:00Z", "temp_c": 28, "dewp_c": 26, "speci": false, "raw": "METAR WSSS 071600Z VRB02KT 3500 HZ FEW020 BKN280 28/26 Q1014 NOSIG"}
+{"ts_utc": "2026-10-07T16:14:40Z", "station": "CYYZ", "obs_utc": "2026-10-07T16:00:00Z", "temp_c": 21, "dewp_c": 12, "speci": false, "raw": "METAR CYYZ 071600Z 23012G24KT 15SM FEW070 BKN210 21/12 A2972 RMK CU1CC4 PRESFR SLP065 DENSITY ALT 1600FT"}
+{"ts_utc": "2026-10-07T16:14:40Z", "station": "KBKF", "obs_utc": "2026-10-07T16:00:00Z", "temp_c": 19.2, "dewp_c": 0.2, "speci": false, "raw": "METAR KBKF 071558Z 33005KT 10SM FEW090 FEW140 19/00 A3027 RMK AO2A SLP183 T01920002"}
+{"ts_utc": "2026-10-07T16:14:40Z", "station": "WMKK", "obs_utc": "2026-10-07T16:00:00Z", "temp_c": 27, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 071600Z VRB02KT 4000 HZ FEW030 27/24 Q1014 NOSIG"}
+{"ts_utc": "2026-10-07T16:14:40Z", "station": "ZSPD", "obs_utc": "2026-10-07T16:00:00Z", "temp_c": 20, "dewp_c": 12, "speci": false, "raw": "METAR ZSPD 071600Z 26002MPS 240V300 CAVOK 20/12 Q1023 NOSIG"}
