@@ -374,3 +374,6 @@
 {"ts_utc": "2026-10-07T10:44:18Z", "station": "NZWN", "obs_utc": "2026-10-07T10:30:00Z", "temp_c": 12, "dewp_c": 10, "speci": false, "raw": "METAR NZWN 071030Z AUTO 03008KT 9999 NCD 12/10 Q1021"}
 {"ts_utc": "2026-10-07T10:44:18Z", "station": "WMKK", "obs_utc": "2026-10-07T10:30:00Z", "temp_c": 31, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 071030Z VRB03KT 4000 HZ FEW017CB 31/24 Q1010 NOSIG"}
 {"ts_utc": "2026-10-07T10:44:18Z", "station": "ZSPD", "obs_utc": "2026-10-07T10:30:00Z", "temp_c": 22, "dewp_c": 11, "speci": false, "raw": "METAR ZSPD 071030Z 20003MPS CAVOK 22/11 Q1022 NOSIG"}
+{"ts_utc": "2026-10-07T10:54:40Z", "station": "EFHK", "obs_utc": "2026-10-07T11:00:00Z", "temp_c": 14, "dewp_c": 5, "speci": false, "raw": "METAR EFHK 071050Z 27012KT 230V300 9999 SCT035 14/05 Q1011 NOSIG"}
+{"ts_utc": "2026-10-07T10:54:40Z", "station": "KATL", "obs_utc": "2026-10-07T11:00:00Z", "temp_c": 15, "dewp_c": 12.8, "speci": false, "raw": "METAR KATL 071052Z 06008KT 10SM CLR 15/13 A3005 RMK AO2 SLP170 T01500128 $"}
+{"ts_utc": "2026-10-07T10:54:40Z", "station": "LLBG", "obs_utc": "2026-10-07T11:00:00Z", "temp_c": 29, "dewp_c": 16, "speci": false, "raw": "METAR LLBG 071050Z 32009KT 280V350 9999 FEW050 29/16 Q1017 NOSIG"}
