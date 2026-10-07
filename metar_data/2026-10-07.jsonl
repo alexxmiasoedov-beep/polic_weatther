@@ -258,3 +258,6 @@
 {"ts_utc": "2026-10-07T07:14:16Z", "station": "UUWW", "obs_utc": "2026-10-07T07:00:00Z", "temp_c": 10, "dewp_c": 7, "speci": false, "raw": "METAR UUWW 070700Z 27007MPS 9999 SCT013 10/07 Q1011 R24/290050 NOSIG"}
 {"ts_utc": "2026-10-07T07:14:16Z", "station": "WMKK", "obs_utc": "2026-10-07T07:00:00Z", "temp_c": 33, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 070700Z VRB04KT 4000 HZ FEW017CB 33/25 Q1010 NOSIG"}
 {"ts_utc": "2026-10-07T07:14:16Z", "station": "ZSPD", "obs_utc": "2026-10-07T07:00:00Z", "temp_c": 26, "dewp_c": 3, "speci": false, "raw": "METAR ZSPD 070700Z 02003MPS 360V070 CAVOK 26/03 Q1022 NOSIG"}
+{"ts_utc": "2026-10-07T07:24:17Z", "station": "KSEA", "obs_utc": "2026-10-07T07:16:00Z", "temp_c": 11.7, "dewp_c": 11.7, "speci": true, "raw": "SPECI KSEA 070716Z 34007KT 1/4SM R16L/1600V3000FT FG VV001 12/12 A3014 RMK AO2 TWR VIS 1/4 T01170117"}
+{"ts_utc": "2026-10-07T07:24:17Z", "station": "EFHK", "obs_utc": "2026-10-07T07:20:00Z", "temp_c": 11, "dewp_c": 6, "speci": false, "raw": "METAR EFHK 070720Z 28012KT 9999 FEW020 11/06 Q1009 NOSIG"}
+{"ts_utc": "2026-10-07T07:24:17Z", "station": "LLBG", "obs_utc": "2026-10-07T07:20:00Z", "temp_c": 27, "dewp_c": 15, "speci": false, "raw": "METAR LLBG 070720Z VRB03KT 9999 FEW040 27/15 Q1018 NOSIG"}
