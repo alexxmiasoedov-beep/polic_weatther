@@ -599,3 +599,10 @@
 {"ts_utc": "2026-10-07T17:25:06Z", "station": "EFHK", "obs_utc": "2026-10-07T17:20:00Z", "temp_c": 9, "dewp_c": 4, "speci": false, "raw": "METAR EFHK 071720Z 26005KT CAVOK 09/04 Q1013 NOSIG"}
 {"ts_utc": "2026-10-07T17:25:06Z", "station": "EGLC", "obs_utc": "2026-10-07T17:20:00Z", "temp_c": 11, "dewp_c": 8, "speci": false, "raw": "METAR EGLC 071720Z AUTO 33009KT 300V360 9999 OVC030 11/08 Q1013"}
 {"ts_utc": "2026-10-07T17:25:06Z", "station": "LLBG", "obs_utc": "2026-10-07T17:20:00Z", "temp_c": 25, "dewp_c": 16, "speci": false, "raw": "METAR LLBG 071720Z 02008KT CAVOK 25/16 Q1018 NOSIG"}
+{"ts_utc": "2026-10-07T17:35:06Z", "station": "LIMC", "obs_utc": "2026-10-07T17:20:00Z", "temp_c": 15, "dewp_c": 14, "speci": false, "raw": "METAR LIMC 071720Z 01007KT 5000 -RA BR SCT025 BKN050 15/14 Q1015 NOSIG"}
+{"ts_utc": "2026-10-07T17:35:06Z", "station": "LTFM", "obs_utc": "2026-10-07T17:20:00Z", "temp_c": 18, "dewp_c": 13, "speci": false, "raw": "METAR LTFM 071720Z 09007KT CAVOK 18/13 Q1021 NOSIG"}
+{"ts_utc": "2026-10-07T17:35:06Z", "station": "EHAM", "obs_utc": "2026-10-07T17:25:00Z", "temp_c": 17, "dewp_c": 14, "speci": false, "raw": "METAR EHAM 071725Z 34008KT 290V010 CAVOK 17/14 Q1007 NOSIG"}
+{"ts_utc": "2026-10-07T17:35:06Z", "station": "NZWN", "obs_utc": "2026-10-07T17:30:00Z", "temp_c": 12, "dewp_c": 10, "speci": false, "raw": "METAR NZWN 071730Z AUTO 17014KT 9999 BKN010/// OVC017/// 12/10 Q1024"}
+{"ts_utc": "2026-10-07T17:35:06Z", "station": "UUWW", "obs_utc": "2026-10-07T17:30:00Z", "temp_c": 9, "dewp_c": 4, "speci": false, "raw": "METAR UUWW 071730Z 24004MPS CAVOK 09/04 Q1016 R24/000062 NOSIG"}
+{"ts_utc": "2026-10-07T17:35:06Z", "station": "WSSS", "obs_utc": "2026-10-07T17:30:00Z", "temp_c": 29, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 071730Z VRB05KT 4500 HZ FEW018 BKN300 29/25 Q1013 NOSIG"}
+{"ts_utc": "2026-10-07T17:35:06Z", "station": "KSEA", "obs_utc": "2026-10-07T17:31:00Z", "temp_c": 13.3, "dewp_c": 11.7, "speci": true, "raw": "SPECI KSEA 071731Z 01008KT 8SM OVC005 13/12 A3016 RMK AO2 CIG 004V007 T01330117"}
