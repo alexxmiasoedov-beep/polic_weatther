@@ -505,3 +505,8 @@
 {"ts_utc": "2026-10-08T14:06:43Z", "station": "ZSPD", "obs_utc": "2026-10-08T14:00:00Z", "temp_c": 19, "dewp_c": 13, "speci": false, "raw": "METAR ZSPD 081400Z 14002MPS CAVOK 19/13 Q1022 NOSIG"}
 {"ts_utc": "2026-10-08T14:16:42Z", "station": "CYYZ", "obs_utc": "2026-10-08T14:00:00Z", "temp_c": 15, "dewp_c": 9, "speci": false, "raw": "METAR CYYZ 081400Z 28012KT 15SM FEW040 FEW260 15/09 A2987 RMK CF1CI1 CF TR CI TR SLP119 DENSITY ALT 800FT"}
 {"ts_utc": "2026-10-08T14:16:42Z", "station": "WMKK", "obs_utc": "2026-10-08T14:00:00Z", "temp_c": 28, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 081400Z VRB03KT 3000 HZ FEW030 28/24 Q1011 NOSIG"}
+{"ts_utc": "2026-10-08T14:26:42Z", "station": "EFHK", "obs_utc": "2026-10-08T14:20:00Z", "temp_c": 11, "dewp_c": 9, "speci": false, "raw": "METAR EFHK 081420Z 09010KT 9999 FEW013 11/09 Q1007 NOSIG"}
+{"ts_utc": "2026-10-08T14:26:42Z", "station": "EGLC", "obs_utc": "2026-10-08T14:20:00Z", "temp_c": 15, "dewp_c": 3, "speci": false, "raw": "METAR EGLC 081420Z AUTO 28010KT 250V310 9999 NCD 15/03 Q1022"}
+{"ts_utc": "2026-10-08T14:26:42Z", "station": "LIMC", "obs_utc": "2026-10-08T14:20:00Z", "temp_c": 19, "dewp_c": 16, "speci": false, "raw": "METAR LIMC 081420Z 14004KT 9999 SCT016 BKN020 19/16 Q1010 NOSIG"}
+{"ts_utc": "2026-10-08T14:26:42Z", "station": "LLBG", "obs_utc": "2026-10-08T14:20:00Z", "temp_c": 28, "dewp_c": 17, "speci": false, "raw": "METAR LLBG 081420Z 34012KT CAVOK 28/17 Q1016 NOSIG"}
+{"ts_utc": "2026-10-08T14:26:42Z", "station": "LTFM", "obs_utc": "2026-10-08T14:20:00Z", "temp_c": 21, "dewp_c": 11, "speci": false, "raw": "METAR LTFM 081420Z 20007KT 170V230 CAVOK 21/11 Q1019 NOSIG"}
