@@ -652,3 +652,10 @@
 {"ts_utc": "2026-10-08T18:07:14Z", "station": "ZSPD", "obs_utc": "2026-10-08T18:00:00Z", "temp_c": 19, "dewp_c": 14, "speci": false, "raw": "METAR ZSPD 081800Z 13002MPS CAVOK 19/14 Q1021 NOSIG"}
 {"ts_utc": "2026-10-08T18:07:14Z", "station": "CYYZ", "obs_utc": "2026-10-08T18:02:00Z", "temp_c": 17, "dewp_c": 7, "speci": true, "raw": "SPECI CYYZ 081802Z 28017G24KT 15SM -SHRA BKN047 17/07 A2988 RMK CU7 SLP123 DENSITY ALT 1000FT"}
 {"ts_utc": "2026-10-08T18:17:14Z", "station": "WMKK", "obs_utc": "2026-10-08T18:00:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 081800Z VRB03KT 3000 HZ FEW030 26/24 Q1010 NOSIG"}
+{"ts_utc": "2026-10-08T18:27:15Z", "station": "KSEA", "obs_utc": "2026-10-08T18:16:00Z", "temp_c": 12.8, "dewp_c": 12.8, "speci": true, "raw": "SPECI KSEA 081816Z 34004KT 1 1/2SM R16L/6000VP6000FT BR BKN002 BKN007 13/13 A3011 RMK AO2 T01280128"}
+{"ts_utc": "2026-10-08T18:27:15Z", "station": "EFHK", "obs_utc": "2026-10-08T18:20:00Z", "temp_c": 12, "dewp_c": 9, "speci": false, "raw": "METAR EFHK 081820Z 11011KT 080V150 9999 FEW015 BKN027 12/09 Q1004 NOSIG"}
+{"ts_utc": "2026-10-08T18:27:15Z", "station": "EGLC", "obs_utc": "2026-10-08T18:20:00Z", "temp_c": 14, "dewp_c": 5, "speci": false, "raw": "METAR EGLC 081820Z AUTO 24007KT 9999 NCD 14/05 Q1022"}
+{"ts_utc": "2026-10-08T18:27:15Z", "station": "LIMC", "obs_utc": "2026-10-08T18:20:00Z", "temp_c": 17, "dewp_c": 14, "speci": false, "raw": "METAR LIMC 081820Z 02006KT 9999 BKN070 17/14 Q1011 NOSIG"}
+{"ts_utc": "2026-10-08T18:27:15Z", "station": "LLBG", "obs_utc": "2026-10-08T18:20:00Z", "temp_c": 25, "dewp_c": 19, "speci": false, "raw": "METAR LLBG 081820Z 34004KT 9999 FEW025 25/19 Q1018 NOSIG"}
+{"ts_utc": "2026-10-08T18:27:15Z", "station": "LTFM", "obs_utc": "2026-10-08T18:20:00Z", "temp_c": 16, "dewp_c": 12, "speci": false, "raw": "METAR LTFM 081820Z 19008KT CAVOK 16/12 Q1019 NOSIG"}
+{"ts_utc": "2026-10-08T18:27:15Z", "station": "EHAM", "obs_utc": "2026-10-08T18:25:00Z", "temp_c": 12, "dewp_c": 7, "speci": false, "raw": "METAR EHAM 081825Z 29007KT 9999 FEW018 FEW022CB 12/07 Q1018 NOSIG"}
