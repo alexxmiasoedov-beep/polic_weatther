@@ -297,3 +297,8 @@
 {"ts_utc": "2026-10-08T08:15:54Z", "station": "CYYZ", "obs_utc": "2026-10-08T08:00:00Z", "temp_c": 10, "dewp_c": 8, "speci": false, "raw": "METAR CYYZ 080800Z 28008KT 15SM SKC 10/08 A2975 RMK SLP078"}
 {"ts_utc": "2026-10-08T08:15:54Z", "station": "KBKF", "obs_utc": "2026-10-08T08:00:00Z", "temp_c": 14.6, "dewp_c": 2.2, "speci": false, "raw": "METAR KBKF 080758Z 18008KT 10SM SCT200 15/02 A3018 RMK AO2A SLP148 T01460022"}
 {"ts_utc": "2026-10-08T08:15:54Z", "station": "WMKK", "obs_utc": "2026-10-08T08:00:00Z", "temp_c": 33, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 080800Z VRB04KT 3000 TS VCSH HZ FEW017CB SCT018 33/25 Q1009 NOSIG"}
+{"ts_utc": "2026-10-08T08:25:55Z", "station": "EFHK", "obs_utc": "2026-10-08T08:20:00Z", "temp_c": 10, "dewp_c": 7, "speci": false, "raw": "METAR EFHK 080820Z 09006KT 9999 FEW021 10/07 Q1013 NOSIG"}
+{"ts_utc": "2026-10-08T08:25:55Z", "station": "EGLC", "obs_utc": "2026-10-08T08:20:00Z", "temp_c": 10, "dewp_c": 5, "speci": false, "raw": "METAR EGLC 080820Z AUTO 31007KT 280V350 9999 NCD 10/05 Q1021"}
+{"ts_utc": "2026-10-08T08:25:55Z", "station": "LIMC", "obs_utc": "2026-10-08T08:20:00Z", "temp_c": 17, "dewp_c": 15, "speci": false, "raw": "METAR LIMC 080820Z 09003KT 050V130 5000 BR BKN030 17/15 Q1010 NOSIG"}
+{"ts_utc": "2026-10-08T08:25:55Z", "station": "LLBG", "obs_utc": "2026-10-08T08:20:00Z", "temp_c": 29, "dewp_c": 13, "speci": false, "raw": "METAR LLBG 080820Z 34008KT CAVOK 29/13 Q1018 NOSIG"}
+{"ts_utc": "2026-10-08T08:25:55Z", "station": "LTFM", "obs_utc": "2026-10-08T08:20:00Z", "temp_c": 19, "dewp_c": 14, "speci": false, "raw": "METAR LTFM 080820Z 22008KT 190V250 9999 FEW025 BKN180 19/14 Q1021 NOSIG"}
