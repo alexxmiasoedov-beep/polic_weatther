@@ -307,3 +307,6 @@
 {"ts_utc": "2026-10-08T08:35:55Z", "station": "UUWW", "obs_utc": "2026-10-08T08:30:00Z", "temp_c": 11, "dewp_c": 6, "speci": false, "raw": "METAR UUWW 080830Z 24004MPS CAVOK 11/06 Q1021 R19/000062 NOSIG"}
 {"ts_utc": "2026-10-08T08:35:55Z", "station": "WSSS", "obs_utc": "2026-10-08T08:30:00Z", "temp_c": 32, "dewp_c": 23, "speci": false, "raw": "METAR WSSS 080830Z 17006KT 130V200 4000 HZ FEW020 BKN300 32/23 Q1009 NOSIG"}
 {"ts_utc": "2026-10-08T08:35:55Z", "station": "ZSPD", "obs_utc": "2026-10-08T08:30:00Z", "temp_c": 23, "dewp_c": 10, "speci": false, "raw": "METAR ZSPD 080830Z 11005MPS 080V140 CAVOK 23/10 Q1021 NOSIG"}
+{"ts_utc": "2026-10-08T08:45:55Z", "station": "WMKK", "obs_utc": "2026-10-08T08:30:00Z", "temp_c": 32, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 080830Z VRB04KT 3000 TS VCSH HZ FEW017CB 32/25 Q1008 NOSIG"}
+{"ts_utc": "2026-10-08T08:45:55Z", "station": "KLAX", "obs_utc": "2026-10-08T08:34:00Z", "temp_c": 21.7, "dewp_c": 20.6, "speci": true, "raw": "SPECI KLAX 080834Z 00000KT 3SM BR FEW002 SCT005 BKN010 22/21 A2986 RMK AO2 VIS SW 2 1/2 T02170206 $"}
+{"ts_utc": "2026-10-08T08:45:55Z", "station": "KSEA", "obs_utc": "2026-10-08T08:38:00Z", "temp_c": 11.7, "dewp_c": 11.1, "speci": true, "raw": "SPECI KSEA 080838Z 00000KT 4SM BR SCT004 12/11 A3011 RMK AO2 T01170111"}
