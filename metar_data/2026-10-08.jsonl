@@ -168,3 +168,5 @@
 {"ts_utc": "2026-10-08T04:35:54Z", "station": "UUWW", "obs_utc": "2026-10-08T04:30:00Z", "temp_c": 4, "dewp_c": 3, "speci": false, "raw": "METAR UUWW 080430Z 24001MPS CAVOK 04/03 Q1020 R24/000062 NOSIG"}
 {"ts_utc": "2026-10-08T04:35:54Z", "station": "WSSS", "obs_utc": "2026-10-08T04:30:00Z", "temp_c": 32, "dewp_c": 24, "speci": false, "raw": "METAR WSSS 080430Z 17006KT 3000 HZ FEW020 BKN300 32/24 Q1013 NOSIG"}
 {"ts_utc": "2026-10-08T04:35:54Z", "station": "ZSPD", "obs_utc": "2026-10-08T04:30:00Z", "temp_c": 25, "dewp_c": 10, "speci": false, "raw": "METAR ZSPD 080430Z 08004MPS 040V150 CAVOK 25/10 Q1022 NOSIG"}
+{"ts_utc": "2026-10-08T04:45:54Z", "station": "WMKK", "obs_utc": "2026-10-08T04:30:00Z", "temp_c": 32, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 080430Z 33003KT 250V060 3000 HZ FEW018 32/25 Q1013 NOSIG"}
+{"ts_utc": "2026-10-08T04:45:54Z", "station": "MMMX", "obs_utc": "2026-10-08T04:36:00Z", "temp_c": 16, "dewp_c": 13, "speci": true, "raw": "SPECI MMMX 080436Z 00000KT 8SM -RA BKN020CB OVC080 16/13 A3029 NOSIG RMK 8/36/ HZY RAB35"}
