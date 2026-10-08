@@ -52,3 +52,4 @@
 {"ts_utc": "2026-10-08T01:05:28Z", "station": "NZWN", "obs_utc": "2026-10-08T01:00:00Z", "temp_c": 13, "dewp_c": 11, "speci": false, "raw": "METAR NZWN 080100Z AUTO 18017KT 9999 SCT008/// SCT012/// BKN019/// 13/11 Q1027"}
 {"ts_utc": "2026-10-08T01:05:28Z", "station": "UUWW", "obs_utc": "2026-10-08T01:00:00Z", "temp_c": 4, "dewp_c": 3, "speci": false, "raw": "METAR UUWW 080100Z 23002MPS CAVOK 04/03 Q1019 R24/000062 TEMPO 0300 FG"}
 {"ts_utc": "2026-10-08T01:05:28Z", "station": "WSSS", "obs_utc": "2026-10-08T01:00:00Z", "temp_c": 29, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 080100Z 11003KT 040V170 7000 FEW018 BKN300 29/25 Q1014 NOSIG"}
+{"ts_utc": "2026-10-08T01:06:33Z", "station": "ZSPD", "obs_utc": "2026-10-08T01:00:00Z", "temp_c": 24, "dewp_c": 12, "speci": false, "raw": "METAR ZSPD 080100Z VRB01MPS CAVOK 24/12 Q1024 NOSIG"}
