@@ -799,3 +799,5 @@
 {"ts_utc": "2026-10-08T21:07:14Z", "station": "UUWW", "obs_utc": "2026-10-08T21:00:00Z", "temp_c": 8, "dewp_c": 5, "speci": false, "raw": "METAR UUWW 082100Z 16003MPS CAVOK 08/05 Q1016 R24/000062 NOSIG"}
 {"ts_utc": "2026-10-08T21:07:14Z", "station": "WSSS", "obs_utc": "2026-10-08T21:00:00Z", "temp_c": 28, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 082100Z 09002KT 3000 HZ FEW016 BKN300 28/25 Q1010 NOSIG"}
 {"ts_utc": "2026-10-08T21:07:14Z", "station": "ZSPD", "obs_utc": "2026-10-08T21:00:00Z", "temp_c": 17, "dewp_c": 15, "speci": false, "raw": "METAR ZSPD 082100Z 00000MPS CAVOK 17/15 Q1020 NOSIG"}
+{"ts_utc": "2026-10-08T21:17:14Z", "station": "CYYZ", "obs_utc": "2026-10-08T21:00:00Z", "temp_c": 17, "dewp_c": 6, "speci": false, "raw": "METAR CYYZ 082100Z 31020KT 15SM SCT057 SCT260 17/06 A2992 RMK CU3CI1 CI TR SLP136 DENSITY ALT 1000FT"}
+{"ts_utc": "2026-10-08T21:17:14Z", "station": "WMKK", "obs_utc": "2026-10-08T21:00:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 082100Z 04003KT 340V100 3000 HZ FEW030 26/24 Q1009 NOSIG"}
