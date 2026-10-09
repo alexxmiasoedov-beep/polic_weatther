@@ -707,3 +707,4 @@
 {"ts_utc": "2026-10-09T19:06:16Z", "station": "UUWW", "obs_utc": "2026-10-09T19:00:00Z", "temp_c": 13, "dewp_c": 12, "speci": false, "raw": "METAR UUWW 091900Z 22007MPS 9000 -SHRA SCT009 BKN025CB 13/12 Q1003 R19/290045 R24/290050 NOSIG"}
 {"ts_utc": "2026-10-09T19:06:16Z", "station": "WSSS", "obs_utc": "2026-10-09T19:00:00Z", "temp_c": 29, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 091900Z 08004G16KT 350V150 4000 HZ FEW018 BKN300 29/25 Q1009 NOSIG"}
 {"ts_utc": "2026-10-09T19:06:16Z", "station": "ZSPD", "obs_utc": "2026-10-09T19:00:00Z", "temp_c": 19, "dewp_c": 17, "speci": false, "raw": "METAR ZSPD 091900Z 30002MPS CAVOK 19/17 Q1018 NOSIG"}
+{"ts_utc": "2026-10-09T19:18:59Z", "station": "UUWW", "obs_utc": "2026-10-09T19:09:00Z", "temp_c": 13, "dewp_c": 11, "speci": true, "raw": "SPECI UUWW 091909Z 27010G17MPS 4700 2300SE -SHRA SCT006 BKN020CB 13/11 Q1003 R19/290045 R24/290050 TEMPO 2000 SHRA BKN016CB"}
