@@ -864,3 +864,11 @@
 {"ts_utc": "2026-10-09T22:59:24Z", "station": "LIMC", "obs_utc": "2026-10-09T23:00:00Z", "temp_c": 13, "dewp_c": 13, "speci": false, "raw": "METAR LIMC 092250Z 03003KT CAVOK 13/13 Q1016 NOSIG"}
 {"ts_utc": "2026-10-09T22:59:24Z", "station": "LLBG", "obs_utc": "2026-10-09T23:00:00Z", "temp_c": 23, "dewp_c": 17, "speci": false, "raw": "METAR LLBG 092250Z VRB03KT 9999 FEW030 23/17 Q1015 NOSIG"}
 {"ts_utc": "2026-10-09T22:59:24Z", "station": "LTFM", "obs_utc": "2026-10-09T23:00:00Z", "temp_c": 17, "dewp_c": 13, "speci": false, "raw": "METAR LTFM 092250Z 19008KT CAVOK 17/13 Q1017 NOSIG"}
+{"ts_utc": "2026-10-09T23:09:25Z", "station": "CYYZ", "obs_utc": "2026-10-09T23:00:00Z", "temp_c": 16, "dewp_c": 3, "speci": false, "raw": "METAR CYYZ 092300Z 31011KT 15SM FEW060 FEW250 16/03 A3019 RMK SC1CI1 SC TR CI TR SLP226"}
+{"ts_utc": "2026-10-09T23:09:25Z", "station": "MMMX", "obs_utc": "2026-10-09T23:00:00Z", "temp_c": 19, "dewp_c": 13, "speci": false, "raw": "METAR MMMX 092245Z 01008KT 6SM VCRA BKN020CB OVC080 19/13 A3018 TEMPO 3SM +RA RMK 8/36/ HZY OCNL DROPS PCPN S"}
+{"ts_utc": "2026-10-09T23:09:25Z", "station": "NZWN", "obs_utc": "2026-10-09T23:00:00Z", "temp_c": 16, "dewp_c": 12, "speci": false, "raw": "METAR NZWN 092300Z AUTO 18007KT 9999 BKN060/// 16/12 Q1025"}
+{"ts_utc": "2026-10-09T23:09:25Z", "station": "UUWW", "obs_utc": "2026-10-09T23:00:00Z", "temp_c": 7, "dewp_c": 6, "speci": false, "raw": "METAR UUWW 092300Z 21006MPS CAVOK 07/06 Q1004 R24/290050 NOSIG"}
+{"ts_utc": "2026-10-09T23:09:25Z", "station": "WMKK", "obs_utc": "2026-10-09T23:00:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 092300Z VRB03KT 3000 BR FEW010 FEW017CB 26/24 Q1008 NOSIG"}
+{"ts_utc": "2026-10-09T23:09:25Z", "station": "WSSS", "obs_utc": "2026-10-09T23:00:00Z", "temp_c": 28, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 092300Z 10005KT 2000 HZ FEW018 BKN300 28/25 Q1009 NOSIG"}
+{"ts_utc": "2026-10-09T23:09:25Z", "station": "ZSPD", "obs_utc": "2026-10-09T23:00:00Z", "temp_c": 21, "dewp_c": 19, "speci": false, "raw": "METAR ZSPD 092300Z 32002MPS CAVOK 21/19 Q1019 NOSIG"}
+{"ts_utc": "2026-10-09T23:09:25Z", "station": "MMMX", "obs_utc": "2026-10-09T23:03:00Z", "temp_c": 18, "dewp_c": 14, "speci": true, "raw": "SPECI MMMX 092303Z 08012KT 4SM +RA BKN015CB OVC070 18/14 A3019 TEMPO 3SM +RA RMK 8/96/ HZY RAB03"}
