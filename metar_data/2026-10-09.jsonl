@@ -26,3 +26,9 @@
 {"ts_utc": "2026-10-09T00:27:42Z", "station": "LLBG", "obs_utc": "2026-10-09T00:20:00Z", "temp_c": 23, "dewp_c": 19, "speci": false, "raw": "METAR LLBG 090020Z 14004KT 9999 FEW029 23/19 Q1017 NOSIG"}
 {"ts_utc": "2026-10-09T00:27:42Z", "station": "LTFM", "obs_utc": "2026-10-09T00:20:00Z", "temp_c": 15, "dewp_c": 14, "speci": false, "raw": "METAR LTFM 090020Z 18008KT 7000 NSC 15/14 Q1019 NOSIG"}
 {"ts_utc": "2026-10-09T00:27:42Z", "station": "MMMX", "obs_utc": "2026-10-09T00:25:00Z", "temp_c": 15, "dewp_c": 13, "speci": true, "raw": "SPECI MMMX 090025Z 27008KT 4SM BKN015CB OVC080 15/13 A3025 NOSIG RMK 8/36/ HZY VSBY LWR PCPN 3TH QUAD"}
+{"ts_utc": "2026-10-09T00:37:41Z", "station": "EHAM", "obs_utc": "2026-10-09T00:25:00Z", "temp_c": 11, "dewp_c": 7, "speci": false, "raw": "METAR EHAM 090025Z 22008KT 9999 FEW040 11/07 Q1017 NOSIG"}
+{"ts_utc": "2026-10-09T00:37:41Z", "station": "MMMX", "obs_utc": "2026-10-09T00:29:00Z", "temp_c": 15, "dewp_c": 13, "speci": true, "raw": "SPECI MMMX 090029Z 26010KT 4SM -RA BKN015CB OVC080 15/13 A3025 NOSIG RMK 8/36/ HZY VSBY LWR 3TH QUAD RAB29"}
+{"ts_utc": "2026-10-09T00:37:41Z", "station": "NZWN", "obs_utc": "2026-10-09T00:30:00Z", "temp_c": 17, "dewp_c": 11, "speci": false, "raw": "METAR NZWN 090030Z AUTO 21008KT 9999 NCD 17/11 Q1027"}
+{"ts_utc": "2026-10-09T00:37:41Z", "station": "UUWW", "obs_utc": "2026-10-09T00:30:00Z", "temp_c": 6, "dewp_c": 5, "speci": false, "raw": "METAR UUWW 090030Z 13003MPS CAVOK 06/05 Q1014 R24/000062 NOSIG"}
+{"ts_utc": "2026-10-09T00:37:41Z", "station": "WSSS", "obs_utc": "2026-10-09T00:30:00Z", "temp_c": 29, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 090030Z 07004KT 040V120 2000 HZ FEW016 BKN280 29/25 Q1012 NOSIG"}
+{"ts_utc": "2026-10-09T00:37:41Z", "station": "ZSPD", "obs_utc": "2026-10-09T00:30:00Z", "temp_c": 23, "dewp_c": 16, "speci": false, "raw": "METAR ZSPD 090030Z 02002MPS 330V050 CAVOK 23/16 Q1022 NOSIG"}
