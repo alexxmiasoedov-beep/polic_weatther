@@ -200,3 +200,10 @@
 {"ts_utc": "2026-10-09T05:08:06Z", "station": "ZSPD", "obs_utc": "2026-10-09T05:00:00Z", "temp_c": 25, "dewp_c": 16, "speci": false, "raw": "METAR ZSPD 090500Z 03006MPS 350V070 CAVOK 25/16 Q1019 NOSIG"}
 {"ts_utc": "2026-10-09T05:18:07Z", "station": "KBKF", "obs_utc": "2026-10-09T05:00:00Z", "temp_c": 16.6, "dewp_c": 0.3, "speci": false, "raw": "METAR KBKF 090458Z 18009KT 10SM FEW100 SCT140 17/00 A3012 RMK AO2A SLP123 T01660003"}
 {"ts_utc": "2026-10-09T05:18:07Z", "station": "WMKK", "obs_utc": "2026-10-09T05:00:00Z", "temp_c": 33, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 090500Z VRB03KT 2000 HZ FEW018 33/25 Q1009 NOSIG"}
+{"ts_utc": "2026-10-09T05:28:07Z", "station": "EFHK", "obs_utc": "2026-10-09T05:20:00Z", "temp_c": 12, "dewp_c": 11, "speci": false, "raw": "METAR EFHK 090520Z 13012KT 8000 -SHRA BKN007 FEW030CB 12/11 Q0989 TEMPO 7000"}
+{"ts_utc": "2026-10-09T05:28:07Z", "station": "EGLC", "obs_utc": "2026-10-09T05:20:00Z", "temp_c": 16, "dewp_c": 14, "speci": false, "raw": "METAR EGLC 090520Z AUTO 24015KT 9999 BKN013 OVC022 16/14 Q1012"}
+{"ts_utc": "2026-10-09T05:28:07Z", "station": "LIMC", "obs_utc": "2026-10-09T05:20:00Z", "temp_c": 15, "dewp_c": 14, "speci": false, "raw": "METAR LIMC 090520Z 03005KT 9999 BKN025 15/14 Q1015 NOSIG"}
+{"ts_utc": "2026-10-09T05:28:07Z", "station": "LLBG", "obs_utc": "2026-10-09T05:20:00Z", "temp_c": 23, "dewp_c": 19, "speci": false, "raw": "METAR LLBG 090520Z VRB01KT 9999 FEW020 BKN040 23/19 Q1017 NOSIG"}
+{"ts_utc": "2026-10-09T05:28:07Z", "station": "LTFM", "obs_utc": "2026-10-09T05:20:00Z", "temp_c": 16, "dewp_c": 15, "speci": false, "raw": "METAR LTFM 090520Z 19009KT 6000 NSC 16/15 Q1019 NOSIG"}
+{"ts_utc": "2026-10-09T05:28:07Z", "station": "MMMX", "obs_utc": "2026-10-09T05:21:00Z", "temp_c": 15, "dewp_c": 13, "speci": true, "raw": "SPECI MMMX 090521Z 31005KT 6SM SCT030 OVC070 15/13 A3030 NOSIG RMK 8/42/ RAE16 OCNL DROPS VRB COND HZY"}
+{"ts_utc": "2026-10-09T05:28:07Z", "station": "EHAM", "obs_utc": "2026-10-09T05:25:00Z", "temp_c": 10, "dewp_c": 9, "speci": false, "raw": "METAR EHAM 090525Z 19016KT 150V210 9999 -RADZ FEW008 SCT011 BKN018 10/09 Q1011 BECMG 7000 TEMPO BKN011"}
