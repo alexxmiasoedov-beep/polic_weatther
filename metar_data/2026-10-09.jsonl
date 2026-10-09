@@ -156,3 +156,10 @@
 {"ts_utc": "2026-10-09T03:58:06Z", "station": "LIMC", "obs_utc": "2026-10-09T04:00:00Z", "temp_c": 15, "dewp_c": 14, "speci": false, "raw": "METAR LIMC 090350Z 02006KT 9999 -RA FEW030 BKN060 15/14 Q1015 NOSIG"}
 {"ts_utc": "2026-10-09T03:58:06Z", "station": "LLBG", "obs_utc": "2026-10-09T04:00:00Z", "temp_c": 23, "dewp_c": 19, "speci": false, "raw": "METAR LLBG 090350Z VRB01KT 9999 BKN022 23/19 Q1017 NOSIG"}
 {"ts_utc": "2026-10-09T03:58:06Z", "station": "LTFM", "obs_utc": "2026-10-09T04:00:00Z", "temp_c": 15, "dewp_c": 13, "speci": false, "raw": "METAR LTFM 090350Z 18011KT 7000 NSC 15/13 Q1019 NOSIG"}
+{"ts_utc": "2026-10-09T04:08:06Z", "station": "MMMX", "obs_utc": "2026-10-09T03:44:00Z", "temp_c": 15, "dewp_c": 13, "speci": false, "raw": "METAR MMMX 090344Z 33005KT 5SM -RA OVC030CB 15/13 A3032 NOSIG RMK 60255 8/9// LWR SC VRB COND HZY"}
+{"ts_utc": "2026-10-09T04:08:06Z", "station": "CYYZ", "obs_utc": "2026-10-09T04:00:00Z", "temp_c": 10, "dewp_c": 5, "speci": false, "raw": "METAR CYYZ 090400Z 29006KT 15SM FEW050 10/05 A3002 RMK SC1 SC TR SLP170"}
+{"ts_utc": "2026-10-09T04:08:06Z", "station": "KSFO", "obs_utc": "2026-10-09T04:00:00Z", "temp_c": 15.6, "dewp_c": 12.8, "speci": false, "raw": "METAR KSFO 090356Z 30010KT 10SM FEW002 16/13 A2979 RMK AO2 SLP089 T01560128"}
+{"ts_utc": "2026-10-09T04:08:06Z", "station": "NZWN", "obs_utc": "2026-10-09T04:00:00Z", "temp_c": 18, "dewp_c": 12, "speci": false, "raw": "METAR NZWN 090400Z AUTO 20007KT 9999 NCD 18/12 Q1025"}
+{"ts_utc": "2026-10-09T04:08:06Z", "station": "UUWW", "obs_utc": "2026-10-09T04:00:00Z", "temp_c": 7, "dewp_c": 5, "speci": false, "raw": "METAR UUWW 090400Z 14005MPS CAVOK 07/05 Q1012 R24/000062 NOSIG"}
+{"ts_utc": "2026-10-09T04:08:06Z", "station": "WSSS", "obs_utc": "2026-10-09T04:00:00Z", "temp_c": 31, "dewp_c": 23, "speci": false, "raw": "METAR WSSS 090400Z 10004KT 050V150 2500 HZ FEW018 BKN300 31/23 Q1011 NOSIG"}
+{"ts_utc": "2026-10-09T04:08:06Z", "station": "ZSPD", "obs_utc": "2026-10-09T04:00:00Z", "temp_c": 26, "dewp_c": 17, "speci": false, "raw": "METAR ZSPD 090400Z 03004MPS 340V100 CAVOK 26/17 Q1020 NOSIG"}
