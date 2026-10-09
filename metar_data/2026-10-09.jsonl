@@ -885,3 +885,5 @@
 {"ts_utc": "2026-10-09T23:39:25Z", "station": "UUWW", "obs_utc": "2026-10-09T23:30:00Z", "temp_c": 7, "dewp_c": 6, "speci": false, "raw": "METAR UUWW 092330Z 21006MPS CAVOK 07/06 Q1004 R24/290050 NOSIG"}
 {"ts_utc": "2026-10-09T23:39:25Z", "station": "WMKK", "obs_utc": "2026-10-09T23:30:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 092330Z VRB02KT 3000 BR FEW010 FEW017CB 26/24 Q1008 NOSIG"}
 {"ts_utc": "2026-10-09T23:39:25Z", "station": "WSSS", "obs_utc": "2026-10-09T23:30:00Z", "temp_c": 29, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 092330Z 10007KT 2000 HZ FEW018 BKN300 29/25 Q1009 NOSIG"}
+{"ts_utc": "2026-10-09T23:49:24Z", "station": "ZSPD", "obs_utc": "2026-10-09T23:30:00Z", "temp_c": 22, "dewp_c": 20, "speci": false, "raw": "METAR ZSPD 092330Z 33002MPS CAVOK 22/20 Q1019 NOSIG"}
+{"ts_utc": "2026-10-09T23:49:24Z", "station": "MMMX", "obs_utc": "2026-10-09T23:46:00Z", "temp_c": 16, "dewp_c": 14, "speci": true, "raw": "SPECI MMMX 092346Z 02010KT 4SM BKN015CB OVC070 16/14 A3020 TEMPO 3SM RA RMK 8/96/ HZY VSBY LWR PCPN W SW AND W NW RAE46"}
