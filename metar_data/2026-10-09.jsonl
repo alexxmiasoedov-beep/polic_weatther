@@ -827,3 +827,6 @@
 {"ts_utc": "2026-10-09T21:56:21Z", "station": "LIMC", "obs_utc": "2026-10-09T22:00:00Z", "temp_c": 13, "dewp_c": 12, "speci": false, "raw": "METAR LIMC 092150Z 03005KT CAVOK 13/12 Q1016 NOSIG"}
 {"ts_utc": "2026-10-09T21:56:21Z", "station": "LLBG", "obs_utc": "2026-10-09T22:00:00Z", "temp_c": 24, "dewp_c": 17, "speci": false, "raw": "METAR LLBG 092150Z 13004KT 9999 SCT025 24/17 Q1015 NOSIG"}
 {"ts_utc": "2026-10-09T21:56:21Z", "station": "LTFM", "obs_utc": "2026-10-09T22:00:00Z", "temp_c": 17, "dewp_c": 12, "speci": false, "raw": "METAR LTFM 092150Z 20009KT CAVOK 17/12 Q1017 NOSIG"}
+{"ts_utc": "2026-10-09T21:59:25Z", "station": "MMMX", "obs_utc": "2026-10-09T21:40:00Z", "temp_c": 20, "dewp_c": 12, "speci": false, "raw": "METAR MMMX 092140Z 04005KT 5SM VCRA BKN020CB BKN080 OVC220 20/12 A3018 TEMPO 3SM +RA RMK 60005 8/363 HZY OCNL DROPS PCPN N NE AND N NW"}
+{"ts_utc": "2026-10-09T21:59:25Z", "station": "EHAM", "obs_utc": "2026-10-09T22:00:00Z", "temp_c": 14, "dewp_c": 10, "speci": false, "raw": "METAR EHAM 092155Z 28011KT 9999 FEW033 14/10 Q1006 NOSIG"}
+{"ts_utc": "2026-10-09T21:59:25Z", "station": "KSFO", "obs_utc": "2026-10-09T22:00:00Z", "temp_c": 20, "dewp_c": 12.8, "speci": false, "raw": "METAR KSFO 092156Z 31016KT 10SM FEW008 FEW150 20/13 A2973 RMK AO2 SLP068 T02000128"}
