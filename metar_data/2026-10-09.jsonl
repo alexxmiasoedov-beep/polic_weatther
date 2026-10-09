@@ -18,3 +18,5 @@
 {"ts_utc": "2026-10-09T00:07:41Z", "station": "UUWW", "obs_utc": "2026-10-09T00:00:00Z", "temp_c": 7, "dewp_c": 5, "speci": false, "raw": "METAR UUWW 090000Z 16003MPS CAVOK 07/05 Q1015 R24/000062 NOSIG"}
 {"ts_utc": "2026-10-09T00:07:41Z", "station": "WSSS", "obs_utc": "2026-10-09T00:00:00Z", "temp_c": 28, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 090000Z 04003KT 340V070 2000 HZ FEW016 BKN280 28/25 Q1011 NOSIG"}
 {"ts_utc": "2026-10-09T00:07:41Z", "station": "ZSPD", "obs_utc": "2026-10-09T00:00:00Z", "temp_c": 23, "dewp_c": 15, "speci": false, "raw": "METAR ZSPD 090000Z 04002MPS 010V070 CAVOK 23/15 Q1021 NOSIG"}
+{"ts_utc": "2026-10-09T00:17:42Z", "station": "WMKK", "obs_utc": "2026-10-09T00:00:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 090000Z VRB03KT 2000 HZ FEW018 26/24 Q1010 NOSIG"}
+{"ts_utc": "2026-10-09T00:17:42Z", "station": "MMMX", "obs_utc": "2026-10-09T00:12:00Z", "temp_c": 17, "dewp_c": 13, "speci": true, "raw": "SPECI MMMX 090012Z 29010KT 4SM VCRA BKN020CB OVC080 17/13 A3024 NOSIG RMK 8/36/ HZY VSBY LWR PCPN S SW"}
