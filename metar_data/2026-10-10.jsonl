@@ -70,3 +70,4 @@
 {"ts_utc": "2026-10-10T01:39:24Z", "station": "KLAX", "obs_utc": "2026-10-10T01:31:00Z", "temp_c": 22.2, "dewp_c": 18.3, "speci": true, "raw": "SPECI KLAX 100131Z 26012KT 10SM FEW009 FEW110 SCT140 22/18 A2971 RMK AO2 T02220183 $"}
 {"ts_utc": "2026-10-10T01:39:24Z", "station": "MMMX", "obs_utc": "2026-10-10T01:32:00Z", "temp_c": 16, "dewp_c": 14, "speci": true, "raw": "SPECI MMMX 100132Z 30010KT 4SM -RA BKN010CB OVC070 16/14 A3024 NOSIG RMK 8/96/ HZY RAB32"}
 {"ts_utc": "2026-10-10T01:39:24Z", "station": "MMMX", "obs_utc": "2026-10-10T01:37:00Z", "temp_c": 16, "dewp_c": 14, "speci": true, "raw": "SPECI MMMX 100137Z 30008KT 4SM RA BKN010CB OVC070 16/14 A3024 NOSIG RMK 8/96/ HZY RAB37"}
+{"ts_utc": "2026-10-10T01:49:24Z", "station": "MMMX", "obs_utc": "2026-10-10T01:47:00Z", "temp_c": 16, "dewp_c": 14, "speci": true, "raw": "SPECI MMMX 100147Z 28006KT 4SM +RA BKN010CB OVC070 16/14 A3025 NOSIG RMK 8/96/ HZY RAB47"}
