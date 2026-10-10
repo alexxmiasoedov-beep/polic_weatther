@@ -462,3 +462,6 @@
 {"ts_utc": "2026-10-10T12:40:34Z", "station": "WSSS", "obs_utc": "2026-10-10T12:30:00Z", "temp_c": 28, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 101230Z VRB02KT 5000 HZ FEW018 BKN300 28/25 Q1009 NOSIG"}
 {"ts_utc": "2026-10-10T12:40:34Z", "station": "ZSPD", "obs_utc": "2026-10-10T12:30:00Z", "temp_c": 23, "dewp_c": 19, "speci": false, "raw": "METAR ZSPD 101230Z 05004MPS 010V090 CAVOK 23/19 Q1019 NOSIG"}
 {"ts_utc": "2026-10-10T12:40:34Z", "station": "MMMX", "obs_utc": "2026-10-10T12:40:00Z", "temp_c": 14, "dewp_c": 13, "speci": true, "raw": "SPECI MMMX 101240Z 07005KT 4SM BKN015 OVC070 14/13 A3027 NOSIG RMK 8/57/ HZY RAE38 OCNL DROPS"}
+{"ts_utc": "2026-10-10T12:50:35Z", "station": "UUWW", "obs_utc": "2026-10-10T12:40:00Z", "temp_c": 10, "dewp_c": 5, "speci": true, "raw": "SPECI UUWW 101240Z 23007G12MPS 9999 BKN032 10/05 Q1008 R24/000062 NOSIG"}
+{"ts_utc": "2026-10-10T12:50:35Z", "station": "KATL", "obs_utc": "2026-10-10T12:43:00Z", "temp_c": 17.2, "dewp_c": 16.1, "speci": true, "raw": "SPECI KATL 101243Z 07013KT 3SM -RA BR FEW005 SCT023 OVC037 17/16 A2992 RMK AO2 SFC VIS 5 P0019 T01720161 $"}
+{"ts_utc": "2026-10-10T12:50:35Z", "station": "LLBG", "obs_utc": "2026-10-10T13:00:00Z", "temp_c": 28, "dewp_c": 21, "speci": false, "raw": "METAR LLBG 101250Z 30010KT 270V330 9999 FEW025 SCT030 28/21 Q1011 NOSIG"}
