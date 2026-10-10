@@ -1226,9 +1226,9 @@
    "ask": 21.0,
    "ts_utc": "2026-10-07T10:04:19Z",
    "hte": 29.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "33°C",
+   "hit": false,
+   "pnl": -1.0
   },
   "cape-town": {
    "strategy": "tail@24",

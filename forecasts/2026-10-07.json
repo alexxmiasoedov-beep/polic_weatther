@@ -1196,6 +1196,11 @@
    "strategy": "lead:40-60@12",
    "skip": true,
    "winner": "88-89°F"
+  },
+  "kuala-lumpur": {
+   "strategy": "cons@30",
+   "skip": true,
+   "winner": "34°C"
   }
  }
 }

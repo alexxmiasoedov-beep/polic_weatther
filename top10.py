@@ -11,7 +11,9 @@ python3 top10.py --update            # дописать входы/резолв�
 python3 top10.py --stats [--tg файл] # кумулятив по парам
 python3 top10.py --backtest          # та же механика на всей истории (справочно)
 """
-import json, sys, glob
+import json
+import sys, glob
+from datetime import datetime, timezone
 from collections import defaultdict
 from pathlib import Path
 import strategy_lab as L
@@ -53,7 +55,10 @@ def evaluate(S, slug, d, name):
     if not sa: return None, None
     ts, b, h = sa
     wx = v["wx"].get(ts) or (max(((t, x) for t, x in v["wx"].items() if t <= ts), default=(None, None))[1])
-    w = L.winner_of(snaps) if hte[-1] <= 6 else None
+    # рынок закрыт: последний снапшот ближе 6 ч к концу дня ИЛИ локальный день уже кончился
+    # (сборщик прекращает опрос, как только корзина ≥97¢ — у пилотов это бывает за 10 ч до конца)
+    day_over = L.hours_to_end(datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), d, tz) <= 0
+    w = L.winner_of(snaps) if (hte[-1] <= 6 or day_over) else None
     tr = apply_rule(name, b, w or "", wx)
     if not tr: return {"skip": True}, w
     bucket, ask, _ = tr

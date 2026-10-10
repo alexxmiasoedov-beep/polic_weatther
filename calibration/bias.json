@@ -1,19 +1,19 @@
 {
- "updated": "2026-10-09",
+ "updated": "2026-10-10",
  "roll_days": 14,
  "note": "bias = средняя (прогноз - факт); калиброванный прогноз = прогноз - bias",
  "cities": {
   "atlanta": {
    "nws": {
     "bias": 1.2,
-    "days": 12
+    "days": 11
    },
    "om_best_match": {
     "bias": 1.9,
     "days": 14
    },
    "om_ecmwf_ifs025": {
-    "bias": -0.6,
+    "bias": -0.5,
     "days": 14
    },
    "om_gfs_seamless": {
@@ -21,19 +21,19 @@
     "days": 14
    },
    "om_icon_seamless": {
-    "bias": -0.5,
+    "bias": -0.8,
     "days": 14
    },
    "om_ecmwf_aifs025_single": {
-    "bias": -1.8,
+    "bias": -1.5,
     "days": 14
    },
    "om_ncep_nbm_conus": {
-    "bias": 0.3,
+    "bias": 0.2,
     "days": 14
    },
    "om_ukmo_seamless": {
-    "bias": -0.9,
+    "bias": -1.0,
     "days": 14
    },
    "om_gfs_hrrr": {
@@ -47,15 +47,15 @@
     "days": 14
    },
    "om_best_match": {
-    "bias": -1.3,
-    "days": 13
-   },
-   "om_ecmwf_ifs025": {
     "bias": -1.2,
     "days": 13
    },
-   "om_gfs_seamless": {
+   "om_ecmwf_ifs025": {
     "bias": -1.3,
+    "days": 13
+   },
+   "om_gfs_seamless": {
+    "bias": -1.2,
     "days": 13
    },
    "om_icon_seamless": {
@@ -63,11 +63,11 @@
     "days": 13
    },
    "om_ecmwf_aifs025_single": {
-    "bias": -2.9,
+    "bias": -2.8,
     "days": 13
    },
    "om_ncep_nbm_conus": {
-    "bias": -1.1,
+    "bias": -1.0,
     "days": 13
    },
    "om_ukmo_seamless": {
@@ -75,45 +75,45 @@
     "days": 13
    },
    "om_gfs_hrrr": {
-    "bias": -1.3,
+    "bias": -1.2,
     "days": 13
    }
   },
   "houston": {
    "nws": {
-    "bias": 0.6,
+    "bias": 0.7,
     "days": 13
    },
    "om_best_match": {
-    "bias": 1.2,
+    "bias": 1.0,
     "days": 14
    },
    "om_ecmwf_ifs025": {
-    "bias": -1.7,
+    "bias": -1.6,
     "days": 14
    },
    "om_gfs_seamless": {
-    "bias": 1.2,
+    "bias": 1.0,
     "days": 14
    },
    "om_icon_seamless": {
-    "bias": 0.1,
+    "bias": 0.2,
     "days": 14
    },
    "om_ecmwf_aifs025_single": {
-    "bias": -1.1,
+    "bias": -0.9,
     "days": 14
    },
    "om_ncep_nbm_conus": {
-    "bias": -1.3,
+    "bias": -1.1,
     "days": 14
    },
    "om_ukmo_seamless": {
-    "bias": -0.6,
+    "bias": -0.5,
     "days": 14
    },
    "om_gfs_hrrr": {
-    "bias": 1.2,
+    "bias": 1.0,
     "days": 14
    }
   },
@@ -123,7 +123,7 @@
     "days": 14
    },
    "om_best_match": {
-    "bias": -0.6,
+    "bias": -0.5,
     "days": 13
    },
    "om_ecmwf_ifs025": {
@@ -131,11 +131,11 @@
     "days": 13
    },
    "om_gfs_seamless": {
-    "bias": -0.6,
+    "bias": -0.5,
     "days": 13
    },
    "om_icon_seamless": {
-    "bias": 4.0,
+    "bias": 3.9,
     "days": 13
    },
    "om_ecmwf_aifs025_single": {
@@ -147,29 +147,29 @@
     "days": 13
    },
    "om_ukmo_seamless": {
-    "bias": -1.7,
+    "bias": -1.4,
     "days": 13
    },
    "om_gfs_hrrr": {
-    "bias": -0.6,
+    "bias": -0.5,
     "days": 13
    }
   },
   "miami": {
    "nws": {
-    "bias": 1.3,
+    "bias": 1.5,
     "days": 12
    },
    "om_best_match": {
-    "bias": -1.2,
+    "bias": -0.8,
     "days": 14
    },
    "om_ecmwf_ifs025": {
-    "bias": -2.1,
+    "bias": -1.9,
     "days": 14
    },
    "om_gfs_seamless": {
-    "bias": -1.2,
+    "bias": -0.8,
     "days": 14
    },
    "om_icon_seamless": {
@@ -177,95 +177,95 @@
     "days": 14
    },
    "om_ecmwf_aifs025_single": {
-    "bias": -2.4,
+    "bias": -2.2,
     "days": 14
    },
    "om_ncep_nbm_conus": {
-    "bias": -1.4,
+    "bias": -1.1,
     "days": 14
    },
    "om_ukmo_seamless": {
-    "bias": 0.6,
+    "bias": 0.8,
     "days": 14
    },
    "om_gfs_hrrr": {
-    "bias": -1.2,
+    "bias": -0.8,
     "days": 14
    }
   },
   "seattle": {
    "nws": {
-    "bias": 0.6,
+    "bias": 1.0,
     "days": 14
    },
    "om_best_match": {
-    "bias": -0.6,
+    "bias": -0.3,
     "days": 14
    },
    "om_ecmwf_ifs025": {
-    "bias": -2.5,
+    "bias": -2.1,
     "days": 14
    },
    "om_gfs_seamless": {
-    "bias": -0.6,
+    "bias": -0.3,
     "days": 14
    },
    "om_icon_seamless": {
-    "bias": -2.4,
+    "bias": -2.2,
     "days": 14
    },
    "om_ecmwf_aifs025_single": {
-    "bias": -2.3,
+    "bias": -2.0,
     "days": 14
    },
    "om_ncep_nbm_conus": {
-    "bias": -0.6,
+    "bias": -0.3,
     "days": 14
    },
    "om_ukmo_seamless": {
-    "bias": -0.2,
+    "bias": 0.0,
     "days": 14
    },
    "om_gfs_hrrr": {
-    "bias": -0.6,
+    "bias": -0.3,
     "days": 14
    }
   },
   "san-francisco": {
    "nws": {
-    "bias": 3.6,
+    "bias": 3.8,
     "days": 14
    },
    "om_best_match": {
-    "bias": 5.0,
+    "bias": 5.1,
     "days": 14
    },
    "om_ecmwf_ifs025": {
-    "bias": 6.0,
+    "bias": 6.2,
     "days": 14
    },
    "om_gfs_seamless": {
-    "bias": 5.0,
+    "bias": 5.1,
     "days": 14
    },
    "om_icon_seamless": {
-    "bias": 3.9,
+    "bias": 3.6,
     "days": 14
    },
    "om_ecmwf_aifs025_single": {
-    "bias": 1.5,
+    "bias": 1.4,
     "days": 14
    },
    "om_ncep_nbm_conus": {
-    "bias": 2.8,
+    "bias": 2.9,
     "days": 14
    },
    "om_ukmo_seamless": {
-    "bias": 3.3,
+    "bias": 2.9,
     "days": 14
    },
    "om_gfs_hrrr": {
-    "bias": 5.0,
+    "bias": 5.1,
     "days": 14
    }
   },
@@ -275,7 +275,7 @@
     "days": 14
    },
    "om_ecmwf_ifs025": {
-    "bias": -0.5,
+    "bias": -0.4,
     "days": 14
    },
    "om_gfs_seamless": {
@@ -287,7 +287,7 @@
     "days": 14
    },
    "om_ecmwf_aifs025_single": {
-    "bias": -0.0,
+    "bias": -0.1,
     "days": 14
    },
    "om_ukmo_seamless": {
@@ -301,11 +301,11 @@
     "days": 14
    },
    "om_ecmwf_ifs025": {
-    "bias": -0.0,
+    "bias": -0.2,
     "days": 14
    },
    "om_gfs_seamless": {
-    "bias": 0.3,
+    "bias": 0.5,
     "days": 14
    },
    "om_icon_seamless": {
@@ -323,7 +323,7 @@
   },
   "tel-aviv": {
    "om_best_match": {
-    "bias": 1.1,
+    "bias": 1.2,
     "days": 14
    },
    "om_ecmwf_ifs025": {
@@ -335,11 +335,11 @@
     "days": 14
    },
    "om_icon_seamless": {
-    "bias": 1.1,
+    "bias": 1.2,
     "days": 14
    },
    "om_ecmwf_aifs025_single": {
-    "bias": 1.1,
+    "bias": 1.2,
     "days": 14
    },
    "om_ukmo_seamless": {
@@ -357,7 +357,7 @@
     "days": 13
    },
    "om_ecmwf_ifs025": {
-    "bias": -2.0,
+    "bias": -2.1,
     "days": 13
    },
    "om_gfs_seamless": {
@@ -373,55 +373,55 @@
     "days": 13
    },
    "om_ukmo_seamless": {
-    "bias": -1.1,
+    "bias": -1.2,
     "days": 13
    },
    "om_ncep_nbm_conus": {
-    "bias": 0.4,
+    "bias": 0.1,
     "days": 13
    }
   },
   "wellington": {
    "om_best_match": {
-    "bias": -0.7,
+    "bias": -0.6,
     "days": 14
    },
    "om_ecmwf_ifs025": {
-    "bias": -0.8,
-    "days": 14
-   },
-   "om_gfs_seamless": {
     "bias": -0.7,
     "days": 14
    },
-   "om_icon_seamless": {
+   "om_gfs_seamless": {
     "bias": -0.5,
     "days": 14
    },
+   "om_icon_seamless": {
+    "bias": -0.3,
+    "days": 14
+   },
    "om_ecmwf_aifs025_single": {
-    "bias": -1.3,
+    "bias": -1.4,
     "days": 14
    },
    "om_ukmo_seamless": {
-    "bias": 0.1,
+    "bias": 0.2,
     "days": 14
    }
   },
   "moscow": {
    "om_best_match": {
-    "bias": 1.5,
+    "bias": 1.3,
     "days": 14
    },
    "om_ecmwf_ifs025": {
-    "bias": 1.6,
+    "bias": 1.5,
     "days": 14
    },
    "om_gfs_seamless": {
-    "bias": 1.8,
+    "bias": 1.7,
     "days": 14
    },
    "om_icon_seamless": {
-    "bias": 1.5,
+    "bias": 1.3,
     "days": 14
    },
    "om_ecmwf_aifs025_single": {
@@ -429,7 +429,7 @@
     "days": 14
    },
    "om_ukmo_seamless": {
-    "bias": 1.1,
+    "bias": 0.8,
     "days": 14
    }
   },
@@ -439,11 +439,11 @@
     "days": 14
    },
    "om_ecmwf_ifs025": {
-    "bias": 1.3,
+    "bias": 1.5,
     "days": 14
    },
    "om_gfs_seamless": {
-    "bias": 2.4,
+    "bias": 2.5,
     "days": 14
    },
    "om_icon_seamless": {
@@ -451,7 +451,7 @@
     "days": 14
    },
    "om_ecmwf_aifs025_single": {
-    "bias": 0.3,
+    "bias": 0.4,
     "days": 14
    },
    "om_ukmo_seamless": {
@@ -461,7 +461,7 @@
   },
   "toronto": {
    "om_best_match": {
-    "bias": 0.4,
+    "bias": 0.3,
     "days": 11
    },
    "om_ecmwf_ifs025": {
@@ -469,11 +469,11 @@
     "days": 11
    },
    "om_gfs_seamless": {
-    "bias": 0.4,
+    "bias": 0.3,
     "days": 11
    },
    "om_icon_seamless": {
-    "bias": -0.3,
+    "bias": -0.4,
     "days": 11
    },
    "om_ecmwf_aifs025_single": {
@@ -481,7 +481,7 @@
     "days": 11
    },
    "om_ukmo_seamless": {
-    "bias": -0.2,
+    "bias": -0.3,
     "days": 11
    }
   },
@@ -491,15 +491,15 @@
     "days": 13
    },
    "om_ecmwf_ifs025": {
-    "bias": -0.0,
+    "bias": -0.2,
     "days": 13
    },
    "om_gfs_seamless": {
-    "bias": 0.9,
+    "bias": 0.8,
     "days": 13
    },
    "om_icon_seamless": {
-    "bias": 0.5,
+    "bias": 0.6,
     "days": 13
    },
    "om_ecmwf_aifs025_single": {
@@ -513,23 +513,23 @@
   },
   "amsterdam": {
    "om_best_match": {
-    "bias": 2.5,
+    "bias": 2.3,
     "days": 14
    },
    "om_ecmwf_ifs025": {
-    "bias": -0.0,
+    "bias": 0.0,
     "days": 14
    },
    "om_gfs_seamless": {
-    "bias": 1.3,
+    "bias": 1.2,
     "days": 14
    },
    "om_icon_seamless": {
-    "bias": 0.8,
+    "bias": 0.9,
     "days": 14
    },
    "om_ecmwf_aifs025_single": {
-    "bias": -0.4,
+    "bias": -0.3,
     "days": 14
    },
    "om_ukmo_seamless": {
@@ -551,15 +551,15 @@
     "days": 14
    },
    "om_icon_seamless": {
-    "bias": 0.5,
+    "bias": 0.4,
     "days": 14
    },
    "om_ecmwf_aifs025_single": {
-    "bias": 0.7,
+    "bias": 0.6,
     "days": 14
    },
    "om_ukmo_seamless": {
-    "bias": 0.4,
+    "bias": 0.3,
     "days": 14
    }
   },
@@ -569,7 +569,7 @@
     "days": 11
    },
    "om_best_match": {
-    "bias": 0.1,
+    "bias": -0.0,
     "days": 14
    },
    "om_ecmwf_ifs025": {
@@ -577,23 +577,23 @@
     "days": 14
    },
    "om_gfs_seamless": {
-    "bias": 0.1,
+    "bias": -0.0,
     "days": 14
    },
    "om_icon_seamless": {
-    "bias": -1.9,
+    "bias": -2.0,
     "days": 14
    },
    "om_ecmwf_aifs025_single": {
-    "bias": -1.2,
+    "bias": -0.7,
     "days": 14
    },
    "om_ukmo_seamless": {
-    "bias": -0.9,
+    "bias": -1.0,
     "days": 14
    },
    "om_ncep_nbm_conus": {
-    "bias": -1.2,
+    "bias": -1.3,
     "days": 14
    }
   },
@@ -603,11 +603,11 @@
     "days": 14
    },
    "om_ecmwf_ifs025": {
-    "bias": -0.5,
+    "bias": -0.6,
     "days": 14
    },
    "om_gfs_seamless": {
-    "bias": -0.1,
+    "bias": -0.2,
     "days": 14
    },
    "om_icon_seamless": {
@@ -615,25 +615,25 @@
     "days": 14
    },
    "om_ecmwf_aifs025_single": {
-    "bias": -0.0,
+    "bias": -0.1,
     "days": 14
    },
    "om_ukmo_seamless": {
-    "bias": -0.5,
+    "bias": -0.8,
     "days": 14
    }
   },
   "mexico-city": {
    "om_best_match": {
-    "bias": 0.1,
+    "bias": -0.1,
     "days": 10
    },
    "om_ecmwf_ifs025": {
-    "bias": 0.5,
+    "bias": 0.4,
     "days": 10
    },
    "om_gfs_seamless": {
-    "bias": 1.2,
+    "bias": 0.9,
     "days": 10
    },
    "om_icon_seamless": {
@@ -641,7 +641,7 @@
     "days": 10
    },
    "om_ecmwf_aifs025_single": {
-    "bias": 0.4,
+    "bias": 0.3,
     "days": 10
    },
    "om_ukmo_seamless": {
@@ -651,11 +651,11 @@
   },
   "shanghai": {
    "om_best_match": {
-    "bias": 0.3,
+    "bias": 0.1,
     "days": 13
    },
    "om_ecmwf_ifs025": {
-    "bias": -0.3,
+    "bias": -0.5,
     "days": 13
    },
    "om_gfs_seamless": {
@@ -667,11 +667,11 @@
     "days": 13
    },
    "om_ecmwf_aifs025_single": {
-    "bias": -0.9,
+    "bias": -0.8,
     "days": 13
    },
    "om_ukmo_seamless": {
-    "bias": -0.6,
+    "bias": -0.7,
     "days": 13
    }
   }
