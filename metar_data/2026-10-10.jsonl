@@ -574,3 +574,4 @@
 {"ts_utc": "2026-10-10T15:41:03Z", "station": "WMKK", "obs_utc": "2026-10-10T15:30:00Z", "temp_c": 27, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 101530Z 07004KT 010V140 8000 FEW017CB 27/25 Q1010 TEMPO 5000 TSRA"}
 {"ts_utc": "2026-10-10T15:41:03Z", "station": "ZSPD", "obs_utc": "2026-10-10T15:30:00Z", "temp_c": 22, "dewp_c": 18, "speci": false, "raw": "METAR ZSPD 101530Z 06003MPS 360V080 CAVOK 22/18 Q1019 NOSIG"}
 {"ts_utc": "2026-10-10T15:41:03Z", "station": "WMKK", "obs_utc": "2026-10-10T15:36:00Z", "temp_c": 27, "dewp_c": 25, "speci": true, "raw": "SPECI WMKK 101536Z 08003KT 340V150 8000 TS FEW017CB 27/25 Q1010 TEMPO 5000 TSRA"}
+{"ts_utc": "2026-10-10T15:51:02Z", "station": "LLBG", "obs_utc": "2026-10-10T16:00:00Z", "temp_c": 27, "dewp_c": 21, "speci": false, "raw": "METAR LLBG 101550Z 34008KT 9999 BKN032 27/21 Q1011 NOSIG"}
