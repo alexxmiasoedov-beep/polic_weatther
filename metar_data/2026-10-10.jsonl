@@ -266,3 +266,10 @@
 {"ts_utc": "2026-10-10T07:10:07Z", "station": "WMKK", "obs_utc": "2026-10-10T07:00:00Z", "temp_c": 33, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 100700Z VRB05KT 5000 HZ FEW017CB SCT018 33/25 Q1006 NOSIG"}
 {"ts_utc": "2026-10-10T07:10:07Z", "station": "WSSS", "obs_utc": "2026-10-10T07:00:00Z", "temp_c": 31, "dewp_c": 26, "speci": false, "raw": "METAR WSSS 100700Z 17012KT 3000 HZ SCT018 FEW020TCU BKN300 31/26 Q1007 NOSIG"}
 {"ts_utc": "2026-10-10T07:10:07Z", "station": "ZSPD", "obs_utc": "2026-10-10T07:00:00Z", "temp_c": 25, "dewp_c": 18, "speci": false, "raw": "METAR ZSPD 100700Z 07006MPS 020V100 9999 FEW030 25/18 Q1017 NOSIG"}
+{"ts_utc": "2026-10-10T07:30:07Z", "station": "EFHK", "obs_utc": "2026-10-10T07:20:00Z", "temp_c": 4, "dewp_c": 3, "speci": false, "raw": "METAR EFHK 100720Z 29009KT 9999 -DZ FEW006 BKN008 04/03 Q0995 BECMG BKN011"}
+{"ts_utc": "2026-10-10T07:30:07Z", "station": "EGLC", "obs_utc": "2026-10-10T07:20:00Z", "temp_c": 11, "dewp_c": 7, "speci": false, "raw": "METAR EGLC 100720Z AUTO 24011KT 9999 NCD 11/07 Q1013"}
+{"ts_utc": "2026-10-10T07:30:07Z", "station": "LIMC", "obs_utc": "2026-10-10T07:20:00Z", "temp_c": 15, "dewp_c": 13, "speci": false, "raw": "METAR LIMC 100720Z VRB01KT CAVOK 15/13 Q1014 NOSIG"}
+{"ts_utc": "2026-10-10T07:30:07Z", "station": "LLBG", "obs_utc": "2026-10-10T07:20:00Z", "temp_c": 27, "dewp_c": 19, "speci": false, "raw": "METAR LLBG 100720Z 33007KT 280V010 9999 FEW025 27/19 Q1014 NOSIG"}
+{"ts_utc": "2026-10-10T07:30:07Z", "station": "LTFM", "obs_utc": "2026-10-10T07:20:00Z", "temp_c": 22, "dewp_c": 12, "speci": false, "raw": "METAR LTFM 100720Z 21010KT CAVOK 22/12 Q1017 NOSIG"}
+{"ts_utc": "2026-10-10T07:30:07Z", "station": "KSEA", "obs_utc": "2026-10-10T07:21:00Z", "temp_c": 10.6, "dewp_c": 6.1, "speci": true, "raw": "SPECI KSEA 100721Z 10006KT 10SM BKN025 OVC040 11/06 A2983 RMK AO2 T01060061 $"}
+{"ts_utc": "2026-10-10T07:30:07Z", "station": "EHAM", "obs_utc": "2026-10-10T07:25:00Z", "temp_c": 13, "dewp_c": 8, "speci": false, "raw": "METAR EHAM 100725Z 26014KT 9999 -SHRA SCT028CB 13/08 Q1008 TEMPO 27015G25KT 7000"}
