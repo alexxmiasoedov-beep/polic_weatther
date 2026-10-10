@@ -714,3 +714,4 @@
 {"ts_utc": "2026-10-10T19:41:02Z", "station": "WMKK", "obs_utc": "2026-10-10T19:30:00Z", "temp_c": 24, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 101930Z 06003KT 350V140 6000 -TSRA FEW010 FEW017CB SCT030 24/24 Q1008 RETSRA TEMPO 7000 -TSRA"}
 {"ts_utc": "2026-10-10T19:41:02Z", "station": "ZSPD", "obs_utc": "2026-10-10T19:30:00Z", "temp_c": 22, "dewp_c": 18, "speci": false, "raw": "METAR ZSPD 101930Z 36004MPS CAVOK 22/18 Q1018 NOSIG"}
 {"ts_utc": "2026-10-10T19:41:02Z", "station": "KSEA", "obs_utc": "2026-10-10T19:37:00Z", "temp_c": 11.7, "dewp_c": 8.3, "speci": true, "raw": "SPECI KSEA 101937Z 28005KT 10SM -RA SCT022 BKN027 BKN060 12/08 A2986 RMK AO2 RAB34 P0000 T01170083"}
+{"ts_utc": "2026-10-10T19:51:02Z", "station": "LLBG", "obs_utc": "2026-10-10T20:00:00Z", "temp_c": 26, "dewp_c": 21, "speci": false, "raw": "METAR LLBG 101950Z 35004KT 9999 SCT035 26/21 Q1012 NOSIG"}
