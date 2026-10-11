@@ -402,3 +402,5 @@
 {"ts_utc": "2026-10-11T11:12:24Z", "station": "WMKK", "obs_utc": "2026-10-11T11:00:00Z", "temp_c": 29, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 111100Z VRB01KT 6000 FEW017CB 29/25 Q1008 NOSIG"}
 {"ts_utc": "2026-10-11T11:12:24Z", "station": "ZSPD", "obs_utc": "2026-10-11T11:00:00Z", "temp_c": 22, "dewp_c": 17, "speci": false, "raw": "METAR ZSPD 111100Z 01005MPS CAVOK 22/17 Q1018 NOSIG"}
 {"ts_utc": "2026-10-11T11:12:24Z", "station": "KATL", "obs_utc": "2026-10-11T11:03:00Z", "temp_c": 15.6, "dewp_c": 14.4, "speci": true, "raw": "SPECI KATL 111103Z 23007KT 10SM SCT007 BKN012 OVC026 16/14 A2996 RMK AO2 T01560144 $"}
+{"ts_utc": "2026-10-11T11:22:24Z", "station": "KAUS", "obs_utc": "2026-10-11T11:19:00Z", "temp_c": 19.4, "dewp_c": 19.4, "speci": true, "raw": "SPECI KAUS 111119Z 17003KT 10SM SCT020 BKN120 19/19 A3005 RMK AO2 T01940194 $"}
+{"ts_utc": "2026-10-11T11:22:24Z", "station": "EFHK", "obs_utc": "2026-10-11T11:20:00Z", "temp_c": 6, "dewp_c": 5, "speci": false, "raw": "METAR EFHK 111120Z 06006KT 9999 BKN006 06/05 Q1009 NOSIG"}
