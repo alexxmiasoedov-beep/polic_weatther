@@ -395,3 +395,10 @@
 {"ts_utc": "2026-10-11T11:02:23Z", "station": "LLBG", "obs_utc": "2026-10-11T11:00:00Z", "temp_c": 29, "dewp_c": 21, "speci": false, "raw": "METAR LLBG 111050Z 32008KT 9999 FEW025 29/21 Q1010 NOSIG"}
 {"ts_utc": "2026-10-11T11:02:23Z", "station": "LTFM", "obs_utc": "2026-10-11T11:00:00Z", "temp_c": 27, "dewp_c": 10, "speci": false, "raw": "METAR LTFM 111050Z 21010KT CAVOK 27/10 Q1010 NOSIG"}
 {"ts_utc": "2026-10-11T11:02:23Z", "station": "WSSS", "obs_utc": "2026-10-11T11:00:00Z", "temp_c": 28, "dewp_c": 24, "speci": false, "raw": "METAR WSSS 111100Z 20005KT 4000 HZ FEW018 BKN280 28/24 Q1009 NOSIG"}
+{"ts_utc": "2026-10-11T11:12:24Z", "station": "CYYZ", "obs_utc": "2026-10-11T11:00:00Z", "temp_c": 11, "dewp_c": 9, "speci": false, "raw": "METAR CYYZ 111100Z 06004KT 310V070 15SM SCT130 BKN160 11/09 A3018 RMK AC3AC3 SLP223"}
+{"ts_utc": "2026-10-11T11:12:24Z", "station": "KBKF", "obs_utc": "2026-10-11T11:00:00Z", "temp_c": 17.8, "dewp_c": 2.9, "speci": false, "raw": "METAR KBKF 111058Z 23004KT 10SM BKN110 BKN130 OVC170 18/03 A2984 RMK AO2A SLP021 T01780029"}
+{"ts_utc": "2026-10-11T11:12:24Z", "station": "NZWN", "obs_utc": "2026-10-11T11:00:00Z", "temp_c": 15, "dewp_c": 13, "speci": false, "raw": "METAR NZWN 111100Z AUTO 02013KT 9999 BKN012/// OVC019/// 15/13 Q1020"}
+{"ts_utc": "2026-10-11T11:12:24Z", "station": "UUWW", "obs_utc": "2026-10-11T11:00:00Z", "temp_c": 14, "dewp_c": 7, "speci": false, "raw": "METAR UUWW 111100Z 21005MPS CAVOK 14/07 Q1014 R06/000062 NOSIG"}
+{"ts_utc": "2026-10-11T11:12:24Z", "station": "WMKK", "obs_utc": "2026-10-11T11:00:00Z", "temp_c": 29, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 111100Z VRB01KT 6000 FEW017CB 29/25 Q1008 NOSIG"}
+{"ts_utc": "2026-10-11T11:12:24Z", "station": "ZSPD", "obs_utc": "2026-10-11T11:00:00Z", "temp_c": 22, "dewp_c": 17, "speci": false, "raw": "METAR ZSPD 111100Z 01005MPS CAVOK 22/17 Q1018 NOSIG"}
+{"ts_utc": "2026-10-11T11:12:24Z", "station": "KATL", "obs_utc": "2026-10-11T11:03:00Z", "temp_c": 15.6, "dewp_c": 14.4, "speci": true, "raw": "SPECI KATL 111103Z 23007KT 10SM SCT007 BKN012 OVC026 16/14 A2996 RMK AO2 T01560144 $"}
