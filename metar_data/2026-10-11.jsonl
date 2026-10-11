@@ -1100,3 +1100,6 @@
 {"ts_utc": "2026-10-11T22:43:24Z", "station": "WMKK", "obs_utc": "2026-10-11T22:30:00Z", "temp_c": 26, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 112230Z 28004KT 230V350 5000 HZ FEW017CB 26/25 Q1010 NOSIG"}
 {"ts_utc": "2026-10-11T22:43:24Z", "station": "ZBAA", "obs_utc": "2026-10-11T22:30:00Z", "temp_c": 13, "dewp_c": 13, "speci": false, "raw": "METAR ZBAA 112230Z 00000MPS 3500 BR NSC 13/13 Q1018 NOSIG"}
 {"ts_utc": "2026-10-11T22:43:24Z", "station": "ZSPD", "obs_utc": "2026-10-11T22:30:00Z", "temp_c": 20, "dewp_c": 16, "speci": false, "raw": "METAR ZSPD 112230Z 31004MPS 9999 BKN033 20/16 Q1018 NOSIG"}
+{"ts_utc": "2026-10-11T22:53:24Z", "station": "EFHK", "obs_utc": "2026-10-11T23:00:00Z", "temp_c": 6, "dewp_c": 5, "speci": false, "raw": "METAR EFHK 112250Z 05010KT 9999 BKN006 06/05 Q1010 NOSIG"}
+{"ts_utc": "2026-10-11T22:53:24Z", "station": "KLGA", "obs_utc": "2026-10-11T23:00:00Z", "temp_c": 15, "dewp_c": 13.9, "speci": false, "raw": "METAR KLGA 112251Z 06013KT 2 1/2SM RA BR BKN009 BKN014 OVC021 15/14 A2995 RMK AO2 SLP142 P0010 T01500139 $"}
+{"ts_utc": "2026-10-11T22:53:24Z", "station": "KORD", "obs_utc": "2026-10-11T23:00:00Z", "temp_c": 24.4, "dewp_c": 13.9, "speci": false, "raw": "METAR KORD 112251Z 22007KT 10SM SCT250 24/14 A2991 RMK AO2 SLP127 T02440139 $"}
