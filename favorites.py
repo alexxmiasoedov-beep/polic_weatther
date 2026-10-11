@@ -14,6 +14,14 @@
 
 Ревизия 19.09: вход только по городам из calibration/favorites_cities.json
 (скользящий бэктест: ≥7 сделок и ≥+8%/сделку); остальные — reference.
+
+Ревизия 11.10 (бумага, не деньги): параллельный журнал «СТАБИЛЬНЫЙ ЛИДЕР»
+(favorites_stable в forecasts/<дата>.json) — по ВСЕМ городам без списка:
+лидер 40-75¢ по last, цена лидера не сдвинулась больше чем на 2¢ за ~3 ч
+до среза, ask ≤ 78, стакан ≤ 8 — покупка по ask, size 1.0. Основание —
+city_lab.py: lead_stab@27 187/340, +6%/сд, плюс в обеих половинах дат.
+Пишется автоматически вместе с --write, резолвится с --resolve, строка в --stats.
+  python3 favorites.py --stable-backtest       — та же механика по истории (справочно)
 """
 import json
 import sys
@@ -23,6 +31,7 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 LO, HI, MAX_ASK, MAX_SPREAD = 50, 70, 72, 8
 SIZE = 1.0
+ST_LO, ST_HI, ST_MAX_ASK, ST_MAX_MOVE, ST_BACK_H = 40, 75, 78, 2.0, 3.0  # «стабильный лидер» (11.10)
 CITIES_FILE = ROOT / "calibration" / "favorites_cities.json"
 MIN_N, MIN_ROI = 7, 0.08  # город активен, если в скользящем бэктесте ≥7 сделок и ≥+8%/сделку
 
@@ -66,6 +75,149 @@ def snapshots(d):
     return out
 
 
+def snapshot_series(d):
+    """{slug: [(ts, buckets), ...]} — все записи на дату из data/ и pilot_data/ (по времени)."""
+    out = {}
+    for f, kind in ((ROOT / "data" / f"{d}.jsonl", "main"), (ROOT / "pilot_data" / f"{d}.jsonl", "pilot")):
+        if not f.exists():
+            continue
+        for line in f.read_text(encoding="utf-8").splitlines():
+            try:
+                r = json.loads(line)
+            except ValueError:
+                continue
+            if r.get("market_date", d) != d:
+                continue
+            if kind == "main":
+                for slug, c in r.get("cities", {}).items():
+                    b = (c.get("polymarket") or {}).get("buckets")
+                    if b:
+                        out.setdefault(slug, []).append((r["ts_utc"], b))
+            else:
+                b = (r.get("pm") or {}).get("buckets")
+                if b:
+                    out.setdefault(r["city"], []).append((r["ts_utc"], b))
+    for v in out.values():
+        v.sort()
+    return out
+
+
+def _ts(ts):
+    return datetime.fromisoformat(ts.replace("Z", "+00:00"))
+
+
+def stable_entry(series, at=None):
+    """Вход «стабильный лидер» по серии снапшотов одного рынка: берём снапшот `at`
+    (или последний) и снапшот за ~ST_BACK_H часов до него. Возвращает dict или None."""
+    if len(series) < 2:
+        return None
+    if at is None:
+        ts, b = series[-1]
+    else:
+        ts, b = min(series, key=lambda x: abs((_ts(x[0]) - at).total_seconds()))
+        if abs((_ts(ts) - at).total_seconds()) > 7200:
+            return None
+    t = _ts(ts)
+    prev = [x for x in series if (ST_BACK_H - 0.75) * 3600 <= (t - _ts(x[0])).total_seconds() <= (ST_BACK_H + 1.5) * 3600]
+    lead = max(b, key=lambda x: x.get("last") or 0)
+    last, bid, ask = lead.get("last"), lead.get("bid"), lead.get("ask")
+    e = {"bucket": lead["bucket"], "last": last, "bid": bid, "ask": ask, "ts_utc": ts,
+         "verdict": "skip", "reason": "", "entry_price": None, "size": 0,
+         "cut": "19:20 Минск накануне, журнал «стабильный лидер» (11.10)", "winner": None, "hit": None, "pnl": None}
+    if not last or not (ST_LO <= last < ST_HI):
+        e["reason"] = "лидер вне 40-75¢"; return e
+    if not ask or ask > ST_MAX_ASK or (bid is not None and ask - bid > MAX_SPREAD):
+        e["reason"] = "дорого или широкий стакан"; return e
+    if not prev:
+        e["reason"] = "нет снапшота за 3 ч"; return e
+    pb = prev[-1][1]
+    p0 = next((x.get("last") for x in pb if x["bucket"] == lead["bucket"]), None)
+    if p0 is None:
+        e["reason"] = "нет цены лидера 3 ч назад"; return e
+    e["move_3h"] = round(last - p0, 1)
+    if abs(last - p0) > ST_MAX_MOVE:
+        e["reason"] = f"лидер двигался ({last - p0:+.0f}¢ за 3 ч)"; return e
+    e.update(verdict="enter", entry_price=ask, size=SIZE)
+    return e
+
+
+ST_H = 27  # часов до конца местных суток рынка (21:00 местного накануне) — как lead_stab@27 в city_lab
+
+
+def stable_at(slug, d):
+    """момент входа «стабильного лидера» для рынка d: конец местных суток − ST_H часов"""
+    import config, pilot
+    from zoneinfo import ZoneInfo
+    tz = None
+    for src in (config.CITIES, pilot.PILOT_CITIES):
+        if slug in src:
+            tz = ZoneInfo(src[slug]["tz"])
+    if tz is None:
+        return None
+    end_local = (datetime.fromisoformat(d) + timedelta(days=1)).replace(tzinfo=tz)
+    return end_local.astimezone(timezone.utc) - timedelta(hours=ST_H)
+
+
+def write_stable(d, data=None, save=True):
+    """Журнал «стабильный лидер» для рынка d: вход по снапшоту за ST_H ч до конца местных суток
+    (пишется задним числом из собранных данных, без заглядывания вперёд — как в top10.py)."""
+    f, data = (load(d) if data is None else (ROOT / "forecasts" / f"{d}.json", data))
+    st = data.setdefault("favorites_stable", {})
+    rows = []
+    now = datetime.now(timezone.utc)
+    done = winners(d)  # уже закрытые рынки в журнал задним числом не пишем — только форвард
+    for slug, series in sorted(snapshot_series(d).items()):
+        if slug in st and st[slug].get("verdict") == "enter":
+            rows.append((slug, st[slug])); continue
+        if slug in done and slug not in st:
+            continue
+        at = stable_at(slug, d)
+        if at is None or at > now:
+            continue  # момент входа ещё не наступил
+        e = stable_entry(series, at)
+        if e is None:
+            continue
+        e["cut"] = f"−{ST_H} ч до конца местных суток, журнал «стабильный лидер» (11.10)"
+        st[slug] = e; rows.append((slug, e))
+    if save:
+        f.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+    n = sum(1 for _, e in rows if e["verdict"] == "enter")
+    print(f"{d}: «стабильный лидер» — входов {n} из {len(rows)} рынков")
+    return rows
+
+
+def stable_backtest(start="2026-09-10"):
+    """Справочно: та же механика по истории — снапшот за ST_H ч до конца местных суток."""
+    import glob
+    byday, bycity = {}, {}
+    today = datetime.now(timezone.utc).date().isoformat()
+    for path in sorted(glob.glob(str(ROOT / "data" / "*.jsonl"))):
+        d = Path(path).stem
+        if d < start or d >= today:
+            continue
+        w = winners(d)
+        for slug, series in snapshot_series(d).items():
+            if slug not in w:
+                continue
+            at = stable_at(slug, d)
+            if at is None:
+                continue
+            e = stable_entry(series, at)
+            if not e or e["verdict"] != "enter":
+                continue
+            hit = e["bucket"] == w[slug]; pnl = (100 / e["entry_price"] - 1) if hit else -1.0
+            for k, dct in ((d, byday), (slug, bycity)):
+                s = dct.setdefault(k, [0, 0, 0.0]); s[0] += 1; s[1] += hit; s[2] += pnl
+    T = [0, 0, 0.0]
+    for d, (n, h, p) in sorted(byday.items()):
+        T[0] += n; T[1] += h; T[2] += p
+        print(f"{d}  {h}/{n}  {p:+.2f}")
+    if T[0]:
+        print(f"СТАБИЛЬНЫЙ ЛИДЕР (бэктест с {start}) {T[1]}/{T[0]} ({T[1]/T[0]*100:.0f}%)  {T[2]:+.2f}  ({T[2]/T[0]*100:+.1f}%/сделку)")
+    for c, (n, h, p) in sorted(bycity.items(), key=lambda kv: -kv[1][2]):
+        print(f"  {c:15s} {h}/{n} {p:+.2f}")
+
+
 def winners(d):
     w = {}
     for slug, (ts, b) in snapshots(d).items():
@@ -107,6 +259,12 @@ def write(d):
     f.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     n = sum(1 for _, e in rows if e["verdict"] == "enter")
     print(f"{d}: фавориты записаны — входов {n} из {len(rows)} рынков")
+    for back in (1, 2):  # «стабильный лидер» задним числом: сегодняшний и вчерашний рынок
+        dd = (datetime.fromisoformat(d) - timedelta(days=back)).date().isoformat()
+        try:
+            write_stable(dd)
+        except Exception as ex:  # noqa: BLE001
+            print(f"{dd}: стабильный лидер не записан: {ex}")
     return rows
 
 
@@ -123,6 +281,14 @@ def tg_text(d, rows):
         L.append("— справочно (вне списка): " + ", ".join(f"{s} {e['bucket']} {e['ask']:.0f}¢" for s, e in ref))
     if skp:
         L.append("— пропуск: " + ", ".join(f"{s} {e['bucket']} {e['last']:.0f}¢" for s, e in skp))
+    try:
+        dd = (datetime.fromisoformat(d) - timedelta(days=1)).date().isoformat()
+        _, data = load(dd)
+        st = [(s, e) for s, e in (data.get("favorites_stable") or {}).items() if e.get("verdict") == "enter"]
+        L.append(f"📎 бумага «стабильный лидер» на {dd[8:10]}.{dd[5:7]} (все города, −27 ч, лидер 40-75¢ не двигался 3 ч): " +
+                 (", ".join(f"{s} {e['bucket']} {e['ask']:.0f}¢" for s, e in st) if st else "входов нет"))
+    except Exception:  # noqa: BLE001
+        pass
     return "\n".join(L)
 
 
@@ -146,6 +312,19 @@ def resolve(d):
             n += 1; hits += e["hit"]; pnl += e["pnl"]
         elif e["verdict"] == "reference" and e.get("ask"):
             e["pnl_ref"] = round(100 / e["ask"] - 1, 3) if e["hit"] else -1.0
+    st = data.get("favorites_stable") or {}
+    sn = sh = 0; sp = 0.0
+    for slug, e in st.items():
+        if e.get("winner") is None and slug in w:
+            e["winner"] = w[slug]
+        if not e.get("winner"):
+            continue
+        e["hit"] = e["bucket"] == e["winner"]
+        if e["verdict"] == "enter":
+            e["pnl"] = round((100 / e["entry_price"] - 1) * e["size"], 3) if e["hit"] else -e["size"]
+            sn += 1; sh += e["hit"]; sp += e["pnl"]
+    if sn:
+        print(f"{d}: «стабильный лидер» {sh}/{sn}, P&L {sp:+.2f}")
     f.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     unresolved = [s for s, e in fav.items() if e["verdict"] == "enter" and not e.get("winner")]
     print(f"{d}: фавориты {hits}/{n}, P&L {pnl:+.2f}" + (f"; не резолвлены: {unresolved}" if unresolved else ""))
@@ -165,6 +344,13 @@ def stats():
                 s[0] += 1; s[1] += e["hit"]; s[2] += e["pnl"]
     if ref[0]:
         print(f"справочно, города вне списка: {ref[1]}/{ref[0]} {ref[2]:+.2f}")
+    S = [0, 0, 0.0]
+    for f in sorted((ROOT / "forecasts").glob("*.json")):
+        for slug, e in json.loads(f.read_text(encoding="utf-8")).get("favorites_stable", {}).items():
+            if e.get("verdict") == "enter" and e.get("pnl") is not None:
+                S[0] += 1; S[1] += e["hit"]; S[2] += e["pnl"]
+    if S[0]:
+        print(f"бумага «стабильный лидер» (форвард с 11.10): {S[1]}/{S[0]} {S[2]:+.2f}")
     T = [0, 0, 0.0]
     for d, (n, h, p) in sorted(byday.items()):
         T[0] += n; T[1] += h; T[2] += p
@@ -237,6 +423,8 @@ if __name__ == "__main__":
         rank(); sys.exit(0)
     if not a:
         print(__doc__); sys.exit(0)
+    if a[0] == "--stable-backtest":
+        stable_backtest(a[1] if len(a) > 1 else "2026-09-10"); sys.exit(0)
     if a[0] == "--resolve":
         resolve(a[1])
     elif a[0] == "--stats":
