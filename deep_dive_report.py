@@ -81,7 +81,7 @@ def mine(rows):
 def main():
     rows = json.load(open(ROOT / "reports" / "deep_dive_rows.json", encoding="utf-8"))
     cities = sorted({r["slug"] for r in rows}, key=lambda c: -len([r for r in rows if r["slug"] == c]))
-    out = [f"# Глубокий разбор по городам — {datetime.now(timezone.utc).date()}", "",
+    out = ["# Глубокий разбор по городам — подробности (генерируется deep_dive_report.py)", "",
            "Данные: PM/Kalshi снапшоты (27.08–10.10), модели Open-Meteo/NWS, METAR IEM по 22 станциям. Строка = город-день-горизонт, "
            "лидер PM на момент входа стоит 25–69¢ (рынок ещё не определился). Исход — победитель относительно лидера. "
            "Правило показано, если n≥8 и обе половины дат ≥+5%/сд; ранжировано по худшей половине. "
@@ -133,7 +133,7 @@ def main():
         if len(cs) >= 2:
             out.append(f"- {NAMES[feat]} {'≥' if sign=='ge' else '≤'} порог → {tgt}: {', '.join(cs)}")
     txt = "\n".join(out)
-    p = ROOT / "reports" / f"{datetime.now(timezone.utc).date()}-deep-dive.md"
+    p = ROOT / "reports" / "2026-10-11-deep-dive-cities.md"  # подробности по городам; сводный отчёт — 2026-10-11-deep-dive.md (вручную)
     p.write_text(txt, encoding="utf-8"); print(txt)
 
 
