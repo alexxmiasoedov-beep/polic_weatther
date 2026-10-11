@@ -368,3 +368,4 @@
 {"ts_utc": "2026-10-11T10:12:24Z", "station": "UUWW", "obs_utc": "2026-10-11T10:00:00Z", "temp_c": 13, "dewp_c": 7, "speci": false, "raw": "METAR UUWW 111000Z 20004MPS CAVOK 13/07 Q1014 R06/000062 NOSIG"}
 {"ts_utc": "2026-10-11T10:12:24Z", "station": "WMKK", "obs_utc": "2026-10-11T10:00:00Z", "temp_c": 30, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 111000Z VRB03KT 6000 FEW017CB 30/25 Q1006 NOSIG"}
 {"ts_utc": "2026-10-11T10:12:24Z", "station": "ZSPD", "obs_utc": "2026-10-11T10:00:00Z", "temp_c": 22, "dewp_c": 18, "speci": false, "raw": "METAR ZSPD 111000Z 02006MPS CAVOK 22/18 Q1018 NOSIG"}
+{"ts_utc": "2026-10-11T10:22:23Z", "station": "EFHK", "obs_utc": "2026-10-11T10:20:00Z", "temp_c": 6, "dewp_c": 5, "speci": false, "raw": "METAR EFHK 111020Z 05006KT 9999 BKN006 06/05 Q1008 NOSIG"}
