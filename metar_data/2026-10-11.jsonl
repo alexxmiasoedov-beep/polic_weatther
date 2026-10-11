@@ -935,3 +935,10 @@
 {"ts_utc": "2026-10-11T20:06:27Z", "station": "UUWW", "obs_utc": "2026-10-11T20:00:00Z", "temp_c": 12, "dewp_c": 6, "speci": false, "raw": "METAR UUWW 112000Z 15004MPS CAVOK 12/06 Q1013 R24/000062 NOSIG"}
 {"ts_utc": "2026-10-11T20:06:27Z", "station": "ZBAA", "obs_utc": "2026-10-11T20:00:00Z", "temp_c": 13, "dewp_c": 12, "speci": false, "raw": "METAR ZBAA 112000Z VRB01MPS 5000 BR NSC 13/12 Q1018 NOSIG"}
 {"ts_utc": "2026-10-11T20:06:27Z", "station": "ZSPD", "obs_utc": "2026-10-11T20:00:00Z", "temp_c": 19, "dewp_c": 16, "speci": false, "raw": "METAR ZSPD 112000Z 32003MPS CAVOK 19/16 Q1017 NOSIG"}
+{"ts_utc": "2026-10-11T20:13:23Z", "station": "CYYZ", "obs_utc": "2026-10-11T20:00:00Z", "temp_c": 15, "dewp_c": 13, "speci": false, "raw": "METAR CYYZ 112000Z 13003KT 10SM -RA FEW012 BKN027 OVC045 15/13 A3001 RMK CF1SC6SC1 SLP165"}
+{"ts_utc": "2026-10-11T20:13:23Z", "station": "KBKF", "obs_utc": "2026-10-11T20:00:00Z", "temp_c": 29.4, "dewp_c": 0, "speci": false, "raw": "METAR KBKF 111958Z 21015G23KT 10SM FEW100 SCT140 SCT220 29/00 A2976 RMK AO2A PK WND 20030/33 SLP989 T02940000"}
+{"ts_utc": "2026-10-11T20:13:23Z", "station": "RCSS", "obs_utc": "2026-10-11T20:00:00Z", "temp_c": 22, "dewp_c": 22, "speci": false, "raw": "METAR RCSS 112000Z 09007KT 9999 FEW015 BKN022 22/22 Q1016 NOSIG RMK A3002"}
+{"ts_utc": "2026-10-11T20:13:23Z", "station": "WMKK", "obs_utc": "2026-10-11T20:00:00Z", "temp_c": 27, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 112000Z VRB02KT 5000 HZ FEW017CB 27/25 Q1009 NOSIG"}
+{"ts_utc": "2026-10-11T20:13:23Z", "station": "ZHHH", "obs_utc": "2026-10-11T20:00:00Z", "temp_c": 21, "dewp_c": 17, "speci": false, "raw": "METAR ZHHH 112000Z 09003MPS 8000 NSC 21/17 Q1016 NOSIG"}
+{"ts_utc": "2026-10-11T20:13:23Z", "station": "ZUCK", "obs_utc": "2026-10-11T20:00:00Z", "temp_c": 20, "dewp_c": 20, "speci": false, "raw": "METAR ZUCK 112000Z 24002MPS 220V280 4000 BR SCT008 SCT020 OVC033 20/20 Q1015 NOSIG"}
+{"ts_utc": "2026-10-11T20:13:23Z", "station": "RKPK", "obs_utc": "2026-10-11T20:03:00Z", "temp_c": 21, "dewp_c": 19, "speci": true, "raw": "SPECI RKPK 112003Z 29001KT CAVOK 21/19 Q1019 RMK CIG110"}
