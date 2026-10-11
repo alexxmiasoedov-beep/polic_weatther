@@ -121,7 +121,7 @@ def stats(tg=None):
             if r.get("winner") is None: open_n += 1; continue
             per[slug][0] += 1; per[slug][1] += bool(r["hit"]); per[slug][2] += r["pnl"]
             t = tier[r.get("tier", RULE.get(slug, (0, 0, "?"))[2])]; t[0] += 1; t[1] += bool(r["hit"]); t[2] += r["pnl"]
-    lines = ["🧭 <b>СТОРОНА ГОРОДА</b> — бумажный журнал с 11.10 (17 городов: 5 уровня A, 12 уровня B; вход по ask, лидер <70¢)"]
+    lines = ["🧭 <b>СТОРОНА ГОРОДА</b> — бумажный журнал с 11.10 (17 городов: 5 уровня A, 12 уровня B; вход по ask, лидер &lt;70¢)"]
     T = [sum(v[0] for v in tier.values()), sum(v[1] for v in tier.values()), sum(v[2] for v in tier.values())]
     lines.append(f"Итого: {T[1]}/{T[0]} ({T[1]/T[0]*100:.0f}%), P&L {T[2]:+.2f} ({T[2]/T[0]*100:+.0f}%/сд)" if T[0] else "Итого: закрытых сделок пока нет")
     for k in ("A", "B"):
