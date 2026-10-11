@@ -965,3 +965,7 @@
 {"ts_utc": "2026-10-11T20:43:23Z", "station": "ZBAA", "obs_utc": "2026-10-11T20:30:00Z", "temp_c": 13, "dewp_c": 12, "speci": false, "raw": "METAR ZBAA 112030Z 36002MPS 5000 BR NSC 13/12 Q1018 NOSIG"}
 {"ts_utc": "2026-10-11T20:43:23Z", "station": "ZSPD", "obs_utc": "2026-10-11T20:30:00Z", "temp_c": 19, "dewp_c": 16, "speci": false, "raw": "METAR ZSPD 112030Z 32004MPS CAVOK 19/16 Q1017 NOSIG"}
 {"ts_utc": "2026-10-11T20:43:23Z", "station": "RKPK", "obs_utc": "2026-10-11T20:32:00Z", "temp_c": 21, "dewp_c": 19, "speci": true, "raw": "SPECI RKPK 112032Z 36002KT CAVOK 21/19 Q1019 RMK CIG120"}
+{"ts_utc": "2026-10-11T20:53:23Z", "station": "MMMX", "obs_utc": "2026-10-11T20:44:00Z", "temp_c": 25, "dewp_c": 11, "speci": true, "raw": "SPECI MMMX 112044Z 14012KT 9SM VCRA SCT020CB SCT080 BKN220 25/11 A3028 TEMPO 5SM TSRA RMK 8/363 HZY PCPN W"}
+{"ts_utc": "2026-10-11T20:53:23Z", "station": "KLGA", "obs_utc": "2026-10-11T20:45:00Z", "temp_c": 16, "dewp_c": 14, "speci": true, "raw": "SPECI KLGA 112045Z 07014KT 2SM RA BR BKN011 BKN014 OVC034 16/14 A3005 RMK AO2 PRESFR P0013 $"}
+{"ts_utc": "2026-10-11T20:53:23Z", "station": "CYYZ", "obs_utc": "2026-10-11T20:46:00Z", "temp_c": 15, "dewp_c": 13, "speci": true, "raw": "SPECI CYYZ 112046Z 12005KT 12SM FEW015 OVC027 15/13 A3000 RMK CF1SC8 CF TR SLP164"}
+{"ts_utc": "2026-10-11T20:53:23Z", "station": "EFHK", "obs_utc": "2026-10-11T21:00:00Z", "temp_c": 6, "dewp_c": 5, "speci": false, "raw": "METAR EFHK 112050Z 05009KT 9999 BKN007 06/05 Q1010 TEMPO SCT007 BKN030"}
