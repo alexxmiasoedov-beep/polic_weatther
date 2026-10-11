@@ -1,0 +1,3 @@
+{"ts_utc": "2026-10-11T23:53:23Z", "station": "EDDM", "obs_utc": "2026-10-12T00:00:00Z", "temp_c": 6, "dewp_c": 6, "speci": false, "raw": "METAR EDDM 112350Z AUTO 27004KT CAVOK 06/06 Q1019 NOSIG"}
+{"ts_utc": "2026-10-11T23:53:23Z", "station": "EFHK", "obs_utc": "2026-10-12T00:00:00Z", "temp_c": 6, "dewp_c": 5, "speci": false, "raw": "METAR EFHK 112350Z 05010KT 9999 BKN007 06/05 Q1010 NOSIG"}
+{"ts_utc": "2026-10-11T23:53:23Z", "station": "LLBG", "obs_utc": "2026-10-12T00:00:00Z", "temp_c": 25, "dewp_c": 21, "speci": false, "raw": "METAR LLBG 112350Z 36005KT 9999 SCT025 SCT040 25/21 Q1012 NOSIG"}
