@@ -1,207 +1,121 @@
 {
- "amsterdam": {
-  "site": "EHAM",
-  "name": "Amsterdam Airport Schiphol",
-  "unit": "C"
- },
- "ankara": {
-  "site": "LTAC",
-  "name": "Esenboğa Intl Airport",
-  "unit": "C"
- },
- "atlanta": {
-  "site": "KATL",
-  "name": "Hartsfield-Jackson International Airport",
-  "unit": "C"
- },
- "austin": {
-  "site": "KAUS",
-  "name": "Austin-Bergstrom International Airport",
-  "unit": "C"
- },
- "beijing": {
-  "site": "ZBAA",
-  "name": "Beijing Capital International Airport",
-  "unit": "C"
- },
- "buenos-aires": {
-  "site": "SAEZ",
-  "name": "Minister Pistarini Intl Airport",
-  "unit": "C"
- },
- "busan": {
-  "site": "RKPK",
-  "name": "Gimhae Intl Airport",
-  "unit": "C"
- },
- "cape-town": {
-  "site": "FACT",
-  "name": "Cape Town International Airport",
-  "unit": "C"
- },
- "chicago": {
-  "site": "KORD",
-  "name": "Chicago O'Hare Intl Airport",
-  "unit": "C"
- },
- "chongqing": {
-  "site": "ZUCK",
-  "name": "Chongqing Jiangbei International Airport",
-  "unit": "C"
- },
- "dallas": {
-  "site": "KDAL",
-  "name": "Dallas Love Field",
-  "unit": "C"
- },
- "denver": {
-  "site": "KBKF",
-  "name": "Buckley Space Force Base",
-  "unit": "C"
- },
- "helsinki": {
-  "site": "EFHK",
-  "name": "Helsinki Vantaa Airport",
-  "unit": "C"
- },
- "hong-kong": {
-  "site": null,
-  "name": null,
-  "unit": "C"
- },
- "houston": {
-  "site": "KHOU",
-  "name": "William P. Hobby Airport",
-  "unit": "C"
- },
- "istanbul": {
-  "site": "LTFM",
-  "name": null,
-  "unit": "C"
- },
- "kuala-lumpur": {
-  "site": "WMKK",
-  "name": "Kuala Lumpur Intl Airport",
-  "unit": "C"
- },
- "london": {
-  "site": "EGLC",
-  "name": "London City Airport",
-  "unit": "C"
- },
- "los-angeles": {
-  "site": "KLAX",
-  "name": "Los Angeles International Airport",
-  "unit": "C"
- },
- "madrid": {
-  "site": "LEMD",
-  "name": "Adolfo Suárez Madrid-Barajas Airport",
-  "unit": "C"
- },
- "manila": {
-  "site": "RPLL",
-  "name": "Ninoy Aquino International Airport",
-  "unit": "C"
- },
- "mexico-city": {
-  "site": "MMMX",
-  "name": "Benito Juárez International Airport",
-  "unit": "C"
- },
- "miami": {
-  "site": "KMIA",
-  "name": "Miami Intl Airport",
-  "unit": "C"
- },
- "milan": {
-  "site": "LIMC",
-  "name": "Malpensa Intl Airport",
-  "unit": "C"
- },
- "moscow": {
-  "site": "UUWW",
-  "name": null,
-  "unit": "C"
- },
- "munich": {
-  "site": "EDDM",
-  "name": "Munich Airport",
-  "unit": "C"
- },
- "nyc": {
-  "site": "KLGA",
-  "name": "LaGuardia Airport",
-  "unit": "C"
- },
- "paris": {
-  "site": "LFPB",
-  "name": "Paris-Le Bourget Airport",
-  "unit": "C"
- },
- "san-francisco": {
-  "site": "KSFO",
-  "name": "San Francisco International Airport",
-  "unit": "C"
- },
- "sao-paulo": {
-  "site": "SBGR",
-  "name": "Sao Paulo-Guarulhos International Airport",
-  "unit": "C"
- },
- "seattle": {
-  "site": "KSEA",
-  "name": "Seattle-Tacoma International Airport",
-  "unit": "C"
- },
- "seoul": {
-  "site": "RKSI",
-  "name": "Incheon Intl Airport",
-  "unit": "C"
- },
- "shanghai": {
-  "site": "ZSPD",
-  "name": "Shanghai Pudong International Airport",
-  "unit": "C"
- },
- "singapore": {
-  "site": "WSSS",
-  "name": "Singapore Changi Airport",
-  "unit": "C"
- },
- "taipei": {
-  "site": null,
-  "name": null,
-  "unit": "C"
- },
- "tel-aviv": {
-  "site": "LLBG",
-  "name": null,
-  "unit": "C"
- },
- "tokyo": {
-  "site": "RJTT",
-  "name": "Tokyo Haneda Airport",
-  "unit": "C"
- },
- "toronto": {
-  "site": "CYYZ",
-  "name": "Toronto Pearson Intl Airport",
-  "unit": "C"
- },
- "warsaw": {
-  "site": "EPWA",
-  "name": "Warsaw Chopin Airport",
-  "unit": "C"
- },
- "wellington": {
-  "site": "NZWN",
-  "name": "Wellington Intl Airport",
-  "unit": "C"
- },
- "wuhan": {
-  "site": "ZHHH",
-  "name": "Wuhan Tianhe International Airport",
-  "unit": "C"
+ "updated": "2026-10-11",
+ "source": "описания рынков Polymarket (resolution source: NOAA weather.gov/wrh/timeseries?site=…)",
+ "cities": {
+  "tokyo": {
+   "station": "RJTT",
+   "tz": "Asia/Tokyo",
+   "unit": "C",
+   "name": "Tokyo Haneda"
+  },
+  "beijing": {
+   "station": "ZBAA",
+   "tz": "Asia/Shanghai",
+   "unit": "C",
+   "name": "Beijing Capital"
+  },
+  "hong-kong": {
+   "station": "VHHH",
+   "tz": "Asia/Hong_Kong",
+   "unit": "C",
+   "name": "Hong Kong Observatory (резолв по HKO, METAR-прокси — аэропорт VHHH, читает ≈ на 0,5–1°C иначе)",
+   "proxy": true
+  },
+  "seoul": {
+   "station": "RKSI",
+   "tz": "Asia/Seoul",
+   "unit": "C",
+   "name": "Incheon Intl"
+  },
+  "busan": {
+   "station": "RKPK",
+   "tz": "Asia/Seoul",
+   "unit": "C",
+   "name": "Gimhae Intl"
+  },
+  "taipei": {
+   "station": "RCSS",
+   "tz": "Asia/Taipei",
+   "unit": "C",
+   "name": "Taipei Songshan (резолв по Wunderground)"
+  },
+  "manila": {
+   "station": "RPLL",
+   "tz": "Asia/Manila",
+   "unit": "C",
+   "name": "Ninoy Aquino Intl"
+  },
+  "cape-town": {
+   "station": "FACT",
+   "tz": "Africa/Johannesburg",
+   "unit": "C",
+   "name": "Cape Town Intl"
+  },
+  "sao-paulo": {
+   "station": "SBGR",
+   "tz": "America/Sao_Paulo",
+   "unit": "C",
+   "name": "Guarulhos"
+  },
+  "buenos-aires": {
+   "station": "SAEZ",
+   "tz": "America/Argentina/Buenos_Aires",
+   "unit": "C",
+   "name": "Ezeiza (Ministro Pistarini)"
+  },
+  "munich": {
+   "station": "EDDM",
+   "tz": "Europe/Berlin",
+   "unit": "C",
+   "name": "Munich Airport"
+  },
+  "madrid": {
+   "station": "LEMD",
+   "tz": "Europe/Madrid",
+   "unit": "C",
+   "name": "Madrid-Barajas"
+  },
+  "paris": {
+   "station": "LFPB",
+   "tz": "Europe/Paris",
+   "unit": "C",
+   "name": "Paris-Le Bourget"
+  },
+  "warsaw": {
+   "station": "EPWA",
+   "tz": "Europe/Warsaw",
+   "unit": "C",
+   "name": "Warsaw Chopin"
+  },
+  "ankara": {
+   "station": "LTAC",
+   "tz": "Europe/Istanbul",
+   "unit": "C",
+   "name": "Esenboğa"
+  },
+  "chicago": {
+   "station": "KORD",
+   "tz": "America/Chicago",
+   "unit": "F",
+   "name": "Chicago O'Hare"
+  },
+  "nyc": {
+   "station": "KLGA",
+   "tz": "America/New_York",
+   "unit": "F",
+   "name": "LaGuardia"
+  },
+  "chongqing": {
+   "station": "ZUCK",
+   "tz": "Asia/Shanghai",
+   "unit": "C",
+   "name": "Chongqing Jiangbei"
+  },
+  "wuhan": {
+   "station": "ZHHH",
+   "tz": "Asia/Shanghai",
+   "unit": "C",
+   "name": "Wuhan Tianhe"
+  }
  }
 }

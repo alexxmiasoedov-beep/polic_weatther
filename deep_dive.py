@@ -31,6 +31,8 @@ import strategy_lab as L
 ROOT = Path(__file__).parent
 ST = {s: c["station"] for src in (config.CITIES, pilot.PILOT_CITIES) for s, c in src.items()}
 UNIT = {s: c.get("unit", "F") for src in (config.CITIES, pilot.PILOT_CITIES) for s, c in src.items()}
+_OBS = json.load(open(ROOT / "observe_stations.json", encoding="utf-8"))["cities"] if (ROOT / "observe_stations.json").exists() else {}
+ST.update({s: c["station"] for s, c in _OBS.items()}); UNIT.update({s: c.get("unit", "C") for s, c in _OBS.items()})
 IEM_ID = {v: (v[1:] if v.startswith("K") else v) for v in ST.values()}
 KOFF = {"atlanta": 1.0, "houston": 1.0, "austin": 0.5, "miami": 0.0}
 

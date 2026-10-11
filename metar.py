@@ -28,6 +28,14 @@ def stations() -> list:
         st += [c["station"] for c in pilot.PILOT_CITIES.values() if c.get("station")]
     except Exception as e:  # noqa: BLE001
         print(f"WARN metar: pilot stations: {e}", file=sys.stderr)
+    try:  # обзорные города (станции резолва из описаний рынков PM, 11.10) — observe_stations.json
+        import json as _json
+        from pathlib import Path as _P
+        p = _P(__file__).parent / "observe_stations.json"
+        if p.exists():
+            st += [c["station"] for c in _json.loads(p.read_text(encoding="utf-8"))["cities"].values()]
+    except Exception as e:  # noqa: BLE001
+        print(f"WARN metar: observe stations: {e}", file=sys.stderr)
     seen, out = set(), []
     for s in st:
         if s not in seen:
