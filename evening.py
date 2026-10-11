@@ -63,6 +63,8 @@ def neighbor(buckets, bk, t):
     вечером и 6/7 утром, но ROI +24..38% против +100% у одиночной —
     это режим меньших просадок, не большей прибыли.
     """
+    if not bk:  # медиана вне сетки корзин — пары нет
+        return None, False
     r = parse_range(bk)
     if not r or r[0] < -900 or r[1] > 900:
         return None, False
