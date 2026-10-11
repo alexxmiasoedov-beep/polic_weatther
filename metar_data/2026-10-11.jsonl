@@ -942,3 +942,7 @@
 {"ts_utc": "2026-10-11T20:13:23Z", "station": "ZHHH", "obs_utc": "2026-10-11T20:00:00Z", "temp_c": 21, "dewp_c": 17, "speci": false, "raw": "METAR ZHHH 112000Z 09003MPS 8000 NSC 21/17 Q1016 NOSIG"}
 {"ts_utc": "2026-10-11T20:13:23Z", "station": "ZUCK", "obs_utc": "2026-10-11T20:00:00Z", "temp_c": 20, "dewp_c": 20, "speci": false, "raw": "METAR ZUCK 112000Z 24002MPS 220V280 4000 BR SCT008 SCT020 OVC033 20/20 Q1015 NOSIG"}
 {"ts_utc": "2026-10-11T20:13:23Z", "station": "RKPK", "obs_utc": "2026-10-11T20:03:00Z", "temp_c": 21, "dewp_c": 19, "speci": true, "raw": "SPECI RKPK 112003Z 29001KT CAVOK 21/19 Q1019 RMK CIG110"}
+{"ts_utc": "2026-10-11T20:23:22Z", "station": "RKPK", "obs_utc": "2026-10-11T20:14:00Z", "temp_c": 21, "dewp_c": 19, "speci": true, "raw": "SPECI RKPK 112014Z 34003KT 9999 -RA NSC 21/19 Q1019 RMK CIG130"}
+{"ts_utc": "2026-10-11T20:23:22Z", "station": "KLAX", "obs_utc": "2026-10-11T20:18:00Z", "temp_c": 21.7, "dewp_c": 12.2, "speci": true, "raw": "SPECI KLAX 112018Z 20013G20KT 10SM FEW016 SCT029 BKN033 BKN140 22/12 A2973 RMK AO2 T02170122 $"}
+{"ts_utc": "2026-10-11T20:23:22Z", "station": "EDDM", "obs_utc": "2026-10-11T20:20:00Z", "temp_c": 8, "dewp_c": 6, "speci": false, "raw": "METAR EDDM 112020Z AUTO 26006KT CAVOK 08/06 Q1017 NOSIG"}
+{"ts_utc": "2026-10-11T20:23:22Z", "station": "EFHK", "obs_utc": "2026-10-11T20:20:00Z", "temp_c": 6, "dewp_c": 5, "speci": false, "raw": "METAR EFHK 112020Z 05009KT 9999 FEW007 SCT027 BKN041 06/05 Q1010 NOSIG"}
