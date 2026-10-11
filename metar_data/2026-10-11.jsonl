@@ -751,3 +751,5 @@
 {"ts_utc": "2026-10-11T17:08:27Z", "station": "ZUCK", "obs_utc": "2026-10-11T17:00:00Z", "temp_c": 21, "dewp_c": 20, "speci": false, "raw": "METAR ZUCK 111700Z 28003MPS 5000 BR SCT015 OVC033 21/20 Q1015 NOSIG"}
 {"ts_utc": "2026-10-11T17:12:52Z", "station": "KBKF", "obs_utc": "2026-10-11T17:00:00Z", "temp_c": 23.9, "dewp_c": 3.8, "speci": false, "raw": "METAR KBKF 111658Z 24013KT 10SM FEW080 24/04 A2987 RMK AO2A SLP035 T02390038"}
 {"ts_utc": "2026-10-11T17:12:52Z", "station": "RCSS", "obs_utc": "2026-10-11T17:00:00Z", "temp_c": 24, "dewp_c": 22, "speci": false, "raw": "METAR RCSS 111700Z 09006KT 9999 FEW020 24/22 Q1017 NOSIG RMK A3005"}
+{"ts_utc": "2026-10-11T17:22:52Z", "station": "EFHK", "obs_utc": "2026-10-11T17:20:00Z", "temp_c": 7, "dewp_c": 5, "speci": false, "raw": "METAR EFHK 111720Z 08009KT 9999 FEW010 BKN042 07/05 Q1009 NOSIG"}
+{"ts_utc": "2026-10-11T17:22:52Z", "station": "LLBG", "obs_utc": "2026-10-11T17:20:00Z", "temp_c": 26, "dewp_c": 20, "speci": false, "raw": "METAR LLBG 111720Z 33006KT 9999 SCT025 SCT035 26/20 Q1012 NOSIG"}
