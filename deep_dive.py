@@ -99,7 +99,8 @@ def features(slug, d, v, obs_all, H):
          "lead_ask": b[lead][2], "gap": pl - L.price(b, sec), "n_live": sum(1 for k in keys if L.price(b, k) >= 10),
          "spread": (b[lead][2] - b[lead][1]) if b[lead][2] is not None and b[lead][1] is not None else None,
          "below_ask": b[below][2] if below and b[below][2] else None, "above_ask": b[above][2] if above and b[above][2] else None,
-         "below_price": L.price(b, below) if below else None, "above_price": L.price(b, above) if above else None}
+         "below_price": L.price(b, below) if below else None, "above_price": L.price(b, above) if above else None,
+         "below": below, "above": above}
     # движение лидера за 3 и 6 ч
     for back in (3, 6):
         prev = [(t2, b2) for (t2, b2), h2 in zip(snaps, hte) if h + back - 1 <= h2 <= h + back + 1.5]

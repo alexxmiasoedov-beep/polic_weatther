@@ -32,7 +32,8 @@ TARGETS = {"lead": 0, "below": -1, "above": 1}
 
 
 def pnl(r, tgt):
-    hit = r["outcome"] == TARGETS[tgt]
+    # попадание: для lead — победил лидер; для below/above — победила ИМЕННО соседняя корзина (её и покупаем)
+    hit = (r["outcome"] == 0) if tgt == "lead" else (r.get("winner") == r.get(tgt))
     ask = {"lead": r.get("lead_ask"), "below": r.get("below_ask"), "above": r.get("above_ask")}[tgt]
     if not ask or ask <= 0 or ask > 80: return None
     return (100 / ask - 1) if hit else -1.0
