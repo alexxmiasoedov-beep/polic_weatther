@@ -189,7 +189,7 @@ def bucket_for_temp(b, t, unit):
         if "higher" in k or "above" in k:
             if t >= n - 0.001: return k
             continue
-        m = re.findall(r"-?\d+", k)
+        m = re.findall(r"(?<!\d)-?\d+", k)  # «80-81°F» → 80, 81 (а не 80, −81 — баг до 11.10)
         lo = int(m[0]); hi = int(m[1]) if len(m) > 1 else lo
         if lo - 0.5 <= t < hi + 0.5: return k
     return None
