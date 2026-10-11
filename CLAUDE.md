@@ -613,7 +613,9 @@ TLV +1.35, ATL +1.28, SIN +1.20, SFO +1.01, LAX +1.00, MIA +0.85.
 5. Бумажный журнал «СТОРОНА ГОРОДА» (`side.py`, ключ side в forecasts/, старт 11.10; основание —
    `reports/2026-10-11-deep-dive.md`): уровень A — atlanta below@30, austin above@30, miami lead@24,
    kuala-lumpur lead@18, houston lead@18; уровень B (наблюдение) — dallas above@30, san-francisco above@24,
-   denver below@30, mexico-city lead@24, shanghai lead@18. Вход: лидер PM 25–69¢ по last в снапшоте за H ч,
+   denver below@30, mexico-city lead@24, shanghai lead@18, и с вечера 11.10 обзорные (решение владельца):
+   tokyo below@18, beijing below@18, taipei above@24, madrid above@30, chicago above@30, nyc lead@30,
+   buenos-aires lead@24. Вход: лидер PM 25–69¢ по last в снапшоте за H ч,
    покупка целевой корзины по ask (≤80), size 1.0; задним числом из снапшотов, только незакрытые рынки.
    Отдельные «триггеры» по городам на этих данных неотличимы от шума (перестановочный тест) — только гипотезы.
 Монитор переворотов (сетапы А/Б) оставлен бумажным без изменений правил.
