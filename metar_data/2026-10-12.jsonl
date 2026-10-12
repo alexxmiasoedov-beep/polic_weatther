@@ -1278,3 +1278,11 @@
 {"ts_utc": "2026-10-12T19:45:20Z", "station": "WMKK", "obs_utc": "2026-10-12T19:30:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 121930Z 00000KT 3000 BR FEW008 26/24 Q1010 NOSIG"}
 {"ts_utc": "2026-10-12T19:45:20Z", "station": "ZBAA", "obs_utc": "2026-10-12T19:30:00Z", "temp_c": 11, "dewp_c": 11, "speci": false, "raw": "METAR ZBAA 121930Z 36002MPS 2100 R36L/0800U R36R/P2000N R01/1600U BR BCFG NSC 11/11 Q1021 NOSIG"}
 {"ts_utc": "2026-10-12T19:45:20Z", "station": "ZSPD", "obs_utc": "2026-10-12T19:30:00Z", "temp_c": 22, "dewp_c": 21, "speci": false, "raw": "METAR ZSPD 121930Z 35003MPS 9999 BKN013 22/21 Q1016 NOSIG"}
+{"ts_utc": "2026-10-12T19:55:20Z", "station": "EDDM", "obs_utc": "2026-10-12T20:00:00Z", "temp_c": 3, "dewp_c": 2, "speci": false, "raw": "METAR EDDM 121950Z AUTO VRB01KT CAVOK 03/02 Q1024 NOSIG"}
+{"ts_utc": "2026-10-12T19:55:20Z", "station": "EFHK", "obs_utc": "2026-10-12T20:00:00Z", "temp_c": 6, "dewp_c": 5, "speci": false, "raw": "METAR EFHK 121950Z 02008KT 9999 BKN009 06/05 Q1018 BECMG BKN010"}
+{"ts_utc": "2026-10-12T19:55:20Z", "station": "EGLC", "obs_utc": "2026-10-12T20:00:00Z", "temp_c": 18, "dewp_c": 16, "speci": false, "raw": "METAR EGLC 121950Z AUTO 21006KT 090V250 9999 FEW015 BKN019 OVC023 18/16 Q1014"}
+{"ts_utc": "2026-10-12T19:55:20Z", "station": "KATL", "obs_utc": "2026-10-12T20:00:00Z", "temp_c": 28.3, "dewp_c": 13.3, "speci": false, "raw": "METAR KATL 121952Z 31012KT 10SM FEW200 28/13 A3007 RMK AO2 SLP176 T02830133 $"}
+{"ts_utc": "2026-10-12T19:55:20Z", "station": "KLGA", "obs_utc": "2026-10-12T20:00:00Z", "temp_c": 21.7, "dewp_c": 13.9, "speci": false, "raw": "METAR KLGA 121951Z 31012KT 10SM BKN034 BKN250 22/14 A2978 RMK AO2 SLP085 T02170139 $"}
+{"ts_utc": "2026-10-12T19:55:20Z", "station": "KORD", "obs_utc": "2026-10-12T20:00:00Z", "temp_c": 30.6, "dewp_c": 16.7, "speci": false, "raw": "METAR KORD 121951Z 21017G25KT 10SM FEW130 SCT250 31/17 A2977 RMK AO2 SLP073 T03060167 $"}
+{"ts_utc": "2026-10-12T19:55:20Z", "station": "LIMC", "obs_utc": "2026-10-12T20:00:00Z", "temp_c": 15, "dewp_c": 11, "speci": false, "raw": "METAR LIMC 121950Z 05003KT 9999 BKN055 15/11 Q1022 NOSIG"}
+{"ts_utc": "2026-10-12T19:55:20Z", "station": "LLBG", "obs_utc": "2026-10-12T20:00:00Z", "temp_c": 25, "dewp_c": 18, "speci": false, "raw": "METAR LLBG 121950Z VRB02KT 9999 BKN030 25/18 Q1015 NOSIG"}
