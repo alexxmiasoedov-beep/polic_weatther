@@ -358,3 +358,7 @@
 {"ts_utc": "2026-10-12T05:13:54Z", "station": "ZHHH", "obs_utc": "2026-10-12T05:00:00Z", "temp_c": 29, "dewp_c": 14, "speci": false, "raw": "METAR ZHHH 120500Z 11002MPS 070V170 CAVOK 29/14 Q1016 NOSIG"}
 {"ts_utc": "2026-10-12T05:13:54Z", "station": "ZSPD", "obs_utc": "2026-10-12T05:00:00Z", "temp_c": 22, "dewp_c": 18, "speci": false, "raw": "METAR ZSPD 120500Z 30005MPS 260V330 9999 BKN016 22/18 Q1016 NOSIG"}
 {"ts_utc": "2026-10-12T05:13:54Z", "station": "ZUCK", "obs_utc": "2026-10-12T05:00:00Z", "temp_c": 21, "dewp_c": 19, "speci": false, "raw": "METAR ZUCK 120500Z 31003MPS 4000 BR FEW008 SCT020 OVC033 21/19 Q1019 NOSIG"}
+{"ts_utc": "2026-10-12T05:23:54Z", "station": "VHHH", "obs_utc": "2026-10-12T05:17:00Z", "temp_c": 31, "dewp_c": 21, "speci": true, "raw": "SPECI VHHH 120517Z 23010KT 9999 FEW025 31/21 Q1016 NOSIG"}
+{"ts_utc": "2026-10-12T05:23:54Z", "station": "EDDM", "obs_utc": "2026-10-12T05:20:00Z", "temp_c": 3, "dewp_c": 2, "speci": false, "raw": "METAR EDDM 120520Z AUTO VRB01KT 1000 0600 R26R/1700U R26L/P2000N BCFG NCD 03/02 Q1020 BECMG FM0600 CAVOK"}
+{"ts_utc": "2026-10-12T05:23:54Z", "station": "EFHK", "obs_utc": "2026-10-12T05:20:00Z", "temp_c": 6, "dewp_c": 5, "speci": false, "raw": "METAR EFHK 120520Z 04013KT 9999 OVC008 06/05 Q1010 NOSIG"}
+{"ts_utc": "2026-10-12T05:23:54Z", "station": "LLBG", "obs_utc": "2026-10-12T05:20:00Z", "temp_c": 25, "dewp_c": 20, "speci": false, "raw": "METAR LLBG 120520Z VRB03KT 9999 SCT030 BKN040 25/20 Q1013 NOSIG"}
