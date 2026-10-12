@@ -1129,3 +1129,9 @@
 {"ts_utc": "2026-10-12T17:14:50Z", "station": "WMKK", "obs_utc": "2026-10-12T17:00:00Z", "temp_c": 26, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 121700Z 00000KT 4000 BR FEW010 26/25 Q1012 NOSIG"}
 {"ts_utc": "2026-10-12T17:14:50Z", "station": "ZHHH", "obs_utc": "2026-10-12T17:00:00Z", "temp_c": 22, "dewp_c": 19, "speci": false, "raw": "METAR ZHHH 121700Z VRB01MPS 7000 NSC 22/19 Q1018 NOSIG"}
 {"ts_utc": "2026-10-12T17:14:50Z", "station": "ZUCK", "obs_utc": "2026-10-12T17:00:00Z", "temp_c": 21, "dewp_c": 20, "speci": false, "raw": "METAR ZUCK 121700Z 26001MPS 6000 NSC 21/20 Q1022 NOSIG"}
+{"ts_utc": "2026-10-12T17:24:50Z", "station": "KDAL", "obs_utc": "2026-10-12T17:14:00Z", "temp_c": 27.8, "dewp_c": 21.1, "speci": true, "raw": "SPECI KDAL 121714Z 18007KT 140V220 10SM BKN031 BKN038 BKN250 28/21 A3003 RMK AO2 T02780211"}
+{"ts_utc": "2026-10-12T17:24:50Z", "station": "ZBAA", "obs_utc": "2026-10-12T17:14:00Z", "temp_c": 13, "dewp_c": 12, "speci": true, "raw": "SPECI ZBAA 121714Z 01002MPS 2100 R36L/0325D R36R/P2000N R01/1300U BR BCFG NSC 13/12 Q1020 NOSIG"}
+{"ts_utc": "2026-10-12T17:24:50Z", "station": "EDDM", "obs_utc": "2026-10-12T17:20:00Z", "temp_c": 6, "dewp_c": 3, "speci": false, "raw": "METAR EDDM 121720Z AUTO 08002KT CAVOK 06/03 Q1023 NOSIG"}
+{"ts_utc": "2026-10-12T17:24:50Z", "station": "EFHK", "obs_utc": "2026-10-12T17:20:00Z", "temp_c": 6, "dewp_c": 5, "speci": false, "raw": "METAR EFHK 121720Z 03010KT 9999 BKN010 06/05 Q1016 NOSIG"}
+{"ts_utc": "2026-10-12T17:24:50Z", "station": "EGLC", "obs_utc": "2026-10-12T17:20:00Z", "temp_c": 17, "dewp_c": 15, "speci": false, "raw": "METAR EGLC 121720Z AUTO 17007KT 130V200 9999 BKN009 OVC013 17/15 Q1014"}
+{"ts_utc": "2026-10-12T17:24:50Z", "station": "LLBG", "obs_utc": "2026-10-12T17:20:00Z", "temp_c": 25, "dewp_c": 18, "speci": false, "raw": "METAR LLBG 121720Z 01004KT 9999 FEW048 25/18 Q1014 NOSIG"}
