@@ -1438,3 +1438,5 @@
 {"ts_utc": "2026-10-13T20:38:14Z", "station": "WSSS", "obs_utc": "2026-10-13T20:30:00Z", "temp_c": 27, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 132030Z 01008KT 4000 HZ FEW018 BKN280 27/25 Q1011 NOSIG"}
 {"ts_utc": "2026-10-13T20:38:14Z", "station": "ZBAA", "obs_utc": "2026-10-13T20:30:00Z", "temp_c": 5, "dewp_c": 3, "speci": false, "raw": "METAR ZBAA 132030Z VRB01MPS CAVOK 05/03 Q1021 NOSIG"}
 {"ts_utc": "2026-10-13T20:38:14Z", "station": "ZSPD", "obs_utc": "2026-10-13T20:30:00Z", "temp_c": 21, "dewp_c": 15, "speci": false, "raw": "METAR ZSPD 132030Z 01006MPS CAVOK 21/15 Q1021 NOSIG"}
+{"ts_utc": "2026-10-13T20:48:15Z", "station": "RJTT", "obs_utc": "2026-10-13T20:30:00Z", "temp_c": 22, "dewp_c": 20, "speci": false, "raw": "METAR RJTT 132030Z 20011KT 9999 FEW010 SCT015 22/20 Q1008 NOSIG"}
+{"ts_utc": "2026-10-13T20:48:15Z", "station": "UUWW", "obs_utc": "2026-10-13T20:44:00Z", "temp_c": 9, "dewp_c": 8, "speci": true, "raw": "SPECI UUWW 132044Z 34003MPS 4900 BR OVC003 09/08 Q1021 R24/290050 TEMPO 2000 BR BKN002"}
