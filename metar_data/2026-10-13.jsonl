@@ -300,3 +300,9 @@
 {"ts_utc": "2026-10-13T04:06:09Z", "station": "ZHHH", "obs_utc": "2026-10-13T04:00:00Z", "temp_c": 25, "dewp_c": 17, "speci": false, "raw": "METAR ZHHH 130400Z 36002MPS 260V040 9999 SCT040 25/17 Q1021 NOSIG"}
 {"ts_utc": "2026-10-13T04:06:09Z", "station": "ZSPD", "obs_utc": "2026-10-13T04:00:00Z", "temp_c": 28, "dewp_c": 18, "speci": false, "raw": "METAR ZSPD 130400Z 32006MPS 9999 SCT030 28/18 Q1017 NOSIG"}
 {"ts_utc": "2026-10-13T04:06:09Z", "station": "ZUCK", "obs_utc": "2026-10-13T04:00:00Z", "temp_c": 24, "dewp_c": 20, "speci": false, "raw": "METAR ZUCK 130400Z 16003MPS 120V200 7000 SCT020 24/20 Q1023 NOSIG"}
+{"ts_utc": "2026-10-13T04:16:09Z", "station": "FACT", "obs_utc": "2026-10-13T03:28:00Z", "temp_c": 11, "dewp_c": 11, "speci": true, "raw": "SPECI FACT 130328Z VRB01KT 2000 R01/0700 BR NSC 11/11 Q1020 BECMG 3000"}
+{"ts_utc": "2026-10-13T04:16:09Z", "station": "CYYZ", "obs_utc": "2026-10-13T04:00:00Z", "temp_c": 18, "dewp_c": 16, "speci": false, "raw": "METAR CYYZ 130400Z 15005KT 15SM FEW094 SCT180 18/16 A2980 RMK AC2AC2 SLP093 DENSITY ALT 1200FT"}
+{"ts_utc": "2026-10-13T04:16:09Z", "station": "RCSS", "obs_utc": "2026-10-13T04:00:00Z", "temp_c": 31, "dewp_c": 23, "speci": false, "raw": "METAR RCSS 130400Z VRB04KT 9999 FEW020 31/23 Q1015 NOSIG RMK A2999"}
+{"ts_utc": "2026-10-13T04:16:09Z", "station": "RJTT", "obs_utc": "2026-10-13T04:00:00Z", "temp_c": 23, "dewp_c": 17, "speci": false, "raw": "METAR RJTT 130400Z VRB02KT 9999 FEW020 BKN035 23/17 Q1014 NOSIG"}
+{"ts_utc": "2026-10-13T04:16:09Z", "station": "RPLL", "obs_utc": "2026-10-13T04:00:00Z", "temp_c": 32, "dewp_c": 24, "speci": false, "raw": "METAR RPLL 130400Z 15005KT 070V220 9999 FEW025 BKN100 32/24 Q1013 NOSIG RMK A2991"}
+{"ts_utc": "2026-10-13T04:16:09Z", "station": "WMKK", "obs_utc": "2026-10-13T04:00:00Z", "temp_c": 32, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 130400Z VRB02KT 4000 HZ FEW018 32/25 Q1012 NOSIG"}
