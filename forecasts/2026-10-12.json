@@ -65,9 +65,9 @@
    "bet": null,
    "note": "днём 88-89 подходила к паритету 42/47, лидер вернул 62; риск 88-89 ~35% при облачности; фаворит 90-91 @64 держится",
    "ts_utc": "2026-10-12T17:06:39Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "88-89°F",
+   "hit": false,
+   "pnl_pick": -1.0
   },
   "houston": {
    "bucket": "88-89°F",
@@ -82,9 +82,9 @@
    "bet": null,
    "note": "риск 86-87 ~25% если дождь срезал макс на 87; 90-91 ~10%; стабильный лидер @56 и сторона [A] @56 в плюсе",
    "ts_utc": "2026-10-12T19:07:13Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "88-89°F",
+   "hit": true,
+   "pnl_pick": 0.205
   },
   "dallas": {
    "bucket": "88-89°F",
@@ -99,9 +99,9 @@
    "bet": null,
    "note": "с ночи паритет 46/48 с 90-91; риск 90-91 ~35%; вчера консенсус 90-91 был прав против лидера; стабильный лидер @32 → 59",
    "ts_utc": "2026-10-12T19:08:01Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "88-89°F",
+   "hit": true,
+   "pnl_pick": 0.695
   },
   "los-angeles": {
    "bucket": "66-67°F",
@@ -116,9 +116,9 @@
    "bet": null,
    "note": "фаворит 68-69 @51 проигрывает (28, 20/29); риск 68-69 ~40%; холодная сторона при споре",
    "ts_utc": "2026-10-12T19:07:13Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "68-69°F",
+   "hit": false,
+   "pnl_pick": -1.0
   },
   "san-francisco": {
    "bucket": "66-67°F",
@@ -133,9 +133,9 @@
    "bet": null,
    "note": "холодная сторона при споре; риск 68-69 ~30% (офшорный ветер), 64-65 ~20%; стабильный лидер 68-69 @60 под угрозой",
    "ts_utc": "2026-10-12T20:06:50Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "68-69°F",
+   "hit": false,
+   "pnl_pick": -1.0
   },
   "atlanta": {
    "bucket": "82-83°F",
@@ -150,9 +150,9 @@
    "bet": null,
    "note": "рынок перевернулся за час (84-85 70 → 27 при стакане 5/11); справочный фаворит 84-85 @58 проигрывает; стабильный лидер 82-83 @42 ✅; three journals on 80-81 miss",
    "ts_utc": "2026-10-12T20:27:26Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "82-83°F",
+   "hit": true,
+   "pnl_pick": 0.099
   },
   "austin": {
    "bucket": "88-89°F",
@@ -167,9 +167,9 @@
    "bet": null,
    "note": "рынок перевернулся 90-91 → 88-89 за полтора часа; риск 90-91 ~30% при SPECI/21:53Z=90; стабильный лидер 92-93 @46 мимо, down@21 90-91 @32 под вопросом",
    "ts_utc": "2026-10-12T21:26:59Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "90-91°F",
+   "hit": false,
+   "pnl_pick": -1.0
   }
  },
  "favorites": {
@@ -200,9 +200,10 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:23:40Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "82-83°F",
+   "hit": false,
+   "pnl": null,
+   "pnl_ref": -1.0
   },
   "austin": {
    "bucket": "92-93°F",
@@ -215,8 +216,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:23:40Z",
-   "winner": null,
-   "hit": null,
+   "winner": "90-91°F",
+   "hit": false,
    "pnl": null
   },
   "dallas": {
@@ -230,8 +231,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:22:51Z",
-   "winner": null,
-   "hit": null,
+   "winner": "88-89°F",
+   "hit": true,
    "pnl": null
   },
   "denver": {
@@ -245,9 +246,10 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:22:51Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "82-83°F",
+   "hit": false,
+   "pnl": null,
+   "pnl_ref": -1.0
   },
   "helsinki": {
    "bucket": "7°C",
@@ -260,9 +262,10 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:22:51Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "6°C",
+   "hit": false,
+   "pnl": null,
+   "pnl_ref": -1.0
   },
   "houston": {
    "bucket": "88-89°F",
@@ -275,8 +278,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:23:40Z",
-   "winner": null,
-   "hit": null,
+   "winner": "88-89°F",
+   "hit": true,
    "pnl": null
   },
   "istanbul": {
@@ -320,9 +323,10 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:22:51Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "18°C",
+   "hit": true,
+   "pnl": null,
+   "pnl_ref": 0.923
   },
   "los-angeles": {
    "bucket": "68-69°F",
@@ -335,9 +339,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:23:40Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "68-69°F",
+   "hit": true,
+   "pnl": 0.961
   },
   "mexico-city": {
    "bucket": "25°C",
@@ -350,9 +354,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:22:51Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "25°C",
+   "hit": true,
+   "pnl": 0.887
   },
   "miami": {
    "bucket": "90-91°F",
@@ -365,9 +369,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:23:40Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "88-89°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "milan": {
    "bucket": "21°C",
@@ -410,9 +414,10 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:23:40Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "68-69°F",
+   "hit": true,
+   "pnl": null,
+   "pnl_ref": 0.754
   },
   "seattle": {
    "bucket": "62-63°F",
@@ -425,9 +430,10 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:23:40Z",
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "60-61°F",
+   "hit": false,
+   "pnl": null,
+   "pnl_ref": -1.0
   },
   "shanghai": {
    "bucket": "26°C",
@@ -486,8 +492,8 @@
    "size": 0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:22:51Z",
-   "winner": null,
-   "hit": null,
+   "winner": "22°C",
+   "hit": true,
    "pnl": null
   },
   "wellington": {
@@ -543,7 +549,10 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:23:40Z",
-   "winner": null
+   "winner": "82-83°F",
+   "hit": false,
+   "pair_hit": true,
+   "pnl_pair": 1.564
   },
   "austin": {
    "bucket": "90-91°F",
@@ -574,7 +583,9 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:23:40Z",
-   "winner": null
+   "winner": "90-91°F",
+   "hit": true,
+   "pnl_entry": 4.556
   },
   "los-angeles": {
    "bucket": "66-67°F",
@@ -612,7 +623,11 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:23:40Z",
-   "winner": null
+   "winner": "68-69°F",
+   "hit": false,
+   "pnl_entry": -1.0,
+   "pair_hit": false,
+   "pnl_pair": -1.0
   },
   "san-francisco": {
    "bucket": "64-65°F",
@@ -643,7 +658,8 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:23:40Z",
-   "winner": null
+   "winner": "68-69°F",
+   "hit": false
   },
   "wellington": {
    "bucket": "18°C",
@@ -699,7 +715,8 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:22:51Z",
-   "winner": "33°C"
+   "winner": "33°C",
+   "hit": false
   },
   "kuala-lumpur": {
    "bucket": "30°C",
@@ -727,7 +744,8 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:22:51Z",
-   "winner": "30°C"
+   "winner": "30°C",
+   "hit": true
   },
   "shanghai": {
    "bucket": "26°C",
@@ -783,7 +801,8 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:22:51Z",
-   "winner": "29°C"
+   "winner": "29°C",
+   "hit": false
   },
   "moscow": {
    "bucket": "14°C",
@@ -839,7 +858,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:22:51Z",
-   "winner": null
+   "winner": "6°C"
   },
   "istanbul": {
    "bucket": "24°C",
@@ -951,7 +970,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:22:51Z",
-   "winner": null
+   "winner": "18°C"
   },
   "toronto": {
    "bucket": "21°C",
@@ -979,7 +998,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:22:51Z",
-   "winner": null
+   "winner": "22°C"
   },
   "dallas": {
    "bucket": "90-91°F",
@@ -1009,7 +1028,9 @@
    "size": 0.5,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:22:51Z",
-   "winner": null
+   "winner": "88-89°F",
+   "hit": false,
+   "pnl_entry": -0.5
   },
   "denver": {
    "bucket": "80-81°F",
@@ -1039,7 +1060,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:22:51Z",
-   "winner": null
+   "winner": "82-83°F"
   },
   "mexico-city": {
    "bucket": "24°C",
@@ -1067,7 +1088,7 @@
    "size": 1.0,
    "cut": "19:20 Минск накануне",
    "ts_utc": "2026-10-11T16:22:51Z",
-   "winner": null
+   "winner": "25°C"
   }
  },
  "favorites_stable": {
@@ -1082,9 +1103,9 @@
    "entry_price": 42.0,
    "size": 1.0,
    "cut": "−27 ч до конца местных суток, журнал «стабильный лидер» (11.10)",
-   "winner": null,
-   "hit": null,
-   "pnl": null,
+   "winner": "82-83°F",
+   "hit": true,
+   "pnl": 1.381,
    "move_3h": 0.0
   },
   "austin": {
@@ -1098,9 +1119,9 @@
    "entry_price": 46.0,
    "size": 1.0,
    "cut": "−27 ч до конца местных суток, журнал «стабильный лидер» (11.10)",
-   "winner": null,
-   "hit": null,
-   "pnl": null,
+   "winner": "90-91°F",
+   "hit": false,
+   "pnl": -1.0,
    "move_3h": 0.0
   },
   "dallas": {
@@ -1114,9 +1135,9 @@
    "entry_price": 32.0,
    "size": 1.0,
    "cut": "−27 ч до конца местных суток, журнал «стабильный лидер» (11.10)",
-   "winner": null,
-   "hit": null,
-   "pnl": null,
+   "winner": "88-89°F",
+   "hit": true,
+   "pnl": 2.125,
    "move_3h": 0.0
   },
   "denver": {
@@ -1162,9 +1183,9 @@
    "entry_price": 56.0,
    "size": 1.0,
    "cut": "−27 ч до конца местных суток, журнал «стабильный лидер» (11.10)",
-   "winner": null,
-   "hit": null,
-   "pnl": null,
+   "winner": "88-89°F",
+   "hit": true,
+   "pnl": 0.786,
    "move_3h": -1.0
   },
   "london": {
@@ -1178,9 +1199,9 @@
    "entry_price": 52.0,
    "size": 1.0,
    "cut": "−27 ч до конца местных суток, журнал «стабильный лидер» (11.10)",
-   "winner": null,
-   "hit": null,
-   "pnl": null,
+   "winner": "18°C",
+   "hit": true,
+   "pnl": 0.923,
    "move_3h": 1.0
   },
   "los-angeles": {
@@ -1226,9 +1247,9 @@
    "entry_price": 57.0,
    "size": 1.0,
    "cut": "−27 ч до конца местных суток, журнал «стабильный лидер» (11.10)",
-   "winner": null,
-   "hit": null,
-   "pnl": null,
+   "winner": "88-89°F",
+   "hit": false,
+   "pnl": -1.0,
    "move_3h": 0.0
   },
   "san-francisco": {
@@ -1242,9 +1263,9 @@
    "entry_price": 60.0,
    "size": 1.0,
    "cut": "−27 ч до конца местных суток, журнал «стабильный лидер» (11.10)",
-   "winner": null,
-   "hit": null,
-   "pnl": null,
+   "winner": "68-69°F",
+   "hit": true,
+   "pnl": 0.667,
    "move_3h": 0.0
   },
   "seattle": {
@@ -1286,9 +1307,9 @@
    "ask": 22.0,
    "ts_utc": "2026-10-11T22:03:24Z",
    "hte": 29.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "82-83°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "hong-kong": {
    "strategy": "lead:50-70@18",
@@ -1334,6 +1355,11 @@
    "winner": "18°C",
    "hit": false,
    "pnl": -1.0
+  },
+  "miami": {
+   "strategy": "lead:40-60@12",
+   "skip": true,
+   "winner": "88-89°F"
   }
  },
  "down21": {
@@ -1344,9 +1370,9 @@
    "ask": 45.0,
    "ts_utc": "2026-10-12T01:03:26Z",
    "hte": 20.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "16°C",
+   "hit": true,
+   "pnl": 1.222
   },
   "atlanta": {
    "bucket": "80-81°F",
@@ -1355,9 +1381,9 @@
    "ask": 24.0,
    "ts_utc": "2026-10-12T07:03:54Z",
    "hte": 20.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "82-83°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "austin": {
    "bucket": "90-91°F",
@@ -1366,9 +1392,9 @@
    "ask": 32.0,
    "ts_utc": "2026-10-12T08:04:22Z",
    "hte": 20.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "90-91°F",
+   "hit": true,
+   "pnl": 2.125
   },
   "beijing": {
    "skip": true,
@@ -1381,9 +1407,9 @@
    "ask": 36.0,
    "ts_utc": "2026-10-12T06:03:54Z",
    "hte": 20.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "16°C",
+   "hit": true,
+   "pnl": 1.778
   },
   "cape-town": {
    "skip": true,
@@ -1396,9 +1422,9 @@
    "ask": 42.0,
    "ts_utc": "2026-10-12T08:04:22Z",
    "hte": 20.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "86-87°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "chongqing": {
    "skip": true,
@@ -1411,9 +1437,9 @@
    "ask": 39.0,
    "ts_utc": "2026-10-12T08:04:23Z",
    "hte": 20.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "88-89°F",
+   "hit": true,
+   "pnl": 1.564
   },
   "helsinki": {
    "bucket": "6°C",
@@ -1422,9 +1448,9 @@
    "ask": 19.6,
    "ts_utc": "2026-10-12T00:03:29Z",
    "hte": 20.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "6°C",
+   "hit": true,
+   "pnl": 4.102
   },
   "istanbul": {
    "bucket": "22°C",
@@ -1433,9 +1459,9 @@
    "ask": 28.0,
    "ts_utc": "2026-10-12T00:03:29Z",
    "hte": 20.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "23°C",
+   "hit": false,
+   "pnl": -1.0
   },
   "kuala-lumpur": {
    "skip": true,
@@ -1448,9 +1474,9 @@
    "ask": 22.0,
    "ts_utc": "2026-10-12T02:03:56Z",
    "hte": 20.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "18°C",
+   "hit": false,
+   "pnl": -1.0
   },
   "los-angeles": {
    "bucket": "64-65°F",
@@ -1459,9 +1485,9 @@
    "ask": 14.0,
    "ts_utc": "2026-10-12T10:04:22Z",
    "hte": 20.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "68-69°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "madrid": {
    "skip": true,
@@ -1474,9 +1500,9 @@
    "ask": 27.0,
    "ts_utc": "2026-10-12T09:04:31Z",
    "hte": 20.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "25°C",
+   "hit": false,
+   "pnl": -1.0
   },
   "miami": {
    "bucket": "88-89°F",
@@ -1485,9 +1511,9 @@
    "ask": 21.0,
    "ts_utc": "2026-10-12T07:03:54Z",
    "hte": 20.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "88-89°F",
+   "hit": true,
+   "pnl": 3.762
   },
   "moscow": {
    "bucket": "16°C",
@@ -1496,9 +1522,9 @@
    "ask": 31.0,
    "ts_utc": "2026-10-12T00:03:29Z",
    "hte": 20.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "15°C",
+   "hit": false,
+   "pnl": -1.0
   },
   "nyc": {
    "bucket": "70-71°F",
@@ -1507,9 +1533,9 @@
    "ask": 29.0,
    "ts_utc": "2026-10-12T07:03:54Z",
    "hte": 20.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "70-71°F",
+   "hit": true,
+   "pnl": 2.448
   },
   "san-francisco": {
    "bucket": "66-67°F",
@@ -1518,13 +1544,41 @@
    "ask": 32.0,
    "ts_utc": "2026-10-12T10:04:22Z",
    "hte": 20.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "68-69°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "singapore": {
    "skip": true,
    "winner": "33°C"
+  },
+  "denver": {
+   "skip": true,
+   "winner": "82-83°F"
+  },
+  "houston": {
+   "skip": true,
+   "winner": "88-89°F"
+  },
+  "milan": {
+   "skip": true,
+   "winner": "20°C"
+  },
+  "sao-paulo": {
+   "skip": true,
+   "winner": "25°C"
+  },
+  "seattle": {
+   "skip": true,
+   "winner": "60-61°F"
+  },
+  "tel-aviv": {
+   "skip": true,
+   "winner": "29°C"
+  },
+  "toronto": {
+   "skip": true,
+   "winner": "22°C"
   }
  },
  "side": {
@@ -1538,9 +1592,9 @@
    "tier": "A",
    "ts_utc": "2026-10-11T22:03:24Z",
    "hte": 29.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "82-83°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "austin": {
    "bucket": "96-97°F",
@@ -1552,9 +1606,9 @@
    "tier": "A",
    "ts_utc": "2026-10-11T23:03:23Z",
    "hte": 29.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "90-91°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "miami": {
    "bucket": "90-91°F",
@@ -1566,9 +1620,9 @@
    "tier": "A",
    "ts_utc": "2026-10-12T04:03:54Z",
    "hte": 23.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "88-89°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "houston": {
    "bucket": "88-89°F",
@@ -1580,9 +1634,9 @@
    "tier": "A",
    "ts_utc": "2026-10-12T11:04:23Z",
    "hte": 17.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "88-89°F",
+   "hit": true,
+   "pnl": 0.786
   },
   "dallas": {
    "bucket": "92-93°F",
@@ -1594,9 +1648,9 @@
    "tier": "B",
    "ts_utc": "2026-10-11T23:03:28Z",
    "hte": 29.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "88-89°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "san-francisco": {
    "bucket": "70-71°F",
@@ -1608,9 +1662,9 @@
    "tier": "B",
    "ts_utc": "2026-10-12T07:03:54Z",
    "hte": 23.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "68-69°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "denver": {
    "bucket": "78-79°F",
@@ -1622,9 +1676,9 @@
    "tier": "B",
    "ts_utc": "2026-10-12T00:03:29Z",
    "hte": 29.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "82-83°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "mexico-city": {
    "bucket": "25°C",
@@ -1636,9 +1690,9 @@
    "tier": "B",
    "ts_utc": "2026-10-12T06:03:56Z",
    "hte": 23.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "25°C",
+   "hit": true,
+   "pnl": 0.961
   },
   "chicago": {
    "bucket": "88-89°F",
@@ -1650,9 +1704,9 @@
    "tier": "B",
    "ts_utc": "2026-10-11T23:03:23Z",
    "hte": 29.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "86-87°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "nyc": {
    "bucket": "72-73°F",
@@ -1664,9 +1718,9 @@
    "tier": "B",
    "ts_utc": "2026-10-11T22:03:24Z",
    "hte": 29.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "70-71°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "buenos-aires": {
    "bucket": "17°C",
@@ -1678,9 +1732,9 @@
    "tier": "B",
    "ts_utc": "2026-10-12T03:03:54Z",
    "hte": 23.9,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "16°C",
+   "hit": false,
+   "pnl": -1.0
   }
  }
 }
