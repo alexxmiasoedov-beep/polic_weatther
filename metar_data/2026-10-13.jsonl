@@ -963,3 +963,6 @@
 {"ts_utc": "2026-10-13T14:07:15Z", "station": "ZHHH", "obs_utc": "2026-10-13T14:00:00Z", "temp_c": 18, "dewp_c": 14, "speci": false, "raw": "METAR ZHHH 131400Z 35001MPS CAVOK 18/14 Q1022 NOSIG"}
 {"ts_utc": "2026-10-13T14:07:15Z", "station": "ZSPD", "obs_utc": "2026-10-13T14:00:00Z", "temp_c": 22, "dewp_c": 19, "speci": false, "raw": "METAR ZSPD 131400Z 36007MPS 9999 SCT020 22/19 Q1021 NOSIG"}
 {"ts_utc": "2026-10-13T14:07:15Z", "station": "ZUCK", "obs_utc": "2026-10-13T14:00:00Z", "temp_c": 23, "dewp_c": 20, "speci": false, "raw": "METAR ZUCK 131400Z 00000MPS 7000 NSC 23/20 Q1021 NOSIG"}
+{"ts_utc": "2026-10-13T14:17:16Z", "station": "CYYZ", "obs_utc": "2026-10-13T14:00:00Z", "temp_c": 21, "dewp_c": 18, "speci": false, "raw": "METAR CYYZ 131400Z 22012G19KT 15SM BKN088 BKN150 21/18 A2971 RMK AC5AC1 TCU TOP DIST N SLP061 DENSITY ALT 1700FT"}
+{"ts_utc": "2026-10-13T14:17:16Z", "station": "RCSS", "obs_utc": "2026-10-13T14:00:00Z", "temp_c": 23, "dewp_c": 21, "speci": false, "raw": "METAR RCSS 131400Z 10005KT 9999 FEW025 23/21 Q1018 NOSIG RMK A3008"}
+{"ts_utc": "2026-10-13T14:17:16Z", "station": "WMKK", "obs_utc": "2026-10-13T14:00:00Z", "temp_c": 28, "dewp_c": 26, "speci": false, "raw": "METAR WMKK 131400Z VRB02KT 3000 HZ FEW030 28/26 Q1012 NOSIG"}
