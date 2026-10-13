@@ -509,3 +509,10 @@
 {"ts_utc": "2026-10-13T07:06:39Z", "station": "ZUCK", "obs_utc": "2026-10-13T07:00:00Z", "temp_c": 26, "dewp_c": 18, "speci": false, "raw": "METAR ZUCK 130700Z 20002MPS 130V280 9999 FEW033 26/18 Q1020 NOSIG"}
 {"ts_utc": "2026-10-13T07:16:39Z", "station": "CYYZ", "obs_utc": "2026-10-13T07:00:00Z", "temp_c": 17, "dewp_c": 16, "speci": false, "raw": "METAR CYYZ 130700Z 14003KT 110V170 15SM FEW080 BKN100 17/16 A2978 RMK AC2AC4 SLP084 DENSITY ALT 1200FT"}
 {"ts_utc": "2026-10-13T07:16:39Z", "station": "WMKK", "obs_utc": "2026-10-13T07:00:00Z", "temp_c": 32, "dewp_c": 26, "speci": false, "raw": "METAR WMKK 130700Z VRB04KT 3000 HZ FEW018 32/26 Q1009 NOSIG"}
+{"ts_utc": "2026-10-13T07:26:39Z", "station": "EDDM", "obs_utc": "2026-10-13T07:20:00Z", "temp_c": 3, "dewp_c": 3, "speci": false, "raw": "METAR EDDM 130720Z AUTO VRB02KT CAVOK 03/03 Q1027 NOSIG"}
+{"ts_utc": "2026-10-13T07:26:39Z", "station": "EFHK", "obs_utc": "2026-10-13T07:20:00Z", "temp_c": 5, "dewp_c": 3, "speci": false, "raw": "METAR EFHK 130720Z 36003KT 9999 FEW032 05/03 Q1022 NOSIG"}
+{"ts_utc": "2026-10-13T07:26:39Z", "station": "EGLC", "obs_utc": "2026-10-13T07:20:00Z", "temp_c": 19, "dewp_c": 16, "speci": false, "raw": "METAR EGLC 130720Z AUTO 21013KT 180V240 9999 BKN017 19/16 Q1015"}
+{"ts_utc": "2026-10-13T07:26:39Z", "station": "LIMC", "obs_utc": "2026-10-13T07:20:00Z", "temp_c": 14, "dewp_c": 11, "speci": false, "raw": "METAR LIMC 130720Z 02003KT CAVOK 14/11 Q1024 NOSIG"}
+{"ts_utc": "2026-10-13T07:26:39Z", "station": "LLBG", "obs_utc": "2026-10-13T07:20:00Z", "temp_c": 26, "dewp_c": 17, "speci": false, "raw": "METAR LLBG 130720Z 35004KT CAVOK 26/17 Q1017 NOSIG"}
+{"ts_utc": "2026-10-13T07:26:39Z", "station": "LTAC", "obs_utc": "2026-10-13T07:20:00Z", "temp_c": 17, "dewp_c": 12, "speci": false, "raw": "METAR LTAC 130720Z VRB03KT 9999 FEW040 SCT100 17/12 Q1018 NOSIG"}
+{"ts_utc": "2026-10-13T07:26:39Z", "station": "LTFM", "obs_utc": "2026-10-13T07:20:00Z", "temp_c": 17, "dewp_c": 15, "speci": false, "raw": "METAR LTFM 130720Z 34011KT 6000 -SHRA BKN008 BKN025 17/15 Q1015 NOSIG"}
