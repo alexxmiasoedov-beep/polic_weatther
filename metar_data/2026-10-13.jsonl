@@ -1658,3 +1658,5 @@
 {"ts_utc": "2026-10-13T23:48:14Z", "station": "WMKK", "obs_utc": "2026-10-13T23:30:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 132330Z VRB02KT 3000 HZ FEW030 26/24 Q1010 NOSIG"}
 {"ts_utc": "2026-10-13T23:48:14Z", "station": "LTAC", "obs_utc": "2026-10-13T23:38:00Z", "temp_c": 13, "dewp_c": 11, "speci": true, "raw": "SPECI LTAC 132338Z 27004KT 220V290 9999 BKN035 BKN080 13/11 Q1017 RESHRA NOSIG"}
 {"ts_utc": "2026-10-13T23:48:14Z", "station": "VHHH", "obs_utc": "2026-10-13T23:42:00Z", "temp_c": 28, "dewp_c": 24, "speci": true, "raw": "SPECI VHHH 132342Z 08004KT 030V160 5000 FEW015 28/24 Q1017 NOSIG"}
+{"ts_utc": "2026-10-14T00:08:15Z", "station": "MMMX", "obs_utc": "2026-10-13T23:58:00Z", "temp_c": 23, "dewp_c": 11, "speci": true, "raw": "SPECI MMMX 132358Z 01010KT 8SM TS BKN020CB BKN080 23/11 A3025 NOSIG RMK 8/960 HZY OCNL DROPS ISOL CI OCNL LTGIC OVHD PCPN N NW ISOL CI"}
+{"ts_utc": "2026-10-14T00:08:15Z", "station": "RCSS", "obs_utc": "2026-10-13T23:58:00Z", "temp_c": 24, "dewp_c": 23, "speci": true, "raw": "SPECI RCSS 132358Z 09005KT 9999 -DZ FEW018 SCT025 BKN045 24/23 Q1019 NOSIG RMK A3011"}
