@@ -1338,3 +1338,7 @@
 {"ts_utc": "2026-10-14T19:41:57Z", "station": "WMKK", "obs_utc": "2026-10-14T19:30:00Z", "temp_c": 25, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 141930Z 00000KT 3000 FEW008 FEW017CB 25/24 Q1010 RETSRA NOSIG"}
 {"ts_utc": "2026-10-14T19:41:57Z", "station": "ZBAA", "obs_utc": "2026-10-14T19:30:00Z", "temp_c": 9, "dewp_c": 8, "speci": false, "raw": "METAR ZBAA 141930Z 36001MPS CAVOK 09/08 Q1013 NOSIG"}
 {"ts_utc": "2026-10-14T19:41:57Z", "station": "ZSPD", "obs_utc": "2026-10-14T19:30:00Z", "temp_c": 17, "dewp_c": 13, "speci": false, "raw": "METAR ZSPD 141930Z 14002MPS CAVOK 17/13 Q1019 NOSIG"}
+{"ts_utc": "2026-10-14T19:51:57Z", "station": "SAEZ", "obs_utc": "2026-10-14T19:40:00Z", "temp_c": 17, "dewp_c": 15, "speci": true, "raw": "SPECI SAEZ 141940Z 13006KT 5000 -DZ FEW020 SCT030 BKN060 17/15 Q1018 TEMPO 6000 +SHRA FEW45TCU BKN050"}
+{"ts_utc": "2026-10-14T19:51:57Z", "station": "SBGR", "obs_utc": "2026-10-14T19:40:00Z", "temp_c": 21, "dewp_c": 19, "speci": true, "raw": "SPECI SBGR 141940Z 23007KT 6000 -TSRA FEW030CB OVC080 21/19 Q1015 RERA"}
+{"ts_utc": "2026-10-14T19:51:57Z", "station": "EFHK", "obs_utc": "2026-10-14T20:00:00Z", "temp_c": 10, "dewp_c": 8, "speci": false, "raw": "METAR EFHK 141950Z 16006KT 9999 FEW013 BKN015 BKN019 10/08 Q1016 BECMG BKN013"}
+{"ts_utc": "2026-10-14T19:51:57Z", "station": "LLBG", "obs_utc": "2026-10-14T20:00:00Z", "temp_c": 24, "dewp_c": 17, "speci": false, "raw": "METAR LLBG 141950Z 12006KT CAVOK 24/17 Q1011 NOSIG"}
