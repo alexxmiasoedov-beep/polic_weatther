@@ -342,3 +342,5 @@
 {"ts_utc": "2026-10-14T04:38:46Z", "station": "ZBAA", "obs_utc": "2026-10-14T04:30:00Z", "temp_c": 19, "dewp_c": 6, "speci": false, "raw": "METAR ZBAA 140430Z 18002MPS 120V250 CAVOK 19/06 Q1016 NOSIG"}
 {"ts_utc": "2026-10-14T04:38:46Z", "station": "ZSPD", "obs_utc": "2026-10-14T04:30:00Z", "temp_c": 23, "dewp_c": 10, "speci": false, "raw": "METAR ZSPD 140430Z 04006MPS 360V080 CAVOK 23/10 Q1022 NOSIG"}
 {"ts_utc": "2026-10-14T04:38:46Z", "station": "KAUS", "obs_utc": "2026-10-14T04:35:00Z", "temp_c": 27.2, "dewp_c": 24.4, "speci": true, "raw": "SPECI KAUS 140435Z 17016G24KT 10SM BKN018 27/24 A2996 RMK AO2 T02720244 $"}
+{"ts_utc": "2026-10-14T04:48:47Z", "station": "UUWW", "obs_utc": "2026-10-14T04:40:00Z", "temp_c": 9, "dewp_c": 8, "speci": true, "raw": "SPECI UUWW 140440Z 36003MPS 9999 SCT005 09/08 Q1021 R24/290050 NOSIG"}
+{"ts_utc": "2026-10-14T04:48:47Z", "station": "KORD", "obs_utc": "2026-10-14T04:45:00Z", "temp_c": 19, "dewp_c": 18, "speci": true, "raw": "SPECI KORD 140445Z 20003KT 10SM BKN050 BKN100 OVC200 19/18 A2991 RMK AO2 RAE44 TSB24E44 OCNL LTGICCG DSNT E-S CB DSNT E-S MOV E P0011 $"}
