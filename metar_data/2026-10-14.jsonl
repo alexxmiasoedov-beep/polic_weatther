@@ -127,3 +127,5 @@
 {"ts_utc": "2026-10-14T01:08:46Z", "station": "ZHHH", "obs_utc": "2026-10-14T01:00:00Z", "temp_c": 20, "dewp_c": 15, "speci": false, "raw": "METAR ZHHH 140100Z 11003MPS 060V140 7000 NSC 20/15 Q1022 NOSIG"}
 {"ts_utc": "2026-10-14T01:08:46Z", "station": "ZSPD", "obs_utc": "2026-10-14T01:00:00Z", "temp_c": 23, "dewp_c": 11, "speci": false, "raw": "METAR ZSPD 140100Z 03007MPS CAVOK 23/11 Q1024 NOSIG"}
 {"ts_utc": "2026-10-14T01:08:46Z", "station": "ZUCK", "obs_utc": "2026-10-14T01:00:00Z", "temp_c": 22, "dewp_c": 20, "speci": false, "raw": "METAR ZUCK 140100Z 02004MPS 4500 BR NSC 22/20 Q1019 NOSIG"}
+{"ts_utc": "2026-10-14T01:18:46Z", "station": "KBKF", "obs_utc": "2026-10-14T01:00:00Z", "temp_c": 14.7, "dewp_c": 5.7, "speci": false, "raw": "METAR KBKF 140058Z 07008KT 10SM SCT040 BKN070 BKN200 15/06 A3001 RMK AO2A SLP119 T01470057"}
+{"ts_utc": "2026-10-14T01:18:46Z", "station": "MMMX", "obs_utc": "2026-10-14T01:09:00Z", "temp_c": 20, "dewp_c": 12, "speci": true, "raw": "SPECI MMMX 140109Z 36008KT 8SM SCT020CB BKN080 20/12 A3028 NOSIG RMK 8/960 HZY OCNL DROPS TSE53"}
