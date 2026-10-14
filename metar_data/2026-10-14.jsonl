@@ -1274,3 +1274,5 @@
 {"ts_utc": "2026-10-14T18:41:57Z", "station": "ZBAA", "obs_utc": "2026-10-14T18:30:00Z", "temp_c": 9, "dewp_c": 8, "speci": false, "raw": "METAR ZBAA 141830Z 36002MPS CAVOK 09/08 Q1013 NOSIG"}
 {"ts_utc": "2026-10-14T18:41:57Z", "station": "ZSPD", "obs_utc": "2026-10-14T18:30:00Z", "temp_c": 17, "dewp_c": 12, "speci": false, "raw": "METAR ZSPD 141830Z 15002MPS CAVOK 17/12 Q1020 NOSIG"}
 {"ts_utc": "2026-10-14T18:41:57Z", "station": "KBKF", "obs_utc": "2026-10-14T18:31:00Z", "temp_c": 9, "dewp_c": 7, "speci": true, "raw": "SPECI KBKF 141831Z 08009KT 5SM BR BKN006 OVC013 09/07 A3006 RMK AO2A SLP145"}
+{"ts_utc": "2026-10-14T18:51:56Z", "station": "EFHK", "obs_utc": "2026-10-14T19:00:00Z", "temp_c": 10, "dewp_c": 8, "speci": false, "raw": "METAR EFHK 141850Z 15008KT 9999 FEW014 BKN015 10/08 Q1016 BECMG BKN014"}
+{"ts_utc": "2026-10-14T18:51:56Z", "station": "LLBG", "obs_utc": "2026-10-14T19:00:00Z", "temp_c": 24, "dewp_c": 17, "speci": false, "raw": "METAR LLBG 141850Z 10004KT CAVOK 24/17 Q1012 NOSIG"}
