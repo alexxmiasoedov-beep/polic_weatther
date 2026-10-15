@@ -1311,3 +1311,11 @@
 {"ts_utc": "2026-10-15T19:44:27Z", "station": "WMKK", "obs_utc": "2026-10-15T19:30:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 151930Z VRB01KT 3000 HZ FEW017CB 26/24 Q1008 NOSIG"}
 {"ts_utc": "2026-10-15T19:44:27Z", "station": "ZBAA", "obs_utc": "2026-10-15T19:30:00Z", "temp_c": 11, "dewp_c": 6, "speci": false, "raw": "METAR ZBAA 151930Z 36002MPS CAVOK 11/06 Q1019 NOSIG"}
 {"ts_utc": "2026-10-15T19:44:27Z", "station": "ZSPD", "obs_utc": "2026-10-15T19:30:00Z", "temp_c": 21, "dewp_c": 16, "speci": false, "raw": "METAR ZSPD 151930Z 13003MPS CAVOK 21/16 Q1018 NOSIG"}
+{"ts_utc": "2026-10-15T19:54:28Z", "station": "LTAC", "obs_utc": "2026-10-15T19:42:00Z", "temp_c": 12, "dewp_c": 11, "speci": true, "raw": "SPECI LTAC 151942Z VRB02KT 9999 -SHRA BKN030 BKN080 12/11 Q1015 NOSIG"}
+{"ts_utc": "2026-10-15T19:54:28Z", "station": "EDDM", "obs_utc": "2026-10-15T20:00:00Z", "temp_c": 11, "dewp_c": 11, "speci": false, "raw": "METAR EDDM 151950Z AUTO VRB01KT 4200 0650 R26R/P2000N R26L/P2000N BCFG NSC 11/11 Q1026 TEMPO 1200 BCFG"}
+{"ts_utc": "2026-10-15T19:54:28Z", "station": "EFHK", "obs_utc": "2026-10-15T20:00:00Z", "temp_c": 11, "dewp_c": 8, "speci": false, "raw": "METAR EFHK 151950Z 18011KT 9999 -RA SCT014 BKN032 11/08 Q1021 NOSIG"}
+{"ts_utc": "2026-10-15T19:54:28Z", "station": "EGLC", "obs_utc": "2026-10-15T20:00:00Z", "temp_c": 18, "dewp_c": 15, "speci": false, "raw": "METAR EGLC 151950Z AUTO 21005KT 170V240 9999 BKN035 18/15 Q1019"}
+{"ts_utc": "2026-10-15T19:54:28Z", "station": "KATL", "obs_utc": "2026-10-15T20:00:00Z", "temp_c": 30.6, "dewp_c": 17.2, "speci": false, "raw": "METAR KATL 151952Z 29004KT 10SM FEW060 31/17 A3008 RMK AO2 SLP175 T03060172 $"}
+{"ts_utc": "2026-10-15T19:54:28Z", "station": "KLGA", "obs_utc": "2026-10-15T20:00:00Z", "temp_c": 17.8, "dewp_c": 5.6, "speci": false, "raw": "METAR KLGA 151951Z 05007KT 10SM FEW049 FEW250 18/06 A3018 RMK AO2 SLP219 T01780056"}
+{"ts_utc": "2026-10-15T19:54:28Z", "station": "KORD", "obs_utc": "2026-10-15T20:00:00Z", "temp_c": 17.2, "dewp_c": 13.9, "speci": false, "raw": "METAR KORD 151951Z 15007KT 10SM OVC016 17/14 A2988 RMK AO2 SLP117 T01720139"}
+{"ts_utc": "2026-10-15T19:54:28Z", "station": "LLBG", "obs_utc": "2026-10-15T20:00:00Z", "temp_c": 22, "dewp_c": 12, "speci": false, "raw": "METAR LLBG 151950Z 13005KT CAVOK 22/12 Q1014 NOSIG"}
