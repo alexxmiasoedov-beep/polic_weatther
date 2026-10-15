@@ -955,3 +955,6 @@
 {"ts_utc": "2026-10-15T14:13:39Z", "station": "ZSPD", "obs_utc": "2026-10-15T14:00:00Z", "temp_c": 21, "dewp_c": 16, "speci": false, "raw": "METAR ZSPD 151400Z 14005MPS CAVOK 21/16 Q1019 NOSIG"}
 {"ts_utc": "2026-10-15T14:13:39Z", "station": "ZUCK", "obs_utc": "2026-10-15T14:00:00Z", "temp_c": 20, "dewp_c": 19, "speci": false, "raw": "METAR ZUCK 151400Z 01004MPS 6000 NSC 20/19 Q1013 NOSIG"}
 {"ts_utc": "2026-10-15T14:13:39Z", "station": "KSEA", "obs_utc": "2026-10-15T14:06:00Z", "temp_c": 10.6, "dewp_c": 10.6, "speci": true, "raw": "SPECI KSEA 151406Z 01008KT 1/8SM R16L/1200V1600FT FG VV001 11/11 A3039 RMK AO2 SFC VIS 1/4 T01060106"}
+{"ts_utc": "2026-10-15T14:17:58Z", "station": "KSEA", "obs_utc": "2026-10-15T14:15:00Z", "temp_c": 10.6, "dewp_c": 10.6, "speci": true, "raw": "SPECI KSEA 151415Z 36010KT 1/8SM R16L/1400V4500FT FG VV001 11/11 A3039 RMK AO2 SFC VIS 1/4 T01060106"}
+{"ts_utc": "2026-10-15T14:17:58Z", "station": "UUWW", "obs_utc": "2026-10-15T14:15:00Z", "temp_c": 9, "dewp_c": 8, "speci": true, "raw": "SPECI UUWW 151415Z 34003MPS 9999 OVC005 09/08 Q1023 R06/190055 NOSIG"}
+{"ts_utc": "2026-10-15T14:17:58Z", "station": "UUWW", "obs_utc": "2026-10-15T14:16:00Z", "temp_c": 9, "dewp_c": 8, "speci": true, "raw": "SPECI UUWW 151416Z 34003MPS 9999 OVC004 09/08 Q1023 R06/190055 NOSIG"}
