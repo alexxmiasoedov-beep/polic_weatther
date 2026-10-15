@@ -1304,3 +1304,10 @@
 {"ts_utc": "2026-10-15T19:34:28Z", "station": "LFPB", "obs_utc": "2026-10-15T19:30:00Z", "temp_c": 18, "dewp_c": 13, "speci": false, "raw": "METAR LFPB 151930Z AUTO 15003KT CAVOK 18/13 Q1022 NOSIG"}
 {"ts_utc": "2026-10-15T19:34:28Z", "station": "VHHH", "obs_utc": "2026-10-15T19:30:00Z", "temp_c": 27, "dewp_c": 20, "speci": false, "raw": "METAR VHHH 151930Z 11010KT 9999 FEW025 27/20 Q1015 NOSIG"}
 {"ts_utc": "2026-10-15T19:34:28Z", "station": "WSSS", "obs_utc": "2026-10-15T19:30:00Z", "temp_c": 27, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 151930Z 34002KT 3000 HZ FEW018 SCT030 BKN270 27/25 Q1009 NOSIG"}
+{"ts_utc": "2026-10-15T19:44:27Z", "station": "NZWN", "obs_utc": "2026-10-15T19:30:00Z", "temp_c": 8, "dewp_c": 7, "speci": false, "raw": "METAR NZWN 151930Z AUTO 17033G47KT 3000 -RA HZ FEW017/// SCT025/// BKN034/// 08/07 Q1015"}
+{"ts_utc": "2026-10-15T19:44:27Z", "station": "RJTT", "obs_utc": "2026-10-15T19:30:00Z", "temp_c": 19, "dewp_c": 14, "speci": false, "raw": "METAR RJTT 151930Z 34010KT 9999 FEW040 SCT060 BKN/// 19/14 Q1020 NOSIG"}
+{"ts_utc": "2026-10-15T19:44:27Z", "station": "RKSI", "obs_utc": "2026-10-15T19:30:00Z", "temp_c": 20, "dewp_c": 17, "speci": false, "raw": "METAR RKSI 151930Z 21006KT 140V240 9999 BKN045 20/17 Q1021 NOSIG"}
+{"ts_utc": "2026-10-15T19:44:27Z", "station": "UUWW", "obs_utc": "2026-10-15T19:30:00Z", "temp_c": 8, "dewp_c": 8, "speci": false, "raw": "METAR UUWW 151930Z 35003MPS 310V010 7000 OVC002 08/08 Q1024 R24/000062 TEMPO 1500 BR"}
+{"ts_utc": "2026-10-15T19:44:27Z", "station": "WMKK", "obs_utc": "2026-10-15T19:30:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 151930Z VRB01KT 3000 HZ FEW017CB 26/24 Q1008 NOSIG"}
+{"ts_utc": "2026-10-15T19:44:27Z", "station": "ZBAA", "obs_utc": "2026-10-15T19:30:00Z", "temp_c": 11, "dewp_c": 6, "speci": false, "raw": "METAR ZBAA 151930Z 36002MPS CAVOK 11/06 Q1019 NOSIG"}
+{"ts_utc": "2026-10-15T19:44:27Z", "station": "ZSPD", "obs_utc": "2026-10-15T19:30:00Z", "temp_c": 21, "dewp_c": 16, "speci": false, "raw": "METAR ZSPD 151930Z 13003MPS CAVOK 21/16 Q1018 NOSIG"}
