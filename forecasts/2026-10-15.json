@@ -51,6 +51,23 @@
    "winner": "33°C",
    "hit": true,
    "pnl_pick": 1.326
+  },
+  "miami": {
+   "bucket": "90-91°F",
+   "prob_pct": 97,
+   "last": 97.0,
+   "bid": 96.0,
+   "ask": 97.0,
+   "consensus": 88.6,
+   "fact": "MIA 16:53Z 90°F BKN; 5-min 89.6 c 16:15Z",
+   "kalshi": "90-91 97",
+   "cut": "20:07 Минск",
+   "bet": null,
+   "note": "станция уже 90 — рынок решён; фаворит 88-89@60 проигран",
+   "ts_utc": "2026-10-15T17:08:53Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "favorites": {
