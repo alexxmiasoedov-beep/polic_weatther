@@ -153,6 +153,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "austin": {
+   "bucket": "90-91°F",
+   "prob_pct": 70,
+   "last": 74.0,
+   "bid": 62.0,
+   "ask": 73.0,
+   "consensus": 90.4,
+   "fact": "AUS 19:53Z 91, 20:53Z 91°F (32.8°C) FEW; 5-min 33°C плато",
+   "kalshi": "91-92 94 (+0.5 → 90-91/92-93, согласуется с 91)",
+   "cut": "00:27 Минск (поздний)",
+   "bet": null,
+   "note": "лидер + станция 91 дважды; Kalshi не на другой корзине; риск 92 в 21:53Z",
+   "ts_utc": "2026-10-15T21:30:02Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "favorites": {
