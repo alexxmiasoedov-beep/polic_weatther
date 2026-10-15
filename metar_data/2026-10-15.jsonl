@@ -431,3 +431,7 @@
 {"ts_utc": "2026-10-15T06:13:02Z", "station": "ZHHH", "obs_utc": "2026-10-15T06:00:00Z", "temp_c": 18, "dewp_c": 18, "speci": false, "raw": "METAR ZHHH 150600Z 08004MPS 1600 -RA BR SCT005 OVC033 18/18 Q1014 BECMG TL0740 3000"}
 {"ts_utc": "2026-10-15T06:13:02Z", "station": "ZSPD", "obs_utc": "2026-10-15T06:00:00Z", "temp_c": 22, "dewp_c": 14, "speci": false, "raw": "METAR ZSPD 150600Z 13006MPS CAVOK 22/14 Q1018 NOSIG"}
 {"ts_utc": "2026-10-15T06:13:02Z", "station": "ZUCK", "obs_utc": "2026-10-15T06:00:00Z", "temp_c": 23, "dewp_c": 19, "speci": false, "raw": "METAR ZUCK 150600Z VRB01MPS 9999 SCT020 BKN036 23/19 Q1012 NOSIG"}
+{"ts_utc": "2026-10-15T06:23:02Z", "station": "SAEZ", "obs_utc": "2026-10-15T06:00:00Z", "temp_c": 15, "dewp_c": 14, "speci": false, "raw": "METAR SAEZ 150600Z 16004KT 8000 -DZ OVC006 15/14 Q1019 NOSIG"}
+{"ts_utc": "2026-10-15T06:23:02Z", "station": "SAEZ", "obs_utc": "2026-10-15T06:14:00Z", "temp_c": 15, "dewp_c": 14, "speci": true, "raw": "SPECI SAEZ 150614Z COR 17005KT 2500 -DZ OVC005 15/14 Q1019 NOSIG"}
+{"ts_utc": "2026-10-15T06:23:02Z", "station": "RCSS", "obs_utc": "2026-10-15T06:18:00Z", "temp_c": 28, "dewp_c": 22, "speci": true, "raw": "SPECI RCSS 150618Z 09015KT 9999 FEW025 SCT037 BKN200 28/22 Q1015 NOSIG RMK A2999"}
+{"ts_utc": "2026-10-15T06:23:02Z", "station": "EFHK", "obs_utc": "2026-10-15T06:20:00Z", "temp_c": 10, "dewp_c": 8, "speci": false, "raw": "METAR EFHK 150620Z 19006KT 9999 BKN012 BKN022 10/08 Q1021 NOSIG"}
