@@ -300,3 +300,6 @@
 {"ts_utc": "2026-10-15T04:12:28Z", "station": "ZHHH", "obs_utc": "2026-10-15T04:00:00Z", "temp_c": 19, "dewp_c": 18, "speci": false, "raw": "METAR ZHHH 150400Z 10003MPS 070V130 3200 -RA BR BKN033 19/18 Q1015 NOSIG"}
 {"ts_utc": "2026-10-15T04:12:28Z", "station": "ZSPD", "obs_utc": "2026-10-15T04:00:00Z", "temp_c": 23, "dewp_c": 14, "speci": false, "raw": "METAR ZSPD 150400Z 13006MPS 9999 FEW033 23/14 Q1019 NOSIG"}
 {"ts_utc": "2026-10-15T04:12:28Z", "station": "ZUCK", "obs_utc": "2026-10-15T04:00:00Z", "temp_c": 21, "dewp_c": 19, "speci": false, "raw": "METAR ZUCK 150400Z 11002MPS 080V140 8000 FEW011 SCT020 OVC036 21/19 Q1014 NOSIG"}
+{"ts_utc": "2026-10-15T04:22:28Z", "station": "UUWW", "obs_utc": "2026-10-15T04:14:00Z", "temp_c": 7, "dewp_c": 7, "speci": true, "raw": "SPECI UUWW 150414Z 35005MPS 4800 -RA OVC004 07/07 Q1019 R24/290050 R01/290045 NOSIG"}
+{"ts_utc": "2026-10-15T04:22:28Z", "station": "EFHK", "obs_utc": "2026-10-15T04:20:00Z", "temp_c": 10, "dewp_c": 9, "speci": false, "raw": "METAR EFHK 150420Z 14007KT 9999 FEW008 BKN011 10/09 Q1021 TEMPO BKN009"}
+{"ts_utc": "2026-10-15T04:22:28Z", "station": "LLBG", "obs_utc": "2026-10-15T04:20:00Z", "temp_c": 23, "dewp_c": 16, "speci": false, "raw": "METAR LLBG 150420Z 16005KT 9999 FEW040 23/16 Q1012 NOSIG RMK SCT082"}
