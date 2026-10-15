@@ -119,6 +119,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "san-francisco": {
+   "bucket": "82-83°F",
+   "prob_pct": 35,
+   "last": 27.0,
+   "bid": 24.0,
+   "ask": 32.0,
+   "consensus": 80.4,
+   "fact": "SFO 19:56Z 71°F CLR offshore 3kt; 5-min 22°C; yday 68→76 at 21:56Z",
+   "kalshi": "84-85 44 / 86+ 31",
+   "cut": "23:07 Минск",
+   "bet": null,
+   "note": "ОТКЛОНЕНИЕ от лидера 84-85 36¢: NBM 83 + медиана 80.4 + темп станции; холодная сторона",
+   "ts_utc": "2026-10-15T20:09:30Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "favorites": {
