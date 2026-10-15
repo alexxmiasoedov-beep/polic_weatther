@@ -1427,3 +1427,11 @@
 {"ts_utc": "2026-10-15T21:34:28Z", "station": "UUWW", "obs_utc": "2026-10-15T21:30:00Z", "temp_c": 8, "dewp_c": 7, "speci": false, "raw": "METAR UUWW 152130Z 35003MPS 9999 OVC004 08/07 Q1025 R24/000062 NOSIG"}
 {"ts_utc": "2026-10-15T21:34:28Z", "station": "VHHH", "obs_utc": "2026-10-15T21:30:00Z", "temp_c": 26, "dewp_c": 20, "speci": false, "raw": "METAR VHHH 152130Z 11009KT 9999 FEW025 26/20 Q1015 NOSIG"}
 {"ts_utc": "2026-10-15T21:34:28Z", "station": "WSSS", "obs_utc": "2026-10-15T21:30:00Z", "temp_c": 27, "dewp_c": 26, "speci": false, "raw": "METAR WSSS 152130Z VRB02KT 3000 HZ FEW018 BKN270 27/26 Q1009 NOSIG"}
+{"ts_utc": "2026-10-15T21:44:27Z", "station": "LEMD", "obs_utc": "2026-10-15T21:30:00Z", "temp_c": 19, "dewp_c": 11, "speci": false, "raw": "METAR LEMD 152130Z 10003KT CAVOK 19/11 Q1025 NOSIG"}
+{"ts_utc": "2026-10-15T21:44:27Z", "station": "NZWN", "obs_utc": "2026-10-15T21:30:00Z", "temp_c": 8, "dewp_c": 7, "speci": false, "raw": "METAR NZWN 152130Z AUTO 19033G45KT 2400 -RA HZ SCT029/// BKN036/// BKN050/// 08/07 Q1018"}
+{"ts_utc": "2026-10-15T21:44:27Z", "station": "RJTT", "obs_utc": "2026-10-15T21:30:00Z", "temp_c": 19, "dewp_c": 14, "speci": false, "raw": "METAR RJTT 152130Z 35008KT 9999 FEW045 BKN060 19/14 Q1020 NOSIG"}
+{"ts_utc": "2026-10-15T21:44:27Z", "station": "RKSI", "obs_utc": "2026-10-15T21:30:00Z", "temp_c": 18, "dewp_c": 16, "speci": false, "raw": "METAR RKSI 152130Z 12008KT 9999 BKN025 18/16 Q1022 NOSIG"}
+{"ts_utc": "2026-10-15T21:44:27Z", "station": "WMKK", "obs_utc": "2026-10-15T21:30:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 152130Z VRB03KT 3000 HZ FEW017CB 26/24 Q1009 NOSIG"}
+{"ts_utc": "2026-10-15T21:44:27Z", "station": "ZBAA", "obs_utc": "2026-10-15T21:30:00Z", "temp_c": 11, "dewp_c": 7, "speci": false, "raw": "METAR ZBAA 152130Z VRB01MPS CAVOK 11/07 Q1020 NOSIG"}
+{"ts_utc": "2026-10-15T21:44:27Z", "station": "ZSPD", "obs_utc": "2026-10-15T21:30:00Z", "temp_c": 21, "dewp_c": 17, "speci": false, "raw": "METAR ZSPD 152130Z 12004MPS CAVOK 21/17 Q1018 NOSIG"}
+{"ts_utc": "2026-10-15T21:44:27Z", "station": "UUWW", "obs_utc": "2026-10-15T21:41:00Z", "temp_c": 8, "dewp_c": 7, "speci": true, "raw": "SPECI UUWW 152141Z 36004MPS 4400 -SHRA BKN003 BKN030CB 08/07 Q1025 R24/000062 NOSIG"}
