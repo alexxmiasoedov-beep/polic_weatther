@@ -1031,3 +1031,10 @@
 {"ts_utc": "2026-10-16T15:16:40Z", "station": "RCSS", "obs_utc": "2026-10-16T15:00:00Z", "temp_c": 27, "dewp_c": 24, "speci": false, "raw": "METAR RCSS 161500Z 09011KT 9999 FEW020 SCT035 27/24 Q1015 NOSIG RMK A3000"}
 {"ts_utc": "2026-10-16T15:16:40Z", "station": "WMKK", "obs_utc": "2026-10-16T15:00:00Z", "temp_c": 27, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 161500Z 04003KT 330V120 2000 HZ FEW017CB SCT030 27/25 Q1010 NOSIG"}
 {"ts_utc": "2026-10-16T15:16:40Z", "station": "CYYZ", "obs_utc": "2026-10-16T15:09:00Z", "temp_c": 16, "dewp_c": 13, "speci": true, "raw": "SPECI CYYZ 161509Z 32017KT 15SM -SHRA OVC016 16/13 A2962 RMK SC8 VIS LWR NW CVCTV CLD EMBD SLP032 DENSITY ALT 1200FT"}
+{"ts_utc": "2026-10-16T15:26:40Z", "station": "EDDM", "obs_utc": "2026-10-16T15:20:00Z", "temp_c": 19, "dewp_c": 12, "speci": false, "raw": "METAR EDDM 161520Z AUTO 06003KT 030V090 CAVOK 19/12 Q1021 NOSIG"}
+{"ts_utc": "2026-10-16T15:26:40Z", "station": "EFHK", "obs_utc": "2026-10-16T15:20:00Z", "temp_c": 13, "dewp_c": 11, "speci": false, "raw": "METAR EFHK 161520Z 20014KT 9999 -DZ BKN009 13/11 Q1018 TEMPO 6000"}
+{"ts_utc": "2026-10-16T15:26:40Z", "station": "EGLC", "obs_utc": "2026-10-16T15:20:00Z", "temp_c": 16, "dewp_c": 5, "speci": false, "raw": "METAR EGLC 161520Z AUTO 30010KT 270V330 9999 NCD 16/05 Q1024"}
+{"ts_utc": "2026-10-16T15:26:40Z", "station": "LLBG", "obs_utc": "2026-10-16T15:20:00Z", "temp_c": 24, "dewp_c": 16, "speci": false, "raw": "METAR LLBG 161520Z 29008KT 9999 FEW035 24/16 Q1012 NOSIG"}
+{"ts_utc": "2026-10-16T15:26:40Z", "station": "LTAC", "obs_utc": "2026-10-16T15:20:00Z", "temp_c": 9, "dewp_c": 7, "speci": false, "raw": "METAR LTAC 161520Z 33004KT 290V360 9999 SCT015 BKN030 BKN080 09/07 Q1014 NOSIG"}
+{"ts_utc": "2026-10-16T15:26:40Z", "station": "LTFM", "obs_utc": "2026-10-16T15:20:00Z", "temp_c": 11, "dewp_c": 8, "speci": false, "raw": "METAR LTFM 161520Z 02011KT 350V060 9999 -SHRA BKN028 BKN090 11/08 Q1017 NOSIG"}
+{"ts_utc": "2026-10-16T15:26:40Z", "station": "UUWW", "obs_utc": "2026-10-16T15:21:00Z", "temp_c": 11, "dewp_c": 10, "speci": true, "raw": "SPECI UUWW 161521Z 01005MPS 6000 BKN005 11/10 Q1024 R06/220050 NOSIG"}
