@@ -102,3 +102,5 @@
 {"ts_utc": "2026-10-16T01:07:15Z", "station": "ZHHH", "obs_utc": "2026-10-16T01:00:00Z", "temp_c": 21, "dewp_c": 21, "speci": false, "raw": "METAR ZHHH 160100Z 08002MPS 040V100 3300 BR SCT011 OVC040 21/21 Q1016 NOSIG"}
 {"ts_utc": "2026-10-16T01:07:15Z", "station": "ZSPD", "obs_utc": "2026-10-16T01:00:00Z", "temp_c": 24, "dewp_c": 18, "speci": false, "raw": "METAR ZSPD 160100Z 13006MPS CAVOK 24/18 Q1020 NOSIG"}
 {"ts_utc": "2026-10-16T01:07:15Z", "station": "ZUCK", "obs_utc": "2026-10-16T01:00:00Z", "temp_c": 20, "dewp_c": 20, "speci": false, "raw": "METAR ZUCK 160100Z 01003MPS 5000 BR OVC036 20/20 Q1011 NOSIG"}
+{"ts_utc": "2026-10-16T01:15:26Z", "station": "CYYZ", "obs_utc": "2026-10-16T01:00:00Z", "temp_c": 11, "dewp_c": 8, "speci": false, "raw": "METAR CYYZ 160100Z 09009KT 12SM -RA SCT018 OVC058 11/08 A2997 RMK SC3SC5 -RA INTMT PRESFR SLP154"}
+{"ts_utc": "2026-10-16T01:15:26Z", "station": "WMKK", "obs_utc": "2026-10-16T01:00:00Z", "temp_c": 29, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 160100Z VRB02KT 3000 HZ FEW017CB 29/25 Q1011 NOSIG"}
