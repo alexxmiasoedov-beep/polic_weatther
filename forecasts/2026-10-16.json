@@ -119,6 +119,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "san-francisco": {
+   "bucket": "86-87°F",
+   "prob_pct": 40,
+   "last": 40.0,
+   "bid": 24.0,
+   "ask": 36.0,
+   "consensus": 84.1,
+   "fact": "SFO 19:56Z 74°F CLR NE4 (вчера 71 → макс 81); LAX 96",
+   "kalshi": "86-87 44 / 88-89 39",
+   "cut": "23:07 Минск",
+   "bet": null,
+   "note": "лидер + холодная сторона при споре с 88-89; одна модель (NWS 84) — без отклонения",
+   "ts_utc": "2026-10-16T20:09:11Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "favorites": {
