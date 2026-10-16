@@ -153,6 +153,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "austin": {
+   "bucket": "74-75°F",
+   "prob_pct": 99,
+   "last": 99.2,
+   "bid": 99.2,
+   "ask": 99.8,
+   "consensus": 68.7,
+   "fact": "AUS макс суток 75 в 06:53Z (ночь до фронта); день OVC 64-72",
+   "kalshi": "75-76 99 (+0.5→74-75)",
+   "cut": "00:27 Минск (поздний)",
+   "bet": null,
+   "note": "рынок решён с утра; фронтовый день, ночной максимум",
+   "ts_utc": "2026-10-16T21:29:20Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "favorites": {
