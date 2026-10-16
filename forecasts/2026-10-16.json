@@ -136,6 +136,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "atlanta": {
+   "bucket": "82-83°F",
+   "prob_pct": 93,
+   "last": 94.0,
+   "bid": 94.0,
+   "ask": 97.0,
+   "consensus": 83.2,
+   "fact": "ATL 17:52-19:52Z 83°F x3 (28.3°C) SCT; 5-min 28°C остывание",
+   "kalshi": "83-84 65 (+1→82-83)",
+   "cut": "23:27 Минск (поздний)",
+   "bet": null,
+   "note": "рынок перевернулся с 84-85 на 82-83; модели 83.2 попали; упущенный сетап 82-83@42 на мониторе 22:56",
+   "ts_utc": "2026-10-16T20:28:50Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "favorites": {
