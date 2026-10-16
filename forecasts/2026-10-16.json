@@ -51,6 +51,23 @@
    "winner": "33°C",
    "hit": true,
    "pnl_pick": 0.923
+  },
+  "miami": {
+   "bucket": "90-91°F",
+   "prob_pct": 98,
+   "last": 98.0,
+   "bid": 98.0,
+   "ask": 98.8,
+   "consensus": 88.8,
+   "fact": "MIA 16:53Z 90°F BKN; 5-min 32°C с 16:10Z",
+   "kalshi": "90-91 94",
+   "cut": "20:07 Минск",
+   "bet": null,
+   "note": "станция 90 — рынок решён; фаворит 88-89@54 проигран, 3-й день подряд MIA на корзину выше вечернего лидера",
+   "ts_utc": "2026-10-16T17:10:44Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "favorites": {
