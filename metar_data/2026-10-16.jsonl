@@ -356,3 +356,11 @@
 {"ts_utc": "2026-10-16T05:05:26Z", "station": "WSSS", "obs_utc": "2026-10-16T05:00:00Z", "temp_c": 33, "dewp_c": 22, "speci": false, "raw": "METAR WSSS 160500Z 04006KT 340V100 2000 HZ FEW018 BKN280 33/22 Q1010 NOSIG"}
 {"ts_utc": "2026-10-16T05:06:02Z", "station": "ZBAA", "obs_utc": "2026-10-16T05:00:00Z", "temp_c": 18, "dewp_c": 5, "speci": false, "raw": "METAR ZBAA 160500Z 00000MPS CAVOK 18/05 Q1023 NOSIG"}
 {"ts_utc": "2026-10-16T05:06:02Z", "station": "ZSPD", "obs_utc": "2026-10-16T05:00:00Z", "temp_c": 25, "dewp_c": 16, "speci": false, "raw": "METAR ZSPD 160500Z 15007MPS CAVOK 25/16 Q1018 NOSIG"}
+{"ts_utc": "2026-10-16T05:16:02Z", "station": "CYYZ", "obs_utc": "2026-10-16T05:00:00Z", "temp_c": 12, "dewp_c": 10, "speci": false, "raw": "METAR CYYZ 160500Z 12006KT 12SM -RA OVC024 12/10 A2975 RMK SC8 SLP080"}
+{"ts_utc": "2026-10-16T05:16:02Z", "station": "KBKF", "obs_utc": "2026-10-16T05:00:00Z", "temp_c": 4.4, "dewp_c": -1.6, "speci": false, "raw": "METAR KBKF 160458Z 08006KT 10SM CLR 04/M02 A3065 RMK AO2A SLP368 T00441016"}
+{"ts_utc": "2026-10-16T05:16:02Z", "station": "RCSS", "obs_utc": "2026-10-16T05:00:00Z", "temp_c": 33, "dewp_c": 25, "speci": false, "raw": "METAR RCSS 160500Z 08013KT 9999 FEW025 BKN035 33/25 Q1014 NOSIG RMK A2997"}
+{"ts_utc": "2026-10-16T05:16:02Z", "station": "RJTT", "obs_utc": "2026-10-16T05:00:00Z", "temp_c": 23, "dewp_c": 17, "speci": false, "raw": "METAR RJTT 160500Z 09006KT 9999 FEW030 BKN/// 23/17 Q1018 NOSIG"}
+{"ts_utc": "2026-10-16T05:16:02Z", "station": "WMKK", "obs_utc": "2026-10-16T05:00:00Z", "temp_c": 33, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 160500Z VRB02KT 4000 HZ SCT018 33/25 Q1009 NOSIG"}
+{"ts_utc": "2026-10-16T05:16:02Z", "station": "ZHHH", "obs_utc": "2026-10-16T05:00:00Z", "temp_c": 23, "dewp_c": 21, "speci": false, "raw": "METAR ZHHH 160500Z 09004MPS 050V110 4500 -RA BR SCT015 BKN030 23/21 Q1013 NOSIG"}
+{"ts_utc": "2026-10-16T05:16:02Z", "station": "ZUCK", "obs_utc": "2026-10-16T05:00:00Z", "temp_c": 22, "dewp_c": 19, "speci": false, "raw": "METAR ZUCK 160500Z VRB01MPS 9999 SCT014 OVC040 22/19 Q1009 NOSIG"}
+{"ts_utc": "2026-10-16T05:16:02Z", "station": "UUWW", "obs_utc": "2026-10-16T05:11:00Z", "temp_c": 9, "dewp_c": 8, "speci": true, "raw": "SPECI UUWW 160511Z 03003MPS 0500 0350SE R06/0550D FG VV001 09/08 Q1025 R06/290050 NOSIG RMK QBB050"}
