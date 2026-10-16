@@ -448,3 +448,10 @@
 {"ts_utc": "2026-10-16T06:36:02Z", "station": "UUWW", "obs_utc": "2026-10-16T06:30:00Z", "temp_c": 9, "dewp_c": 9, "speci": false, "raw": "METAR UUWW 160630Z 02004MPS 0250 0200SE R06/0400N FG VV001 09/09 Q1025 R06/290050 NOSIG RMK QBB050"}
 {"ts_utc": "2026-10-16T06:36:02Z", "station": "VHHH", "obs_utc": "2026-10-16T06:30:00Z", "temp_c": 31, "dewp_c": 21, "speci": false, "raw": "METAR VHHH 160630Z 12011KT 080V160 9999 FEW025 31/21 Q1013 NOSIG"}
 {"ts_utc": "2026-10-16T06:36:02Z", "station": "WSSS", "obs_utc": "2026-10-16T06:30:00Z", "temp_c": 32, "dewp_c": 24, "speci": false, "raw": "METAR WSSS 160630Z 07007KT 360V110 2000 HZ FEW018 FEW020TCU BKN280 32/24 Q1008 NOSIG"}
+{"ts_utc": "2026-10-16T06:46:01Z", "station": "RCSS", "obs_utc": "2026-10-16T06:30:00Z", "temp_c": 31, "dewp_c": 25, "speci": false, "raw": "METAR RCSS 160630Z 08011KT 9999 FEW020 SCT035 BKN200 31/25 Q1014 NOSIG RMK A2995"}
+{"ts_utc": "2026-10-16T06:46:01Z", "station": "RJTT", "obs_utc": "2026-10-16T06:30:00Z", "temp_c": 23, "dewp_c": 17, "speci": false, "raw": "METAR RJTT 160630Z 16005KT 9999 FEW030 BKN/// 23/17 Q1019 NOSIG"}
+{"ts_utc": "2026-10-16T06:46:01Z", "station": "WMKK", "obs_utc": "2026-10-16T06:30:00Z", "temp_c": 33, "dewp_c": 27, "speci": false, "raw": "METAR WMKK 160630Z COR VRB03KT 4000 HZ FEW017CB SCT018 33/27 Q1007 NOSIG"}
+{"ts_utc": "2026-10-16T06:46:01Z", "station": "ZBAA", "obs_utc": "2026-10-16T06:30:00Z", "temp_c": 19, "dewp_c": 2, "speci": false, "raw": "METAR ZBAA 160630Z 01003MPS 340V040 CAVOK 19/02 Q1022 NOSIG"}
+{"ts_utc": "2026-10-16T06:46:01Z", "station": "ZSPD", "obs_utc": "2026-10-16T06:30:00Z", "temp_c": 25, "dewp_c": 17, "speci": false, "raw": "METAR ZSPD 160630Z 13007MPS CAVOK 25/17 Q1017 NOSIG"}
+{"ts_utc": "2026-10-16T06:46:01Z", "station": "CYYZ", "obs_utc": "2026-10-16T06:35:00Z", "temp_c": 12, "dewp_c": 11, "speci": true, "raw": "SPECI CYYZ 160635Z 13005KT 6SM -RA BR SCT006 OVC018 12/11 A2967 RMK SF3SC5 SLP052"}
+{"ts_utc": "2026-10-16T06:46:01Z", "station": "SBGR", "obs_utc": "2026-10-16T06:35:00Z", "temp_c": 19, "dewp_c": 19, "speci": true, "raw": "SPECI SBGR 160635Z 25006KT 4000 +TSRA BKN011 FEW030CB OVC100 19/19 Q1014 RETSRA"}
