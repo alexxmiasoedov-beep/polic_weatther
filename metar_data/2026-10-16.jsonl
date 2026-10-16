@@ -1119,3 +1119,6 @@
 {"ts_utc": "2026-10-16T16:36:41Z", "station": "WSSS", "obs_utc": "2026-10-16T16:30:00Z", "temp_c": 29, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 161630Z 09003KT 020V130 3500 HZ FEW018 BKN300 29/25 Q1010 NOSIG"}
 {"ts_utc": "2026-10-16T16:36:41Z", "station": "ZBAA", "obs_utc": "2026-10-16T16:30:00Z", "temp_c": 14, "dewp_c": 8, "speci": false, "raw": "METAR ZBAA 161630Z 36002MPS 9999 -RA BKN033 14/08 Q1023 NOSIG"}
 {"ts_utc": "2026-10-16T16:36:41Z", "station": "ZSPD", "obs_utc": "2026-10-16T16:30:00Z", "temp_c": 21, "dewp_c": 20, "speci": false, "raw": "METAR ZSPD 161630Z 12003MPS CAVOK 21/20 Q1019 NOSIG"}
+{"ts_utc": "2026-10-16T16:46:41Z", "station": "RJTT", "obs_utc": "2026-10-16T16:30:00Z", "temp_c": 21, "dewp_c": 12, "speci": false, "raw": "METAR RJTT 161630Z 33010KT CAVOK 21/12 Q1022 NOSIG"}
+{"ts_utc": "2026-10-16T16:46:41Z", "station": "WMKK", "obs_utc": "2026-10-16T16:30:00Z", "temp_c": 27, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 161630Z 02003KT 340V070 2000 HZ FEW017CB 27/24 Q1010 NOSIG"}
+{"ts_utc": "2026-10-16T16:46:41Z", "station": "UUWW", "obs_utc": "2026-10-16T16:45:00Z", "temp_c": 11, "dewp_c": 11, "speci": true, "raw": "SPECI UUWW 161645Z 02004MPS 4800 BR BKN003 11/11 Q1024 R06/220050 NOSIG"}
