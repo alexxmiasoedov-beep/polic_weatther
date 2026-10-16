@@ -354,3 +354,5 @@
 {"ts_utc": "2026-10-16T05:05:26Z", "station": "UUWW", "obs_utc": "2026-10-16T05:00:00Z", "temp_c": 8, "dewp_c": 8, "speci": false, "raw": "METAR UUWW 160500Z 04003MPS 0600 0450W R06/0650D FG VV002 08/08 Q1025 R06/290050 NOSIG RMK QBB060"}
 {"ts_utc": "2026-10-16T05:05:26Z", "station": "VHHH", "obs_utc": "2026-10-16T05:00:00Z", "temp_c": 31, "dewp_c": 21, "speci": false, "raw": "METAR VHHH 160500Z 10009KT 070V130 9999 FEW025 31/21 Q1014 NOSIG"}
 {"ts_utc": "2026-10-16T05:05:26Z", "station": "WSSS", "obs_utc": "2026-10-16T05:00:00Z", "temp_c": 33, "dewp_c": 22, "speci": false, "raw": "METAR WSSS 160500Z 04006KT 340V100 2000 HZ FEW018 BKN280 33/22 Q1010 NOSIG"}
+{"ts_utc": "2026-10-16T05:06:02Z", "station": "ZBAA", "obs_utc": "2026-10-16T05:00:00Z", "temp_c": 18, "dewp_c": 5, "speci": false, "raw": "METAR ZBAA 160500Z 00000MPS CAVOK 18/05 Q1023 NOSIG"}
+{"ts_utc": "2026-10-16T05:06:02Z", "station": "ZSPD", "obs_utc": "2026-10-16T05:00:00Z", "temp_c": 25, "dewp_c": 16, "speci": false, "raw": "METAR ZSPD 160500Z 15007MPS CAVOK 25/16 Q1018 NOSIG"}
