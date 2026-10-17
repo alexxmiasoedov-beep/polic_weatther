@@ -51,6 +51,23 @@
    "winner": "33°C",
    "hit": false,
    "pnl_pick": -1.0
+  },
+  "miami": {
+   "bucket": "88-89°F",
+   "prob_pct": 90,
+   "last": 92.0,
+   "bid": 93.0,
+   "ask": 96.0,
+   "consensus": 87.6,
+   "fact": "MIA 15:53Z 88°F; 16:53Z 83 BKN TS; 5-min 32°C 16:10-16:35Z",
+   "kalshi": "90-91 96 — конфликт площадок",
+   "cut": "20:07 Минск",
+   "bet": null,
+   "note": "лидер PM по часовым METAR; Kalshi видит 90 по минутным; гроза закончила прогрев",
+   "ts_utc": "2026-10-17T17:09:53Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "favorites": {
