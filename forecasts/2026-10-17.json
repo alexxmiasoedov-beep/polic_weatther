@@ -153,6 +153,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "austin": {
+   "bucket": "70-71°F",
+   "prob_pct": 45,
+   "last": 22.0,
+   "bid": 27.0,
+   "ask": 40.0,
+   "consensus": 69.4,
+   "fact": "AUS 20:53Z 69°F (20.6°C) FEW N8, +1/h, ещё греется; 5-min 21°C",
+   "kalshi": "70-71 74 / 68-69 38",
+   "cut": "00:27 Минск (поздний)",
+   "bet": null,
+   "note": "ОТКЛОНЕНИЕ от лидера 68-69 77¢ по правилу Остина «METAR ещё греется» + Kalshi 74 + NBM 70.8",
+   "ts_utc": "2026-10-17T21:29:10Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "favorites": {
