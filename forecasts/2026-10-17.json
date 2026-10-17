@@ -119,6 +119,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "san-francisco": {
+   "bucket": "82-83°F",
+   "prob_pct": 40,
+   "last": 40.0,
+   "bid": 22.0,
+   "ask": 32.0,
+   "consensus": 83.2,
+   "fact": "SFO 19:56Z 72°F CLR NE5 (вчера 74 → макс 84)",
+   "kalshi": "80-81 29 / 82-83 24 / 84-85 31 / 86+ 25",
+   "cut": "23:07 Минск",
+   "bet": null,
+   "note": "лидер + модели 83.2 + аналог вчерашнего дня −2",
+   "ts_utc": "2026-10-17T20:09:42Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "favorites": {
