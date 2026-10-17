@@ -98,7 +98,7 @@ def snapshot_series(d):
                 if b:
                     out.setdefault(r["city"], []).append((r["ts_utc"], b))
     for v in out.values():
-        v.sort()
+        v.sort(key=lambda t: t[0])
     return out
 
 
@@ -389,7 +389,7 @@ def rank(write_file=True):
     for (d, slug), v in series.items():
         if d >= today:
             continue
-        v.sort()
+        v.sort(key=lambda t: t[0])
         wb = [x["bucket"] for x in v[-1][1] if (x.get("last") or 0) >= 97 or (x.get("bid") or 0) >= 97]
         if len(wb) != 1:
             continue

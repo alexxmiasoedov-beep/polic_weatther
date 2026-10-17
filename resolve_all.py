@@ -17,7 +17,7 @@ def snaps(d):
                 if b: out.setdefault(r['city'],[]).append((r['ts_utc'],b))
     return out
 def winner(series):
-    ts,b=sorted(series)[-1]
+    ts,b=sorted(series,key=lambda t:t[0])[-1]
     w=[x['bucket'] for x in b if (x.get('last') or 0)>=97 or (x.get('bid') or 0)>=97]
     return w[0] if len(w)==1 else None
 def cut_utc(d,cut):
@@ -25,7 +25,7 @@ def cut_utc(d,cut):
         h,m=map(int,cut.split()[0].split(':')); return (dt.datetime.fromisoformat(d)+dt.timedelta(hours=h-3,minutes=m)).strftime('%Y-%m-%dT%H:%M:%SZ')
     except: return None
 def fill(series,bucket,after,limit):
-    for ts,b in sorted(series):
+    for ts,b in sorted(series,key=lambda t:t[0]):
         if after and ts<=after: continue
         for x in b:
             if x['bucket']==bucket and ((x.get('ask') or 999)<=limit or (x.get('last') or 999)<=limit): return True
