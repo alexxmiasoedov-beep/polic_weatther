@@ -136,6 +136,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "atlanta": {
+   "bucket": "66-67°F",
+   "prob_pct": 95,
+   "last": 98.0,
+   "bid": 94.2,
+   "ask": 98.7,
+   "consensus": 65.3,
+   "fact": "ATL 19:52Z 67°F (19.4°C) FEW; 5-min 19°C плато",
+   "kalshi": "67-68 95 (+1→66-67)",
+   "cut": "23:27 Минск (поздний)",
+   "bet": null,
+   "note": "лидер + факт + Kalshi; модели 65.3 попали",
+   "ts_utc": "2026-10-17T20:29:54Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "favorites": {
