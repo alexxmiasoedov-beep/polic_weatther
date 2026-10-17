@@ -729,3 +729,6 @@
 {"ts_utc": "2026-10-17T10:08:39Z", "station": "ZHHH", "obs_utc": "2026-10-17T10:00:00Z", "temp_c": 29, "dewp_c": 22, "speci": false, "raw": "METAR ZHHH 171000Z VRB01MPS CAVOK 29/22 Q1009 NOSIG"}
 {"ts_utc": "2026-10-17T10:08:39Z", "station": "ZSPD", "obs_utc": "2026-10-17T10:00:00Z", "temp_c": 24, "dewp_c": 20, "speci": false, "raw": "METAR ZSPD 171000Z 15006MPS CAVOK 24/20 Q1017 NOSIG"}
 {"ts_utc": "2026-10-17T10:08:39Z", "station": "ZUCK", "obs_utc": "2026-10-17T10:00:00Z", "temp_c": 23, "dewp_c": 20, "speci": false, "raw": "METAR ZUCK 171000Z 30003MPS 280V340 CAVOK 23/20 Q1012 NOSIG"}
+{"ts_utc": "2026-10-17T10:18:39Z", "station": "RCSS", "obs_utc": "2026-10-17T10:00:00Z", "temp_c": 29, "dewp_c": 24, "speci": false, "raw": "METAR RCSS 171000Z 09009KT 9999 FEW025 BKN220 29/24 Q1015 NOSIG RMK A2999"}
+{"ts_utc": "2026-10-17T10:18:39Z", "station": "KSEA", "obs_utc": "2026-10-17T10:10:00Z", "temp_c": 15, "dewp_c": 10.6, "speci": true, "raw": "SPECI KSEA 171010Z 20010KT 7SM -RA BKN024 BKN035 OVC070 15/11 A3006 RMK AO2 RAB08 P0000 T01500106"}
+{"ts_utc": "2026-10-17T10:18:39Z", "station": "WSSS", "obs_utc": "2026-10-17T10:12:00Z", "temp_c": 29, "dewp_c": 23, "speci": true, "raw": "SPECI WSSS 171012Z 18011KT 2500 HZ FEW015 FEW018TCU FEW020CB BKN270 29/23 Q1009 TEMPO TL1115 -TSRA"}
