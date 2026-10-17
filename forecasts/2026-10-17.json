@@ -1433,5 +1433,25 @@
    "pnl": null,
    "move_3h": 10.0
   }
+ },
+ "monitor_bets": {
+  "austin": {
+   "bucket": "70-71°F",
+   "limit": 19.0,
+   "bet_bid": 17.0,
+   "bet_ask": 41.0,
+   "prob_pct": 45,
+   "edge_pp": 26,
+   "size": 1.0,
+   "kind": "kalshi_lag",
+   "fact": "AUS 17:53Z 64°F FEW +2/h; 5-min 19°C 18:40Z",
+   "kalshi": "70-71 68 / 68-69 29 (offset +0.5)",
+   "pm": "68-69 74 (35/75), 70-71 23 (17/41)",
+   "note": "сетап Б; оговорка о конфликте площадок",
+   "ts_utc": "2026-10-17T18:58:19Z",
+   "winner": null,
+   "hit": null,
+   "pnl": null
+  }
  }
 }
