@@ -1,6 +1,58 @@
 {
  "date": "2026-10-17",
- "picks": {},
+ "picks": {
+  "singapore": {
+   "bucket": "33°C",
+   "prob_pct": 63,
+   "last": 63.0,
+   "bid": 56.0,
+   "ask": 60.0,
+   "consensus": 32.55,
+   "fact": "WSSS 01Z 29°C HZ; yday max 33.0 → PM 33",
+   "kalshi": null,
+   "note": "лидер + калибр. 32.6; фаворит 33@61 enter",
+   "cut": "04:08 Минск (ночной)",
+   "bet": null,
+   "ts_utc": "2026-10-17T01:10:52Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  },
+  "tel-aviv": {
+   "bucket": "27°C",
+   "prob_pct": 53,
+   "last": 53.0,
+   "bid": 46.0,
+   "ask": 48.0,
+   "consensus": 25.4,
+   "fact": "LLBG 00:50Z 20°C TEMPO -RA; yday max 27.0 → PM 27",
+   "kalshi": null,
+   "note": "лидер; модели 25.4 два дня занижают; один сигнал — не отклоняюсь",
+   "cut": "04:08 Минск (ночной)",
+   "bet": null,
+   "ts_utc": "2026-10-17T01:10:52Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  },
+  "kuala-lumpur": {
+   "bucket": "32°C",
+   "prob_pct": 44,
+   "last": 44.0,
+   "bid": 43.0,
+   "ask": 44.0,
+   "consensus": 32.2,
+   "fact": "WMKK 00:30Z 27°C HZ; yday max 33.0 → PM 33",
+   "kalshi": null,
+   "note": "рынок развернулся 33→32; лидер + модели 32.2; фаворит 33@55 под угрозой",
+   "cut": "04:08 Минск (ночной)",
+   "bet": null,
+   "ts_utc": "2026-10-17T01:10:52Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  }
+ },
  "favorites": {
   "amsterdam": {
    "bucket": "14°C",
