@@ -955,3 +955,5 @@
 {"ts_utc": "2026-10-18T14:42:44Z", "station": "ZSPD", "obs_utc": "2026-10-18T14:30:00Z", "temp_c": 22, "dewp_c": 19, "speci": false, "raw": "METAR ZSPD 181430Z 34004MPS 9999 BKN013 22/19 Q1019 NOSIG"}
 {"ts_utc": "2026-10-18T14:42:44Z", "station": "KSEA", "obs_utc": "2026-10-18T14:32:00Z", "temp_c": 6.1, "dewp_c": 6.1, "speci": true, "raw": "SPECI KSEA 181432Z 34004KT 1/2SM R16L/1200VP6000FT FG VV001 06/06 A3019 RMK AO2 T00610061 $"}
 {"ts_utc": "2026-10-18T14:42:44Z", "station": "KSEA", "obs_utc": "2026-10-18T14:40:00Z", "temp_c": 6.1, "dewp_c": 6.1, "speci": true, "raw": "SPECI KSEA 181440Z 33003KT 1/4SM R16L/1200V1400FT FG VV001 06/06 A3019 RMK AO2 T00610061 $"}
+{"ts_utc": "2026-10-18T14:52:44Z", "station": "KSEA", "obs_utc": "2026-10-18T14:44:00Z", "temp_c": 6.1, "dewp_c": 6.1, "speci": true, "raw": "SPECI KSEA 181444Z 00000KT 2SM R16L/1200V1400FT BR BKN001 BKN070 06/06 A3019 RMK AO2 T00610061 $"}
+{"ts_utc": "2026-10-18T14:52:44Z", "station": "EFHK", "obs_utc": "2026-10-18T15:00:00Z", "temp_c": 6, "dewp_c": 3, "speci": false, "raw": "METAR EFHK 181450Z 32007KT 9999 FEW024 06/03 Q1033 NOSIG"}
