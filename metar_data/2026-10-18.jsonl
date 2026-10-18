@@ -443,3 +443,6 @@
 {"ts_utc": "2026-10-18T06:42:04Z", "station": "WMKK", "obs_utc": "2026-10-18T06:30:00Z", "temp_c": 32, "dewp_c": 26, "speci": false, "raw": "METAR WMKK 180630Z VRB04KT 4000 HZ FEW018 32/26 Q1009 NOSIG"}
 {"ts_utc": "2026-10-18T06:42:04Z", "station": "ZBAA", "obs_utc": "2026-10-18T06:30:00Z", "temp_c": 19, "dewp_c": -5, "speci": false, "raw": "METAR ZBAA 180630Z 28007MPS 240V300 CAVOK 19/M05 Q1019 NOSIG"}
 {"ts_utc": "2026-10-18T06:42:04Z", "station": "ZSPD", "obs_utc": "2026-10-18T06:30:00Z", "temp_c": 32, "dewp_c": 21, "speci": false, "raw": "METAR ZSPD 180630Z 26003MPS 220V290 9999 FEW040 32/21 Q1015 NOSIG"}
+{"ts_utc": "2026-10-18T06:52:05Z", "station": "RCSS", "obs_utc": "2026-10-18T06:48:00Z", "temp_c": 33, "dewp_c": 25, "speci": true, "raw": "SPECI RCSS 180648Z 30006KT 280V340 9999 FEW020 SCT050 33/25 Q1013 NOSIG RMK A2994"}
+{"ts_utc": "2026-10-18T06:52:05Z", "station": "EFHK", "obs_utc": "2026-10-18T07:00:00Z", "temp_c": 1, "dewp_c": 1, "speci": false, "raw": "METAR EFHK 180650Z 32006KT CAVOK 01/01 Q1030 NOSIG"}
+{"ts_utc": "2026-10-18T06:52:05Z", "station": "LLBG", "obs_utc": "2026-10-18T07:00:00Z", "temp_c": 25, "dewp_c": 16, "speci": false, "raw": "METAR LLBG 180650Z 17006KT 140V210 9999 FEW035 25/16 Q1018 NOSIG RMK SCT070"}
