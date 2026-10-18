@@ -153,6 +153,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "austin": {
+   "bucket": "74-75°F",
+   "prob_pct": 95,
+   "last": 97.0,
+   "bid": 94.0,
+   "ask": 98.0,
+   "consensus": 74.2,
+   "fact": "AUS 19:53-20:53Z 74°F FEW E3-7; 5-min 23-24°C плато",
+   "kalshi": "75-76 99 (+0.5→74-75)",
+   "cut": "00:27 Минск (поздний)",
+   "bet": null,
+   "note": "рынок решён; модели 74.2 попали",
+   "ts_utc": "2026-10-18T21:29:14Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "favorites": {
