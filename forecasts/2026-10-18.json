@@ -136,6 +136,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "atlanta": {
+   "bucket": "66-67°F",
+   "prob_pct": 95,
+   "last": 99.0,
+   "bid": 97.9,
+   "ask": 99.0,
+   "consensus": 64.6,
+   "fact": "ATL 19:52Z 66°F CLR; 5-min 18-19°C плато",
+   "kalshi": "66-67 97",
+   "cut": "23:27 Минск (поздний)",
+   "bet": null,
+   "note": "рынок решён; модели занизили ~1.5 на CLR-дне после фронта",
+   "ts_utc": "2026-10-18T20:29:27Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "favorites": {
