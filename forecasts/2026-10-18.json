@@ -51,6 +51,23 @@
    "winner": "32°C",
    "hit": true,
    "pnl_pick": 1.273
+  },
+  "miami": {
+   "bucket": "82-83°F",
+   "prob_pct": 55,
+   "last": 71.0,
+   "bid": 57.0,
+   "ask": 66.0,
+   "consensus": 81.9,
+   "fact": "MIA 13:53-16:53Z плато 81°F BKN; 5-min 28°C 16:10-16:20Z, затем 27",
+   "kalshi": "82-83 91 (CLI видел 82)",
+   "cut": "20:07 Минск",
+   "bet": null,
+   "note": "лидер + Kalshi + NBM 82.0; риск: PM по часовым ещё 81, облачно",
+   "ts_utc": "2026-10-18T17:09:19Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "favorites": {
