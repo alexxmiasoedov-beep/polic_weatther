@@ -1255,3 +1255,5 @@
 {"ts_utc": "2026-10-18T19:13:23Z", "station": "WMKK", "obs_utc": "2026-10-18T19:00:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 181900Z VRB04KT 5000 TS HZ FEW017CB 26/24 Q1010 TEMPO 2000 TSRA"}
 {"ts_utc": "2026-10-18T19:13:23Z", "station": "ZHHH", "obs_utc": "2026-10-18T19:00:00Z", "temp_c": 16, "dewp_c": 16, "speci": false, "raw": "METAR ZHHH 181900Z VRB01MPS 9999 -RA OVC026 16/16 Q1018 NOSIG"}
 {"ts_utc": "2026-10-18T19:13:23Z", "station": "ZUCK", "obs_utc": "2026-10-18T19:00:00Z", "temp_c": 16, "dewp_c": 15, "speci": false, "raw": "METAR ZUCK 181900Z 27003MPS 220V290 9000 -SHRA SCT023 OVC040 16/15 Q1016 NOSIG"}
+{"ts_utc": "2026-10-18T19:23:23Z", "station": "EFHK", "obs_utc": "2026-10-18T19:20:00Z", "temp_c": 2, "dewp_c": 1, "speci": false, "raw": "METAR EFHK 181920Z 36005KT 9999 FEW021 02/01 Q1036 NOSIG"}
+{"ts_utc": "2026-10-18T19:23:23Z", "station": "LLBG", "obs_utc": "2026-10-18T19:20:00Z", "temp_c": 22, "dewp_c": 15, "speci": false, "raw": "METAR LLBG 181920Z VRB02KT 9999 FEW035 22/15 Q1019 NOSIG"}
