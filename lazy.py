@@ -65,7 +65,7 @@ def load_series():
             r = json.loads(line)
             series[(r["city"], r["market_date"])].append((r["ts_utc"], {b["bucket"]: b.get("last") for b in r["pm"]["buckets"]}))
     for k in series:
-        series[k].sort()
+        series[k].sort(key=lambda t: t[0])
     return series
 
 

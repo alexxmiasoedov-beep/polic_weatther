@@ -395,7 +395,7 @@ def rank(write_file=True):
             continue
         target = datetime.fromisoformat(d) - timedelta(days=1)
         target = target.replace(hour=16, minute=20)
-        dist, ts, b = min((abs((datetime.fromisoformat(ts.replace("Z", "")) - target).total_seconds()), ts, b) for ts, b in v)
+        dist, ts, b = min(((abs((datetime.fromisoformat(ts.replace("Z", "")) - target).total_seconds()), ts, b) for ts, b in v), key=lambda t: (t[0], t[1]))
         if dist > 7200:
             continue
         lead = max(b, key=lambda x: x.get("last") or 0)

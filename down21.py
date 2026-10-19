@@ -54,7 +54,11 @@ def evaluate(S, slug, d):
 
 def update(today):
     S = L.load(); log = []
-    dates = sorted({d for (_, d) in S if START <= d <= today})
+    # рынки до послезавтра включительно: для городов восточнее UTC снапшот за 21 ч до конца
+    # местных суток попадает на предыдущую дату UTC (до 19.10 азиатские рынки пропускались — баг)
+    from datetime import date, timedelta
+    upto = (date.fromisoformat(today) + timedelta(days=2)).isoformat()
+    dates = sorted({d for (_, d) in S if START <= d <= upto})
     for d in dates:
         f, p = load_forecast(d); J = f.setdefault(KEY, {}); changed = False
         for slug in sorted({s for (s, dd) in S if dd == d}):
