@@ -1588,9 +1588,9 @@
    "tier": "A",
    "ts_utc": "2026-10-17T21:59:59Z",
    "hte": 30.0,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "66-67°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "austin": {
    "bucket": "76-77°F",
@@ -1602,9 +1602,9 @@
    "tier": "A",
    "ts_utc": "2026-10-17T23:01:24Z",
    "hte": 30.0,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "74-75°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "miami": {
    "bucket": "82-83°F",
@@ -1616,9 +1616,9 @@
    "tier": "A",
    "ts_utc": "2026-10-18T04:02:04Z",
    "hte": 24.0,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "82-83°F",
+   "hit": true,
+   "pnl": 1.041
   },
   "houston": {
    "bucket": "74-75°F",
@@ -1630,9 +1630,9 @@
    "tier": "A",
    "ts_utc": "2026-10-18T11:02:44Z",
    "hte": 18.0,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "74-75°F",
+   "hit": true,
+   "pnl": 0.754
   },
   "dallas": {
    "bucket": "72-73°F",
@@ -1644,9 +1644,9 @@
    "tier": "B",
    "ts_utc": "2026-10-17T23:01:28Z",
    "hte": 30.0,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "70-71°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "san-francisco": {
    "bucket": "68-69°F",
@@ -1658,9 +1658,9 @@
    "tier": "B",
    "ts_utc": "2026-10-18T07:02:05Z",
    "hte": 24.0,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "64-65°F",
+   "hit": false,
+   "pnl": -1.0
   },
   "denver": {
    "bucket": "74-75°F",
@@ -1672,9 +1672,9 @@
    "tier": "B",
    "ts_utc": "2026-10-18T00:01:30Z",
    "hte": 30.0,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "74-75°F",
+   "hit": true,
+   "pnl": 1.5
   },
   "mexico-city": {
    "bucket": "21°C",
@@ -1686,9 +1686,9 @@
    "tier": "B",
    "ts_utc": "2026-10-18T06:02:05Z",
    "hte": 24.0,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "23°C or higher",
+   "hit": false,
+   "pnl": -1.0
   },
   "nyc": {
    "bucket": "58-59°F",
@@ -1700,9 +1700,9 @@
    "tier": "B",
    "ts_utc": "2026-10-17T21:59:59Z",
    "hte": 30.0,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "58-59°F",
+   "hit": true,
+   "pnl": 0.786
   },
   "buenos-aires": {
    "bucket": "16°C",
@@ -1714,9 +1714,15 @@
    "tier": "B",
    "ts_utc": "2026-10-18T03:01:23Z",
    "hte": 24.0,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "16°C",
+   "hit": true,
+   "pnl": 1.174
+  },
+  "chicago": {
+   "skip": true,
+   "winner": "62-63°F",
+   "side": "above",
+   "tier": "B"
   }
  }
 }

@@ -25,6 +25,8 @@ import strategy_lab as L
 
 ROOT = Path(__file__).parent
 START = "2026-10-11"
+STOP = "2026-10-19"   # решение владельца 19.10: новых входов нет (стратегия признана переобученной,
+                      # см. reports/2026-10-19-strategy-review.md); открытые входы дорезолвливаются
 KEY = "side"
 RULES = [  # city, H, side, tier, основание (бэктест 27.08–10.10, покупка ИМЕННО целевой корзины по ask)
     ("atlanta", 30, "below", "A", "20/44 +148% (+170/+120)"),
@@ -96,6 +98,7 @@ def update(today):
             if rec and rec.get("winner") is not None: continue
             e, w, closed = evaluate(S, slug, d)
             if rec is None:
+                if d > STOP: continue  # журнал остановлен 19.10 — новых записей нет
                 if e is None: continue
                 if e.get("skip"):
                     if closed: J[slug] = {"skip": True, "winner": w, "side": RULE[slug][1], "tier": RULE[slug][2]}; changed = True
@@ -121,7 +124,7 @@ def stats(tg=None):
             if r.get("winner") is None: open_n += 1; continue
             per[slug][0] += 1; per[slug][1] += bool(r["hit"]); per[slug][2] += r["pnl"]
             t = tier[r.get("tier", RULE.get(slug, (0, 0, "?"))[2])]; t[0] += 1; t[1] += bool(r["hit"]); t[2] += r["pnl"]
-    lines = ["🧭 <b>СТОРОНА ГОРОДА</b> — бумажный журнал с 11.10 (17 городов: 5 уровня A, 12 уровня B; вход по ask, лидер &lt;70¢)"]
+    lines = ["🧭 <b>СТОРОНА ГОРОДА</b> — бумажный журнал 11.10–19.10, ОСТАНОВЛЕН 19.10 решением владельца (переобучение; итог справочно)"]
     T = [sum(v[0] for v in tier.values()), sum(v[1] for v in tier.values()), sum(v[2] for v in tier.values())]
     lines.append(f"Итого: {T[1]}/{T[0]} ({T[1]/T[0]*100:.0f}%), P&L {T[2]:+.2f} ({T[2]/T[0]*100:+.0f}%/сд)" if T[0] else "Итого: закрытых сделок пока нет")
     for k in ("A", "B"):
