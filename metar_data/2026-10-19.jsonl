@@ -295,3 +295,7 @@
 {"ts_utc": "2026-10-19T04:14:48Z", "station": "ZHHH", "obs_utc": "2026-10-19T04:00:00Z", "temp_c": 17, "dewp_c": 17, "speci": false, "raw": "METAR ZHHH 190400Z 36002MPS 300V040 6000 -RA SCT012 OVC040 17/17 Q1018 NOSIG"}
 {"ts_utc": "2026-10-19T04:14:48Z", "station": "ZSPD", "obs_utc": "2026-10-19T04:00:00Z", "temp_c": 25, "dewp_c": 21, "speci": false, "raw": "METAR ZSPD 190400Z 04004MPS 010V100 9999 BKN013 OVC040 25/21 Q1018 BECMG TL0500 BKN015"}
 {"ts_utc": "2026-10-19T04:14:48Z", "station": "ZUCK", "obs_utc": "2026-10-19T04:00:00Z", "temp_c": 19, "dewp_c": 16, "speci": false, "raw": "METAR ZUCK 190400Z 01002MPS 340V050 8000 FEW014 SCT030 19/16 Q1017 NOSIG"}
+{"ts_utc": "2026-10-19T04:24:48Z", "station": "EDDM", "obs_utc": "2026-10-19T04:20:00Z", "temp_c": 7, "dewp_c": 7, "speci": false, "raw": "METAR EDDM 190420Z AUTO 05005KT 7000 NCD 07/07 Q1025 NOSIG"}
+{"ts_utc": "2026-10-19T04:24:48Z", "station": "EFHK", "obs_utc": "2026-10-19T04:20:00Z", "temp_c": -1, "dewp_c": -1, "speci": false, "raw": "METAR EFHK 190420Z 03002KT 9999 BKN026 M01/M01 Q1039 NOSIG"}
+{"ts_utc": "2026-10-19T04:24:48Z", "station": "EGLC", "obs_utc": "2026-10-19T04:20:00Z", "temp_c": 10, "dewp_c": 9, "speci": false, "raw": "METAR EGLC 190420Z AUTO 05003KT 020V080 9999 FEW004/// SCT029/// 10/09 Q1025"}
+{"ts_utc": "2026-10-19T04:24:48Z", "station": "LLBG", "obs_utc": "2026-10-19T04:20:00Z", "temp_c": 19, "dewp_c": 14, "speci": false, "raw": "METAR LLBG 190420Z VRB02KT 9999 FEW036 19/14 Q1019 NOSIG"}
