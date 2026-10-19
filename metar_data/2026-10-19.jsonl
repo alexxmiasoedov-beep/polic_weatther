@@ -811,3 +811,11 @@
 {"ts_utc": "2026-10-19T12:15:33Z", "station": "WMKK", "obs_utc": "2026-10-19T12:00:00Z", "temp_c": 29, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 191200Z VRB02KT 6000 FEW030 29/24 Q1008 NOSIG"}
 {"ts_utc": "2026-10-19T12:15:33Z", "station": "ZHHH", "obs_utc": "2026-10-19T12:00:00Z", "temp_c": 16, "dewp_c": 16, "speci": false, "raw": "METAR ZHHH 191200Z VRB01MPS 9999 SCT026 OVC040 16/16 Q1017 NOSIG"}
 {"ts_utc": "2026-10-19T12:15:33Z", "station": "ZUCK", "obs_utc": "2026-10-19T12:00:00Z", "temp_c": 18, "dewp_c": 16, "speci": false, "raw": "METAR ZUCK 191200Z 03004MPS 9999 SCT020 BKN050 18/16 Q1014 NOSIG"}
+{"ts_utc": "2026-10-19T12:25:34Z", "station": "RKPK", "obs_utc": "2026-10-19T12:12:00Z", "temp_c": 21, "dewp_c": 18, "speci": true, "raw": "SPECI RKPK 191212Z 03006KT 9999 -RA FEW010 BKN020 BKN025 21/18 Q1018 RMK CIG020"}
+{"ts_utc": "2026-10-19T12:25:34Z", "station": "EDDM", "obs_utc": "2026-10-19T12:20:00Z", "temp_c": 14, "dewp_c": 8, "speci": false, "raw": "METAR EDDM 191220Z AUTO 06007KT 020V120 CAVOK 14/08 Q1024 NOSIG"}
+{"ts_utc": "2026-10-19T12:25:34Z", "station": "EFHK", "obs_utc": "2026-10-19T12:20:00Z", "temp_c": 9, "dewp_c": 5, "speci": false, "raw": "METAR EFHK 191220Z 13004KT 100V160 9999 FEW019 09/05 Q1040 NOSIG"}
+{"ts_utc": "2026-10-19T12:25:34Z", "station": "EGLC", "obs_utc": "2026-10-19T12:20:00Z", "temp_c": 13, "dewp_c": 6, "speci": false, "raw": "METAR EGLC 191220Z AUTO 09012KT 9999 SCT035 13/06 Q1025"}
+{"ts_utc": "2026-10-19T12:25:34Z", "station": "LIMC", "obs_utc": "2026-10-19T12:20:00Z", "temp_c": 19, "dewp_c": 12, "speci": false, "raw": "METAR LIMC 191220Z 33006KT 290V010 9999 SCT060 19/12 Q1023 NOSIG"}
+{"ts_utc": "2026-10-19T12:25:34Z", "station": "LLBG", "obs_utc": "2026-10-19T12:20:00Z", "temp_c": 25, "dewp_c": 13, "speci": false, "raw": "METAR LLBG 191220Z 30010KT 270V340 9999 SCT045 25/13 Q1017 NOSIG"}
+{"ts_utc": "2026-10-19T12:25:34Z", "station": "LTAC", "obs_utc": "2026-10-19T12:20:00Z", "temp_c": 14, "dewp_c": 3, "speci": false, "raw": "METAR LTAC 191220Z 26008KT 210V350 9999 SCT040 14/03 Q1021 NOSIG"}
+{"ts_utc": "2026-10-19T12:25:34Z", "station": "LTFM", "obs_utc": "2026-10-19T12:20:00Z", "temp_c": 17, "dewp_c": 13, "speci": false, "raw": "METAR LTFM 191220Z 22013KT 9999 FEW018 BKN037 17/13 Q1020 NOSIG"}
