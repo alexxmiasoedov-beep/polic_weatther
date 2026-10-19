@@ -1,6 +1,58 @@
 {
  "date": "2026-10-19",
- "picks": {},
+ "picks": {
+  "singapore": {
+   "bucket": "33°C",
+   "prob_pct": 58,
+   "last": 58.0,
+   "bid": 51.0,
+   "ask": 58.0,
+   "consensus": 32.95,
+   "fact": "WSSS 01Z 30°C HZ S5; yday max 33.0 → PM 33",
+   "kalshi": null,
+   "note": "лидер + модели 33.0; фаворит 33@66 enter",
+   "cut": "04:08 Минск (ночной)",
+   "bet": null,
+   "ts_utc": "2026-10-19T01:09:05Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  },
+  "tel-aviv": {
+   "bucket": "26°C",
+   "prob_pct": 70,
+   "last": 70.0,
+   "bid": 67.0,
+   "ask": 71.0,
+   "consensus": 25.35,
+   "fact": "LLBG 00:50Z 19°C calm FEW; yday max 26.0 → PM 26",
+   "kalshi": null,
+   "note": "лидер + модели",
+   "cut": "04:08 Минск (ночной)",
+   "bet": null,
+   "ts_utc": "2026-10-19T01:09:05Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  },
+  "kuala-lumpur": {
+   "bucket": "33°C",
+   "prob_pct": 45,
+   "last": 44.0,
+   "bid": 46.0,
+   "ask": 47.0,
+   "consensus": 31.8,
+   "fact": "WMKK 00:30Z 26°C BR; yday max 32.0 → PM 32",
+   "kalshi": null,
+   "note": "лидер по last/bid; модели 31.8 за 32 — один сигнал; фаворит 33@60 под угрозой",
+   "cut": "04:08 Минск (ночной)",
+   "bet": null,
+   "ts_utc": "2026-10-19T01:09:05Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  }
+ },
  "favorites": {
   "amsterdam": {
    "bucket": "14°C",
