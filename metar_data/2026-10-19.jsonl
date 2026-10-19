@@ -1575,3 +1575,10 @@
 {"ts_utc": "2026-10-19T23:17:07Z", "station": "CYYZ", "obs_utc": "2026-10-19T23:00:00Z", "temp_c": 17, "dewp_c": 3, "speci": false, "raw": "METAR CYYZ 192300Z 29006KT 15SM FEW250 17/03 A3033 RMK CI1 CI TR SLP276"}
 {"ts_utc": "2026-10-19T23:17:07Z", "station": "RCSS", "obs_utc": "2026-10-19T23:00:00Z", "temp_c": 28, "dewp_c": 25, "speci": false, "raw": "METAR RCSS 192300Z 11003KT 9999 FEW020 28/25 Q1016 NOSIG RMK A3001"}
 {"ts_utc": "2026-10-19T23:17:07Z", "station": "WMKK", "obs_utc": "2026-10-19T23:00:00Z", "temp_c": 26, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 192300Z 00000KT 4000 HZ FEW017CB 26/25 Q1010 NOSIG"}
+{"ts_utc": "2026-10-19T23:27:06Z", "station": "EDDM", "obs_utc": "2026-10-19T23:20:00Z", "temp_c": 6, "dewp_c": 4, "speci": false, "raw": "METAR EDDM 192320Z AUTO 07005KT 040V100 CAVOK 06/04 Q1020 NOSIG"}
+{"ts_utc": "2026-10-19T23:27:06Z", "station": "EFHK", "obs_utc": "2026-10-19T23:20:00Z", "temp_c": -1, "dewp_c": -2, "speci": false, "raw": "METAR EFHK 192320Z 05004KT CAVOK M01/M02 Q1039 NOSIG"}
+{"ts_utc": "2026-10-19T23:27:06Z", "station": "EGLC", "obs_utc": "2026-10-19T23:20:00Z", "temp_c": 12, "dewp_c": 10, "speci": false, "raw": "METAR EGLC 192320Z AUTO 34003KT 9999 OVC011 12/10 Q1018"}
+{"ts_utc": "2026-10-19T23:27:06Z", "station": "LIMC", "obs_utc": "2026-10-19T23:20:00Z", "temp_c": 13, "dewp_c": 12, "speci": false, "raw": "METAR LIMC 192320Z 02002KT 9999 BKN050 13/12 Q1021 NOSIG"}
+{"ts_utc": "2026-10-19T23:27:06Z", "station": "LLBG", "obs_utc": "2026-10-19T23:20:00Z", "temp_c": 19, "dewp_c": 12, "speci": false, "raw": "METAR LLBG 192320Z VRB02KT 9999 FEW040 19/12 Q1019 NOSIG"}
+{"ts_utc": "2026-10-19T23:27:06Z", "station": "LTAC", "obs_utc": "2026-10-19T23:20:00Z", "temp_c": 2, "dewp_c": 0, "speci": false, "raw": "METAR LTAC 192320Z 31004KT 210V350 CAVOK 02/00 Q1024 NOSIG"}
+{"ts_utc": "2026-10-19T23:27:06Z", "station": "LTFM", "obs_utc": "2026-10-19T23:20:00Z", "temp_c": 15, "dewp_c": 11, "speci": false, "raw": "METAR LTFM 192320Z 19008KT CAVOK 15/11 Q1022 NOSIG"}
