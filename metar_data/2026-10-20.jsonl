@@ -125,3 +125,10 @@
 {"ts_utc": "2026-10-20T01:06:44Z", "station": "ZUCK", "obs_utc": "2026-10-20T01:00:00Z", "temp_c": 18, "dewp_c": 17, "speci": false, "raw": "METAR ZUCK 200100Z 27003MPS 6000 SCT014 SCT023 OVC050 18/17 Q1020 NOSIG"}
 {"ts_utc": "2026-10-20T01:17:07Z", "station": "CYYZ", "obs_utc": "2026-10-20T01:00:00Z", "temp_c": 15, "dewp_c": 6, "speci": false, "raw": "METAR CYYZ 200100Z 34008KT 15SM SKC 15/06 A3034 RMK SLP280"}
 {"ts_utc": "2026-10-20T01:17:07Z", "station": "WMKK", "obs_utc": "2026-10-20T01:00:00Z", "temp_c": 28, "dewp_c": 26, "speci": false, "raw": "METAR WMKK 200100Z 00000KT 4000 HZ FEW017CB 28/26 Q1012 NOSIG"}
+{"ts_utc": "2026-10-20T01:27:06Z", "station": "EDDM", "obs_utc": "2026-10-20T01:20:00Z", "temp_c": 6, "dewp_c": 4, "speci": false, "raw": "METAR EDDM 200120Z AUTO 08007KT 040V100 9999 BKN019 06/04 Q1018 BECMG BKN014"}
+{"ts_utc": "2026-10-20T01:27:06Z", "station": "EFHK", "obs_utc": "2026-10-20T01:20:00Z", "temp_c": -2, "dewp_c": -3, "speci": false, "raw": "METAR EFHK 200120Z 03002KT CAVOK M02/M03 Q1038 NOSIG"}
+{"ts_utc": "2026-10-20T01:27:06Z", "station": "EGLC", "obs_utc": "2026-10-20T01:20:00Z", "temp_c": 12, "dewp_c": 11, "speci": false, "raw": "METAR EGLC 200120Z AUTO 03003KT 7000 -RA BKN015 OVC022 12/11 Q1016"}
+{"ts_utc": "2026-10-20T01:27:06Z", "station": "LIMC", "obs_utc": "2026-10-20T01:20:00Z", "temp_c": 14, "dewp_c": 12, "speci": false, "raw": "METAR LIMC 200120Z 36004KT 9999 BKN050 14/12 Q1019 NOSIG"}
+{"ts_utc": "2026-10-20T01:27:06Z", "station": "LLBG", "obs_utc": "2026-10-20T01:20:00Z", "temp_c": 19, "dewp_c": 12, "speci": false, "raw": "METAR LLBG 200120Z VRB02KT 9999 SCT038 19/12 Q1019 NOSIG"}
+{"ts_utc": "2026-10-20T01:27:06Z", "station": "LTAC", "obs_utc": "2026-10-20T01:20:00Z", "temp_c": 2, "dewp_c": 1, "speci": false, "raw": "METAR LTAC 200120Z VRB02KT CAVOK 02/01 Q1024 NOSIG"}
+{"ts_utc": "2026-10-20T01:27:06Z", "station": "LTFM", "obs_utc": "2026-10-20T01:20:00Z", "temp_c": 14, "dewp_c": 12, "speci": false, "raw": "METAR LTFM 200120Z 18007KT CAVOK 14/12 Q1022 NOSIG"}
