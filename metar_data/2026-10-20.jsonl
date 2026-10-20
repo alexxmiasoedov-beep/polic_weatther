@@ -791,3 +791,4 @@
 {"ts_utc": "2026-10-20T11:38:41Z", "station": "WSSS", "obs_utc": "2026-10-20T11:30:00Z", "temp_c": 29, "dewp_c": 24, "speci": false, "raw": "METAR WSSS 201130Z 10005KT 050V160 6000 FEW016 SCT050 29/24 Q1010 NOSIG"}
 {"ts_utc": "2026-10-20T11:38:41Z", "station": "ZBAA", "obs_utc": "2026-10-20T11:30:00Z", "temp_c": 10, "dewp_c": -1, "speci": false, "raw": "METAR ZBAA 201130Z 29005MPS 270V330 CAVOK 10/M01 Q1026 NOSIG"}
 {"ts_utc": "2026-10-20T11:38:41Z", "station": "ZSPD", "obs_utc": "2026-10-20T11:30:00Z", "temp_c": 24, "dewp_c": 21, "speci": false, "raw": "METAR ZSPD 201130Z 33007MPS 7000 BKN015 24/21 Q1017 BECMG TL1230 BKN013"}
+{"ts_utc": "2026-10-20T11:48:42Z", "station": "KORD", "obs_utc": "2026-10-20T11:39:00Z", "temp_c": 7.8, "dewp_c": 7.8, "speci": true, "raw": "SPECI KORD 201139Z 00000KT 1/4SM R10L/1200V1600FT FG VV001 08/08 A3039 RMK AO2 T00780078 $"}
