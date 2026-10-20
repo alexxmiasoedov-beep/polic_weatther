@@ -858,3 +858,5 @@
 {"ts_utc": "2026-10-20T12:38:42Z", "station": "ZSPD", "obs_utc": "2026-10-20T12:30:00Z", "temp_c": 23, "dewp_c": 20, "speci": false, "raw": "METAR ZSPD 201230Z 34007MPS 9999 -RA BKN014 23/20 Q1017 NOSIG"}
 {"ts_utc": "2026-10-20T12:38:42Z", "station": "KLAX", "obs_utc": "2026-10-20T12:33:00Z", "temp_c": 19.4, "dewp_c": 17.8, "speci": true, "raw": "SPECI KLAX 201233Z 10005KT 9SM BKN012 19/18 A2986 RMK AO2 T01940178"}
 {"ts_utc": "2026-10-20T12:38:42Z", "station": "KORD", "obs_utc": "2026-10-20T12:36:00Z", "temp_c": 7.2, "dewp_c": 7.2, "speci": true, "raw": "SPECI KORD 201236Z 00000KT 1 1/4SM R10L/1000V4500FT BR SCT001 SCT006 07/07 A3039 RMK AO2 VIS W-N 3/4 E-S 4 T00720072"}
+{"ts_utc": "2026-10-20T12:48:41Z", "station": "RCSS", "obs_utc": "2026-10-20T12:30:00Z", "temp_c": 28, "dewp_c": 25, "speci": false, "raw": "METAR RCSS 201230Z 09007KT 9999 FEW020 28/25 Q1015 NOSIG RMK A2998"}
+{"ts_utc": "2026-10-20T12:48:41Z", "station": "KSFO", "obs_utc": "2026-10-20T12:37:00Z", "temp_c": 12.8, "dewp_c": 9.4, "speci": true, "raw": "SPECI KSFO 201237Z 00000KT 10SM FEW014 BKN028 13/09 A2989 RMK AO2 T01280094 $"}
