@@ -39,3 +39,10 @@
 {"ts_utc": "2026-10-20T00:07:07Z", "station": "ZUCK", "obs_utc": "2026-10-20T00:00:00Z", "temp_c": 18, "dewp_c": 18, "speci": false, "raw": "METAR ZUCK 200000Z 26002MPS 5000 BR SCT010 SCT020 OVC043 18/18 Q1019 NOSIG"}
 {"ts_utc": "2026-10-20T00:17:07Z", "station": "CYYZ", "obs_utc": "2026-10-20T00:00:00Z", "temp_c": 16, "dewp_c": 5, "speci": false, "raw": "METAR CYYZ 200000Z 35010KT 15SM FEW250 16/05 A3034 RMK CI1 CI TR SLP280"}
 {"ts_utc": "2026-10-20T00:17:07Z", "station": "WMKK", "obs_utc": "2026-10-20T00:00:00Z", "temp_c": 27, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 200000Z VRB01KT 4000 HZ FEW017CB 27/25 Q1011 NOSIG"}
+{"ts_utc": "2026-10-20T00:27:07Z", "station": "EDDM", "obs_utc": "2026-10-20T00:20:00Z", "temp_c": 6, "dewp_c": 4, "speci": false, "raw": "METAR EDDM 200020Z AUTO 06006KT 030V090 CAVOK 06/04 Q1019 NOSIG"}
+{"ts_utc": "2026-10-20T00:27:07Z", "station": "EFHK", "obs_utc": "2026-10-20T00:20:00Z", "temp_c": -2, "dewp_c": -2, "speci": false, "raw": "METAR EFHK 200020Z VRB02KT CAVOK M02/M02 Q1039 NOSIG"}
+{"ts_utc": "2026-10-20T00:27:07Z", "station": "EGLC", "obs_utc": "2026-10-20T00:20:00Z", "temp_c": 12, "dewp_c": 10, "speci": false, "raw": "METAR EGLC 200020Z AUTO VRB02KT 9999 BKN012 OVC021 12/10 Q1017"}
+{"ts_utc": "2026-10-20T00:27:07Z", "station": "LIMC", "obs_utc": "2026-10-20T00:20:00Z", "temp_c": 14, "dewp_c": 12, "speci": false, "raw": "METAR LIMC 200020Z 01004KT 9999 BKN050 14/12 Q1020 NOSIG"}
+{"ts_utc": "2026-10-20T00:27:07Z", "station": "LLBG", "obs_utc": "2026-10-20T00:20:00Z", "temp_c": 19, "dewp_c": 12, "speci": false, "raw": "METAR LLBG 200020Z VRB03KT 9999 SCT045 19/12 Q1019 NOSIG"}
+{"ts_utc": "2026-10-20T00:27:07Z", "station": "LTAC", "obs_utc": "2026-10-20T00:20:00Z", "temp_c": 2, "dewp_c": 1, "speci": false, "raw": "METAR LTAC 200020Z VRB02KT CAVOK 02/01 Q1024 NOSIG"}
+{"ts_utc": "2026-10-20T00:27:07Z", "station": "LTFM", "obs_utc": "2026-10-20T00:20:00Z", "temp_c": 14, "dewp_c": 11, "speci": false, "raw": "METAR LTFM 200020Z 17008KT CAVOK 14/11 Q1022 NOSIG"}
