@@ -1119,3 +1119,7 @@
 {"ts_utc": "2026-10-21T17:06:20Z", "station": "ZHHH", "obs_utc": "2026-10-21T17:00:00Z", "temp_c": 14, "dewp_c": 7, "speci": false, "raw": "METAR ZHHH 211700Z 06003MPS CAVOK 14/07 Q1024 NOSIG"}
 {"ts_utc": "2026-10-21T17:06:20Z", "station": "ZSPD", "obs_utc": "2026-10-21T17:00:00Z", "temp_c": 16, "dewp_c": 10, "speci": false, "raw": "METAR ZSPD 211700Z 34005MPS CAVOK 16/10 Q1025 NOSIG"}
 {"ts_utc": "2026-10-21T17:06:20Z", "station": "ZUCK", "obs_utc": "2026-10-21T17:00:00Z", "temp_c": 18, "dewp_c": 12, "speci": false, "raw": "METAR ZUCK 211700Z 07003MPS 040V100 CAVOK 18/12 Q1019 NOSIG"}
+{"ts_utc": "2026-10-21T17:14:24Z", "station": "CYYZ", "obs_utc": "2026-10-21T17:00:00Z", "temp_c": 14, "dewp_c": 7, "speci": false, "raw": "METAR CYYZ 211700Z VRB05KT 15SM FEW040 14/07 A3030 RMK CU1 CU TR SLP267"}
+{"ts_utc": "2026-10-21T17:14:24Z", "station": "KBKF", "obs_utc": "2026-10-21T17:00:00Z", "temp_c": 18.6, "dewp_c": 1.6, "speci": false, "raw": "METAR KBKF 211658Z VRB03KT 10SM FEW130 SCT220 19/02 A3032 RMK AO2A SLP216 T01860016"}
+{"ts_utc": "2026-10-21T17:14:24Z", "station": "RCSS", "obs_utc": "2026-10-21T17:00:00Z", "temp_c": 25, "dewp_c": 22, "speci": false, "raw": "METAR RCSS 211700Z 06007KT 350V140 9999 -DZ FEW010 SCT025 BKN050 25/22 Q1017 NOSIG RMK A3004"}
+{"ts_utc": "2026-10-21T17:14:24Z", "station": "WMKK", "obs_utc": "2026-10-21T17:00:00Z", "temp_c": 27, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 211700Z VRB02KT 5000 HZ FEW017CB 27/25 Q1012 NOSIG"}
