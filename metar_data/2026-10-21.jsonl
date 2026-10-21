@@ -1389,3 +1389,10 @@
 {"ts_utc": "2026-10-21T21:45:17Z", "station": "WMKK", "obs_utc": "2026-10-21T21:30:00Z", "temp_c": 26, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 212130Z 00000KT 6000 FEW030 26/25 Q1010 NOSIG"}
 {"ts_utc": "2026-10-21T21:45:17Z", "station": "ZBAA", "obs_utc": "2026-10-21T21:30:00Z", "temp_c": 0, "dewp_c": -1, "speci": false, "raw": "METAR ZBAA 212130Z VRB01MPS CAVOK 00/M01 Q1026 NOSIG"}
 {"ts_utc": "2026-10-21T21:45:17Z", "station": "ZSPD", "obs_utc": "2026-10-21T21:30:00Z", "temp_c": 17, "dewp_c": 12, "speci": false, "raw": "METAR ZSPD 212130Z 01005MPS CAVOK 17/12 Q1024 NOSIG"}
+{"ts_utc": "2026-10-21T21:55:17Z", "station": "EDDM", "obs_utc": "2026-10-21T22:00:00Z", "temp_c": 8, "dewp_c": 6, "speci": false, "raw": "METAR EDDM 212150Z AUTO 25010KT 9999 SCT048 08/06 Q1016 NOSIG"}
+{"ts_utc": "2026-10-21T21:55:17Z", "station": "EFHK", "obs_utc": "2026-10-21T22:00:00Z", "temp_c": 9, "dewp_c": 7, "speci": false, "raw": "METAR EFHK 212150Z 11005KT 090V150 CAVOK 09/07 Q1026 NOSIG"}
+{"ts_utc": "2026-10-21T21:55:17Z", "station": "EGLC", "obs_utc": "2026-10-21T22:00:00Z", "temp_c": 9, "dewp_c": 5, "speci": false, "raw": "METAR EGLC 212150Z AUTO 23009KT 9999 NCD 09/05 Q1009"}
+{"ts_utc": "2026-10-21T21:55:17Z", "station": "KATL", "obs_utc": "2026-10-21T22:00:00Z", "temp_c": 22.8, "dewp_c": 3.3, "speci": false, "raw": "METAR KATL 212152Z 34006KT 10SM FEW150 23/03 A3014 RMK AO2 SLP205 T02280033"}
+{"ts_utc": "2026-10-21T21:55:17Z", "station": "KLGA", "obs_utc": "2026-10-21T22:00:00Z", "temp_c": 16.1, "dewp_c": 4.4, "speci": false, "raw": "METAR KLGA 212151Z 01011KT 10SM FEW200 BKN250 16/04 A3011 RMK AO2 SLP195 T01610044"}
+{"ts_utc": "2026-10-21T21:55:17Z", "station": "KORD", "obs_utc": "2026-10-21T22:00:00Z", "temp_c": 21.1, "dewp_c": 5.6, "speci": false, "raw": "METAR KORD 212151Z 25004KT 10SM FEW090 21/06 A3020 RMK AO2 SLP225 T02110056"}
+{"ts_utc": "2026-10-21T21:55:17Z", "station": "LLBG", "obs_utc": "2026-10-21T22:00:00Z", "temp_c": 22, "dewp_c": 18, "speci": false, "raw": "METAR LLBG 212150Z VRB03KT 9999 FEW020 22/18 Q1018 NOSIG"}
