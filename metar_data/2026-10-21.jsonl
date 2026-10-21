@@ -1277,3 +1277,8 @@
 {"ts_utc": "2026-10-21T19:55:17Z", "station": "LLBG", "obs_utc": "2026-10-21T20:00:00Z", "temp_c": 23, "dewp_c": 17, "speci": false, "raw": "METAR LLBG 211950Z VRB02KT CAVOK 23/17 Q1018 NOSIG"}
 {"ts_utc": "2026-10-21T19:55:17Z", "station": "LTAC", "obs_utc": "2026-10-21T20:00:00Z", "temp_c": 7, "dewp_c": 4, "speci": false, "raw": "METAR LTAC 211950Z 34001KT CAVOK 07/04 Q1025 NOSIG"}
 {"ts_utc": "2026-10-21T19:55:17Z", "station": "LTFM", "obs_utc": "2026-10-21T20:00:00Z", "temp_c": 15, "dewp_c": 13, "speci": false, "raw": "METAR LTFM 211950Z 18006KT CAVOK 15/13 Q1021 NOSIG"}
+{"ts_utc": "2026-10-21T19:56:15Z", "station": "KAUS", "obs_utc": "2026-10-21T20:00:00Z", "temp_c": 28.3, "dewp_c": 7.8, "speci": false, "raw": "METAR KAUS 211953Z 04005KT 10SM CLR 28/08 A3014 RMK AO2 SLP199 T02830078 $"}
+{"ts_utc": "2026-10-21T19:56:15Z", "station": "KDAL", "obs_utc": "2026-10-21T20:00:00Z", "temp_c": 26.7, "dewp_c": 6.7, "speci": false, "raw": "METAR KDAL 211953Z VRB04KT 10SM FEW250 27/07 A3016 RMK AO2 SLP208 T02670067"}
+{"ts_utc": "2026-10-21T19:56:15Z", "station": "KHOU", "obs_utc": "2026-10-21T20:00:00Z", "temp_c": 28.3, "dewp_c": 14.4, "speci": false, "raw": "METAR KHOU 211953Z 00000KT 10SM FEW045 FEW075 28/14 A3010 RMK AO2 SLP197 T02830144 $"}
+{"ts_utc": "2026-10-21T19:56:15Z", "station": "KLAX", "obs_utc": "2026-10-21T20:00:00Z", "temp_c": 20.6, "dewp_c": 15, "speci": false, "raw": "METAR KLAX 211953Z 28009KT 10SM -RA SCT015 SCT055 OVC100 21/15 A2988 RMK AO2 RAB48 SLP116 P0000 T02060150"}
+{"ts_utc": "2026-10-21T19:56:15Z", "station": "KMIA", "obs_utc": "2026-10-21T20:00:00Z", "temp_c": 27.8, "dewp_c": 15, "speci": false, "raw": "METAR KMIA 211953Z 05009KT 10SM SCT050 SCT070 28/15 A2993 RMK AO2 SLP136 T02780150 $"}
