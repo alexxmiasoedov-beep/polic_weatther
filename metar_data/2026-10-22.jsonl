@@ -1108,3 +1108,5 @@
 {"ts_utc": "2026-10-22T17:07:04Z", "station": "ZHHH", "obs_utc": "2026-10-22T17:00:00Z", "temp_c": 16, "dewp_c": 16, "speci": false, "raw": "METAR ZHHH 221700Z VRB01MPS 6000 OVC040 16/16 Q1019 NOSIG"}
 {"ts_utc": "2026-10-22T17:07:04Z", "station": "ZSPD", "obs_utc": "2026-10-22T17:00:00Z", "temp_c": 19, "dewp_c": 13, "speci": false, "raw": "METAR ZSPD 221700Z 07005MPS 9999 SCT040 19/13 Q1020 NOSIG"}
 {"ts_utc": "2026-10-22T17:07:04Z", "station": "ZUCK", "obs_utc": "2026-10-22T17:00:00Z", "temp_c": 17, "dewp_c": 14, "speci": false, "raw": "METAR ZUCK 221700Z 01002MPS 9999 SCT046 17/14 Q1019 NOSIG"}
+{"ts_utc": "2026-10-22T17:08:21Z", "station": "CYYZ", "obs_utc": "2026-10-22T17:00:00Z", "temp_c": 17, "dewp_c": 9, "speci": false, "raw": "METAR CYYZ 221700Z 02009KT 320V050 15SM FEW030 FEW050 17/09 A3022 RMK CU1SC1 SC TR SLP237"}
+{"ts_utc": "2026-10-22T17:08:21Z", "station": "WMKK", "obs_utc": "2026-10-22T17:00:00Z", "temp_c": 28, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 221700Z 00000KT 5000 HZ FEW030 28/25 Q1010 NOSIG"}
