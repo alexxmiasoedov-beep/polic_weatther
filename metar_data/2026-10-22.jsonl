@@ -142,3 +142,20 @@
 {"ts_utc": "2026-10-22T01:56:05Z", "station": "LLBG", "obs_utc": "2026-10-22T02:00:00Z", "temp_c": 21, "dewp_c": 16, "speci": false, "raw": "METAR LLBG 220150Z VRB02KT 9999 FEW018 21/16 Q1017 NOSIG"}
 {"ts_utc": "2026-10-22T01:56:05Z", "station": "LTAC", "obs_utc": "2026-10-22T02:00:00Z", "temp_c": 3, "dewp_c": 2, "speci": false, "raw": "METAR LTAC 220150Z 04001KT CAVOK 03/02 Q1025 NOSIG"}
 {"ts_utc": "2026-10-22T01:56:05Z", "station": "LTFM", "obs_utc": "2026-10-22T02:00:00Z", "temp_c": 14, "dewp_c": 12, "speci": false, "raw": "METAR LTFM 220150Z 18008KT 8000 NSC 14/12 Q1019 NOSIG"}
+{"ts_utc": "2026-10-22T02:06:05Z", "station": "MMMX", "obs_utc": "2026-10-22T01:43:00Z", "temp_c": 17, "dewp_c": 10, "speci": false, "raw": "METAR MMMX 220143Z 04015KT 12SM FEW020 BKN080 17/10 A3035 NOSIG RMK 8/430"}
+{"ts_utc": "2026-10-22T02:06:05Z", "station": "EHAM", "obs_utc": "2026-10-22T02:00:00Z", "temp_c": 9, "dewp_c": 7, "speci": false, "raw": "METAR EHAM 220155Z 20016KT 9999 FEW020CB 09/07 Q1008 NOSIG"}
+{"ts_utc": "2026-10-22T02:06:05Z", "station": "EPWA", "obs_utc": "2026-10-22T02:00:00Z", "temp_c": 13, "dewp_c": 10, "speci": false, "raw": "METAR EPWA 220200Z 13011KT 9999 BKN015 13/10 Q1013 BECMG BKN014"}
+{"ts_utc": "2026-10-22T02:06:05Z", "station": "KBKF", "obs_utc": "2026-10-22T02:00:00Z", "temp_c": 19.1, "dewp_c": 2.4, "speci": false, "raw": "METAR KBKF 220158Z 20011KT 10SM OVC100 19/02 A3025 RMK AO2A SLP196 T01910024"}
+{"ts_utc": "2026-10-22T02:06:05Z", "station": "KSFO", "obs_utc": "2026-10-22T02:00:00Z", "temp_c": 18.3, "dewp_c": 13.3, "speci": false, "raw": "METAR KSFO 220156Z 05008KT 10SM FEW050 SCT095 18/13 A2981 RMK AO2 SLP095 T01830133 $"}
+{"ts_utc": "2026-10-22T02:06:05Z", "station": "LEMD", "obs_utc": "2026-10-22T02:00:00Z", "temp_c": 7, "dewp_c": 4, "speci": false, "raw": "METAR LEMD 220200Z 34003KT CAVOK 07/04 Q1025 NOSIG"}
+{"ts_utc": "2026-10-22T02:06:05Z", "station": "LFPB", "obs_utc": "2026-10-22T02:00:00Z", "temp_c": 9, "dewp_c": 6, "speci": false, "raw": "METAR LFPB 220200Z AUTO 21009KT CAVOK 09/06 Q1017 NOSIG"}
+{"ts_utc": "2026-10-22T02:06:05Z", "station": "NZWN", "obs_utc": "2026-10-22T02:00:00Z", "temp_c": 18, "dewp_c": 11, "speci": false, "raw": "METAR NZWN 220200Z AUTO 36019KT 9999 NCD 18/11 Q1023"}
+{"ts_utc": "2026-10-22T02:06:05Z", "station": "RJTT", "obs_utc": "2026-10-22T02:00:00Z", "temp_c": 24, "dewp_c": 10, "speci": false, "raw": "METAR RJTT 220200Z 34012KT 9999 FEW030 BKN/// 24/10 Q1017 NOSIG"}
+{"ts_utc": "2026-10-22T02:06:05Z", "station": "RKPK", "obs_utc": "2026-10-22T02:00:00Z", "temp_c": 15, "dewp_c": 1, "speci": false, "raw": "METAR RKPK 220200Z 32008KT CAVOK 15/01 Q1026"}
+{"ts_utc": "2026-10-22T02:06:05Z", "station": "RKSI", "obs_utc": "2026-10-22T02:00:00Z", "temp_c": 11, "dewp_c": -4, "speci": false, "raw": "METAR RKSI 220200Z 03006KT CAVOK 11/M04 Q1029 NOSIG"}
+{"ts_utc": "2026-10-22T02:06:05Z", "station": "RPLL", "obs_utc": "2026-10-22T02:00:00Z", "temp_c": 31, "dewp_c": 24, "speci": false, "raw": "METAR RPLL 220200Z 27006KT 240V320 9999 FEW025 31/24 Q1009 NOSIG RMK A2980"}
+{"ts_utc": "2026-10-22T02:06:05Z", "station": "SAEZ", "obs_utc": "2026-10-22T02:00:00Z", "temp_c": 17, "dewp_c": 13, "speci": false, "raw": "METAR SAEZ 220200Z 09010KT CAVOK 17/13 Q1018 NOSIG"}
+{"ts_utc": "2026-10-22T02:06:05Z", "station": "SBGR", "obs_utc": "2026-10-22T02:00:00Z", "temp_c": 18, "dewp_c": 15, "speci": false, "raw": "METAR SBGR 220200Z 16005KT 9999 BKN015 18/15 Q1024"}
+{"ts_utc": "2026-10-22T02:06:05Z", "station": "UUWW", "obs_utc": "2026-10-22T02:00:00Z", "temp_c": 5, "dewp_c": -2, "speci": false, "raw": "METAR UUWW 220200Z 09002MPS CAVOK 05/M02 Q1034 R06/000062 NOSIG"}
+{"ts_utc": "2026-10-22T02:06:05Z", "station": "VHHH", "obs_utc": "2026-10-22T02:00:00Z", "temp_c": 27, "dewp_c": 19, "speci": false, "raw": "METAR VHHH 220200Z 36011KT 9999 FEW040 27/19 Q1017 NOSIG"}
+{"ts_utc": "2026-10-22T02:06:05Z", "station": "WSSS", "obs_utc": "2026-10-22T02:00:00Z", "temp_c": 29, "dewp_c": 24, "speci": false, "raw": "METAR WSSS 220200Z 36007KT 8000 FEW018 BKN280 29/24 Q1013 NOSIG"}
