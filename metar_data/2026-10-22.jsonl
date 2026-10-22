@@ -416,3 +416,11 @@
 {"ts_utc": "2026-10-22T06:16:05Z", "station": "ZHHH", "obs_utc": "2026-10-22T06:00:00Z", "temp_c": 18, "dewp_c": 13, "speci": false, "raw": "METAR ZHHH 220600Z 04002MPS 310V080 CAVOK 18/13 Q1020 NOSIG"}
 {"ts_utc": "2026-10-22T06:16:05Z", "station": "ZSPD", "obs_utc": "2026-10-22T06:00:00Z", "temp_c": 21, "dewp_c": 12, "speci": false, "raw": "METAR ZSPD 220600Z 04007MPS CAVOK 21/12 Q1023 NOSIG"}
 {"ts_utc": "2026-10-22T06:16:05Z", "station": "ZUCK", "obs_utc": "2026-10-22T06:00:00Z", "temp_c": 19, "dewp_c": 13, "speci": false, "raw": "METAR ZUCK 220600Z 08002MPS 360V120 9999 SCT028 19/13 Q1017 NOSIG"}
+{"ts_utc": "2026-10-22T06:26:06Z", "station": "SBGR", "obs_utc": "2026-10-22T06:15:00Z", "temp_c": 17, "dewp_c": 16, "speci": true, "raw": "SPECI SBGR 220615Z 05005KT 7000 -RA BKN009 OVC100 17/16 Q1021"}
+{"ts_utc": "2026-10-22T06:26:06Z", "station": "EDDM", "obs_utc": "2026-10-22T06:20:00Z", "temp_c": 6, "dewp_c": 4, "speci": false, "raw": "METAR EDDM 220620Z AUTO 24006KT 210V270 CAVOK 06/04 Q1021 NOSIG"}
+{"ts_utc": "2026-10-22T06:26:06Z", "station": "EFHK", "obs_utc": "2026-10-22T06:20:00Z", "temp_c": 8, "dewp_c": 8, "speci": false, "raw": "METAR EFHK 220620Z 10006KT 9999 BKN009 08/08 Q1024 NOSIG"}
+{"ts_utc": "2026-10-22T06:26:06Z", "station": "EGLC", "obs_utc": "2026-10-22T06:20:00Z", "temp_c": 10, "dewp_c": 8, "speci": false, "raw": "METAR EGLC 220620Z AUTO 24012KT 9999 NCD 10/08 Q1005"}
+{"ts_utc": "2026-10-22T06:26:06Z", "station": "LIMC", "obs_utc": "2026-10-22T06:20:00Z", "temp_c": 9, "dewp_c": 1, "speci": false, "raw": "METAR LIMC 220620Z 35007KT CAVOK 09/01 Q1016 NOSIG"}
+{"ts_utc": "2026-10-22T06:26:06Z", "station": "LLBG", "obs_utc": "2026-10-22T06:20:00Z", "temp_c": 25, "dewp_c": 18, "speci": false, "raw": "METAR LLBG 220620Z VRB01KT CAVOK 25/18 Q1018 NOSIG"}
+{"ts_utc": "2026-10-22T06:26:06Z", "station": "LTAC", "obs_utc": "2026-10-22T06:20:00Z", "temp_c": 8, "dewp_c": 4, "speci": false, "raw": "METAR LTAC 220620Z VRB01KT CAVOK 08/04 Q1025 NOSIG"}
+{"ts_utc": "2026-10-22T06:26:06Z", "station": "LTFM", "obs_utc": "2026-10-22T06:20:00Z", "temp_c": 16, "dewp_c": 14, "speci": false, "raw": "METAR LTFM 220620Z 20010KT CAVOK 16/14 Q1019 NOSIG"}
