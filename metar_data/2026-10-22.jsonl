@@ -222,3 +222,10 @@
 {"ts_utc": "2026-10-22T03:06:05Z", "station": "UUWW", "obs_utc": "2026-10-22T03:00:00Z", "temp_c": 5, "dewp_c": -1, "speci": false, "raw": "METAR UUWW 220300Z 09003MPS CAVOK 05/M01 Q1033 R06/000062 NOSIG"}
 {"ts_utc": "2026-10-22T03:06:05Z", "station": "VHHH", "obs_utc": "2026-10-22T03:00:00Z", "temp_c": 28, "dewp_c": 19, "speci": false, "raw": "METAR VHHH 220300Z 34009KT 290V010 9999 FEW030 28/19 Q1016 NOSIG"}
 {"ts_utc": "2026-10-22T03:06:05Z", "station": "WSSS", "obs_utc": "2026-10-22T03:00:00Z", "temp_c": 30, "dewp_c": 24, "speci": false, "raw": "METAR WSSS 220300Z 35006KT 9000 FEW018 BKN280 30/24 Q1013 NOSIG"}
+{"ts_utc": "2026-10-22T03:16:05Z", "station": "CYYZ", "obs_utc": "2026-10-22T03:00:00Z", "temp_c": 9, "dewp_c": 5, "speci": false, "raw": "METAR CYYZ 220300Z 31005KT 15SM SKC 09/05 A3021 RMK SLP236"}
+{"ts_utc": "2026-10-22T03:16:05Z", "station": "RCSS", "obs_utc": "2026-10-22T03:00:00Z", "temp_c": 24, "dewp_c": 19, "speci": false, "raw": "METAR RCSS 220300Z 06006KT 280V080 9999 -RA FEW010 BKN028 BKN040 24/19 Q1016 NOSIG RMK QFF 1016.6HPA A3002"}
+{"ts_utc": "2026-10-22T03:16:05Z", "station": "WMKK", "obs_utc": "2026-10-22T03:00:00Z", "temp_c": 32, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 220300Z 09004KT 020V140 8000 FEW018 32/24 Q1012 NOSIG"}
+{"ts_utc": "2026-10-22T03:16:05Z", "station": "ZBAA", "obs_utc": "2026-10-22T03:00:00Z", "temp_c": 13, "dewp_c": 1, "speci": false, "raw": "METAR ZBAA 220300Z 16002MPS 090V240 CAVOK 13/01 Q1026 NOSIG"}
+{"ts_utc": "2026-10-22T03:16:05Z", "station": "ZHHH", "obs_utc": "2026-10-22T03:00:00Z", "temp_c": 17, "dewp_c": 11, "speci": false, "raw": "METAR ZHHH 220300Z 05003MPS CAVOK 17/11 Q1023 NOSIG"}
+{"ts_utc": "2026-10-22T03:16:05Z", "station": "ZSPD", "obs_utc": "2026-10-22T03:00:00Z", "temp_c": 21, "dewp_c": 12, "speci": false, "raw": "METAR ZSPD 220300Z 06007MPS 9999 SCT033 21/12 Q1025 NOSIG"}
+{"ts_utc": "2026-10-22T03:16:05Z", "station": "ZUCK", "obs_utc": "2026-10-22T03:00:00Z", "temp_c": 19, "dewp_c": 12, "speci": false, "raw": "METAR ZUCK 220300Z 08003MPS 040V110 9999 OVC040 19/12 Q1020 NOSIG"}
