@@ -1243,3 +1243,10 @@
 {"ts_utc": "2026-10-23T18:57:30Z", "station": "LIMC", "obs_utc": "2026-10-23T19:00:00Z", "temp_c": 10, "dewp_c": 8, "speci": false, "raw": "METAR LIMC 231850Z VRB01KT 9999 SCT030 10/08 Q1017 NOSIG"}
 {"ts_utc": "2026-10-23T18:57:30Z", "station": "LTAC", "obs_utc": "2026-10-23T19:00:00Z", "temp_c": 13, "dewp_c": 7, "speci": false, "raw": "METAR LTAC 231850Z VRB01KT CAVOK 13/07 Q1019 NOSIG"}
 {"ts_utc": "2026-10-23T18:57:30Z", "station": "LTFM", "obs_utc": "2026-10-23T19:00:00Z", "temp_c": 15, "dewp_c": 13, "speci": false, "raw": "METAR LTFM 231850Z 01012KT 9999 SCT014 BKN025 15/13 Q1020 RESHRA NOSIG"}
+{"ts_utc": "2026-10-23T19:02:55Z", "station": "EPWA", "obs_utc": "2026-10-23T19:00:00Z", "temp_c": 9, "dewp_c": 7, "speci": false, "raw": "METAR EPWA 231900Z 15008KT CAVOK 09/07 Q1017 NOSIG"}
+{"ts_utc": "2026-10-23T19:02:55Z", "station": "KSFO", "obs_utc": "2026-10-23T19:00:00Z", "temp_c": 17.8, "dewp_c": 13.3, "speci": false, "raw": "METAR KSFO 231856Z 01006KT 10SM FEW014 BKN038 18/13 A3008 RMK AO2 SLP185 T01780133"}
+{"ts_utc": "2026-10-23T19:02:55Z", "station": "LFPB", "obs_utc": "2026-10-23T19:00:00Z", "temp_c": 10, "dewp_c": 4, "speci": false, "raw": "METAR LFPB 231900Z AUTO 25017KT 9999 SCT039/// BKN050/// BKN076/// ///TCU 10/04 Q1012 TEMPO 4000 -SHRA BECMG 25015G30KT"}
+{"ts_utc": "2026-10-23T19:02:55Z", "station": "MMMX", "obs_utc": "2026-10-23T19:00:00Z", "temp_c": 20, "dewp_c": 7, "speci": false, "raw": "METAR MMMX 231845Z 06005KT 12SM FEW020 BKN220 20/07 A3031 NOSIG RMK 8/108 ISOL AC"}
+{"ts_utc": "2026-10-23T19:02:55Z", "station": "SBGR", "obs_utc": "2026-10-23T19:00:00Z", "temp_c": 22, "dewp_c": 17, "speci": false, "raw": "METAR SBGR 231900Z 29004KT 9999 SCT020 OVC070 22/17 Q1016"}
+{"ts_utc": "2026-10-23T19:02:55Z", "station": "VHHH", "obs_utc": "2026-10-23T19:00:00Z", "temp_c": 27, "dewp_c": 16, "speci": false, "raw": "METAR VHHH 231900Z 35014KT CAVOK 27/16 Q1006 NOSIG"}
+{"ts_utc": "2026-10-23T19:02:55Z", "station": "WSSS", "obs_utc": "2026-10-23T19:00:00Z", "temp_c": 29, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 231900Z 02003KT 330V090 5000 HZ FEW018 SCT080 29/25 Q1008 NOSIG"}
