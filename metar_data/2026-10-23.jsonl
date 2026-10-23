@@ -99,3 +99,6 @@
 {"ts_utc": "2026-10-23T01:07:04Z", "station": "ZHHH", "obs_utc": "2026-10-23T01:00:00Z", "temp_c": 16, "dewp_c": 16, "speci": false, "raw": "METAR ZHHH 230100Z VRB01MPS 5000 BR SCT009 16/16 Q1019 NOSIG"}
 {"ts_utc": "2026-10-23T01:07:04Z", "station": "ZSPD", "obs_utc": "2026-10-23T01:00:00Z", "temp_c": 22, "dewp_c": 17, "speci": false, "raw": "METAR ZSPD 230100Z 03006MPS 9999 BKN040 22/17 Q1018 NOSIG"}
 {"ts_utc": "2026-10-23T01:07:04Z", "station": "ZUCK", "obs_utc": "2026-10-23T01:00:00Z", "temp_c": 17, "dewp_c": 14, "speci": false, "raw": "METAR ZUCK 230100Z 36002MPS 9999 OVC036 17/14 Q1018 NOSIG"}
+{"ts_utc": "2026-10-23T01:10:05Z", "station": "CYYZ", "obs_utc": "2026-10-23T01:00:00Z", "temp_c": 13, "dewp_c": 9, "speci": false, "raw": "METAR CYYZ 230100Z 35011KT 15SM SKC 13/09 A3025 RMK SLP248"}
+{"ts_utc": "2026-10-23T01:10:05Z", "station": "RCSS", "obs_utc": "2026-10-23T01:00:00Z", "temp_c": 26, "dewp_c": 25, "speci": false, "raw": "METAR RCSS 230100Z 08010G20KT 040V110 7000 -SHRA FEW005 BKN012 BKN035 26/25 Q1002 WS R10 NOSIG RMK QFF 1002.0HPA A2959 RA AMT 1.4MM"}
+{"ts_utc": "2026-10-23T01:10:05Z", "station": "WMKK", "obs_utc": "2026-10-23T01:00:00Z", "temp_c": 26, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 230100Z 00000KT 6000 FEW010 26/25 Q1011 NOSIG"}
