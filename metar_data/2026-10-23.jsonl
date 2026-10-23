@@ -1402,3 +1402,11 @@
 {"ts_utc": "2026-10-23T21:32:55Z", "station": "LFPB", "obs_utc": "2026-10-23T21:30:00Z", "temp_c": 9, "dewp_c": 4, "speci": false, "raw": "METAR LFPB 232130Z AUTO 25015KT 9999 FEW045/// SCT160/// BKN180/// ///TCU 09/04 Q1015 BECMG 25015G30KT BKN040"}
 {"ts_utc": "2026-10-23T21:32:55Z", "station": "VHHH", "obs_utc": "2026-10-23T21:30:00Z", "temp_c": 26, "dewp_c": 16, "speci": false, "raw": "METAR VHHH 232130Z 35013KT CAVOK 26/16 Q1007 NOSIG"}
 {"ts_utc": "2026-10-23T21:32:55Z", "station": "WSSS", "obs_utc": "2026-10-23T21:30:00Z", "temp_c": 28, "dewp_c": 26, "speci": false, "raw": "METAR WSSS 232130Z 32002KT 4000 HZ FEW018 BKN140 28/26 Q1008 NOSIG"}
+{"ts_utc": "2026-10-23T21:42:55Z", "station": "LEMD", "obs_utc": "2026-10-23T21:30:00Z", "temp_c": 11, "dewp_c": -1, "speci": false, "raw": "METAR LEMD 232130Z VRB02KT CAVOK 11/M01 Q1028 NOSIG"}
+{"ts_utc": "2026-10-23T21:42:55Z", "station": "NZWN", "obs_utc": "2026-10-23T21:30:00Z", "temp_c": 16, "dewp_c": 12, "speci": false, "raw": "METAR NZWN 232130Z AUTO 01021G31KT 9999 BKN017/// BKN025/// 16/12 Q1024"}
+{"ts_utc": "2026-10-23T21:42:55Z", "station": "RJTT", "obs_utc": "2026-10-23T21:30:00Z", "temp_c": 17, "dewp_c": 15, "speci": false, "raw": "METAR RJTT 232130Z 36007KT 9999 -RA FEW030 BKN050 17/15 Q1026 NOSIG"}
+{"ts_utc": "2026-10-23T21:42:55Z", "station": "RKSI", "obs_utc": "2026-10-23T21:30:00Z", "temp_c": 15, "dewp_c": 12, "speci": false, "raw": "METAR RKSI 232130Z 04008KT CAVOK 15/12 Q1018 NOSIG"}
+{"ts_utc": "2026-10-23T21:42:55Z", "station": "UUWW", "obs_utc": "2026-10-23T21:30:00Z", "temp_c": 8, "dewp_c": 2, "speci": false, "raw": "METAR UUWW 232130Z 13005MPS CAVOK 08/02 Q1029 R24/000062 NOSIG"}
+{"ts_utc": "2026-10-23T21:42:55Z", "station": "WMKK", "obs_utc": "2026-10-23T21:30:00Z", "temp_c": 27, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 232130Z VRB03KT 4000 HZ FEW017CB 27/25 Q1007 NOSIG"}
+{"ts_utc": "2026-10-23T21:42:55Z", "station": "ZBAA", "obs_utc": "2026-10-23T21:30:00Z", "temp_c": 9, "dewp_c": 7, "speci": false, "raw": "METAR ZBAA 232130Z 35002MPS 6000 NSC 09/07 Q1019 NOSIG"}
+{"ts_utc": "2026-10-23T21:42:55Z", "station": "ZSPD", "obs_utc": "2026-10-23T21:30:00Z", "temp_c": 20, "dewp_c": 20, "speci": false, "raw": "METAR ZSPD 232130Z 06006MPS 030V090 7000 -SHRA BKN005 20/20 Q1012 RESHRA NOSIG"}
