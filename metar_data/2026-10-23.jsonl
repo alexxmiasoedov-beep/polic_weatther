@@ -1521,3 +1521,6 @@
 {"ts_utc": "2026-10-23T23:12:54Z", "station": "ZUCK", "obs_utc": "2026-10-23T23:00:00Z", "temp_c": 18, "dewp_c": 15, "speci": false, "raw": "METAR ZUCK 232300Z 03005MPS CAVOK 18/15 Q1013 NOSIG"}
 {"ts_utc": "2026-10-23T23:12:54Z", "station": "RCSS", "obs_utc": "2026-10-23T23:04:00Z", "temp_c": 24, "dewp_c": 24, "speci": true, "raw": "SPECI RCSS 232304Z 29018G30KT 270V330 2000 -SHRA FEW003 BKN006 BKN020 24/24 Q0995 NOSIG RMK 30018G29KT/R10 A2939"}
 {"ts_utc": "2026-10-23T23:12:54Z", "station": "RCSS", "obs_utc": "2026-10-23T23:06:00Z", "temp_c": 24, "dewp_c": 23, "speci": true, "raw": "SPECI RCSS 232306Z 29019G30KT 2500 -SHRA FEW003 BKN006 BKN020 24/23 Q0995 WS R28 NOSIG RMK 30018G29KT/R10 A2939"}
+{"ts_utc": "2026-10-23T23:22:54Z", "station": "RCSS", "obs_utc": "2026-10-23T23:18:00Z", "temp_c": 24, "dewp_c": 23, "speci": true, "raw": "SPECI RCSS 232318Z 29020G32KT 250V310 4000 -SHRA FEW003 BKN006 BKN020 24/23 Q0995 WS R28 NOSIG RMK 30016KT/R10 A2940"}
+{"ts_utc": "2026-10-23T23:22:54Z", "station": "EFHK", "obs_utc": "2026-10-23T23:20:00Z", "temp_c": 11, "dewp_c": 10, "speci": false, "raw": "METAR EFHK 232320Z 15008KT 4000 -DZRA BKN004 11/10 Q1014 TEMPO 2500"}
+{"ts_utc": "2026-10-23T23:22:54Z", "station": "LLBG", "obs_utc": "2026-10-23T23:20:00Z", "temp_c": 24, "dewp_c": 18, "speci": false, "raw": "METAR LLBG 232320Z VRB03KT CAVOK 24/18 Q1012 NOSIG"}
