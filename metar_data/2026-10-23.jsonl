@@ -230,3 +230,5 @@
 {"ts_utc": "2026-10-23T03:10:06Z", "station": "ZHHH", "obs_utc": "2026-10-23T03:00:00Z", "temp_c": 18, "dewp_c": 14, "speci": false, "raw": "METAR ZHHH 230300Z 04002MPS 340V080 6000 SCT010 18/14 Q1019 NOSIG"}
 {"ts_utc": "2026-10-23T03:10:06Z", "station": "ZSPD", "obs_utc": "2026-10-23T03:00:00Z", "temp_c": 21, "dewp_c": 19, "speci": false, "raw": "METAR ZSPD 230300Z 01006MPS 9999 -SHRA BKN030 21/19 Q1017 NOSIG"}
 {"ts_utc": "2026-10-23T03:10:06Z", "station": "ZUCK", "obs_utc": "2026-10-23T03:00:00Z", "temp_c": 18, "dewp_c": 13, "speci": false, "raw": "METAR ZUCK 230300Z 08002MPS 040V120 9000 OVC036 18/13 Q1018 NOSIG"}
+{"ts_utc": "2026-10-23T03:20:06Z", "station": "KBKF", "obs_utc": "2026-10-23T03:00:00Z", "temp_c": 18.1, "dewp_c": 6, "speci": false, "raw": "METAR KBKF 230258Z 19017G21KT 10SM FEW070 BKN110 BKN220 18/06 A3004 RMK AO2A SLP114 T01810060 55004"}
+{"ts_utc": "2026-10-23T03:20:06Z", "station": "RCSS", "obs_utc": "2026-10-23T03:11:00Z", "temp_c": 25, "dewp_c": 25, "speci": true, "raw": "SPECI RCSS 230311Z 08022G40KT 040V110 4000 -SHRA SCT005 BKN012 BKN025 25/25 Q1000 RESHRA WS R10 NOSIG RMK A2953"}
