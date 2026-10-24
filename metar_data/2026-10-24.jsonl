@@ -1211,3 +1211,5 @@
 {"ts_utc": "2026-10-24T18:36:23Z", "station": "WSSS", "obs_utc": "2026-10-24T18:30:00Z", "temp_c": 26, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 241830Z VRB01KT 2000 HZ FEW016 BKN300 26/25 Q1009 NOSIG"}
 {"ts_utc": "2026-10-24T18:36:23Z", "station": "ZBAA", "obs_utc": "2026-10-24T18:30:00Z", "temp_c": 13, "dewp_c": 12, "speci": false, "raw": "METAR ZBAA 241830Z 36004MPS 2500 -RA BR OVC040 13/12 Q1025 NOSIG"}
 {"ts_utc": "2026-10-24T18:36:23Z", "station": "ZSPD", "obs_utc": "2026-10-24T18:30:00Z", "temp_c": 21, "dewp_c": 21, "speci": false, "raw": "METAR ZSPD 241830Z 01011MPS 6000 -SHRA BKN005 21/21 Q1012 NOSIG"}
+{"ts_utc": "2026-10-24T18:46:23Z", "station": "RJTT", "obs_utc": "2026-10-24T18:30:00Z", "temp_c": 18, "dewp_c": 17, "speci": false, "raw": "METAR RJTT 241830Z 24004KT 6000 FEW006 BKN008 18/17 Q1016 NOSIG"}
+{"ts_utc": "2026-10-24T18:46:23Z", "station": "WMKK", "obs_utc": "2026-10-24T18:30:00Z", "temp_c": 25, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 241830Z VRB02KT 6000 -TSRA FEW010 FEW017CB SCT030 25/24 Q1009 NOSIG"}
