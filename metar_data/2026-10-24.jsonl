@@ -1536,3 +1536,10 @@
 {"ts_utc": "2026-10-24T22:16:24Z", "station": "RCSS", "obs_utc": "2026-10-24T22:00:00Z", "temp_c": 22, "dewp_c": 20, "speci": false, "raw": "METAR RCSS 242200Z 34002KT 9999 FEW020 BKN090 22/20 Q1012 NOSIG RMK A2989"}
 {"ts_utc": "2026-10-24T22:16:24Z", "station": "RPLL", "obs_utc": "2026-10-24T22:00:00Z", "temp_c": 27, "dewp_c": 25, "speci": false, "raw": "METAR RPLL 242200Z VRB02KT 9999 SCT023 27/25 Q1011 NOSIG RMK A2985"}
 {"ts_utc": "2026-10-24T22:16:24Z", "station": "WMKK", "obs_utc": "2026-10-24T22:00:00Z", "temp_c": 24, "dewp_c": 23, "speci": false, "raw": "METAR WMKK 242200Z 01003KT 330V060 2000 +TSRA SCT006 FEW017CB SCT030 24/23 Q1009 NOSIG"}
+{"ts_utc": "2026-10-24T22:26:24Z", "station": "EDDM", "obs_utc": "2026-10-24T22:20:00Z", "temp_c": 4, "dewp_c": 2, "speci": false, "raw": "METAR EDDM 242220Z AUTO 19004KT CAVOK 04/02 Q1017 NOSIG"}
+{"ts_utc": "2026-10-24T22:26:24Z", "station": "EFHK", "obs_utc": "2026-10-24T22:20:00Z", "temp_c": 8, "dewp_c": 7, "speci": false, "raw": "METAR EFHK 242220Z 14007KT 9999 FEW011 08/07 Q1016 NOSIG"}
+{"ts_utc": "2026-10-24T22:26:24Z", "station": "EGLC", "obs_utc": "2026-10-24T22:20:00Z", "temp_c": 14, "dewp_c": 12, "speci": false, "raw": "METAR EGLC 242220Z AUTO 25019G31KT 9999 -RA SCT014/// BKN023/// BKN032/// //////TCU 14/12 Q0989"}
+{"ts_utc": "2026-10-24T22:26:24Z", "station": "LIMC", "obs_utc": "2026-10-24T22:20:00Z", "temp_c": 10, "dewp_c": 7, "speci": false, "raw": "METAR LIMC 242220Z 08005KT CAVOK 10/07 Q1019 NOSIG"}
+{"ts_utc": "2026-10-24T22:26:24Z", "station": "LLBG", "obs_utc": "2026-10-24T22:20:00Z", "temp_c": 24, "dewp_c": 21, "speci": false, "raw": "METAR LLBG 242220Z VRB02KT 9999 SCT020 24/21 Q1013 NOSIG"}
+{"ts_utc": "2026-10-24T22:26:24Z", "station": "LTAC", "obs_utc": "2026-10-24T22:20:00Z", "temp_c": 8, "dewp_c": 6, "speci": false, "raw": "METAR LTAC 242220Z VRB01KT CAVOK 08/06 Q1018 NOSIG"}
+{"ts_utc": "2026-10-24T22:26:24Z", "station": "LTFM", "obs_utc": "2026-10-24T22:20:00Z", "temp_c": 15, "dewp_c": 12, "speci": false, "raw": "METAR LTFM 242220Z 07009KT 9999 SCT023 15/12 Q1017 NOSIG"}
