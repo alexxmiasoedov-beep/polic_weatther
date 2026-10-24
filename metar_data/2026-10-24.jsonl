@@ -811,3 +811,10 @@
 {"ts_utc": "2026-10-24T12:15:33Z", "station": "WMKK", "obs_utc": "2026-10-24T12:00:00Z", "temp_c": 28, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 241200Z VRB02KT 7000 FEW030 28/25 Q1008 NOSIG"}
 {"ts_utc": "2026-10-24T12:15:33Z", "station": "ZHHH", "obs_utc": "2026-10-24T12:00:00Z", "temp_c": 18, "dewp_c": 17, "speci": false, "raw": "METAR ZHHH 241200Z 02002MPS CAVOK 18/17 Q1015 NOSIG"}
 {"ts_utc": "2026-10-24T12:15:33Z", "station": "ZUCK", "obs_utc": "2026-10-24T12:00:00Z", "temp_c": 21, "dewp_c": 17, "speci": false, "raw": "METAR ZUCK 241200Z VRB01MPS 9999 SCT040 21/17 Q1012 NOSIG"}
+{"ts_utc": "2026-10-24T12:25:33Z", "station": "EDDM", "obs_utc": "2026-10-24T12:20:00Z", "temp_c": 10, "dewp_c": 2, "speci": false, "raw": "METAR EDDM 241220Z AUTO 26012KT 9999 -SHRA FEW035 SCT043 FEW///CB 10/02 Q1019 TEMPO 25015G25KT"}
+{"ts_utc": "2026-10-24T12:25:33Z", "station": "EFHK", "obs_utc": "2026-10-24T12:20:00Z", "temp_c": 11, "dewp_c": 9, "speci": false, "raw": "METAR EFHK 241220Z 19009KT 9999 FEW010 SCT014 11/09 Q1018 BECMG BKN012"}
+{"ts_utc": "2026-10-24T12:25:33Z", "station": "EGLC", "obs_utc": "2026-10-24T12:20:00Z", "temp_c": 11, "dewp_c": 9, "speci": false, "raw": "METAR EGLC 241220Z AUTO 20009KT 150V240 9999 -RA FEW039 SCT047 11/09 Q1006"}
+{"ts_utc": "2026-10-24T12:25:33Z", "station": "LIMC", "obs_utc": "2026-10-24T12:20:00Z", "temp_c": 18, "dewp_c": 2, "speci": false, "raw": "METAR LIMC 241220Z VRB02KT CAVOK 18/02 Q1017 NOSIG"}
+{"ts_utc": "2026-10-24T12:25:33Z", "station": "LLBG", "obs_utc": "2026-10-24T12:20:00Z", "temp_c": 29, "dewp_c": 20, "speci": false, "raw": "METAR LLBG 241220Z 33011KT CAVOK 29/20 Q1011 NOSIG"}
+{"ts_utc": "2026-10-24T12:25:33Z", "station": "LTAC", "obs_utc": "2026-10-24T12:20:00Z", "temp_c": 20, "dewp_c": 7, "speci": false, "raw": "METAR LTAC 241220Z 04005KT 010V070 9999 FEW040 SCT100 20/07 Q1017 NOSIG"}
+{"ts_utc": "2026-10-24T12:25:33Z", "station": "LTFM", "obs_utc": "2026-10-24T12:20:00Z", "temp_c": 16, "dewp_c": 11, "speci": false, "raw": "METAR LTFM 241220Z 04009KT 350V070 9999 SCT023 16/11 Q1019 NOSIG"}
