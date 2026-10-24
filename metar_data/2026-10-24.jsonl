@@ -1060,3 +1060,10 @@
 {"ts_utc": "2026-10-24T16:05:33Z", "station": "WSSS", "obs_utc": "2026-10-24T16:00:00Z", "temp_c": 27, "dewp_c": 26, "speci": false, "raw": "METAR WSSS 241600Z VRB01KT 3000 HZ FEW018 BKN170 27/26 Q1010 NOSIG"}
 {"ts_utc": "2026-10-24T16:05:33Z", "station": "ZBAA", "obs_utc": "2026-10-24T16:00:00Z", "temp_c": 13, "dewp_c": 12, "speci": false, "raw": "METAR ZBAA 241600Z 36001MPS 4000 -RA BR BKN020 SCT033 13/12 Q1024 NOSIG"}
 {"ts_utc": "2026-10-24T16:05:33Z", "station": "ZSPD", "obs_utc": "2026-10-24T16:00:00Z", "temp_c": 21, "dewp_c": 20, "speci": false, "raw": "METAR ZSPD 241600Z 03010MPS 9999 SCT016 21/20 Q1012 NOSIG"}
+{"ts_utc": "2026-10-24T16:15:33Z", "station": "CYYZ", "obs_utc": "2026-10-24T16:00:00Z", "temp_c": 14, "dewp_c": 5, "speci": false, "raw": "METAR CYYZ 241600Z 12006KT 15SM SKC 14/05 A3051 RMK SLP338"}
+{"ts_utc": "2026-10-24T16:15:33Z", "station": "RCSS", "obs_utc": "2026-10-24T16:00:00Z", "temp_c": 22, "dewp_c": 22, "speci": false, "raw": "METAR RCSS 241600Z 29004KT 9999 FEW008 SCT013 BKN070 22/22 Q1009 NOSIG RMK A2982"}
+{"ts_utc": "2026-10-24T16:15:33Z", "station": "RJTT", "obs_utc": "2026-10-24T16:00:00Z", "temp_c": 18, "dewp_c": 17, "speci": false, "raw": "METAR RJTT 241600Z 28003KT 240V320 4000 -DZ BR FEW003 SCT004 BKN006 18/17 Q1017 TEMPO 3000 -DZ BR FEW002 BKN004"}
+{"ts_utc": "2026-10-24T16:15:33Z", "station": "WMKK", "obs_utc": "2026-10-24T16:00:00Z", "temp_c": 27, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 241600Z VRB02KT 7000 FEW017CB 27/25 Q1010 NOSIG"}
+{"ts_utc": "2026-10-24T16:15:33Z", "station": "ZHHH", "obs_utc": "2026-10-24T16:00:00Z", "temp_c": 18, "dewp_c": 17, "speci": false, "raw": "METAR ZHHH 241600Z VRB01MPS CAVOK 18/17 Q1017 NOSIG"}
+{"ts_utc": "2026-10-24T16:15:33Z", "station": "ZUCK", "obs_utc": "2026-10-24T16:00:00Z", "temp_c": 20, "dewp_c": 17, "speci": false, "raw": "METAR ZUCK 241600Z 35002MPS 320V020 9999 SCT040 20/17 Q1014 NOSIG"}
+{"ts_utc": "2026-10-24T16:15:33Z", "station": "SAEZ", "obs_utc": "2026-10-24T16:10:00Z", "temp_c": 17, "dewp_c": 13, "speci": true, "raw": "SPECI SAEZ 241610Z 13008KT 3000 -RA BKN020 OVC030 17/13 Q1015 TEMPO 7000 -SHRA BKN025"}
