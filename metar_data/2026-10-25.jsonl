@@ -319,3 +319,10 @@
 {"ts_utc": "2026-10-25T04:07:17Z", "station": "ZUCK", "obs_utc": "2026-10-25T04:00:00Z", "temp_c": 19, "dewp_c": 19, "speci": false, "raw": "METAR ZUCK 250400Z 18002MPS 2000 BR FEW003 SCT007 OVC046 19/19 Q1017 BECMG TL0540 3100"}
 {"ts_utc": "2026-10-25T04:17:18Z", "station": "CYYZ", "obs_utc": "2026-10-25T04:00:00Z", "temp_c": 9, "dewp_c": 7, "speci": false, "raw": "METAR CYYZ 250400Z 02003KT 15SM SKC 09/07 A3048 RMK SLP326"}
 {"ts_utc": "2026-10-25T04:17:18Z", "station": "WMKK", "obs_utc": "2026-10-25T04:00:00Z", "temp_c": 29, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 250400Z 33004KT 250V050 9999 FEW018 29/25 Q1011 NOSIG"}
+{"ts_utc": "2026-10-25T04:27:17Z", "station": "EDDM", "obs_utc": "2026-10-25T04:20:00Z", "temp_c": 5, "dewp_c": 3, "speci": false, "raw": "METAR EDDM 250420Z AUTO 17006KT 150V210 9999 -RA FEW038 BKN047 05/03 Q1011 BECMG 17010KT RA"}
+{"ts_utc": "2026-10-25T04:27:17Z", "station": "EFHK", "obs_utc": "2026-10-25T04:20:00Z", "temp_c": 9, "dewp_c": 7, "speci": false, "raw": "METAR EFHK 250420Z 12011KT 9999 BKN011 BKN016 09/07 Q1012 NOSIG"}
+{"ts_utc": "2026-10-25T04:27:17Z", "station": "EGLC", "obs_utc": "2026-10-25T04:20:00Z", "temp_c": 10, "dewp_c": 6, "speci": false, "raw": "METAR EGLC 250420Z AUTO 24013KT 9999 BKN041 10/06 Q0994"}
+{"ts_utc": "2026-10-25T04:27:17Z", "station": "LIMC", "obs_utc": "2026-10-25T04:20:00Z", "temp_c": 6, "dewp_c": 5, "speci": false, "raw": "METAR LIMC 250420Z 02006KT CAVOK 06/05 Q1017 NOSIG"}
+{"ts_utc": "2026-10-25T04:27:17Z", "station": "LLBG", "obs_utc": "2026-10-25T04:20:00Z", "temp_c": 23, "dewp_c": 20, "speci": false, "raw": "METAR LLBG 250420Z VRB02KT 8000 SCT016 SCT022 23/20 Q1013 NOSIG"}
+{"ts_utc": "2026-10-25T04:27:17Z", "station": "LTAC", "obs_utc": "2026-10-25T04:20:00Z", "temp_c": 4, "dewp_c": 3, "speci": false, "raw": "METAR LTAC 250420Z 21001KT 4000 BR NSC 04/03 Q1017 NOSIG"}
+{"ts_utc": "2026-10-25T04:27:17Z", "station": "LTFM", "obs_utc": "2026-10-25T04:20:00Z", "temp_c": 15, "dewp_c": 13, "speci": false, "raw": "METAR LTFM 250420Z 05008KT 9999 SCT012 BKN022 15/13 Q1015 NOSIG"}
