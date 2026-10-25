@@ -907,3 +907,5 @@
 {"ts_utc": "2026-10-25T13:39:01Z", "station": "WSSS", "obs_utc": "2026-10-25T13:30:00Z", "temp_c": 27, "dewp_c": 24, "speci": false, "raw": "METAR WSSS 251330Z 23004KT 200V280 6000 -RA FEW017TCU FEW020CB BKN150 27/24 Q1012 NOSIG"}
 {"ts_utc": "2026-10-25T13:39:01Z", "station": "ZBAA", "obs_utc": "2026-10-25T13:30:00Z", "temp_c": 10, "dewp_c": 9, "speci": false, "raw": "METAR ZBAA 251330Z VRB01MPS 9999 -RA NSC 10/09 Q1026 NOSIG"}
 {"ts_utc": "2026-10-25T13:39:01Z", "station": "ZSPD", "obs_utc": "2026-10-25T13:30:00Z", "temp_c": 18, "dewp_c": 16, "speci": false, "raw": "METAR ZSPD 251330Z 33005MPS CAVOK 18/16 Q1019 NOSIG"}
+{"ts_utc": "2026-10-25T13:49:00Z", "station": "RCSS", "obs_utc": "2026-10-25T13:30:00Z", "temp_c": 23, "dewp_c": 23, "speci": false, "raw": "METAR RCSS 251330Z 10007KT 9999 FEW025 BKN050 23/23 Q1017 NOSIG RMK A3004"}
+{"ts_utc": "2026-10-25T13:49:00Z", "station": "CYYZ", "obs_utc": "2026-10-25T13:40:00Z", "temp_c": 8, "dewp_c": 6, "speci": true, "raw": "SPECI CYYZ 251340Z VRB02KT 4SM R05/1800V2400FT/N BR FEW004 FEW250 08/06 A3052 RMK ST1CI1 CI TR VIS LWR W NW SLP341"}
