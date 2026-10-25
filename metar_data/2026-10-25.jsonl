@@ -1155,3 +1155,4 @@
 {"ts_utc": "2026-10-25T17:09:02Z", "station": "CYYZ", "obs_utc": "2026-10-25T17:00:00Z", "temp_c": 17, "dewp_c": 8, "speci": false, "raw": "METAR CYYZ 251700Z 15007KT 130V220 10SM SCT250 17/08 A3045 RMK CI3 SLP317"}
 {"ts_utc": "2026-10-25T17:09:02Z", "station": "WMKK", "obs_utc": "2026-10-25T17:00:00Z", "temp_c": 27, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 251700Z VRB01KT 9000 FEW017CB SCT030 27/24 Q1011 NOSIG"}
 {"ts_utc": "2026-10-25T17:09:56Z", "station": "RCSS", "obs_utc": "2026-10-25T17:00:00Z", "temp_c": 23, "dewp_c": 22, "speci": false, "raw": "METAR RCSS 251700Z 12009KT 9999 FEW020 SCT035 BKN070 23/22 Q1016 NOSIG RMK A3003"}
+{"ts_utc": "2026-10-25T17:19:54Z", "station": "RKPK", "obs_utc": "2026-10-25T17:11:00Z", "temp_c": 19, "dewp_c": 18, "speci": true, "raw": "SPECI RKPK 251711Z 04010KT 6000 RA SCT010 BKN020 OVC100 19/18 Q1015 RMK CIG020"}
