@@ -1444,3 +1444,10 @@
 {"ts_utc": "2026-10-26T22:44:56Z", "station": "WMKK", "obs_utc": "2026-10-26T22:30:00Z", "temp_c": 25, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 262230Z 00000KT 9999 FEW010 FEW017CB SCT030 25/24 Q1010 NOSIG"}
 {"ts_utc": "2026-10-26T22:44:56Z", "station": "ZBAA", "obs_utc": "2026-10-26T22:30:00Z", "temp_c": 8, "dewp_c": -10, "speci": false, "raw": "METAR ZBAA 262230Z 32004MPS CAVOK 08/M10 Q1031 NOSIG"}
 {"ts_utc": "2026-10-26T22:44:56Z", "station": "ZSPD", "obs_utc": "2026-10-26T22:30:00Z", "temp_c": 19, "dewp_c": 15, "speci": false, "raw": "METAR ZSPD 262230Z 33006MPS CAVOK 19/15 Q1024 NOSIG"}
+{"ts_utc": "2026-10-26T22:54:56Z", "station": "EDDM", "obs_utc": "2026-10-26T23:00:00Z", "temp_c": 5, "dewp_c": 4, "speci": false, "raw": "METAR EDDM 262250Z AUTO 06001KT CAVOK 05/04 Q1021 NOSIG"}
+{"ts_utc": "2026-10-26T22:54:56Z", "station": "EFHK", "obs_utc": "2026-10-26T23:00:00Z", "temp_c": 11, "dewp_c": 8, "speci": false, "raw": "METAR EFHK 262250Z 18016KT 9999 FEW013 BKN015 BKN046 11/08 Q1011 TEMPO BKN014 FEW020TCU"}
+{"ts_utc": "2026-10-26T22:54:56Z", "station": "EGLC", "obs_utc": "2026-10-26T23:00:00Z", "temp_c": 17, "dewp_c": 13, "speci": false, "raw": "METAR EGLC 262250Z AUTO 20012G22KT 140V240 9999 -RA BKN022 BKN030 OVC041 17/13 Q1006"}
+{"ts_utc": "2026-10-26T22:54:56Z", "station": "KATL", "obs_utc": "2026-10-26T23:00:00Z", "temp_c": 19.4, "dewp_c": 7.8, "speci": false, "raw": "METAR KATL 262252Z 07003KT 10SM BKN200 BKN250 19/08 A3026 RMK AO2 SLP245 T01940078 $"}
+{"ts_utc": "2026-10-26T22:54:56Z", "station": "KLGA", "obs_utc": "2026-10-26T23:00:00Z", "temp_c": 21.1, "dewp_c": 5, "speci": false, "raw": "METAR KLGA 262251Z 26010KT 10SM FEW090 FEW250 21/05 A3012 RMK AO2 SLP200 T02110050 $"}
+{"ts_utc": "2026-10-26T22:54:56Z", "station": "KORD", "obs_utc": "2026-10-26T23:00:00Z", "temp_c": 13.3, "dewp_c": 7.2, "speci": false, "raw": "METAR KORD 262251Z 02014KT 10SM BKN150 BKN250 13/07 A3031 RMK AO2 SLP265 T01330072 $"}
+{"ts_utc": "2026-10-26T22:54:56Z", "station": "LLBG", "obs_utc": "2026-10-26T23:00:00Z", "temp_c": 24, "dewp_c": 20, "speci": false, "raw": "METAR LLBG 262250Z VRB03KT 9999 FEW020 BKN030 24/20 Q1013 NOSIG"}
