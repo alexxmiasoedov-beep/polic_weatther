@@ -1425,3 +1425,4 @@
 {"ts_utc": "2026-10-26T22:23:54Z", "station": "ZSPD", "obs_utc": "2026-10-26T22:00:00Z", "temp_c": 18, "dewp_c": 15, "speci": false, "raw": "METAR ZSPD 262200Z 33006MPS CAVOK 18/15 Q1024 NOSIG"}
 {"ts_utc": "2026-10-26T22:23:54Z", "station": "EDDM", "obs_utc": "2026-10-26T22:20:00Z", "temp_c": 6, "dewp_c": 5, "speci": false, "raw": "METAR EDDM 262220Z AUTO 06002KT CAVOK 06/05 Q1021 NOSIG"}
 {"ts_utc": "2026-10-26T22:23:54Z", "station": "EFHK", "obs_utc": "2026-10-26T22:20:00Z", "temp_c": 11, "dewp_c": 8, "speci": false, "raw": "METAR EFHK 262220Z 18015KT 9999 SCT015 BKN019 BKN045 11/08 Q1010 NOSIG"}
+{"ts_utc": "2026-10-26T22:24:59Z", "station": "EGLC", "obs_utc": "2026-10-26T22:20:00Z", "temp_c": 17, "dewp_c": 13, "speci": false, "raw": "METAR EGLC 262220Z AUTO 20012G23KT 9999 SCT022 BKN036 OVC045 17/13 Q1006"}
