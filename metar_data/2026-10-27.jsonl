@@ -608,3 +608,10 @@
 {"ts_utc": "2026-10-27T09:15:54Z", "station": "WMKK", "obs_utc": "2026-10-27T09:00:00Z", "temp_c": 28, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 270900Z 01004KT 300V060 9000 FEW018 28/25 Q1009 NOSIG"}
 {"ts_utc": "2026-10-27T09:15:54Z", "station": "ZHHH", "obs_utc": "2026-10-27T09:00:00Z", "temp_c": 19, "dewp_c": 12, "speci": false, "raw": "METAR ZHHH 270900Z 04004MPS 8000 NSC 19/12 Q1025 NOSIG"}
 {"ts_utc": "2026-10-27T09:15:54Z", "station": "ZUCK", "obs_utc": "2026-10-27T09:00:00Z", "temp_c": 16, "dewp_c": 16, "speci": false, "raw": "METAR ZUCK 270900Z 28002MPS 240V300 9999 FEW007 SCT014 OVC040 16/16 Q1023 NOSIG"}
+{"ts_utc": "2026-10-27T09:25:54Z", "station": "EDDM", "obs_utc": "2026-10-27T09:20:00Z", "temp_c": 12, "dewp_c": 7, "speci": false, "raw": "METAR EDDM 270920Z AUTO 10006KT 070V130 CAVOK 12/07 Q1021 NOSIG"}
+{"ts_utc": "2026-10-27T09:25:54Z", "station": "EFHK", "obs_utc": "2026-10-27T09:20:00Z", "temp_c": 10, "dewp_c": 8, "speci": false, "raw": "METAR EFHK 270920Z 21013KT 9999 FEW012 SCT038 10/08 Q1017 NOSIG"}
+{"ts_utc": "2026-10-27T09:25:54Z", "station": "EGLC", "obs_utc": "2026-10-27T09:20:00Z", "temp_c": 13, "dewp_c": 10, "speci": false, "raw": "METAR EGLC 270920Z AUTO 24011KT 210V270 9999 -RA FEW022 BKN031 BKN044 13/10 Q1008"}
+{"ts_utc": "2026-10-27T09:25:54Z", "station": "LIMC", "obs_utc": "2026-10-27T09:20:00Z", "temp_c": 13, "dewp_c": 8, "speci": false, "raw": "METAR LIMC 270920Z VRB01KT 8000 NSC 13/08 Q1023 NOSIG"}
+{"ts_utc": "2026-10-27T09:25:54Z", "station": "LLBG", "obs_utc": "2026-10-27T09:20:00Z", "temp_c": 28, "dewp_c": 17, "speci": false, "raw": "METAR LLBG 270920Z VRB03KT 9999 FEW035 28/17 Q1013 NOSIG RMK SCT060"}
+{"ts_utc": "2026-10-27T09:25:54Z", "station": "LTAC", "obs_utc": "2026-10-27T09:20:00Z", "temp_c": 17, "dewp_c": 10, "speci": false, "raw": "METAR LTAC 270920Z 16006KT 100V180 9999 SCT040 BKN100 17/10 Q1015 NOSIG"}
+{"ts_utc": "2026-10-27T09:25:54Z", "station": "LTFM", "obs_utc": "2026-10-27T09:20:00Z", "temp_c": 12, "dewp_c": 11, "speci": false, "raw": "METAR LTFM 270920Z 34020KT 7000 -SHRA BKN009 FEW017TCU BKN022 12/11 Q1013 NOSIG"}
