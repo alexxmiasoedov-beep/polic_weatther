@@ -95,3 +95,10 @@
 {"ts_utc": "2026-10-27T01:06:55Z", "station": "FACT", "obs_utc": "2026-10-27T01:00:00Z", "temp_c": 15, "dewp_c": 15, "speci": false, "raw": "METAR FACT 270100Z 22008KT CAVOK 15/15 Q1020 NOSIG"}
 {"ts_utc": "2026-10-27T01:06:55Z", "station": "RCSS", "obs_utc": "2026-10-27T01:00:00Z", "temp_c": 24, "dewp_c": 20, "speci": false, "raw": "METAR RCSS 270100Z 09007KT 9999 FEW015 BKN040 24/20 Q1023 NOSIG RMK A3021"}
 {"ts_utc": "2026-10-27T01:06:55Z", "station": "RJTT", "obs_utc": "2026-10-27T01:00:00Z", "temp_c": 19, "dewp_c": 16, "speci": false, "raw": "METAR RJTT 270100Z 01007KT 9999 FEW010 BKN030 19/16 Q1007 NOSIG"}
+{"ts_utc": "2026-10-27T01:14:57Z", "station": "CYYZ", "obs_utc": "2026-10-27T01:00:00Z", "temp_c": 10, "dewp_c": 4, "speci": false, "raw": "METAR CYYZ 270100Z 33013KT 15SM FEW098 BKN130 10/04 A3033 RMK AC2AC5 SLP276"}
+{"ts_utc": "2026-10-27T01:14:57Z", "station": "WMKK", "obs_utc": "2026-10-27T01:00:00Z", "temp_c": 28, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 270100Z 00000KT 9000 FEW017CB 28/24 Q1012 NOSIG"}
+{"ts_utc": "2026-10-27T01:14:57Z", "station": "ZBAA", "obs_utc": "2026-10-27T01:00:00Z", "temp_c": 11, "dewp_c": -13, "speci": false, "raw": "METAR ZBAA 270100Z 33010MPS CAVOK 11/M13 Q1032 NOSIG"}
+{"ts_utc": "2026-10-27T01:14:57Z", "station": "ZHHH", "obs_utc": "2026-10-27T01:00:00Z", "temp_c": 16, "dewp_c": 15, "speci": false, "raw": "METAR ZHHH 270100Z 01003MPS 340V040 4500 BR NSC 16/15 Q1029 NOSIG"}
+{"ts_utc": "2026-10-27T01:14:57Z", "station": "ZSPD", "obs_utc": "2026-10-27T01:00:00Z", "temp_c": 19, "dewp_c": 16, "speci": false, "raw": "METAR ZSPD 270100Z 35007MPS 9999 BKN040 19/16 Q1026 NOSIG"}
+{"ts_utc": "2026-10-27T01:14:57Z", "station": "ZUCK", "obs_utc": "2026-10-27T01:00:00Z", "temp_c": 17, "dewp_c": 17, "speci": false, "raw": "METAR ZUCK 270100Z 26002MPS 210V300 3800 -RA BR BCFG FEW003 SCT008 OVC026 17/17 Q1027 NOSIG"}
+{"ts_utc": "2026-10-27T01:14:57Z", "station": "MMMX", "obs_utc": "2026-10-27T01:10:00Z", "temp_c": 19, "dewp_c": 10, "speci": true, "raw": "SPECI MMMX 270110Z 03012KT 7SM -RA SCT020 BKN080 19/10 A3030 NOSIG RMK 8/470 HZY CI RAB10"}
