@@ -771,3 +771,6 @@
 {"ts_utc": "2026-10-28T11:41:12Z", "station": "ZBAA", "obs_utc": "2026-10-28T11:30:00Z", "temp_c": 7, "dewp_c": 4, "speci": false, "raw": "METAR ZBAA 281130Z VRB01MPS CAVOK 07/04 Q1018 NOSIG"}
 {"ts_utc": "2026-10-28T11:41:12Z", "station": "ZSPD", "obs_utc": "2026-10-28T11:30:00Z", "temp_c": 17, "dewp_c": 11, "speci": false, "raw": "METAR ZSPD 281130Z 12003MPS CAVOK 17/11 Q1024 NOSIG"}
 {"ts_utc": "2026-10-28T11:41:12Z", "station": "KAUS", "obs_utc": "2026-10-28T11:36:00Z", "temp_c": 16.1, "dewp_c": 15.6, "speci": true, "raw": "SPECI KAUS 281136Z 00000KT 10SM SCT007 BKN014 BKN027 16/16 A3013 RMK AO2 T01610156"}
+{"ts_utc": "2026-10-28T11:51:13Z", "station": "KSFO", "obs_utc": "2026-10-28T11:40:00Z", "temp_c": 10.6, "dewp_c": 8.9, "speci": true, "raw": "SPECI KSFO 281140Z 23004KT 10SM BKN015 11/09 A3001 RMK AO2 T01060089 $"}
+{"ts_utc": "2026-10-28T11:51:13Z", "station": "LTAC", "obs_utc": "2026-10-28T11:40:00Z", "temp_c": 17, "dewp_c": 10, "speci": true, "raw": "SPECI LTAC 281140Z 16004KT 120V180 9999 FEW030CB SCT035 BKN100 17/10 Q1015 TEMPO -TSRA"}
+{"ts_utc": "2026-10-28T11:51:13Z", "station": "LLBG", "obs_utc": "2026-10-28T12:00:00Z", "temp_c": 29, "dewp_c": 11, "speci": false, "raw": "METAR LLBG 281150Z 28010KT CAVOK 29/11 Q1013 NOSIG"}
