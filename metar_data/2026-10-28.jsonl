@@ -1431,3 +1431,12 @@
 {"ts_utc": "2026-10-28T21:56:17Z", "station": "LIMC", "obs_utc": "2026-10-28T22:00:00Z", "temp_c": 7, "dewp_c": 6, "speci": false, "raw": "METAR LIMC 282150Z 04002KT 9999 BCFG NSC 07/06 Q1022 NOSIG"}
 {"ts_utc": "2026-10-28T21:56:17Z", "station": "LTAC", "obs_utc": "2026-10-28T22:00:00Z", "temp_c": 9, "dewp_c": 7, "speci": false, "raw": "METAR LTAC 282150Z 28003KT 210V320 9999 FEW040 SCT200 09/07 Q1014 NOSIG"}
 {"ts_utc": "2026-10-28T21:56:17Z", "station": "LTFM", "obs_utc": "2026-10-28T22:00:00Z", "temp_c": 15, "dewp_c": 14, "speci": false, "raw": "METAR LTFM 282150Z 03012KT 9999 BKN010 BKN022 15/14 Q1013 NOSIG"}
+{"ts_utc": "2026-10-28T22:03:45Z", "station": "EHAM", "obs_utc": "2026-10-28T22:00:00Z", "temp_c": 13, "dewp_c": 11, "speci": false, "raw": "METAR EHAM 282155Z 21006KT 9999 FEW021 SCT024 BKN033 13/11 Q1027 NOSIG"}
+{"ts_utc": "2026-10-28T22:03:45Z", "station": "EPWA", "obs_utc": "2026-10-28T22:00:00Z", "temp_c": 10, "dewp_c": 8, "speci": false, "raw": "METAR EPWA 282200Z 34003KT 310V010 9999 BKN024 10/08 Q1024 TEMPO BKN014"}
+{"ts_utc": "2026-10-28T22:03:45Z", "station": "KSFO", "obs_utc": "2026-10-28T22:00:00Z", "temp_c": 20.6, "dewp_c": 7.8, "speci": false, "raw": "METAR KSFO 282156Z 29009KT 10SM SCT200 21/08 A2998 RMK AO2 SLP151 T02060078 $"}
+{"ts_utc": "2026-10-28T22:03:45Z", "station": "LFPB", "obs_utc": "2026-10-28T22:00:00Z", "temp_c": 7, "dewp_c": 6, "speci": false, "raw": "METAR LFPB 282200Z AUTO 35002KT 9999 FEW049 07/06 Q1029 NOSIG"}
+{"ts_utc": "2026-10-28T22:03:45Z", "station": "MMMX", "obs_utc": "2026-10-28T22:00:00Z", "temp_c": 24, "dewp_c": 7, "speci": false, "raw": "METAR MMMX 282145Z 00000KT 5SM SCT020TCU 24/07 A3026 NOSIG RMK 8/200 HZY DSNT CB E W ISOL AC"}
+{"ts_utc": "2026-10-28T22:03:45Z", "station": "RPLL", "obs_utc": "2026-10-28T22:00:00Z", "temp_c": 28, "dewp_c": 22, "speci": false, "raw": "METAR RPLL 282200Z 06005KT 020V090 9999 FEW025 BKN130 28/22 Q1013 NOSIG RMK A2991"}
+{"ts_utc": "2026-10-28T22:03:45Z", "station": "SBGR", "obs_utc": "2026-10-28T22:00:00Z", "temp_c": 17, "dewp_c": 16, "speci": false, "raw": "METAR SBGR 282200Z 12004KT 9999 -RA BKN007 OVC011 17/16 Q1020"}
+{"ts_utc": "2026-10-28T22:03:45Z", "station": "VHHH", "obs_utc": "2026-10-28T22:00:00Z", "temp_c": 26, "dewp_c": 20, "speci": false, "raw": "METAR VHHH 282200Z 09009KT 9999 FEW025 26/20 Q1019 NOSIG"}
+{"ts_utc": "2026-10-28T22:03:45Z", "station": "WSSS", "obs_utc": "2026-10-28T22:00:00Z", "temp_c": 25, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 282200Z 00000KT 6000 FEW016 BKN300 25/25 Q1011 NOSIG"}
