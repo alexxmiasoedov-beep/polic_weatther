@@ -1193,3 +1193,21 @@
 {"ts_utc": "2026-10-28T18:02:29Z", "station": "SBGR", "obs_utc": "2026-10-28T18:00:00Z", "temp_c": 21, "dewp_c": 16, "speci": false, "raw": "METAR SBGR 281800Z 07003KT 9999 OVC030 21/16 Q1019"}
 {"ts_utc": "2026-10-28T18:02:29Z", "station": "VHHH", "obs_utc": "2026-10-28T18:00:00Z", "temp_c": 27, "dewp_c": 20, "speci": false, "raw": "METAR VHHH 281800Z 09011KT 9999 FEW025 27/20 Q1018 NOSIG"}
 {"ts_utc": "2026-10-28T18:02:29Z", "station": "WSSS", "obs_utc": "2026-10-28T18:00:00Z", "temp_c": 25, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 281800Z 00000KT 6000 FEW016 BKN300 25/25 Q1012 NOSIG"}
+{"ts_utc": "2026-10-28T18:12:31Z", "station": "CYYZ", "obs_utc": "2026-10-28T18:00:00Z", "temp_c": 15, "dewp_c": 7, "speci": false, "raw": "METAR CYYZ 281800Z VRB02KT 15SM FEW063 SCT140 15/07 A3026 RMK SC1AC2 SLP253"}
+{"ts_utc": "2026-10-28T18:12:31Z", "station": "FACT", "obs_utc": "2026-10-28T18:00:00Z", "temp_c": 18, "dewp_c": 15, "speci": false, "raw": "METAR FACT 281800Z 20016KT 9999 SCT010 18/15 Q1018 NOSIG"}
+{"ts_utc": "2026-10-28T18:12:31Z", "station": "KBKF", "obs_utc": "2026-10-28T18:00:00Z", "temp_c": 16.7, "dewp_c": -6.4, "speci": false, "raw": "METAR KBKF 281758Z 00000KT 10SM FEW090 FEW150 BKN220 17/M06 A3006 RMK AO2A SLP137 T01671064 10168 20052 51009"}
+{"ts_utc": "2026-10-28T18:12:31Z", "station": "LEMD", "obs_utc": "2026-10-28T18:00:00Z", "temp_c": 17, "dewp_c": 6, "speci": false, "raw": "METAR LEMD 281800Z 12001KT CAVOK 17/06 Q1023 NOSIG"}
+{"ts_utc": "2026-10-28T18:12:31Z", "station": "NZWN", "obs_utc": "2026-10-28T18:00:00Z", "temp_c": 14, "dewp_c": 9, "speci": false, "raw": "METAR NZWN 281800Z AUTO 35019G29KT 310V010 9999 BKN025/// 14/09 Q0998"}
+{"ts_utc": "2026-10-28T18:12:31Z", "station": "RCSS", "obs_utc": "2026-10-28T18:00:00Z", "temp_c": 21, "dewp_c": 20, "speci": false, "raw": "METAR RCSS 281800Z 10010KT 9999 FEW016 SCT040 21/20 Q1020 NOSIG RMK A3012"}
+{"ts_utc": "2026-10-28T18:12:31Z", "station": "RJTT", "obs_utc": "2026-10-28T18:00:00Z", "temp_c": 13, "dewp_c": 3, "speci": false, "raw": "METAR RJTT 281800Z 01010KT 9999 BKN060 13/03 Q1025 NOSIG"}
+{"ts_utc": "2026-10-28T18:12:31Z", "station": "RKPK", "obs_utc": "2026-10-28T18:00:00Z", "temp_c": 7, "dewp_c": 4, "speci": false, "raw": "METAR RKPK 281800Z 03002KT CAVOK 07/04 Q1024"}
+{"ts_utc": "2026-10-28T18:12:31Z", "station": "RKSI", "obs_utc": "2026-10-28T18:00:00Z", "temp_c": 7, "dewp_c": 2, "speci": false, "raw": "METAR RKSI 281800Z 09003KT 070V150 CAVOK 07/02 Q1024 NOSIG"}
+{"ts_utc": "2026-10-28T18:12:31Z", "station": "RPLL", "obs_utc": "2026-10-28T18:00:00Z", "temp_c": 29, "dewp_c": 22, "speci": false, "raw": "METAR RPLL 281800Z 08004KT 040V100 9999 FEW025 BKN100 29/22 Q1013 NOSIG RMK A2991"}
+{"ts_utc": "2026-10-28T18:12:31Z", "station": "SAEZ", "obs_utc": "2026-10-28T18:00:00Z", "temp_c": 22, "dewp_c": 12, "speci": false, "raw": "METAR SAEZ 281800Z COR 13004KT CAVOK 22/12 Q1020 NOSIG"}
+{"ts_utc": "2026-10-28T18:12:31Z", "station": "UUWW", "obs_utc": "2026-10-28T18:00:00Z", "temp_c": 7, "dewp_c": -5, "speci": false, "raw": "METAR UUWW 281800Z 16004MPS CAVOK 07/M05 Q1032 R24/000062 NOSIG"}
+{"ts_utc": "2026-10-28T18:12:31Z", "station": "WMKK", "obs_utc": "2026-10-28T18:00:00Z", "temp_c": 25, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 281800Z 00000KT 8000 FEW010 25/24 Q1012 NOSIG"}
+{"ts_utc": "2026-10-28T18:12:31Z", "station": "ZBAA", "obs_utc": "2026-10-28T18:00:00Z", "temp_c": 3, "dewp_c": 1, "speci": false, "raw": "METAR ZBAA 281800Z 33002MPS CAVOK 03/01 Q1017 NOSIG"}
+{"ts_utc": "2026-10-28T18:12:31Z", "station": "ZHHH", "obs_utc": "2026-10-28T18:00:00Z", "temp_c": 17, "dewp_c": 16, "speci": false, "raw": "METAR ZHHH 281800Z VRB01MPS 9999 OVC030 17/16 Q1021 NOSIG"}
+{"ts_utc": "2026-10-28T18:12:31Z", "station": "ZSPD", "obs_utc": "2026-10-28T18:00:00Z", "temp_c": 15, "dewp_c": 13, "speci": false, "raw": "METAR ZSPD 281800Z 15003MPS CAVOK 15/13 Q1022 NOSIG"}
+{"ts_utc": "2026-10-28T18:12:31Z", "station": "ZUCK", "obs_utc": "2026-10-28T18:00:00Z", "temp_c": 16, "dewp_c": 16, "speci": false, "raw": "METAR ZUCK 281800Z 28002MPS 4000 -RA BR FEW003 SCT006 OVC026 16/16 Q1021 NOSIG"}
+{"ts_utc": "2026-10-28T18:12:31Z", "station": "KAUS", "obs_utc": "2026-10-28T18:09:00Z", "temp_c": 26.1, "dewp_c": 18.9, "speci": true, "raw": "SPECI KAUS 281809Z 14006KT 10SM FEW026 BKN050 26/19 A3014 RMK AO2 T02610189"}
