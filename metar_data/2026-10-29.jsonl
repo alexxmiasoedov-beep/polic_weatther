@@ -1,0 +1,5 @@
+{"ts_utc": "2026-10-28T23:53:44Z", "station": "EDDM", "obs_utc": "2026-10-29T00:00:00Z", "temp_c": 3, "dewp_c": 3, "speci": false, "raw": "METAR EDDM 282350Z AUTO 25005KT 1000 0800 R26R/1700D R26L/1600N BCFG NSC 03/03 Q1028 TEMPO 6000"}
+{"ts_utc": "2026-10-28T23:53:44Z", "station": "EFHK", "obs_utc": "2026-10-29T00:00:00Z", "temp_c": 9, "dewp_c": 9, "speci": false, "raw": "METAR EFHK 282350Z 19009KT 9999 BKN006 09/09 Q1022 NOSIG"}
+{"ts_utc": "2026-10-28T23:53:44Z", "station": "KLGA", "obs_utc": "2026-10-29T00:00:00Z", "temp_c": 14.4, "dewp_c": 8.3, "speci": false, "raw": "METAR KLGA 282351Z 15004KT 10SM BKN190 BKN250 14/08 A3039 RMK AO2 SLP291 T01440083 10172 20139 58000 $"}
+{"ts_utc": "2026-10-28T23:53:44Z", "station": "KORD", "obs_utc": "2026-10-29T00:00:00Z", "temp_c": 20.6, "dewp_c": 10, "speci": false, "raw": "METAR KORD 282351Z 17006KT 10SM FEW095 21/10 A3010 RMK AO2 SLP191 T02060100 10244 20206 55005"}
+{"ts_utc": "2026-10-28T23:53:44Z", "station": "LLBG", "obs_utc": "2026-10-29T00:00:00Z", "temp_c": 21, "dewp_c": 15, "speci": false, "raw": "METAR LLBG 282350Z VRB03KT CAVOK 21/15 Q1014 NOSIG"}
