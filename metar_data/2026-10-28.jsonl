@@ -946,3 +946,5 @@
 {"ts_utc": "2026-10-28T14:11:14Z", "station": "ZUCK", "obs_utc": "2026-10-28T14:00:00Z", "temp_c": 16, "dewp_c": 16, "speci": false, "raw": "METAR ZUCK 281400Z 33002MPS 5000 -DZ BR SCT003 SCT007 OVC030 16/16 Q1020 NOSIG"}
 {"ts_utc": "2026-10-28T14:21:13Z", "station": "KLAX", "obs_utc": "2026-10-28T14:13:00Z", "temp_c": 16.7, "dewp_c": 12.2, "speci": true, "raw": "SPECI KLAX 281413Z 06005KT 10SM FEW018 SCT026 BKN180 17/12 A2994 RMK AO2 T01670122 $"}
 {"ts_utc": "2026-10-28T14:21:13Z", "station": "KHOU", "obs_utc": "2026-10-28T14:14:00Z", "temp_c": 23.3, "dewp_c": 21.7, "speci": true, "raw": "SPECI KHOU 281414Z 08003KT 10SM FEW020 OVC030 23/22 A3016 RMK AO2 T02330217"}
+{"ts_utc": "2026-10-28T14:22:48Z", "station": "RPLL", "obs_utc": "2026-10-28T14:19:00Z", "temp_c": 29, "dewp_c": 24, "speci": true, "raw": "SPECI RPLL 281419Z 22004KT 9999 TS SCT015CB BKN090 29/24 Q1013 RMK A2991 CB ALQDS, OHD"}
+{"ts_utc": "2026-10-28T14:22:48Z", "station": "EFHK", "obs_utc": "2026-10-28T14:20:00Z", "temp_c": 9, "dewp_c": 7, "speci": false, "raw": "METAR EFHK 281420Z 17012KT 9999 BKN011 09/07 Q1022 TEMPO BKN009"}
