@@ -1549,3 +1549,5 @@
 {"ts_utc": "2026-10-29T22:08:22Z", "station": "ZHHH", "obs_utc": "2026-10-29T22:00:00Z", "temp_c": 14, "dewp_c": 14, "speci": false, "raw": "METAR ZHHH 292200Z VRB01MPS 2000 R04/P2000 R05L/P2000 R05R/0550U PRFG BR NSC 14/14 Q1021 BECMG TL2240 1300"}
 {"ts_utc": "2026-10-29T22:08:22Z", "station": "ZSPD", "obs_utc": "2026-10-29T22:00:00Z", "temp_c": 17, "dewp_c": 13, "speci": false, "raw": "METAR ZSPD 292200Z 35003MPS 9999 BKN023 17/13 Q1021 NOSIG"}
 {"ts_utc": "2026-10-29T22:08:22Z", "station": "ZUCK", "obs_utc": "2026-10-29T22:00:00Z", "temp_c": 15, "dewp_c": 15, "speci": false, "raw": "METAR ZUCK 292200Z 36002MPS 6000 BKN046 15/15 Q1021 NOSIG"}
+{"ts_utc": "2026-10-29T22:18:22Z", "station": "RCSS", "obs_utc": "2026-10-29T22:00:00Z", "temp_c": 23, "dewp_c": 22, "speci": false, "raw": "METAR RCSS 292200Z 11007KT 9999 FEW016 SCT030 BKN070 23/22 Q1019 NOSIG RMK A3009"}
+{"ts_utc": "2026-10-29T22:18:22Z", "station": "CYYZ", "obs_utc": "2026-10-29T22:15:00Z", "temp_c": 17, "dewp_c": 14, "speci": true, "raw": "SPECI CYYZ 292215Z 28009KT 5SM BR BKN051 OVC130 17/14 A2996 RMK SC7AC1 SLP149 DENSITY ALT 900FT"}
