@@ -1398,3 +1398,4 @@
 {"ts_utc": "2026-10-29T20:07:13Z", "station": "UUWW", "obs_utc": "2026-10-29T20:00:00Z", "temp_c": 8, "dewp_c": 2, "speci": false, "raw": "METAR UUWW 292000Z 17004MPS CAVOK 08/02 Q1029 R19/000062 NOSIG"}
 {"ts_utc": "2026-10-29T20:07:13Z", "station": "VHHH", "obs_utc": "2026-10-29T20:00:00Z", "temp_c": 25, "dewp_c": 20, "speci": false, "raw": "METAR VHHH 292000Z 09004KT 9999 FEW025 SCT030 25/20 Q1018 NOSIG"}
 {"ts_utc": "2026-10-29T20:07:13Z", "station": "WSSS", "obs_utc": "2026-10-29T20:00:00Z", "temp_c": 26, "dewp_c": 23, "speci": false, "raw": "METAR WSSS 292000Z VRB01KT 9999 FEW016 BKN300 26/23 Q1012 NOSIG"}
+{"ts_utc": "2026-10-29T20:07:49Z", "station": "CYYZ", "obs_utc": "2026-10-29T20:00:00Z", "temp_c": 18, "dewp_c": 14, "speci": false, "raw": "METAR CYYZ 292000Z 26016G21KT 10SM -RA SCT053 OVC120 18/14 A2994 RMK SC3AC5 SLP142 DENSITY ALT 1100FT"}
