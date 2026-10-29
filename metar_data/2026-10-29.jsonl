@@ -939,3 +939,10 @@
 {"ts_utc": "2026-10-29T14:14:53Z", "station": "ZHHH", "obs_utc": "2026-10-29T14:00:00Z", "temp_c": 17, "dewp_c": 17, "speci": false, "raw": "METAR ZHHH 291400Z VRB01MPS 6000 NSC 17/17 Q1022 NOSIG"}
 {"ts_utc": "2026-10-29T14:14:53Z", "station": "ZSPD", "obs_utc": "2026-10-29T14:00:00Z", "temp_c": 19, "dewp_c": 14, "speci": false, "raw": "METAR ZSPD 291400Z 27003MPS CAVOK 19/14 Q1021 NOSIG"}
 {"ts_utc": "2026-10-29T14:14:53Z", "station": "ZUCK", "obs_utc": "2026-10-29T14:00:00Z", "temp_c": 17, "dewp_c": 16, "speci": false, "raw": "METAR ZUCK 291400Z VRB01MPS 9999 FEW013 17/16 Q1024 NOSIG"}
+{"ts_utc": "2026-10-29T14:25:56Z", "station": "EDDM", "obs_utc": "2026-10-29T14:20:00Z", "temp_c": 9, "dewp_c": 6, "speci": false, "raw": "METAR EDDM 291420Z AUTO 05007KT 020V080 CAVOK 09/06 Q1029 NOSIG"}
+{"ts_utc": "2026-10-29T14:25:56Z", "station": "EFHK", "obs_utc": "2026-10-29T14:20:00Z", "temp_c": 10, "dewp_c": 10, "speci": false, "raw": "METAR EFHK 291420Z 19006KT 5000 BR OVC002 10/10 Q1021 REDZ TEMPO 8000"}
+{"ts_utc": "2026-10-29T14:25:56Z", "station": "EGLC", "obs_utc": "2026-10-29T14:20:00Z", "temp_c": 16, "dewp_c": 10, "speci": false, "raw": "METAR EGLC 291420Z AUTO 08007KT 9999 FEW031 OVC047 16/10 Q1029"}
+{"ts_utc": "2026-10-29T14:25:56Z", "station": "LIMC", "obs_utc": "2026-10-29T14:20:00Z", "temp_c": 18, "dewp_c": 10, "speci": false, "raw": "METAR LIMC 291420Z 15004KT 110V190 CAVOK 18/10 Q1022 NOSIG"}
+{"ts_utc": "2026-10-29T14:25:56Z", "station": "LLBG", "obs_utc": "2026-10-29T14:20:00Z", "temp_c": 25, "dewp_c": 12, "speci": false, "raw": "METAR LLBG 291420Z 26011KT 9999 FEW040 25/12 Q1014 NOSIG"}
+{"ts_utc": "2026-10-29T14:25:56Z", "station": "LTAC", "obs_utc": "2026-10-29T14:20:00Z", "temp_c": 14, "dewp_c": 11, "speci": false, "raw": "METAR LTAC 291420Z VRB02KT 9999 FEW010 SCT035 BKN080 14/11 Q1014 NOSIG"}
+{"ts_utc": "2026-10-29T14:25:56Z", "station": "LTFM", "obs_utc": "2026-10-29T14:20:00Z", "temp_c": 15, "dewp_c": 15, "speci": false, "raw": "METAR LTFM 291420Z 35022KT 9999 -SHRA BKN003 BKN020 15/15 Q1014 NOSIG"}
