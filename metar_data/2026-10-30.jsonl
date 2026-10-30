@@ -102,3 +102,5 @@
 {"ts_utc": "2026-10-30T01:06:38Z", "station": "ZUCK", "obs_utc": "2026-10-30T01:00:00Z", "temp_c": 16, "dewp_c": 16, "speci": false, "raw": "METAR ZUCK 300100Z 01002MPS 6000 OVC040 16/16 Q1023 NOSIG"}
 {"ts_utc": "2026-10-30T01:08:23Z", "station": "CYYZ", "obs_utc": "2026-10-30T01:00:00Z", "temp_c": 16, "dewp_c": 14, "speci": false, "raw": "METAR CYYZ 300100Z 27008KT 15SM BKN035 BKN110 16/14 A2998 RMK SC7AC1 SLP157 DENSITY ALT 800FT"}
 {"ts_utc": "2026-10-30T01:08:23Z", "station": "WMKK", "obs_utc": "2026-10-30T01:00:00Z", "temp_c": 28, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 300100Z VRB03KT 9999 FEW018 28/25 Q1013 NOSIG"}
+{"ts_utc": "2026-10-30T01:18:22Z", "station": "KBKF", "obs_utc": "2026-10-30T01:00:00Z", "temp_c": 10.6, "dewp_c": 1.4, "speci": false, "raw": "METAR KBKF 300058Z 03005KT 10SM FEW140 BKN220 11/01 A3009 RMK AO2A SLP167 T01060014"}
+{"ts_utc": "2026-10-30T01:18:22Z", "station": "CYYZ", "obs_utc": "2026-10-30T01:12:00Z", "temp_c": 16, "dewp_c": 14, "speci": true, "raw": "SPECI CYYZ 300112Z 27008KT 4SM -RA BR OVC036 16/14 A2999 RMK SC8 SLP158 DENSITY ALT 800FT"}
