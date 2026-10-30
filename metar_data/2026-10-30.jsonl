@@ -1324,3 +1324,6 @@
 {"ts_utc": "2026-10-30T20:12:52Z", "station": "KBKF", "obs_utc": "2026-10-30T20:00:00Z", "temp_c": 18.4, "dewp_c": 4.6, "speci": false, "raw": "METAR KBKF 301958Z VRB06KT 10SM FEW100 FEW140 BKN220 18/05 A3004 RMK AO2A SLP126 T01840046"}
 {"ts_utc": "2026-10-30T20:12:52Z", "station": "RCSS", "obs_utc": "2026-10-30T20:00:00Z", "temp_c": 21, "dewp_c": 19, "speci": false, "raw": "METAR RCSS 302000Z 10006KT 9999 FEW020 SCT035 21/19 Q1019 NOSIG RMK A3009"}
 {"ts_utc": "2026-10-30T20:12:52Z", "station": "WMKK", "obs_utc": "2026-10-30T20:00:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 302000Z VRB02KT 8000 FEW030 26/24 Q1012 NOSIG"}
+{"ts_utc": "2026-10-30T20:22:51Z", "station": "SAEZ", "obs_utc": "2026-10-30T20:12:00Z", "temp_c": 20, "dewp_c": 15, "speci": true, "raw": "SPECI SAEZ 302012Z 13005KT 2000 TSRA SCT034 FEW050CB BKN070 20/15 Q1011 NOSIG"}
+{"ts_utc": "2026-10-30T20:22:51Z", "station": "EFHK", "obs_utc": "2026-10-30T20:20:00Z", "temp_c": 6, "dewp_c": 6, "speci": false, "raw": "METAR EFHK 302020Z 33006KT 9999 FEW011 BKN020 06/06 Q1023 TEMPO 4000 -DZ BKN010"}
+{"ts_utc": "2026-10-30T20:22:51Z", "station": "LLBG", "obs_utc": "2026-10-30T20:20:00Z", "temp_c": 21, "dewp_c": 15, "speci": false, "raw": "METAR LLBG 302020Z 12004KT CAVOK 21/15 Q1018 NOSIG RMK FEW075"}
