@@ -767,3 +767,5 @@
 {"ts_utc": "2026-10-30T11:40:27Z", "station": "ZBAA", "obs_utc": "2026-10-30T11:30:00Z", "temp_c": 14, "dewp_c": -6, "speci": false, "raw": "METAR ZBAA 301130Z 36005MPS CAVOK 14/M06 Q1020 NOSIG"}
 {"ts_utc": "2026-10-30T11:40:27Z", "station": "ZSPD", "obs_utc": "2026-10-30T11:30:00Z", "temp_c": 17, "dewp_c": 15, "speci": false, "raw": "METAR ZSPD 301130Z 19003MPS 6000 NSC 17/15 Q1020 NOSIG"}
 {"ts_utc": "2026-10-30T11:40:27Z", "station": "LTAC", "obs_utc": "2026-10-30T11:33:00Z", "temp_c": 15, "dewp_c": 10, "speci": true, "raw": "SPECI LTAC 301133Z 33004KT 260V050 9999 -SHRA FEW025 BKN035 BKN080 15/10 Q1016 NOSIG"}
+{"ts_utc": "2026-10-30T11:50:27Z", "station": "KMIA", "obs_utc": "2026-10-30T11:40:00Z", "temp_c": 24.4, "dewp_c": 23.3, "speci": true, "raw": "SPECI KMIA 301140Z 34004KT 10SM SCT007 BKN025 24/23 A2994 RMK AO2 T02440233 $"}
+{"ts_utc": "2026-10-30T11:50:27Z", "station": "SAEZ", "obs_utc": "2026-10-30T11:42:00Z", "temp_c": 13, "dewp_c": 13, "speci": true, "raw": "SPECI SAEZ 301142Z 11009KT 3000 -TSRA SCT004 BKN029 FEW050CB 13/13 Q1014 TEMPO 3000 TSRA FEW050CB"}
