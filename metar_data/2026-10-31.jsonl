@@ -1,0 +1,2 @@
+{"ts_utc": "2026-10-30T23:52:51Z", "station": "EFHK", "obs_utc": "2026-10-31T00:00:00Z", "temp_c": 6, "dewp_c": 6, "speci": false, "raw": "METAR EFHK 302350Z 34009KT 9999 BKN036 06/06 Q1025 NOSIG"}
+{"ts_utc": "2026-10-30T23:52:51Z", "station": "LLBG", "obs_utc": "2026-10-31T00:00:00Z", "temp_c": 19, "dewp_c": 15, "speci": false, "raw": "METAR LLBG 302350Z VRB02KT CAVOK 19/15 Q1018 NOSIG"}
