@@ -318,3 +318,5 @@
 {"ts_utc": "2026-10-30T04:39:22Z", "station": "WSSS", "obs_utc": "2026-10-30T04:30:00Z", "temp_c": 32, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 300430Z 17005KT 110V200 9999 FEW020 BKN300 32/25 Q1014 NOSIG"}
 {"ts_utc": "2026-10-30T04:39:22Z", "station": "ZBAA", "obs_utc": "2026-10-30T04:30:00Z", "temp_c": 21, "dewp_c": -7, "speci": false, "raw": "METAR ZBAA 300430Z 30008G14MPS 260V330 CAVOK 21/M07 Q1015 NOSIG"}
 {"ts_utc": "2026-10-30T04:39:22Z", "station": "ZSPD", "obs_utc": "2026-10-30T04:30:00Z", "temp_c": 23, "dewp_c": 10, "speci": false, "raw": "METAR ZSPD 300430Z 32004MPS 260V360 7000 NSC 23/10 Q1020 NOSIG"}
+{"ts_utc": "2026-10-30T04:49:22Z", "station": "WMKK", "obs_utc": "2026-10-30T04:30:00Z", "temp_c": 31, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 300430Z 00000KT 9999 SCT018 31/25 Q1013 NOSIG"}
+{"ts_utc": "2026-10-30T04:49:22Z", "station": "KMIA", "obs_utc": "2026-10-30T04:44:00Z", "temp_c": 25.6, "dewp_c": 23.3, "speci": true, "raw": "SPECI KMIA 300444Z 32004KT 10SM BKN024 BKN030 26/23 A2995 RMK AO2 T02560233 $"}
