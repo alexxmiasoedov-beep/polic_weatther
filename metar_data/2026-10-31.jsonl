@@ -149,3 +149,20 @@
 {"ts_utc": "2026-10-31T02:03:58Z", "station": "SBGR", "obs_utc": "2026-10-31T02:00:00Z", "temp_c": 17, "dewp_c": 16, "speci": false, "raw": "METAR SBGR 310200Z 08003KT 9999 BKN013 17/16 Q1017"}
 {"ts_utc": "2026-10-31T02:03:58Z", "station": "VHHH", "obs_utc": "2026-10-31T02:00:00Z", "temp_c": 28, "dewp_c": 20, "speci": false, "raw": "METAR VHHH 310200Z 10007KT 070V130 9999 FEW020 28/20 Q1020 NOSIG"}
 {"ts_utc": "2026-10-31T02:03:58Z", "station": "WSSS", "obs_utc": "2026-10-31T02:00:00Z", "temp_c": 31, "dewp_c": 24, "speci": false, "raw": "METAR WSSS 310200Z 10004KT 030V140 9999 FEW020 BKN300 31/24 Q1015 NOSIG"}
+{"ts_utc": "2026-10-31T02:13:58Z", "station": "CYYZ", "obs_utc": "2026-10-31T02:00:00Z", "temp_c": 9, "dewp_c": 2, "speci": false, "raw": "METAR CYYZ 310200Z 30011KT 15SM BKN040 09/02 A3037 RMK SC6 SLP289"}
+{"ts_utc": "2026-10-31T02:13:58Z", "station": "FACT", "obs_utc": "2026-10-31T02:00:00Z", "temp_c": 18, "dewp_c": 17, "speci": false, "raw": "METAR FACT 310200Z 19015KT 9999 BKN005 18/17 Q1016 NOSIG"}
+{"ts_utc": "2026-10-31T02:13:58Z", "station": "LEMD", "obs_utc": "2026-10-31T02:00:00Z", "temp_c": 8, "dewp_c": 5, "speci": false, "raw": "METAR LEMD 310200Z 36003KT CAVOK 08/05 Q1021 NOSIG"}
+{"ts_utc": "2026-10-31T02:13:58Z", "station": "NZWN", "obs_utc": "2026-10-31T02:00:00Z", "temp_c": 13, "dewp_c": 2, "speci": false, "raw": "METAR NZWN 310200Z AUTO 17011KT 9999 NCD 13/02 Q1024"}
+{"ts_utc": "2026-10-31T02:13:58Z", "station": "RCSS", "obs_utc": "2026-10-31T02:00:00Z", "temp_c": 25, "dewp_c": 19, "speci": false, "raw": "METAR RCSS 310200Z 09011KT 9999 FEW018 BKN035 BKN050 25/19 Q1021 NOSIG RMK A3017"}
+{"ts_utc": "2026-10-31T02:13:58Z", "station": "RJTT", "obs_utc": "2026-10-31T02:00:00Z", "temp_c": 20, "dewp_c": 13, "speci": false, "raw": "METAR RJTT 310200Z 03004KT 350V070 9999 FEW030 20/13 Q1010 NOSIG"}
+{"ts_utc": "2026-10-31T02:13:58Z", "station": "RKPK", "obs_utc": "2026-10-31T02:00:00Z", "temp_c": 18, "dewp_c": 12, "speci": false, "raw": "METAR RKPK 310200Z 01002KT 9000 FEW040 18/12 Q1021"}
+{"ts_utc": "2026-10-31T02:13:58Z", "station": "RKSI", "obs_utc": "2026-10-31T02:00:00Z", "temp_c": 13, "dewp_c": 5, "speci": false, "raw": "METAR RKSI 310200Z 31012KT 280V340 CAVOK 13/05 Q1023 NOSIG"}
+{"ts_utc": "2026-10-31T02:13:58Z", "station": "RPLL", "obs_utc": "2026-10-31T02:00:00Z", "temp_c": 31, "dewp_c": 25, "speci": false, "raw": "METAR RPLL 310200Z VRB05KT 9000 SCT025 31/25 Q1015 NOSIG RMK A2997"}
+{"ts_utc": "2026-10-31T02:13:58Z", "station": "SAEZ", "obs_utc": "2026-10-31T02:00:00Z", "temp_c": 15, "dewp_c": 15, "speci": false, "raw": "METAR SAEZ 310200Z COR VRB02KT 9999 MIFG 15/15 Q1013 NOSIG"}
+{"ts_utc": "2026-10-31T02:13:58Z", "station": "UUWW", "obs_utc": "2026-10-31T02:00:00Z", "temp_c": 4, "dewp_c": 0, "speci": false, "raw": "METAR UUWW 310200Z 13003MPS CAVOK 04/00 Q1023 R24/000062 NOSIG"}
+{"ts_utc": "2026-10-31T02:13:58Z", "station": "WMKK", "obs_utc": "2026-10-31T02:00:00Z", "temp_c": 31, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 310200Z VRB02KT 9000 FEW018 31/25 Q1014 NOSIG"}
+{"ts_utc": "2026-10-31T02:13:58Z", "station": "ZBAA", "obs_utc": "2026-10-31T02:00:00Z", "temp_c": 10, "dewp_c": -7, "speci": false, "raw": "METAR ZBAA 310200Z 15004MPS 130V190 CAVOK 10/M07 Q1027 NOSIG"}
+{"ts_utc": "2026-10-31T02:13:58Z", "station": "ZHHH", "obs_utc": "2026-10-31T02:00:00Z", "temp_c": 19, "dewp_c": 15, "speci": false, "raw": "METAR ZHHH 310200Z 12003MPS 080V150 6000 NSC 19/15 Q1019 NOSIG"}
+{"ts_utc": "2026-10-31T02:13:58Z", "station": "ZSPD", "obs_utc": "2026-10-31T02:00:00Z", "temp_c": 22, "dewp_c": 11, "speci": false, "raw": "METAR ZSPD 310200Z 08004MPS 040V100 CAVOK 22/11 Q1024 NOSIG"}
+{"ts_utc": "2026-10-31T02:13:58Z", "station": "ZUCK", "obs_utc": "2026-10-31T02:00:00Z", "temp_c": 18, "dewp_c": 17, "speci": false, "raw": "METAR ZUCK 310200Z 01002MPS 6000 -RA FEW014 SCT020 OVC050 18/17 Q1016 NOSIG"}
+{"ts_utc": "2026-10-31T02:13:58Z", "station": "KHOU", "obs_utc": "2026-10-31T02:09:00Z", "temp_c": 22.2, "dewp_c": 20.6, "speci": true, "raw": "SPECI KHOU 310209Z 11007KT 10SM BKN018 BKN026 OVC120 22/21 A3003 RMK AO2 T02220206"}
