@@ -943,3 +943,7 @@
 {"ts_utc": "2026-10-31T14:06:47Z", "station": "ZHHH", "obs_utc": "2026-10-31T14:00:00Z", "temp_c": 23, "dewp_c": 19, "speci": false, "raw": "METAR ZHHH 311400Z 12003MPS 6000 NSC 23/19 Q1014 NOSIG"}
 {"ts_utc": "2026-10-31T14:06:47Z", "station": "ZUCK", "obs_utc": "2026-10-31T14:00:00Z", "temp_c": 17, "dewp_c": 17, "speci": false, "raw": "METAR ZUCK 311400Z 30003MPS 6000 -RA FEW015 SCT023 OVC043 17/17 Q1014 NOSIG"}
 {"ts_utc": "2026-10-31T14:06:47Z", "station": "KMIA", "obs_utc": "2026-10-31T14:04:00Z", "temp_c": 27.8, "dewp_c": 23.9, "speci": true, "raw": "SPECI KMIA 311404Z 07010G18KT 10SM BKN020 BKN130 BKN250 28/24 A3007 RMK AO2 T02780239 $"}
+{"ts_utc": "2026-10-31T14:16:13Z", "station": "CYYZ", "obs_utc": "2026-10-31T14:00:00Z", "temp_c": 8, "dewp_c": 4, "speci": false, "raw": "METAR CYYZ 311400Z 27004KT 250V310 15SM FEW260 08/04 A3048 RMK CI2 CONTRAILS SLP327"}
+{"ts_utc": "2026-10-31T14:16:13Z", "station": "RCSS", "obs_utc": "2026-10-31T14:00:00Z", "temp_c": 23, "dewp_c": 20, "speci": false, "raw": "METAR RCSS 311400Z 10008KT 9999 FEW020 SCT045 23/20 Q1019 NOSIG RMK A3010"}
+{"ts_utc": "2026-10-31T14:16:13Z", "station": "RPLL", "obs_utc": "2026-10-31T14:00:00Z", "temp_c": 29, "dewp_c": 24, "speci": false, "raw": "METAR RPLL 311400Z 09004KT 9999 FEW025 SCT100 29/24 Q1013 NOSIG RMK A2994"}
+{"ts_utc": "2026-10-31T14:16:13Z", "station": "WMKK", "obs_utc": "2026-10-31T14:00:00Z", "temp_c": 28, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 311400Z 10005KT 060V140 9999 FEW030 28/25 Q1012 NOSIG"}
