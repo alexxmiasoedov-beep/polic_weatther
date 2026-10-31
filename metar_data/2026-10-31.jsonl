@@ -516,3 +516,11 @@
 {"ts_utc": "2026-10-31T07:43:59Z", "station": "WMKK", "obs_utc": "2026-10-31T07:30:00Z", "temp_c": 32, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 310730Z VRB04KT 8000 TS VCSH FEW017CB SCT018 32/25 Q1009 TEMPO 6000 -TSRA"}
 {"ts_utc": "2026-10-31T07:43:59Z", "station": "ZBAA", "obs_utc": "2026-10-31T07:30:00Z", "temp_c": 12, "dewp_c": 0, "speci": false, "raw": "METAR ZBAA 310730Z 14003MPS 100V170 CAVOK 12/M00 Q1021 NOSIG"}
 {"ts_utc": "2026-10-31T07:43:59Z", "station": "ZSPD", "obs_utc": "2026-10-31T07:30:00Z", "temp_c": 22, "dewp_c": 14, "speci": false, "raw": "METAR ZSPD 310730Z 12005MPS CAVOK 22/14 Q1022 NOSIG"}
+{"ts_utc": "2026-10-31T07:55:08Z", "station": "KAUS", "obs_utc": "2026-10-31T07:51:00Z", "temp_c": 19, "dewp_c": 18, "speci": true, "raw": "SPECI KAUS 310751Z 34004KT 5SM BR OVC010 19/18 A3006 RMK AO2"}
+{"ts_utc": "2026-10-31T07:55:08Z", "station": "EDDM", "obs_utc": "2026-10-31T08:00:00Z", "temp_c": 6, "dewp_c": 5, "speci": false, "raw": "METAR EDDM 310750Z AUTO 05004KT 010V080 9999 OVC031 06/05 Q1030 NOSIG"}
+{"ts_utc": "2026-10-31T07:55:08Z", "station": "EFHK", "obs_utc": "2026-10-31T08:00:00Z", "temp_c": 7, "dewp_c": 6, "speci": false, "raw": "METAR EFHK 310750Z 35005KT 9999 FEW007 BKN027 07/06 Q1029 NOSIG"}
+{"ts_utc": "2026-10-31T07:55:08Z", "station": "EGLC", "obs_utc": "2026-10-31T08:00:00Z", "temp_c": 8, "dewp_c": 8, "speci": false, "raw": "METAR EGLC 310750Z AUTO 09003KT 060V120 0150 R09/0175N FG VV/// 08/08 Q1032"}
+{"ts_utc": "2026-10-31T07:55:08Z", "station": "KATL", "obs_utc": "2026-10-31T08:00:00Z", "temp_c": 16.7, "dewp_c": 11.1, "speci": false, "raw": "METAR KATL 310752Z 08005KT 10SM BKN180 OVC250 17/11 A3023 RMK AO2 SLP231 T01670111 $"}
+{"ts_utc": "2026-10-31T07:55:08Z", "station": "KLGA", "obs_utc": "2026-10-31T08:00:00Z", "temp_c": 11.7, "dewp_c": 3.9, "speci": false, "raw": "METAR KLGA 310751Z 30013KT 10SM SCT250 12/04 A3032 RMK AO2 SLP265 T01170039"}
+{"ts_utc": "2026-10-31T07:55:08Z", "station": "KORD", "obs_utc": "2026-10-31T08:00:00Z", "temp_c": 11.1, "dewp_c": 7.2, "speci": false, "raw": "METAR KORD 310751Z 00000KT 10SM SCT075 SCT180 BKN220 11/07 A3035 RMK AO2 SLP278 T01110072"}
+{"ts_utc": "2026-10-31T07:55:08Z", "station": "LLBG", "obs_utc": "2026-10-31T08:00:00Z", "temp_c": 25, "dewp_c": 12, "speci": false, "raw": "METAR LLBG 310750Z 02005KT 320V110 CAVOK 25/12 Q1018 NOSIG"}
