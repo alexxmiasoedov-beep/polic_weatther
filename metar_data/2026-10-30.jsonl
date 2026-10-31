@@ -1537,3 +1537,4 @@
 {"ts_utc": "2026-10-30T23:42:51Z", "station": "WMKK", "obs_utc": "2026-10-30T23:30:00Z", "temp_c": 26, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 302330Z 00000KT 8000 FEW010 26/25 Q1013 NOSIG"}
 {"ts_utc": "2026-10-30T23:42:51Z", "station": "ZBAA", "obs_utc": "2026-10-30T23:30:00Z", "temp_c": 4, "dewp_c": -1, "speci": false, "raw": "METAR ZBAA 302330Z VRB01MPS CAVOK 04/M01 Q1027 NOSIG"}
 {"ts_utc": "2026-10-30T23:42:51Z", "station": "ZSPD", "obs_utc": "2026-10-30T23:30:00Z", "temp_c": 18, "dewp_c": 15, "speci": false, "raw": "METAR ZSPD 302330Z VRB01MPS 4500 BR NSC 18/15 Q1024 NOSIG"}
+{"ts_utc": "2026-10-31T00:02:52Z", "station": "MMMX", "obs_utc": "2026-10-30T23:40:00Z", "temp_c": 23, "dewp_c": 8, "speci": false, "raw": "METAR MMMX 302340Z 01007KT 8SM SKC 23/08 A3025 NOSIG RMK SLP063 57007 905 HZY ISOL CU AC"}
