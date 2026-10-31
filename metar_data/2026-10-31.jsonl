@@ -297,3 +297,6 @@
 {"ts_utc": "2026-10-31T04:13:58Z", "station": "ZUCK", "obs_utc": "2026-10-31T04:00:00Z", "temp_c": 18, "dewp_c": 18, "speci": false, "raw": "METAR ZUCK 310400Z 33002MPS 5000 -RA BR FEW006 SCT016 OVC050 18/18 Q1014 NOSIG"}
 {"ts_utc": "2026-10-31T04:13:58Z", "station": "LTAC", "obs_utc": "2026-10-31T04:08:00Z", "temp_c": 8, "dewp_c": 7, "speci": true, "raw": "SPECI LTAC 310408Z VRB02KT 1800 R03C/P1500N R21C/P1500D R03L/0600D R03R/P1500N BCFG FEW003 BKN021 BKN100 08/07 Q1019 BECMG 6000"}
 {"ts_utc": "2026-10-31T04:13:58Z", "station": "WSSS", "obs_utc": "2026-10-31T04:09:00Z", "temp_c": 32, "dewp_c": 24, "speci": true, "raw": "SPECI WSSS 310409Z 09005KT 030V190 9999 TS FEW018CB FEW020TCU BKN300 32/24 Q1014 BECMG FM0445 TL0500 NSW"}
+{"ts_utc": "2026-10-31T04:23:58Z", "station": "EDDM", "obs_utc": "2026-10-31T04:20:00Z", "temp_c": 5, "dewp_c": 4, "speci": false, "raw": "METAR EDDM 310420Z AUTO 03003KT 350V060 9999 OVC029 05/04 Q1029 NOSIG"}
+{"ts_utc": "2026-10-31T04:23:58Z", "station": "EFHK", "obs_utc": "2026-10-31T04:20:00Z", "temp_c": 6, "dewp_c": 6, "speci": false, "raw": "METAR EFHK 310420Z 35005KT 9999 FEW008 BKN030 06/06 Q1027 NOSIG"}
+{"ts_utc": "2026-10-31T04:23:58Z", "station": "LLBG", "obs_utc": "2026-10-31T04:20:00Z", "temp_c": 18, "dewp_c": 14, "speci": false, "raw": "METAR LLBG 310420Z VRB01KT CAVOK 18/14 Q1018 NOSIG"}
