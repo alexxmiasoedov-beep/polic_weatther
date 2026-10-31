@@ -476,3 +476,20 @@
 {"ts_utc": "2026-10-31T07:03:58Z", "station": "SBGR", "obs_utc": "2026-10-31T07:00:00Z", "temp_c": 16, "dewp_c": 15, "speci": false, "raw": "METAR SBGR 310700Z 09002KT 9999 SCT009 16/15 Q1016"}
 {"ts_utc": "2026-10-31T07:03:58Z", "station": "VHHH", "obs_utc": "2026-10-31T07:00:00Z", "temp_c": 30, "dewp_c": 19, "speci": false, "raw": "METAR VHHH 310700Z 11015KT 9999 FEW020 30/19 Q1016 NOSIG"}
 {"ts_utc": "2026-10-31T07:03:58Z", "station": "WSSS", "obs_utc": "2026-10-31T07:00:00Z", "temp_c": 28, "dewp_c": 22, "speci": false, "raw": "METAR WSSS 310700Z 04007KT 010V070 9999 -RA FEW016 FEW018CB SCT160 28/22 Q1012 RETS NOSIG"}
+{"ts_utc": "2026-10-31T07:13:58Z", "station": "CYYZ", "obs_utc": "2026-10-31T07:00:00Z", "temp_c": 9, "dewp_c": 3, "speci": false, "raw": "METAR CYYZ 310700Z 31007KT 15SM BKN045 09/03 A3040 RMK SC7 SLP300"}
+{"ts_utc": "2026-10-31T07:13:58Z", "station": "FACT", "obs_utc": "2026-10-31T07:00:00Z", "temp_c": 20, "dewp_c": 17, "speci": false, "raw": "METAR FACT 310700Z 19015KT 9999 BKN010 20/17 Q1017 BECMG SCT015"}
+{"ts_utc": "2026-10-31T07:13:58Z", "station": "LEMD", "obs_utc": "2026-10-31T07:00:00Z", "temp_c": 6, "dewp_c": 4, "speci": false, "raw": "METAR LEMD 310700Z VRB02KT CAVOK 06/04 Q1022 NOSIG"}
+{"ts_utc": "2026-10-31T07:13:58Z", "station": "NZWN", "obs_utc": "2026-10-31T07:00:00Z", "temp_c": 11, "dewp_c": 4, "speci": false, "raw": "METAR NZWN 310700Z AUTO 14006KT 9999 SCT070/// 11/04 Q1026"}
+{"ts_utc": "2026-10-31T07:13:58Z", "station": "RCSS", "obs_utc": "2026-10-31T07:00:00Z", "temp_c": 25, "dewp_c": 18, "speci": false, "raw": "METAR RCSS 310700Z 09013KT 9999 FEW016 BKN045 25/18 Q1019 NOSIG RMK A3010"}
+{"ts_utc": "2026-10-31T07:13:58Z", "station": "RJTT", "obs_utc": "2026-10-31T07:00:00Z", "temp_c": 23, "dewp_c": 9, "speci": false, "raw": "METAR RJTT 310700Z VRB02KT 9999 FEW030 BKN080 23/09 Q1010 BECMG TL0730 03006KT"}
+{"ts_utc": "2026-10-31T07:13:58Z", "station": "RKPK", "obs_utc": "2026-10-31T07:00:00Z", "temp_c": 21, "dewp_c": 7, "speci": false, "raw": "METAR RKPK 310700Z 29005KT CAVOK 21/07 Q1019"}
+{"ts_utc": "2026-10-31T07:13:58Z", "station": "RKSI", "obs_utc": "2026-10-31T07:00:00Z", "temp_c": 14, "dewp_c": 1, "speci": false, "raw": "METAR RKSI 310700Z 29011KT CAVOK 14/01 Q1022 NOSIG"}
+{"ts_utc": "2026-10-31T07:13:58Z", "station": "RPLL", "obs_utc": "2026-10-31T07:00:00Z", "temp_c": 32, "dewp_c": 24, "speci": false, "raw": "METAR RPLL 310700Z 13008KT 100V180 9999 SCT025 BKN100 32/24 Q1012 NOSIG RMK A2988"}
+{"ts_utc": "2026-10-31T07:13:58Z", "station": "SAEZ", "obs_utc": "2026-10-31T07:00:00Z", "temp_c": 12, "dewp_c": 12, "speci": false, "raw": "METAR SAEZ 310700Z 00000KT 9000 MIFG NSC 12/12 Q1013 NOSIG"}
+{"ts_utc": "2026-10-31T07:13:58Z", "station": "UUWW", "obs_utc": "2026-10-31T07:00:00Z", "temp_c": 5, "dewp_c": -1, "speci": false, "raw": "METAR UUWW 310700Z 14002MPS CAVOK 05/M01 Q1024 R06/000062 NOSIG"}
+{"ts_utc": "2026-10-31T07:13:58Z", "station": "WMKK", "obs_utc": "2026-10-31T07:00:00Z", "temp_c": 33, "dewp_c": 26, "speci": false, "raw": "METAR WMKK 310700Z VRB04KT 8000 VCSH FEW017CB SCT018 33/26 Q1010 NOSIG"}
+{"ts_utc": "2026-10-31T07:13:58Z", "station": "ZBAA", "obs_utc": "2026-10-31T07:00:00Z", "temp_c": 12, "dewp_c": -1, "speci": false, "raw": "METAR ZBAA 310700Z 14003MPS 110V170 CAVOK 12/M01 Q1021 NOSIG"}
+{"ts_utc": "2026-10-31T07:13:58Z", "station": "ZHHH", "obs_utc": "2026-10-31T07:00:00Z", "temp_c": 25, "dewp_c": 17, "speci": false, "raw": "METAR ZHHH 310700Z 10005MPS 8000 NSC 25/17 Q1014 NOSIG"}
+{"ts_utc": "2026-10-31T07:13:58Z", "station": "ZSPD", "obs_utc": "2026-10-31T07:00:00Z", "temp_c": 22, "dewp_c": 14, "speci": false, "raw": "METAR ZSPD 310700Z 11006MPS 090V160 CAVOK 22/14 Q1022 NOSIG"}
+{"ts_utc": "2026-10-31T07:13:58Z", "station": "ZUCK", "obs_utc": "2026-10-31T07:00:00Z", "temp_c": 18, "dewp_c": 18, "speci": false, "raw": "METAR ZUCK 310700Z 36002MPS 5000 BR FEW004 SCT010 OVC040 18/18 Q1011 NOSIG"}
+{"ts_utc": "2026-10-31T07:13:58Z", "station": "WMKK", "obs_utc": "2026-10-31T07:05:00Z", "temp_c": 33, "dewp_c": 26, "speci": true, "raw": "SPECI WMKK 310705Z VRB04KT 8000 TS VCSH FEW017CB SCT018 33/26 Q1010 NOSIG"}
