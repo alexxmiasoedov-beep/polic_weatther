@@ -315,3 +315,5 @@
 {"ts_utc": "2026-11-01T04:08:25Z", "station": "ZHHH", "obs_utc": "2026-11-01T04:00:00Z", "temp_c": 15, "dewp_c": 15, "speci": false, "raw": "METAR ZHHH 010400Z 34003MPS 300V040 6000 -RA SCT011 OVC040 15/15 Q1021 NOSIG"}
 {"ts_utc": "2026-11-01T04:08:25Z", "station": "ZSPD", "obs_utc": "2026-11-01T04:00:00Z", "temp_c": 25, "dewp_c": 15, "speci": false, "raw": "METAR ZSPD 010400Z 23007MPS CAVOK 25/15 Q1014 NOSIG"}
 {"ts_utc": "2026-11-01T04:08:25Z", "station": "ZUCK", "obs_utc": "2026-11-01T04:00:00Z", "temp_c": 18, "dewp_c": 14, "speci": false, "raw": "METAR ZUCK 010400Z 35004MPS 300V020 9999 FEW018 SCT033 18/14 Q1021 NOSIG"}
+{"ts_utc": "2026-11-01T04:18:25Z", "station": "WMKK", "obs_utc": "2026-11-01T04:00:00Z", "temp_c": 33, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 010400Z VRB03KT 9999 FEW018 33/24 Q1013 NOSIG"}
+{"ts_utc": "2026-11-01T04:18:25Z", "station": "KHOU", "obs_utc": "2026-11-01T04:09:00Z", "temp_c": 23.3, "dewp_c": 21.7, "speci": true, "raw": "SPECI KHOU 010409Z 00000KT 10SM SCT020 BKN040 23/22 A3008 RMK AO2 T02330217"}
