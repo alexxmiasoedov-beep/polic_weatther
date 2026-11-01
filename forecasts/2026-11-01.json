@@ -1039,5 +1039,19 @@
    "ts_utc": "2026-10-31T16:22:36Z",
    "winner": null
   }
+ },
+ "pullback": {
+  "beijing": {
+   "bucket": "18°C",
+   "last": 45.0,
+   "bid": 46.0,
+   "ask": 49.0,
+   "last3": 51.0,
+   "hte": 18.0,
+   "ts_utc": "2026-10-31T21:57:20Z",
+   "winner": "18°C",
+   "hit": true,
+   "pnl": 1.041
+  }
  }
 }
