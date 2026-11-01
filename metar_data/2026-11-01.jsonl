@@ -856,3 +856,5 @@
 {"ts_utc": "2026-11-01T12:39:31Z", "station": "ZBAA", "obs_utc": "2026-11-01T12:30:00Z", "temp_c": 4, "dewp_c": -1, "speci": false, "raw": "METAR ZBAA 011230Z VRB01MPS CAVOK 04/M01 Q1020 NOSIG"}
 {"ts_utc": "2026-11-01T12:39:31Z", "station": "ZSPD", "obs_utc": "2026-11-01T12:30:00Z", "temp_c": 17, "dewp_c": 16, "speci": false, "raw": "METAR ZSPD 011230Z 33006MPS 9999 BKN016 17/16 Q1019 NOSIG"}
 {"ts_utc": "2026-11-01T12:39:31Z", "station": "KDAL", "obs_utc": "2026-11-01T12:34:00Z", "temp_c": 17.8, "dewp_c": 17.2, "speci": true, "raw": "SPECI KDAL 011234Z 11003KT 1 3/4SM R13L/2000VP6000FT BR SCT004 18/17 A3013 RMK AO2 T01780172"}
+{"ts_utc": "2026-11-01T12:49:30Z", "station": "KDAL", "obs_utc": "2026-11-01T12:40:00Z", "temp_c": 17.8, "dewp_c": 17.8, "speci": true, "raw": "SPECI KDAL 011240Z 00000KT 1SM R13L/1000V3500FT BR BKN002 BKN250 18/18 A3013 RMK AO2 VIS N 1/4 SW 3 T01780178"}
+{"ts_utc": "2026-11-01T12:49:30Z", "station": "KDAL", "obs_utc": "2026-11-01T12:45:00Z", "temp_c": 17.8, "dewp_c": 17.8, "speci": true, "raw": "SPECI KDAL 011245Z 00000KT 1/2SM R13L/0800V1200FT FG BKN002 BKN250 18/18 A3013 RMK AO2 VIS SW 1 T01780178"}
