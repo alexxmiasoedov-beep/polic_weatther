@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-11-02",
  "rule": "n>=7 and roi>=0.08 in rolling live-mechanic backtest",
  "active": [
   "austin",
@@ -10,54 +10,54 @@
  ],
  "stats": {
   "austin": {
-   "n": 29,
+   "n": 30,
    "hit": 19,
-   "pnl": 4.17
+   "pnl": 3.17
   },
   "miami": {
-   "n": 36,
-   "hit": 22,
-   "pnl": 3.12
+   "n": 40,
+   "hit": 26,
+   "pnl": 5.91
   },
   "seattle": {
-   "n": 14,
+   "n": 16,
    "hit": 6,
-   "pnl": -2.78
+   "pnl": -4.78
   },
   "houston": {
-   "n": 29,
-   "hit": 15,
-   "pnl": -2.54
+   "n": 33,
+   "hit": 17,
+   "pnl": -3.13
   },
   "atlanta": {
-   "n": 25,
-   "hit": 13,
-   "pnl": -2.25
+   "n": 30,
+   "hit": 15,
+   "pnl": -3.9
   },
   "los-angeles": {
-   "n": 17,
-   "hit": 11,
-   "pnl": 2.28
+   "n": 22,
+   "hit": 16,
+   "pnl": 6.67
   },
   "san-francisco": {
-   "n": 6,
-   "hit": 3,
-   "pnl": -0.54
+   "n": 13,
+   "hit": 7,
+   "pnl": 0.01
   },
   "singapore": {
-   "n": 27,
-   "hit": 16,
-   "pnl": -0.8
+   "n": 30,
+   "hit": 18,
+   "pnl": -0.32
   },
   "kuala-lumpur": {
-   "n": 29,
-   "hit": 21,
-   "pnl": 8.08
+   "n": 31,
+   "hit": 22,
+   "pnl": 7.87
   },
   "tel-aviv": {
-   "n": 39,
-   "hit": 24,
-   "pnl": 0.1
+   "n": 46,
+   "hit": 26,
+   "pnl": -3.43
   },
   "dallas": {
    "n": 21,
@@ -65,59 +65,59 @@
    "pnl": -0.48
   },
   "wellington": {
-   "n": 34,
-   "hit": 21,
-   "pnl": 1.5
+   "n": 37,
+   "hit": 23,
+   "pnl": 1.81
   },
   "milan": {
-   "n": 28,
-   "hit": 17,
-   "pnl": 1.76
+   "n": 32,
+   "hit": 18,
+   "pnl": -0.39
   },
   "moscow": {
-   "n": 17,
-   "hit": 8,
-   "pnl": -2.58
+   "n": 20,
+   "hit": 9,
+   "pnl": -3.79
   },
   "toronto": {
-   "n": 15,
-   "hit": 8,
-   "pnl": -0.84
+   "n": 16,
+   "hit": 9,
+   "pnl": 0.12
   },
   "london": {
-   "n": 25,
-   "hit": 14,
-   "pnl": 0.42
+   "n": 31,
+   "hit": 17,
+   "pnl": -0.51
   },
   "amsterdam": {
-   "n": 33,
-   "hit": 19,
-   "pnl": -0.77
+   "n": 37,
+   "hit": 21,
+   "pnl": -1.39
   },
   "denver": {
-   "n": 16,
-   "hit": 7,
-   "pnl": -3.1
+   "n": 17,
+   "hit": 8,
+   "pnl": -2.05
   },
   "istanbul": {
-   "n": 28,
-   "hit": 15,
-   "pnl": -2.92
+   "n": 33,
+   "hit": 20,
+   "pnl": 0.87
   },
   "mexico-city": {
-   "n": 11,
-   "hit": 7,
-   "pnl": 2.14
+   "n": 14,
+   "hit": 8,
+   "pnl": 1.37
   },
   "shanghai": {
-   "n": 26,
-   "hit": 14,
-   "pnl": -2.8
+   "n": 32,
+   "hit": 19,
+   "pnl": -0.4
   },
   "helsinki": {
-   "n": 30,
-   "hit": 16,
-   "pnl": -3.08
+   "n": 35,
+   "hit": 19,
+   "pnl": -3.32
   }
  }
 }
