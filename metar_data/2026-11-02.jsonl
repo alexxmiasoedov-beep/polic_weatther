@@ -310,3 +310,7 @@
 {"ts_utc": "2026-11-02T04:42:54Z", "station": "ZBAA", "obs_utc": "2026-11-02T04:30:00Z", "temp_c": 16, "dewp_c": 0, "speci": false, "raw": "METAR ZBAA 020430Z VRB01MPS CAVOK 16/00 Q1020 NOSIG"}
 {"ts_utc": "2026-11-02T04:42:54Z", "station": "ZSPD", "obs_utc": "2026-11-02T04:30:00Z", "temp_c": 21, "dewp_c": 12, "speci": false, "raw": "METAR ZSPD 020430Z 34007MPS 9999 SCT033 21/12 Q1023 NOSIG"}
 {"ts_utc": "2026-11-02T04:42:54Z", "station": "UUWW", "obs_utc": "2026-11-02T04:40:00Z", "temp_c": 1, "dewp_c": 1, "speci": true, "raw": "SPECI UUWW 020440Z 01004MPS 3000 BR OVC003 01/01 Q1029 R06/000062 NOSIG"}
+{"ts_utc": "2026-11-02T04:52:54Z", "station": "WMKK", "obs_utc": "2026-11-02T04:40:00Z", "temp_c": 31, "dewp_c": 26, "speci": true, "raw": "SPECI WMKK 020440Z VRB03KT 8000 TS VCSH FEW017CB SCT018 31/26 Q1011 TEMPO 6000 -TSRA"}
+{"ts_utc": "2026-11-02T04:52:54Z", "station": "KMIA", "obs_utc": "2026-11-02T04:42:00Z", "temp_c": 26.7, "dewp_c": 22.8, "speci": true, "raw": "SPECI KMIA 020442Z 10009G18KT 10SM BKN025 27/23 A3002 RMK AO2 T02670228 $"}
+{"ts_utc": "2026-11-02T04:52:54Z", "station": "EFHK", "obs_utc": "2026-11-02T05:00:00Z", "temp_c": 8, "dewp_c": 8, "speci": false, "raw": "METAR EFHK 020450Z 20007KT 9999 -RA FEW004 BKN006 08/08 Q1026 TEMPO 7000"}
+{"ts_utc": "2026-11-02T04:52:54Z", "station": "LLBG", "obs_utc": "2026-11-02T05:00:00Z", "temp_c": 19, "dewp_c": 12, "speci": false, "raw": "METAR LLBG 020450Z VRB01KT CAVOK 19/12 Q1016 NOSIG"}
