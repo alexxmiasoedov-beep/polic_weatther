@@ -737,3 +737,5 @@
 {"ts_utc": "2026-11-03T10:40:19Z", "station": "ZBAA", "obs_utc": "2026-11-03T10:30:00Z", "temp_c": 8, "dewp_c": 3, "speci": false, "raw": "METAR ZBAA 031030Z 18001MPS CAVOK 08/03 Q1020 NOSIG"}
 {"ts_utc": "2026-11-03T10:40:19Z", "station": "ZSPD", "obs_utc": "2026-11-03T10:30:00Z", "temp_c": 19, "dewp_c": 13, "speci": false, "raw": "METAR ZSPD 031030Z 11003MPS 9999 -SHRA NSC 19/13 Q1023 NOSIG"}
 {"ts_utc": "2026-11-03T10:40:19Z", "station": "SAEZ", "obs_utc": "2026-11-03T10:32:00Z", "temp_c": 19, "dewp_c": 18, "speci": true, "raw": "SPECI SAEZ 031032Z 10010KT CAVOK 19/18 Q1012 NOSIG"}
+{"ts_utc": "2026-11-03T10:50:19Z", "station": "KAUS", "obs_utc": "2026-11-03T10:41:00Z", "temp_c": 21.7, "dewp_c": 20, "speci": true, "raw": "SPECI KAUS 031041Z 27006G21KT 2 1/2SM R36R/4500VP6000FT +RA BR SCT009 BKN020 OVC036 22/20 A2989 RMK AO2 RAB07 TSB09E40 TS MOV E P0012 T02170200 $"}
+{"ts_utc": "2026-11-03T10:50:19Z", "station": "KAUS", "obs_utc": "2026-11-03T10:47:00Z", "temp_c": 21, "dewp_c": 20, "speci": true, "raw": "SPECI KAUS 031047Z 28006KT 2 1/2SM R36R/4500VP6000FT -TSRA BR SCT009 BKN020 OVC036 21/20 A2988 RMK AO2 RAB07 TSB09E40E44B47 TS MOV E P0025 $"}
