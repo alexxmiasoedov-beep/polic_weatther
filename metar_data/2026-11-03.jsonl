@@ -1455,3 +1455,9 @@
 {"ts_utc": "2026-11-03T21:26:19Z", "station": "LIMC", "obs_utc": "2026-11-03T21:20:00Z", "temp_c": 11, "dewp_c": 6, "speci": false, "raw": "METAR LIMC 032120Z 15003KT 9999 BKN080 11/06 Q1021 NOSIG"}
 {"ts_utc": "2026-11-03T21:26:19Z", "station": "LTAC", "obs_utc": "2026-11-03T21:20:00Z", "temp_c": 9, "dewp_c": 7, "speci": false, "raw": "METAR LTAC 032120Z VRB02KT 9999 SCT040 BKN080 09/07 Q1017 NOSIG"}
 {"ts_utc": "2026-11-03T21:26:19Z", "station": "LTFM", "obs_utc": "2026-11-03T21:20:00Z", "temp_c": 15, "dewp_c": 14, "speci": false, "raw": "METAR LTFM 032120Z 17005KT 9999 SCT032 BKN100 15/14 Q1014 NOSIG"}
+{"ts_utc": "2026-11-03T21:33:37Z", "station": "EHAM", "obs_utc": "2026-11-03T21:25:00Z", "temp_c": 7, "dewp_c": 5, "speci": false, "raw": "METAR EHAM 032125Z 08010KT CAVOK 07/05 Q1033 NOSIG"}
+{"ts_utc": "2026-11-03T21:33:37Z", "station": "KLAX", "obs_utc": "2026-11-03T21:27:00Z", "temp_c": 22.2, "dewp_c": 14.4, "speci": true, "raw": "SPECI KLAX 032127Z 26015G20KT 10SM FEW008 FEW080 SCT250 22/14 A3001 RMK AO2 T02220144 $"}
+{"ts_utc": "2026-11-03T21:33:37Z", "station": "EPWA", "obs_utc": "2026-11-03T21:30:00Z", "temp_c": 8, "dewp_c": 6, "speci": false, "raw": "METAR EPWA 032130Z 35006KT 9999 FEW014 BKN040 08/06 Q1030 NOSIG"}
+{"ts_utc": "2026-11-03T21:33:37Z", "station": "LFPB", "obs_utc": "2026-11-03T21:30:00Z", "temp_c": 6, "dewp_c": 0, "speci": false, "raw": "METAR LFPB 032130Z AUTO 02009KT 9999 OVC043 06/00 Q1026 NOSIG"}
+{"ts_utc": "2026-11-03T21:33:37Z", "station": "VHHH", "obs_utc": "2026-11-03T21:30:00Z", "temp_c": 27, "dewp_c": 22, "speci": false, "raw": "METAR VHHH 032130Z 12010KT 9999 -RA FEW015 SCT030 27/22 Q1015 TEMPO 4000 RA"}
+{"ts_utc": "2026-11-03T21:33:37Z", "station": "WSSS", "obs_utc": "2026-11-03T21:30:00Z", "temp_c": 26, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 032130Z 34003KT 300V360 9000 FEW018 BKN300 26/25 Q1011 NOSIG"}
