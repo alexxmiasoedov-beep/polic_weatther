@@ -1370,3 +1370,7 @@
 {"ts_utc": "2026-11-04T20:06:04Z", "station": "WSSS", "obs_utc": "2026-11-04T20:00:00Z", "temp_c": 26, "dewp_c": 26, "speci": false, "raw": "METAR WSSS 042000Z 34003KT 8000 FEW018 BKN300 26/26 Q1010 NOSIG"}
 {"ts_utc": "2026-11-04T20:06:04Z", "station": "ZBAA", "obs_utc": "2026-11-04T20:00:00Z", "temp_c": 4, "dewp_c": 3, "speci": false, "raw": "METAR ZBAA 042000Z 35001MPS 4000 BR NSC 04/03 Q1016 NOSIG"}
 {"ts_utc": "2026-11-04T20:06:04Z", "station": "ZSPD", "obs_utc": "2026-11-04T20:00:00Z", "temp_c": 17, "dewp_c": 14, "speci": false, "raw": "METAR ZSPD 042000Z 28006MPS 9999 SCT023 17/14 Q1016 NOSIG"}
+{"ts_utc": "2026-11-04T20:09:16Z", "station": "CYYZ", "obs_utc": "2026-11-04T20:00:00Z", "temp_c": 19, "dewp_c": 12, "speci": false, "raw": "METAR CYYZ 042000Z 14007KT 15SM BKN100 BKN210 19/12 A2985 RMK AC5CI2 SLP110 DENSITY ALT 1300FT"}
+{"ts_utc": "2026-11-04T20:09:16Z", "station": "WMKK", "obs_utc": "2026-11-04T20:00:00Z", "temp_c": 25, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 042000Z 00000KT 8000 FEW010 FEW017CB 25/24 Q1010 NOSIG"}
+{"ts_utc": "2026-11-04T20:09:16Z", "station": "ZHHH", "obs_utc": "2026-11-04T20:00:00Z", "temp_c": 13, "dewp_c": 13, "speci": false, "raw": "METAR ZHHH 042000Z VRB01MPS 4000 BR NSC 13/13 Q1021 NOSIG"}
+{"ts_utc": "2026-11-04T20:09:16Z", "station": "ZUCK", "obs_utc": "2026-11-04T20:00:00Z", "temp_c": 16, "dewp_c": 16, "speci": false, "raw": "METAR ZUCK 042000Z 21002MPS 6000 BCFG BKN030 16/16 Q1022 NOSIG"}
