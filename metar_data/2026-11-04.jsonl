@@ -316,3 +316,10 @@
 {"ts_utc": "2026-11-04T04:44:44Z", "station": "WMKK", "obs_utc": "2026-11-04T04:30:00Z", "temp_c": 32, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 040430Z VRB02KT 9999 SCT018 32/25 Q1011 NOSIG"}
 {"ts_utc": "2026-11-04T04:44:44Z", "station": "ZBAA", "obs_utc": "2026-11-04T04:30:00Z", "temp_c": 12, "dewp_c": 7, "speci": false, "raw": "METAR ZBAA 040430Z VRB02MPS 5000 BR NSC 12/07 Q1017 NOSIG"}
 {"ts_utc": "2026-11-04T04:44:44Z", "station": "ZSPD", "obs_utc": "2026-11-04T04:30:00Z", "temp_c": 19, "dewp_c": 19, "speci": false, "raw": "METAR ZSPD 040430Z 12005MPS 9999 -SHRA SCT008 19/19 Q1016 NOSIG"}
+{"ts_utc": "2026-11-04T04:54:43Z", "station": "EDDM", "obs_utc": "2026-11-04T05:00:00Z", "temp_c": 5, "dewp_c": 1, "speci": false, "raw": "METAR EDDM 040450Z AUTO 08013KT 9999 OVC016 05/01 Q1025 NOSIG"}
+{"ts_utc": "2026-11-04T04:54:43Z", "station": "EFHK", "obs_utc": "2026-11-04T05:00:00Z", "temp_c": -1, "dewp_c": -1, "speci": false, "raw": "METAR EFHK 040450Z 32003KT 300V010 CAVOK M01/M01 Q1029 NOSIG"}
+{"ts_utc": "2026-11-04T04:54:43Z", "station": "EGLC", "obs_utc": "2026-11-04T05:00:00Z", "temp_c": 9, "dewp_c": 2, "speci": false, "raw": "METAR EGLC 040450Z AUTO 07010KT 9999 OVC041 09/02 Q1030"}
+{"ts_utc": "2026-11-04T04:54:43Z", "station": "KATL", "obs_utc": "2026-11-04T05:00:00Z", "temp_c": 20, "dewp_c": 18.3, "speci": false, "raw": "METAR KATL 040452Z 11009KT 10SM SCT013 BKN020 OVC050 20/18 A3009 RMK AO2 RAB0355E22 SLP186 P0000 T02000183 402220156 $"}
+{"ts_utc": "2026-11-04T04:54:43Z", "station": "KLGA", "obs_utc": "2026-11-04T05:00:00Z", "temp_c": 16.1, "dewp_c": 11.1, "speci": false, "raw": "METAR KLGA 040451Z 21005KT 10SM SCT250 16/11 A3022 RMK AO2 SLP231 T01610111 402110111"}
+{"ts_utc": "2026-11-04T04:54:43Z", "station": "KORD", "obs_utc": "2026-11-04T05:00:00Z", "temp_c": 18.9, "dewp_c": 16.7, "speci": false, "raw": "METAR KORD 040451Z 16010KT 10SM -RA BKN037 OVC045 19/17 A2974 RMK AO2 RAB23 SLP069 P0000 T01890167 $"}
+{"ts_utc": "2026-11-04T04:54:43Z", "station": "LLBG", "obs_utc": "2026-11-04T05:00:00Z", "temp_c": 19, "dewp_c": 16, "speci": false, "raw": "METAR LLBG 040450Z VRB03KT 9000 NSC 19/16 Q1018 NOSIG"}
