@@ -1377,3 +1377,10 @@
 {"ts_utc": "2026-11-04T20:19:16Z", "station": "KBKF", "obs_utc": "2026-11-04T20:00:00Z", "temp_c": 12.6, "dewp_c": 1, "speci": false, "raw": "METAR KBKF 041958Z VRB04KT 10SM FEW090 FEW140 SCT220 13/01 A2992 RMK AO2A SLP099 T01260010"}
 {"ts_utc": "2026-11-04T20:19:16Z", "station": "RCSS", "obs_utc": "2026-11-04T20:00:00Z", "temp_c": 23, "dewp_c": 20, "speci": false, "raw": "METAR RCSS 042000Z 22003KT 9999 FEW012 SCT025 23/20 Q1015 NOSIG RMK A3000"}
 {"ts_utc": "2026-11-04T20:19:16Z", "station": "RPLL", "obs_utc": "2026-11-04T20:00:00Z", "temp_c": 25, "dewp_c": 22, "speci": false, "raw": "METAR RPLL 042000Z 00000KT 9999 FEW025 25/22 Q1013 NOSIG RMK A2991"}
+{"ts_utc": "2026-11-04T20:26:08Z", "station": "EDDM", "obs_utc": "2026-11-04T20:20:00Z", "temp_c": 4, "dewp_c": 0, "speci": false, "raw": "METAR EDDM 042020Z AUTO 08007KT CAVOK 04/00 Q1026 NOSIG"}
+{"ts_utc": "2026-11-04T20:26:08Z", "station": "EFHK", "obs_utc": "2026-11-04T20:20:00Z", "temp_c": 7, "dewp_c": 5, "speci": false, "raw": "METAR EFHK 042020Z 29010KT CAVOK 07/05 Q1019 NOSIG"}
+{"ts_utc": "2026-11-04T20:26:08Z", "station": "EGLC", "obs_utc": "2026-11-04T20:20:00Z", "temp_c": 9, "dewp_c": 6, "speci": false, "raw": "METAR EGLC 042020Z AUTO 07007KT 9999 -RA BKN020 OVC028 09/06 Q1028"}
+{"ts_utc": "2026-11-04T20:26:08Z", "station": "LIMC", "obs_utc": "2026-11-04T20:20:00Z", "temp_c": 9, "dewp_c": 8, "speci": false, "raw": "METAR LIMC 042020Z 02006KT 9999 -DZ BKN060 09/08 Q1027 NOSIG"}
+{"ts_utc": "2026-11-04T20:26:08Z", "station": "LLBG", "obs_utc": "2026-11-04T20:20:00Z", "temp_c": 20, "dewp_c": 15, "speci": false, "raw": "METAR LLBG 042020Z VRB02KT CAVOK 20/15 Q1017 NOSIG"}
+{"ts_utc": "2026-11-04T20:26:08Z", "station": "LTAC", "obs_utc": "2026-11-04T20:20:00Z", "temp_c": 10, "dewp_c": 9, "speci": false, "raw": "METAR LTAC 042020Z 25005KT 9999 BKN030 BKN100 10/09 Q1016 RESHRA NOSIG"}
+{"ts_utc": "2026-11-04T20:26:08Z", "station": "LTFM", "obs_utc": "2026-11-04T20:20:00Z", "temp_c": 13, "dewp_c": 9, "speci": false, "raw": "METAR LTFM 042020Z 02022KT 9999 -SHRA BKN017 BKN028 13/09 Q1023 NOSIG"}

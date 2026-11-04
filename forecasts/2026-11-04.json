@@ -136,6 +136,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "atlanta": {
+   "bucket": "70-71°F",
+   "prob_pct": 70.0,
+   "last": 70.0,
+   "bid": 70.0,
+   "ask": 75.0,
+   "consensus": 69.4,
+   "fact": 70.0,
+   "kalshi": "71-72 @74 (офсет +1 → 70-71)",
+   "cut": "23:25 Минск",
+   "bet": null,
+   "note": "станция 70 в 19:52 UTC, 5-мин 21°C (69,8) плато; 72-73 на 24¢ — рынок закладывает тик, но дождь 86% и NBM 70,3; лидер. ТОП-4 down@30 68-69@19 проигрывает",
+   "ts_utc": "2026-11-04T20:27:00Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "down21": {
