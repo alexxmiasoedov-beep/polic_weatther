@@ -375,3 +375,8 @@
 {"ts_utc": "2026-11-05T05:12:17Z", "station": "ZHHH", "obs_utc": "2026-11-05T05:00:00Z", "temp_c": 18, "dewp_c": 15, "speci": false, "raw": "METAR ZHHH 050500Z 29002MPS 230V360 CAVOK 18/15 Q1021 NOSIG"}
 {"ts_utc": "2026-11-05T05:12:17Z", "station": "ZSPD", "obs_utc": "2026-11-05T05:00:00Z", "temp_c": 18, "dewp_c": 14, "speci": false, "raw": "METAR ZSPD 050500Z 29007MPS 9999 BKN023 18/14 Q1018 NOSIG"}
 {"ts_utc": "2026-11-05T05:12:17Z", "station": "ZUCK", "obs_utc": "2026-11-05T05:00:00Z", "temp_c": 17, "dewp_c": 16, "speci": false, "raw": "METAR ZUCK 050500Z 13002MPS 4000 BR SCT011 17/16 Q1021 NOSIG"}
+{"ts_utc": "2026-11-05T05:22:18Z", "station": "KBKF", "obs_utc": "2026-11-05T05:00:00Z", "temp_c": 5.5, "dewp_c": 0.2, "speci": false, "raw": "METAR KBKF 050458Z 00000KT 10SM SCT150 BKN200 06/00 A3003 RMK AO2A SLP146 T00550002"}
+{"ts_utc": "2026-11-05T05:22:18Z", "station": "WSSS", "obs_utc": "2026-11-05T05:10:00Z", "temp_c": 28, "dewp_c": 24, "speci": true, "raw": "SPECI WSSS 050510Z 01013KT 350V060 6000 -TSRA FEW014 SCT016TCU FEW017CB BKN270 28/24 Q1011 TEMPO FM0530 TL0600 3000 TSRA BECMG FM0600 TL0615 NSW"}
+{"ts_utc": "2026-11-05T05:22:18Z", "station": "KATL", "obs_utc": "2026-11-05T05:15:00Z", "temp_c": 21.1, "dewp_c": 20.6, "speci": true, "raw": "SPECI KATL 050515Z 18008KT 10SM BKN005 BKN012 OVC030 21/21 A2992 RMK AO2 RAE03 P0001 T02110206 $"}
+{"ts_utc": "2026-11-05T05:22:18Z", "station": "EFHK", "obs_utc": "2026-11-05T05:20:00Z", "temp_c": 5, "dewp_c": 4, "speci": false, "raw": "METAR EFHK 050520Z 29009KT CAVOK 05/04 Q1017 NOSIG"}
+{"ts_utc": "2026-11-05T05:22:18Z", "station": "LLBG", "obs_utc": "2026-11-05T05:20:00Z", "temp_c": 20, "dewp_c": 8, "speci": false, "raw": "METAR LLBG 050520Z VRB03KT CAVOK 20/08 Q1016 NOSIG"}
