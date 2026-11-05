@@ -469,3 +469,8 @@
 {"ts_utc": "2026-11-05T06:42:17Z", "station": "WMKK", "obs_utc": "2026-11-05T06:30:00Z", "temp_c": 28, "dewp_c": 26, "speci": false, "raw": "METAR WMKK 050630Z 29008KT 230V340 3000 1500W TSRA FEW008 FEW016CB SCT018 28/26 Q1008 TEMPO 2000 +TSRA"}
 {"ts_utc": "2026-11-05T06:42:17Z", "station": "ZBAA", "obs_utc": "2026-11-05T06:30:00Z", "temp_c": 18, "dewp_c": -12, "speci": false, "raw": "METAR ZBAA 050630Z 33008MPS CAVOK 18/M12 Q1018 NOSIG"}
 {"ts_utc": "2026-11-05T06:42:17Z", "station": "ZSPD", "obs_utc": "2026-11-05T06:30:00Z", "temp_c": 18, "dewp_c": 14, "speci": false, "raw": "METAR ZSPD 050630Z 30007MPS 9999 BKN023 18/14 Q1018 NOSIG"}
+{"ts_utc": "2026-11-05T06:52:17Z", "station": "CYYZ", "obs_utc": "2026-11-05T06:41:00Z", "temp_c": 17, "dewp_c": 16, "speci": true, "raw": "SPECI CYYZ 050641Z 20009KT 5SM -RA BR BKN008 OVC016 17/16 A2969 RMK SF5ST3 SLP055 DENSITY ALT 1200FT"}
+{"ts_utc": "2026-11-05T06:52:17Z", "station": "KLGA", "obs_utc": "2026-11-05T06:42:00Z", "temp_c": 17.2, "dewp_c": 16.1, "speci": true, "raw": "SPECI KLGA 050642Z 23007KT 10SM SCT007 BKN037 17/16 A2999 RMK AO2 T01720161"}
+{"ts_utc": "2026-11-05T06:52:17Z", "station": "KORD", "obs_utc": "2026-11-05T06:48:00Z", "temp_c": 11, "dewp_c": 9, "speci": true, "raw": "SPECI KORD 050648Z 22009KT 7SM BKN013 BKN018 OVC030 11/09 A2969 RMK AO2 DZB23E47 P0000 $"}
+{"ts_utc": "2026-11-05T06:52:17Z", "station": "EFHK", "obs_utc": "2026-11-05T07:00:00Z", "temp_c": 5, "dewp_c": 3, "speci": false, "raw": "METAR EFHK 050650Z 28008KT CAVOK 05/03 Q1018 NOSIG"}
+{"ts_utc": "2026-11-05T06:52:17Z", "station": "LLBG", "obs_utc": "2026-11-05T07:00:00Z", "temp_c": 23, "dewp_c": 10, "speci": false, "raw": "METAR LLBG 050650Z VRB01KT CAVOK 23/10 Q1016 NOSIG"}
