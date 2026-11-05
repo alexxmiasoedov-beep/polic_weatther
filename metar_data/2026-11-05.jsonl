@@ -810,3 +810,8 @@
 {"ts_utc": "2026-11-05T11:43:34Z", "station": "WMKK", "obs_utc": "2026-11-05T11:30:00Z", "temp_c": 24, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 051130Z VRB02KT 8000 -TSRA FEW008 FEW017CB SCT030 24/24 Q1011 NOSIG"}
 {"ts_utc": "2026-11-05T11:43:34Z", "station": "ZBAA", "obs_utc": "2026-11-05T11:30:00Z", "temp_c": 11, "dewp_c": -11, "speci": false, "raw": "METAR ZBAA 051130Z 02004MPS 340V050 CAVOK 11/M11 Q1023 NOSIG"}
 {"ts_utc": "2026-11-05T11:43:34Z", "station": "ZSPD", "obs_utc": "2026-11-05T11:30:00Z", "temp_c": 17, "dewp_c": 14, "speci": false, "raw": "METAR ZSPD 051130Z 27003MPS CAVOK 17/14 Q1021 NOSIG"}
+{"ts_utc": "2026-11-05T11:53:34Z", "station": "EDDM", "obs_utc": "2026-11-05T12:00:00Z", "temp_c": 9, "dewp_c": 3, "speci": false, "raw": "METAR EDDM 051150Z AUTO 10008KT CAVOK 09/03 Q1025 NOSIG"}
+{"ts_utc": "2026-11-05T11:53:34Z", "station": "EFHK", "obs_utc": "2026-11-05T12:00:00Z", "temp_c": 8, "dewp_c": 1, "speci": false, "raw": "METAR EFHK 051150Z 30014G25KT 9999 FEW030 08/01 Q1017 NOSIG"}
+{"ts_utc": "2026-11-05T11:53:34Z", "station": "KLGA", "obs_utc": "2026-11-05T12:00:00Z", "temp_c": 17.8, "dewp_c": 16.1, "speci": false, "raw": "METAR KLGA 051151Z 18008KT 10SM BKN013 BKN060 BKN200 18/16 A2995 RMK AO2 SLP141 T01780161 10183 20172 55007"}
+{"ts_utc": "2026-11-05T11:53:34Z", "station": "KORD", "obs_utc": "2026-11-05T12:00:00Z", "temp_c": 10.6, "dewp_c": 8.3, "speci": false, "raw": "METAR KORD 051151Z 22012KT 10SM BKN012 OVC034 11/08 A2970 RMK AO2 SLP057 60004 70006 T01060083 10111 20100 53004 $"}
+{"ts_utc": "2026-11-05T11:53:34Z", "station": "LLBG", "obs_utc": "2026-11-05T12:00:00Z", "temp_c": 25, "dewp_c": 14, "speci": false, "raw": "METAR LLBG 051150Z 28009KT CAVOK 25/14 Q1014 NOSIG"}
