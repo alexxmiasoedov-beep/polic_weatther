@@ -675,3 +675,5 @@
 {"ts_utc": "2026-11-05T09:42:17Z", "station": "WSSS", "obs_utc": "2026-11-05T09:30:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WSSS 050930Z 05007KT 010V080 5000 -TSRA FEW012 FEW015CB FEW016TCU BKN150 26/24 Q1009 RESHRA BECMG FM1000 TL1015 NSW"}
 {"ts_utc": "2026-11-05T09:42:17Z", "station": "ZBAA", "obs_utc": "2026-11-05T09:30:00Z", "temp_c": 12, "dewp_c": -10, "speci": false, "raw": "METAR ZBAA 050930Z 36007MPS CAVOK 12/M10 Q1021 NOSIG"}
 {"ts_utc": "2026-11-05T09:42:17Z", "station": "ZSPD", "obs_utc": "2026-11-05T09:30:00Z", "temp_c": 18, "dewp_c": 14, "speci": false, "raw": "METAR ZSPD 050930Z 29005MPS 9999 BKN040 18/14 Q1020 NOSIG"}
+{"ts_utc": "2026-11-05T09:52:17Z", "station": "EFHK", "obs_utc": "2026-11-05T10:00:00Z", "temp_c": 7, "dewp_c": 2, "speci": false, "raw": "METAR EFHK 050950Z 30012KT CAVOK 07/02 Q1018 NOSIG"}
+{"ts_utc": "2026-11-05T09:52:17Z", "station": "LLBG", "obs_utc": "2026-11-05T10:00:00Z", "temp_c": 26, "dewp_c": 12, "speci": false, "raw": "METAR LLBG 050950Z 33005KT 280V010 CAVOK 26/12 Q1015 NOSIG"}
