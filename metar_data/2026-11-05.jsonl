@@ -865,3 +865,12 @@
 {"ts_utc": "2026-11-05T12:33:34Z", "station": "LFPB", "obs_utc": "2026-11-05T12:30:00Z", "temp_c": 9, "dewp_c": 4, "speci": false, "raw": "METAR LFPB 051230Z AUTO 07009KT CAVOK 09/04 Q1023 NOSIG"}
 {"ts_utc": "2026-11-05T12:33:34Z", "station": "VHHH", "obs_utc": "2026-11-05T12:30:00Z", "temp_c": 28, "dewp_c": 21, "speci": false, "raw": "METAR VHHH 051230Z 20003KT 170V240 9999 FEW025 28/21 Q1017 NOSIG"}
 {"ts_utc": "2026-11-05T12:33:34Z", "station": "WSSS", "obs_utc": "2026-11-05T12:30:00Z", "temp_c": 25, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 051230Z VRB02KT 9999 FEW016 SCT070 25/25 Q1012 RETS NOSIG"}
+{"ts_utc": "2026-11-05T12:43:35Z", "station": "LEMD", "obs_utc": "2026-11-05T12:30:00Z", "temp_c": 14, "dewp_c": 3, "speci": false, "raw": "METAR LEMD 051230Z 22004KT CAVOK 14/03 Q1019 NOSIG"}
+{"ts_utc": "2026-11-05T12:43:35Z", "station": "NZWN", "obs_utc": "2026-11-05T12:30:00Z", "temp_c": 16, "dewp_c": 16, "speci": false, "raw": "METAR NZWN 051230Z AUTO 01014KT 3300 BR BKN008/// 16/16 Q1013"}
+{"ts_utc": "2026-11-05T12:43:35Z", "station": "RCSS", "obs_utc": "2026-11-05T12:30:00Z", "temp_c": 25, "dewp_c": 22, "speci": false, "raw": "METAR RCSS 051230Z 11011KT 9999 FEW013 BKN050 25/22 Q1019 NOSIG RMK A3009"}
+{"ts_utc": "2026-11-05T12:43:35Z", "station": "RJTT", "obs_utc": "2026-11-05T12:30:00Z", "temp_c": 17, "dewp_c": 15, "speci": false, "raw": "METAR RJTT 051230Z 04003KT 9999 FEW015 17/15 Q1006 NOSIG"}
+{"ts_utc": "2026-11-05T12:43:35Z", "station": "RKSI", "obs_utc": "2026-11-05T12:30:00Z", "temp_c": 15, "dewp_c": 12, "speci": false, "raw": "METAR RKSI 051230Z 30013KT 9999 -RA FEW017 BKN040 OVC100 15/12 Q1015 NOSIG"}
+{"ts_utc": "2026-11-05T12:43:35Z", "station": "UUWW", "obs_utc": "2026-11-05T12:30:00Z", "temp_c": 4, "dewp_c": 3, "speci": false, "raw": "METAR UUWW 051230Z 28005MPS 9999 SCT009 BKN026 04/03 Q1006 R24/290042 NOSIG"}
+{"ts_utc": "2026-11-05T12:43:35Z", "station": "WMKK", "obs_utc": "2026-11-05T12:30:00Z", "temp_c": 25, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 051230Z COR VRB02KT 7000 -RA FEW010 FEW017CB SCT030 25/24 Q1012 NOSIG"}
+{"ts_utc": "2026-11-05T12:43:35Z", "station": "ZBAA", "obs_utc": "2026-11-05T12:30:00Z", "temp_c": 9, "dewp_c": -11, "speci": false, "raw": "METAR ZBAA 051230Z 02003MPS CAVOK 09/M11 Q1024 NOSIG"}
+{"ts_utc": "2026-11-05T12:43:35Z", "station": "ZSPD", "obs_utc": "2026-11-05T12:30:00Z", "temp_c": 16, "dewp_c": 14, "speci": false, "raw": "METAR ZSPD 051230Z 27002MPS CAVOK 16/14 Q1022 NOSIG"}
