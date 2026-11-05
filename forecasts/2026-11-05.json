@@ -68,6 +68,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "san-francisco": {
+   "bucket": "68-69°F",
+   "prob_pct": 72.0,
+   "last": 72.0,
+   "bid": 53.0,
+   "ask": 74.0,
+   "consensus": 70.4,
+   "fact": 63.0,
+   "kalshi": "68-69 @45, 70-71 @44",
+   "cut": "23:07 Минск",
+   "bet": null,
+   "note": "лидер ПМ; станция 63 в 19:56 UTC (полдень), 5-мин 17°C — на 1°F холоднее вчерашнего полдня (итог 67); медиана 70,4, NBM 69,4; 70-71 на 49¢ по last, стакан 29/41. По SFO только лидер",
+   "ts_utc": "2026-11-05T20:07:00Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "down21": {
