@@ -1483,3 +1483,6 @@
 {"ts_utc": "2026-11-06T21:25:52Z", "station": "LTAC", "obs_utc": "2026-11-06T21:20:00Z", "temp_c": 4, "dewp_c": 0, "speci": false, "raw": "METAR LTAC 062120Z 32003KT 9999 SCT033 04/M00 Q1016 NOSIG"}
 {"ts_utc": "2026-11-06T21:25:52Z", "station": "LTFM", "obs_utc": "2026-11-06T21:20:00Z", "temp_c": 10, "dewp_c": 5, "speci": false, "raw": "METAR LTFM 062120Z 04009KT 9999 -SHRA BKN025 10/05 Q1021 NOSIG"}
 {"ts_utc": "2026-11-06T21:25:52Z", "station": "KSEA", "obs_utc": "2026-11-06T21:21:00Z", "temp_c": 11.1, "dewp_c": 10, "speci": true, "raw": "SPECI KSEA 062121Z 31006KT 3SM -RA BR BKN025 OVC033 11/10 A3003 RMK AO2 P0001 T01110100 $"}
+{"ts_utc": "2026-11-06T21:32:02Z", "station": "EHAM", "obs_utc": "2026-11-06T21:25:00Z", "temp_c": 4, "dewp_c": 3, "speci": false, "raw": "METAR EHAM 062125Z 09004KT 9000 NSC 04/03 Q1024 NOSIG"}
+{"ts_utc": "2026-11-06T21:32:02Z", "station": "KSEA", "obs_utc": "2026-11-06T21:29:00Z", "temp_c": 11.1, "dewp_c": 10, "speci": true, "raw": "SPECI KSEA 062129Z 34006KT 2SM R16L/5000VP6000FT RA BR BKN025 OVC033 11/10 A3004 RMK AO2 P0003 T01110100 $"}
+{"ts_utc": "2026-11-06T21:32:02Z", "station": "WSSS", "obs_utc": "2026-11-06T21:30:00Z", "temp_c": 25, "dewp_c": 24, "speci": false, "raw": "METAR WSSS 062130Z 30004KT 7000 FEW016 BKN150 25/24 Q1010 NOSIG"}
