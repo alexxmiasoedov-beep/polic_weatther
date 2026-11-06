@@ -1433,3 +1433,5 @@
 {"ts_utc": "2026-11-06T20:42:01Z", "station": "ZBAA", "obs_utc": "2026-11-06T20:30:00Z", "temp_c": 0, "dewp_c": -4, "speci": false, "raw": "METAR ZBAA 062030Z 02001MPS CAVOK M00/M04 Q1032 NOSIG"}
 {"ts_utc": "2026-11-06T20:42:01Z", "station": "ZSPD", "obs_utc": "2026-11-06T20:30:00Z", "temp_c": 17, "dewp_c": 11, "speci": false, "raw": "METAR ZSPD 062030Z 07006MPS CAVOK 17/11 Q1029 NOSIG"}
 {"ts_utc": "2026-11-06T20:42:01Z", "station": "UUWW", "obs_utc": "2026-11-06T20:38:00Z", "temp_c": 0, "dewp_c": -1, "speci": true, "raw": "SPECI UUWW 062038Z 34005MPS 9999 SCT012 OVC036 00/M01 Q1014 R06/290045 NOSIG"}
+{"ts_utc": "2026-11-06T20:52:01Z", "station": "EFHK", "obs_utc": "2026-11-06T21:00:00Z", "temp_c": -1, "dewp_c": -1, "speci": false, "raw": "METAR EFHK 062050Z 27006KT CAVOK M01/M01 Q1024 NOSIG"}
+{"ts_utc": "2026-11-06T20:52:01Z", "station": "LLBG", "obs_utc": "2026-11-06T21:00:00Z", "temp_c": 19, "dewp_c": 16, "speci": false, "raw": "METAR LLBG 062050Z 17006KT 9999 FEW035 19/16 Q1011 TEMPO 7000 RA FEW025TCU RMK SCT100"}
