@@ -719,3 +719,5 @@
 {"ts_utc": "2026-11-06T10:08:54Z", "station": "ZHHH", "obs_utc": "2026-11-06T10:00:00Z", "temp_c": 20, "dewp_c": 12, "speci": false, "raw": "METAR ZHHH 061000Z 13002MPS 070V140 CAVOK 20/12 Q1022 NOSIG"}
 {"ts_utc": "2026-11-06T10:08:54Z", "station": "ZSPD", "obs_utc": "2026-11-06T10:00:00Z", "temp_c": 18, "dewp_c": 10, "speci": false, "raw": "METAR ZSPD 061000Z 08006MPS CAVOK 18/10 Q1027 NOSIG"}
 {"ts_utc": "2026-11-06T10:08:54Z", "station": "ZUCK", "obs_utc": "2026-11-06T10:00:00Z", "temp_c": 18, "dewp_c": 15, "speci": false, "raw": "METAR ZUCK 061000Z 10002MPS 070V160 CAVOK 18/15 Q1020 NOSIG"}
+{"ts_utc": "2026-11-06T10:10:29Z", "station": "RCSS", "obs_utc": "2026-11-06T10:00:00Z", "temp_c": 23, "dewp_c": 19, "speci": false, "raw": "METAR RCSS 061000Z 10014KT 9999 VCSH FEW016 SCT037 BKN080 23/19 Q1021 NOSIG RMK A3016"}
+{"ts_utc": "2026-11-06T10:10:29Z", "station": "CYYZ", "obs_utc": "2026-11-06T10:09:00Z", "temp_c": 11, "dewp_c": 9, "speci": true, "raw": "SPECI CYYZ 061009Z 26007KT 12SM SCT015 OVC045 11/09 A2979 RMK SC3SC5 SLP091"}
