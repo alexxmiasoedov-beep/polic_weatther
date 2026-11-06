@@ -1,0 +1,3 @@
+{"ts_utc": "2026-11-06T23:53:25Z", "station": "EDDM", "obs_utc": "2026-11-07T00:00:00Z", "temp_c": 3, "dewp_c": 2, "speci": false, "raw": "METAR EDDM 062350Z AUTO 05004KT 7000 FEW011 OVC017 03/02 Q1022 NOSIG"}
+{"ts_utc": "2026-11-06T23:53:25Z", "station": "EFHK", "obs_utc": "2026-11-07T00:00:00Z", "temp_c": 0, "dewp_c": -1, "speci": false, "raw": "METAR EFHK 062350Z 24005KT 9999 FEW004 M00/M01 Q1022 NOSIG"}
+{"ts_utc": "2026-11-06T23:53:25Z", "station": "LLBG", "obs_utc": "2026-11-07T00:00:00Z", "temp_c": 18, "dewp_c": 15, "speci": false, "raw": "METAR LLBG 062350Z 18011KT 9999 SCT035 18/15 Q1011 TEMPO 7000 TSRA FEW025CB RMK SCT070"}
