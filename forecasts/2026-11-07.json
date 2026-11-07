@@ -153,6 +153,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "austin": {
+   "bucket": "70-71°F",
+   "prob_pct": 98.0,
+   "last": 98.0,
+   "bid": 98.0,
+   "ask": 99.0,
+   "consensus": 70.3,
+   "fact": 70.0,
+   "kalshi": "70-71 @98",
+   "cut": "00:25 Минск",
+   "bet": null,
+   "note": "станция 63→65→69→69→70 (20:53 UTC), 5-мин 21°C (69,8) плато; рынок решился на 70-71 в 21:00 UTC после качания с 68-69; медиана 70,3 — точно; Kalshi 98 согласен",
+   "ts_utc": "2026-11-07T21:27:00Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "down21": {
