@@ -963,3 +963,7 @@
 {"ts_utc": "2026-11-07T14:36:14Z", "station": "WSSS", "obs_utc": "2026-11-07T14:30:00Z", "temp_c": 29, "dewp_c": 24, "speci": false, "raw": "METAR WSSS 071430Z 03006KT 350V060 9999 FEW018 BKN300 29/24 Q1012 NOSIG"}
 {"ts_utc": "2026-11-07T14:36:14Z", "station": "ZBAA", "obs_utc": "2026-11-07T14:30:00Z", "temp_c": 2, "dewp_c": 1, "speci": false, "raw": "METAR ZBAA 071430Z 35003MPS 5000 -RA BR SCT010 OVC026 02/01 Q1035 NOSIG"}
 {"ts_utc": "2026-11-07T14:36:14Z", "station": "ZSPD", "obs_utc": "2026-11-07T14:30:00Z", "temp_c": 18, "dewp_c": 11, "speci": false, "raw": "METAR ZSPD 071430Z 11005MPS CAVOK 18/11 Q1030 NOSIG"}
+{"ts_utc": "2026-11-07T14:46:14Z", "station": "RCSS", "obs_utc": "2026-11-07T14:30:00Z", "temp_c": 23, "dewp_c": 19, "speci": false, "raw": "METAR RCSS 071430Z 10014KT 9999 FEW018 SCT045 23/19 Q1023 NOSIG RMK A3023"}
+{"ts_utc": "2026-11-07T14:46:14Z", "station": "RJTT", "obs_utc": "2026-11-07T14:30:00Z", "temp_c": 13, "dewp_c": 2, "speci": false, "raw": "METAR RJTT 071430Z 33018KT 9999 BKN045 13/02 Q1025 NOSIG"}
+{"ts_utc": "2026-11-07T14:46:14Z", "station": "WMKK", "obs_utc": "2026-11-07T14:30:00Z", "temp_c": 25, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 071430Z 00000KT 7000 -TSRA FEW008 FEW017CB SCT030 25/24 Q1011 NOSIG"}
+{"ts_utc": "2026-11-07T14:46:14Z", "station": "MMMX", "obs_utc": "2026-11-07T14:37:00Z", "temp_c": 11, "dewp_c": 10, "speci": true, "raw": "SPECI MMMX 071437Z 07005KT 1/2SM FG VV006 11/10 A3035 BECMG 1 1/2SM BR HZ RMK 8//// TWR VIS"}
