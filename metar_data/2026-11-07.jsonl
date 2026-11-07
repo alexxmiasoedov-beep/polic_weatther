@@ -1401,3 +1401,11 @@
 {"ts_utc": "2026-11-07T20:27:42Z", "station": "LTFM", "obs_utc": "2026-11-07T20:20:00Z", "temp_c": 8, "dewp_c": -2, "speci": false, "raw": "METAR LTFM 072020Z 01015KT 9999 BKN035 08/M02 Q1028 NOSIG"}
 {"ts_utc": "2026-11-07T20:27:42Z", "station": "EHAM", "obs_utc": "2026-11-07T20:25:00Z", "temp_c": 5, "dewp_c": 4, "speci": false, "raw": "METAR EHAM 072025Z 15003KT 2800 BR SCT004 BKN036 05/04 Q1022 TEMPO BKN003"}
 {"ts_utc": "2026-11-07T20:27:42Z", "station": "UUWW", "obs_utc": "2026-11-07T20:26:00Z", "temp_c": 0, "dewp_c": -1, "speci": true, "raw": "SPECI UUWW 072026Z 23004MPS 9999 BKN008 M00/M01 Q1017 R24/290045 NOSIG"}
+{"ts_utc": "2026-11-07T20:26:24Z", "station": "EDDM", "obs_utc": "2026-11-07T20:20:00Z", "temp_c": 5, "dewp_c": 4, "speci": false, "raw": "METAR EDDM 072020Z AUTO 06004KT 8000 OVC017 05/04 Q1025 NOSIG"}
+{"ts_utc": "2026-11-07T20:26:24Z", "station": "EFHK", "obs_utc": "2026-11-07T20:20:00Z", "temp_c": 6, "dewp_c": 3, "speci": false, "raw": "METAR EFHK 072020Z 29006KT 9999 BKN019 06/03 Q1018 NOSIG"}
+{"ts_utc": "2026-11-07T20:26:24Z", "station": "EGLC", "obs_utc": "2026-11-07T20:20:00Z", "temp_c": 9, "dewp_c": 7, "speci": false, "raw": "METAR EGLC 072020Z AUTO VRB01KT 4500 HZ NCD 09/07 Q1022"}
+{"ts_utc": "2026-11-07T20:26:24Z", "station": "LIMC", "obs_utc": "2026-11-07T20:20:00Z", "temp_c": 8, "dewp_c": 7, "speci": false, "raw": "METAR LIMC 072020Z 03002KT 9999 FEW025 SCT060 08/07 Q1026 NOSIG"}
+{"ts_utc": "2026-11-07T20:26:24Z", "station": "LLBG", "obs_utc": "2026-11-07T20:20:00Z", "temp_c": 16, "dewp_c": 15, "speci": false, "raw": "METAR LLBG 072020Z 16010KT 9999 FEW050 16/15 Q1015 RERA NOSIG RMK SCT080"}
+{"ts_utc": "2026-11-07T20:26:24Z", "station": "LTAC", "obs_utc": "2026-11-07T20:20:00Z", "temp_c": 1, "dewp_c": -5, "speci": false, "raw": "METAR LTAC 072020Z 36005KT 9999 SCT040 BKN080 01/M05 Q1020 NOSIG"}
+{"ts_utc": "2026-11-07T20:26:24Z", "station": "LTFM", "obs_utc": "2026-11-07T20:20:00Z", "temp_c": 8, "dewp_c": -2, "speci": false, "raw": "METAR LTFM 072020Z 01015KT 9999 BKN035 08/M02 Q1028 NOSIG"}
+{"ts_utc": "2026-11-07T20:26:24Z", "station": "UUWW", "obs_utc": "2026-11-07T20:26:00Z", "temp_c": 0, "dewp_c": -1, "speci": true, "raw": "SPECI UUWW 072026Z 23004MPS 9999 BKN008 M00/M01 Q1017 R24/290045 NOSIG"}
