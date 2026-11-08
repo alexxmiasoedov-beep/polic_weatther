@@ -1290,3 +1290,11 @@
 {"ts_utc": "2026-11-08T19:56:26Z", "station": "LIMC", "obs_utc": "2026-11-08T20:00:00Z", "temp_c": 5, "dewp_c": 4, "speci": false, "raw": "METAR LIMC 081950Z VRB02KT 9999 MIFG NSC 05/04 Q1025 NOSIG"}
 {"ts_utc": "2026-11-08T19:56:26Z", "station": "LTAC", "obs_utc": "2026-11-08T20:00:00Z", "temp_c": -1, "dewp_c": -5, "speci": false, "raw": "METAR LTAC 081950Z 33003KT 300V020 CAVOK M01/M05 Q1029 NOSIG"}
 {"ts_utc": "2026-11-08T19:56:26Z", "station": "LTFM", "obs_utc": "2026-11-08T20:00:00Z", "temp_c": 6, "dewp_c": 4, "speci": false, "raw": "METAR LTFM 081950Z 17005KT 9999 SCT040 06/04 Q1031 NOSIG"}
+{"ts_utc": "2026-11-08T20:03:27Z", "station": "MMMX", "obs_utc": "2026-11-08T19:40:00Z", "temp_c": 24, "dewp_c": 7, "speci": false, "raw": "METAR MMMX 081940Z 04004KT 6SM SCT015 SCT200 24/07 A3024 NOSIG RMK 8/102 HZY MDT CU ARND"}
+{"ts_utc": "2026-11-08T20:03:27Z", "station": "EHAM", "obs_utc": "2026-11-08T20:00:00Z", "temp_c": 7, "dewp_c": 6, "speci": false, "raw": "METAR EHAM 081955Z 17006KT 6000 FEW019 07/06 Q1022 NOSIG"}
+{"ts_utc": "2026-11-08T20:03:27Z", "station": "EPWA", "obs_utc": "2026-11-08T20:00:00Z", "temp_c": 1, "dewp_c": -1, "speci": false, "raw": "METAR EPWA 082000Z 12006KT CAVOK 01/M01 Q1028 NOSIG"}
+{"ts_utc": "2026-11-08T20:03:27Z", "station": "KSFO", "obs_utc": "2026-11-08T20:00:00Z", "temp_c": 17.2, "dewp_c": 13.9, "speci": false, "raw": "METAR KSFO 081956Z 06005KT 10SM FEW008 BKN200 17/14 A3013 RMK AO2 SLP203 T01720139"}
+{"ts_utc": "2026-11-08T20:03:27Z", "station": "LFPB", "obs_utc": "2026-11-08T20:00:00Z", "temp_c": 7, "dewp_c": 5, "speci": false, "raw": "METAR LFPB 082000Z AUTO 11007KT 9999 OVC010 07/05 Q1022"}
+{"ts_utc": "2026-11-08T20:03:27Z", "station": "SBGR", "obs_utc": "2026-11-08T20:00:00Z", "temp_c": 16, "dewp_c": 14, "speci": false, "raw": "METAR SBGR 082000Z 16007KT 9999 BKN011 BKN070 16/14 Q1021"}
+{"ts_utc": "2026-11-08T20:03:27Z", "station": "VHHH", "obs_utc": "2026-11-08T20:00:00Z", "temp_c": 26, "dewp_c": 16, "speci": false, "raw": "METAR VHHH 082000Z 02018KT 9999 FEW020 SCT035 26/16 Q1022 TEMPO 01020G30KT"}
+{"ts_utc": "2026-11-08T20:03:27Z", "station": "WSSS", "obs_utc": "2026-11-08T20:00:00Z", "temp_c": 27, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 082000Z VRB02KT 8000 FEW018 BKN300 27/25 Q1010 NOSIG"}
