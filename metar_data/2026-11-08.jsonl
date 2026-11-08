@@ -1064,3 +1064,5 @@
 {"ts_utc": "2026-11-08T16:13:26Z", "station": "ZSPD", "obs_utc": "2026-11-08T16:00:00Z", "temp_c": 17, "dewp_c": 15, "speci": false, "raw": "METAR ZSPD 081600Z 30007MPS 9999 BKN015 17/15 Q1027 BECMG TL1630 BKN013"}
 {"ts_utc": "2026-11-08T16:13:26Z", "station": "ZUCK", "obs_utc": "2026-11-08T16:00:00Z", "temp_c": 14, "dewp_c": 11, "speci": false, "raw": "METAR ZUCK 081600Z 21002MPS 160V260 9999 -RA FEW050 14/11 Q1039 NOSIG"}
 {"ts_utc": "2026-11-08T16:13:26Z", "station": "MMMX", "obs_utc": "2026-11-08T16:08:00Z", "temp_c": 21, "dewp_c": 10, "speci": true, "raw": "SPECI MMMX 081608Z 00000KT 5SM FEW015 SCT200 21/10 A3033 NOSIG RMK 8/102 HZY"}
+{"ts_utc": "2026-11-08T16:23:26Z", "station": "EFHK", "obs_utc": "2026-11-08T16:20:00Z", "temp_c": 3, "dewp_c": 3, "speci": false, "raw": "METAR EFHK 081620Z 23006KT 9999 FEW009 03/03 Q1021 BECMG BKN006"}
+{"ts_utc": "2026-11-08T16:23:26Z", "station": "LLBG", "obs_utc": "2026-11-08T16:20:00Z", "temp_c": 19, "dewp_c": 12, "speci": false, "raw": "METAR LLBG 081620Z 02011KT 9999 FEW041 19/12 Q1021 NOSIG RMK SCT060"}
