@@ -136,6 +136,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "atlanta": {
+   "bucket": "70-71°F",
+   "prob_pct": 97.7,
+   "last": 97.7,
+   "bid": 94.0,
+   "ask": 97.6,
+   "consensus": 69.35,
+   "fact": 70.0,
+   "kalshi": "70-71 @84",
+   "cut": "23:25 Минск",
+   "bet": null,
+   "note": "станция 62→66→68→70 (18:52) → 69 (19:52 UTC), 5-мин 21°C плато — пик пройден; рынок закрыт на 70-71 с 20:03 UTC; медиана 69,35, NBM 70,1. «Стабильный» 68-69@56 ❌",
+   "ts_utc": "2026-11-08T20:27:00Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "down21": {
