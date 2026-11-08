@@ -1378,3 +1378,7 @@
 {"ts_utc": "2026-11-08T21:14:58Z", "station": "ZHHH", "obs_utc": "2026-11-08T21:00:00Z", "temp_c": 7, "dewp_c": 3, "speci": false, "raw": "METAR ZHHH 082100Z 01004MPS 330V040 CAVOK 07/03 Q1041 NOSIG"}
 {"ts_utc": "2026-11-08T21:14:58Z", "station": "ZSPD", "obs_utc": "2026-11-08T21:00:00Z", "temp_c": 15, "dewp_c": 15, "speci": false, "raw": "METAR ZSPD 082100Z 32009MPS 9999 -RA BKN009 15/15 Q1028 BECMG TL2150 BKN010"}
 {"ts_utc": "2026-11-08T21:14:58Z", "station": "ZUCK", "obs_utc": "2026-11-08T21:00:00Z", "temp_c": 13, "dewp_c": 13, "speci": false, "raw": "METAR ZUCK 082100Z 17002MPS 5000 BR BCFG FEW003 13/13 Q1039 NOSIG"}
+{"ts_utc": "2026-11-08T21:24:58Z", "station": "MMMX", "obs_utc": "2026-11-08T21:15:00Z", "temp_c": 24, "dewp_c": 7, "speci": true, "raw": "SPECI MMMX 082115Z 33008KT 6SM SCT020CB 24/07 A3019 NOSIG RMK 8/300 HZY AC PCPN SE"}
+{"ts_utc": "2026-11-08T21:24:58Z", "station": "EDDM", "obs_utc": "2026-11-08T21:20:00Z", "temp_c": 0, "dewp_c": 0, "speci": false, "raw": "METAR EDDM 082120Z AUTO 05003KT 1000 0550 R08L/1100D R08R/P2000N BCFG NSC 00/M00 Q1023 BECMG 0700 FG"}
+{"ts_utc": "2026-11-08T21:24:58Z", "station": "EFHK", "obs_utc": "2026-11-08T21:20:00Z", "temp_c": 4, "dewp_c": 3, "speci": false, "raw": "METAR EFHK 082120Z 27006KT 9999 FEW004 BKN006 04/03 Q1021 NOSIG"}
+{"ts_utc": "2026-11-08T21:24:58Z", "station": "LLBG", "obs_utc": "2026-11-08T21:20:00Z", "temp_c": 16, "dewp_c": 10, "speci": false, "raw": "METAR LLBG 082120Z 07004KT CAVOK 16/10 Q1023 NOSIG"}
