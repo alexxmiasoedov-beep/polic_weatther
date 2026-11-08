@@ -1322,3 +1322,10 @@
 {"ts_utc": "2026-11-08T20:26:23Z", "station": "LIMC", "obs_utc": "2026-11-08T20:20:00Z", "temp_c": 4, "dewp_c": 3, "speci": false, "raw": "METAR LIMC 082020Z 03003KT 010V090 9999 MIFG NSC 04/03 Q1025 NOSIG"}
 {"ts_utc": "2026-11-08T20:26:23Z", "station": "LTAC", "obs_utc": "2026-11-08T20:20:00Z", "temp_c": -2, "dewp_c": -5, "speci": false, "raw": "METAR LTAC 082020Z 07004KT 040V100 CAVOK M02/M05 Q1029 NOSIG"}
 {"ts_utc": "2026-11-08T20:26:23Z", "station": "LTFM", "obs_utc": "2026-11-08T20:20:00Z", "temp_c": 5, "dewp_c": 4, "speci": false, "raw": "METAR LTFM 082020Z 18005KT 9999 SCT040 05/04 Q1031 NOSIG"}
+{"ts_utc": "2026-11-08T20:33:27Z", "station": "EGLC", "obs_utc": "2026-11-08T20:20:00Z", "temp_c": 7, "dewp_c": 6, "speci": false, "raw": "METAR EGLC 082020Z AUTO VRB01KT 4600 HZ NCD 07/06 Q1021"}
+{"ts_utc": "2026-11-08T20:33:27Z", "station": "EHAM", "obs_utc": "2026-11-08T20:25:00Z", "temp_c": 7, "dewp_c": 6, "speci": false, "raw": "METAR EHAM 082025Z 17008KT 6000 FEW019 07/06 Q1022 NOSIG"}
+{"ts_utc": "2026-11-08T20:33:27Z", "station": "EPWA", "obs_utc": "2026-11-08T20:30:00Z", "temp_c": 0, "dewp_c": -2, "speci": false, "raw": "METAR EPWA 082030Z 12005KT CAVOK M00/M02 Q1028 NOSIG"}
+{"ts_utc": "2026-11-08T20:33:27Z", "station": "LFPB", "obs_utc": "2026-11-08T20:30:00Z", "temp_c": 7, "dewp_c": 5, "speci": false, "raw": "METAR LFPB 082030Z AUTO 10006KT 070V130 9999 OVC011 07/05 Q1022"}
+{"ts_utc": "2026-11-08T20:33:27Z", "station": "MMMX", "obs_utc": "2026-11-08T20:30:00Z", "temp_c": 26, "dewp_c": 6, "speci": true, "raw": "SPECI MMMX 082030Z 20005KT 6SM SCT020TCU 26/06 A3020 NOSIG RMK 8/200 HZY AC"}
+{"ts_utc": "2026-11-08T20:33:27Z", "station": "VHHH", "obs_utc": "2026-11-08T20:30:00Z", "temp_c": 26, "dewp_c": 16, "speci": false, "raw": "METAR VHHH 082030Z 02012KT 9999 FEW020 SCT040 26/16 Q1022 TEMPO 01020G30KT"}
+{"ts_utc": "2026-11-08T20:33:27Z", "station": "WSSS", "obs_utc": "2026-11-08T20:30:00Z", "temp_c": 27, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 082030Z 32003KT 290V360 7000 FEW018 BKN300 27/25 Q1010 NOSIG"}
