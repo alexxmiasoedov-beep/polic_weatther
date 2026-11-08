@@ -894,3 +894,6 @@
 {"ts_utc": "2026-11-08T13:42:05Z", "station": "ZSPD", "obs_utc": "2026-11-08T13:30:00Z", "temp_c": 17, "dewp_c": 16, "speci": false, "raw": "METAR ZSPD 081330Z 30005MPS 9999 BKN013 17/16 Q1027 NOSIG"}
 {"ts_utc": "2026-11-08T13:42:05Z", "station": "KAUS", "obs_utc": "2026-11-08T13:32:00Z", "temp_c": 15, "dewp_c": 14.4, "speci": true, "raw": "SPECI KAUS 081332Z 06011KT 5SM -RA BR FEW004 SCT010 OVC120 15/14 A3017 RMK AO2 P0000 T01500144 $"}
 {"ts_utc": "2026-11-08T13:42:05Z", "station": "KMIA", "obs_utc": "2026-11-08T13:32:00Z", "temp_c": 26.1, "dewp_c": 20.6, "speci": true, "raw": "SPECI KMIA 081332Z 02003KT 10SM FEW025 BKN055 26/21 A3000 RMK AO2 T02610206 $"}
+{"ts_utc": "2026-11-08T13:52:05Z", "station": "SBGR", "obs_utc": "2026-11-08T13:45:00Z", "temp_c": 16, "dewp_c": 15, "speci": true, "raw": "SPECI SBGR 081345Z 19002KT 4000 -RA BR BKN008 OVC013 16/15 Q1021"}
+{"ts_utc": "2026-11-08T13:52:05Z", "station": "EFHK", "obs_utc": "2026-11-08T14:00:00Z", "temp_c": 5, "dewp_c": 4, "speci": false, "raw": "METAR EFHK 081350Z 29010KT 9999 BKN009 05/04 Q1021 NOSIG"}
+{"ts_utc": "2026-11-08T13:52:05Z", "station": "LLBG", "obs_utc": "2026-11-08T14:00:00Z", "temp_c": 21, "dewp_c": 12, "speci": false, "raw": "METAR LLBG 081350Z 33007KT 9999 FEW040 21/12 Q1019 NOSIG RMK SCT054 BKN063"}
