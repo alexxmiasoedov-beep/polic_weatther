@@ -51,7 +51,10 @@ jobs:
             TICK=$(date +%s)
             git pull --rebase -q || true
             timeout 480 python collector.py || echo "WARN: collector rc=$?"
-            git add data/ pilot_data/ observe_data/ metar_data/ observe_cities.json
+            # 09.11: бумажный журнал «станция выше лидера» (station_edge.py) —
+            # сигнал по свежим METAR и ценам сразу после сбора, резолв закрытых
+            timeout 120 python station_edge.py --scan --resolve || echo "WARN: station_edge rc=$?"
+            git add data/ pilot_data/ observe_data/ metar_data/ observe_cities.json station_edge/
             if ! git diff --cached --quiet; then
               git commit -qm "snapshot $(date -u +'%Y-%m-%d %H:%M') UTC"
               for i in 1 2 3 4; do

@@ -5,3 +5,4 @@ data/*.jsonl        merge=union
 pilot_data/*.jsonl  merge=union
 observe_data/*.jsonl merge=union
 metar_data/*.jsonl  merge=union
+station_edge/*.jsonl merge=union
