@@ -51,6 +51,23 @@
    "winner": "31°C",
    "hit": false,
    "pnl_pick": -1.0
+  },
+  "miami": {
+   "bucket": "84-85°F",
+   "prob_pct": 85,
+   "last": 87.0,
+   "bid": 78.0,
+   "ask": 87.0,
+   "consensus": "84.8°F (медиана 9 моделей, NBM 82.5)",
+   "fact": "KMIA 11:40 local 29°C=84.2°F, рост",
+   "kalshi": "85-86 по 88¢ (согласна)",
+   "cut": "20:07 Минск",
+   "bet": null,
+   "note": "плато Майами 85; лидер PM, Kalshi и станция согласны",
+   "ts_utc": "2026-11-09T17:06:01Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "down21": {
