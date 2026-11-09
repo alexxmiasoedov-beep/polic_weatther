@@ -1408,3 +1408,7 @@
 {"ts_utc": "2026-11-09T21:11:58Z", "station": "ZSPD", "obs_utc": "2026-11-09T21:00:00Z", "temp_c": 9, "dewp_c": 2, "speci": false, "raw": "METAR ZSPD 092100Z 31007MPS CAVOK 09/02 Q1031 NOSIG"}
 {"ts_utc": "2026-11-09T21:11:58Z", "station": "ZUCK", "obs_utc": "2026-11-09T21:00:00Z", "temp_c": 13, "dewp_c": 11, "speci": false, "raw": "METAR ZUCK 092100Z 16001MPS 9999 SCT018 13/11 Q1033 NOSIG"}
 {"ts_utc": "2026-11-09T21:11:58Z", "station": "FACT", "obs_utc": "2026-11-09T21:05:00Z", "temp_c": 18, "dewp_c": 16, "speci": true, "raw": "SPECI FACT 092105Z 18014KT 9999 BKN010 18/16 Q1020 NOSIG"}
+{"ts_utc": "2026-11-09T21:21:58Z", "station": "FACT", "obs_utc": "2026-11-09T21:00:00Z", "temp_c": 18, "dewp_c": 16, "speci": false, "raw": "METAR FACT 092100Z 18014KT 9999 BKN010 18/16 Q1020 NOSIG"}
+{"ts_utc": "2026-11-09T21:21:58Z", "station": "KBKF", "obs_utc": "2026-11-09T21:00:00Z", "temp_c": 23.8, "dewp_c": -9.7, "speci": false, "raw": "METAR KBKF 092058Z 12010KT 10SM FEW160 FEW220 24/M10 A3014 RMK AO2A SLP149 T02381097 57021"}
+{"ts_utc": "2026-11-09T21:21:58Z", "station": "EFHK", "obs_utc": "2026-11-09T21:20:00Z", "temp_c": 5, "dewp_c": 1, "speci": false, "raw": "METAR EFHK 092120Z 24007KT 9999 BKN024 05/01 Q1016 NOSIG"}
+{"ts_utc": "2026-11-09T21:21:58Z", "station": "LLBG", "obs_utc": "2026-11-09T21:20:00Z", "temp_c": 14, "dewp_c": 7, "speci": false, "raw": "METAR LLBG 092120Z VRB02KT CAVOK 14/07 Q1024 NOSIG"}
