@@ -1,6 +1,58 @@
 {
  "date": "2026-11-09",
- "picks": {},
+ "picks": {
+  "singapore": {
+   "bucket": "31°C",
+   "prob_pct": 50.0,
+   "last": 50.0,
+   "bid": 49.0,
+   "ask": 51.0,
+   "consensus": 29.85,
+   "fact": 29.0,
+   "kalshi": null,
+   "cut": "04:07 Минск",
+   "bet": null,
+   "note": "лидер 31 (50¢) vs 32 (32¢), 30 (19¢); модели 29,85 (сырые 30,0) — ниже; WSSS 09:00 местн. 29°C (вчера 28 → факт 30). Лидер. «НИЖЕ» M1 30@23",
+   "ts_utc": "2026-11-09T01:08:00Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  },
+  "tel-aviv": {
+   "bucket": "22°C",
+   "prob_pct": 63.0,
+   "last": 63.0,
+   "bid": 64.0,
+   "ask": 66.0,
+   "consensus": 21.3,
+   "fact": 15.0,
+   "kalshi": null,
+   "cut": "04:07 Минск",
+   "bet": null,
+   "note": "лидер 22 (63¢) vs 21 (24¢), 23 (14¢); сырая медиана 21,3, калибр. 20,2; LLBG ночью 15°C; лидер. Справочно вне списка 22@59",
+   "ts_utc": "2026-11-09T01:08:00Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  },
+  "kuala-lumpur": {
+   "bucket": "32°C",
+   "prob_pct": 49.0,
+   "last": 49.0,
+   "bid": 45.0,
+   "ask": 49.0,
+   "consensus": 30.35,
+   "fact": 25.0,
+   "kalshi": null,
+   "cut": "04:07 Минск",
+   "bet": null,
+   "note": "лидер 32 (49¢) vs 33 (39¢), 31 (16¢); модели 30,35 (сырые 31,15); WMKK 08:00 местн. 25°C (вчера 25 → факт 32); лидер. Фаворита нет (лидер <50¢)",
+   "ts_utc": "2026-11-09T01:08:00Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  }
+ },
  "down21": {
   "beijing": {
    "bucket": "11°C",

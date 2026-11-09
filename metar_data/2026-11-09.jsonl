@@ -93,3 +93,7 @@
 {"ts_utc": "2026-11-09T01:04:58Z", "station": "UUWW", "obs_utc": "2026-11-09T01:00:00Z", "temp_c": 4, "dewp_c": 3, "speci": false, "raw": "METAR UUWW 090100Z 27004MPS 9999 SCT005 BKN030 04/03 Q1021 R24/290045 NOSIG"}
 {"ts_utc": "2026-11-09T01:04:58Z", "station": "VHHH", "obs_utc": "2026-11-09T01:00:00Z", "temp_c": 24, "dewp_c": 14, "speci": false, "raw": "METAR VHHH 090100Z 02016KT 9999 FEW025 24/14 Q1026 TEMPO 01020G30KT"}
 {"ts_utc": "2026-11-09T01:04:58Z", "station": "WSSS", "obs_utc": "2026-11-09T01:00:00Z", "temp_c": 29, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 090100Z 29003KT 250V320 9999 FEW018TCU FEW020CB BKN300 29/25 Q1012 NOSIG"}
+{"ts_utc": "2026-11-09T01:05:53Z", "station": "FACT", "obs_utc": "2026-11-09T01:00:00Z", "temp_c": 16, "dewp_c": 13, "speci": false, "raw": "METAR FACT 090100Z VRB01KT CAVOK 16/13 Q1017 NOSIG"}
+{"ts_utc": "2026-11-09T01:05:53Z", "station": "RJTT", "obs_utc": "2026-11-09T01:00:00Z", "temp_c": 11, "dewp_c": 9, "speci": false, "raw": "METAR RJTT 090100Z 36012KT 9999 -RA FEW007 BKN010 BKN030 11/09 Q1025 TEMPO 4000 -RA BR FEW005 BKN008"}
+{"ts_utc": "2026-11-09T01:05:53Z", "station": "ZHHH", "obs_utc": "2026-11-09T01:00:00Z", "temp_c": 9, "dewp_c": 1, "speci": false, "raw": "METAR ZHHH 090100Z 02004MPS 340V050 CAVOK 09/01 Q1044 NOSIG"}
+{"ts_utc": "2026-11-09T01:05:53Z", "station": "ZUCK", "obs_utc": "2026-11-09T01:00:00Z", "temp_c": 13, "dewp_c": 13, "speci": false, "raw": "METAR ZUCK 090100Z 15002MPS 4500 BR FEW004 SCT033 13/13 Q1041 NOSIG"}
