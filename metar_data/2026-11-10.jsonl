@@ -1308,3 +1308,6 @@
 {"ts_utc": "2026-11-10T20:06:08Z", "station": "ZUCK", "obs_utc": "2026-11-10T20:00:00Z", "temp_c": 13, "dewp_c": 8, "speci": false, "raw": "METAR ZUCK 102000Z 05002MPS 9999 BKN036 13/08 Q1024 NOSIG"}
 {"ts_utc": "2026-11-10T20:09:07Z", "station": "CYYZ", "obs_utc": "2026-11-10T20:00:00Z", "temp_c": 15, "dewp_c": 3, "speci": false, "raw": "METAR CYYZ 102000Z 29020G27KT 15SM FEW040 15/03 A2984 RMK CU1 CU TR SLP109 DENSITY ALT 900FT"}
 {"ts_utc": "2026-11-10T20:09:07Z", "station": "WMKK", "obs_utc": "2026-11-10T20:00:00Z", "temp_c": 26, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 102000Z 00000KT 9000 FEW010 FEW017CB 26/25 Q1009 NOSIG"}
+{"ts_utc": "2026-11-10T20:19:06Z", "station": "KBKF", "obs_utc": "2026-11-10T20:00:00Z", "temp_c": 18.5, "dewp_c": -6.3, "speci": false, "raw": "METAR KBKF 101958Z 04006KT 10SM FEW090 FEW160 BKN220 19/M06 A3016 RMK AO2A SLP176 T01851063"}
+{"ts_utc": "2026-11-10T20:19:06Z", "station": "RCSS", "obs_utc": "2026-11-10T20:00:00Z", "temp_c": 20, "dewp_c": 15, "speci": false, "raw": "METAR RCSS 102000Z 15005KT 9999 FEW015 BKN040 BKN060 20/15 Q1022 NOSIG RMK A3020"}
+{"ts_utc": "2026-11-10T20:19:06Z", "station": "KSEA", "obs_utc": "2026-11-10T20:08:00Z", "temp_c": 12.8, "dewp_c": 11.7, "speci": true, "raw": "SPECI KSEA 102008Z 11006KT 1 1/2SM -RA BR SCT022 OVC032 13/12 A3006 RMK AO2 SFC VIS 2 1/2 RAB1957 P0001 T01280117"}
