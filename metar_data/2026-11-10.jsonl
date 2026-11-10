@@ -425,3 +425,6 @@
 {"ts_utc": "2026-11-10T06:13:35Z", "station": "ZSPD", "obs_utc": "2026-11-10T06:00:00Z", "temp_c": 15, "dewp_c": 5, "speci": false, "raw": "METAR ZSPD 100600Z 36006MPS CAVOK 15/05 Q1029 NOSIG"}
 {"ts_utc": "2026-11-10T06:13:35Z", "station": "ZUCK", "obs_utc": "2026-11-10T06:00:00Z", "temp_c": 16, "dewp_c": 9, "speci": false, "raw": "METAR ZUCK 100600Z 14002MPS 060V170 9999 FEW033 16/09 Q1029 NOSIG"}
 {"ts_utc": "2026-11-10T06:13:35Z", "station": "KSEA", "obs_utc": "2026-11-10T06:02:00Z", "temp_c": 11.1, "dewp_c": 10.6, "speci": true, "raw": "SPECI KSEA 100602Z 20010KT 10SM FEW008 BKN014 11/11 A2999 RMK AO2 T01110106"}
+{"ts_utc": "2026-11-10T06:23:36Z", "station": "EFHK", "obs_utc": "2026-11-10T06:20:00Z", "temp_c": 5, "dewp_c": 2, "speci": false, "raw": "METAR EFHK 100620Z 25003KT 9999 BKN036 05/02 Q1012 NOSIG"}
+{"ts_utc": "2026-11-10T06:23:36Z", "station": "LEMD", "obs_utc": "2026-11-10T06:20:00Z", "temp_c": 13, "dewp_c": 12, "speci": true, "raw": "SPECI LEMD 100620Z 15008KT 7000 DZ FEW010 BKN020 BKN035 13/12 Q1013 NOSIG"}
+{"ts_utc": "2026-11-10T06:23:36Z", "station": "LLBG", "obs_utc": "2026-11-10T06:20:00Z", "temp_c": 16, "dewp_c": 4, "speci": false, "raw": "METAR LLBG 100620Z 01004KT CAVOK 16/04 Q1023 NOSIG"}
