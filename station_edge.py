@@ -128,6 +128,10 @@ def metar_day(station, tz, d, until=None):
             if day0 <= t.astimezone(tz) < day1 and (until is None or t <= until): seen[r["obs_utc"]] = (t, r["temp_c"])
     return sorted(seen.values())
 
+def valid_resolve(e):
+    w = e.get("winner") or ""
+    return e.get("type") == "resolve" and bool(re.search(r"\d", w)) and ("°" in w or "below" in w or "higher" in w or "above" in w)
+
 def load_journal():
     E = []
     if JOURNAL.exists():
@@ -205,7 +209,7 @@ def gamma_winner(slug, d):
 
 def resolve():
     E = load_journal(); U = universe(); now = datetime.now(timezone.utc)
-    done = {(e["slug"], e["d"]) for e in E if e.get("type") == "resolve"}
+    done = {(e["slug"], e["d"]) for e in E if valid_resolve(e)}
     new = []
     for e in E:
         if e.get("type") != "entry" or (e["slug"], e["d"]) in done or e["slug"] not in U: continue
@@ -213,6 +217,7 @@ def resolve():
         end = datetime.fromisoformat(e["d"]).replace(tzinfo=tz) + timedelta(days=1, hours=3)
         if now < end: continue
         w = gamma_winner(e["slug"], e["d"])  # первичный источник — Gamma (сборщик мог остановиться на ложном ≥97)
+        w = [w] if w else None
         if not w:
             snaps = snapshots(e["slug"], info, e["d"])
             if not snaps: continue
@@ -229,7 +234,7 @@ def resolve():
 def stats(tg=None):
     E = load_journal()
     ent = {(e["slug"], e["d"]): e for e in E if e.get("type") == "entry"}
-    res = [e for e in E if e.get("type") == "resolve" and (e["slug"], e["d"]) in ent]
+    res = list({(e["slug"], e["d"]): e for e in E if valid_resolve(e) and (e["slug"], e["d"]) in ent}.values())
     n = len(res); h = sum(1 for r in res if r["hit"]); p = sum(r["pnl"] for r in res)
     openn = [e for k, e in ent.items() if k not in {(r["slug"], r["d"]) for r in res}]
     L = [f"📡 <b>СТАНЦИЯ ВЫШЕ ЛИДЕРА</b> (бумага, с 09.11): {h}/{n} {p:+.2f}" + (f" ({p/n*100:+.0f}%/сд)" if n else "")]
