@@ -1,0 +1,55 @@
+{
+ "picks": {
+  "singapore": {
+   "bucket": "30°C",
+   "prob_pct": 40,
+   "last": 33.0,
+   "bid": 26.0,
+   "ask": 33.0,
+   "consensus": "медиана 30.4 (ICON 31.8 единственная ≥31)",
+   "fact": "WSSS вчера max 30; победители 05-09.11: 30,31,32,30,30",
+   "kalshi": null,
+   "cut": "04:07 Минск",
+   "bet": null,
+   "note": "ОТКЛОНЕНИЕ ВНИЗ: модели и персистентность против лидера 31; урок — лидер в Азии на градус теплее факта; лидер PM 31°C 49.0¢",
+   "ts_utc": "2026-11-10T01:06:27Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  },
+  "tel-aviv": {
+   "bucket": "23°C",
+   "prob_pct": 45,
+   "last": 60.0,
+   "bid": 58.0,
+   "ask": 61.0,
+   "consensus": "медиана 22.4",
+   "fact": "LLBG вчера max 21, ночь 14",
+   "kalshi": null,
+   "cut": "04:07 Минск",
+   "bet": null,
+   "note": "лидер и холодная сторона против 24",
+   "ts_utc": "2026-11-10T01:06:27Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  },
+  "kuala-lumpur": {
+   "bucket": "32°C",
+   "prob_pct": 40,
+   "last": 47.0,
+   "bid": 49.0,
+   "ask": 53.0,
+   "consensus": "медиана 31.1 (best_match/ECMWF 31.9/31.8)",
+   "fact": "WMKK вчера max 31; победители 05-09.11: 33,30,33,32,31",
+   "kalshi": null,
+   "cut": "04:07 Минск",
+   "bet": null,
+   "note": "лидер; 31 (16¢) — альтернатива по моделям",
+   "ts_utc": "2026-11-10T01:06:27Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  }
+ }
+}
