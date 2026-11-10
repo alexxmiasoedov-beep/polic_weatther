@@ -185,15 +185,28 @@ def fetch_wx(c: dict, d) -> dict | None:
 
 
 def market_resolved(city_slug: str, d) -> bool:
+    """Рынок считаем закрытым, только если ≥97¢ стоит в ДВУХ последних снапшотах
+    И по местному времени уже ≥18:00 (10.11: KL остановился в 14:23 на 33°C по
+    98.8¢, а станция в 14:30 дала 34°C — рынок резолвился 34; Даллас 03.11 —
+    транзитные 97 в 10:00). До 18:00 местного дневной максимум ещё не финален."""
     f = Path(__file__).parent / "pilot_data" / f"{d.isoformat()}.jsonl"
     if not f.exists():
         return False
+    try:
+        tz = ZoneInfo(PILOT_CITIES[city_slug]["tz"])
+        if datetime.now(timezone.utc).astimezone(tz).hour < 18 and datetime.now(timezone.utc).astimezone(tz).date() <= d:
+            return False
+    except Exception:  # noqa: BLE001
+        pass
+    hits = []
     for line in reversed(f.read_text(encoding="utf-8").splitlines()):
         rec = json.loads(line)
         if rec["city"] == city_slug:
             pm = rec.get("pm") or {}
-            return any((b.get("last") or 0) >= 97 for b in pm.get("buckets", []))
-    return False
+            hits.append(any((b.get("last") or 0) >= 97 for b in pm.get("buckets", [])))
+            if len(hits) == 2:
+                break
+    return len(hits) == 2 and all(hits)
 
 
 def collect(with_wx: bool = True):

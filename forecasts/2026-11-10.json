@@ -13,9 +13,9 @@
    "bet": null,
    "note": "ОТКЛОНЕНИЕ ВНИЗ: модели и персистентность против лидера 31; урок — лидер в Азии на градус теплее факта; лидер PM 31°C 49.0¢",
    "ts_utc": "2026-11-10T01:06:27Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "32°C",
+   "hit": false,
+   "pnl_pick": -1.0
   },
   "tel-aviv": {
    "bucket": "23°C",
@@ -30,9 +30,9 @@
    "bet": null,
    "note": "лидер и холодная сторона против 24",
    "ts_utc": "2026-11-10T01:06:27Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "23°C",
+   "hit": true,
+   "pnl_pick": 0.667
   },
   "kuala-lumpur": {
    "bucket": "32°C",
@@ -45,11 +45,48 @@
    "kalshi": null,
    "cut": "04:07 Минск",
    "bet": null,
-   "note": "лидер; 31 (16¢) — альтернатива по моделям",
+   "note": "лидер; 31 (16¢) — альтернатива по моделям; победитель по Gamma 34°C (локальный снапшот остановился на 33 по 98.8)",
    "ts_utc": "2026-11-10T01:06:27Z",
+   "winner": "34°C",
+   "hit": false,
+   "pnl_pick": -1.0
+  }
+ },
+ "top10": {
+  "atlanta": {
+   "strategy": "down@30",
+   "bucket": "70-71°F",
+   "ask": 28.0,
+   "ts_utc": "2026-11-09T23:01:58Z",
+   "hte": 30.0,
    "winner": null,
    "hit": null,
-   "pnl_pick": null
+   "pnl": null
+  },
+  "munich": {
+   "strategy": "lead:50-70@18",
+   "bucket": "8°C",
+   "ask": 63.0,
+   "ts_utc": "2026-11-10T05:03:36Z",
+   "hte": 17.9,
+   "winner": null,
+   "hit": null,
+   "pnl": null
+  },
+  "busan": {
+   "strategy": "lead:40-60@12",
+   "skip": true,
+   "winner": "17°C"
+  },
+  "cape-town": {
+   "strategy": "tail@24",
+   "bucket": "27°C",
+   "ask": 29.0,
+   "ts_utc": "2026-11-09T22:01:59Z",
+   "hte": 24.0,
+   "winner": "26°C",
+   "hit": false,
+   "pnl": -1.0
   }
  }
 }

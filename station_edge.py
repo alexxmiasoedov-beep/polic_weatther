@@ -176,7 +176,7 @@ def scan():
         snaps = snapshots(slug, info, d)
         if not snaps: continue
         ts, b = snaps[-1]
-        if (now - parse_ts(ts)).total_seconds() > 1800: continue  # снапшот устарел
+        if (now - parse_ts(ts)).total_seconds() > 720: continue  # снапшот старше одного цикла (12 мин) — цена могла уйти (урок KL 10.11)
         try: e = signal_for(slug, info, now, b, ts)
         except Exception as ex:  # noqa: BLE001
             print(f"WARN station_edge {slug}: {ex}", file=sys.stderr); continue
@@ -187,6 +187,22 @@ def scan():
     else: print("station_edge: сигналов нет")
     return new
 
+def gamma_winner(slug, d):
+    """победитель по Gamma API: корзина с outcomePrices[0] ≥ 0.97; None, если не определён"""
+    import urllib.request
+    try:
+        ev = config.pm_event_slug(slug, date.fromisoformat(d))
+        req = urllib.request.Request(f"{config.GAMMA_API}/events?slug={ev}", headers={"User-Agent": "polic_weatther"})
+        r = json.load(urllib.request.urlopen(req, timeout=20))
+        w = []
+        for m in r[0].get("markets", []):
+            op = m.get("outcomePrices")
+            if isinstance(op, str): op = json.loads(op)
+            if op and float(op[0]) >= 0.97: w.append(m.get("groupItemTitle"))
+        return w[0] if len(w) == 1 else None
+    except Exception as ex:  # noqa: BLE001
+        print(f"WARN station_edge gamma {slug} {d}: {ex}", file=sys.stderr); return None
+
 def resolve():
     E = load_journal(); U = universe(); now = datetime.now(timezone.utc)
     done = {(e["slug"], e["d"]) for e in E if e.get("type") == "resolve"}
@@ -196,11 +212,13 @@ def resolve():
         info = U[e["slug"]]; tz = ZoneInfo(info["tz"])
         end = datetime.fromisoformat(e["d"]).replace(tzinfo=tz) + timedelta(days=1, hours=3)
         if now < end: continue
-        snaps = snapshots(e["slug"], info, e["d"])
-        if not snaps: continue
-        ts, b = snaps[-1]
-        w = [k for k, (l, bid, a) in b.items() if (l or 0) >= 97 or (bid or 0) >= 97]
-        if len(w) != 1: continue
+        w = gamma_winner(e["slug"], e["d"])  # первичный источник — Gamma (сборщик мог остановиться на ложном ≥97)
+        if not w:
+            snaps = snapshots(e["slug"], info, e["d"])
+            if not snaps: continue
+            ts, b = snaps[-1]
+            w = [k for k, (l, bid, a) in b.items() if (l or 0) >= 97 or (bid or 0) >= 97]
+            if len(w) != 1: continue
         hit = (w[0] == e["bucket"]); pnl = round((100 / e["entry"] - 1) * e["size"], 3) if hit else -1.0 * e["size"]
         new.append(dict(type="resolve", slug=e["slug"], d=e["d"], winner=w[0], hit=hit, pnl=pnl, ts_utc=now.strftime("%Y-%m-%dT%H:%M:%SZ")))
         done.add((e["slug"], e["d"]))
