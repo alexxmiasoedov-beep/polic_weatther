@@ -1203,3 +1203,7 @@
 {"ts_utc": "2026-11-11T18:13:50Z", "station": "KSFO", "obs_utc": "2026-11-11T18:03:00Z", "temp_c": 13.9, "dewp_c": 13.9, "speci": true, "raw": "SPECI KSFO 111803Z 00000KT 2 1/2SM BR OVC004 14/14 A3011 RMK AO2 T01390139"}
 {"ts_utc": "2026-11-11T18:13:50Z", "station": "MMMX", "obs_utc": "2026-11-11T18:08:00Z", "temp_c": 22, "dewp_c": 9, "speci": true, "raw": "SPECI MMMX 111808Z 00000KT 5SM BKN020 22/09 A3035 NOSIG RMK 8/008 HZY ISOL CU"}
 {"ts_utc": "2026-11-11T18:13:50Z", "station": "KSFO", "obs_utc": "2026-11-11T18:10:00Z", "temp_c": 14.4, "dewp_c": 13.9, "speci": true, "raw": "SPECI KSFO 111810Z 00000KT 3SM BR BKN005 14/14 A3011 RMK AO2 T01440139"}
+{"ts_utc": "2026-11-11T18:23:49Z", "station": "KSFO", "obs_utc": "2026-11-11T18:19:00Z", "temp_c": 14.4, "dewp_c": 13.9, "speci": true, "raw": "SPECI KSFO 111819Z 00000KT 6SM BR SCT005 14/14 A3011 RMK AO2 VIS SE 2 1/2 T01440139"}
+{"ts_utc": "2026-11-11T18:23:49Z", "station": "EDDM", "obs_utc": "2026-11-11T18:20:00Z", "temp_c": 12, "dewp_c": 11, "speci": false, "raw": "METAR EDDM 111820Z AUTO 23008KT 9999 SHRA FEW017 FEW///TCU 12/11 Q1003 TEMPO -SHRA"}
+{"ts_utc": "2026-11-11T18:23:49Z", "station": "EFHK", "obs_utc": "2026-11-11T18:20:00Z", "temp_c": 3, "dewp_c": 2, "speci": false, "raw": "METAR EFHK 111820Z 12004KT 9999 FEW017 03/02 Q1000 TEMPO BKN014"}
+{"ts_utc": "2026-11-11T18:23:49Z", "station": "LLBG", "obs_utc": "2026-11-11T18:20:00Z", "temp_c": 18, "dewp_c": 12, "speci": false, "raw": "METAR LLBG 111820Z 12005KT CAVOK 18/12 Q1022 NOSIG"}
