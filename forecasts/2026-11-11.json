@@ -1,0 +1,55 @@
+{
+ "picks": {
+  "singapore": {
+   "bucket": "32°C",
+   "prob_pct": 45,
+   "last": 50.0,
+   "bid": 42.0,
+   "ask": 59.0,
+   "consensus": "медиана 31.1 (GFS 26.3 выброс)",
+   "fact": "WSSS вчера max 32, 09:00 местного 29",
+   "kalshi": null,
+   "cut": "04:07 Минск",
+   "bet": null,
+   "note": "лидер PM (отклонения в Азии 10.11 тоже проиграли — только лидер)",
+   "ts_utc": "2026-11-11T01:06:37Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  },
+  "tel-aviv": {
+   "bucket": "23°C",
+   "prob_pct": 45,
+   "last": 70.0,
+   "bid": 63.0,
+   "ask": 69.0,
+   "consensus": "медиана 22.6",
+   "fact": "LLBG вчера max 23, ночь 13",
+   "kalshi": null,
+   "cut": "04:07 Минск",
+   "bet": null,
+   "note": "лидер PM (отклонения в Азии 10.11 тоже проиграли — только лидер)",
+   "ts_utc": "2026-11-11T01:06:37Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  },
+  "kuala-lumpur": {
+   "bucket": "32°C",
+   "prob_pct": 45,
+   "last": 42.0,
+   "bid": 35.0,
+   "ask": 47.0,
+   "consensus": "медиана 31.1 (UKMO 33.6)",
+   "fact": "WMKK вчера max 34, 08:30 местного 25",
+   "kalshi": null,
+   "cut": "04:07 Минск",
+   "bet": null,
+   "note": "лидер PM (отклонения в Азии 10.11 тоже проиграли — только лидер)",
+   "ts_utc": "2026-11-11T01:06:37Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  }
+ }
+}
