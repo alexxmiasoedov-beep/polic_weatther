@@ -135,6 +135,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "atlanta": {
+   "bucket": "68-69°F",
+   "prob_pct": 70,
+   "last": 87.0,
+   "bid": 77.0,
+   "ask": 87.0,
+   "consensus": "—",
+   "fact": "KATL 20Z 69.1°F (20.6°C), 5-мин 19:52Z 20.6°C — на границе 70, остаток дня может дать ещё тик",
+   "kalshi": "69° to 70° 88¢, 71° to 72° 11¢",
+   "cut": "23:25 Минск",
+   "bet": null,
+   "note": "лидер PM и часовой METAR",
+   "ts_utc": "2026-11-11T20:25:49Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "top10": {
