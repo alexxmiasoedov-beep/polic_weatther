@@ -1246,3 +1246,6 @@
 {"ts_utc": "2026-11-12T19:12:32Z", "station": "ZHHH", "obs_utc": "2026-11-12T19:00:00Z", "temp_c": 12, "dewp_c": 12, "speci": false, "raw": "METAR ZHHH 121900Z 06002MPS 8000 NSC 12/12 Q1020 NOSIG"}
 {"ts_utc": "2026-11-12T19:12:32Z", "station": "ZSPD", "obs_utc": "2026-11-12T19:00:00Z", "temp_c": 15, "dewp_c": 14, "speci": false, "raw": "METAR ZSPD 121900Z 05003MPS 9999 -RA BKN020 15/14 Q1022 NOSIG"}
 {"ts_utc": "2026-11-12T19:12:32Z", "station": "ZUCK", "obs_utc": "2026-11-12T19:00:00Z", "temp_c": 14, "dewp_c": 13, "speci": false, "raw": "METAR ZUCK 121900Z VRB01MPS 5000 BR BKN040 14/13 Q1020 NOSIG"}
+{"ts_utc": "2026-11-12T19:22:31Z", "station": "KORD", "obs_utc": "2026-11-12T19:19:00Z", "temp_c": 5, "dewp_c": -2.2, "speci": true, "raw": "SPECI KORD 121919Z 35019G24KT 10SM BKN030 05/M02 A2992 RMK AO2 T00501022 $"}
+{"ts_utc": "2026-11-12T19:22:31Z", "station": "EFHK", "obs_utc": "2026-11-12T19:20:00Z", "temp_c": 5, "dewp_c": 1, "speci": false, "raw": "METAR EFHK 121920Z 15015KT 9999 BKN018 BKN025 05/01 Q0993 TEMPO BKN014"}
+{"ts_utc": "2026-11-12T19:22:31Z", "station": "LLBG", "obs_utc": "2026-11-12T19:20:00Z", "temp_c": 18, "dewp_c": 13, "speci": false, "raw": "METAR LLBG 121920Z VRB02KT CAVOK 18/13 Q1022 NOSIG"}
