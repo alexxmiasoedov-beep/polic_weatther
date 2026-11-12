@@ -50,6 +50,23 @@
    "winner": "32°C",
    "hit": false,
    "pnl_pick": -1.0
+  },
+  "miami": {
+   "bucket": "84-85°F",
+   "prob_pct": 60,
+   "last": 81.6,
+   "bid": 82.0,
+   "ask": 87.9,
+   "consensus": "медиана 85; дождь None%",
+   "fact": "KMIA 16Z 82.9°F, 5-мин 16:30Z 29°C=84.2 в 11:30 местного",
+   "kalshi": "85° to 86° 75¢, 87° to 88° 25¢",
+   "cut": "20:07 Минск",
+   "bet": null,
+   "note": "лидер PM (правило: только лидер)",
+   "ts_utc": "2026-11-12T17:06:18Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "top10": {
