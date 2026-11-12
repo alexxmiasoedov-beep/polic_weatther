@@ -1239,3 +1239,10 @@
 {"ts_utc": "2026-11-12T19:06:24Z", "station": "RPLL", "obs_utc": "2026-11-12T19:00:00Z", "temp_c": 26, "dewp_c": 23, "speci": false, "raw": "METAR RPLL 121900Z VRB02KT 9999 FEW025 26/23 Q1014 NOSIG RMK A2994"}
 {"ts_utc": "2026-11-12T19:06:24Z", "station": "SAEZ", "obs_utc": "2026-11-12T19:00:00Z", "temp_c": 31, "dewp_c": 16, "speci": false, "raw": "METAR SAEZ 121900Z 07010KT CAVOK 31/16 Q1014 NOSIG"}
 {"ts_utc": "2026-11-12T19:06:24Z", "station": "UUWW", "obs_utc": "2026-11-12T19:00:00Z", "temp_c": 1, "dewp_c": -1, "speci": false, "raw": "METAR UUWW 121900Z 20002MPS 9000 OVC013 01/M01 Q1007 R24/290045 NOSIG"}
+{"ts_utc": "2026-11-12T19:12:32Z", "station": "CYYZ", "obs_utc": "2026-11-12T19:00:00Z", "temp_c": 8, "dewp_c": -1, "speci": false, "raw": "METAR CYYZ 121900Z 03015KT 15SM FEW020 FEW075 BKN240 08/M01 A2970 RMK CU1AC1CI5 CU TR SLP064"}
+{"ts_utc": "2026-11-12T19:12:32Z", "station": "RCSS", "obs_utc": "2026-11-12T19:00:00Z", "temp_c": 24, "dewp_c": 19, "speci": false, "raw": "METAR RCSS 121900Z 10005KT 9999 FEW020 SCT040 BKN048 24/19 Q1019 NOSIG RMK A3010"}
+{"ts_utc": "2026-11-12T19:12:32Z", "station": "WMKK", "obs_utc": "2026-11-12T19:00:00Z", "temp_c": 27, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 121900Z 06004KT 340V120 9000 FEW017CB 27/25 Q1010 NOSIG"}
+{"ts_utc": "2026-11-12T19:12:32Z", "station": "ZBAA", "obs_utc": "2026-11-12T19:00:00Z", "temp_c": 1, "dewp_c": 0, "speci": false, "raw": "METAR ZBAA 121900Z 36001MPS 7000 NSC 01/M00 Q1020 NOSIG"}
+{"ts_utc": "2026-11-12T19:12:32Z", "station": "ZHHH", "obs_utc": "2026-11-12T19:00:00Z", "temp_c": 12, "dewp_c": 12, "speci": false, "raw": "METAR ZHHH 121900Z 06002MPS 8000 NSC 12/12 Q1020 NOSIG"}
+{"ts_utc": "2026-11-12T19:12:32Z", "station": "ZSPD", "obs_utc": "2026-11-12T19:00:00Z", "temp_c": 15, "dewp_c": 14, "speci": false, "raw": "METAR ZSPD 121900Z 05003MPS 9999 -RA BKN020 15/14 Q1022 NOSIG"}
+{"ts_utc": "2026-11-12T19:12:32Z", "station": "ZUCK", "obs_utc": "2026-11-12T19:00:00Z", "temp_c": 14, "dewp_c": 13, "speci": false, "raw": "METAR ZUCK 121900Z VRB01MPS 5000 BR BKN040 14/13 Q1020 NOSIG"}
