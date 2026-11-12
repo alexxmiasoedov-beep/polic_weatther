@@ -1074,3 +1074,5 @@
 {"ts_utc": "2026-11-12T16:40:44Z", "station": "WSSS", "obs_utc": "2026-11-12T16:30:00Z", "temp_c": 28, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 121630Z 16003KT 110V190 9999 FEW018 BKN300 28/25 Q1012 NOSIG"}
 {"ts_utc": "2026-11-12T16:40:44Z", "station": "ZBAA", "obs_utc": "2026-11-12T16:30:00Z", "temp_c": 1, "dewp_c": 0, "speci": false, "raw": "METAR ZBAA 121630Z 35002MPS 6000 NSC 01/00 Q1021 NOSIG"}
 {"ts_utc": "2026-11-12T16:40:44Z", "station": "ZSPD", "obs_utc": "2026-11-12T16:30:00Z", "temp_c": 15, "dewp_c": 14, "speci": false, "raw": "METAR ZSPD 121630Z 03005MPS 9999 -RA SCT023 15/14 Q1023 NOSIG"}
+{"ts_utc": "2026-11-12T16:50:43Z", "station": "UUWW", "obs_utc": "2026-11-12T16:40:00Z", "temp_c": 1, "dewp_c": -1, "speci": true, "raw": "SPECI UUWW 121640Z 28002MPS 9999 OVC016 01/M01 Q1007 R24/290045 NOSIG"}
+{"ts_utc": "2026-11-12T16:50:43Z", "station": "UUWW", "obs_utc": "2026-11-12T16:48:00Z", "temp_c": 1, "dewp_c": -1, "speci": true, "raw": "SPECI UUWW 121648Z 26002MPS 9999 OVC014 01/M01 Q1007 R24/290045 NOSIG"}
