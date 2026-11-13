@@ -1322,3 +1322,10 @@
 {"ts_utc": "2026-11-13T19:15:18Z", "station": "RCSS", "obs_utc": "2026-11-13T19:00:00Z", "temp_c": 23, "dewp_c": 19, "speci": false, "raw": "METAR RCSS 131900Z VRB02KT 9999 FEW016 SCT110 23/19 Q1015 NOSIG RMK A3000"}
 {"ts_utc": "2026-11-13T19:15:18Z", "station": "WMKK", "obs_utc": "2026-11-13T19:00:00Z", "temp_c": 26, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 131900Z 00000KT 6000 FEW010 FEW017CB 26/25 Q1010 NOSIG"}
 {"ts_utc": "2026-11-13T19:15:18Z", "station": "KLAX", "obs_utc": "2026-11-13T19:06:00Z", "temp_c": 17.2, "dewp_c": 14.4, "speci": true, "raw": "SPECI KLAX 131906Z VRB03KT 8SM SCT005 SCT020 BKN036 17/14 A2982 RMK AO2 RAE03 P0000 T01720144"}
+{"ts_utc": "2026-11-13T19:25:18Z", "station": "UUWW", "obs_utc": "2026-11-13T19:19:00Z", "temp_c": 4, "dewp_c": 4, "speci": true, "raw": "SPECI UUWW 131919Z 18007MPS 6000 -SHRA BKN006 BKN026CB 04/04 Q0994 R06/290350 NOSIG"}
+{"ts_utc": "2026-11-13T19:25:18Z", "station": "EDDM", "obs_utc": "2026-11-13T19:20:00Z", "temp_c": -1, "dewp_c": -2, "speci": false, "raw": "METAR EDDM 131920Z AUTO 25003KT 200V270 CAVOK M01/M02 Q1017 NOSIG"}
+{"ts_utc": "2026-11-13T19:25:18Z", "station": "EFHK", "obs_utc": "2026-11-13T19:20:00Z", "temp_c": 0, "dewp_c": 0, "speci": false, "raw": "METAR EFHK 131920Z 28005KT 9999 BKN009 00/00 Q0981 BECMG 2000 BR BKN002"}
+{"ts_utc": "2026-11-13T19:25:18Z", "station": "EGLC", "obs_utc": "2026-11-13T19:20:00Z", "temp_c": 5, "dewp_c": 1, "speci": false, "raw": "METAR EGLC 131920Z AUTO 25002KT 9999 NCD 05/01 Q1020"}
+{"ts_utc": "2026-11-13T19:25:18Z", "station": "LLBG", "obs_utc": "2026-11-13T19:20:00Z", "temp_c": 20, "dewp_c": 7, "speci": false, "raw": "METAR LLBG 131920Z VRB01KT CAVOK 20/07 Q1022 NOSIG"}
+{"ts_utc": "2026-11-13T19:25:18Z", "station": "LTAC", "obs_utc": "2026-11-13T19:20:00Z", "temp_c": 12, "dewp_c": 6, "speci": false, "raw": "METAR LTAC 131920Z 17005KT 9999 SCT040 SCT100 12/06 Q1020 NOSIG"}
+{"ts_utc": "2026-11-13T19:25:18Z", "station": "LTFM", "obs_utc": "2026-11-13T19:20:00Z", "temp_c": 19, "dewp_c": 11, "speci": false, "raw": "METAR LTFM 131920Z 21024KT CAVOK 19/11 Q1012 NOSIG"}
