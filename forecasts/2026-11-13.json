@@ -135,6 +135,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "atlanta": {
+   "bucket": "52-53°F",
+   "prob_pct": 80,
+   "last": 92.1,
+   "bid": 92.1,
+   "ask": 95.8,
+   "consensus": "—",
+   "fact": "KATL часовой max 52.0 в 19Z, 20Z 51.1, 5-мин 19:55Z 10°C — остывает",
+   "kalshi": "52° to 53° 94¢, 54° to 55° 12¢",
+   "cut": "23:25 Минск",
+   "bet": null,
+   "note": "лидер PM и часовой METAR",
+   "ts_utc": "2026-11-13T20:25:59Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "top10": {
