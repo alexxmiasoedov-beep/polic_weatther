@@ -126,3 +126,6 @@
 {"ts_utc": "2026-11-13T01:40:13Z", "station": "WSSS", "obs_utc": "2026-11-13T01:30:00Z", "temp_c": 30, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 130130Z 16004KT 120V200 9000 VCSH FEW018TCU FEW020CB SCT280 BKN300 30/25 Q1013 NOSIG"}
 {"ts_utc": "2026-11-13T01:40:13Z", "station": "ZBAA", "obs_utc": "2026-11-13T01:30:00Z", "temp_c": 8, "dewp_c": 3, "speci": false, "raw": "METAR ZBAA 130130Z VRB01MPS CAVOK 08/03 Q1021 NOSIG"}
 {"ts_utc": "2026-11-13T01:40:13Z", "station": "ZSPD", "obs_utc": "2026-11-13T01:30:00Z", "temp_c": 18, "dewp_c": 17, "speci": false, "raw": "METAR ZSPD 130130Z 08003MPS 9999 BKN010 18/17 Q1022 NOSIG"}
+{"ts_utc": "2026-11-13T01:50:13Z", "station": "CYYZ", "obs_utc": "2026-11-13T01:43:00Z", "temp_c": 2, "dewp_c": -3, "speci": true, "raw": "SPECI CYYZ 130143Z 02014G19KT 15SM FEW230 02/M03 A2978 RMK CI1 SLP093"}
+{"ts_utc": "2026-11-13T01:50:13Z", "station": "MMMX", "obs_utc": "2026-11-13T01:48:00Z", "temp_c": 14, "dewp_c": 13, "speci": true, "raw": "SPECI MMMX 130148Z 06005KT 3SM -RA HZ BKN015 OVC070 14/13 A3027 NOSIG RMK 8/47/ TWR VIS"}
+{"ts_utc": "2026-11-13T01:50:13Z", "station": "LLBG", "obs_utc": "2026-11-13T02:00:00Z", "temp_c": 15, "dewp_c": 9, "speci": false, "raw": "METAR LLBG 130150Z VRB02KT CAVOK 15/09 Q1022 NOSIG"}
