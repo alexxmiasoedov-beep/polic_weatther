@@ -152,6 +152,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "austin": {
+   "bucket": "78-79°F",
+   "prob_pct": 70,
+   "last": 85.0,
+   "bid": 85.0,
+   "ask": 90.0,
+   "consensus": "—",
+   "fact": "KAUS часовой max 79.0°F (20Z 79.0), 5-мин 20:45-20:55Z 26°C=78.8±0.9 — плато",
+   "kalshi": "79° to 80° 78¢, 81° to 82° 21¢",
+   "cut": "00:25 Минск",
+   "bet": null,
+   "note": "лидер PM и часовой METAR",
+   "ts_utc": "2026-11-13T21:25:54Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "top10": {
