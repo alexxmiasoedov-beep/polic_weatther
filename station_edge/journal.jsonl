@@ -3,3 +3,4 @@
 {"type": "resolve", "slug": "kuala-lumpur", "d": "2026-11-10", "winner": "34°C", "hit": true, "pnl": 20.739, "ts_utc": "2026-11-10T20:07:10Z"}
 {"type": "resolve", "slug": "madrid", "d": "2026-11-10", "winner": "19°C", "hit": true, "pnl": 2.448, "ts_utc": "2026-11-11T02:00:48Z"}
 {"type": "entry", "slug": "mexico-city", "d": "2026-11-13", "ts_utc": "2026-11-13T20:45:34Z", "snap_ts": "2026-11-13T20:45:21Z", "local": "14:45", "bucket": "20°C", "lead": "19°C", "lead_last": 26.6, "last": 17.0, "bid": 16.0, "ask": 66.0, "entry": 67.0, "size": 1.0, "t_max": 20, "t_now": 20, "t_of_max_local": "14:00", "lag_min": 46, "unit": "C"}
+{"type": "resolve", "slug": "mexico-city", "d": "2026-11-13", "winner": "20°C", "hit": true, "pnl": 0.493, "ts_utc": "2026-11-14T09:08:38Z"}
