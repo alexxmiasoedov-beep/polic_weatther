@@ -227,3 +227,5 @@
 {"ts_utc": "2026-11-14T03:06:59Z", "station": "ZHHH", "obs_utc": "2026-11-14T03:00:00Z", "temp_c": 14, "dewp_c": 14, "speci": false, "raw": "METAR ZHHH 140300Z 03002MPS 7000 FEW006 SCT010 OVC033 14/14 Q1017 NOSIG"}
 {"ts_utc": "2026-11-14T03:06:59Z", "station": "ZSPD", "obs_utc": "2026-11-14T03:00:00Z", "temp_c": 18, "dewp_c": 18, "speci": false, "raw": "METAR ZSPD 140300Z 36002MPS 320V040 3000 -RA BR BKN004 18/18 Q1016 BECMG TL0430 BKN005"}
 {"ts_utc": "2026-11-14T03:06:59Z", "station": "ZUCK", "obs_utc": "2026-11-14T03:00:00Z", "temp_c": 18, "dewp_c": 13, "speci": false, "raw": "METAR ZUCK 140300Z VRB01MPS 3500 BR SCT020 18/13 Q1018 NOSIG"}
+{"ts_utc": "2026-11-14T03:16:58Z", "station": "CYYZ", "obs_utc": "2026-11-14T03:00:00Z", "temp_c": 3, "dewp_c": -2, "speci": false, "raw": "METAR CYYZ 140300Z 30007KT 15SM OVC041 03/M02 A2985 RMK SC8 SLP116"}
+{"ts_utc": "2026-11-14T03:16:58Z", "station": "WMKK", "obs_utc": "2026-11-14T03:00:00Z", "temp_c": 32, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 140300Z 05005KT 340V120 9000 FEW017CB 32/25 Q1013 NOSIG"}
