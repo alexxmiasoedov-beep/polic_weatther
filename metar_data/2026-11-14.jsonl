@@ -695,3 +695,5 @@
 {"ts_utc": "2026-11-14T10:08:36Z", "station": "ZUCK", "obs_utc": "2026-11-14T10:00:00Z", "temp_c": 19, "dewp_c": 10, "speci": false, "raw": "METAR ZUCK 141000Z 06004MPS 9999 OVC050 19/10 Q1012 NOSIG"}
 {"ts_utc": "2026-11-14T10:08:36Z", "station": "CYYZ", "obs_utc": "2026-11-14T10:03:00Z", "temp_c": 2, "dewp_c": -1, "speci": true, "raw": "SPECI CYYZ 141003Z 33010KT 15SM FEW029 SCT110 02/M01 A2984 RMK SF1AC4 SF TR SLP114"}
 {"ts_utc": "2026-11-14T10:08:36Z", "station": "LEMD", "obs_utc": "2026-11-14T10:04:00Z", "temp_c": 13, "dewp_c": 12, "speci": true, "raw": "SPECI LEMD 141004Z 19006KT 3000 +RA BKN024 BKN033 OVC060 13/12 Q1016 BECMG 7000 -RA"}
+{"ts_utc": "2026-11-14T10:18:37Z", "station": "RCSS", "obs_utc": "2026-11-14T10:00:00Z", "temp_c": 23, "dewp_c": 20, "speci": false, "raw": "METAR RCSS 141000Z 33005KT 290V010 9999 -RA FEW012 BKN040 BKN060 23/20 Q1012 NOSIG RMK A2991 RA AMT 0.8MM"}
+{"ts_utc": "2026-11-14T10:18:37Z", "station": "LEMD", "obs_utc": "2026-11-14T10:16:00Z", "temp_c": 13, "dewp_c": 12, "speci": true, "raw": "SPECI LEMD 141016Z 19008KT 110V220 7000 -RA SCT015 BKN023 BKN031 13/12 Q1015 NOSIG"}
