@@ -1215,3 +1215,5 @@
 {"ts_utc": "2026-11-14T18:11:41Z", "station": "ZHHH", "obs_utc": "2026-11-14T18:00:00Z", "temp_c": 13, "dewp_c": 13, "speci": false, "raw": "METAR ZHHH 141800Z VRB01MPS 9999 OVC023 13/13 Q1018 NOSIG"}
 {"ts_utc": "2026-11-14T18:11:41Z", "station": "ZSPD", "obs_utc": "2026-11-14T18:00:00Z", "temp_c": 15, "dewp_c": 14, "speci": false, "raw": "METAR ZSPD 141800Z 34006MPS 9999 SCT013 15/14 Q1016 NOSIG"}
 {"ts_utc": "2026-11-14T18:11:41Z", "station": "ZUCK", "obs_utc": "2026-11-14T18:00:00Z", "temp_c": 17, "dewp_c": 10, "speci": false, "raw": "METAR ZUCK 141800Z 03005MPS CAVOK 17/10 Q1013 NOSIG"}
+{"ts_utc": "2026-11-14T18:21:41Z", "station": "ZBAA", "obs_utc": "2026-11-14T18:17:00Z", "temp_c": 3, "dewp_c": 2, "speci": true, "raw": "SPECI ZBAA 141817Z 00000MPS 2500 R36L/P2000N R36R/P2000N R01/0500D BR PRFG NSC 03/02 Q1021 NOSIG"}
+{"ts_utc": "2026-11-14T18:21:41Z", "station": "EFHK", "obs_utc": "2026-11-14T18:20:00Z", "temp_c": 2, "dewp_c": -2, "speci": false, "raw": "METAR EFHK 141820Z 27011KT 9999 BKN033 02/M02 Q1002 NOSIG"}
