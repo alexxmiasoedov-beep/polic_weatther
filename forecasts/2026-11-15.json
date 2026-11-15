@@ -152,6 +152,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "austin": {
+   "bucket": "55°F or below",
+   "prob_pct": 75,
+   "last": 98.4,
+   "bid": 97.5,
+   "ask": 98.5,
+   "consensus": "—",
+   "fact": "KAUS днём плато 52–53 (15Z–20Z), 5-мин 20:55Z 12°C=53.6 — холодный день; ночной максимум до 06Z не в счёт",
+   "kalshi": "",
+   "cut": "00:25 Минск",
+   "bet": null,
+   "note": "лидер PM и часовой METAR",
+   "ts_utc": "2026-11-15T21:26:10Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "top10": {
