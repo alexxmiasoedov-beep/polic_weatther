@@ -1547,3 +1547,4 @@
 {"ts_utc": "2026-11-15T23:39:35Z", "station": "ZSPD", "obs_utc": "2026-11-15T23:30:00Z", "temp_c": 14, "dewp_c": 13, "speci": false, "raw": "METAR ZSPD 152330Z 33002MPS CAVOK 14/13 Q1019 NOSIG"}
 {"ts_utc": "2026-11-15T23:39:35Z", "station": "KSFO", "obs_utc": "2026-11-15T23:35:00Z", "temp_c": 15.6, "dewp_c": 13.9, "speci": true, "raw": "SPECI KSFO 152335Z 25008KT 3SM -RA BR FEW010 BKN028 OVC036 16/14 A3001 RMK AO2 PK WND 20027/2301 P0002 T01560139"}
 {"ts_utc": "2026-11-15T23:39:35Z", "station": "MMMX", "obs_utc": "2026-11-15T23:36:00Z", "temp_c": 20, "dewp_c": 7, "speci": true, "raw": "SPECI MMMX 152336Z 12012KT 12SM FEW020 20/07 A3027 NOSIG RMK 8/400"}
+{"ts_utc": "2026-11-15T23:59:35Z", "station": "KSFO", "obs_utc": "2026-11-15T23:54:00Z", "temp_c": 13, "dewp_c": 12, "speci": true, "raw": "SPECI KSFO 152354Z 30013KT 1 1/2SM R28R/5000VP6000FT RA BR SCT007 BKN017 OVC029 13/12 A3001 RMK AO2 PK WND 20027/2301 P0006"}
