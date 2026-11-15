@@ -250,3 +250,53 @@ if __name__ == "__main__":
     if "--scan" in a: scan()
     if "--resolve" in a: resolve()
     if "--stats" in a or not a: stats(a[a.index("--tg") + 1] if "--tg" in a else None)
+    if "--stats" in a and "--tg" in a and MISSED.exists():
+        with open(a[a.index("--tg") + 1], "a", encoding="utf-8") as f: f.write("\n" + missed_stats())
+
+
+# ---------------------------------------------------------------- ретро-журнал пропущенных сигналов (15.11)
+MISSED = ROOT / "station_edge" / "missed.jsonl"
+
+def retro(d):
+    """Сигналы по правилу на снапшотах дня d, которых нет в журнале (цикл Actions
+    не успел: METAR дошёл до сборщика позже, чем рынок переоценился). Пишет
+    station_edge/missed.jsonl — теневой журнал «что поймал бы минутный опрос»;
+    цена — ask снапшота, в котором сигнал виден впервые (не гарантирована)."""
+    have = {(e["slug"], e["d"]) for e in load_journal() if e.get("type") == "entry"}
+    seen = set()
+    if MISSED.exists():
+        for line in open(MISSED, encoding="utf-8"):
+            try: e = json.loads(line); seen.add((e["slug"], e["d"]))
+            except Exception: pass
+    out = []
+    for slug, info in universe().items():
+        if (slug, d) in have or (slug, d) in seen: continue
+        for ts, b in snapshots(slug, info, d):
+            now = parse_ts(ts) + timedelta(seconds=30); lt = now.astimezone(ZoneInfo(info["tz"]))
+            if lt.date().isoformat() != d or not (H_LO <= lt.hour < H_HI): continue
+            try: e = signal_for(slug, info, now, b, ts)
+            except Exception: e = None
+            if e:
+                w = gamma_winner(slug, d)
+                e.update(type="missed", winner=w, hit=(w == e["bucket"]) if w else None,
+                         pnl=(round(100 / e["entry"] - 1, 3) if w == e["bucket"] else -1.0) if w else None)
+                out.append(e); break
+    if out:
+        MISSED.parent.mkdir(exist_ok=True)
+        with open(MISSED, "a", encoding="utf-8") as f:
+            for e in out: f.write(json.dumps(e, ensure_ascii=False) + "\n")
+    for e in out: print(f"ПРОПУЩЕН {e['slug']} {e['d']} {e['local']} {e['bucket']} (лидер {e['lead']}) ask {e['ask']} → {e.get('winner')}")
+    return out
+
+def missed_stats():
+    E = []
+    if MISSED.exists():
+        for line in open(MISSED, encoding="utf-8"):
+            try: E.append(json.loads(line))
+            except Exception: pass
+    R = [e for e in E if e.get("hit") is not None]
+    n = len(R); h = sum(1 for e in R if e["hit"]); p = sum(e["pnl"] for e in R)
+    return f"теневой журнал пропущенных (минутный опрос поймал бы): {h}/{n} {p:+.2f}" + (f" ({p/n*100:+.0f}%/сд)" if n else "")
+
+if __name__ == "__main__" and "--retro" in sys.argv:
+    retro(sys.argv[sys.argv.index("--retro") + 1]); print(missed_stats())
