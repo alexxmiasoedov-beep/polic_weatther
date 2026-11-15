@@ -1145,3 +1145,11 @@
 {"ts_utc": "2026-11-15T17:17:54Z", "station": "RCSS", "obs_utc": "2026-11-15T17:00:00Z", "temp_c": 22, "dewp_c": 18, "speci": false, "raw": "METAR RCSS 151700Z 10011KT 060V120 9999 FEW018 BKN040 BKN080 22/18 Q1015 NOSIG RMK A2998"}
 {"ts_utc": "2026-11-15T17:17:54Z", "station": "WMKK", "obs_utc": "2026-11-15T17:00:00Z", "temp_c": 25, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 151700Z VRB01KT 9000 FEW010 25/24 Q1011 NOSIG"}
 {"ts_utc": "2026-11-15T17:17:54Z", "station": "MMMX", "obs_utc": "2026-11-15T17:10:00Z", "temp_c": 21, "dewp_c": 7, "speci": true, "raw": "SPECI MMMX 151710Z 10010KT 10SM SKC 21/07 A3036 NOSIG RMK HZY"}
+{"ts_utc": "2026-11-15T17:27:54Z", "station": "EDDM", "obs_utc": "2026-11-15T17:20:00Z", "temp_c": 5, "dewp_c": 3, "speci": false, "raw": "METAR EDDM 151720Z AUTO 08004KT CAVOK 05/03 Q1011 NOSIG"}
+{"ts_utc": "2026-11-15T17:27:54Z", "station": "EFHK", "obs_utc": "2026-11-15T17:20:00Z", "temp_c": 8, "dewp_c": 3, "speci": false, "raw": "METAR EFHK 151720Z 22017KT 9999 FEW025 BKN040 08/03 Q1004 TEMPO 22017G27KT"}
+{"ts_utc": "2026-11-15T17:27:54Z", "station": "EGLC", "obs_utc": "2026-11-15T17:20:00Z", "temp_c": 10, "dewp_c": 8, "speci": false, "raw": "METAR EGLC 151720Z AUTO 22004KT 160V280 9999 BKN028 BKN042 10/08 Q0995"}
+{"ts_utc": "2026-11-15T17:27:54Z", "station": "LIMC", "obs_utc": "2026-11-15T17:20:00Z", "temp_c": 7, "dewp_c": 3, "speci": false, "raw": "METAR LIMC 151720Z 23004KT 9999 SCT060 07/03 Q1018 NOSIG"}
+{"ts_utc": "2026-11-15T17:27:54Z", "station": "LLBG", "obs_utc": "2026-11-15T17:20:00Z", "temp_c": 22, "dewp_c": 17, "speci": false, "raw": "METAR LLBG 151720Z VRB02KT CAVOK 22/17 Q1021 NOSIG"}
+{"ts_utc": "2026-11-15T17:27:54Z", "station": "LTAC", "obs_utc": "2026-11-15T17:20:00Z", "temp_c": 7, "dewp_c": 6, "speci": false, "raw": "METAR LTAC 151720Z 04010KT 9999 FEW025 SCT035 07/06 Q1025 NOSIG"}
+{"ts_utc": "2026-11-15T17:27:54Z", "station": "LTFM", "obs_utc": "2026-11-15T17:20:00Z", "temp_c": 12, "dewp_c": 7, "speci": false, "raw": "METAR LTFM 151720Z 07011KT 9999 BKN022 12/07 Q1026 NOSIG"}
+{"ts_utc": "2026-11-15T17:27:54Z", "station": "EHAM", "obs_utc": "2026-11-15T17:25:00Z", "temp_c": 8, "dewp_c": 7, "speci": false, "raw": "METAR EHAM 151725Z 16011KT 9999 FEW007 SCT009 BKN011 08/07 Q0997 TEMPO 7000 -RADZ BKN009"}
