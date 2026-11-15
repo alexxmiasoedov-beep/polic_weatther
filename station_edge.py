@@ -245,13 +245,6 @@ def stats(tg=None):
     txt = "\n".join(L); print(txt)
     if tg: Path(tg).write_text(txt, encoding="utf-8")
 
-if __name__ == "__main__":
-    a = sys.argv[1:]
-    if "--scan" in a: scan()
-    if "--resolve" in a: resolve()
-    if "--stats" in a or not a: stats(a[a.index("--tg") + 1] if "--tg" in a else None)
-    if "--stats" in a and "--tg" in a and MISSED.exists():
-        with open(a[a.index("--tg") + 1], "a", encoding="utf-8") as f: f.write("\n" + missed_stats())
 
 
 # ---------------------------------------------------------------- ретро-журнал пропущенных сигналов (15.11)
@@ -298,5 +291,13 @@ def missed_stats():
     n = len(R); h = sum(1 for e in R if e["hit"]); p = sum(e["pnl"] for e in R)
     return f"теневой журнал пропущенных (минутный опрос поймал бы): {h}/{n} {p:+.2f}" + (f" ({p/n*100:+.0f}%/сд)" if n else "")
 
-if __name__ == "__main__" and "--retro" in sys.argv:
-    retro(sys.argv[sys.argv.index("--retro") + 1]); print(missed_stats())
+if __name__ == "__main__":
+    a = sys.argv[1:]
+    if "--scan" in a: scan()
+    if "--resolve" in a: resolve()
+    if "--retro" in a: retro(a[a.index("--retro") + 1]); print(missed_stats())
+    if "--stats" in a or not a:
+        tg = a[a.index("--tg") + 1] if "--tg" in a else None
+        stats(tg)
+        if tg and MISSED.exists():
+            with open(tg, "a", encoding="utf-8") as f: f.write("\n" + missed_stats())
