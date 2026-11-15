@@ -705,3 +705,10 @@
 {"ts_utc": "2026-11-15T10:44:49Z", "station": "WMKK", "obs_utc": "2026-11-15T10:30:00Z", "temp_c": 26, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 151030Z VRB02KT 9000 FEW010 26/25 Q1009 NOSIG"}
 {"ts_utc": "2026-11-15T10:44:49Z", "station": "ZBAA", "obs_utc": "2026-11-15T10:30:00Z", "temp_c": 8, "dewp_c": 3, "speci": false, "raw": "METAR ZBAA 151030Z 19003MPS 160V230 5000 HZ NSC 08/03 Q1026 NOSIG"}
 {"ts_utc": "2026-11-15T10:44:49Z", "station": "ZSPD", "obs_utc": "2026-11-15T10:30:00Z", "temp_c": 17, "dewp_c": 12, "speci": false, "raw": "METAR ZSPD 151030Z 35005MPS CAVOK 17/12 Q1019 NOSIG"}
+{"ts_utc": "2026-11-15T10:54:48Z", "station": "KBKF", "obs_utc": "2026-11-15T10:00:00Z", "temp_c": 5, "dewp_c": 2.5, "speci": false, "raw": "METAR KBKF 150958Z 22003KT 10SM OVC011 05/03 A3004 RMK AO2A SLP145 T00500025"}
+{"ts_utc": "2026-11-15T10:54:48Z", "station": "EDDM", "obs_utc": "2026-11-15T11:00:00Z", "temp_c": 6, "dewp_c": 1, "speci": false, "raw": "METAR EDDM 151050Z AUTO 09003KT 050V140 CAVOK 06/01 Q1013 NOSIG"}
+{"ts_utc": "2026-11-15T10:54:48Z", "station": "EFHK", "obs_utc": "2026-11-15T11:00:00Z", "temp_c": 8, "dewp_c": 4, "speci": false, "raw": "METAR EFHK 151050Z 22015KT 9999 VCSH FEW025CB SCT035 08/04 Q1004 TEMPO 22015G25KT SCT035"}
+{"ts_utc": "2026-11-15T10:54:48Z", "station": "KATL", "obs_utc": "2026-11-15T11:00:00Z", "temp_c": 0.6, "dewp_c": -2.2, "speci": false, "raw": "METAR KATL 151052Z 32004KT 10SM FEW200 01/M02 A3027 RMK AO2 SLP258 T00061022 $"}
+{"ts_utc": "2026-11-15T10:54:48Z", "station": "KLGA", "obs_utc": "2026-11-15T11:00:00Z", "temp_c": 6.1, "dewp_c": 1.1, "speci": false, "raw": "METAR KLGA 151051Z 31014KT 10SM FEW040 06/01 A3003 RMK AO2 SLP167 T00610011 $"}
+{"ts_utc": "2026-11-15T10:54:48Z", "station": "KORD", "obs_utc": "2026-11-15T11:00:00Z", "temp_c": 0.6, "dewp_c": -3.3, "speci": false, "raw": "METAR KORD 151051Z 28004KT 10SM FEW040 01/M03 A3037 RMK AO2 SLP290 T00061033 $"}
+{"ts_utc": "2026-11-15T10:54:48Z", "station": "LLBG", "obs_utc": "2026-11-15T11:00:00Z", "temp_c": 25, "dewp_c": 16, "speci": false, "raw": "METAR LLBG 151050Z 29012KT CAVOK 25/16 Q1020 NOSIG"}
