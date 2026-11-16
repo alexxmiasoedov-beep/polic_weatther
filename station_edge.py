@@ -101,6 +101,16 @@ def price(b, k):
     l, bid, a = b[k]
     return l if l is not None else ((bid or 0) + (a or 0)) / 2 if (bid or a) else None
 
+def live_keys(b):
+    """корзины с живым рынком: исключаем мёртвые (ask ≤1,5¢ и bid ≤1¢) — у них last протухший
+    (Тель-Авив 16.11: «20°C or below» last 74 при ask 0,1 стал «лидером»)"""
+    out = []
+    for k, (last, bid, ask) in b.items():
+        if price(b, k) is None: continue
+        if (ask is not None and ask <= 1.5) and (bid or 0) <= 1: continue
+        out.append(k)
+    return out
+
 def bucket_for_temp(b, t):
     for k in ordered(b):
         n = bnum(k)
@@ -157,7 +167,7 @@ def signal_for(slug, info, now, b, ts, obs=None):
     if t_of_max.hour < NOCTURNAL_H: return None
     bk = bucket_for_temp(b, t_max)
     if not bk or bk not in b: return None
-    keys = [k for k in b if price(b, k) is not None]
+    keys = live_keys(b)
     if not keys: return None
     lead = max(keys, key=lambda k: price(b, k)); o = ordered(b)
     if bk not in o or lead not in o or o.index(bk) <= o.index(lead): return None
@@ -402,7 +412,7 @@ def signal_us(slug, info, now, b, obs):
     bk_h = bucket_for_temp(b, hmax_f); bk_c = bucket_for_temp(b, cur_f)
     if not bk_h or not bk_c or bk_c == bk_h: return None
     o = ordered(b)
-    keys = [k for k in b if price(b, k) is not None]
+    keys = live_keys(b)
     if not keys: return None
     lead = max(keys, key=lambda k: price(b, k))
     if o.index(bk_c) <= o.index(bk_h) or o.index(bk_c) <= o.index(lead): return None
@@ -458,7 +468,7 @@ def retro_us(d):
             hm = max(hp); c = cur[-1]
             bh, bc = bucket_for_temp(b, hm), bucket_for_temp(b, c)
             if not bh or not bc or bc == bh: continue
-            o = ordered(b); keys = [k for k in b if price(b, k) is not None]
+            o = ordered(b); keys = live_keys(b)
             if not keys: continue
             lead = max(keys, key=lambda k: price(b, k))
             if o.index(bc) <= o.index(bh) or o.index(bc) <= o.index(lead): continue
