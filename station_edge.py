@@ -170,7 +170,7 @@ def signal_for(slug, info, now, b, ts, obs=None):
 
 def scan():
     now = datetime.now(timezone.utc)
-    have = {(e["slug"], e["d"]) for e in load_journal() if e.get("type") == "entry"}
+    have = {(e["slug"], e["d"]) for e in load_journal() if e.get("type") == "entry" and e.get("rule", "station") == "station"}
     new = []
     for slug, info in universe().items():
         tz = ZoneInfo(info["tz"]); lt = now.astimezone(tz)
@@ -209,10 +209,10 @@ def gamma_winner(slug, d):
 
 def resolve():
     E = load_journal(); U = universe(); now = datetime.now(timezone.utc)
-    done = {(e["slug"], e["d"]) for e in E if valid_resolve(e)}
+    done = {(e["slug"], e["d"], e.get("rule", "station")) for e in E if valid_resolve(e)}
     new = []
     for e in E:
-        if e.get("type") != "entry" or (e["slug"], e["d"]) in done or e["slug"] not in U: continue
+        if e.get("type") != "entry" or (e["slug"], e["d"], e.get("rule", "station")) in done or e["slug"] not in U: continue
         info = U[e["slug"]]; tz = ZoneInfo(info["tz"])
         end = datetime.fromisoformat(e["d"]).replace(tzinfo=tz) + timedelta(days=1, hours=3)
         if now < end: continue
@@ -225,23 +225,25 @@ def resolve():
             w = [k for k, (l, bid, a) in b.items() if (l or 0) >= 97 or (bid or 0) >= 97]
             if len(w) != 1: continue
         hit = (w[0] == e["bucket"]); pnl = round((100 / e["entry"] - 1) * e["size"], 3) if hit else -1.0 * e["size"]
-        new.append(dict(type="resolve", slug=e["slug"], d=e["d"], winner=w[0], hit=hit, pnl=pnl, ts_utc=now.strftime("%Y-%m-%dT%H:%M:%SZ")))
-        done.add((e["slug"], e["d"]))
+        new.append(dict(type="resolve", rule=e.get("rule", "station"), slug=e["slug"], d=e["d"], winner=w[0], hit=hit, pnl=pnl, ts_utc=now.strftime("%Y-%m-%dT%H:%M:%SZ")))
+        done.add((e["slug"], e["d"], e.get("rule", "station")))
     if new: append(new)
     print(f"station_edge: закрыто {len(new)}")
     return new
 
 def stats(tg=None):
-    E = load_journal()
-    ent = {(e["slug"], e["d"]): e for e in E if e.get("type") == "entry"}
-    res = list({(e["slug"], e["d"]): e for e in E if valid_resolve(e) and (e["slug"], e["d"]) in ent}.values())
-    n = len(res); h = sum(1 for r in res if r["hit"]); p = sum(r["pnl"] for r in res)
-    openn = [e for k, e in ent.items() if k not in {(r["slug"], r["d"]) for r in res}]
-    L = [f"📡 <b>СТАНЦИЯ ВЫШЕ ЛИДЕРА</b> (бумага, с 09.11): {h}/{n} {p:+.2f}" + (f" ({p/n*100:+.0f}%/сд)" if n else "")]
-    for r in sorted(res, key=lambda r: (r["d"], r["slug"]))[-8:]:
-        e = ent[(r["slug"], r["d"])]
-        L.append(f"{'✅' if r['hit'] else '❌'} {r['d'][8:10]}.{r['d'][5:7]} {r['slug']} {e['bucket']} @{e['entry']:.0f} → {r['winner']} {r['pnl']:+.2f}")
-    if openn: L.append("открыто: " + ", ".join(f"{e['slug']} {e['bucket']} @{e['entry']:.0f}" for e in openn))
+    E = load_journal(); L = []
+    for rule, title in (("station", "📡 <b>СТАНЦИЯ ВЫШЕ ЛИДЕРА</b> (бумага, с 09.11)"), ("nws5", "⏱ <b>МИНУТКА США</b> (бумага, с 16.11; 5-мин NWS опережает часовую печать)")):
+        ent = {(e["slug"], e["d"]): e for e in E if e.get("type") == "entry" and e.get("rule", "station") == rule}
+        res = list({(e["slug"], e["d"]): e for e in E if valid_resolve(e) and e.get("rule", "station") == rule and (e["slug"], e["d"]) in ent}.values())
+        if rule == "nws5" and not ent: continue
+        n = len(res); h = sum(1 for r in res if r["hit"]); p = sum(r["pnl"] for r in res)
+        openn = [e for k, e in ent.items() if k not in {(r["slug"], r["d"]) for r in res}]
+        L.append(f"{title}: {h}/{n} {p:+.2f}" + (f" ({p/n*100:+.0f}%/сд)" if n else ""))
+        for r in sorted(res, key=lambda r: (r["d"], r["slug"]))[-8:]:
+            e = ent[(r["slug"], r["d"])]
+            L.append(f"{'✅' if r['hit'] else '❌'} {r['d'][8:10]}.{r['d'][5:7]} {r['slug']} {e['bucket']} @{e['entry']:.0f} → {r['winner']} {r['pnl']:+.2f}" + (f" стакан {e.get('book_best_size')}/{e.get('book_depth5')}" if e.get("book_best_size") is not None else ""))
+        if openn: L.append("открыто: " + ", ".join(f"{e['slug']} {e['bucket']} @{e['entry']:.0f}" for e in openn))
     txt = "\n".join(L); print(txt)
     if tg: Path(tg).write_text(txt, encoding="utf-8")
 
@@ -337,6 +339,50 @@ def book_depth(token_id, ask):
     best = min(p for p, _ in asks)
     return round(sum(sz for p, sz in asks if abs(p - best) < 0.05), 1), round(sum(sz for p, sz in asks if p <= best + 5), 1)
 
+# ---------------------------------------------------------------- правило B «МИНУТКА США» (16.11, предрегистрация)
+# Бэктест на минутных ASOS (IEM) 27.08–16.11, 7 городов: текущая минутная температура в
+# корзине ВЫШЕ и корзины часового максимума, и лидера PM; 12:00–16:59 местного; ask 1–85 →
+# 121 сделка, 48 %, +82 ед. по ask+1 (+68 %/сд), 8 из 9 последних недель в плюс.
+# Живой источник — последнее наблюдение NWS (api.weather.gov, целые °C ⇒ запас ≥0,5 °C от границы).
+NWS_API = "https://api.weather.gov/stations/{st}/observations/latest"
+
+def nws_latest(station):
+    try: o = _get(NWS_API.format(st=station), 20)["properties"]
+    except Exception as ex:  # noqa: BLE001
+        print(f"WARN fast nws {station}: {ex}", file=sys.stderr); return None
+    t = o.get("temperature", {}).get("value"); ts = o.get("timestamp")
+    if t is None or not ts: return None
+    return parse_ts(ts[:19] + "Z") if ts.endswith("+00:00") else datetime.fromisoformat(ts).astimezone(timezone.utc), float(t)
+
+def signal_us(slug, info, now, b, obs):
+    """правило B для США: obs — часовые регулярные наблюдения дня (°C)"""
+    if info["unit"] != "F" or not obs: return None
+    tz = ZoneInfo(info["tz"]); lt = now.astimezone(tz); d = lt.date().isoformat()
+    cur = nws_latest(info["station"])
+    if not cur or (now - cur[0]).total_seconds() > 1200: return None
+    t_obs, c = cur
+    hmax_f = max(x * 9 / 5 + 32 for _, x in obs)
+    cur_f = c * 9 / 5 + 32
+    bk_h = bucket_for_temp(b, hmax_f); bk_c = bucket_for_temp(b, cur_f)
+    if not bk_h or not bk_c or bk_c == bk_h: return None
+    o = ordered(b)
+    keys = [k for k in b if price(b, k) is not None]
+    if not keys: return None
+    lead = max(keys, key=lambda k: price(b, k))
+    if o.index(bk_c) <= o.index(bk_h) or o.index(bk_c) <= o.index(lead): return None
+    lo = bucket_lower_f(bk_c)
+    if lo is not None and cur_f - lo < 0.9: return None  # запас ≥0,5 °C от нижней границы (целые °C у NWS)
+    ask = b[bk_c][2]
+    if ask is None or not (ASK_LO <= ask <= ASK_HI): return None
+    return dict(type="entry", rule="nws5", slug=slug, d=d, ts_utc=now.strftime("%Y-%m-%dT%H:%M:%SZ"), snap_ts=now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                local=lt.strftime("%H:%M"), bucket=bk_c, lead=lead, lead_last=b[lead][0], last=b[bk_c][0], bid=b[bk_c][1], ask=ask,
+                entry=round(ask + SLIP, 2), size=SIZE, t_cur=round(cur_f, 1), t_hmax=round(hmax_f, 1), obs_local=t_obs.astimezone(tz).strftime("%H:%M"), unit="F")
+
+def bucket_lower_f(label):
+    m = re.findall(r"(?<!\d)-?\d+", label)
+    if not m or "below" in label: return None
+    return int(m[0]) - 0.5
+
 def fast(seconds):
     """Минутный опрос в окне 12:00–16:59 местного: METAR с API + цены Gamma; сигнал по
     тому же замороженному правилу, запись сразу (src=fast) с глубиной стакана CLOB."""
@@ -344,11 +390,13 @@ def fast(seconds):
     U = universe(); n_iter = 0
     while datetime.now(timezone.utc) < t_end:
         n_iter += 1; t0 = datetime.now(timezone.utc)
-        have = {(e["slug"], e["d"]) for e in load_journal() if e.get("type") == "entry"}
+        J = load_journal()
+        have = {(e["slug"], e["d"]) for e in J if e.get("type") == "entry" and e.get("rule", "station") == "station"}
+        have_b = {(e["slug"], e["d"], "nws5") for e in J if e.get("type") == "entry" and e.get("rule") == "nws5"}
         active = {}
         for slug, info in U.items():
-            lt = t0.astimezone(ZoneInfo(info["tz"]))
-            if H_LO <= lt.hour < H_HI and (slug, lt.date().isoformat()) not in have: active[slug] = (info, lt.date().isoformat())
+            lt = t0.astimezone(ZoneInfo(info["tz"])); d_ = lt.date().isoformat()
+            if H_LO <= lt.hour < H_HI and ((slug, d_) not in have or (info["unit"] == "F" and (slug, d_, "nws5") not in have_b)): active[slug] = (info, d_)
         if active:
             metar = live_metar(sorted({i["station"] for i, _ in active.values()}))
             new = []
@@ -363,14 +411,22 @@ def fast(seconds):
                 except Exception as ex:  # noqa: BLE001
                     print(f"WARN fast gamma {slug}: {ex}", file=sys.stderr); continue
                 if not b: continue
-                try: e = signal_for(slug, info, t0, b, t0.strftime("%Y-%m-%dT%H:%M:%SZ"), obs=obs)
-                except Exception as ex:  # noqa: BLE001
-                    print(f"WARN fast signal {slug}: {ex}", file=sys.stderr); continue
-                if e:
+                found = []
+                if (slug, d) not in have:
+                    try: e = signal_for(slug, info, t0, b, t0.strftime("%Y-%m-%dT%H:%M:%SZ"), obs=obs)
+                    except Exception as ex:  # noqa: BLE001
+                        print(f"WARN fast signal {slug}: {ex}", file=sys.stderr); e = None
+                    if e: e["rule"] = "station"; found.append(e); have.add((slug, d))
+                if (slug, d, "nws5") not in have_b and info["unit"] == "F":
+                    try: e2 = signal_us(slug, info, t0, b, obs)
+                    except Exception as ex:  # noqa: BLE001
+                        print(f"WARN fast nws5 {slug}: {ex}", file=sys.stderr); e2 = None
+                    if e2: found.append(e2); have_b.add((slug, d, "nws5"))
+                for e in found:
                     e["src"] = "fast"
                     if tok.get(e["bucket"]):
                         e["book_best_size"], e["book_depth5"] = book_depth(tok[e["bucket"]], e["ask"])
-                    new.append(e); have.add((slug, d))
+                    new.append(e)
             if new:
                 append(new)
                 for e in new: print(f"FAST СИГНАЛ {e['slug']} {e['d']} {e['local']} {e['bucket']} (лидер {e['lead']}) ask {e['ask']} глубина {e.get('book_best_size')}/{e.get('book_depth5')}", flush=True)
