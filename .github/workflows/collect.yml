@@ -52,7 +52,15 @@ jobs:
             # 16.11: недоведённый rebase (конфликт с ручным коммитом) останавливал коммиты цикла —
             # при неудаче pull сбрасываемся на origin/main (теряется только непропушенный тик)
             git rebase --abort >/dev/null 2>&1 || true
-            git pull --rebase -q || { git rebase --abort >/dev/null 2>&1; git fetch -q origin main && git reset -q --hard origin/main; echo "WARN: pull failed, reset to origin/main"; }
+            # минутный контур дописывает station_edge/ между тиками — коммитим ДО pull,
+            # иначе «unstaged changes» валит rebase (падение цикла 17:20 16.11)
+            git add station_edge/ >/dev/null 2>&1 || true
+            git diff --cached --quiet || git commit -qm "fast $(date -u +'%Y-%m-%d %H:%M') UTC" || true
+            if ! git pull --rebase -q; then
+              git rebase --abort >/dev/null 2>&1 || true
+              git fetch -q origin main && git reset -q --hard origin/main
+              echo "WARN: pull failed, reset to origin/main"
+            fi
             timeout 480 python collector.py || echo "WARN: collector rc=$?"
             # 09.11: бумажный журнал «станция выше лидера» (station_edge.py) —
             # сигнал по свежим METAR и ценам сразу после сбора, резолв закрытых
