@@ -15,3 +15,13 @@
 {"ts_utc": "2026-11-16T17:49:44Z", "iteration": 8, "active": ["atlanta", "buenos-aires", "miami", "sao-paulo", "toronto"], "metar_stations": 5, "iter_seconds": 1.2}
 {"ts_utc": "2026-11-16T17:50:44Z", "iteration": 9, "active": ["atlanta", "buenos-aires", "miami", "sao-paulo", "toronto"], "metar_stations": 5, "iter_seconds": 1.5}
 {"ts_utc": "2026-11-16T17:51:44Z", "iteration": 10, "active": ["atlanta", "buenos-aires", "miami", "sao-paulo", "toronto"], "metar_stations": 5, "iter_seconds": 1.4}
+{"ts_utc": "2026-11-16T17:51:52Z", "iteration": 1, "active": ["atlanta", "buenos-aires", "miami", "sao-paulo", "toronto"], "metar_stations": 5, "iter_seconds": 1.3}
+{"ts_utc": "2026-11-16T17:52:59Z", "iteration": 2, "active": ["atlanta", "buenos-aires", "miami", "sao-paulo", "toronto"], "metar_stations": 5, "iter_seconds": 8.0}
+{"ts_utc": "2026-11-16T17:54:03Z", "iteration": 3, "active": ["atlanta", "buenos-aires", "miami", "sao-paulo", "toronto"], "metar_stations": 5, "iter_seconds": 12.3}
+{"ts_utc": "2026-11-16T17:54:53Z", "iteration": 4, "active": ["atlanta", "buenos-aires", "miami", "sao-paulo", "toronto"], "metar_stations": 5, "iter_seconds": 1.8}
+{"ts_utc": "2026-11-16T17:55:52Z", "iteration": 5, "active": ["atlanta", "buenos-aires", "miami", "sao-paulo", "toronto"], "metar_stations": 5, "iter_seconds": 1.6}
+{"ts_utc": "2026-11-16T17:56:52Z", "iteration": 6, "active": ["atlanta", "buenos-aires", "miami", "sao-paulo", "toronto"], "metar_stations": 5, "iter_seconds": 1.4}
+{"ts_utc": "2026-11-16T17:57:52Z", "iteration": 7, "active": ["atlanta", "buenos-aires", "miami", "sao-paulo", "toronto"], "metar_stations": 5, "iter_seconds": 1.4}
+{"ts_utc": "2026-11-16T17:58:53Z", "iteration": 8, "active": ["atlanta", "buenos-aires", "miami", "sao-paulo", "toronto"], "metar_stations": 5, "iter_seconds": 1.8}
+{"ts_utc": "2026-11-16T17:59:52Z", "iteration": 9, "active": ["atlanta", "buenos-aires", "miami", "sao-paulo", "toronto"], "metar_stations": 5, "iter_seconds": 1.5}
+{"ts_utc": "2026-11-16T18:01:06Z", "iteration": 10, "active": ["atlanta", "austin", "buenos-aires", "chicago", "dallas", "houston", "mexico-city", "miami", "sao-paulo", "toronto"], "metar_stations": 10, "iter_seconds": 15.5}
