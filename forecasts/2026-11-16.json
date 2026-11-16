@@ -152,6 +152,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "austin": {
+   "bucket": "60-61°F",
+   "prob_pct": 65,
+   "last": 61.3,
+   "bid": 60.0,
+   "ask": 69.5,
+   "consensus": "—",
+   "fact": "KAUS часовые 20Z 60.1, 21Z 61.0, 5-мин 20:35Z 17°C=62.6 — ещё греется в 14:35 местного",
+   "kalshi": "58° or above 99¢",
+   "cut": "00:25 Минск",
+   "bet": null,
+   "note": "лидер PM и часовой METAR",
+   "ts_utc": "2026-11-16T21:26:51Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "top10": {
