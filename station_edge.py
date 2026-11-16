@@ -343,8 +343,14 @@ def book_depth(token_id, ask):
 # Бэктест на минутных ASOS (IEM) 27.08–16.11, 7 городов: текущая минутная температура в
 # корзине ВЫШЕ и корзины часового максимума, и лидера PM; 12:00–16:59 местного; ask 1–85 →
 # 121 сделка, 48 %, +82 ед. по ask+1 (+68 %/сд), 8 из 9 последних недель в плюс.
-# Живой источник — последнее наблюдение NWS (api.weather.gov, целые °C ⇒ запас ≥0,5 °C от границы).
+# Живые источники (16.11, владелец: «подключи минутные данные IEM»): минутный архив IEM
+# отстаёт на ~сутки и годится только для теневой проверки (--retro-us). В реальном времени
+# доступны 5-минутные HFMETAR: NWS api.weather.gov (свежее, целые °C) и IEM obhistory
+# (та же лента, в RMK T-группа с 0,1 °C). Берём самое свежее ≤20 мин; запас от нижней
+# границы корзины ≥0,5 °C для целых и ≥0,2 °C для десятых.
 NWS_API = "https://api.weather.gov/stations/{st}/observations/latest"
+IEM_OBHIST = "https://mesonet.agron.iastate.edu/api/1/obhistory.json?station={st3}&network={net}&date={d}"
+IEM_NET = {"KAUS": "TX_ASOS", "KHOU": "TX_ASOS", "KATL": "GA_ASOS", "KLAX": "CA_ASOS", "KSFO": "CA_ASOS", "KMIA": "FL_ASOS", "KSEA": "WA_ASOS", "KDAL": "TX_ASOS", "KORD": "IL_ASOS"}
 
 def nws_latest(station):
     try: o = _get(NWS_API.format(st=station), 20)["properties"]
@@ -352,15 +358,45 @@ def nws_latest(station):
         print(f"WARN fast nws {station}: {ex}", file=sys.stderr); return None
     t = o.get("temperature", {}).get("value"); ts = o.get("timestamp")
     if t is None or not ts: return None
-    return parse_ts(ts[:19] + "Z") if ts.endswith("+00:00") else datetime.fromisoformat(ts).astimezone(timezone.utc), float(t)
+    return datetime.fromisoformat(ts).astimezone(timezone.utc), float(t), "whole"
+
+def iem_latest(station):
+    """последнее 5-мин наблюдение IEM obhistory с T-группой (0,1 °C); None, если нет"""
+    net = IEM_NET.get(station)
+    if not net: return None
+    now = datetime.now(timezone.utc); best = None
+    for d in (now.date(), (now - timedelta(days=1)).date()):
+        try: rows = _get(IEM_OBHIST.format(st3=station[1:], net=net, d=d.isoformat()), 25).get("data", [])
+        except Exception as ex:  # noqa: BLE001
+            print(f"WARN fast iem {station}: {ex}", file=sys.stderr); return None
+        for r in rows:
+            m = re.search(r"\bT(\d)(\d{3})(\d)(\d{3})\b", r.get("raw") or "")
+            if not m or not r.get("utc_valid"): continue
+            c = int(m.group(2)) / 10 * (-1 if m.group(1) == "1" else 1)
+            t = datetime.strptime(r["utc_valid"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc)
+            if best is None or t > best[0]: best = (t, c, "tenth")
+        if best: break
+    return best
+
+def us_current(station, now):
+    """самое свежее наблюдение из NWS и IEM, не старше 20 мин: (t, temp_c, precision)"""
+    c = [x for x in (nws_latest(station), iem_latest(station)) if x and (now - x[0]).total_seconds() <= 1200]
+    if not c: return None
+    # при равной свежести предпочитаем десятые
+    return max(c, key=lambda x: (x[0], x[2] == "tenth"))
+
+def bucket_lower_f(label):
+    m = re.findall(r"(?<!\d)-?\d+", label)
+    if not m or "below" in label: return None
+    return int(m[0]) - 0.5
 
 def signal_us(slug, info, now, b, obs):
     """правило B для США: obs — часовые регулярные наблюдения дня (°C)"""
     if info["unit"] != "F" or not obs: return None
     tz = ZoneInfo(info["tz"]); lt = now.astimezone(tz); d = lt.date().isoformat()
-    cur = nws_latest(info["station"])
-    if not cur or (now - cur[0]).total_seconds() > 1200: return None
-    t_obs, c = cur
+    cur = us_current(info["station"], now)
+    if not cur: return None
+    t_obs, c, prec = cur
     hmax_f = max(x * 9 / 5 + 32 for _, x in obs)
     cur_f = c * 9 / 5 + 32
     bk_h = bucket_for_temp(b, hmax_f); bk_c = bucket_for_temp(b, cur_f)
@@ -371,17 +407,83 @@ def signal_us(slug, info, now, b, obs):
     lead = max(keys, key=lambda k: price(b, k))
     if o.index(bk_c) <= o.index(bk_h) or o.index(bk_c) <= o.index(lead): return None
     lo = bucket_lower_f(bk_c)
-    if lo is not None and cur_f - lo < 0.9: return None  # запас ≥0,5 °C от нижней границы (целые °C у NWS)
+    if lo is not None and cur_f - lo < (0.9 if prec == "whole" else 0.4): return None
     ask = b[bk_c][2]
     if ask is None or not (ASK_LO <= ask <= ASK_HI): return None
     return dict(type="entry", rule="nws5", slug=slug, d=d, ts_utc=now.strftime("%Y-%m-%dT%H:%M:%SZ"), snap_ts=now.strftime("%Y-%m-%dT%H:%M:%SZ"),
                 local=lt.strftime("%H:%M"), bucket=bk_c, lead=lead, lead_last=b[lead][0], last=b[bk_c][0], bid=b[bk_c][1], ask=ask,
-                entry=round(ask + SLIP, 2), size=SIZE, t_cur=round(cur_f, 1), t_hmax=round(hmax_f, 1), obs_local=t_obs.astimezone(tz).strftime("%H:%M"), unit="F")
+                entry=round(ask + SLIP, 2), size=SIZE, t_cur=round(cur_f, 1), t_hmax=round(hmax_f, 1), obs_local=t_obs.astimezone(tz).strftime("%H:%M"),
+                obs_src=prec, obs_age_min=round((now - t_obs).total_seconds() / 60), unit="F")
 
-def bucket_lower_f(label):
-    m = re.findall(r"(?<!\d)-?\d+", label)
-    if not m or "below" in label: return None
-    return int(m[0]) - 0.5
+# ---------------------------------------------------------------- теневая проверка B по минутному архиву IEM
+IEM_1MIN = "https://mesonet.agron.iastate.edu/cgi-bin/request/asos1min.py?station={st3}&tz=UTC&year1={y1}&month1={m1}&day1={d1}&year2={y2}&month2={m2}&day2={d2}&vars=tmpf&sample=1min&what=download&delim=comma&gis=no"
+MISSED_US = ROOT / "station_edge" / "shadow_us.jsonl"
+
+def retro_us(d):
+    """Правило B на минутном архиве IEM за день d (архив отстаёт на ~сутки) против снапшотов
+    PM → station_edge/shadow_us.jsonl (type=shadow_us). Это «что увидел бы минутный контур»."""
+    import csv, io, urllib.request
+    seen = set()
+    if MISSED_US.exists():
+        for line in open(MISSED_US, encoding="utf-8"):
+            try: e = json.loads(line); seen.add((e["slug"], e["d"]))
+            except Exception: pass
+    out = []
+    d0 = date.fromisoformat(d); d1 = d0 + timedelta(days=2)
+    for slug, info in universe().items():
+        if info["unit"] != "F" or info["station"] not in IEM_NET or (slug, d) in seen: continue
+        tz = ZoneInfo(info["tz"]); day0 = datetime.fromisoformat(d).replace(tzinfo=tz); day1 = day0 + timedelta(days=1)
+        url = IEM_1MIN.format(st3=info["station"][1:], y1=d0.year, m1=d0.month, d1=d0.day, y2=d1.year, m2=d1.month, d2=d1.day)
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "polic_weatther"})
+            txt = urllib.request.urlopen(req, timeout=120).read().decode()
+        except Exception as ex:  # noqa: BLE001
+            print(f"WARN retro_us {slug}: {ex}", file=sys.stderr); continue
+        m1 = {}
+        for r in csv.DictReader(io.StringIO(txt)):
+            try:
+                t = datetime.strptime(r["valid(UTC)"], "%Y-%m-%d %H:%M").replace(tzinfo=timezone.utc)
+                if day0 <= t.astimezone(tz) < day1: m1[t] = float(r["tmpf"])
+            except Exception: continue
+        if len(m1) < 900: print(f"retro_us {slug} {d}: минутных данных {len(m1)} — архив ещё не полон"); continue
+        prints = {t: x for t, x in m1.items() if t.minute == 53}
+        snaps = snapshots(slug, info, d)
+        if not snaps or not prints: continue
+        for ts, b in snaps:
+            t = parse_ts(ts); lt = t.astimezone(tz)
+            if not (H_LO <= lt.hour < H_HI): continue
+            hp = [x for tt, x in prints.items() if tt <= t]
+            cur = [x for tt, x in sorted(m1.items()) if t - timedelta(minutes=3) <= tt <= t]
+            if not hp or not cur: continue
+            hm = max(hp); c = cur[-1]
+            bh, bc = bucket_for_temp(b, hm), bucket_for_temp(b, c)
+            if not bh or not bc or bc == bh: continue
+            o = ordered(b); keys = [k for k in b if price(b, k) is not None]
+            if not keys: continue
+            lead = max(keys, key=lambda k: price(b, k))
+            if o.index(bc) <= o.index(bh) or o.index(bc) <= o.index(lead): continue
+            ask = b[bc][2]
+            if ask is None or not (ASK_LO <= ask <= ASK_HI): continue
+            w = gamma_winner(slug, d)
+            out.append(dict(type="shadow_us", rule="nws5", slug=slug, d=d, ts_utc=ts, local=lt.strftime("%H:%M"), bucket=bc, lead=lead, ask=ask, entry=round(ask + SLIP, 2),
+                            t_cur=c, t_hmax=hm, winner=w, hit=(w == bc) if w else None, pnl=((round(100 / (ask + SLIP) - 1, 3) if w == bc else -1.0) if w else None)))
+            break
+    if out:
+        MISSED_US.parent.mkdir(exist_ok=True)
+        with open(MISSED_US, "a", encoding="utf-8") as f:
+            for e in out: f.write(json.dumps(e, ensure_ascii=False) + "\n")
+    for e in out: print(f"ТЕНЬ США {e['slug']} {e['d']} {e['local']} {e['bucket']} (лидер {e['lead']}) ask {e['ask']} → {e.get('winner')}")
+    return out
+
+def shadow_us_stats():
+    E = []
+    if MISSED_US.exists():
+        for line in open(MISSED_US, encoding="utf-8"):
+            try: E.append(json.loads(line))
+            except Exception: pass
+    R = [e for e in E if e.get("hit") is not None]
+    n = len(R); h = sum(1 for e in R if e["hit"]); p = sum(e["pnl"] for e in R)
+    return f"тень «минутки США» по архиву IEM (минутный контур увидел бы): {h}/{n} {p:+.2f}" + (f" ({p/n*100:+.0f}%/сд)" if n else "")
 
 def fast(seconds):
     """Минутный опрос в окне 12:00–16:59 местного: METAR с API + цены Gamma; сигнал по
@@ -442,8 +544,11 @@ if __name__ == "__main__":
     if "--resolve" in a: resolve()
     if "--retro" in a: retro(a[a.index("--retro") + 1]); print(missed_stats())
     if "--fast" in a: fast(a[a.index("--fast") + 1])
+    if "--retro-us" in a: retro_us(a[a.index("--retro-us") + 1]); print(shadow_us_stats())
     if "--stats" in a or not a:
         tg = a[a.index("--tg") + 1] if "--tg" in a else None
         stats(tg)
         if tg and MISSED.exists():
             with open(tg, "a", encoding="utf-8") as f: f.write("\n" + missed_stats())
+        if tg and MISSED_US.exists():
+            with open(tg, "a", encoding="utf-8") as f: f.write("\n" + shadow_us_stats())
