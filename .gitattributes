@@ -6,3 +6,4 @@ pilot_data/*.jsonl  merge=union
 observe_data/*.jsonl merge=union
 metar_data/*.jsonl  merge=union
 station_edge/*.jsonl merge=union
+station_edge/fast_heartbeat.jsonl merge=union

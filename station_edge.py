@@ -27,7 +27,7 @@ python3 station_edge.py --scan       # сигналы сейчас (в цикл�
 python3 station_edge.py --resolve    # закрыть сделки по завершившимся рынкам
 python3 station_edge.py --stats [--tg файл]
 """
-import json, sys, glob, re
+import json, sys, glob, re, os
 from pathlib import Path
 from datetime import datetime, timedelta, timezone, date
 from zoneinfo import ZoneInfo
@@ -542,13 +542,16 @@ def fast(seconds):
             if new:
                 append(new)
                 for e in new: print(f"FAST СИГНАЛ {e['slug']} {e['d']} {e['local']} {e['bucket']} (лидер {e['lead']}) ask {e['ask']} глубина {e.get('book_best_size')}/{e.get('book_depth5')}", flush=True)
-        # пульс для контроля из бухгалтерии: коммитится следующим тиком вместе с station_edge/
-        try:
-            (ROOT / "station_edge" / "fast_heartbeat.json").write_text(json.dumps(dict(
-                ts_utc=datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), iteration=n_iter, active=sorted(active),
-                metar_stations=len(metar) if active else 0, iter_seconds=round((datetime.now(timezone.utc) - t0).total_seconds(), 1)), ensure_ascii=False))
-        except Exception as ex:  # noqa: BLE001
-            print(f"WARN fast heartbeat: {ex}", file=sys.stderr)
+        # пульс для контроля из бухгалтерии: одна строка на итерацию в append-only jsonl (union-merge),
+        # и только на раннере Actions — локальные прогоны не должны конфликтовать с ним (урок 16.11: json-файл
+        # пульса дал конфликт rebase и остановил коммиты цикла на час)
+        if os.environ.get("GITHUB_ACTIONS"):
+            try:
+                with open(ROOT / "station_edge" / "fast_heartbeat.jsonl", "a", encoding="utf-8") as f:
+                    f.write(json.dumps(dict(ts_utc=datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), iteration=n_iter, active=sorted(active),
+                                            metar_stations=len(metar) if active else 0, iter_seconds=round((datetime.now(timezone.utc) - t0).total_seconds(), 1))) + "\n")
+            except Exception as ex:  # noqa: BLE001
+                print(f"WARN fast heartbeat: {ex}", file=sys.stderr)
         # пауза до следующей минуты
         rest = 60 - (datetime.now(timezone.utc) - t0).total_seconds()
         if datetime.now(timezone.utc) + timedelta(seconds=max(rest, 0)) >= t_end: break
