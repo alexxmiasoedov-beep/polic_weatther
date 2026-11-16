@@ -447,3 +447,6 @@
 {"ts_utc": "2026-11-16T06:41:15Z", "station": "ZBAA", "obs_utc": "2026-11-16T06:30:00Z", "temp_c": 8, "dewp_c": -3, "speci": false, "raw": "METAR ZBAA 160630Z VRB02MPS CAVOK 08/M03 Q1025 NOSIG"}
 {"ts_utc": "2026-11-16T06:41:15Z", "station": "ZSPD", "obs_utc": "2026-11-16T06:30:00Z", "temp_c": 19, "dewp_c": 10, "speci": false, "raw": "METAR ZSPD 160630Z 03006MPS CAVOK 19/10 Q1018 NOSIG"}
 {"ts_utc": "2026-11-16T06:41:15Z", "station": "KHOU", "obs_utc": "2026-11-16T06:33:00Z", "temp_c": 12.2, "dewp_c": 11.1, "speci": true, "raw": "SPECI KHOU 160633Z 04013KT 10SM OVC008 12/11 A3021 RMK AO2 CIG 007V014 T01220111 $"}
+{"ts_utc": "2026-11-16T06:51:14Z", "station": "VHHH", "obs_utc": "2026-11-16T06:40:00Z", "temp_c": 28, "dewp_c": 19, "speci": true, "raw": "SPECI VHHH 160640Z 11010KT 080V140 9999 FEW020 28/19 Q1012 NOSIG"}
+{"ts_utc": "2026-11-16T06:51:14Z", "station": "WMKK", "obs_utc": "2026-11-16T06:40:00Z", "temp_c": 32, "dewp_c": 25, "speci": true, "raw": "SPECI WMKK 160640Z VRB04KT 6000 -TSRA FEW017CB SCT018 32/25 Q1007 NOSIG"}
+{"ts_utc": "2026-11-16T06:51:14Z", "station": "LLBG", "obs_utc": "2026-11-16T07:00:00Z", "temp_c": 22, "dewp_c": 16, "speci": false, "raw": "METAR LLBG 160650Z VRB03KT 9999 SCT032 22/16 Q1020 NOSIG"}
