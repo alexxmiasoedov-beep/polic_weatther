@@ -147,9 +147,9 @@ def append(rows):
     with open(JOURNAL, "a", encoding="utf-8") as f:
         for r in rows: f.write(json.dumps(r, ensure_ascii=False) + "\n")
 
-def signal_for(slug, info, now, b, ts):
+def signal_for(slug, info, now, b, ts, obs=None):
     tz = ZoneInfo(info["tz"]); lt = now.astimezone(tz); d = lt.date().isoformat()
-    obs = metar_day(info["station"], tz, d, until=now - timedelta(minutes=2))
+    if obs is None: obs = metar_day(info["station"], tz, d, until=now - timedelta(minutes=2))
     if len(obs) < 3: return None
     conv = (lambda c: c * 9 / 5 + 32) if info["unit"] == "F" else (lambda c: c)
     t_max = max(conv(c) for _, c in obs); i = max(i for i, (_, c) in enumerate(obs) if conv(c) == t_max)
@@ -291,11 +291,101 @@ def missed_stats():
     n = len(R); h = sum(1 for e in R if e["hit"]); p = sum(e["pnl"] for e in R)
     return f"теневой журнал пропущенных (минутный опрос поймал бы): {h}/{n} {p:+.2f}" + (f" ({p/n*100:+.0f}%/сд)" if n else "")
 
+
+# ---------------------------------------------------------------- минутный контур (16.11, решение владельца)
+METAR_API = "https://aviationweather.gov/api/data/metar"
+CLOB_API = "https://clob.polymarket.com"
+
+def _get(url, timeout=20):
+    import urllib.request
+    req = urllib.request.Request(url, headers={"User-Agent": "polic_weatther"})
+    with urllib.request.urlopen(req, timeout=timeout) as r: return json.load(r)
+
+def live_metar(stations):
+    """{station: [(obs_dt, temp_c)]} — регулярные METAR за 3 ч прямо с API (без файлов)"""
+    out = {}
+    try: data = _get(f"{METAR_API}?ids={','.join(stations)}&format=json&hours=3", 30) or []
+    except Exception as ex:  # noqa: BLE001
+        print(f"WARN fast metar: {ex}", file=sys.stderr); return out
+    for o in data:
+        t = o.get("reportTime") or ""
+        if not t or o.get("temp") is None or (o.get("rawOb") or "").startswith("SPECI"): continue
+        out.setdefault(o.get("icaoId"), []).append((parse_ts(t[:19].replace(" ", "T") + "Z"), o["temp"]))
+    return out
+
+def live_market(slug, d):
+    """Gamma: {bucket:(last,bid,ask)}, {bucket: yes_token_id}"""
+    ev = config.pm_event_slug(slug, date.fromisoformat(d))
+    r = _get(f"{config.GAMMA_API}/events?slug={ev}")
+    b = {}; tok = {}
+    for m in (r[0].get("markets", []) if r else []):
+        k = m.get("groupItemTitle")
+        if not k: continue
+        f = lambda x: round(float(x) * 100, 2) if x is not None else None
+        b[k] = (f(m.get("lastTradePrice")), f(m.get("bestBid")), f(m.get("bestAsk")))
+        try: tok[k] = json.loads(m["clobTokenIds"])[0]
+        except Exception: pass
+    return b, tok
+
+def book_depth(token_id, ask):
+    """размер на лучшем ask и суммарный размер ask ≤ ask+5¢ (в долях/контрактах)"""
+    try: bk = _get(f"{CLOB_API}/book?token_id={token_id}")
+    except Exception as ex:  # noqa: BLE001
+        print(f"WARN fast book: {ex}", file=sys.stderr); return None, None
+    asks = [(float(a["price"]) * 100, float(a["size"])) for a in bk.get("asks", [])]
+    if not asks: return 0.0, 0.0
+    best = min(p for p, _ in asks)
+    return round(sum(sz for p, sz in asks if abs(p - best) < 0.05), 1), round(sum(sz for p, sz in asks if p <= best + 5), 1)
+
+def fast(seconds):
+    """Минутный опрос в окне 12:00–16:59 местного: METAR с API + цены Gamma; сигнал по
+    тому же замороженному правилу, запись сразу (src=fast) с глубиной стакана CLOB."""
+    t_end = datetime.now(timezone.utc) + timedelta(seconds=int(seconds))
+    U = universe(); n_iter = 0
+    while datetime.now(timezone.utc) < t_end:
+        n_iter += 1; t0 = datetime.now(timezone.utc)
+        have = {(e["slug"], e["d"]) for e in load_journal() if e.get("type") == "entry"}
+        active = {}
+        for slug, info in U.items():
+            lt = t0.astimezone(ZoneInfo(info["tz"]))
+            if H_LO <= lt.hour < H_HI and (slug, lt.date().isoformat()) not in have: active[slug] = (info, lt.date().isoformat())
+        if active:
+            metar = live_metar(sorted({i["station"] for i, _ in active.values()}))
+            new = []
+            for slug, (info, d) in active.items():
+                tz = ZoneInfo(info["tz"]); day0 = datetime.fromisoformat(d).replace(tzinfo=tz)
+                obs = {t: c for t, c in metar_day(info["station"], tz, d, until=t0)}  # история из файлов
+                for t, c in metar.get(info["station"], []):
+                    if day0 <= t.astimezone(tz) < day0 + timedelta(days=1) and t <= t0: obs[t] = c
+                obs = sorted(obs.items())
+                if len(obs) < 3: continue
+                try: b, tok = live_market(slug, d)
+                except Exception as ex:  # noqa: BLE001
+                    print(f"WARN fast gamma {slug}: {ex}", file=sys.stderr); continue
+                if not b: continue
+                try: e = signal_for(slug, info, t0, b, t0.strftime("%Y-%m-%dT%H:%M:%SZ"), obs=obs)
+                except Exception as ex:  # noqa: BLE001
+                    print(f"WARN fast signal {slug}: {ex}", file=sys.stderr); continue
+                if e:
+                    e["src"] = "fast"
+                    if tok.get(e["bucket"]):
+                        e["book_best_size"], e["book_depth5"] = book_depth(tok[e["bucket"]], e["ask"])
+                    new.append(e); have.add((slug, d))
+            if new:
+                append(new)
+                for e in new: print(f"FAST СИГНАЛ {e['slug']} {e['d']} {e['local']} {e['bucket']} (лидер {e['lead']}) ask {e['ask']} глубина {e.get('book_best_size')}/{e.get('book_depth5')}", flush=True)
+        # пауза до следующей минуты
+        rest = 60 - (datetime.now(timezone.utc) - t0).total_seconds()
+        if datetime.now(timezone.utc) + timedelta(seconds=max(rest, 0)) >= t_end: break
+        if rest > 0: __import__("time").sleep(rest)
+    print(f"fast: {n_iter} итераций, активных городов в последней: {len(active) if 'active' in dir() else 0}")
+
 if __name__ == "__main__":
     a = sys.argv[1:]
     if "--scan" in a: scan()
     if "--resolve" in a: resolve()
     if "--retro" in a: retro(a[a.index("--retro") + 1]); print(missed_stats())
+    if "--fast" in a: fast(a[a.index("--fast") + 1])
     if "--stats" in a or not a:
         tg = a[a.index("--tg") + 1] if "--tg" in a else None
         stats(tg)

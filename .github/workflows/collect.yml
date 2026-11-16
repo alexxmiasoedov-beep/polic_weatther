@@ -82,5 +82,6 @@ jobs:
             fi
             # ждём до следующей 10-минутной отметки от начала итерации
             SLEEP=$((600 - (NOW - TICK)))
-            [ $SLEEP -gt 0 ] && sleep $SLEEP
+            # 16.11: вместо сна — минутный контур станции (METAR + Gamma + стакан CLOB)
+            [ $SLEEP -gt 0 ] && (timeout $((SLEEP + 10)) python station_edge.py --fast $SLEEP || echo "WARN: fast rc=$?")
           done
