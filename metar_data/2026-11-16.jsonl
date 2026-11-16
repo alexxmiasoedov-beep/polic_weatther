@@ -1257,3 +1257,10 @@
 {"ts_utc": "2026-11-16T19:05:43Z", "station": "WSSS", "obs_utc": "2026-11-16T19:00:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WSSS 161900Z VRB02KT 9999 FEW018 BKN160 26/24 Q1009 NOSIG"}
 {"ts_utc": "2026-11-16T19:05:43Z", "station": "ZBAA", "obs_utc": "2026-11-16T19:00:00Z", "temp_c": 2, "dewp_c": -1, "speci": false, "raw": "METAR ZBAA 161900Z VRB01MPS CAVOK 02/M01 Q1026 NOSIG"}
 {"ts_utc": "2026-11-16T19:05:43Z", "station": "ZSPD", "obs_utc": "2026-11-16T19:00:00Z", "temp_c": 15, "dewp_c": 11, "speci": false, "raw": "METAR ZSPD 161900Z 01004MPS CAVOK 15/11 Q1019 NOSIG"}
+{"ts_utc": "2026-11-16T19:15:15Z", "station": "CYYZ", "obs_utc": "2026-11-16T19:00:00Z", "temp_c": 10, "dewp_c": 4, "speci": false, "raw": "METAR CYYZ 161900Z 25011KT 15SM BKN030 10/04 A3044 RMK SC7 SLP314"}
+{"ts_utc": "2026-11-16T19:15:15Z", "station": "FACT", "obs_utc": "2026-11-16T19:00:00Z", "temp_c": 20, "dewp_c": 10, "speci": false, "raw": "METAR FACT 161900Z 16022KT CAVOK 20/10 Q1021 NOSIG"}
+{"ts_utc": "2026-11-16T19:15:15Z", "station": "KBKF", "obs_utc": "2026-11-16T19:00:00Z", "temp_c": 15.9, "dewp_c": -3.6, "speci": false, "raw": "METAR KBKF 161858Z 00000KT 10SM BKN200 16/M04 A3012 RMK AO2A SLP166 T01591036"}
+{"ts_utc": "2026-11-16T19:15:15Z", "station": "RCSS", "obs_utc": "2026-11-16T19:00:00Z", "temp_c": 22, "dewp_c": 20, "speci": false, "raw": "METAR RCSS 161900Z VRB02KT 9999 FEW018 SCT030 BKN070 22/20 Q1015 NOSIG RMK A3000"}
+{"ts_utc": "2026-11-16T19:15:15Z", "station": "WMKK", "obs_utc": "2026-11-16T19:00:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 161900Z 00000KT 8000 FEW010 26/24 Q1009 NOSIG"}
+{"ts_utc": "2026-11-16T19:15:15Z", "station": "ZHHH", "obs_utc": "2026-11-16T19:00:00Z", "temp_c": 13, "dewp_c": 13, "speci": false, "raw": "METAR ZHHH 161900Z 02002MPS 3500 -RA BR SCT007 OVC033 13/13 Q1019 NOSIG"}
+{"ts_utc": "2026-11-16T19:15:15Z", "station": "ZUCK", "obs_utc": "2026-11-16T19:00:00Z", "temp_c": 12, "dewp_c": 12, "speci": false, "raw": "METAR ZUCK 161900Z 30004MPS 6000 -RA SCT004 SCT008 OVC030 12/12 Q1019 NOSIG"}
