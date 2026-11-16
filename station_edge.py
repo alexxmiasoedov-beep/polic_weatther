@@ -532,6 +532,13 @@ def fast(seconds):
             if new:
                 append(new)
                 for e in new: print(f"FAST СИГНАЛ {e['slug']} {e['d']} {e['local']} {e['bucket']} (лидер {e['lead']}) ask {e['ask']} глубина {e.get('book_best_size')}/{e.get('book_depth5')}", flush=True)
+        # пульс для контроля из бухгалтерии: коммитится следующим тиком вместе с station_edge/
+        try:
+            (ROOT / "station_edge" / "fast_heartbeat.json").write_text(json.dumps(dict(
+                ts_utc=datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), iteration=n_iter, active=sorted(active),
+                metar_stations=len(metar) if active else 0, iter_seconds=round((datetime.now(timezone.utc) - t0).total_seconds(), 1)), ensure_ascii=False))
+        except Exception as ex:  # noqa: BLE001
+            print(f"WARN fast heartbeat: {ex}", file=sys.stderr)
         # пауза до следующей минуты
         rest = 60 - (datetime.now(timezone.utc) - t0).total_seconds()
         if datetime.now(timezone.utc) + timedelta(seconds=max(rest, 0)) >= t_end: break
