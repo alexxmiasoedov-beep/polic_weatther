@@ -1068,3 +1068,5 @@
 {"ts_utc": "2026-11-17T16:26:00Z", "station": "LLBG", "obs_utc": "2026-11-17T16:20:00Z", "temp_c": 22, "dewp_c": 14, "speci": false, "raw": "METAR LLBG 171620Z 33006KT 9999 SCT033 22/14 Q1017 NOSIG"}
 {"ts_utc": "2026-11-17T16:26:00Z", "station": "LTAC", "obs_utc": "2026-11-17T16:20:00Z", "temp_c": 9, "dewp_c": 7, "speci": false, "raw": "METAR LTAC 171620Z 21005KT 9999 FEW010 BKN025 BKN080 09/07 Q1014 NOSIG"}
 {"ts_utc": "2026-11-17T16:26:00Z", "station": "LTFM", "obs_utc": "2026-11-17T16:20:00Z", "temp_c": 14, "dewp_c": 12, "speci": false, "raw": "METAR LTFM 171620Z 19008KT CAVOK 14/12 Q1010 NOSIG"}
+{"ts_utc": "2026-11-17T16:21:50Z", "station": "KBKF", "obs_utc": "2026-11-17T16:00:00Z", "temp_c": 8, "dewp_c": 0.7, "speci": false, "raw": "METAR KBKF 171558Z 19004KT 10SM FEW160 BKN220 08/01 A2994 RMK AO2A SLP110 T00800007"}
+{"ts_utc": "2026-11-17T16:21:50Z", "station": "EFHK", "obs_utc": "2026-11-17T16:20:00Z", "temp_c": 6, "dewp_c": 6, "speci": false, "raw": "METAR EFHK 171620Z 15011KT 6000 -DZ BKN005 06/06 Q0989 TEMPO 4000"}
