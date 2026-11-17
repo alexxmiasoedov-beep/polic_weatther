@@ -949,3 +949,10 @@
 {"ts_utc": "2026-11-17T14:34:24Z", "station": "SAEZ", "obs_utc": "2026-11-17T14:30:00Z", "temp_c": 24, "dewp_c": 21, "speci": true, "raw": "SPECI SAEZ 171430Z 21007KT 9999 SCT015 BKN030 24/21 Q1002 NOSIG"}
 {"ts_utc": "2026-11-17T14:34:24Z", "station": "VHHH", "obs_utc": "2026-11-17T14:30:00Z", "temp_c": 25, "dewp_c": 20, "speci": false, "raw": "METAR VHHH 171430Z 10007KT 9999 FEW015 25/20 Q1018 NOSIG"}
 {"ts_utc": "2026-11-17T14:34:24Z", "station": "WSSS", "obs_utc": "2026-11-17T14:30:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WSSS 171430Z 33002KT 9999 FEW018 BKN300 26/24 Q1012 NOSIG"}
+{"ts_utc": "2026-11-17T14:43:50Z", "station": "LEMD", "obs_utc": "2026-11-17T14:30:00Z", "temp_c": 16, "dewp_c": 13, "speci": false, "raw": "METAR LEMD 171430Z VRB11KT 9999 BKN010 BKN015 16/13 Q1013 NOSIG"}
+{"ts_utc": "2026-11-17T14:43:50Z", "station": "RCSS", "obs_utc": "2026-11-17T14:30:00Z", "temp_c": 22, "dewp_c": 20, "speci": false, "raw": "METAR RCSS 171430Z 09005KT 9999 FEW025 22/20 Q1018 NOSIG RMK A3007"}
+{"ts_utc": "2026-11-17T14:43:50Z", "station": "RJTT", "obs_utc": "2026-11-17T14:30:00Z", "temp_c": 11, "dewp_c": 10, "speci": false, "raw": "METAR RJTT 171430Z 33014KT 6000 SHRA BR FEW005 BKN007 BKN070 11/10 Q1014 TEMPO 3000 +SHRA BR"}
+{"ts_utc": "2026-11-17T14:43:50Z", "station": "UUWW", "obs_utc": "2026-11-17T14:30:00Z", "temp_c": 0, "dewp_c": -4, "speci": false, "raw": "METAR UUWW 171430Z 16006MPS CAVOK 00/M04 Q1008 WS R24 R24/000062 NOSIG"}
+{"ts_utc": "2026-11-17T14:43:50Z", "station": "WMKK", "obs_utc": "2026-11-17T14:30:00Z", "temp_c": 25, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 171430Z VRB02KT 8000 FEW010 25/24 Q1012 NOSIG"}
+{"ts_utc": "2026-11-17T14:43:50Z", "station": "ZBAA", "obs_utc": "2026-11-17T14:30:00Z", "temp_c": 7, "dewp_c": -2, "speci": false, "raw": "METAR ZBAA 171430Z 30006MPS CAVOK 07/M02 Q1025 NOSIG"}
+{"ts_utc": "2026-11-17T14:43:50Z", "station": "ZSPD", "obs_utc": "2026-11-17T14:30:00Z", "temp_c": 15, "dewp_c": 10, "speci": false, "raw": "METAR ZSPD 171430Z 33005MPS CAVOK 15/10 Q1022 NOSIG"}
