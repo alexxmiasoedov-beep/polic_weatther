@@ -1505,3 +1505,10 @@
 {"ts_utc": "2026-11-17T23:16:01Z", "station": "KBKF", "obs_utc": "2026-11-17T23:00:00Z", "temp_c": 18.3, "dewp_c": -5.1, "speci": false, "raw": "METAR KBKF 172258Z 21012KT 10SM FEW090 FEW160 BKN220 18/M05 A2976 RMK AO2A SLP035 T01831051"}
 {"ts_utc": "2026-11-17T23:16:01Z", "station": "RCSS", "obs_utc": "2026-11-17T23:00:00Z", "temp_c": 21, "dewp_c": 18, "speci": false, "raw": "METAR RCSS 172300Z 10001KT 9999 FEW020 21/18 Q1019 NOSIG RMK A3011"}
 {"ts_utc": "2026-11-17T23:16:01Z", "station": "WMKK", "obs_utc": "2026-11-17T23:00:00Z", "temp_c": 25, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 172300Z VRB02KT 7000 FEW008 FEW017CB 25/24 Q1010 NOSIG"}
+{"ts_utc": "2026-11-17T23:25:14Z", "station": "KMIA", "obs_utc": "2026-11-17T23:16:00Z", "temp_c": 22.8, "dewp_c": 21.1, "speci": true, "raw": "SPECI KMIA 172316Z 08012G22KT 3SM RA BR BKN021 BKN040 OVC070 23/21 A3009 RMK AO2 P0001 T02280211 $"}
+{"ts_utc": "2026-11-17T23:25:14Z", "station": "EDDM", "obs_utc": "2026-11-17T23:20:00Z", "temp_c": 10, "dewp_c": 6, "speci": false, "raw": "METAR EDDM 172320Z AUTO 18008KT CAVOK 10/06 Q0991 BECMG 23015G25KT"}
+{"ts_utc": "2026-11-17T23:25:14Z", "station": "EFHK", "obs_utc": "2026-11-17T23:20:00Z", "temp_c": 6, "dewp_c": 5, "speci": false, "raw": "METAR EFHK 172320Z 14007KT 7000 -RADZ BKN004 06/05 Q0987 BECMG BKN005"}
+{"ts_utc": "2026-11-17T23:25:14Z", "station": "EGLC", "obs_utc": "2026-11-17T23:20:00Z", "temp_c": 9, "dewp_c": 7, "speci": false, "raw": "METAR EGLC 172320Z AUTO 23011KT 9999 NCD 09/07 Q0981"}
+{"ts_utc": "2026-11-17T23:25:14Z", "station": "LLBG", "obs_utc": "2026-11-17T23:20:00Z", "temp_c": 17, "dewp_c": 14, "speci": false, "raw": "METAR LLBG 172320Z VRB02KT 9999 SCT033 17/14 Q1017 NOSIG"}
+{"ts_utc": "2026-11-17T23:25:14Z", "station": "LTAC", "obs_utc": "2026-11-17T23:20:00Z", "temp_c": 6, "dewp_c": 6, "speci": false, "raw": "METAR LTAC 172320Z 00000KT 9999 SCT015 SCT040 BKN100 06/06 Q1014 NOSIG"}
+{"ts_utc": "2026-11-17T23:25:14Z", "station": "LTFM", "obs_utc": "2026-11-17T23:20:00Z", "temp_c": 15, "dewp_c": 13, "speci": false, "raw": "METAR LTFM 172320Z 21016KT CAVOK 15/13 Q1008 NOSIG"}
