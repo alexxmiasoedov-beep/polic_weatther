@@ -1,0 +1,55 @@
+{
+ "picks": {
+  "singapore": {
+   "bucket": "32°C",
+   "prob_pct": 45,
+   "last": 50.3,
+   "bid": 44.1,
+   "ask": 51.8,
+   "consensus": "медиана 30.4",
+   "fact": "WSSS вчера max 31, 09:00 местного 29",
+   "kalshi": null,
+   "cut": "04:07 Минск",
+   "bet": null,
+   "note": "лидер PM (правило: только лидер)",
+   "ts_utc": "2026-11-17T01:07:03Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  },
+  "tel-aviv": {
+   "bucket": "24°C",
+   "prob_pct": 45,
+   "last": 50.0,
+   "bid": 40.0,
+   "ask": 45.0,
+   "consensus": "медиана 23.9",
+   "fact": "LLBG вчера max 24, ночь 17",
+   "kalshi": null,
+   "cut": "04:07 Минск",
+   "bet": null,
+   "note": "лидер PM (правило: только лидер)",
+   "ts_utc": "2026-11-17T01:07:03Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  },
+  "kuala-lumpur": {
+   "bucket": "31°C",
+   "prob_pct": 45,
+   "last": 45.0,
+   "bid": 36.0,
+   "ask": 47.0,
+   "consensus": "медиана 29.3",
+   "fact": "WMKK вчера max 32, 08:30 местного 27",
+   "kalshi": null,
+   "cut": "04:07 Минск",
+   "bet": null,
+   "note": "лидер PM (правило: только лидер)",
+   "ts_utc": "2026-11-17T01:07:03Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  }
+ }
+}
