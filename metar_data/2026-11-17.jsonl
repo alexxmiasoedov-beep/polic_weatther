@@ -956,3 +956,7 @@
 {"ts_utc": "2026-11-17T14:43:50Z", "station": "WMKK", "obs_utc": "2026-11-17T14:30:00Z", "temp_c": 25, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 171430Z VRB02KT 8000 FEW010 25/24 Q1012 NOSIG"}
 {"ts_utc": "2026-11-17T14:43:50Z", "station": "ZBAA", "obs_utc": "2026-11-17T14:30:00Z", "temp_c": 7, "dewp_c": -2, "speci": false, "raw": "METAR ZBAA 171430Z 30006MPS CAVOK 07/M02 Q1025 NOSIG"}
 {"ts_utc": "2026-11-17T14:43:50Z", "station": "ZSPD", "obs_utc": "2026-11-17T14:30:00Z", "temp_c": 15, "dewp_c": 10, "speci": false, "raw": "METAR ZSPD 171430Z 33005MPS CAVOK 15/10 Q1022 NOSIG"}
+{"ts_utc": "2026-11-17T14:53:43Z", "station": "EFHK", "obs_utc": "2026-11-17T15:00:00Z", "temp_c": 6, "dewp_c": 6, "speci": false, "raw": "METAR EFHK 171450Z 16011KT 7000 -DZ FEW004 BKN005 06/06 Q0990 NOSIG"}
+{"ts_utc": "2026-11-17T14:53:43Z", "station": "KLGA", "obs_utc": "2026-11-17T15:00:00Z", "temp_c": 9.4, "dewp_c": 1.7, "speci": false, "raw": "METAR KLGA 171451Z 33009KT 10SM CLR 09/02 A3051 RMK AO2 SLP332 T00940017 50004 $"}
+{"ts_utc": "2026-11-17T14:53:43Z", "station": "KORD", "obs_utc": "2026-11-17T15:00:00Z", "temp_c": 7.2, "dewp_c": 1.7, "speci": false, "raw": "METAR KORD 171451Z 22005KT 10SM CLR 07/02 A3052 RMK AO2 SLP340 T00720017 51012 $"}
+{"ts_utc": "2026-11-17T14:53:43Z", "station": "LLBG", "obs_utc": "2026-11-17T15:00:00Z", "temp_c": 22, "dewp_c": 15, "speci": false, "raw": "METAR LLBG 171450Z 30009KT 9999 FEW030 22/15 Q1016 NOSIG"}
