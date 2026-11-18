@@ -633,3 +633,4 @@
 {"ts_utc": "2026-11-18T09:10:16Z", "station": "ZSPD", "obs_utc": "2026-11-18T09:00:00Z", "temp_c": 13, "dewp_c": 5, "speci": false, "raw": "METAR ZSPD 180900Z 30007MPS CAVOK 13/05 Q1024 NOSIG"}
 {"ts_utc": "2026-11-18T09:10:16Z", "station": "ZUCK", "obs_utc": "2026-11-18T09:00:00Z", "temp_c": 15, "dewp_c": 8, "speci": false, "raw": "METAR ZUCK 180900Z 18003MPS 9999 FEW043 15/08 Q1028 NOSIG"}
 {"ts_utc": "2026-11-18T09:10:16Z", "station": "UUWW", "obs_utc": "2026-11-18T09:04:00Z", "temp_c": -1, "dewp_c": -2, "speci": true, "raw": "SPECI UUWW 180904Z 13006MPS 2000 R06/2000N SN BKN005 OVC025 M01/M02 Q0998 R06/550336 TEMPO TL1030 1000 SN"}
+{"ts_utc": "2026-11-18T09:19:21Z", "station": "UUWW", "obs_utc": "2026-11-18T09:16:00Z", "temp_c": -1, "dewp_c": -2, "speci": true, "raw": "SPECI UUWW 180916Z 13005MPS 1400 1100SE R06/2000D SN BKN004 OVC025 M01/M02 Q0998 R06/550336 TEMPO TL1030 1000 SN"}
