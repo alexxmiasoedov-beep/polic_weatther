@@ -2602,3 +2602,13 @@
 {"ts_utc": "2026-11-18T09:35:30Z", "iteration": 8, "active": ["ankara", "istanbul", "moscow"], "metar_stations": 3, "iter_seconds": 0.2}
 {"ts_utc": "2026-11-18T09:36:31Z", "iteration": 9, "active": ["ankara", "istanbul", "moscow"], "metar_stations": 3, "iter_seconds": 0.4}
 {"ts_utc": "2026-11-18T09:37:30Z", "iteration": 10, "active": ["ankara", "istanbul", "moscow"], "metar_stations": 3, "iter_seconds": 0.2}
+{"ts_utc": "2026-11-18T09:37:36Z", "iteration": 1, "active": ["ankara", "istanbul", "moscow"], "metar_stations": 3, "iter_seconds": 0.3}
+{"ts_utc": "2026-11-18T09:38:36Z", "iteration": 2, "active": ["ankara", "istanbul", "moscow"], "metar_stations": 3, "iter_seconds": 0.2}
+{"ts_utc": "2026-11-18T09:39:36Z", "iteration": 3, "active": ["ankara", "istanbul", "moscow"], "metar_stations": 3, "iter_seconds": 0.5}
+{"ts_utc": "2026-11-18T09:40:36Z", "iteration": 4, "active": ["ankara", "istanbul", "moscow"], "metar_stations": 3, "iter_seconds": 0.3}
+{"ts_utc": "2026-11-18T09:41:36Z", "iteration": 5, "active": ["ankara", "istanbul", "moscow"], "metar_stations": 3, "iter_seconds": 0.3}
+{"ts_utc": "2026-11-18T09:42:36Z", "iteration": 6, "active": ["ankara", "istanbul", "moscow"], "metar_stations": 3, "iter_seconds": 0.1}
+{"ts_utc": "2026-11-18T09:43:36Z", "iteration": 7, "active": ["ankara", "istanbul", "moscow"], "metar_stations": 3, "iter_seconds": 0.4}
+{"ts_utc": "2026-11-18T09:44:36Z", "iteration": 8, "active": ["ankara", "istanbul", "moscow"], "metar_stations": 3, "iter_seconds": 0.6}
+{"ts_utc": "2026-11-18T09:45:36Z", "iteration": 9, "active": ["ankara", "istanbul", "moscow"], "metar_stations": 3, "iter_seconds": 0.3}
+{"ts_utc": "2026-11-18T09:46:36Z", "iteration": 10, "active": ["ankara", "istanbul", "moscow"], "metar_stations": 3, "iter_seconds": 0.4}
