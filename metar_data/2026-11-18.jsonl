@@ -964,3 +964,8 @@
 {"ts_utc": "2026-11-18T14:13:18Z", "station": "ZHHH", "obs_utc": "2026-11-18T14:00:00Z", "temp_c": 8, "dewp_c": 1, "speci": false, "raw": "METAR ZHHH 181400Z 02002MPS CAVOK 08/01 Q1030 NOSIG"}
 {"ts_utc": "2026-11-18T14:13:18Z", "station": "ZSPD", "obs_utc": "2026-11-18T14:00:00Z", "temp_c": 11, "dewp_c": -2, "speci": false, "raw": "METAR ZSPD 181400Z 31007MPS CAVOK 11/M02 Q1027 NOSIG"}
 {"ts_utc": "2026-11-18T14:13:18Z", "station": "ZUCK", "obs_utc": "2026-11-18T14:00:00Z", "temp_c": 12, "dewp_c": 10, "speci": false, "raw": "METAR ZUCK 181400Z 14001MPS CAVOK 12/10 Q1030 NOSIG"}
+{"ts_utc": "2026-11-18T14:22:26Z", "station": "KMIA", "obs_utc": "2026-11-18T14:13:00Z", "temp_c": 21.7, "dewp_c": 20.6, "speci": true, "raw": "SPECI KMIA 181413Z 09006KT 7SM -RA BKN010 OVC060 22/21 A3010 RMK AO2 LTG DSNT E P0006 T02170206 $"}
+{"ts_utc": "2026-11-18T14:22:26Z", "station": "MMMX", "obs_utc": "2026-11-18T14:14:00Z", "temp_c": 12, "dewp_c": 9, "speci": true, "raw": "SPECI MMMX 181414Z 07006KT 1 1/2SM BR OVC008 12/09 A3039 TEMPO 1/2SM FG VV002 RMK 8/6// TWR VSBY 2 1/2SM BINOVC"}
+{"ts_utc": "2026-11-18T14:22:26Z", "station": "UUWW", "obs_utc": "2026-11-18T14:14:00Z", "temp_c": 0, "dewp_c": -1, "speci": true, "raw": "SPECI UUWW 181414Z 13004MPS 6000 -FZDZ OVC003 M00/M01 Q0996 R06/510350 TEMPO 1500 FZDZ BR"}
+{"ts_utc": "2026-11-18T14:22:26Z", "station": "EFHK", "obs_utc": "2026-11-18T14:20:00Z", "temp_c": 4, "dewp_c": 2, "speci": false, "raw": "METAR EFHK 181420Z 15011KT 9999 FEW014 BKN018 04/02 Q0988 TEMPO BKN013"}
+{"ts_utc": "2026-11-18T14:22:26Z", "station": "LLBG", "obs_utc": "2026-11-18T14:20:00Z", "temp_c": 23, "dewp_c": 13, "speci": false, "raw": "METAR LLBG 181420Z 33005KT 9999 FEW035 23/13 Q1017 NOSIG"}
