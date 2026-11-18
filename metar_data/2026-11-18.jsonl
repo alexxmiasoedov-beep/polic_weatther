@@ -321,3 +321,6 @@
 {"ts_utc": "2026-11-18T04:44:03Z", "station": "ZBAA", "obs_utc": "2026-11-18T04:30:00Z", "temp_c": 6, "dewp_c": -15, "speci": false, "raw": "METAR ZBAA 180430Z 30008G14MPS CAVOK 06/M15 Q1027 NOSIG"}
 {"ts_utc": "2026-11-18T04:44:03Z", "station": "ZSPD", "obs_utc": "2026-11-18T04:30:00Z", "temp_c": 14, "dewp_c": 8, "speci": false, "raw": "METAR ZSPD 180430Z 29006MPS 7000 BKN033 14/08 Q1023 NOSIG"}
 {"ts_utc": "2026-11-18T04:44:03Z", "station": "UUWW", "obs_utc": "2026-11-18T04:41:00Z", "temp_c": -1, "dewp_c": -1, "speci": true, "raw": "SPECI UUWW 180441Z 13006MPS 2000 R06/1800D SN BKN004 OVC026 M01/M01 Q0999 R06/550336 TEMPO 1100 SHSN BKN012CB"}
+{"ts_utc": "2026-11-18T04:53:09Z", "station": "FACT", "obs_utc": "2026-11-18T04:44:00Z", "temp_c": 18, "dewp_c": 12, "speci": true, "raw": "SPECI FACT 180444Z 19001KT CAVOK 18/12 Q1012 NOSIG"}
+{"ts_utc": "2026-11-18T04:53:09Z", "station": "RCSS", "obs_utc": "2026-11-18T04:45:00Z", "temp_c": 27, "dewp_c": 19, "speci": true, "raw": "SPECI RCSS 180445Z 28006KT 250V330 9999 FEW018 SCT035 BKN050 27/19 Q1019 NOSIG RMK A3009"}
+{"ts_utc": "2026-11-18T04:53:09Z", "station": "EFHK", "obs_utc": "2026-11-18T05:00:00Z", "temp_c": 6, "dewp_c": 5, "speci": false, "raw": "METAR EFHK 180450Z 19012KT 7000 -DZRA BKN006 06/05 Q0986 BECMG 9999 BKN010"}
