@@ -2532,3 +2532,13 @@
 {"ts_utc": "2026-11-18T08:31:54Z", "iteration": 8, "active": ["beijing", "chongqing", "shanghai", "singapore", "taipei"], "metar_stations": 5, "iter_seconds": 0.7}
 {"ts_utc": "2026-11-18T08:32:55Z", "iteration": 9, "active": ["beijing", "chongqing", "shanghai", "singapore", "taipei"], "metar_stations": 5, "iter_seconds": 2.5}
 {"ts_utc": "2026-11-18T08:33:53Z", "iteration": 10, "active": ["beijing", "chongqing", "shanghai", "singapore", "taipei"], "metar_stations": 5, "iter_seconds": 0.4}
+{"ts_utc": "2026-11-18T08:33:59Z", "iteration": 1, "active": ["beijing", "chongqing", "shanghai", "singapore", "taipei"], "metar_stations": 5, "iter_seconds": 0.3}
+{"ts_utc": "2026-11-18T08:34:59Z", "iteration": 2, "active": ["beijing", "chongqing", "shanghai", "singapore", "taipei"], "metar_stations": 5, "iter_seconds": 0.6}
+{"ts_utc": "2026-11-18T08:35:59Z", "iteration": 3, "active": ["beijing", "chongqing", "shanghai", "singapore", "taipei"], "metar_stations": 5, "iter_seconds": 0.7}
+{"ts_utc": "2026-11-18T08:36:59Z", "iteration": 4, "active": ["beijing", "chongqing", "shanghai", "singapore", "taipei"], "metar_stations": 5, "iter_seconds": 0.6}
+{"ts_utc": "2026-11-18T08:37:59Z", "iteration": 5, "active": ["beijing", "chongqing", "shanghai", "singapore", "taipei"], "metar_stations": 5, "iter_seconds": 0.4}
+{"ts_utc": "2026-11-18T08:38:59Z", "iteration": 6, "active": ["beijing", "chongqing", "shanghai", "singapore", "taipei"], "metar_stations": 5, "iter_seconds": 0.4}
+{"ts_utc": "2026-11-18T08:39:59Z", "iteration": 7, "active": ["beijing", "chongqing", "shanghai", "singapore", "taipei"], "metar_stations": 5, "iter_seconds": 0.7}
+{"ts_utc": "2026-11-18T08:40:59Z", "iteration": 8, "active": ["beijing", "chongqing", "shanghai", "singapore", "taipei"], "metar_stations": 5, "iter_seconds": 0.8}
+{"ts_utc": "2026-11-18T08:41:59Z", "iteration": 9, "active": ["beijing", "chongqing", "shanghai", "singapore", "taipei"], "metar_stations": 5, "iter_seconds": 0.6}
+{"ts_utc": "2026-11-18T08:42:59Z", "iteration": 10, "active": ["beijing", "chongqing", "shanghai", "singapore", "taipei"], "metar_stations": 5, "iter_seconds": 0.2}
