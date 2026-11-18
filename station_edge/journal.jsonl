@@ -17,3 +17,4 @@
 {"type": "resolve", "rule": "station", "slug": "kuala-lumpur", "d": "2026-11-18", "winner": "33°C", "hit": true, "pnl": 0.667, "ts_utc": "2026-11-18T19:09:12Z"}
 {"type": "resolve", "rule": "station", "slug": "wuhan", "d": "2026-11-18", "winner": "16°C", "hit": true, "pnl": 2.333, "ts_utc": "2026-11-18T19:09:12Z"}
 {"type": "resolve", "rule": "station", "slug": "manila", "d": "2026-11-18", "winner": "33°C", "hit": true, "pnl": 0.176, "ts_utc": "2026-11-18T19:09:12Z"}
+{"type": "entry", "rule": "nws5", "slug": "austin", "d": "2026-11-18", "ts_utc": "2026-11-18T21:57:13Z", "snap_ts": "2026-11-18T21:57:13Z", "local": "15:57", "bucket": "72-73°F", "lead": "70-71°F", "lead_last": 80.8, "last": 39.5, "bid": 11.4, "ask": 39.6, "entry": 40.6, "size": 1.0, "t_cur": 72.0, "t_hmax": 70.0, "obs_local": "15:53", "obs_src": "tenth", "obs_age_min": 4, "unit": "F", "src": "fast", "book_best_size": 10.0, "book_depth5": 6957.7}
