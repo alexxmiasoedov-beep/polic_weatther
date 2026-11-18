@@ -1374,3 +1374,10 @@
 {"ts_utc": "2026-11-18T20:05:55Z", "station": "RKPK", "obs_utc": "2026-11-18T20:00:00Z", "temp_c": 6, "dewp_c": -3, "speci": false, "raw": "METAR RKPK 182000Z 32005KT 9999 FEW050 06/M03 Q1017"}
 {"ts_utc": "2026-11-18T20:05:55Z", "station": "RKSI", "obs_utc": "2026-11-18T20:00:00Z", "temp_c": 2, "dewp_c": -6, "speci": false, "raw": "METAR RKSI 182000Z 32009KT CAVOK 02/M06 Q1019 NOSIG"}
 {"ts_utc": "2026-11-18T20:05:55Z", "station": "UUWW", "obs_utc": "2026-11-18T20:00:00Z", "temp_c": 0, "dewp_c": 0, "speci": false, "raw": "METAR UUWW 182000Z 14005MPS 5000 -SHSN BKN003 BKN020CB 00/M00 Q0993 R19/550336 NOSIG"}
+{"ts_utc": "2026-11-18T20:13:26Z", "station": "CYYZ", "obs_utc": "2026-11-18T20:00:00Z", "temp_c": 15, "dewp_c": 1, "speci": false, "raw": "METAR CYYZ 182000Z 25010KT 15SM FEW250 15/01 A3039 RMK CI1 CI TR SLP297"}
+{"ts_utc": "2026-11-18T20:13:26Z", "station": "RCSS", "obs_utc": "2026-11-18T20:00:00Z", "temp_c": 18, "dewp_c": 15, "speci": false, "raw": "METAR RCSS 182000Z 10009KT 9999 -DZ FEW012 BKN025 BKN040 18/15 Q1022 NOSIG RMK A3020"}
+{"ts_utc": "2026-11-18T20:13:26Z", "station": "WMKK", "obs_utc": "2026-11-18T20:00:00Z", "temp_c": 24, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 182000Z 00000KT 9000 FEW010 24/24 Q1009 NOSIG"}
+{"ts_utc": "2026-11-18T20:13:26Z", "station": "ZBAA", "obs_utc": "2026-11-18T20:00:00Z", "temp_c": -3, "dewp_c": -6, "speci": false, "raw": "METAR ZBAA 182000Z 14001MPS CAVOK M03/M06 Q1025 NOSIG"}
+{"ts_utc": "2026-11-18T20:13:26Z", "station": "ZHHH", "obs_utc": "2026-11-18T20:00:00Z", "temp_c": 4, "dewp_c": 2, "speci": false, "raw": "METAR ZHHH 182000Z VRB01MPS CAVOK 04/02 Q1029 NOSIG"}
+{"ts_utc": "2026-11-18T20:13:26Z", "station": "ZSPD", "obs_utc": "2026-11-18T20:00:00Z", "temp_c": 8, "dewp_c": -2, "speci": false, "raw": "METAR ZSPD 182000Z 29003MPS CAVOK 08/M02 Q1027 NOSIG"}
+{"ts_utc": "2026-11-18T20:13:26Z", "station": "ZUCK", "obs_utc": "2026-11-18T20:00:00Z", "temp_c": 9, "dewp_c": 9, "speci": false, "raw": "METAR ZUCK 182000Z 36002MPS CAVOK 09/09 Q1027 NOSIG"}
