@@ -13,9 +13,9 @@
    "bet": null,
    "note": "лидер PM по last (правило: только лидер)",
    "ts_utc": "2026-11-18T01:06:49Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "32°C",
+   "hit": true,
+   "pnl_pick": 0.949
   },
   "tel-aviv": {
    "bucket": "24°C",
@@ -30,9 +30,9 @@
    "bet": null,
    "note": "лидер PM по last (правило: только лидер)",
    "ts_utc": "2026-11-18T01:06:49Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "24°C",
+   "hit": true,
+   "pnl_pick": 0.754
   },
   "kuala-lumpur": {
    "bucket": "32°C",
@@ -47,9 +47,36 @@
    "bet": null,
    "note": "лидер PM по last (правило: только лидер)",
    "ts_utc": "2026-11-18T01:06:49Z",
+   "winner": "33°C",
+   "hit": false,
+   "pnl_pick": -1.0
+  }
+ },
+ "top10": {
+  "munich": {
+   "strategy": "lead:50-70@18",
+   "bucket": "13°C",
+   "ask": 61.4,
+   "ts_utc": "2026-11-18T05:02:18Z",
+   "hte": 18.0,
    "winner": null,
    "hit": null,
-   "pnl_pick": null
+   "pnl": null
+  },
+  "busan": {
+   "strategy": "lead:40-60@12",
+   "skip": true,
+   "winner": "16°C"
+  },
+  "cape-town": {
+   "strategy": "tail@24",
+   "bucket": "34°C",
+   "ask": 30.0,
+   "ts_utc": "2026-11-17T22:00:19Z",
+   "hte": 24.0,
+   "winner": "32°C",
+   "hit": false,
+   "pnl": -1.0
   }
  }
 }
