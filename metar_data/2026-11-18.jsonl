@@ -256,3 +256,4 @@
 {"ts_utc": "2026-11-18T03:40:26Z", "station": "ZSPD", "obs_utc": "2026-11-18T03:30:00Z", "temp_c": 15, "dewp_c": 8, "speci": false, "raw": "METAR ZSPD 180330Z 31007MPS 9999 SCT033 15/08 Q1023 NOSIG"}
 {"ts_utc": "2026-11-18T03:40:26Z", "station": "UUWW", "obs_utc": "2026-11-18T03:32:00Z", "temp_c": -1, "dewp_c": -2, "speci": true, "raw": "SPECI UUWW 180332Z 13006MPS 1700 1400SE R06/P2000D SHSN BKN004 BKN026CB M01/M02 Q1000 R06/550336 TEMPO 1500 SHSN BKN012CB"}
 {"ts_utc": "2026-11-18T03:40:26Z", "station": "MMMX", "obs_utc": "2026-11-18T03:36:00Z", "temp_c": 16, "dewp_c": 10, "speci": true, "raw": "SPECI MMMX 180336Z 30012KT 8SM BKN030 OVC070 16/10 A3040 TEMPO 5SM RA RMK 8/42/ OCNL DROPS HZY"}
+{"ts_utc": "2026-11-18T03:49:31Z", "station": "UUWW", "obs_utc": "2026-11-18T03:47:00Z", "temp_c": -1, "dewp_c": -1, "speci": true, "raw": "SPECI UUWW 180347Z 13006MPS 1400 R06/P2000D SHSN BKN004 BKN026CB M01/M01 Q1000 R06/550336 TEMPO 1500 SHSN BKN012CB"}
