@@ -135,6 +135,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "atlanta": {
+   "bucket": "66-67°F",
+   "prob_pct": 96,
+   "last": 96.0,
+   "bid": 97.5,
+   "ask": 98.8,
+   "consensus": "медиана калиброванных 66.0 (9 моделей), NBM 66.2, NWS 66",
+   "fact": "KATL часовые: 19Z 64.0, 20Z 66.0°F (max дня, 15:25 местного, ещё растёт); 5-мин 19:55 19°C = 66.2±0.9",
+   "kalshi": "[('65° to 66°', 70.0), ('67° to 68°', 33.0)]",
+   "cut": "23:25 Минск",
+   "bet": null,
+   "note": "лидер PM по last и часовой METAR (правило: только лидер)",
+   "ts_utc": "2026-11-18T20:26:24Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "top10": {
