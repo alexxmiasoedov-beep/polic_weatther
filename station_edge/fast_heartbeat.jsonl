@@ -2222,3 +2222,13 @@
 {"ts_utc": "2026-11-18T03:47:30Z", "iteration": 8, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 0.2}
 {"ts_utc": "2026-11-18T03:48:30Z", "iteration": 9, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 0.2}
 {"ts_utc": "2026-11-18T03:49:31Z", "iteration": 10, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 0.5}
+{"ts_utc": "2026-11-18T03:49:35Z", "iteration": 1, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 0.1}
+{"ts_utc": "2026-11-18T03:50:36Z", "iteration": 2, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 0.5}
+{"ts_utc": "2026-11-18T03:51:36Z", "iteration": 3, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 0.5}
+{"ts_utc": "2026-11-18T03:52:36Z", "iteration": 4, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 0.2}
+{"ts_utc": "2026-11-18T03:53:36Z", "iteration": 5, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 0.2}
+{"ts_utc": "2026-11-18T03:54:36Z", "iteration": 6, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 0.7}
+{"ts_utc": "2026-11-18T03:55:35Z", "iteration": 7, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 0.1}
+{"ts_utc": "2026-11-18T03:56:36Z", "iteration": 8, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 0.6}
+{"ts_utc": "2026-11-18T03:57:35Z", "iteration": 9, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 0.1}
+{"ts_utc": "2026-11-18T03:58:36Z", "iteration": 10, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 0.3}
