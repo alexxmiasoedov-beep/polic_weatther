@@ -1537,3 +1537,20 @@
 {"ts_utc": "2026-11-19T23:02:12Z", "station": "SBGR", "obs_utc": "2026-11-19T23:00:00Z", "temp_c": 26, "dewp_c": 22, "speci": false, "raw": "METAR SBGR 192300Z 16002KT CAVOK 26/22 Q1014"}
 {"ts_utc": "2026-11-19T23:02:12Z", "station": "VHHH", "obs_utc": "2026-11-19T23:00:00Z", "temp_c": 15, "dewp_c": 9, "speci": false, "raw": "METAR VHHH 192300Z 02017KT 9999 -RA FEW030 SCT045 15/09 Q1025 TEMPO 4000 RA"}
 {"ts_utc": "2026-11-19T23:02:12Z", "station": "WSSS", "obs_utc": "2026-11-19T23:00:00Z", "temp_c": 25, "dewp_c": 24, "speci": false, "raw": "METAR WSSS 192300Z 29002KT 8000 FEW018TCU SCT160 BKN300 25/24 Q1013 NOSIG"}
+{"ts_utc": "2026-11-19T23:11:35Z", "station": "CYYZ", "obs_utc": "2026-11-19T23:00:00Z", "temp_c": 14, "dewp_c": 5, "speci": false, "raw": "METAR CYYZ 192300Z 19014KT 15SM BKN260 14/05 A3023 RMK CI5 SLP241"}
+{"ts_utc": "2026-11-19T23:11:35Z", "station": "FACT", "obs_utc": "2026-11-19T23:00:00Z", "temp_c": 18, "dewp_c": 13, "speci": false, "raw": "METAR FACT 192300Z 18011KT 9999 FEW035 18/13 Q1017 NOSIG"}
+{"ts_utc": "2026-11-19T23:11:35Z", "station": "LEMD", "obs_utc": "2026-11-19T23:00:00Z", "temp_c": 10, "dewp_c": 6, "speci": false, "raw": "METAR LEMD 192300Z 23012KT 9999 FEW065 10/06 Q1021 NOSIG"}
+{"ts_utc": "2026-11-19T23:11:35Z", "station": "LFPB", "obs_utc": "2026-11-19T23:00:00Z", "temp_c": 11, "dewp_c": 7, "speci": false, "raw": "METAR LFPB 192300Z AUTO 23011KT 200V270 9999 OVC022 OVC220 11/07 Q1000"}
+{"ts_utc": "2026-11-19T23:11:35Z", "station": "NZWN", "obs_utc": "2026-11-19T23:00:00Z", "temp_c": 17, "dewp_c": 9, "speci": false, "raw": "METAR NZWN 192300Z AUTO 36013KT 9999 BKN040/// 17/09 Q1019"}
+{"ts_utc": "2026-11-19T23:11:35Z", "station": "RCSS", "obs_utc": "2026-11-19T23:00:00Z", "temp_c": 17, "dewp_c": 10, "speci": false, "raw": "METAR RCSS 192300Z 09004KT 9999 FEW020 BKN050 BKN100 17/10 Q1026 NOSIG RMK A3030"}
+{"ts_utc": "2026-11-19T23:11:35Z", "station": "RJTT", "obs_utc": "2026-11-19T23:00:00Z", "temp_c": 13, "dewp_c": 2, "speci": false, "raw": "METAR RJTT 192300Z 23017KT 9999 FEW030 13/02 Q1004 TEMPO 23022G32KT"}
+{"ts_utc": "2026-11-19T23:11:35Z", "station": "RKPK", "obs_utc": "2026-11-19T23:00:00Z", "temp_c": 2, "dewp_c": -2, "speci": false, "raw": "METAR RKPK 192300Z 31002KT CAVOK 02/M02 Q1018"}
+{"ts_utc": "2026-11-19T23:11:35Z", "station": "RKSI", "obs_utc": "2026-11-19T23:00:00Z", "temp_c": 0, "dewp_c": -8, "speci": false, "raw": "METAR RKSI 192300Z 30011KT 9999 FEW035 M00/M08 Q1020 NOSIG"}
+{"ts_utc": "2026-11-19T23:11:35Z", "station": "RPLL", "obs_utc": "2026-11-19T23:00:00Z", "temp_c": 29, "dewp_c": 24, "speci": false, "raw": "METAR RPLL 192300Z VRB02KT 9999 FEW025 29/24 Q1015 NOSIG RMK A2997"}
+{"ts_utc": "2026-11-19T23:11:35Z", "station": "SAEZ", "obs_utc": "2026-11-19T23:00:00Z", "temp_c": 23, "dewp_c": 15, "speci": false, "raw": "METAR SAEZ 192300Z 16003KT CAVOK 23/15 Q1009 NOSIG"}
+{"ts_utc": "2026-11-19T23:11:35Z", "station": "UUWW", "obs_utc": "2026-11-19T23:00:00Z", "temp_c": 6, "dewp_c": 5, "speci": false, "raw": "METAR UUWW 192300Z 16003MPS 100V180 5000 BR BKN003 06/05 Q0994 R06/290050 NOSIG"}
+{"ts_utc": "2026-11-19T23:11:35Z", "station": "WMKK", "obs_utc": "2026-11-19T23:00:00Z", "temp_c": 25, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 192300Z VRB01KT 9000 FEW010 SCT030 25/24 Q1012 NOSIG"}
+{"ts_utc": "2026-11-19T23:11:35Z", "station": "ZBAA", "obs_utc": "2026-11-19T23:00:00Z", "temp_c": 2, "dewp_c": -13, "speci": false, "raw": "METAR ZBAA 192300Z 20004MPS 180V240 CAVOK 02/M13 Q1023 NOSIG"}
+{"ts_utc": "2026-11-19T23:11:35Z", "station": "ZHHH", "obs_utc": "2026-11-19T23:00:00Z", "temp_c": 3, "dewp_c": 3, "speci": false, "raw": "METAR ZHHH 192300Z 00000MPS CAVOK 03/03 Q1031 NOSIG"}
+{"ts_utc": "2026-11-19T23:11:35Z", "station": "ZSPD", "obs_utc": "2026-11-19T23:00:00Z", "temp_c": 7, "dewp_c": -2, "speci": false, "raw": "METAR ZSPD 192300Z 28004MPS CAVOK 07/M02 Q1028 NOSIG"}
+{"ts_utc": "2026-11-19T23:11:35Z", "station": "ZUCK", "obs_utc": "2026-11-19T23:00:00Z", "temp_c": 10, "dewp_c": 10, "speci": false, "raw": "METAR ZUCK 192300Z VRB01MPS 3500 BR FEW006 SCT008 10/10 Q1032 BECMG TL2340 2700"}
