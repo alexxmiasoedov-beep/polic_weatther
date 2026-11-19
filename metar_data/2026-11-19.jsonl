@@ -1391,3 +1391,7 @@
 {"ts_utc": "2026-11-19T20:45:04Z", "station": "RJTT", "obs_utc": "2026-11-19T20:30:00Z", "temp_c": 11, "dewp_c": 2, "speci": false, "raw": "METAR RJTT 192030Z 22016KT 9999 FEW030 SCT/// 11/02 Q1003 TEMPO 23020G30KT"}
 {"ts_utc": "2026-11-19T20:45:04Z", "station": "WMKK", "obs_utc": "2026-11-19T20:30:00Z", "temp_c": 25, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 192030Z VRB02KT 9000 FEW010 SCT030 25/24 Q1011 NOSIG"}
 {"ts_utc": "2026-11-19T20:45:04Z", "station": "KSFO", "obs_utc": "2026-11-19T20:38:00Z", "temp_c": 13.3, "dewp_c": 8.3, "speci": true, "raw": "SPECI KSFO 192038Z 29014G21KT 10SM FEW009 SCT023 BKN070 13/08 A2986 RMK AO2 T01330083 $"}
+{"ts_utc": "2026-11-19T20:54:23Z", "station": "EDDM", "obs_utc": "2026-11-19T21:00:00Z", "temp_c": 9, "dewp_c": 4, "speci": false, "raw": "METAR EDDM 192050Z AUTO 25023KT 9999 FEW030 09/04 Q0998 NOSIG"}
+{"ts_utc": "2026-11-19T20:54:23Z", "station": "EFHK", "obs_utc": "2026-11-19T21:00:00Z", "temp_c": 6, "dewp_c": 5, "speci": false, "raw": "METAR EFHK 192050Z 15010KT 9999 FEW004 BKN008 BKN015 06/05 Q0984 BECMG BKN010"}
+{"ts_utc": "2026-11-19T20:54:23Z", "station": "KLGA", "obs_utc": "2026-11-19T21:00:00Z", "temp_c": 17.8, "dewp_c": -2.8, "speci": false, "raw": "METAR KLGA 192051Z VRB04KT 10SM CLR 18/M03 A3034 RMK AO2 SLP274 T01781028 56014 $"}
+{"ts_utc": "2026-11-19T20:54:23Z", "station": "KORD", "obs_utc": "2026-11-19T21:00:00Z", "temp_c": 18.9, "dewp_c": 6.1, "speci": false, "raw": "METAR KORD 192051Z 23013G21KT 10SM FEW250 19/06 A3024 RMK AO2 SLP240 T01890061 56009 $"}
