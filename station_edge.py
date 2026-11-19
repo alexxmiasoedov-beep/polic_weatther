@@ -493,7 +493,7 @@ def shadow_us_stats():
         for line in open(MISSED_US, encoding="utf-8"):
             try: E.append(json.loads(line))
             except Exception: pass
-    R = [e for e in E if e.get("hit") is not None]
+    R = [e for e in E if e.get("hit") is not None and e.get("slug") not in B_EXCLUDE]
     n = len(R); h = sum(1 for e in R if e["hit"]); p = sum(e["pnl"] for e in R)
     return f"тень «минутки США» по архиву IEM (минутный контур увидел бы): {h}/{n} {p:+.2f}" + (f" ({p/n*100:+.0f}%/сд)" if n else "")
 
