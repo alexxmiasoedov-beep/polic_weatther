@@ -19,3 +19,4 @@
 {"type": "sim_resolve", "rule": "station", "slug": "wuhan", "d": "2026-11-18", "winner": "16°C", "hit": true, "sim_cost": 50.0, "sim_pnl": 116.38, "ts_utc": "2026-11-18T19:09:12Z"}
 {"type": "sim_resolve", "rule": "station", "slug": "manila", "d": "2026-11-18", "winner": "33°C", "hit": true, "sim_cost": 0.0, "sim_pnl": 0.0, "ts_utc": "2026-11-18T19:09:12Z"}
 {"type": "sim_resolve", "rule": "station", "slug": "paris", "d": "2026-11-18", "winner": "16°C", "hit": true, "sim_cost": 14.6, "sim_pnl": 43.8, "ts_utc": "2026-11-19T02:03:46Z"}
+{"type": "sim_resolve", "rule": "nws5", "slug": "austin", "d": "2026-11-18", "winner": "72-73°F", "hit": true, "sim_cost": 50.0, "sim_pnl": 68.08, "ts_utc": "2026-11-19T09:04:41Z"}
