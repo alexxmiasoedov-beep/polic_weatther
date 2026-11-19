@@ -64,9 +64,9 @@
    "bet": null,
    "note": "лидер PM по last (правило: только лидер); дождевой день, максимум утренний",
    "ts_utc": "2026-11-18T17:06:10Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "76-77°F",
+   "hit": true,
+   "pnl_pick": 0.01
   },
   "houston": {
    "bucket": "68-69°F",
@@ -81,9 +81,9 @@
    "bet": null,
    "note": "лидер PM по last (правило: только лидер)",
    "ts_utc": "2026-11-18T19:06:42Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "68-69°F",
+   "hit": true,
+   "pnl_pick": 1.481
   },
   "los-angeles": {
    "bucket": "68-69°F",
@@ -98,9 +98,9 @@
    "bet": null,
    "note": "лидер PM по last (правило: только лидер)",
    "ts_utc": "2026-11-18T19:06:42Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "68-69°F",
+   "hit": true,
+   "pnl_pick": 0.577
   },
   "dallas": {
    "bucket": "70-71°F",
@@ -115,9 +115,9 @@
    "bet": null,
    "note": "лидер PM по last (правило: только лидер)",
    "ts_utc": "2026-11-18T19:07:08Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "70-71°F",
+   "hit": true,
+   "pnl_pick": 0.429
   },
   "san-francisco": {
    "bucket": "58-59°F",
@@ -132,9 +132,9 @@
    "bet": null,
    "note": "лидер PM по last (правило: только лидер); максимум, похоже, уже пройден",
    "ts_utc": "2026-11-18T20:06:20Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "58-59°F",
+   "hit": true,
+   "pnl_pick": 0.083
   },
   "atlanta": {
    "bucket": "66-67°F",
@@ -149,9 +149,9 @@
    "bet": null,
    "note": "лидер PM по last и часовой METAR (правило: только лидер)",
    "ts_utc": "2026-11-18T20:26:24Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "66-67°F",
+   "hit": true,
+   "pnl_pick": 0.042
   },
   "austin": {
    "bucket": "70-71°F",
@@ -166,9 +166,9 @@
    "bet": null,
    "note": "лидер PM по last и часовой METAR (правило: только лидер)",
    "ts_utc": "2026-11-18T21:26:15Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "72-73°F",
+   "hit": false,
+   "pnl_pick": -1.0
   }
  },
  "top10": {
@@ -178,9 +178,9 @@
    "ask": 61.4,
    "ts_utc": "2026-11-18T05:02:18Z",
    "hte": 18.0,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "13°C",
+   "hit": true,
+   "pnl": 0.629
   },
   "busan": {
    "strategy": "lead:40-60@12",
@@ -196,6 +196,11 @@
    "winner": "32°C",
    "hit": false,
    "pnl": -1.0
+  },
+  "atlanta": {
+   "strategy": "down@30",
+   "skip": true,
+   "winner": "66-67°F"
   }
  }
 }
