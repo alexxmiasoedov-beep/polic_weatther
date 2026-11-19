@@ -40,6 +40,12 @@ H_LO, H_HI = 12, 17
 ASK_LO, ASK_HI = 1, 85
 SLIP = 1.0
 SIZE = 1.0
+# ---- денежная симуляция (решение владельца 19.11: «нужна симуляция, отработает ли на реальных деньгах»)
+SIM_BANKROLL = 1000.0   # виртуальный банк, $
+SIM_STAKE = 50.0        # ставка на сигнал, $ (5 % банка)
+SIM_CAP = 5.0           # лимит цены: ask сигнала + 5¢ — выше не покупаем
+SIM_LATENCY = 5         # секунд между сигналом и «отправкой ордера»: стакан читается заново
+SIM_FILE = ROOT / "station_edge" / "sim.jsonl"   # append-only: sim_fill / sim_resolve
 NOCTURNAL_H = 6
 
 def universe():
@@ -197,6 +203,13 @@ def scan():
         if e: new.append(e)
     if new:
         append(new)
+        sims = []
+        for e in new:
+            try:
+                _, tok = live_market(e["slug"], e["d"]); sims.append(sim_record(e, tok.get(e["bucket"])))
+            except Exception as ex:  # noqa: BLE001
+                print(f"WARN sim scan {e['slug']}: {ex}", file=sys.stderr)
+        sim_append(sims)
         for e in new: print(f"СИГНАЛ {e['slug']} {e['d']} {e['local']} {e['bucket']} (лидер {e['lead']}) ask {e['ask']} t_max {e['t_max']}")
     else: print("station_edge: сигналов нет")
     return new
@@ -237,7 +250,7 @@ def resolve():
         hit = (w[0] == e["bucket"]); pnl = round((100 / e["entry"] - 1) * e["size"], 3) if hit else -1.0 * e["size"]
         new.append(dict(type="resolve", rule=e.get("rule", "station"), slug=e["slug"], d=e["d"], winner=w[0], hit=hit, pnl=pnl, ts_utc=now.strftime("%Y-%m-%dT%H:%M:%SZ")))
         done.add((e["slug"], e["d"], e.get("rule", "station")))
-    if new: append(new)
+    if new: append(new); sim_resolve(new)
     print(f"station_edge: закрыто {len(new)}")
     return new
 
@@ -348,6 +361,97 @@ def book_depth(token_id, ask):
     if not asks: return 0.0, 0.0
     best = min(p for p, _ in asks)
     return round(sum(sz for p, sz in asks if abs(p - best) < 0.05), 1), round(sum(sz for p, sz in asks if p <= best + 5), 1)
+
+def book_asks(token_id):
+    """ask-уровни CLOB по возрастанию цены: [(цена ¢, размер шт.)] или None при ошибке"""
+    try: bk = _get(f"{CLOB_API}/book?token_id={token_id}")
+    except Exception as ex:  # noqa: BLE001
+        print(f"WARN sim book: {ex}", file=sys.stderr); return None
+    asks = sorted(((round(float(a["price"]) * 100, 2), float(a["size"])) for a in bk.get("asks", [])), key=lambda x: x[0])
+    return asks
+
+def sim_fill(asks, stake, cap):
+    """маркет-ордер на stake $ с лимитом cap ¢: идём по ask-уровням снизу вверх, пока хватает денег и цена ≤ cap.
+    Возвращает shares, cost $, vwap ¢, unfilled $ (деньги, на которые стакана не хватило), использованные уровни."""
+    shares = 0.0; cost = 0.0; used = []
+    for p, sz in asks or []:
+        if p > cap or cost >= stake - 1e-9: break
+        can = (stake - cost) / (p / 100)
+        take = min(sz, can)
+        if take <= 0: break
+        shares += take; cost += take * p / 100; used.append((p, round(take, 2)))
+    vwap = round(cost / shares * 100, 2) if shares else None
+    return dict(sim_shares=round(shares, 2), sim_cost=round(cost, 2), sim_vwap=vwap, sim_unfilled=round(stake - cost, 2), sim_levels=used)
+
+def sim_record(e, tok_id):
+    """заполнение по стакану для записи e: стакан в момент сигнала (справочно) и через SIM_LATENCY с — по нему ордер"""
+    rec = dict(type="sim_fill", rule=e.get("rule", "station"), slug=e["slug"], d=e["d"], ts_utc=e["ts_utc"], bucket=e["bucket"], ask=e["ask"],
+               sim_stake=SIM_STAKE, sim_cap=round(e["ask"] + SIM_CAP, 2))
+    if not tok_id:
+        rec.update(sim_shares=0.0, sim_cost=0.0, sim_vwap=None, sim_unfilled=SIM_STAKE, sim_levels=[], sim_note="нет token_id")
+        return rec
+    a0 = book_asks(tok_id); rec["book_at_signal"] = (a0 or [])[:5]
+    __import__("time").sleep(SIM_LATENCY)
+    a1 = book_asks(tok_id)
+    if a1 is None: a1 = a0
+    rec["book_at_order"] = (a1 or [])[:5]
+    rec.update(sim_fill(a1, SIM_STAKE, rec["sim_cap"]))
+    return rec
+
+def sim_append(recs):
+    if not recs: return
+    SIM_FILE.parent.mkdir(exist_ok=True)
+    with open(SIM_FILE, "a", encoding="utf-8") as f:
+        for r in recs: f.write(json.dumps(r, ensure_ascii=False) + "\n")
+
+def sim_load():
+    out = []
+    if SIM_FILE.exists():
+        for line in open(SIM_FILE, encoding="utf-8"):
+            try: out.append(json.loads(line))
+            except Exception: pass
+    return out
+
+def sim_resolve(new_resolves):
+    """к новым резолвам журнала — долларовый результат по заполнению из sim.jsonl"""
+    S = sim_load()
+    fills = {(r["slug"], r["d"], r["rule"]): r for r in S if r.get("type") == "sim_fill"}
+    done = {(r["slug"], r["d"], r["rule"]) for r in S if r.get("type") == "sim_resolve"}
+    out = []
+    for r in new_resolves:
+        k = (r["slug"], r["d"], r.get("rule", "station"))
+        f = fills.get(k)
+        if not f or k in done: continue
+        pnl = round(f["sim_shares"] * 1.0 - f["sim_cost"], 2) if r["hit"] else round(-f["sim_cost"], 2)
+        out.append(dict(type="sim_resolve", rule=k[2], slug=r["slug"], d=r["d"], winner=r["winner"], hit=r["hit"], sim_cost=f["sim_cost"], sim_pnl=pnl, ts_utc=r["ts_utc"]))
+    sim_append(out)
+    return out
+
+def sim_stats():
+    """блок «СИМУЛЯЦИЯ ДЕНЕГ»: банк, ставка, заполнение, $ P&L, просадка — по закрытым сделкам в хронологии"""
+    S = sim_load()
+    fills = {(r["slug"], r["d"], r["rule"]): r for r in S if r.get("type") == "sim_fill"}
+    res = sorted({(r["slug"], r["d"], r["rule"]): r for r in S if r.get("type") == "sim_resolve"}.values(), key=lambda r: (r["d"], r["ts_utc"]))
+    L = [f"💵 <b>СИМУЛЯЦИЯ ДЕНЕГ</b> (банк ${SIM_BANKROLL:.0f}, ставка ${SIM_STAKE:.0f}, стакан CLOB через {SIM_LATENCY} с, лимит ask+{SIM_CAP:.0f}¢, комиссий нет)"]
+    if not fills: L.append("заполнений нет"); return "\n".join(L)
+    traded = {k for k, f in fills.items() if f["sim_shares"] > 0}
+    res = [r for r in res if (r["slug"], r["d"], r["rule"]) in traded]
+    eq = SIM_BANKROLL; peak = eq; dd = 0.0; realized = 0.0; n = h = 0; staked = 0.0; unf = 0.0
+    for r in res:
+        realized += r["sim_pnl"]; eq += r["sim_pnl"]; peak = max(peak, eq); dd = max(dd, peak - eq); n += 1; h += bool(r["hit"])
+    for k in traded: staked += fills[k]["sim_cost"]; unf += fills[k]["sim_unfilled"]
+    openk = [k for k in traded if k not in {(r["slug"], r["d"], r["rule"]) for r in res}]
+    exposure = sum(fills[k]["sim_cost"] for k in openk)
+    skipped = len(fills) - len(traded)
+    L.append(f"закрыто {n} сделок, попаданий {h}, результат {realized:+.2f} $, банк {eq:.2f} $, макс. просадка {dd:.2f} $; в рынке {exposure:.2f} $ ({len(openk)} откр.)")
+    L.append(f"заполнение: из {len(traded) * SIM_STAKE:.0f} $ заявленных вошло {staked:.2f} $, не хватило стакана на {unf:.2f} $" + (f"; сигналов без стакана (не торговались): {skipped}" if skipped else ""))
+    for rule, name in (("station", "A"), ("nws5", "B")):
+        rr = [r for r in res if r["rule"] == rule]
+        if rr: L.append(f"  {name}: {sum(bool(r['hit']) for r in rr)}/{len(rr)} {sum(r['sim_pnl'] for r in rr):+.2f} $")
+    for r in res[-8:]:
+        f = fills[(r["slug"], r["d"], r["rule"])]
+        L.append(f"{'✅' if r['hit'] else '❌'} {r['d'][8:10]}.{r['d'][5:7]} {r['slug']} {f['bucket']} вошло {f['sim_cost']:.2f} $ по {f['sim_vwap'] if f['sim_vwap'] is not None else '—'}¢ ({f['sim_shares']:.1f} шт.) → {r['sim_pnl']:+.2f} $" + (" ≈" if f.get("sim_approx") else ""))
+    return "\n".join(L)
 
 # ---------------------------------------------------------------- правило B «МИНУТКА США» (16.11, предрегистрация)
 # Бэктест на минутных ASOS (IEM) 27.08–16.11, 7 городов: текущая минутная температура в
@@ -543,6 +647,12 @@ def fast(seconds):
                     new.append(e)
             if new:
                 append(new)
+                sims = []
+                for e in new:
+                    try: sims.append(sim_record(e, tok.get(e["bucket"]) if e["slug"] == slug else live_market(e["slug"], e["d"])[1].get(e["bucket"])))
+                    except Exception as ex:  # noqa: BLE001
+                        print(f"WARN sim fast {e['slug']}: {ex}", file=sys.stderr)
+                sim_append(sims)
                 for e in new: print(f"FAST СИГНАЛ {e['slug']} {e['d']} {e['local']} {e['bucket']} (лидер {e['lead']}) ask {e['ask']} глубина {e.get('book_best_size')}/{e.get('book_depth5')}", flush=True)
         # пульс для контроля из бухгалтерии: одна строка на итерацию в append-only jsonl (union-merge),
         # и только на раннере Actions — локальные прогоны не должны конфликтовать с ним (урок 16.11: json-файл
@@ -574,3 +684,9 @@ if __name__ == "__main__":
             with open(tg, "a", encoding="utf-8") as f: f.write("\n" + missed_stats())
         if tg and MISSED_US.exists():
             with open(tg, "a", encoding="utf-8") as f: f.write("\n" + shadow_us_stats())
+        print(sim_stats())
+        if tg:
+            with open(tg, "a", encoding="utf-8") as f: f.write("\n\n" + sim_stats())
+    if "--sim-resync" in a:
+        # досчитать sim_resolve для резолвов, которые прошли до появления симуляции
+        E = load_journal(); sim_resolve([e for e in E if valid_resolve(e)])
