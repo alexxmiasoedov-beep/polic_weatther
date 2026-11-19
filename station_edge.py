@@ -360,6 +360,7 @@ def book_depth(token_id, ask):
 # границы корзины ≥0,5 °C для целых и ≥0,2 °C для десятых.
 NWS_API = "https://api.weather.gov/stations/{st}/observations/latest"
 IEM_OBHIST = "https://mesonet.agron.iastate.edu/api/1/obhistory.json?station={st3}&network={net}&date={d}"
+B_EXCLUDE = {"dallas"}  # решение владельца 19.11: Даллас вне правила B (нет бэктеста; тень 0/2)
 IEM_NET = {"KAUS": "TX_ASOS", "KHOU": "TX_ASOS", "KATL": "GA_ASOS", "KLAX": "CA_ASOS", "KSFO": "CA_ASOS", "KMIA": "FL_ASOS", "KSEA": "WA_ASOS", "KDAL": "TX_ASOS", "KORD": "IL_ASOS"}
 
 def nws_latest(station):
@@ -402,6 +403,7 @@ def bucket_lower_f(label):
 
 def signal_us(slug, info, now, b, obs):
     """правило B для США: obs — часовые регулярные наблюдения дня (°C)"""
+    if slug in B_EXCLUDE: return None
     if info["unit"] != "F" or not obs: return None
     tz = ZoneInfo(info["tz"]); lt = now.astimezone(tz); d = lt.date().isoformat()
     cur = us_current(info["station"], now)
@@ -441,7 +443,7 @@ def retro_us(d):
     out = []
     d0 = date.fromisoformat(d); d1 = d0 + timedelta(days=2)
     for slug, info in universe().items():
-        if info["unit"] != "F" or info["station"] not in IEM_NET or (slug, d) in seen: continue
+        if info["unit"] != "F" or slug in B_EXCLUDE or info["station"] not in IEM_NET or (slug, d) in seen: continue
         tz = ZoneInfo(info["tz"]); day0 = datetime.fromisoformat(d).replace(tzinfo=tz); day1 = day0 + timedelta(days=1)
         url = IEM_1MIN.format(st3=info["station"][1:], y1=d0.year, m1=d0.month, d1=d0.day, y2=d1.year, m2=d1.month, d2=d1.day)
         try:
