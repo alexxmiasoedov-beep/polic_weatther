@@ -1015,3 +1015,5 @@
 {"ts_utc": "2026-11-20T15:13:05Z", "station": "ZHHH", "obs_utc": "2026-11-20T15:00:00Z", "temp_c": 9, "dewp_c": 2, "speci": false, "raw": "METAR ZHHH 201500Z 19002MPS CAVOK 09/02 Q1028 NOSIG"}
 {"ts_utc": "2026-11-20T15:13:05Z", "station": "ZSPD", "obs_utc": "2026-11-20T15:00:00Z", "temp_c": 9, "dewp_c": -1, "speci": false, "raw": "METAR ZSPD 201500Z 25002MPS CAVOK 09/M01 Q1027 NOSIG"}
 {"ts_utc": "2026-11-20T15:13:05Z", "station": "ZUCK", "obs_utc": "2026-11-20T15:00:00Z", "temp_c": 11, "dewp_c": 7, "speci": false, "raw": "METAR ZUCK 201500Z 01003MPS 8000 NSC 11/07 Q1029 NOSIG"}
+{"ts_utc": "2026-11-20T15:22:13Z", "station": "EFHK", "obs_utc": "2026-11-20T15:20:00Z", "temp_c": 5, "dewp_c": 5, "speci": false, "raw": "METAR EFHK 201520Z 12008KT 9999 -RA BKN007 BKN014 05/05 Q0985 TEMPO 7000 -RA BKN010"}
+{"ts_utc": "2026-11-20T15:22:13Z", "station": "LLBG", "obs_utc": "2026-11-20T15:20:00Z", "temp_c": 24, "dewp_c": 11, "speci": false, "raw": "METAR LLBG 201520Z 34004KT CAVOK 24/11 Q1020 NOSIG"}
