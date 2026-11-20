@@ -949,3 +949,5 @@
 {"ts_utc": "2026-11-20T14:09:15Z", "station": "ZSPD", "obs_utc": "2026-11-20T14:00:00Z", "temp_c": 8, "dewp_c": -1, "speci": false, "raw": "METAR ZSPD 201400Z 22003MPS CAVOK 08/M01 Q1027 NOSIG"}
 {"ts_utc": "2026-11-20T14:09:15Z", "station": "ZUCK", "obs_utc": "2026-11-20T14:00:00Z", "temp_c": 11, "dewp_c": 7, "speci": false, "raw": "METAR ZUCK 201400Z 01004MPS 9000 NSC 11/07 Q1029 NOSIG"}
 {"ts_utc": "2026-11-20T14:09:15Z", "station": "KSFO", "obs_utc": "2026-11-20T14:06:00Z", "temp_c": 11.1, "dewp_c": 8.3, "speci": true, "raw": "SPECI KSFO 201406Z VRB03KT 2SM RA BR BKN038 OVC048 11/08 A3005 RMK AO2 P0003 T01110083"}
+{"ts_utc": "2026-11-20T14:18:24Z", "station": "RCSS", "obs_utc": "2026-11-20T14:00:00Z", "temp_c": 16, "dewp_c": 8, "speci": false, "raw": "METAR RCSS 201400Z 08004KT 050V110 9999 FEW020 SCT060 BKN090 16/08 Q1026 NOSIG RMK A3031"}
+{"ts_utc": "2026-11-20T14:18:24Z", "station": "KSFO", "obs_utc": "2026-11-20T14:14:00Z", "temp_c": 10.6, "dewp_c": 7.8, "speci": true, "raw": "SPECI KSFO 201414Z 31004KT 3SM RA OVC040 11/08 A3004 RMK AO2 P0011 T01060078"}
