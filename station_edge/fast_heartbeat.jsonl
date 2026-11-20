@@ -6111,3 +6111,13 @@
 {"ts_utc": "2026-11-20T15:57:02Z", "iteration": 8, "active": ["amsterdam", "buenos-aires", "london", "madrid", "milan", "munich", "paris", "sao-paulo", "warsaw"], "metar_stations": 9, "iter_seconds": 1.7}
 {"ts_utc": "2026-11-20T15:58:01Z", "iteration": 9, "active": ["amsterdam", "buenos-aires", "london", "madrid", "milan", "munich", "paris", "sao-paulo", "warsaw"], "metar_stations": 9, "iter_seconds": 0.4}
 {"ts_utc": "2026-11-20T15:59:01Z", "iteration": 10, "active": ["amsterdam", "buenos-aires", "london", "madrid", "milan", "munich", "paris", "sao-paulo", "warsaw"], "metar_stations": 9, "iter_seconds": 0.5}
+{"ts_utc": "2026-11-20T15:59:12Z", "iteration": 1, "active": ["amsterdam", "buenos-aires", "london", "madrid", "milan", "munich", "paris", "sao-paulo", "warsaw"], "metar_stations": 9, "iter_seconds": 5.9}
+{"ts_utc": "2026-11-20T16:00:07Z", "iteration": 2, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 0.5}
+{"ts_utc": "2026-11-20T16:01:07Z", "iteration": 3, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 0.2}
+{"ts_utc": "2026-11-20T16:02:11Z", "iteration": 4, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 4.6}
+{"ts_utc": "2026-11-20T16:03:07Z", "iteration": 5, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 0.3}
+{"ts_utc": "2026-11-20T16:04:07Z", "iteration": 6, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 0.3}
+{"ts_utc": "2026-11-20T16:05:07Z", "iteration": 7, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 0.6}
+{"ts_utc": "2026-11-20T16:06:07Z", "iteration": 8, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 0.9}
+{"ts_utc": "2026-11-20T16:07:07Z", "iteration": 9, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 0.3}
+{"ts_utc": "2026-11-20T16:08:07Z", "iteration": 10, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 0.2}
