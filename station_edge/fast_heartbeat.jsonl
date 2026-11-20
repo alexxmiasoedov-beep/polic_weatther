@@ -5121,3 +5121,13 @@
 {"ts_utc": "2026-11-20T00:41:54Z", "iteration": 8, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 7.0}
 {"ts_utc": "2026-11-20T00:42:49Z", "iteration": 9, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 1.7}
 {"ts_utc": "2026-11-20T00:43:49Z", "iteration": 10, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 1.7}
+{"ts_utc": "2026-11-20T00:43:56Z", "iteration": 1, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 1.7}
+{"ts_utc": "2026-11-20T00:44:56Z", "iteration": 2, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 1.9}
+{"ts_utc": "2026-11-20T00:45:57Z", "iteration": 3, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 2.1}
+{"ts_utc": "2026-11-20T00:46:56Z", "iteration": 4, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 1.8}
+{"ts_utc": "2026-11-20T00:47:56Z", "iteration": 5, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 1.7}
+{"ts_utc": "2026-11-20T00:48:56Z", "iteration": 6, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 1.7}
+{"ts_utc": "2026-11-20T00:49:56Z", "iteration": 7, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 1.9}
+{"ts_utc": "2026-11-20T00:50:56Z", "iteration": 8, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 1.8}
+{"ts_utc": "2026-11-20T00:51:59Z", "iteration": 9, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 4.2}
+{"ts_utc": "2026-11-20T00:52:56Z", "iteration": 10, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 1.9}
