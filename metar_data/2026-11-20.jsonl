@@ -1341,3 +1341,10 @@
 {"ts_utc": "2026-11-20T20:09:34Z", "station": "WMKK", "obs_utc": "2026-11-20T20:00:00Z", "temp_c": 25, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 202000Z 25003KT 220V290 9999 FEW030 25/24 Q1010 NOSIG"}
 {"ts_utc": "2026-11-20T20:09:34Z", "station": "ZHHH", "obs_utc": "2026-11-20T20:00:00Z", "temp_c": 6, "dewp_c": 3, "speci": false, "raw": "METAR ZHHH 202000Z 05002MPS CAVOK 06/03 Q1027 NOSIG"}
 {"ts_utc": "2026-11-20T20:09:34Z", "station": "ZUCK", "obs_utc": "2026-11-20T20:00:00Z", "temp_c": 9, "dewp_c": 7, "speci": false, "raw": "METAR ZUCK 202000Z 35001MPS 6000 NSC 09/07 Q1027 NOSIG"}
+{"ts_utc": "2026-11-20T20:25:52Z", "station": "EDDM", "obs_utc": "2026-11-20T20:20:00Z", "temp_c": 9, "dewp_c": 3, "speci": false, "raw": "METAR EDDM 202020Z AUTO 24015KT 9999 -RADZ FEW035 09/03 Q1007 TEMPO 25015G30KT"}
+{"ts_utc": "2026-11-20T20:25:52Z", "station": "EFHK", "obs_utc": "2026-11-20T20:20:00Z", "temp_c": 4, "dewp_c": 2, "speci": false, "raw": "METAR EFHK 202020Z 20012KT 9999 SCT009 SCT032 04/02 Q0986 TEMPO BKN010"}
+{"ts_utc": "2026-11-20T20:25:52Z", "station": "EGLC", "obs_utc": "2026-11-20T20:20:00Z", "temp_c": 8, "dewp_c": 2, "speci": false, "raw": "METAR EGLC 202020Z AUTO 33002KT 9999 NCD 08/02 Q1014"}
+{"ts_utc": "2026-11-20T20:25:52Z", "station": "LIMC", "obs_utc": "2026-11-20T20:20:00Z", "temp_c": 4, "dewp_c": 4, "speci": false, "raw": "METAR LIMC 202020Z 05004KT 010V100 9999 BCFG NSC 04/04 Q1011 NOSIG"}
+{"ts_utc": "2026-11-20T20:25:52Z", "station": "LLBG", "obs_utc": "2026-11-20T20:20:00Z", "temp_c": 19, "dewp_c": 11, "speci": false, "raw": "METAR LLBG 202020Z 15004KT CAVOK 19/11 Q1020 NOSIG"}
+{"ts_utc": "2026-11-20T20:25:52Z", "station": "LTAC", "obs_utc": "2026-11-20T20:20:00Z", "temp_c": 15, "dewp_c": 10, "speci": false, "raw": "METAR LTAC 202020Z 22009KT 9999 SCT040 BKN100 15/10 Q1014 NOSIG"}
+{"ts_utc": "2026-11-20T20:25:52Z", "station": "LTFM", "obs_utc": "2026-11-20T20:20:00Z", "temp_c": 16, "dewp_c": 12, "speci": false, "raw": "METAR LTFM 202020Z 10010KT 9999 SCT035 BKN090 16/12 Q1011 NOSIG"}
