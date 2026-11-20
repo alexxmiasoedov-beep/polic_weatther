@@ -6121,3 +6121,13 @@
 {"ts_utc": "2026-11-20T16:06:07Z", "iteration": 8, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 0.9}
 {"ts_utc": "2026-11-20T16:07:07Z", "iteration": 9, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 0.3}
 {"ts_utc": "2026-11-20T16:08:07Z", "iteration": 10, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 0.2}
+{"ts_utc": "2026-11-20T16:08:13Z", "iteration": 1, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 0.2}
+{"ts_utc": "2026-11-20T16:09:13Z", "iteration": 2, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 0.3}
+{"ts_utc": "2026-11-20T16:10:14Z", "iteration": 3, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 0.6}
+{"ts_utc": "2026-11-20T16:11:13Z", "iteration": 4, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 0.2}
+{"ts_utc": "2026-11-20T16:12:13Z", "iteration": 5, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 0.2}
+{"ts_utc": "2026-11-20T16:13:13Z", "iteration": 6, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 0.2}
+{"ts_utc": "2026-11-20T16:14:13Z", "iteration": 7, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 0.4}
+{"ts_utc": "2026-11-20T16:15:14Z", "iteration": 8, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 1.2}
+{"ts_utc": "2026-11-20T16:16:13Z", "iteration": 9, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 0.4}
+{"ts_utc": "2026-11-20T16:17:13Z", "iteration": 10, "active": ["buenos-aires", "london", "sao-paulo"], "metar_stations": 3, "iter_seconds": 0.2}
