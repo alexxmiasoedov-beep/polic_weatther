@@ -1172,3 +1172,5 @@
 {"ts_utc": "2026-11-20T17:42:14Z", "station": "ZBAA", "obs_utc": "2026-11-20T17:30:00Z", "temp_c": 2, "dewp_c": -14, "speci": false, "raw": "METAR ZBAA 201730Z 29006MPS CAVOK 02/M14 Q1029 NOSIG"}
 {"ts_utc": "2026-11-20T17:42:14Z", "station": "ZSPD", "obs_utc": "2026-11-20T17:30:00Z", "temp_c": 8, "dewp_c": 0, "speci": false, "raw": "METAR ZSPD 201730Z 25003MPS CAVOK 08/M00 Q1027 NOSIG"}
 {"ts_utc": "2026-11-20T17:42:14Z", "station": "KSEA", "obs_utc": "2026-11-20T17:36:00Z", "temp_c": 1.7, "dewp_c": 1.7, "speci": true, "raw": "SPECI KSEA 201736Z 16004KT 1/8SM R16L/0700V1000FT FG VV002 02/02 A3010 RMK AO2 SFC VIS 1/2 T00170017 $"}
+{"ts_utc": "2026-11-20T17:51:22Z", "station": "MMMX", "obs_utc": "2026-11-20T17:44:00Z", "temp_c": 18, "dewp_c": 8, "speci": true, "raw": "SPECI MMMX 201744Z 00000KT 2SM HZ SKC 18/08 A3035 NOSIG RMK TWR VIS ISOL SC CU"}
+{"ts_utc": "2026-11-20T17:51:22Z", "station": "LLBG", "obs_utc": "2026-11-20T18:00:00Z", "temp_c": 21, "dewp_c": 11, "speci": false, "raw": "METAR LLBG 201750Z VRB01KT CAVOK 21/11 Q1020 NOSIG"}
