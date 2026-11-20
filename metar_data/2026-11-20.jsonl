@@ -951,3 +951,11 @@
 {"ts_utc": "2026-11-20T14:09:15Z", "station": "KSFO", "obs_utc": "2026-11-20T14:06:00Z", "temp_c": 11.1, "dewp_c": 8.3, "speci": true, "raw": "SPECI KSFO 201406Z VRB03KT 2SM RA BR BKN038 OVC048 11/08 A3005 RMK AO2 P0003 T01110083"}
 {"ts_utc": "2026-11-20T14:18:24Z", "station": "RCSS", "obs_utc": "2026-11-20T14:00:00Z", "temp_c": 16, "dewp_c": 8, "speci": false, "raw": "METAR RCSS 201400Z 08004KT 050V110 9999 FEW020 SCT060 BKN090 16/08 Q1026 NOSIG RMK A3031"}
 {"ts_utc": "2026-11-20T14:18:24Z", "station": "KSFO", "obs_utc": "2026-11-20T14:14:00Z", "temp_c": 10.6, "dewp_c": 7.8, "speci": true, "raw": "SPECI KSFO 201414Z 31004KT 3SM RA OVC040 11/08 A3004 RMK AO2 P0011 T01060078"}
+{"ts_utc": "2026-11-20T14:27:30Z", "station": "EDDM", "obs_utc": "2026-11-20T14:20:00Z", "temp_c": 10, "dewp_c": 4, "speci": false, "raw": "METAR EDDM 201420Z AUTO 25021KT 9999 SCT038 10/04 Q1006 TEMPO 25020G30KT"}
+{"ts_utc": "2026-11-20T14:27:30Z", "station": "EFHK", "obs_utc": "2026-11-20T14:20:00Z", "temp_c": 5, "dewp_c": 5, "speci": false, "raw": "METAR EFHK 201420Z 11009KT 070V190 9999 -RA BKN008 BKN025 05/05 Q0985 TEMPO 9000 -RA BKN010"}
+{"ts_utc": "2026-11-20T14:27:30Z", "station": "EGLC", "obs_utc": "2026-11-20T14:20:00Z", "temp_c": 10, "dewp_c": 4, "speci": false, "raw": "METAR EGLC 201420Z AUTO 03006KT 260V070 9999 FEW028 10/04 Q1007"}
+{"ts_utc": "2026-11-20T14:27:30Z", "station": "LIMC", "obs_utc": "2026-11-20T14:20:00Z", "temp_c": 13, "dewp_c": 13, "speci": false, "raw": "METAR LIMC 201420Z VRB02KT CAVOK 13/13 Q1008 NOSIG"}
+{"ts_utc": "2026-11-20T14:27:30Z", "station": "LLBG", "obs_utc": "2026-11-20T14:20:00Z", "temp_c": 25, "dewp_c": 10, "speci": false, "raw": "METAR LLBG 201420Z 33006KT CAVOK 25/10 Q1019 NOSIG"}
+{"ts_utc": "2026-11-20T14:27:30Z", "station": "LTAC", "obs_utc": "2026-11-20T14:20:00Z", "temp_c": 16, "dewp_c": 10, "speci": false, "raw": "METAR LTAC 201420Z 23005KT 9999 SCT040 BKN100 16/10 Q1014 NOSIG"}
+{"ts_utc": "2026-11-20T14:27:30Z", "station": "LTFM", "obs_utc": "2026-11-20T14:20:00Z", "temp_c": 20, "dewp_c": 15, "speci": false, "raw": "METAR LTFM 201420Z 25013KT 9999 BKN035 BKN080 20/15 Q1009 RESHRA NOSIG"}
+{"ts_utc": "2026-11-20T14:27:30Z", "station": "EHAM", "obs_utc": "2026-11-20T14:25:00Z", "temp_c": 8, "dewp_c": 2, "speci": false, "raw": "METAR EHAM 201425Z 36005KT 320V050 CAVOK 08/02 Q1004 NOSIG"}
