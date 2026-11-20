@@ -1516,3 +1516,20 @@
 {"ts_utc": "2026-11-20T23:03:33Z", "station": "SBGR", "obs_utc": "2026-11-20T23:00:00Z", "temp_c": 23, "dewp_c": 20, "speci": false, "raw": "METAR SBGR 202300Z 18005KT 9999 TS SCT017 FEW045CB BKN100 23/20 Q1014 RETS"}
 {"ts_utc": "2026-11-20T23:03:33Z", "station": "VHHH", "obs_utc": "2026-11-20T23:00:00Z", "temp_c": 16, "dewp_c": 3, "speci": false, "raw": "METAR VHHH 202300Z 03008KT 350V060 9999 FEW040 16/03 Q1025 NOSIG"}
 {"ts_utc": "2026-11-20T23:03:33Z", "station": "WSSS", "obs_utc": "2026-11-20T23:00:00Z", "temp_c": 27, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 202300Z 34002KT 9999 FEW018 SCT160 BKN300 27/25 Q1012 NOSIG"}
+{"ts_utc": "2026-11-20T23:12:44Z", "station": "CYYZ", "obs_utc": "2026-11-20T23:00:00Z", "temp_c": 11, "dewp_c": 5, "speci": false, "raw": "METAR CYYZ 202300Z 15002KT 15SM FEW260 11/05 A3028 RMK CI1 SLP262"}
+{"ts_utc": "2026-11-20T23:12:44Z", "station": "FACT", "obs_utc": "2026-11-20T23:00:00Z", "temp_c": 14, "dewp_c": 9, "speci": false, "raw": "METAR FACT 202300Z VRB02KT CAVOK 14/09 Q1016 NOSIG"}
+{"ts_utc": "2026-11-20T23:12:44Z", "station": "KSFO", "obs_utc": "2026-11-20T23:00:00Z", "temp_c": 13.3, "dewp_c": 8.3, "speci": false, "raw": "METAR KSFO 202256Z COR 00000KT 10SM SCT037 13/08 A3008 RMK AO2 SLP184 T01330083"}
+{"ts_utc": "2026-11-20T23:12:44Z", "station": "LEMD", "obs_utc": "2026-11-20T23:00:00Z", "temp_c": 10, "dewp_c": 9, "speci": false, "raw": "METAR LEMD 202300Z 10003KT 020V150 9000 FEW080TCU 10/09 Q1022 NOSIG"}
+{"ts_utc": "2026-11-20T23:12:44Z", "station": "NZWN", "obs_utc": "2026-11-20T23:00:00Z", "temp_c": 17, "dewp_c": 12, "speci": false, "raw": "METAR NZWN 202300Z AUTO 20010KT 9999 NCD 17/12 Q1024"}
+{"ts_utc": "2026-11-20T23:12:44Z", "station": "RCSS", "obs_utc": "2026-11-20T23:00:00Z", "temp_c": 14, "dewp_c": 9, "speci": false, "raw": "METAR RCSS 202300Z 09005KT 9999 FEW020 SCT050 14/09 Q1026 NOSIG RMK A3030"}
+{"ts_utc": "2026-11-20T23:12:44Z", "station": "RJTT", "obs_utc": "2026-11-20T23:00:00Z", "temp_c": 9, "dewp_c": -1, "speci": false, "raw": "METAR RJTT 202300Z 29007KT 9999 FEW030 09/M01 Q1015 NOSIG"}
+{"ts_utc": "2026-11-20T23:12:44Z", "station": "RKPK", "obs_utc": "2026-11-20T23:00:00Z", "temp_c": 1, "dewp_c": -4, "speci": false, "raw": "METAR RKPK 202300Z 33003KT 9999 SCT050 01/M04 Q1024"}
+{"ts_utc": "2026-11-20T23:12:44Z", "station": "RKSI", "obs_utc": "2026-11-20T23:00:00Z", "temp_c": -1, "dewp_c": -15, "speci": false, "raw": "METAR RKSI 202300Z 01006KT CAVOK M01/M15 Q1026 NOSIG"}
+{"ts_utc": "2026-11-20T23:12:44Z", "station": "RPLL", "obs_utc": "2026-11-20T23:00:00Z", "temp_c": 27, "dewp_c": 24, "speci": false, "raw": "METAR RPLL 202300Z VRB01KT 9999 FEW025 BKN100 27/24 Q1016 NOSIG RMK A3000"}
+{"ts_utc": "2026-11-20T23:12:44Z", "station": "SAEZ", "obs_utc": "2026-11-20T23:00:00Z", "temp_c": 20, "dewp_c": 15, "speci": false, "raw": "METAR SAEZ 202300Z 29004KT CAVOK 20/15 Q1009 NOSIG"}
+{"ts_utc": "2026-11-20T23:12:44Z", "station": "UUWW", "obs_utc": "2026-11-20T23:00:00Z", "temp_c": 4, "dewp_c": 4, "speci": false, "raw": "METAR UUWW 202300Z 15004MPS 6000 OVC005 04/04 Q0996 R06/290050 NOSIG"}
+{"ts_utc": "2026-11-20T23:12:44Z", "station": "WMKK", "obs_utc": "2026-11-20T23:00:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 202300Z VRB03KT 9000 FEW010 26/24 Q1011 NOSIG"}
+{"ts_utc": "2026-11-20T23:12:44Z", "station": "ZBAA", "obs_utc": "2026-11-20T23:00:00Z", "temp_c": -5, "dewp_c": -10, "speci": false, "raw": "METAR ZBAA 202300Z VRB01MPS CAVOK M05/M10 Q1031 NOSIG"}
+{"ts_utc": "2026-11-20T23:12:44Z", "station": "ZHHH", "obs_utc": "2026-11-20T23:00:00Z", "temp_c": 6, "dewp_c": 6, "speci": false, "raw": "METAR ZHHH 202300Z 05003MPS 7000 NSC 06/06 Q1027 NOSIG"}
+{"ts_utc": "2026-11-20T23:12:44Z", "station": "ZSPD", "obs_utc": "2026-11-20T23:00:00Z", "temp_c": 7, "dewp_c": 1, "speci": false, "raw": "METAR ZSPD 202300Z 27004MPS CAVOK 07/01 Q1028 NOSIG"}
+{"ts_utc": "2026-11-20T23:12:44Z", "station": "ZUCK", "obs_utc": "2026-11-20T23:00:00Z", "temp_c": 8, "dewp_c": 7, "speci": false, "raw": "METAR ZUCK 202300Z 02003MPS 6000 NSC 08/07 Q1026 NOSIG"}
