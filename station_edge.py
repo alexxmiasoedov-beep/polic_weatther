@@ -338,8 +338,37 @@ def live_metar(stations):
         out.setdefault(o.get("icaoId"), []).append((parse_ts(t[:19].replace(" ", "T") + "Z"), o["temp"]))
     return out
 
+LAST_PRICE_SRC = "gamma"
+
+def _post(path, body, timeout=20):
+    import urllib.request
+    req = urllib.request.Request(f"{CLOB_API}{path}", data=json.dumps(body).encode(), headers={"User-Agent": "polic_weatther", "Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=timeout) as r: return json.load(r)
+
+def clob_prices(tok):
+    """CLOB батчем: {bucket:(last,bid,ask)} по реальному стакану. /prices: side BUY = лучший bid, SELL = лучший ask
+    (проверено 21.11 против /book); /last-trades-prices — последняя сделка. None при ошибке."""
+    ids = [t for t in tok.values() if t]
+    if not ids: return None
+    try:
+        pr = _post("/prices", [{"token_id": t, "side": s} for t in ids for s in ("BUY", "SELL")])
+        lt = _post("/last-trades-prices", [{"token_id": t} for t in ids])
+    except Exception as ex:  # noqa: BLE001
+        print(f"WARN clob prices: {ex}", file=sys.stderr); return None
+    last = {x.get("token_id"): x.get("price") for x in (lt or [])} if isinstance(lt, list) else {}
+    f = lambda x: round(float(x) * 100, 2) if x not in (None, "") else None
+    out = {}
+    for k, t in tok.items():
+        p = (pr or {}).get(t) or {}
+        bid, ask, l = f(p.get("BUY")), f(p.get("SELL")), f(last.get(t))
+        if bid is None and ask is None: continue
+        out[k] = (l, bid, ask)
+    return out
+
 def live_market(slug, d):
-    """Gamma: {bucket:(last,bid,ask)}, {bucket: yes_token_id}"""
+    """{bucket:(last,bid,ask)}, {bucket: yes_token_id}. Токены — из Gamma; цены — из стакана CLOB
+    (21.11: Gamma bestAsk отставал от стакана на 3–12¢ в 10 из 49 корзин, Буэнос-Айрес 70 vs 99.9,
+    Мадрид 28.9 vs 95.9 — сигналы по цене, которой не было). При сбое CLOB — цены Gamma."""
     ev = config.pm_event_slug(slug, date.fromisoformat(d))
     r = _get(f"{config.GAMMA_API}/events?slug={ev}")
     b = {}; tok = {}
@@ -350,6 +379,12 @@ def live_market(slug, d):
         b[k] = (f(m.get("lastTradePrice")), f(m.get("bestBid")), f(m.get("bestAsk")))
         try: tok[k] = json.loads(m["clobTokenIds"])[0]
         except Exception: pass
+    global LAST_PRICE_SRC
+    c = clob_prices(tok); LAST_PRICE_SRC = "clob" if c else "gamma"
+    if c:
+        for k, (l, bid, ask) in c.items():
+            g = b.get(k, (None, None, None))
+            b[k] = (l if l is not None else g[0], bid if bid is not None else g[1], ask if ask is not None else g[2])
     return b, tok
 
 def book_depth(token_id, ask):
@@ -641,7 +676,7 @@ def fast(seconds):
                         print(f"WARN fast nws5 {slug}: {ex}", file=sys.stderr); e2 = None
                     if e2: found.append(e2); have_b.add((slug, d, "nws5"))
                 for e in found:
-                    e["src"] = "fast"
+                    e["src"] = "fast"; e["price_src"] = LAST_PRICE_SRC
                     if tok.get(e["bucket"]):
                         e["book_best_size"], e["book_depth5"] = book_depth(tok[e["bucket"]], e["ask"])
                     new.append(e)
