@@ -1565,3 +1565,6 @@
 {"ts_utc": "2026-11-21T23:12:36Z", "station": "ZHHH", "obs_utc": "2026-11-21T23:00:00Z", "temp_c": 11, "dewp_c": 2, "speci": false, "raw": "METAR ZHHH 212300Z 10005MPS CAVOK 11/02 Q1024 NOSIG"}
 {"ts_utc": "2026-11-21T23:12:36Z", "station": "ZSPD", "obs_utc": "2026-11-21T23:00:00Z", "temp_c": 9, "dewp_c": 3, "speci": false, "raw": "METAR ZSPD 212300Z 16002MPS 130V190 CAVOK 09/03 Q1030 NOSIG"}
 {"ts_utc": "2026-11-21T23:12:36Z", "station": "ZUCK", "obs_utc": "2026-11-21T23:00:00Z", "temp_c": 12, "dewp_c": 9, "speci": false, "raw": "METAR ZUCK 212300Z 20002MPS CAVOK 12/09 Q1020 NOSIG"}
+{"ts_utc": "2026-11-21T23:21:46Z", "station": "MMMX", "obs_utc": "2026-11-21T23:17:00Z", "temp_c": 22, "dewp_c": 8, "speci": true, "raw": "SPECI MMMX 212317Z 12010G20KT 7SM SCT020TCU BKN080 22/08 A3022 NOSIG RMK 8/230 HZY CI"}
+{"ts_utc": "2026-11-21T23:21:46Z", "station": "EFHK", "obs_utc": "2026-11-21T23:20:00Z", "temp_c": 1, "dewp_c": 0, "speci": false, "raw": "METAR EFHK 212320Z 03007KT 9999 BKN005 BKN038 01/00 Q0995 TEMPO SCT005 BKN038"}
+{"ts_utc": "2026-11-21T23:21:46Z", "station": "LLBG", "obs_utc": "2026-11-21T23:20:00Z", "temp_c": 17, "dewp_c": 14, "speci": false, "raw": "METAR LLBG 212320Z VRB02KT CAVOK 17/14 Q1017 NOSIG"}
