@@ -819,3 +819,6 @@
 {"ts_utc": "2026-11-21T12:10:32Z", "station": "ZSPD", "obs_utc": "2026-11-21T12:00:00Z", "temp_c": 9, "dewp_c": 1, "speci": false, "raw": "METAR ZSPD 211200Z 17003MPS CAVOK 09/01 Q1029 NOSIG"}
 {"ts_utc": "2026-11-21T12:10:32Z", "station": "ZUCK", "obs_utc": "2026-11-21T12:00:00Z", "temp_c": 14, "dewp_c": 7, "speci": false, "raw": "METAR ZUCK 211200Z 01004MPS CAVOK 14/07 Q1020 NOSIG"}
 {"ts_utc": "2026-11-21T12:10:32Z", "station": "LTAC", "obs_utc": "2026-11-21T12:03:00Z", "temp_c": 12, "dewp_c": 10, "speci": true, "raw": "SPECI LTAC 211203Z 24013KT 9999 BKN030 BKN080 12/10 Q1011 RESHRA NOSIG"}
+{"ts_utc": "2026-11-21T12:19:40Z", "station": "KSEA", "obs_utc": "2026-11-21T12:08:00Z", "temp_c": 2.2, "dewp_c": 0.6, "speci": true, "raw": "SPECI KSEA 211208Z 06004KT 6SM R16L/4500VP6000FT BR BKN002 02/01 A2998 RMK AO2 VIS N-NE 1 T00220006 $"}
+{"ts_utc": "2026-11-21T12:19:40Z", "station": "KSEA", "obs_utc": "2026-11-21T12:12:00Z", "temp_c": 2.2, "dewp_c": 0.6, "speci": true, "raw": "SPECI KSEA 211212Z 05005KT 1 1/4SM R16L/1400VP6000FT BR BKN002 02/01 A2998 RMK AO2 T00220006 $"}
+{"ts_utc": "2026-11-21T12:19:40Z", "station": "KSEA", "obs_utc": "2026-11-21T12:14:00Z", "temp_c": 1.7, "dewp_c": 0, "speci": true, "raw": "SPECI KSEA 211214Z 05005KT 1/2SM R16L/1400VP6000FT FG BKN002 02/00 A2998 RMK AO2 T00170000 $"}
