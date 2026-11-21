@@ -1500,3 +1500,5 @@
 {"ts_utc": "2026-11-21T22:08:35Z", "station": "ZSPD", "obs_utc": "2026-11-21T22:00:00Z", "temp_c": 8, "dewp_c": 3, "speci": false, "raw": "METAR ZSPD 212200Z 15003MPS 120V190 CAVOK 08/03 Q1029 NOSIG"}
 {"ts_utc": "2026-11-21T22:08:35Z", "station": "ZUCK", "obs_utc": "2026-11-21T22:00:00Z", "temp_c": 13, "dewp_c": 8, "speci": false, "raw": "METAR ZUCK 212200Z 23001MPS CAVOK 13/08 Q1020 NOSIG"}
 {"ts_utc": "2026-11-21T22:08:35Z", "station": "CYYZ", "obs_utc": "2026-11-21T22:07:00Z", "temp_c": 5, "dewp_c": 4, "speci": true, "raw": "SPECI CYYZ 212207Z 17004KT 3SM BR BKN002 05/04 A3014 RMK SF6 SLP214"}
+{"ts_utc": "2026-11-21T22:17:47Z", "station": "RCSS", "obs_utc": "2026-11-21T22:00:00Z", "temp_c": 15, "dewp_c": 9, "speci": false, "raw": "METAR RCSS 212200Z 11009KT 9999 FEW025 15/09 Q1027 NOSIG RMK A3033"}
+{"ts_utc": "2026-11-21T22:17:47Z", "station": "CYYZ", "obs_utc": "2026-11-21T22:14:00Z", "temp_c": 4, "dewp_c": 4, "speci": true, "raw": "SPECI CYYZ 212214Z 17005KT 140V200 3/4SM R24L/P6000FT/D R23/P6000FT/U BR BKN002 04/04 A3014 RMK SF6 SLP214"}
