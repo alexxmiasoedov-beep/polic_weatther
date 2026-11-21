@@ -21,3 +21,4 @@
 {"type": "resolve", "rule": "station", "slug": "paris", "d": "2026-11-18", "winner": "16°C", "hit": true, "pnl": 2.846, "ts_utc": "2026-11-19T02:03:46Z"}
 {"type": "resolve", "rule": "nws5", "slug": "austin", "d": "2026-11-18", "winner": "72-73°F", "hit": true, "pnl": 1.463, "ts_utc": "2026-11-19T09:04:41Z"}
 {"type": "entry", "slug": "buenos-aires", "d": "2026-11-20", "ts_utc": "2026-11-20T17:04:45Z", "snap_ts": "2026-11-20T17:04:45Z", "local": "14:04", "bucket": "29°C or higher", "lead": "28°C", "lead_last": 83.6, "last": 15.7, "bid": 18.4, "ask": 70.0, "entry": 71.0, "size": 1.0, "t_max": 29, "t_now": 29, "t_of_max_local": "14:00", "lag_min": 5, "unit": "C", "rule": "station", "src": "fast", "book_best_size": 680.9, "book_depth5": 680.9}
+{"type": "resolve", "rule": "station", "slug": "buenos-aires", "d": "2026-11-20", "winner": "29°C or higher", "hit": true, "pnl": 0.408, "ts_utc": "2026-11-21T06:04:11Z"}
