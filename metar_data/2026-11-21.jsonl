@@ -965,3 +965,4 @@
 {"ts_utc": "2026-11-21T14:10:21Z", "station": "ZUCK", "obs_utc": "2026-11-21T14:00:00Z", "temp_c": 15, "dewp_c": 8, "speci": false, "raw": "METAR ZUCK 211400Z 02007MPS CAVOK 15/08 Q1020 NOSIG"}
 {"ts_utc": "2026-11-21T14:10:21Z", "station": "LTAC", "obs_utc": "2026-11-21T14:05:00Z", "temp_c": 11, "dewp_c": 5, "speci": true, "raw": "SPECI LTAC 211405Z 35014KT 310V020 9999 FEW010 BKN030 BKN080 11/05 Q1013 BECMG TL1500 26012KT"}
 {"ts_utc": "2026-11-21T14:10:21Z", "station": "CYYZ", "obs_utc": "2026-11-21T14:08:00Z", "temp_c": 5, "dewp_c": 4, "speci": true, "raw": "SPECI CYYZ 211408Z 13003KT 1SM R06L/1800V2000FT/N R05/3000VP6000FT/U BR OVC004 05/04 A3027 RMK FG3SF5 SLP258"}
+{"ts_utc": "2026-11-21T14:19:28Z", "station": "KBKF", "obs_utc": "2026-11-21T14:00:00Z", "temp_c": 3.2, "dewp_c": -8.5, "speci": false, "raw": "METAR KBKF 211358Z VRB05KT 10SM BKN080 03/M08 A2986 RMK AO2A SLP094 T00321085"}
