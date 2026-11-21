@@ -1557,3 +1557,4 @@
 {"ts_utc": "2026-11-20T23:40:11Z", "station": "ZSPD", "obs_utc": "2026-11-20T23:30:00Z", "temp_c": 8, "dewp_c": 1, "speci": false, "raw": "METAR ZSPD 202330Z 28003MPS 240V300 CAVOK 08/01 Q1028 NOSIG"}
 {"ts_utc": "2026-11-20T23:40:11Z", "station": "UUWW", "obs_utc": "2026-11-20T23:33:00Z", "temp_c": 4, "dewp_c": 3, "speci": true, "raw": "SPECI UUWW 202333Z 14003MPS 8000 OVC007 04/03 Q0996 R06/290050 NOSIG"}
 {"ts_utc": "2026-11-20T23:49:18Z", "station": "MMMX", "obs_utc": "2026-11-20T23:40:00Z", "temp_c": 21, "dewp_c": 1, "speci": true, "raw": "SPECI MMMX 202340Z 07005KT 8SM FEW080 21/01 A3022 NOSIG RMK 8/030 HZY ISOL CU CI"}
+{"ts_utc": "2026-11-21T00:07:39Z", "station": "LTAC", "obs_utc": "2026-11-20T23:57:00Z", "temp_c": 13, "dewp_c": 10, "speci": true, "raw": "SPECI LTAC 202357Z 32011KT 9999 -SHRA BKN030 BKN080 13/10 Q1015 NOSIG"}
