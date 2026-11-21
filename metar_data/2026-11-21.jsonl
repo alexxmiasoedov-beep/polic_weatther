@@ -508,3 +508,10 @@
 {"ts_utc": "2026-11-21T07:35:06Z", "station": "UUWW", "obs_utc": "2026-11-21T07:30:00Z", "temp_c": 3, "dewp_c": 3, "speci": false, "raw": "METAR UUWW 210730Z 20003MPS 4700 -RA BR BKN003 OVC020 03/03 Q0995 R24/290050 NOSIG"}
 {"ts_utc": "2026-11-21T07:35:06Z", "station": "VHHH", "obs_utc": "2026-11-21T07:30:00Z", "temp_c": 22, "dewp_c": 3, "speci": false, "raw": "METAR VHHH 210730Z 01004KT 320V060 9999 FEW045 22/03 Q1022 NOSIG"}
 {"ts_utc": "2026-11-21T07:35:06Z", "station": "WSSS", "obs_utc": "2026-11-21T07:30:00Z", "temp_c": 29, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 210730Z 01009KT 330V040 9999 SCT016 SCT180 BKN270 29/25 Q1011 NOSIG"}
+{"ts_utc": "2026-11-21T07:44:11Z", "station": "RCSS", "obs_utc": "2026-11-21T07:30:00Z", "temp_c": 19, "dewp_c": 8, "speci": false, "raw": "METAR RCSS 210730Z 09012KT 9999 FEW025 SCT050 19/08 Q1025 NOSIG RMK A3028"}
+{"ts_utc": "2026-11-21T07:44:11Z", "station": "RJTT", "obs_utc": "2026-11-21T07:30:00Z", "temp_c": 14, "dewp_c": 0, "speci": false, "raw": "METAR RJTT 210730Z 22008KT 190V250 9999 FEW030 14/M00 Q1014 BECMG FM0900 25008KT"}
+{"ts_utc": "2026-11-21T07:44:11Z", "station": "WMKK", "obs_utc": "2026-11-21T07:30:00Z", "temp_c": 31, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 210730Z VRB04KT 8000 VCSH FEW017CB SCT018 31/25 Q1010 NOSIG"}
+{"ts_utc": "2026-11-21T07:44:11Z", "station": "ZBAA", "obs_utc": "2026-11-21T07:30:00Z", "temp_c": 7, "dewp_c": -14, "speci": false, "raw": "METAR ZBAA 210730Z 29004G11MPS 270V350 CAVOK 07/M14 Q1029 NOSIG"}
+{"ts_utc": "2026-11-21T07:44:11Z", "station": "ZSPD", "obs_utc": "2026-11-21T07:30:00Z", "temp_c": 14, "dewp_c": -1, "speci": false, "raw": "METAR ZSPD 210730Z 36004MPS CAVOK 14/M01 Q1028 NOSIG"}
+{"ts_utc": "2026-11-21T07:44:11Z", "station": "LTAC", "obs_utc": "2026-11-21T07:34:00Z", "temp_c": 12, "dewp_c": 11, "speci": true, "raw": "SPECI LTAC 210734Z 20007KT 9999 -SHRA FEW010 BKN030 BKN080 12/11 Q1013 RESHRA NOSIG"}
+{"ts_utc": "2026-11-21T07:44:11Z", "station": "KATL", "obs_utc": "2026-11-21T07:35:00Z", "temp_c": 16.1, "dewp_c": 2.8, "speci": true, "raw": "SPECI KATL 210735Z 07012KT 10SM SCT027 SCT045 OVC150 16/03 A3015 RMK AO2 T01610028 $"}
