@@ -1296,3 +1296,10 @@
 {"ts_utc": "2026-11-21T19:06:27Z", "station": "UUWW", "obs_utc": "2026-11-21T19:00:00Z", "temp_c": 0, "dewp_c": -2, "speci": false, "raw": "METAR UUWW 211900Z 27004MPS 9000 -SHSN FEW015 BKN023CB M00/M02 Q1000 R24/290050 NOSIG"}
 {"ts_utc": "2026-11-21T19:06:27Z", "station": "ZBAA", "obs_utc": "2026-11-21T19:00:00Z", "temp_c": -5, "dewp_c": -8, "speci": false, "raw": "METAR ZBAA 211900Z VRB01MPS CAVOK M05/M08 Q1028 NOSIG"}
 {"ts_utc": "2026-11-21T19:06:27Z", "station": "ZSPD", "obs_utc": "2026-11-21T19:00:00Z", "temp_c": 8, "dewp_c": 2, "speci": false, "raw": "METAR ZSPD 211900Z 16001MPS CAVOK 08/02 Q1029 NOSIG"}
+{"ts_utc": "2026-11-21T19:13:38Z", "station": "CYYZ", "obs_utc": "2026-11-21T19:00:00Z", "temp_c": 12, "dewp_c": 7, "speci": false, "raw": "METAR CYYZ 211900Z 15005KT 10SM SKC 12/07 A3017 RMK SLP224"}
+{"ts_utc": "2026-11-21T19:13:38Z", "station": "RCSS", "obs_utc": "2026-11-21T19:00:00Z", "temp_c": 15, "dewp_c": 8, "speci": false, "raw": "METAR RCSS 211900Z 10010KT 9999 FEW025 15/08 Q1026 NOSIG RMK A3031"}
+{"ts_utc": "2026-11-21T19:13:38Z", "station": "RPLL", "obs_utc": "2026-11-21T19:00:00Z", "temp_c": 27, "dewp_c": 24, "speci": false, "raw": "METAR RPLL 211900Z 09003KT 060V120 9999 FEW025 BKN100 27/24 Q1015 NOSIG RMK A2997"}
+{"ts_utc": "2026-11-21T19:13:38Z", "station": "WMKK", "obs_utc": "2026-11-21T19:00:00Z", "temp_c": 27, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 211900Z VRB01KT 9999 FEW030 27/25 Q1011 NOSIG"}
+{"ts_utc": "2026-11-21T19:13:38Z", "station": "ZHHH", "obs_utc": "2026-11-21T19:00:00Z", "temp_c": 11, "dewp_c": 4, "speci": false, "raw": "METAR ZHHH 211900Z 08004MPS CAVOK 11/04 Q1025 NOSIG"}
+{"ts_utc": "2026-11-21T19:13:38Z", "station": "ZUCK", "obs_utc": "2026-11-21T19:00:00Z", "temp_c": 14, "dewp_c": 7, "speci": false, "raw": "METAR ZUCK 211900Z 05002MPS CAVOK 14/07 Q1020 NOSIG"}
+{"ts_utc": "2026-11-21T19:13:38Z", "station": "KMIA", "obs_utc": "2026-11-21T19:10:00Z", "temp_c": 25, "dewp_c": 22.2, "speci": true, "raw": "SPECI KMIA 211910Z VRB03G16KT 1SM +TSRA BKN025CB BKN040 BKN080 OVC250 25/22 A2988 RMK AO2 RAB1859 TSB1856 OCNL LTGICCG OHD TS OHD MOV NE CB DSNT NE-SE MOV NE P0003 T02500222 RVRNO $"}
