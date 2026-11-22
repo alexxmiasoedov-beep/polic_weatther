@@ -123,3 +123,6 @@
 {"ts_utc": "2026-11-22T01:38:38Z", "station": "WSSS", "obs_utc": "2026-11-22T01:30:00Z", "temp_c": 29, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 220130Z 35004KT 300V020 9999 FEW016 BKN300 29/25 Q1014 NOSIG"}
 {"ts_utc": "2026-11-22T01:38:38Z", "station": "ZBAA", "obs_utc": "2026-11-22T01:30:00Z", "temp_c": 1, "dewp_c": -7, "speci": false, "raw": "METAR ZBAA 220130Z 09002MPS 050V140 CAVOK 01/M07 Q1026 NOSIG"}
 {"ts_utc": "2026-11-22T01:38:38Z", "station": "ZSPD", "obs_utc": "2026-11-22T01:30:00Z", "temp_c": 15, "dewp_c": 5, "speci": false, "raw": "METAR ZSPD 220130Z 18004MPS CAVOK 15/05 Q1031 NOSIG"}
+{"ts_utc": "2026-11-22T01:47:42Z", "station": "RJTT", "obs_utc": "2026-11-22T01:30:00Z", "temp_c": 12, "dewp_c": 0, "speci": false, "raw": "METAR RJTT 220130Z 10004KT 060V130 9999 FEW030 12/M00 Q1022 NOSIG"}
+{"ts_utc": "2026-11-22T01:47:42Z", "station": "KATL", "obs_utc": "2026-11-22T01:38:00Z", "temp_c": 13.9, "dewp_c": 12.2, "speci": true, "raw": "SPECI KATL 220138Z 05012KT 5SM DZ OVC013 14/12 A3003 RMK AO2 RAE0058DZB37 P0000 T01390122 $"}
+{"ts_utc": "2026-11-22T01:47:42Z", "station": "KATL", "obs_utc": "2026-11-22T01:43:00Z", "temp_c": 13.9, "dewp_c": 12.2, "speci": true, "raw": "SPECI KATL 220143Z 04014G21KT 4SM DZ SCT008 OVC013 14/12 A3003 RMK AO2 RAE0058DZB37 P0000 T01390122 $"}
