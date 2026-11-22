@@ -230,3 +230,11 @@
 {"ts_utc": "2026-11-22T03:09:29Z", "station": "ZHHH", "obs_utc": "2026-11-22T03:00:00Z", "temp_c": 15, "dewp_c": 4, "speci": false, "raw": "METAR ZHHH 220300Z 11004MPS 080V140 CAVOK 15/04 Q1024 NOSIG"}
 {"ts_utc": "2026-11-22T03:09:29Z", "station": "ZSPD", "obs_utc": "2026-11-22T03:00:00Z", "temp_c": 17, "dewp_c": 3, "speci": false, "raw": "METAR ZSPD 220300Z 17005MPS 140V200 CAVOK 17/03 Q1030 NOSIG"}
 {"ts_utc": "2026-11-22T03:09:29Z", "station": "ZUCK", "obs_utc": "2026-11-22T03:00:00Z", "temp_c": 14, "dewp_c": 9, "speci": false, "raw": "METAR ZUCK 220300Z 18001MPS CAVOK 14/09 Q1021 NOSIG"}
+{"ts_utc": "2026-11-22T03:27:41Z", "station": "EDDM", "obs_utc": "2026-11-22T03:20:00Z", "temp_c": -2, "dewp_c": -3, "speci": false, "raw": "METAR EDDM 220320Z AUTO 06002KT 8000 1200 R26R/P2000N R26L/P2000N BR BKN001 M02/M03 Q1013 BECMG 1200 BR"}
+{"ts_utc": "2026-11-22T03:27:41Z", "station": "EFHK", "obs_utc": "2026-11-22T03:20:00Z", "temp_c": 0, "dewp_c": 0, "speci": false, "raw": "METAR EFHK 220320Z 01008KT 9999 BKN040 00/M00 Q0995 NOSIG"}
+{"ts_utc": "2026-11-22T03:27:41Z", "station": "EGLC", "obs_utc": "2026-11-22T03:20:00Z", "temp_c": 6, "dewp_c": 4, "speci": false, "raw": "METAR EGLC 220320Z AUTO 08009KT 9999 NCD 06/04 Q1010"}
+{"ts_utc": "2026-11-22T03:27:41Z", "station": "LIMC", "obs_utc": "2026-11-22T03:20:00Z", "temp_c": 7, "dewp_c": 6, "speci": false, "raw": "METAR LIMC 220320Z 01005KT 9999 BKN080 BKN100 07/06 Q1014 NOSIG"}
+{"ts_utc": "2026-11-22T03:27:41Z", "station": "LLBG", "obs_utc": "2026-11-22T03:20:00Z", "temp_c": 17, "dewp_c": 12, "speci": false, "raw": "METAR LLBG 220320Z 15004KT 9999 SCT010 17/12 Q1017 TEMPO BKN010"}
+{"ts_utc": "2026-11-22T03:27:41Z", "station": "LTAC", "obs_utc": "2026-11-22T03:20:00Z", "temp_c": 5, "dewp_c": 3, "speci": false, "raw": "METAR LTAC 220320Z 20003KT 160V240 9999 SCT025 SCT080 05/03 Q1018 BECMG 4000 BR"}
+{"ts_utc": "2026-11-22T03:27:41Z", "station": "LTFM", "obs_utc": "2026-11-22T03:20:00Z", "temp_c": 10, "dewp_c": 9, "speci": false, "raw": "METAR LTFM 220320Z 20008KT CAVOK 10/09 Q1017 NOSIG"}
+{"ts_utc": "2026-11-22T03:27:41Z", "station": "EHAM", "obs_utc": "2026-11-22T03:25:00Z", "temp_c": 0, "dewp_c": 0, "speci": false, "raw": "METAR EHAM 220325Z 12002KT 8000 FZFG MIFG NSC M00/M00 Q1014 TEMPO 4000"}
