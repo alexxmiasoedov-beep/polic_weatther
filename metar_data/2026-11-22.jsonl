@@ -1184,3 +1184,7 @@
 {"ts_utc": "2026-11-22T17:43:21Z", "station": "ZBAA", "obs_utc": "2026-11-22T17:30:00Z", "temp_c": -2, "dewp_c": -7, "speci": false, "raw": "METAR ZBAA 221730Z 35004MPS CAVOK M02/M07 Q1023 NOSIG"}
 {"ts_utc": "2026-11-22T17:43:21Z", "station": "ZSPD", "obs_utc": "2026-11-22T17:30:00Z", "temp_c": 13, "dewp_c": 8, "speci": false, "raw": "METAR ZSPD 221730Z 16004MPS CAVOK 13/08 Q1025 NOSIG"}
 {"ts_utc": "2026-11-22T17:43:21Z", "station": "KORD", "obs_utc": "2026-11-22T17:35:00Z", "temp_c": 11.7, "dewp_c": 10.6, "speci": true, "raw": "SPECI KORD 221735Z 30017G24KT 4SM -RA BR BKN008 BKN012 OVC017 12/11 A2985 RMK AO2 RAB28 P0000 T01170106 $"}
+{"ts_utc": "2026-11-22T17:52:29Z", "station": "KLGA", "obs_utc": "2026-11-22T17:45:00Z", "temp_c": 13, "dewp_c": 13, "speci": true, "raw": "SPECI KLGA 221745Z 03007KT 1/8SM R04/P6000FT BR OVC003 13/13 A3009 RMK AO2 SFC VIS 3 $"}
+{"ts_utc": "2026-11-22T17:52:29Z", "station": "KORD", "obs_utc": "2026-11-22T17:49:00Z", "temp_c": 11, "dewp_c": 9, "speci": true, "raw": "SPECI KORD 221749Z 29012G26KT 6SM BR SCT009 BKN015 OVC030 11/09 A2986 RMK AO2 PK WND 28026/1746 RAB28E44 P0000 $"}
+{"ts_utc": "2026-11-22T17:52:29Z", "station": "EFHK", "obs_utc": "2026-11-22T18:00:00Z", "temp_c": 0, "dewp_c": 0, "speci": false, "raw": "METAR EFHK 221750Z 34007KT 9999 SCT008 BKN027 00/M00 Q1000 BECMG BKN008"}
+{"ts_utc": "2026-11-22T17:52:29Z", "station": "LLBG", "obs_utc": "2026-11-22T18:00:00Z", "temp_c": 21, "dewp_c": 16, "speci": false, "raw": "METAR LLBG 221750Z VRB03KT 9999 SCT027 21/16 Q1019 NOSIG"}
