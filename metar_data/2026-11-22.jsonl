@@ -1291,3 +1291,7 @@
 {"ts_utc": "2026-11-22T19:15:11Z", "station": "CYYZ", "obs_utc": "2026-11-22T19:00:00Z", "temp_c": 15, "dewp_c": 6, "speci": false, "raw": "METAR CYYZ 221900Z 16007KT 140V200 15SM FEW100 FEW250 15/06 A2988 RMK AC1CI2 AC TR SLP124 DENSITY ALT 800FT"}
 {"ts_utc": "2026-11-22T19:15:11Z", "station": "RCSS", "obs_utc": "2026-11-22T19:00:00Z", "temp_c": 19, "dewp_c": 14, "speci": false, "raw": "METAR RCSS 221900Z 09007KT 9999 FEW020 19/14 Q1022 NOSIG RMK A3019"}
 {"ts_utc": "2026-11-22T19:15:11Z", "station": "WMKK", "obs_utc": "2026-11-22T19:00:00Z", "temp_c": 26, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 221900Z VRB03KT 9000 FEW030 26/25 Q1011 NOSIG"}
+{"ts_utc": "2026-11-22T19:24:21Z", "station": "KORD", "obs_utc": "2026-11-22T19:14:00Z", "temp_c": 10, "dewp_c": 7.2, "speci": true, "raw": "SPECI KORD 221914Z 30008KT 10SM SCT010 BKN015 BKN036 10/07 A2989 RMK AO2 T01000072 $"}
+{"ts_utc": "2026-11-22T19:24:21Z", "station": "EDDM", "obs_utc": "2026-11-22T19:20:00Z", "temp_c": 2, "dewp_c": -1, "speci": false, "raw": "METAR EDDM 221920Z AUTO 35003KT 320V030 9999 BKN036 OVC045 02/M01 Q1010 NOSIG"}
+{"ts_utc": "2026-11-22T19:24:21Z", "station": "EFHK", "obs_utc": "2026-11-22T19:20:00Z", "temp_c": 0, "dewp_c": 0, "speci": false, "raw": "METAR EFHK 221920Z 33006KT 7000 -SN FEW006 BKN008 00/00 Q1000 TEMPO 3000"}
+{"ts_utc": "2026-11-22T19:24:21Z", "station": "LLBG", "obs_utc": "2026-11-22T19:20:00Z", "temp_c": 20, "dewp_c": 16, "speci": false, "raw": "METAR LLBG 221920Z VRB01KT 9999 BKN033 20/16 Q1019 NOSIG"}
