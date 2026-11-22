@@ -50,6 +50,23 @@
    "winner": "35°C",
    "hit": false,
    "pnl_pick": -1.0
+  },
+  "miami": {
+   "bucket": "84-85°F",
+   "prob_pct": 83,
+   "last": 83.0,
+   "bid": 72.0,
+   "ask": 84.0,
+   "consensus": "медиана калиброванных 83.1 (9 моделей), NBM 84.2, NWS 85",
+   "fact": "KMIA 17Z 27.2°C = 81.0°F (12:00 местного, +1°F/ч), 5-мин 16:20 27°C; precip 16%/0.0 мм",
+   "kalshi": "None",
+   "cut": "20:07 Минск",
+   "bet": null,
+   "note": "лидер PM по last (правило: только лидер)",
+   "ts_utc": "2026-11-22T17:06:19Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "top10": {
