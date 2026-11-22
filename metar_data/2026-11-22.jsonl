@@ -1314,3 +1314,4 @@
 {"ts_utc": "2026-11-22T19:42:49Z", "station": "ZSPD", "obs_utc": "2026-11-22T19:30:00Z", "temp_c": 12, "dewp_c": 9, "speci": false, "raw": "METAR ZSPD 221930Z 16003MPS CAVOK 12/09 Q1024 NOSIG"}
 {"ts_utc": "2026-11-22T19:42:49Z", "station": "KATL", "obs_utc": "2026-11-22T19:32:00Z", "temp_c": 16.1, "dewp_c": 14.4, "speci": true, "raw": "SPECI KATL 221932Z 28005KT 7SM SCT008 OVC012 16/14 A2994 RMK AO2 T01610144 $"}
 {"ts_utc": "2026-11-22T19:42:49Z", "station": "KLGA", "obs_utc": "2026-11-22T19:39:00Z", "temp_c": 13.3, "dewp_c": 12.8, "speci": true, "raw": "SPECI KLGA 221939Z 05009KT 1/8SM R04/P6000FT BR OVC003 13/13 A3002 RMK AO2 SFC VIS 4 T01330128 $"}
+{"ts_utc": "2026-11-22T19:52:03Z", "station": "EFHK", "obs_utc": "2026-11-22T20:00:00Z", "temp_c": 1, "dewp_c": 0, "speci": false, "raw": "METAR EFHK 221950Z 34007KT 6000 -SN FEW005 BKN007 01/00 Q1000 TEMPO 3000"}
