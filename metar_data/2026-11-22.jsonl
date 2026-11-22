@@ -902,3 +902,9 @@
 {"ts_utc": "2026-11-22T13:44:44Z", "station": "RJTT", "obs_utc": "2026-11-22T13:30:00Z", "temp_c": 9, "dewp_c": 1, "speci": false, "raw": "METAR RJTT 221330Z 02009KT 9999 FEW030 09/01 Q1028 NOSIG"}
 {"ts_utc": "2026-11-22T13:44:44Z", "station": "WMKK", "obs_utc": "2026-11-22T13:30:00Z", "temp_c": 27, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 221330Z VRB03KT 9000 FEW017CB SCT030 27/25 Q1012 NOSIG"}
 {"ts_utc": "2026-11-22T13:44:44Z", "station": "KHOU", "obs_utc": "2026-11-22T13:34:00Z", "temp_c": 20.6, "dewp_c": 20.6, "speci": true, "raw": "SPECI KHOU 221334Z 00000KT 1 1/4SM BR OVC002 21/21 A2997 RMK AO2 T02060206"}
+{"ts_utc": "2026-11-22T13:53:54Z", "station": "KDAL", "obs_utc": "2026-11-22T13:51:00Z", "temp_c": 17, "dewp_c": 11, "speci": true, "raw": "SPECI KDAL 221351Z 29012G21KT 10SM BKN022 BKN038 17/11 A2996 RMK AO2"}
+{"ts_utc": "2026-11-22T13:53:54Z", "station": "EDDM", "obs_utc": "2026-11-22T14:00:00Z", "temp_c": 4, "dewp_c": 1, "speci": false, "raw": "METAR EDDM 221350Z AUTO 04006KT 9999 SCT022 04/01 Q1006 NOSIG"}
+{"ts_utc": "2026-11-22T13:53:54Z", "station": "EFHK", "obs_utc": "2026-11-22T14:00:00Z", "temp_c": 0, "dewp_c": -2, "speci": false, "raw": "METAR EFHK 221350Z 36007KT 9999 FEW020 00/M02 Q0998 NOSIG"}
+{"ts_utc": "2026-11-22T13:53:54Z", "station": "KLGA", "obs_utc": "2026-11-22T14:00:00Z", "temp_c": 12.8, "dewp_c": 12.2, "speci": false, "raw": "METAR KLGA 221351Z 05006KT 1/8SM R04/2200V2800FT FG VV002 13/12 A3020 RMK AO2 SFC VIS 1/4 SLP227 T01280122 $"}
+{"ts_utc": "2026-11-22T13:53:54Z", "station": "KORD", "obs_utc": "2026-11-22T14:00:00Z", "temp_c": 13.3, "dewp_c": 8.9, "speci": false, "raw": "METAR KORD 221351Z 20010KT 10SM FEW026 SCT048 BKN100 BKN250 13/09 A2983 RMK AO2 SLP099 T01330089 $"}
+{"ts_utc": "2026-11-22T13:53:54Z", "station": "LLBG", "obs_utc": "2026-11-22T14:00:00Z", "temp_c": 23, "dewp_c": 16, "speci": false, "raw": "METAR LLBG 221350Z 28009KT 9999 FEW026 23/16 Q1017 NOSIG"}
