@@ -1029,3 +1029,10 @@
 {"ts_utc": "2026-11-22T15:35:02Z", "station": "VHHH", "obs_utc": "2026-11-22T15:30:00Z", "temp_c": 23, "dewp_c": 19, "speci": false, "raw": "METAR VHHH 221530Z 10023KT 9999 FEW015 SCT020 23/19 Q1021 TEMPO 10020G30KT"}
 {"ts_utc": "2026-11-22T15:35:02Z", "station": "WSSS", "obs_utc": "2026-11-22T15:30:00Z", "temp_c": 27, "dewp_c": 24, "speci": false, "raw": "METAR WSSS 221530Z 33007KT 300V360 9999 FEW016 FEW020CB SCT280 27/24 Q1014 NOSIG"}
 {"ts_utc": "2026-11-22T15:35:02Z", "station": "KATL", "obs_utc": "2026-11-22T15:31:00Z", "temp_c": 14.4, "dewp_c": 13.3, "speci": true, "raw": "SPECI KATL 221531Z 04005KT 2SM -DZ BR OVC006 14/13 A3001 RMK AO2 SFC VIS 2 1/2 CIG 005V008 P0000 T01440133 $"}
+{"ts_utc": "2026-11-22T15:44:11Z", "station": "RCSS", "obs_utc": "2026-11-22T15:30:00Z", "temp_c": 20, "dewp_c": 14, "speci": false, "raw": "METAR RCSS 221530Z 09008KT 9999 FEW020 20/14 Q1024 NOSIG RMK A3025"}
+{"ts_utc": "2026-11-22T15:44:11Z", "station": "RJTT", "obs_utc": "2026-11-22T15:30:00Z", "temp_c": 9, "dewp_c": 1, "speci": false, "raw": "METAR RJTT 221530Z 02007KT CAVOK 09/01 Q1028 NOSIG"}
+{"ts_utc": "2026-11-22T15:44:11Z", "station": "WMKK", "obs_utc": "2026-11-22T15:30:00Z", "temp_c": 28, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 221530Z VRB02KT 9000 FEW030 28/24 Q1013 NOSIG"}
+{"ts_utc": "2026-11-22T15:44:11Z", "station": "ZBAA", "obs_utc": "2026-11-22T15:30:00Z", "temp_c": -3, "dewp_c": -8, "speci": false, "raw": "METAR ZBAA 221530Z VRB01MPS CAVOK M03/M08 Q1022 NOSIG"}
+{"ts_utc": "2026-11-22T15:44:11Z", "station": "ZSPD", "obs_utc": "2026-11-22T15:30:00Z", "temp_c": 13, "dewp_c": 8, "speci": false, "raw": "METAR ZSPD 221530Z 17003MPS CAVOK 13/08 Q1026 NOSIG"}
+{"ts_utc": "2026-11-22T15:44:11Z", "station": "KHOU", "obs_utc": "2026-11-22T15:33:00Z", "temp_c": 21.1, "dewp_c": 20, "speci": true, "raw": "SPECI KHOU 221533Z 00000KT 10SM FEW011 SCT030 21/20 A3000 RMK AO2 T02110200"}
+{"ts_utc": "2026-11-22T15:44:11Z", "station": "KDAL", "obs_utc": "2026-11-22T15:39:00Z", "temp_c": 17.2, "dewp_c": 12.2, "speci": true, "raw": "SPECI KDAL 221539Z 31013KT 10SM BKN015 17/12 A3000 RMK AO2 CIG 013V017 T01720122"}
