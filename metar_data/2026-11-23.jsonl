@@ -106,3 +106,6 @@
 {"ts_utc": "2026-11-23T01:06:36Z", "station": "ZHHH", "obs_utc": "2026-11-23T01:00:00Z", "temp_c": 14, "dewp_c": 9, "speci": false, "raw": "METAR ZHHH 230100Z VRB01MPS CAVOK 14/09 Q1023 NOSIG"}
 {"ts_utc": "2026-11-23T01:06:36Z", "station": "ZSPD", "obs_utc": "2026-11-23T01:00:00Z", "temp_c": 17, "dewp_c": 12, "speci": false, "raw": "METAR ZSPD 230100Z 20005MPS CAVOK 17/12 Q1024 NOSIG"}
 {"ts_utc": "2026-11-23T01:06:36Z", "station": "ZUCK", "obs_utc": "2026-11-23T01:00:00Z", "temp_c": 14, "dewp_c": 12, "speci": false, "raw": "METAR ZUCK 230100Z 22002MPS 180V270 4800 BR NSC 14/12 Q1024 NOSIG"}
+{"ts_utc": "2026-11-23T01:14:04Z", "station": "CYYZ", "obs_utc": "2026-11-23T01:00:00Z", "temp_c": 10, "dewp_c": 7, "speci": false, "raw": "METAR CYYZ 230100Z 16006KT 15SM SCT073 SCT120 10/07 A2979 RMK AC3AC1 AC TR SLP094"}
+{"ts_utc": "2026-11-23T01:14:04Z", "station": "WMKK", "obs_utc": "2026-11-23T01:00:00Z", "temp_c": 29, "dewp_c": 23, "speci": false, "raw": "METAR WMKK 230100Z VRB02KT 9999 FEW017CB 29/23 Q1013 NOSIG"}
+{"ts_utc": "2026-11-23T01:14:04Z", "station": "MMMX", "obs_utc": "2026-11-23T01:10:00Z", "temp_c": 17, "dewp_c": 11, "speci": true, "raw": "SPECI MMMX 230110Z 34005KT 5SM BKN020 OVC080 17/11 A3030 NOSIG RMK 8/47/ HZY OCNL DROPS RAE10"}
