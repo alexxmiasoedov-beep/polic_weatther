@@ -64,9 +64,9 @@
    "bet": null,
    "note": "лидер PM по last (правило: только лидер)",
    "ts_utc": "2026-11-22T17:06:19Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "84-85°F",
+   "hit": true,
+   "pnl_pick": 0.205
   },
   "houston": {
    "bucket": "80-81°F",
@@ -81,9 +81,9 @@
    "bet": null,
    "note": "лидер PM по last (правило: только лидер)",
    "ts_utc": "2026-11-22T19:06:32Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "80-81°F",
+   "hit": true,
+   "pnl_pick": 0.471
   },
   "los-angeles": {
    "bucket": "66-67°F",
@@ -98,9 +98,9 @@
    "bet": null,
    "note": "лидер PM по last (правило: только лидер)",
    "ts_utc": "2026-11-22T19:06:32Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "66-67°F",
+   "hit": true,
+   "pnl_pick": 0.538
   },
   "dallas": {
    "bucket": "68-69°F",
@@ -115,9 +115,9 @@
    "bet": null,
    "note": "лидер PM по last (правило: только лидер)",
    "ts_utc": "2026-11-22T19:06:34Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "68-69°F",
+   "hit": true,
+   "pnl_pick": 0.014
   },
   "san-francisco": {
    "bucket": "54-55°F",
@@ -132,9 +132,9 @@
    "bet": null,
    "note": "лидер PM по last (правило: только лидер)",
    "ts_utc": "2026-11-22T20:05:58Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "54-55°F",
+   "hit": true,
+   "pnl_pick": 0.786
   },
   "atlanta": {
    "bucket": "61°F or below",
@@ -149,9 +149,9 @@
    "bet": null,
    "note": "ОТКЛОНЕНИЕ от лидера по last (62-63, last 44.8 — устаревшая сделка): по bid/ask рынок на «61 или ниже» (61.6/69.4 против 26.9/34.9), станция 61.0°F плато 19:00–20:19Z в 15:25 местного; два сигнала с подтверждением станции",
    "ts_utc": "2026-11-22T20:26:21Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "61°F or below",
+   "hit": true,
+   "pnl_pick": 1.336
   },
   "austin": {
    "bucket": "72-73°F",
@@ -166,9 +166,9 @@
    "bet": null,
    "note": "лидер PM по last и часовой METAR (правило: только лидер)",
    "ts_utc": "2026-11-22T21:26:22Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "72-73°F",
+   "hit": true,
+   "pnl_pick": 0.026
   }
  },
  "top10": {
@@ -178,9 +178,9 @@
    "ask": 53.0,
    "ts_utc": "2026-11-22T05:01:44Z",
    "hte": 18.0,
-   "winner": null,
-   "hit": null,
-   "pnl": null
+   "winner": "4°C",
+   "hit": true,
+   "pnl": 0.887
   },
   "busan": {
    "strategy": "lead:40-60@12",
@@ -196,6 +196,11 @@
    "winner": "23°C",
    "hit": false,
    "pnl": -1.0
+  },
+  "atlanta": {
+   "strategy": "down@30",
+   "skip": true,
+   "winner": "61°F or below"
   }
  }
 }
