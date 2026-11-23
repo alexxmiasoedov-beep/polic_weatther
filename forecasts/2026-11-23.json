@@ -118,6 +118,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "san-francisco": {
+   "bucket": "56-57°F",
+   "prob_pct": 70,
+   "last": 70.0,
+   "bid": 48.1,
+   "ask": 64.9,
+   "consensus": "медиана калиброванных 56.2 (9 моделей), NBM 56.2, NWS 58",
+   "fact": "KSFO 20Z 53.1°F (12:00 местного, +1–2°F/ч), 5-мин 19:50 11°C; precip 1%/0.0 мм",
+   "kalshi": "[('55° to 56°', 49.0), ('57° to 58°', 51.0)] (офсет SFO ненадёжен)",
+   "cut": "23:07 Минск",
+   "bet": null,
+   "note": "лидер PM по last (правило: только лидер)",
+   "ts_utc": "2026-11-23T20:06:08Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "top10": {
