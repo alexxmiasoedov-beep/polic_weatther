@@ -10250,3 +10250,13 @@
 {"ts_utc": "2026-11-23T08:50:32Z", "iteration": 8, "active": ["beijing", "chongqing", "kuala-lumpur", "manila", "shanghai", "singapore", "taipei", "wuhan"], "metar_stations": 8, "iter_seconds": 3.5}
 {"ts_utc": "2026-11-23T08:51:32Z", "iteration": 9, "active": ["beijing", "chongqing", "kuala-lumpur", "manila", "shanghai", "singapore", "taipei", "wuhan"], "metar_stations": 8, "iter_seconds": 3.3}
 {"ts_utc": "2026-11-23T08:52:32Z", "iteration": 10, "active": ["beijing", "chongqing", "kuala-lumpur", "manila", "shanghai", "singapore", "taipei", "wuhan"], "metar_stations": 8, "iter_seconds": 3.4}
+{"ts_utc": "2026-11-23T08:52:40Z", "iteration": 1, "active": ["beijing", "chongqing", "kuala-lumpur", "manila", "shanghai", "singapore", "taipei", "wuhan"], "metar_stations": 8, "iter_seconds": 3.2}
+{"ts_utc": "2026-11-23T08:53:40Z", "iteration": 2, "active": ["beijing", "chongqing", "kuala-lumpur", "manila", "shanghai", "singapore", "taipei", "wuhan"], "metar_stations": 8, "iter_seconds": 3.8}
+{"ts_utc": "2026-11-23T08:54:40Z", "iteration": 3, "active": ["beijing", "chongqing", "kuala-lumpur", "manila", "shanghai", "singapore", "taipei", "wuhan"], "metar_stations": 8, "iter_seconds": 3.3}
+{"ts_utc": "2026-11-23T08:55:40Z", "iteration": 4, "active": ["beijing", "chongqing", "kuala-lumpur", "manila", "shanghai", "singapore", "taipei", "wuhan"], "metar_stations": 8, "iter_seconds": 3.3}
+{"ts_utc": "2026-11-23T08:56:40Z", "iteration": 5, "active": ["beijing", "chongqing", "kuala-lumpur", "manila", "shanghai", "singapore", "taipei", "wuhan"], "metar_stations": 8, "iter_seconds": 3.3}
+{"ts_utc": "2026-11-23T08:57:40Z", "iteration": 6, "active": ["beijing", "chongqing", "kuala-lumpur", "manila", "shanghai", "singapore", "taipei", "wuhan"], "metar_stations": 8, "iter_seconds": 3.4}
+{"ts_utc": "2026-11-23T08:58:40Z", "iteration": 7, "active": ["beijing", "chongqing", "kuala-lumpur", "manila", "shanghai", "singapore", "taipei", "wuhan"], "metar_stations": 8, "iter_seconds": 3.3}
+{"ts_utc": "2026-11-23T08:59:40Z", "iteration": 8, "active": ["beijing", "chongqing", "kuala-lumpur", "manila", "shanghai", "singapore", "taipei", "wuhan"], "metar_stations": 8, "iter_seconds": 3.3}
+{"ts_utc": "2026-11-23T09:00:38Z", "iteration": 9, "active": ["ankara", "istanbul", "moscow"], "metar_stations": 3, "iter_seconds": 1.4}
+{"ts_utc": "2026-11-23T09:01:38Z", "iteration": 10, "active": ["ankara", "istanbul", "moscow"], "metar_stations": 3, "iter_seconds": 1.3}
