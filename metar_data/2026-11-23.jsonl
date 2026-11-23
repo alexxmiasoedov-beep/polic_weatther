@@ -1393,3 +1393,7 @@
 {"ts_utc": "2026-11-23T21:24:23Z", "station": "EFHK", "obs_utc": "2026-11-23T21:20:00Z", "temp_c": 1, "dewp_c": -1, "speci": false, "raw": "METAR EFHK 232120Z 36011KT 9999 FEW014 BKN017 01/M01 Q1011 NOSIG"}
 {"ts_utc": "2026-11-23T21:24:23Z", "station": "LLBG", "obs_utc": "2026-11-23T21:20:00Z", "temp_c": 18, "dewp_c": 14, "speci": false, "raw": "METAR LLBG 232120Z VRB03KT CAVOK 18/14 Q1019 NOSIG"}
 {"ts_utc": "2026-11-23T21:24:23Z", "station": "MMMX", "obs_utc": "2026-11-23T21:20:00Z", "temp_c": 22, "dewp_c": 10, "speci": true, "raw": "SPECI MMMX 232120Z 30005KT 4SM BKN020CB OVC080 22/10 A3022 NOSIG RMK 8/36/ HZY PCPN S OCNL DROPS"}
+{"ts_utc": "2026-11-23T21:26:13Z", "station": "EGLC", "obs_utc": "2026-11-23T21:20:00Z", "temp_c": 2, "dewp_c": -1, "speci": false, "raw": "METAR EGLC 232120Z AUTO 09006KT 9999 NCD 02/M01 Q1024"}
+{"ts_utc": "2026-11-23T21:26:13Z", "station": "LIMC", "obs_utc": "2026-11-23T21:20:00Z", "temp_c": 5, "dewp_c": 4, "speci": false, "raw": "METAR LIMC 232120Z 02006KT 9000 BCFG SCT010 05/04 Q1020 BECMG 3000 BCFG"}
+{"ts_utc": "2026-11-23T21:26:13Z", "station": "LTAC", "obs_utc": "2026-11-23T21:20:00Z", "temp_c": 11, "dewp_c": 6, "speci": false, "raw": "METAR LTAC 232120Z 26019KT 9999 -SHRA FEW025CB BKN035 BKN080 11/06 Q1011 TEMPO -TSRA"}
+{"ts_utc": "2026-11-23T21:26:13Z", "station": "LTFM", "obs_utc": "2026-11-23T21:20:00Z", "temp_c": 10, "dewp_c": 7, "speci": false, "raw": "METAR LTFM 232120Z 01019KT 9000 2500N -SHRA FEW014 BKN022 BKN080 10/07 Q1013 NOSIG"}
