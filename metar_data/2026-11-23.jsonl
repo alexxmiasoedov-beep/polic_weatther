@@ -300,3 +300,10 @@
 {"ts_utc": "2026-11-23T04:07:27Z", "station": "ZUCK", "obs_utc": "2026-11-23T04:00:00Z", "temp_c": 14, "dewp_c": 13, "speci": false, "raw": "METAR ZUCK 230400Z 18003MPS 140V210 3300 BR FEW007 SCT015 14/13 Q1025 NOSIG"}
 {"ts_utc": "2026-11-23T04:17:44Z", "station": "CYYZ", "obs_utc": "2026-11-23T04:00:00Z", "temp_c": 13, "dewp_c": 5, "speci": false, "raw": "METAR CYYZ 230400Z 00000KT 15SM BKN048 BKN095 13/05 A2976 RMK SC5AC2 SLP083"}
 {"ts_utc": "2026-11-23T04:17:44Z", "station": "WMKK", "obs_utc": "2026-11-23T04:00:00Z", "temp_c": 34, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 230400Z VRB03KT 9999 FEW018 34/24 Q1013 NOSIG"}
+{"ts_utc": "2026-11-23T04:26:53Z", "station": "EDDM", "obs_utc": "2026-11-23T04:20:00Z", "temp_c": -1, "dewp_c": -2, "speci": false, "raw": "METAR EDDM 230420Z AUTO 26006KT 9999 BKN042 M01/M02 Q1017 NOSIG"}
+{"ts_utc": "2026-11-23T04:26:53Z", "station": "EFHK", "obs_utc": "2026-11-23T04:20:00Z", "temp_c": 0, "dewp_c": -1, "speci": false, "raw": "METAR EFHK 230420Z 35012KT 3000 -SN BKN008 BKN010 M00/M01 Q1003 NOSIG"}
+{"ts_utc": "2026-11-23T04:26:53Z", "station": "EGLC", "obs_utc": "2026-11-23T04:20:00Z", "temp_c": 4, "dewp_c": 2, "speci": false, "raw": "METAR EGLC 230420Z AUTO VRB01KT 9999 SCT025 SCT033 04/02 Q1022"}
+{"ts_utc": "2026-11-23T04:26:53Z", "station": "LIMC", "obs_utc": "2026-11-23T04:20:00Z", "temp_c": 5, "dewp_c": 5, "speci": false, "raw": "METAR LIMC 230420Z 29004KT 260V060 9999 MIFG NSC 05/05 Q1009 NOSIG"}
+{"ts_utc": "2026-11-23T04:26:53Z", "station": "LLBG", "obs_utc": "2026-11-23T04:20:00Z", "temp_c": 16, "dewp_c": 14, "speci": false, "raw": "METAR LLBG 230420Z VRB02KT 9999 FEW035 16/14 Q1020 NOSIG"}
+{"ts_utc": "2026-11-23T04:26:53Z", "station": "LTAC", "obs_utc": "2026-11-23T04:20:00Z", "temp_c": 0, "dewp_c": 0, "speci": false, "raw": "METAR LTAC 230420Z 00000KT 7000 NSC 00/M00 Q1017 NOSIG"}
+{"ts_utc": "2026-11-23T04:26:53Z", "station": "LTFM", "obs_utc": "2026-11-23T04:20:00Z", "temp_c": 15, "dewp_c": 7, "speci": false, "raw": "METAR LTFM 230420Z 20020KT CAVOK 15/07 Q1008 NOSIG"}
