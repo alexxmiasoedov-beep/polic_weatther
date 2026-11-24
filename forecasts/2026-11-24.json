@@ -152,6 +152,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "austin": {
+   "bucket": "52-53°F",
+   "prob_pct": 99,
+   "last": 99.2,
+   "bid": 99.3,
+   "ask": 99.9,
+   "consensus": "медиана калиброванных 53.7 (9 моделей), NBM 53.7, NWS 54",
+   "fact": "KAUS холодный пасмурный день: 15–18Z 51–52°F (max 52.0 в 18Z), затем падение до 45 к 21Z",
+   "kalshi": "[('53° to 54°', 99.0)] (границы сдвинуты на 1°F)",
+   "cut": "00:25 Минск",
+   "bet": null,
+   "note": "лидер PM по last и часовой METAR (правило: только лидер)",
+   "ts_utc": "2026-11-24T21:25:43Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "top10": {
