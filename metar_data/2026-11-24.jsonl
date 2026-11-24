@@ -953,3 +953,11 @@
 {"ts_utc": "2026-11-24T14:09:09Z", "station": "ZSPD", "obs_utc": "2026-11-24T14:00:00Z", "temp_c": 8, "dewp_c": -2, "speci": false, "raw": "METAR ZSPD 241400Z 01005MPS CAVOK 08/M02 Q1031 NOSIG"}
 {"ts_utc": "2026-11-24T14:09:09Z", "station": "ZUCK", "obs_utc": "2026-11-24T14:00:00Z", "temp_c": 13, "dewp_c": 12, "speci": false, "raw": "METAR ZUCK 241400Z 21001MPS 7000 NSC 13/12 Q1031 NOSIG"}
 {"ts_utc": "2026-11-24T14:18:20Z", "station": "RCSS", "obs_utc": "2026-11-24T14:00:00Z", "temp_c": 17, "dewp_c": 10, "speci": false, "raw": "METAR RCSS 241400Z 08008KT 050V110 9999 FEW018 BKN045 17/10 Q1027 NOSIG RMK A3033"}
+{"ts_utc": "2026-11-24T14:27:34Z", "station": "EDDM", "obs_utc": "2026-11-24T14:20:00Z", "temp_c": 2, "dewp_c": -6, "speci": false, "raw": "METAR EDDM 241420Z AUTO 08010KT CAVOK 02/M06 Q1023 NOSIG"}
+{"ts_utc": "2026-11-24T14:27:34Z", "station": "EFHK", "obs_utc": "2026-11-24T14:20:00Z", "temp_c": 0, "dewp_c": -2, "speci": false, "raw": "METAR EFHK 241420Z 35009KT 9999 FEW011 BKN017 00/M02 Q1019 NOSIG"}
+{"ts_utc": "2026-11-24T14:27:34Z", "station": "EGLC", "obs_utc": "2026-11-24T14:20:00Z", "temp_c": 6, "dewp_c": 4, "speci": false, "raw": "METAR EGLC 241420Z AUTO 10011KT 9999 OVC009 06/04 Q1016"}
+{"ts_utc": "2026-11-24T14:27:34Z", "station": "LIMC", "obs_utc": "2026-11-24T14:20:00Z", "temp_c": 10, "dewp_c": 6, "speci": false, "raw": "METAR LIMC 241420Z VRB01KT 7000 FEW020 BKN060 10/06 Q1022 NOSIG"}
+{"ts_utc": "2026-11-24T14:27:34Z", "station": "LLBG", "obs_utc": "2026-11-24T14:20:00Z", "temp_c": 22, "dewp_c": 14, "speci": false, "raw": "METAR LLBG 241420Z 30008KT 9999 FEW030 22/14 Q1018 NOSIG"}
+{"ts_utc": "2026-11-24T14:27:34Z", "station": "LTAC", "obs_utc": "2026-11-24T14:20:00Z", "temp_c": 7, "dewp_c": 3, "speci": false, "raw": "METAR LTAC 241420Z 32006KT 9999 SCT040 BKN100 07/03 Q1016 NOSIG"}
+{"ts_utc": "2026-11-24T14:27:34Z", "station": "LTFM", "obs_utc": "2026-11-24T14:20:00Z", "temp_c": 7, "dewp_c": -3, "speci": false, "raw": "METAR LTFM 241420Z 34004KT 290V010 9999 SCT040 07/M03 Q1022 NOSIG"}
+{"ts_utc": "2026-11-24T14:27:34Z", "station": "EHAM", "obs_utc": "2026-11-24T14:25:00Z", "temp_c": 3, "dewp_c": -3, "speci": false, "raw": "METAR EHAM 241425Z 09011KT CAVOK 03/M03 Q1022 NOSIG"}
