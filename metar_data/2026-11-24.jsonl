@@ -1112,3 +1112,5 @@
 {"ts_utc": "2026-11-24T16:39:58Z", "station": "WSSS", "obs_utc": "2026-11-24T16:30:00Z", "temp_c": 27, "dewp_c": 24, "speci": false, "raw": "METAR WSSS 241630Z 31003KT 260V010 9999 FEW018 BKN150 27/24 Q1012 NOSIG"}
 {"ts_utc": "2026-11-24T16:39:58Z", "station": "ZBAA", "obs_utc": "2026-11-24T16:30:00Z", "temp_c": -6, "dewp_c": -11, "speci": false, "raw": "METAR ZBAA 241630Z 05001MPS CAVOK M06/M11 Q1023 NOSIG"}
 {"ts_utc": "2026-11-24T16:39:58Z", "station": "ZSPD", "obs_utc": "2026-11-24T16:30:00Z", "temp_c": 5, "dewp_c": -2, "speci": false, "raw": "METAR ZSPD 241630Z 33002MPS CAVOK 05/M02 Q1030 NOSIG"}
+{"ts_utc": "2026-11-24T16:49:07Z", "station": "KATL", "obs_utc": "2026-11-24T16:39:00Z", "temp_c": 16.1, "dewp_c": 10, "speci": true, "raw": "SPECI KATL 241639Z 09013KT 10SM OVC030 16/10 A3019 RMK AO2 BINOVC T01610100 $"}
+{"ts_utc": "2026-11-24T16:49:07Z", "station": "UUWW", "obs_utc": "2026-11-24T16:42:00Z", "temp_c": -1, "dewp_c": -2, "speci": true, "raw": "SPECI UUWW 241642Z 36008G13MPS 1300 1100SE R01/P2000N SN BKN009 OVC023 M01/M02 Q0997 R01/590530 TEMPO 0700 +SN"}
