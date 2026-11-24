@@ -437,3 +437,12 @@
 {"ts_utc": "2026-11-24T06:10:37Z", "station": "ZUCK", "obs_utc": "2026-11-24T06:00:00Z", "temp_c": 15, "dewp_c": 9, "speci": false, "raw": "METAR ZUCK 240600Z VRB01MPS 7000 SCT026 15/09 Q1032 NOSIG"}
 {"ts_utc": "2026-11-24T06:19:48Z", "station": "SBGR", "obs_utc": "2026-11-24T06:00:00Z", "temp_c": 21, "dewp_c": 20, "speci": false, "raw": "METAR SBGR 240600Z 07009KT 0900 R10R/P2000 R10L/P2000 R28R/P2000 R28L/P2000 FG BKN002 21/20 Q1013"}
 {"ts_utc": "2026-11-24T06:19:48Z", "station": "RCSS", "obs_utc": "2026-11-24T06:11:00Z", "temp_c": 17, "dewp_c": 15, "speci": true, "raw": "SPECI RCSS 240611Z 12004KT 070V150 4200 -RA FEW005 SCT012 BKN022 17/15 Q1023 RERA NOSIG RMK A3023"}
+{"ts_utc": "2026-11-24T06:28:59Z", "station": "EDDM", "obs_utc": "2026-11-24T06:20:00Z", "temp_c": -8, "dewp_c": -9, "speci": false, "raw": "METAR EDDM 240620Z AUTO 20004KT CAVOK M08/M09 Q1026 NOSIG"}
+{"ts_utc": "2026-11-24T06:28:59Z", "station": "EFHK", "obs_utc": "2026-11-24T06:20:00Z", "temp_c": 1, "dewp_c": -2, "speci": false, "raw": "METAR EFHK 240620Z 36012KT 9999 BKN017 01/M02 Q1015 NOSIG"}
+{"ts_utc": "2026-11-24T06:28:59Z", "station": "EGLC", "obs_utc": "2026-11-24T06:20:00Z", "temp_c": 2, "dewp_c": 1, "speci": false, "raw": "METAR EGLC 240620Z AUTO 10007KT 9999 NCD 02/01 Q1020"}
+{"ts_utc": "2026-11-24T06:28:59Z", "station": "LIMC", "obs_utc": "2026-11-24T06:20:00Z", "temp_c": 7, "dewp_c": 7, "speci": false, "raw": "METAR LIMC 240620Z VRB01KT 3000 BR BKN010 07/07 Q1022 NOSIG"}
+{"ts_utc": "2026-11-24T06:28:59Z", "station": "LLBG", "obs_utc": "2026-11-24T06:20:00Z", "temp_c": 19, "dewp_c": 12, "speci": false, "raw": "METAR LLBG 240620Z VRB02KT CAVOK 19/12 Q1020 NOSIG"}
+{"ts_utc": "2026-11-24T06:28:59Z", "station": "LTAC", "obs_utc": "2026-11-24T06:20:00Z", "temp_c": 8, "dewp_c": 7, "speci": false, "raw": "METAR LTAC 240620Z 20007KT 150V210 9999 SCT009 BKN025 08/07 Q1016 RESHRA NOSIG"}
+{"ts_utc": "2026-11-24T06:28:59Z", "station": "LTFM", "obs_utc": "2026-11-24T06:20:00Z", "temp_c": 6, "dewp_c": 1, "speci": false, "raw": "METAR LTFM 240620Z COR 32010KT 9999 -SHRA BKN025 BKN080 06/01 Q1022 NOSIG"}
+{"ts_utc": "2026-11-24T06:28:59Z", "station": "RCSS", "obs_utc": "2026-11-24T06:21:00Z", "temp_c": 17, "dewp_c": 15, "speci": true, "raw": "SPECI RCSS 240621Z 15003KT 110V190 5000 -RA FEW005 BKN022 BKN040 17/15 Q1023 NOSIG RMK A3023"}
+{"ts_utc": "2026-11-24T06:28:59Z", "station": "EHAM", "obs_utc": "2026-11-24T06:25:00Z", "temp_c": -3, "dewp_c": -5, "speci": false, "raw": "METAR EHAM 240625Z 14004KT CAVOK M03/M05 Q1025 BECMG FM0745 0900 FZFG BKN001"}
