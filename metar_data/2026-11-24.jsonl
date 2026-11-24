@@ -1355,3 +1355,10 @@
 {"ts_utc": "2026-11-24T20:12:29Z", "station": "SBGR", "obs_utc": "2026-11-24T20:06:00Z", "temp_c": 28, "dewp_c": 22, "speci": false, "raw": "METAR SBGR 242006Z 26014KT 5000 2000N RA SCT033 FEW050TCU BKN100 28/22 Q1012"}
 {"ts_utc": "2026-11-24T20:21:50Z", "station": "EFHK", "obs_utc": "2026-11-24T20:20:00Z", "temp_c": 1, "dewp_c": -2, "speci": false, "raw": "METAR EFHK 242020Z 01010KT 9999 SCT014 BKN035 01/M02 Q1021 TEMPO BKN014"}
 {"ts_utc": "2026-11-24T20:21:50Z", "station": "LLBG", "obs_utc": "2026-11-24T20:20:00Z", "temp_c": 18, "dewp_c": 14, "speci": false, "raw": "METAR LLBG 242020Z 13005KT 9999 SCT030 18/14 Q1020 NOSIG"}
+{"ts_utc": "2026-11-24T20:26:25Z", "station": "EDDM", "obs_utc": "2026-11-24T20:20:00Z", "temp_c": -3, "dewp_c": -6, "speci": false, "raw": "METAR EDDM 242020Z AUTO 06004KT CAVOK M03/M06 Q1020 NOSIG"}
+{"ts_utc": "2026-11-24T20:26:25Z", "station": "EGLC", "obs_utc": "2026-11-24T20:20:00Z", "temp_c": 5, "dewp_c": 1, "speci": false, "raw": "METAR EGLC 242020Z AUTO 09011KT 9999 OVC023 05/01 Q1015"}
+{"ts_utc": "2026-11-24T20:26:25Z", "station": "LIMC", "obs_utc": "2026-11-24T20:20:00Z", "temp_c": 8, "dewp_c": 7, "speci": false, "raw": "METAR LIMC 242020Z 07003KT 4000 -RA BR BKN020 08/07 Q1022 NOSIG"}
+{"ts_utc": "2026-11-24T20:26:25Z", "station": "LTAC", "obs_utc": "2026-11-24T20:20:00Z", "temp_c": 3, "dewp_c": 0, "speci": false, "raw": "METAR LTAC 242020Z 25005KT CAVOK 03/00 Q1019 NOSIG"}
+{"ts_utc": "2026-11-24T20:26:25Z", "station": "LTFM", "obs_utc": "2026-11-24T20:20:00Z", "temp_c": 5, "dewp_c": -4, "speci": false, "raw": "METAR LTFM 242020Z 30011G21KT 280V340 CAVOK 05/M04 Q1026 NOSIG"}
+{"ts_utc": "2026-11-24T20:26:25Z", "station": "UUWW", "obs_utc": "2026-11-24T20:22:00Z", "temp_c": -2, "dewp_c": -3, "speci": true, "raw": "SPECI UUWW 242022Z 36008MPS 1000 0750SE R06/P2000D +SN BKN004 OVC020 M02/M03 Q0996 WS R06 R06/490536 NOSIG"}
+{"ts_utc": "2026-11-24T20:26:25Z", "station": "SBGR", "obs_utc": "2026-11-24T20:25:00Z", "temp_c": 24, "dewp_c": 23, "speci": true, "raw": "SPECI SBGR 242025Z 01007KT 9999 -RA SCT033 FEW050TCU BKN080 24/23 Q1011 RERA"}
