@@ -13653,3 +13653,13 @@
 {"ts_utc": "2026-11-25T14:07:14Z", "iteration": 8, "active": ["amsterdam", "cape-town", "helsinki", "london", "madrid", "milan", "paris", "tel-aviv", "warsaw"], "metar_stations": 9, "iter_seconds": 2.6}
 {"ts_utc": "2026-11-25T14:08:14Z", "iteration": 9, "active": ["amsterdam", "cape-town", "helsinki", "london", "madrid", "milan", "paris", "tel-aviv", "warsaw"], "metar_stations": 9, "iter_seconds": 2.8}
 {"ts_utc": "2026-11-25T14:09:13Z", "iteration": 10, "active": ["amsterdam", "cape-town", "helsinki", "london", "madrid", "milan", "paris", "tel-aviv", "warsaw"], "metar_stations": 9, "iter_seconds": 2.2}
+{"ts_utc": "2026-11-25T14:09:22Z", "iteration": 1, "active": ["amsterdam", "cape-town", "helsinki", "london", "madrid", "milan", "paris", "tel-aviv", "warsaw"], "metar_stations": 9, "iter_seconds": 2.7}
+{"ts_utc": "2026-11-25T14:10:23Z", "iteration": 2, "active": ["amsterdam", "cape-town", "helsinki", "london", "madrid", "milan", "paris", "tel-aviv", "warsaw"], "metar_stations": 9, "iter_seconds": 3.5}
+{"ts_utc": "2026-11-25T14:11:21Z", "iteration": 3, "active": ["amsterdam", "cape-town", "helsinki", "london", "madrid", "milan", "paris", "tel-aviv", "warsaw"], "metar_stations": 9, "iter_seconds": 2.3}
+{"ts_utc": "2026-11-25T14:12:21Z", "iteration": 4, "active": ["amsterdam", "cape-town", "helsinki", "london", "madrid", "milan", "paris", "tel-aviv", "warsaw"], "metar_stations": 9, "iter_seconds": 2.2}
+{"ts_utc": "2026-11-25T14:13:22Z", "iteration": 5, "active": ["amsterdam", "cape-town", "helsinki", "london", "madrid", "milan", "paris", "tel-aviv", "warsaw"], "metar_stations": 9, "iter_seconds": 2.4}
+{"ts_utc": "2026-11-25T14:14:21Z", "iteration": 6, "active": ["amsterdam", "cape-town", "helsinki", "london", "madrid", "milan", "paris", "tel-aviv", "warsaw"], "metar_stations": 9, "iter_seconds": 2.3}
+{"ts_utc": "2026-11-25T14:15:21Z", "iteration": 7, "active": ["amsterdam", "cape-town", "helsinki", "london", "madrid", "milan", "paris", "tel-aviv", "warsaw"], "metar_stations": 9, "iter_seconds": 2.1}
+{"ts_utc": "2026-11-25T14:16:22Z", "iteration": 8, "active": ["amsterdam", "cape-town", "helsinki", "london", "madrid", "milan", "paris", "tel-aviv", "warsaw"], "metar_stations": 9, "iter_seconds": 2.6}
+{"ts_utc": "2026-11-25T14:17:21Z", "iteration": 9, "active": ["amsterdam", "cape-town", "helsinki", "london", "madrid", "milan", "paris", "tel-aviv", "warsaw"], "metar_stations": 9, "iter_seconds": 2.1}
+{"ts_utc": "2026-11-25T14:18:22Z", "iteration": 10, "active": ["amsterdam", "cape-town", "helsinki", "london", "madrid", "milan", "paris", "tel-aviv", "warsaw"], "metar_stations": 9, "iter_seconds": 2.8}
