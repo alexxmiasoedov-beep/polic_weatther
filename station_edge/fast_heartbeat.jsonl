@@ -12813,3 +12813,13 @@
 {"ts_utc": "2026-11-25T00:57:53Z", "iteration": 8, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 3.3}
 {"ts_utc": "2026-11-25T00:58:52Z", "iteration": 9, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 3.1}
 {"ts_utc": "2026-11-25T00:59:52Z", "iteration": 10, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 3.1}
+{"ts_utc": "2026-11-25T01:00:00Z", "iteration": 1, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 3.1}
+{"ts_utc": "2026-11-25T01:01:06Z", "iteration": 2, "active": ["wellington"], "metar_stations": 1, "iter_seconds": 9.0}
+{"ts_utc": "2026-11-25T01:01:58Z", "iteration": 3, "active": ["wellington"], "metar_stations": 1, "iter_seconds": 0.4}
+{"ts_utc": "2026-11-25T01:02:58Z", "iteration": 4, "active": ["wellington"], "metar_stations": 1, "iter_seconds": 0.5}
+{"ts_utc": "2026-11-25T01:03:58Z", "iteration": 5, "active": ["wellington"], "metar_stations": 1, "iter_seconds": 0.6}
+{"ts_utc": "2026-11-25T01:04:58Z", "iteration": 6, "active": ["wellington"], "metar_stations": 1, "iter_seconds": 0.7}
+{"ts_utc": "2026-11-25T01:05:58Z", "iteration": 7, "active": ["wellington"], "metar_stations": 1, "iter_seconds": 0.6}
+{"ts_utc": "2026-11-25T01:06:57Z", "iteration": 8, "active": ["wellington"], "metar_stations": 1, "iter_seconds": 0.4}
+{"ts_utc": "2026-11-25T01:07:59Z", "iteration": 9, "active": ["wellington"], "metar_stations": 1, "iter_seconds": 1.4}
+{"ts_utc": "2026-11-25T01:08:58Z", "iteration": 10, "active": ["wellington"], "metar_stations": 1, "iter_seconds": 0.5}
