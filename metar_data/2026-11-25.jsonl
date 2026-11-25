@@ -1375,3 +1375,4 @@
 {"ts_utc": "2026-11-25T20:25:39Z", "station": "LLBG", "obs_utc": "2026-11-25T20:20:00Z", "temp_c": 17, "dewp_c": 12, "speci": false, "raw": "METAR LLBG 252020Z VRB03KT CAVOK 17/12 Q1021 NOSIG"}
 {"ts_utc": "2026-11-25T20:25:39Z", "station": "LTAC", "obs_utc": "2026-11-25T20:20:00Z", "temp_c": -3, "dewp_c": -5, "speci": false, "raw": "METAR LTAC 252020Z 02004KT CAVOK M03/M05 Q1027 NOSIG"}
 {"ts_utc": "2026-11-25T20:25:39Z", "station": "LTFM", "obs_utc": "2026-11-25T20:20:00Z", "temp_c": 4, "dewp_c": -1, "speci": false, "raw": "METAR LTFM 252020Z 14002KT CAVOK 04/M01 Q1026 NOSIG"}
+{"ts_utc": "2026-11-25T20:28:39Z", "station": "EHAM", "obs_utc": "2026-11-25T20:25:00Z", "temp_c": 0, "dewp_c": -3, "speci": false, "raw": "METAR EHAM 252025Z 07013KT 040V100 9999 FEW014 M00/M03 Q1019 NOSIG"}
