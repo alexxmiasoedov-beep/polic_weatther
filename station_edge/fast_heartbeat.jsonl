@@ -13423,3 +13423,13 @@
 {"ts_utc": "2026-11-25T10:36:55Z", "iteration": 8, "active": ["ankara", "cape-town", "helsinki", "istanbul", "moscow", "tel-aviv"], "metar_stations": 6, "iter_seconds": 1.8}
 {"ts_utc": "2026-11-25T10:37:56Z", "iteration": 9, "active": ["ankara", "cape-town", "helsinki", "istanbul", "moscow", "tel-aviv"], "metar_stations": 6, "iter_seconds": 2.8}
 {"ts_utc": "2026-11-25T10:38:55Z", "iteration": 10, "active": ["ankara", "cape-town", "helsinki", "istanbul", "moscow", "tel-aviv"], "metar_stations": 6, "iter_seconds": 1.4}
+{"ts_utc": "2026-11-25T10:39:00Z", "iteration": 1, "active": ["ankara", "cape-town", "helsinki", "istanbul", "moscow", "tel-aviv"], "metar_stations": 6, "iter_seconds": 1.9}
+{"ts_utc": "2026-11-25T10:40:00Z", "iteration": 2, "active": ["ankara", "cape-town", "helsinki", "istanbul", "moscow", "tel-aviv"], "metar_stations": 6, "iter_seconds": 1.4}
+{"ts_utc": "2026-11-25T10:41:00Z", "iteration": 3, "active": ["ankara", "cape-town", "helsinki", "istanbul", "moscow", "tel-aviv"], "metar_stations": 6, "iter_seconds": 1.5}
+{"ts_utc": "2026-11-25T10:42:00Z", "iteration": 4, "active": ["ankara", "cape-town", "helsinki", "istanbul", "moscow", "tel-aviv"], "metar_stations": 6, "iter_seconds": 1.7}
+{"ts_utc": "2026-11-25T10:43:00Z", "iteration": 5, "active": ["ankara", "cape-town", "helsinki", "istanbul", "moscow", "tel-aviv"], "metar_stations": 6, "iter_seconds": 1.5}
+{"ts_utc": "2026-11-25T10:44:00Z", "iteration": 6, "active": ["ankara", "cape-town", "helsinki", "istanbul", "moscow", "tel-aviv"], "metar_stations": 6, "iter_seconds": 1.5}
+{"ts_utc": "2026-11-25T10:45:00Z", "iteration": 7, "active": ["ankara", "cape-town", "helsinki", "istanbul", "moscow", "tel-aviv"], "metar_stations": 6, "iter_seconds": 1.4}
+{"ts_utc": "2026-11-25T10:46:00Z", "iteration": 8, "active": ["ankara", "cape-town", "helsinki", "istanbul", "moscow", "tel-aviv"], "metar_stations": 6, "iter_seconds": 1.7}
+{"ts_utc": "2026-11-25T10:47:00Z", "iteration": 9, "active": ["ankara", "cape-town", "helsinki", "istanbul", "moscow", "tel-aviv"], "metar_stations": 6, "iter_seconds": 1.7}
+{"ts_utc": "2026-11-25T10:48:00Z", "iteration": 10, "active": ["ankara", "cape-town", "helsinki", "istanbul", "moscow", "tel-aviv"], "metar_stations": 6, "iter_seconds": 1.7}
