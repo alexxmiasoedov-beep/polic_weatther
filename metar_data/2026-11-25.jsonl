@@ -1368,3 +1368,10 @@
 {"ts_utc": "2026-11-25T20:19:12Z", "station": "WMKK", "obs_utc": "2026-11-25T20:08:00Z", "temp_c": 26, "dewp_c": 25, "speci": true, "raw": "SPECI WMKK 252008Z 00000KT 8000 TS FEW010 FEW017CB SCT030 26/25 Q1009 NOSIG"}
 {"ts_utc": "2026-11-25T20:19:12Z", "station": "MMMX", "obs_utc": "2026-11-25T20:12:00Z", "temp_c": 21, "dewp_c": 8, "speci": true, "raw": "SPECI MMMX 252012Z 16005KT 5SM SCT020 BKN220 21/08 A3026 NOSIG RMK 8/108 HZY"}
 {"ts_utc": "2026-11-25T20:19:12Z", "station": "UUWW", "obs_utc": "2026-11-25T20:17:00Z", "temp_c": -3, "dewp_c": -5, "speci": true, "raw": "SPECI UUWW 252017Z 33008G13MPS 9999 SCT009 OVC026 M03/M05 Q1007 R06/450535 NOSIG"}
+{"ts_utc": "2026-11-25T20:25:39Z", "station": "EDDM", "obs_utc": "2026-11-25T20:20:00Z", "temp_c": -1, "dewp_c": -4, "speci": false, "raw": "METAR EDDM 252020Z AUTO 09009KT 9999 BKN015 M01/M04 Q1013 TEMPO BKN014"}
+{"ts_utc": "2026-11-25T20:25:39Z", "station": "EFHK", "obs_utc": "2026-11-25T20:20:00Z", "temp_c": -2, "dewp_c": -3, "speci": false, "raw": "METAR EFHK 252020Z 32010KT 9999 FEW009 M02/M03 Q1021 NOSIG"}
+{"ts_utc": "2026-11-25T20:25:39Z", "station": "EGLC", "obs_utc": "2026-11-25T20:20:00Z", "temp_c": 6, "dewp_c": 3, "speci": false, "raw": "METAR EGLC 252020Z AUTO 06008KT 020V090 9999 OVC014 06/03 Q1016"}
+{"ts_utc": "2026-11-25T20:25:39Z", "station": "LIMC", "obs_utc": "2026-11-25T20:20:00Z", "temp_c": 7, "dewp_c": 7, "speci": false, "raw": "METAR LIMC 252020Z 01007KT 3000 DZ BR SCT005 BKN020 07/07 Q1010 NOSIG"}
+{"ts_utc": "2026-11-25T20:25:39Z", "station": "LLBG", "obs_utc": "2026-11-25T20:20:00Z", "temp_c": 17, "dewp_c": 12, "speci": false, "raw": "METAR LLBG 252020Z VRB03KT CAVOK 17/12 Q1021 NOSIG"}
+{"ts_utc": "2026-11-25T20:25:39Z", "station": "LTAC", "obs_utc": "2026-11-25T20:20:00Z", "temp_c": -3, "dewp_c": -5, "speci": false, "raw": "METAR LTAC 252020Z 02004KT CAVOK M03/M05 Q1027 NOSIG"}
+{"ts_utc": "2026-11-25T20:25:39Z", "station": "LTFM", "obs_utc": "2026-11-25T20:20:00Z", "temp_c": 4, "dewp_c": -1, "speci": false, "raw": "METAR LTFM 252020Z 14002KT CAVOK 04/M01 Q1026 NOSIG"}
