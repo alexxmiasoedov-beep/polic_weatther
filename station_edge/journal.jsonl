@@ -32,3 +32,4 @@
 {"type": "resolve", "rule": "nws5", "slug": "miami", "d": "2026-11-22", "winner": "84-85°F", "hit": true, "pnl": 1.381, "ts_utc": "2026-11-23T08:06:54Z"}
 {"type": "resolve", "rule": "nws5", "slug": "houston", "d": "2026-11-22", "winner": "80-81°F", "hit": false, "pnl": -1.0, "ts_utc": "2026-11-23T09:01:40Z"}
 {"type": "resolve", "rule": "nws5", "slug": "seattle", "d": "2026-11-22", "winner": "46-47°F", "hit": false, "pnl": -1.0, "ts_utc": "2026-11-23T11:01:57Z"}
+{"type": "entry", "slug": "munich", "d": "2026-11-25", "ts_utc": "2026-11-25T13:23:30Z", "snap_ts": "2026-11-25T13:23:28Z", "local": "14:23", "bucket": "1°C", "lead": "0°C", "lead_last": 76.0, "last": 36.0, "bid": 18.0, "ask": 42.0, "entry": 43.0, "size": 1.0, "t_max": 1, "t_now": 1, "t_of_max_local": "14:20", "lag_min": 4, "unit": "C"}
