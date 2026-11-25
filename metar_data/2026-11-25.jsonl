@@ -1274,3 +1274,20 @@
 {"ts_utc": "2026-11-25T18:56:03Z", "station": "LLBG", "obs_utc": "2026-11-25T19:00:00Z", "temp_c": 18, "dewp_c": 12, "speci": false, "raw": "METAR LLBG 251850Z 12005KT CAVOK 18/12 Q1021 NOSIG"}
 {"ts_utc": "2026-11-25T18:56:03Z", "station": "LTAC", "obs_utc": "2026-11-25T19:00:00Z", "temp_c": -1, "dewp_c": -4, "speci": false, "raw": "METAR LTAC 251850Z VRB01KT CAVOK M01/M04 Q1027 NOSIG"}
 {"ts_utc": "2026-11-25T18:56:03Z", "station": "LTFM", "obs_utc": "2026-11-25T19:00:00Z", "temp_c": 3, "dewp_c": -1, "speci": false, "raw": "METAR LTFM 251850Z 18006KT CAVOK 03/M01 Q1026 NOSIG"}
+{"ts_utc": "2026-11-25T19:05:15Z", "station": "EHAM", "obs_utc": "2026-11-25T19:00:00Z", "temp_c": 0, "dewp_c": -3, "speci": false, "raw": "METAR EHAM 251855Z 08014KT 050V110 9999 FEW014 M00/M03 Q1018 NOSIG"}
+{"ts_utc": "2026-11-25T19:05:15Z", "station": "EPWA", "obs_utc": "2026-11-25T19:00:00Z", "temp_c": 0, "dewp_c": -4, "speci": false, "raw": "METAR EPWA 251900Z 28006KT 9999 BKN026 00/M04 Q1023 NOSIG"}
+{"ts_utc": "2026-11-25T19:05:15Z", "station": "FACT", "obs_utc": "2026-11-25T19:00:00Z", "temp_c": 18, "dewp_c": 13, "speci": false, "raw": "METAR FACT 251900Z 22016KT CAVOK 18/13 Q1017 NOSIG"}
+{"ts_utc": "2026-11-25T19:05:15Z", "station": "KSFO", "obs_utc": "2026-11-25T19:00:00Z", "temp_c": 14.4, "dewp_c": 11.7, "speci": false, "raw": "METAR KSFO 251856Z 08003KT 10SM FEW005 SCT040 14/12 A3021 RMK AO2 SLP229 T01440117"}
+{"ts_utc": "2026-11-25T19:05:15Z", "station": "LEMD", "obs_utc": "2026-11-25T19:00:00Z", "temp_c": 9, "dewp_c": 2, "speci": false, "raw": "METAR LEMD 251900Z 24009KT 220V280 9999 FEW065 09/02 Q1017 NOSIG"}
+{"ts_utc": "2026-11-25T19:05:15Z", "station": "LFPB", "obs_utc": "2026-11-25T19:00:00Z", "temp_c": 5, "dewp_c": 5, "speci": false, "raw": "METAR LFPB 251900Z AUTO 01006KT 3900 BR OVC003 05/05 Q1010 TEMPO 5000 NSW BKN005"}
+{"ts_utc": "2026-11-25T19:05:15Z", "station": "MMMX", "obs_utc": "2026-11-25T19:00:00Z", "temp_c": 18, "dewp_c": 10, "speci": false, "raw": "METAR MMMX 251845Z 10003KT 4SM FEW020 SCT200 18/10 A3031 NOSIG RMK 8/101 HZY"}
+{"ts_utc": "2026-11-25T19:05:15Z", "station": "NZWN", "obs_utc": "2026-11-25T19:00:00Z", "temp_c": 17, "dewp_c": 8, "speci": false, "raw": "METAR NZWN 251900Z AUTO 34010KT 300V010 9999 NCD 17/08 Q1020"}
+{"ts_utc": "2026-11-25T19:05:15Z", "station": "RKPK", "obs_utc": "2026-11-25T19:00:00Z", "temp_c": 1, "dewp_c": -1, "speci": false, "raw": "METAR RKPK 251900Z 04002KT CAVOK 01/M01 Q1022"}
+{"ts_utc": "2026-11-25T19:05:15Z", "station": "RKSI", "obs_utc": "2026-11-25T19:00:00Z", "temp_c": 11, "dewp_c": 6, "speci": false, "raw": "METAR RKSI 251900Z 22013G24KT 9999 BKN035 11/06 Q1018 NOSIG"}
+{"ts_utc": "2026-11-25T19:05:15Z", "station": "SAEZ", "obs_utc": "2026-11-25T19:00:00Z", "temp_c": 29, "dewp_c": 6, "speci": false, "raw": "METAR SAEZ 251900Z 26009KT CAVOK 29/06 Q1016 NOSIG"}
+{"ts_utc": "2026-11-25T19:05:15Z", "station": "SBGR", "obs_utc": "2026-11-25T19:00:00Z", "temp_c": 27, "dewp_c": 21, "speci": false, "raw": "METAR SBGR 251900Z 31008KT 9999 BKN030 27/21 Q1015"}
+{"ts_utc": "2026-11-25T19:05:15Z", "station": "UUWW", "obs_utc": "2026-11-25T19:00:00Z", "temp_c": -3, "dewp_c": -5, "speci": false, "raw": "METAR UUWW 251900Z 33007MPS 9999 SCT014 OVC026 M03/M05 Q1007 R06/450535 NOSIG"}
+{"ts_utc": "2026-11-25T19:05:15Z", "station": "VHHH", "obs_utc": "2026-11-25T19:00:00Z", "temp_c": 16, "dewp_c": 14, "speci": false, "raw": "METAR VHHH 251900Z 36004KT 310V050 9999 -RA FEW008 SCT035 16/14 Q1019 NOSIG"}
+{"ts_utc": "2026-11-25T19:05:15Z", "station": "WSSS", "obs_utc": "2026-11-25T19:00:00Z", "temp_c": 27, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 251900Z 36005KT 9999 FEW016 FEW018CB SCT030 BKN170 27/25 Q1010 NOSIG"}
+{"ts_utc": "2026-11-25T19:05:15Z", "station": "ZBAA", "obs_utc": "2026-11-25T19:00:00Z", "temp_c": 4, "dewp_c": -4, "speci": false, "raw": "METAR ZBAA 251900Z 32002MPS 250V350 CAVOK 04/M04 Q1010 NOSIG"}
+{"ts_utc": "2026-11-25T19:05:15Z", "station": "ZSPD", "obs_utc": "2026-11-25T19:00:00Z", "temp_c": 9, "dewp_c": 5, "speci": false, "raw": "METAR ZSPD 251900Z 17003MPS CAVOK 09/05 Q1020 NOSIG"}
