@@ -14213,3 +14213,13 @@
 {"ts_utc": "2026-11-25T22:57:27Z", "iteration": 8, "active": ["austin", "chicago", "dallas", "houston", "los-angeles", "mexico-city", "san-francisco", "seattle"], "metar_stations": 8, "iter_seconds": 6.2}
 {"ts_utc": "2026-11-25T22:58:27Z", "iteration": 9, "active": ["austin", "chicago", "dallas", "houston", "los-angeles", "mexico-city", "san-francisco", "seattle"], "metar_stations": 8, "iter_seconds": 6.3}
 {"ts_utc": "2026-11-25T22:59:27Z", "iteration": 10, "active": ["austin", "chicago", "dallas", "houston", "los-angeles", "mexico-city", "san-francisco", "seattle"], "metar_stations": 8, "iter_seconds": 6.9}
+{"ts_utc": "2026-11-25T22:59:40Z", "iteration": 1, "active": ["austin", "chicago", "dallas", "houston", "los-angeles", "mexico-city", "san-francisco", "seattle"], "metar_stations": 8, "iter_seconds": 6.4}
+{"ts_utc": "2026-11-25T23:00:37Z", "iteration": 2, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 3.3}
+{"ts_utc": "2026-11-25T23:01:37Z", "iteration": 3, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 3.7}
+{"ts_utc": "2026-11-25T23:02:39Z", "iteration": 4, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 5.1}
+{"ts_utc": "2026-11-25T23:03:37Z", "iteration": 5, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 3.2}
+{"ts_utc": "2026-11-25T23:04:37Z", "iteration": 6, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 3.3}
+{"ts_utc": "2026-11-25T23:05:37Z", "iteration": 7, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 3.7}
+{"ts_utc": "2026-11-25T23:06:39Z", "iteration": 8, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 5.6}
+{"ts_utc": "2026-11-25T23:07:37Z", "iteration": 9, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 3.3}
+{"ts_utc": "2026-11-25T23:08:37Z", "iteration": 10, "active": ["los-angeles", "san-francisco", "seattle", "wellington"], "metar_stations": 4, "iter_seconds": 3.1}
