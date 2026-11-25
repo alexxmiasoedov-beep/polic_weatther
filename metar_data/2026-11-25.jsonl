@@ -1477,3 +1477,20 @@
 {"ts_utc": "2026-11-25T22:03:42Z", "station": "SBGR", "obs_utc": "2026-11-25T22:00:00Z", "temp_c": 24, "dewp_c": 21, "speci": false, "raw": "METAR SBGR 252200Z 16010KT 9999 BKN013 FEW040TCU 24/21 Q1016"}
 {"ts_utc": "2026-11-25T22:03:42Z", "station": "VHHH", "obs_utc": "2026-11-25T22:00:00Z", "temp_c": 17, "dewp_c": 14, "speci": false, "raw": "METAR VHHH 252200Z 02005KT 340V050 9999 FEW012 SCT030 17/14 Q1020 NOSIG"}
 {"ts_utc": "2026-11-25T22:03:42Z", "station": "WSSS", "obs_utc": "2026-11-25T22:00:00Z", "temp_c": 27, "dewp_c": 24, "speci": false, "raw": "METAR WSSS 252200Z 32005KT 270V350 9999 FEW015 FEW018CB FEW020TCU SCT140 27/24 Q1010 NOSIG"}
+{"ts_utc": "2026-11-25T22:12:55Z", "station": "CYYZ", "obs_utc": "2026-11-25T22:00:00Z", "temp_c": 3, "dewp_c": -2, "speci": false, "raw": "METAR CYYZ 252200Z 08008G15KT 15SM BKN019 BKN250 03/M02 A3064 RMK SC6CI1 CI TR SLP386"}
+{"ts_utc": "2026-11-25T22:12:55Z", "station": "FACT", "obs_utc": "2026-11-25T22:00:00Z", "temp_c": 17, "dewp_c": 13, "speci": false, "raw": "METAR FACT 252200Z 21010KT CAVOK 17/13 Q1016 NOSIG"}
+{"ts_utc": "2026-11-25T22:12:55Z", "station": "KBKF", "obs_utc": "2026-11-25T22:00:00Z", "temp_c": 9.2, "dewp_c": -12, "speci": false, "raw": "METAR KBKF 252158Z 09006KT 10SM FEW150 BKN220 09/M12 A3026 RMK AO2A SLP239 T00921120"}
+{"ts_utc": "2026-11-25T22:12:55Z", "station": "LEMD", "obs_utc": "2026-11-25T22:00:00Z", "temp_c": 8, "dewp_c": 2, "speci": false, "raw": "METAR LEMD 252200Z 27009KT 240V300 CAVOK 08/02 Q1018 NOSIG"}
+{"ts_utc": "2026-11-25T22:12:55Z", "station": "NZWN", "obs_utc": "2026-11-25T22:00:00Z", "temp_c": 20, "dewp_c": 7, "speci": false, "raw": "METAR NZWN 252200Z AUTO 36015KT 9999 NCD 20/07 Q1022"}
+{"ts_utc": "2026-11-25T22:12:55Z", "station": "RCSS", "obs_utc": "2026-11-25T22:00:00Z", "temp_c": 18, "dewp_c": 16, "speci": false, "raw": "METAR RCSS 252200Z 29004KT 6000 -RA FEW008 SCT020 BKN040 18/16 Q1020 NOSIG RMK A3012"}
+{"ts_utc": "2026-11-25T22:12:55Z", "station": "RJTT", "obs_utc": "2026-11-25T22:00:00Z", "temp_c": 7, "dewp_c": 1, "speci": false, "raw": "METAR RJTT 252200Z 33004KT 9999 FEW030 07/01 Q1021 NOSIG"}
+{"ts_utc": "2026-11-25T22:12:55Z", "station": "RKPK", "obs_utc": "2026-11-25T22:00:00Z", "temp_c": 1, "dewp_c": -1, "speci": false, "raw": "METAR RKPK 252200Z 03003KT CAVOK 01/M01 Q1023"}
+{"ts_utc": "2026-11-25T22:12:55Z", "station": "RKSI", "obs_utc": "2026-11-25T22:00:00Z", "temp_c": 12, "dewp_c": 7, "speci": false, "raw": "METAR RKSI 252200Z 21012KT 180V240 9999 BKN030 12/07 Q1018 NOSIG"}
+{"ts_utc": "2026-11-25T22:12:55Z", "station": "SAEZ", "obs_utc": "2026-11-25T22:00:00Z", "temp_c": 27, "dewp_c": 8, "speci": false, "raw": "METAR SAEZ 252200Z 23005KT CAVOK 27/08 Q1017 NOSIG"}
+{"ts_utc": "2026-11-25T22:12:55Z", "station": "UUWW", "obs_utc": "2026-11-25T22:00:00Z", "temp_c": -4, "dewp_c": -6, "speci": false, "raw": "METAR UUWW 252200Z 32007MPS 9999 BKN011 OVC026 M04/M06 Q1008 R24/450536 NOSIG"}
+{"ts_utc": "2026-11-25T22:12:55Z", "station": "WMKK", "obs_utc": "2026-11-25T22:00:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 252200Z VRB01KT 9000 FEW010 FEW017CB 26/24 Q1009 RETS NOSIG"}
+{"ts_utc": "2026-11-25T22:12:55Z", "station": "ZBAA", "obs_utc": "2026-11-25T22:00:00Z", "temp_c": -1, "dewp_c": -5, "speci": false, "raw": "METAR ZBAA 252200Z 03001MPS CAVOK M01/M05 Q1009 NOSIG"}
+{"ts_utc": "2026-11-25T22:12:55Z", "station": "ZHHH", "obs_utc": "2026-11-25T22:00:00Z", "temp_c": 6, "dewp_c": 5, "speci": false, "raw": "METAR ZHHH 252200Z 06002MPS CAVOK 06/05 Q1017 NOSIG"}
+{"ts_utc": "2026-11-25T22:12:55Z", "station": "ZSPD", "obs_utc": "2026-11-25T22:00:00Z", "temp_c": 8, "dewp_c": 5, "speci": false, "raw": "METAR ZSPD 252200Z 18002MPS CAVOK 08/05 Q1020 NOSIG"}
+{"ts_utc": "2026-11-25T22:12:55Z", "station": "ZUCK", "obs_utc": "2026-11-25T22:00:00Z", "temp_c": 9, "dewp_c": 8, "speci": false, "raw": "METAR ZUCK 252200Z VRB01MPS CAVOK 09/08 Q1020 NOSIG"}
+{"ts_utc": "2026-11-25T22:12:55Z", "station": "UUWW", "obs_utc": "2026-11-25T22:08:00Z", "temp_c": -4, "dewp_c": -6, "speci": true, "raw": "SPECI UUWW 252208Z 31008G13MPS 9999 -SN BKN012 OVC023 M04/M06 Q1008 R24/450536 NOSIG"}
