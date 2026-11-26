@@ -135,6 +135,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "atlanta": {
+   "bucket": "48-49°F",
+   "prob_pct": 99.9,
+   "last": 99.9,
+   "bid": 99.4,
+   "ask": 99.9,
+   "consensus": null,
+   "fact": "KATL day max 9.4°C=48.9°F (16–17 UTC), 20 UTC 6.7°C=44.1°F, falling",
+   "kalshi": "49° to 50° @99",
+   "cut": "23:25 Минск",
+   "bet": null,
+   "note": "лидер PM = станция; рынок фактически решён",
+   "ts_utc": "2026-11-26T20:25:56Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "top10": {
@@ -163,22 +180,5 @@
    "hit": false,
    "pnl": -1.0
   }
- },
- "atlanta": {
-  "bucket": "48-49°F",
-  "prob_pct": 99.9,
-  "last": 99.9,
-  "bid": 99.4,
-  "ask": 99.9,
-  "consensus": null,
-  "fact": "KATL day max 9.4°C=48.9°F (16–17 UTC), 20 UTC 6.7°C=44.1°F, falling",
-  "kalshi": "49° to 50° @99",
-  "cut": "23:25 Минск",
-  "bet": null,
-  "note": "лидер PM = станция; рынок фактически решён",
-  "ts_utc": "2026-11-26T20:25:56Z",
-  "winner": null,
-  "hit": null,
-  "pnl_pick": null
  }
 }
