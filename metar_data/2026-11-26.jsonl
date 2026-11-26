@@ -1288,3 +1288,10 @@
 {"ts_utc": "2026-11-26T19:05:56Z", "station": "SAEZ", "obs_utc": "2026-11-26T19:00:00Z", "temp_c": 27, "dewp_c": -2, "speci": false, "raw": "METAR SAEZ 261900Z VRB02KT CAVOK 27/M02 Q1021 NOSIG"}
 {"ts_utc": "2026-11-26T19:05:56Z", "station": "UUWW", "obs_utc": "2026-11-26T19:00:00Z", "temp_c": -3, "dewp_c": -7, "speci": false, "raw": "METAR UUWW 261900Z 30006MPS 9999 OVC029 M03/M07 Q1013 R24/410542 NOSIG"}
 {"ts_utc": "2026-11-26T19:05:56Z", "station": "VHHH", "obs_utc": "2026-11-26T19:00:00Z", "temp_c": 19, "dewp_c": 15, "speci": false, "raw": "METAR VHHH 261900Z 34004KT 300V020 9999 FEW030 19/15 Q1019 NOSIG"}
+{"ts_utc": "2026-11-26T19:11:10Z", "station": "CYYZ", "obs_utc": "2026-11-26T19:00:00Z", "temp_c": 5, "dewp_c": -9, "speci": false, "raw": "METAR CYYZ 261900Z 06011G18KT 15SM FEW020 OVC160 05/M09 A3016 RMK SC1AS8 SC TR SLP221"}
+{"ts_utc": "2026-11-26T19:11:10Z", "station": "RCSS", "obs_utc": "2026-11-26T19:00:00Z", "temp_c": 20, "dewp_c": 18, "speci": false, "raw": "METAR RCSS 261900Z VRB01KT 9999 FEW015 BKN120 20/18 Q1018 NOSIG RMK A3006"}
+{"ts_utc": "2026-11-26T19:11:10Z", "station": "WMKK", "obs_utc": "2026-11-26T19:00:00Z", "temp_c": 26, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 261900Z 00000KT 9000 FEW017CB 26/25 Q1010 RETS NOSIG"}
+{"ts_utc": "2026-11-26T19:11:10Z", "station": "ZBAA", "obs_utc": "2026-11-26T19:00:00Z", "temp_c": 10, "dewp_c": -6, "speci": false, "raw": "METAR ZBAA 261900Z 31006MPS CAVOK 10/M06 Q1014 NOSIG"}
+{"ts_utc": "2026-11-26T19:11:10Z", "station": "ZHHH", "obs_utc": "2026-11-26T19:00:00Z", "temp_c": 9, "dewp_c": 9, "speci": false, "raw": "METAR ZHHH 261900Z 06002MPS 8000 NSC 09/09 Q1021 NOSIG"}
+{"ts_utc": "2026-11-26T19:11:10Z", "station": "ZSPD", "obs_utc": "2026-11-26T19:00:00Z", "temp_c": 11, "dewp_c": 11, "speci": false, "raw": "METAR ZSPD 261900Z 24003MPS 6000 NSC 11/11 Q1019 NOSIG"}
+{"ts_utc": "2026-11-26T19:11:10Z", "station": "ZUCK", "obs_utc": "2026-11-26T19:00:00Z", "temp_c": 13, "dewp_c": 9, "speci": false, "raw": "METAR ZUCK 261900Z 32003MPS CAVOK 13/09 Q1023 NOSIG"}
