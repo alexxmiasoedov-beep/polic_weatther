@@ -123,3 +123,10 @@
 {"ts_utc": "2026-11-26T01:35:03Z", "station": "UUWW", "obs_utc": "2026-11-26T01:30:00Z", "temp_c": -4, "dewp_c": -6, "speci": false, "raw": "METAR UUWW 260130Z 30006MPS 9999 SCT013 BKN023 M04/M06 Q1008 R24/450531 NOSIG"}
 {"ts_utc": "2026-11-26T01:35:03Z", "station": "VHHH", "obs_utc": "2026-11-26T01:30:00Z", "temp_c": 17, "dewp_c": 13, "speci": false, "raw": "METAR VHHH 260130Z 01009KT 9999 FEW012 SCT025 17/13 Q1021 NOSIG"}
 {"ts_utc": "2026-11-26T01:35:03Z", "station": "WSSS", "obs_utc": "2026-11-26T01:30:00Z", "temp_c": 27, "dewp_c": 23, "speci": false, "raw": "METAR WSSS 260130Z 32005KT 290V360 9999 FEW016 SCT050 BKN170 27/23 Q1012 NOSIG"}
+{"ts_utc": "2026-11-26T01:44:08Z", "station": "RCSS", "obs_utc": "2026-11-26T01:30:00Z", "temp_c": 21, "dewp_c": 17, "speci": false, "raw": "METAR RCSS 260130Z VRB01KT 9999 FEW018 BKN048 BKN080 21/17 Q1021 NOSIG RMK A3015"}
+{"ts_utc": "2026-11-26T01:44:08Z", "station": "RJTT", "obs_utc": "2026-11-26T01:30:00Z", "temp_c": 13, "dewp_c": 2, "speci": false, "raw": "METAR RJTT 260130Z 09004KT 9999 FEW030 BKN/// 13/02 Q1022 NOSIG"}
+{"ts_utc": "2026-11-26T01:44:08Z", "station": "WMKK", "obs_utc": "2026-11-26T01:30:00Z", "temp_c": 27, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 260130Z 00000KT 8000 FEW030 27/25 Q1011 NOSIG"}
+{"ts_utc": "2026-11-26T01:44:08Z", "station": "ZBAA", "obs_utc": "2026-11-26T01:30:00Z", "temp_c": 5, "dewp_c": -5, "speci": false, "raw": "METAR ZBAA 260130Z 34002MPS CAVOK 05/M05 Q1011 NOSIG"}
+{"ts_utc": "2026-11-26T01:44:08Z", "station": "ZSPD", "obs_utc": "2026-11-26T01:30:00Z", "temp_c": 15, "dewp_c": 5, "speci": false, "raw": "METAR ZSPD 260130Z 20007MPS CAVOK 15/05 Q1021 NOSIG"}
+{"ts_utc": "2026-11-26T01:44:08Z", "station": "SBGR", "obs_utc": "2026-11-26T01:34:00Z", "temp_c": 21, "dewp_c": 20, "speci": true, "raw": "SPECI SBGR 260134Z 18008KT 9999 RA BKN011 OVC045 21/20 Q1019"}
+{"ts_utc": "2026-11-26T01:44:08Z", "station": "KMIA", "obs_utc": "2026-11-26T01:38:00Z", "temp_c": 22.8, "dewp_c": 21.7, "speci": true, "raw": "SPECI KMIA 260138Z 18007KT 8SM -TSRA FEW015 BKN030CB BKN070 OVC130 23/22 A2979 RMK AO2 TSB34 OCNL LTGICCG NE-E TS NE-E MOV NE P0028 T02280217 $"}
