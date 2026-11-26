@@ -200,3 +200,5 @@
 {"ts_utc": "2026-11-26T02:38:40Z", "station": "ZSPD", "obs_utc": "2026-11-26T02:30:00Z", "temp_c": 17, "dewp_c": 5, "speci": false, "raw": "METAR ZSPD 260230Z 19006MPS CAVOK 17/05 Q1021 NOSIG"}
 {"ts_utc": "2026-11-26T02:38:40Z", "station": "UUWW", "obs_utc": "2026-11-26T02:32:00Z", "temp_c": -4, "dewp_c": -6, "speci": true, "raw": "SPECI UUWW 260232Z 29006MPS 9999 BKN011 BKN023 M04/M06 Q1008 R24/450531 NOSIG"}
 {"ts_utc": "2026-11-26T02:38:40Z", "station": "CYYZ", "obs_utc": "2026-11-26T02:36:00Z", "temp_c": 2, "dewp_c": -2, "speci": true, "raw": "SPECI CYYZ 260236Z 05006KT 15SM FEW021 FEW250 02/M02 A3061 RMK SC1CI1 CI TR CONTRAILS SLP376"}
+{"ts_utc": "2026-11-26T02:47:45Z", "station": "KATL", "obs_utc": "2026-11-26T02:39:00Z", "temp_c": 8.9, "dewp_c": 7.2, "speci": true, "raw": "SPECI KATL 260239Z 06009KT 4SM -RA BR BKN009 OVC014 09/07 A2996 RMK AO2 P0006 T00890072 $"}
+{"ts_utc": "2026-11-26T02:47:45Z", "station": "RCSS", "obs_utc": "2026-11-26T02:39:00Z", "temp_c": 21, "dewp_c": 18, "speci": true, "raw": "SPECI RCSS 260239Z 32003KT 290V010 5000 -DZ FEW015 SCT025 BKN040 21/18 Q1020 NOSIG RMK A3014"}
