@@ -104,3 +104,11 @@
 {"ts_utc": "2026-11-26T01:07:48Z", "station": "ZUCK", "obs_utc": "2026-11-26T01:00:00Z", "temp_c": 11, "dewp_c": 10, "speci": false, "raw": "METAR ZUCK 260100Z VRB01MPS 6000 NSC 11/10 Q1020 NOSIG"}
 {"ts_utc": "2026-11-26T01:16:53Z", "station": "KBKF", "obs_utc": "2026-11-26T01:00:00Z", "temp_c": 2.1, "dewp_c": -12.1, "speci": false, "raw": "METAR KBKF 260058Z 11009KT 10SM SCT200 02/M12 A3027 RMK AO2A SLP258 T00211121"}
 {"ts_utc": "2026-11-26T01:16:53Z", "station": "WMKK", "obs_utc": "2026-11-26T01:00:00Z", "temp_c": 26, "dewp_c": 24, "speci": false, "raw": "METAR WMKK 260100Z 00000KT 9999 FEW030 26/24 Q1011 NOSIG"}
+{"ts_utc": "2026-11-26T01:25:58Z", "station": "EDDM", "obs_utc": "2026-11-26T01:20:00Z", "temp_c": -1, "dewp_c": -4, "speci": false, "raw": "METAR EDDM 260120Z AUTO 06007KT 030V090 9999 OVC014 M01/M04 Q1012 NOSIG"}
+{"ts_utc": "2026-11-26T01:25:58Z", "station": "EFHK", "obs_utc": "2026-11-26T01:20:00Z", "temp_c": -1, "dewp_c": -3, "speci": false, "raw": "METAR EFHK 260120Z 34011KT 9999 BKN009 M01/M03 Q1021 BECMG BKN010"}
+{"ts_utc": "2026-11-26T01:25:58Z", "station": "EGLC", "obs_utc": "2026-11-26T01:20:00Z", "temp_c": 6, "dewp_c": 3, "speci": false, "raw": "METAR EGLC 260120Z AUTO 06008KT 020V090 9999 BKN012 OVC021 06/03 Q1017"}
+{"ts_utc": "2026-11-26T01:25:58Z", "station": "LIMC", "obs_utc": "2026-11-26T01:20:00Z", "temp_c": 7, "dewp_c": 6, "speci": false, "raw": "METAR LIMC 260120Z 35002KT 9999 -RA BKN035 07/06 Q1005 NOSIG"}
+{"ts_utc": "2026-11-26T01:25:58Z", "station": "LLBG", "obs_utc": "2026-11-26T01:20:00Z", "temp_c": 14, "dewp_c": 11, "speci": false, "raw": "METAR LLBG 260120Z 00000KT CAVOK 14/11 Q1020 NOSIG"}
+{"ts_utc": "2026-11-26T01:25:58Z", "station": "LTAC", "obs_utc": "2026-11-26T01:20:00Z", "temp_c": -5, "dewp_c": -6, "speci": false, "raw": "METAR LTAC 260120Z VRB02KT CAVOK M05/M06 Q1027 NOSIG"}
+{"ts_utc": "2026-11-26T01:25:58Z", "station": "LTFM", "obs_utc": "2026-11-26T01:20:00Z", "temp_c": 2, "dewp_c": -1, "speci": false, "raw": "METAR LTFM 260120Z 20006KT CAVOK 02/M01 Q1025 NOSIG"}
+{"ts_utc": "2026-11-26T01:25:58Z", "station": "MMMX", "obs_utc": "2026-11-26T01:21:00Z", "temp_c": 18, "dewp_c": 10, "speci": true, "raw": "SPECI MMMX 260121Z 32009KT 8SM BKN020CB OVC080 18/10 A3029 NOSIG RMK 8/96/ HZY OCNL DROPS RAE19 LTGICCG NW NNW"}
