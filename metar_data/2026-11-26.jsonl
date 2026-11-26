@@ -988,3 +988,10 @@
 {"ts_utc": "2026-11-26T14:35:15Z", "station": "UUWW", "obs_utc": "2026-11-26T14:30:00Z", "temp_c": -2, "dewp_c": -4, "speci": false, "raw": "METAR UUWW 261430Z 30006MPS 9000 -SHSN BKN016CB M02/M04 Q1011 R01/410542 NOSIG"}
 {"ts_utc": "2026-11-26T14:35:15Z", "station": "VHHH", "obs_utc": "2026-11-26T14:30:00Z", "temp_c": 20, "dewp_c": 15, "speci": false, "raw": "METAR VHHH 261430Z 36005KT 9999 FEW030 20/15 Q1019 NOSIG"}
 {"ts_utc": "2026-11-26T14:35:15Z", "station": "WSSS", "obs_utc": "2026-11-26T14:30:00Z", "temp_c": 27, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 261430Z 35004KT 9999 FEW015 BKN300 27/25 Q1012 NOSIG"}
+{"ts_utc": "2026-11-26T14:44:26Z", "station": "RCSS", "obs_utc": "2026-11-26T14:30:00Z", "temp_c": 20, "dewp_c": 18, "speci": false, "raw": "METAR RCSS 261430Z 09004KT 9999 FEW018 BKN070 20/18 Q1019 NOSIG RMK A3009"}
+{"ts_utc": "2026-11-26T14:44:26Z", "station": "RJTT", "obs_utc": "2026-11-26T14:30:00Z", "temp_c": 13, "dewp_c": 5, "speci": false, "raw": "METAR RJTT 261430Z 34004KT 260V040 CAVOK 13/05 Q1022 NOSIG"}
+{"ts_utc": "2026-11-26T14:44:26Z", "station": "WMKK", "obs_utc": "2026-11-26T14:30:00Z", "temp_c": 27, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 261430Z VRB03KT 9000 FEW017CB SCT030 27/25 Q1012 NOSIG"}
+{"ts_utc": "2026-11-26T14:44:26Z", "station": "ZBAA", "obs_utc": "2026-11-26T14:30:00Z", "temp_c": 2, "dewp_c": -3, "speci": false, "raw": "METAR ZBAA 261430Z VRB01MPS 8000 NSC 02/M03 Q1012 NOSIG"}
+{"ts_utc": "2026-11-26T14:44:26Z", "station": "ZSPD", "obs_utc": "2026-11-26T14:30:00Z", "temp_c": 11, "dewp_c": 11, "speci": false, "raw": "METAR ZSPD 261430Z 17003MPS CAVOK 11/11 Q1019 NOSIG"}
+{"ts_utc": "2026-11-26T14:44:26Z", "station": "UUWW", "obs_utc": "2026-11-26T14:38:00Z", "temp_c": -3, "dewp_c": -4, "speci": true, "raw": "SPECI UUWW 261438Z 30005MPS 4200 -SHSN SCT010 BKN023CB M03/M04 Q1011 R01/410542 NOSIG"}
+{"ts_utc": "2026-11-26T14:44:26Z", "station": "UUWW", "obs_utc": "2026-11-26T14:40:00Z", "temp_c": -2, "dewp_c": -4, "speci": true, "raw": "SPECI UUWW 261440Z 30005MPS 2800 -SHSN BKN010 BKN023CB M02/M04 Q1011 R01/410542 NOSIG"}
