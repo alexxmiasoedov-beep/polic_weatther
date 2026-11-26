@@ -81,9 +81,9 @@
    "bet": null,
    "note": "лидер PM по last (правило: только лидер)",
    "ts_utc": "2026-11-25T19:06:44Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "60-61°F",
+   "hit": false,
+   "pnl_pick": -1.0
   },
   "los-angeles": {
    "bucket": "74-75°F",
@@ -98,9 +98,9 @@
    "bet": null,
    "note": "лидер PM по last (правило: только лидер)",
    "ts_utc": "2026-11-25T19:06:44Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "74-75°F",
+   "hit": true,
+   "pnl_pick": 0.149
   },
   "dallas": {
    "bucket": "54-55°F",
@@ -115,9 +115,9 @@
    "bet": null,
    "note": "лидер PM по last (правило: только лидер)",
    "ts_utc": "2026-11-25T19:06:46Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "54-55°F",
+   "hit": true,
+   "pnl_pick": 0.449
   },
   "san-francisco": {
    "bucket": "62-63°F",
@@ -132,9 +132,9 @@
    "bet": null,
    "note": "лидер PM по last (правило: только лидер)",
    "ts_utc": "2026-11-25T20:06:14Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "62-63°F",
+   "hit": true,
+   "pnl_pick": 0.449
   },
   "atlanta": {
    "bucket": "54-55°F",
@@ -149,9 +149,9 @@
    "bet": null,
    "note": "лидер PM по last и часовой METAR (правило: только лидер)",
    "ts_utc": "2026-11-25T20:25:42Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "54-55°F",
+   "hit": true,
+   "pnl_pick": 0.001
   },
   "austin": {
    "bucket": "58-59°F",
@@ -166,9 +166,9 @@
    "bet": null,
    "note": "лидер PM по last и часовой METAR (правило: только лидер)",
    "ts_utc": "2026-11-25T21:26:10Z",
-   "winner": null,
-   "hit": null,
-   "pnl_pick": null
+   "winner": "56-57°F",
+   "hit": false,
+   "pnl_pick": -1.0
   }
  },
  "top10": {
@@ -186,6 +186,16 @@
    "winner": "24°C",
    "hit": false,
    "pnl": -1.0
+  },
+  "atlanta": {
+   "strategy": "down@30",
+   "skip": true,
+   "winner": "54-55°F"
+  },
+  "munich": {
+   "strategy": "lead:50-70@18",
+   "skip": true,
+   "winner": "1°C"
   }
  }
 }
