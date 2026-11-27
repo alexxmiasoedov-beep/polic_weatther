@@ -1149,3 +1149,12 @@
 {"ts_utc": "2026-11-27T17:09:37Z", "station": "RCSS", "obs_utc": "2026-11-27T17:00:00Z", "temp_c": 21, "dewp_c": 17, "speci": false, "raw": "METAR RCSS 271700Z 29007KT 9999 FEW020 SCT045 BKN070 21/17 Q1021 NOSIG RMK A3016"}
 {"ts_utc": "2026-11-27T17:09:37Z", "station": "RPLL", "obs_utc": "2026-11-27T17:00:00Z", "temp_c": 28, "dewp_c": 23, "speci": false, "raw": "METAR RPLL 271700Z 14004KT 090V180 9999 FEW025 28/23 Q1015 NOSIG RMK A2997"}
 {"ts_utc": "2026-11-27T17:09:37Z", "station": "WMKK", "obs_utc": "2026-11-27T17:00:00Z", "temp_c": 26, "dewp_c": 25, "speci": false, "raw": "METAR WMKK 271700Z 00000KT 9999 FEW017CB 26/25 Q1012 NOSIG"}
+{"ts_utc": "2026-11-27T17:27:58Z", "station": "EDDM", "obs_utc": "2026-11-27T17:20:00Z", "temp_c": -1, "dewp_c": -2, "speci": false, "raw": "METAR EDDM 271720Z AUTO 36003KT 330V050 8000 FEW007 SCT017 OVC043 M01/M02 Q1023 NOSIG"}
+{"ts_utc": "2026-11-27T17:27:58Z", "station": "EFHK", "obs_utc": "2026-11-27T17:20:00Z", "temp_c": -5, "dewp_c": -5, "speci": false, "raw": "METAR EFHK 271720Z 35005KT 320V020 9999 BKN005 M05/M05 Q1035 TEMPO BKN004"}
+{"ts_utc": "2026-11-27T17:27:58Z", "station": "EGLC", "obs_utc": "2026-11-27T17:20:00Z", "temp_c": 5, "dewp_c": 1, "speci": false, "raw": "METAR EGLC 271720Z AUTO 10010KT 9999 OVC013 05/01 Q1021"}
+{"ts_utc": "2026-11-27T17:27:58Z", "station": "LIMC", "obs_utc": "2026-11-27T17:20:00Z", "temp_c": 8, "dewp_c": 7, "speci": false, "raw": "METAR LIMC 271720Z 14005KT 6000 BKN020 08/07 Q1016 NOSIG"}
+{"ts_utc": "2026-11-27T17:27:58Z", "station": "LLBG", "obs_utc": "2026-11-27T17:20:00Z", "temp_c": 20, "dewp_c": 17, "speci": false, "raw": "METAR LLBG 271720Z VRB02KT CAVOK 20/17 Q1016 NOSIG"}
+{"ts_utc": "2026-11-27T17:27:58Z", "station": "LTAC", "obs_utc": "2026-11-27T17:20:00Z", "temp_c": 4, "dewp_c": 0, "speci": false, "raw": "METAR LTAC 271720Z 03003KT CAVOK 04/00 Q1020 NOSIG"}
+{"ts_utc": "2026-11-27T17:27:58Z", "station": "LTFM", "obs_utc": "2026-11-27T17:20:00Z", "temp_c": 14, "dewp_c": 9, "speci": false, "raw": "METAR LTFM 271720Z 18008KT 9999 SCT035 BKN090 14/09 Q1017 NOSIG"}
+{"ts_utc": "2026-11-27T17:27:58Z", "station": "UUWW", "obs_utc": "2026-11-27T17:23:00Z", "temp_c": -3, "dewp_c": -5, "speci": true, "raw": "SPECI UUWW 271723Z 29006MPS 9999 -SN FEW009 OVC020 M03/M05 Q1021 R24/420545 TEMPO 1000 SHSN BKN012CB"}
+{"ts_utc": "2026-11-27T17:27:58Z", "station": "EHAM", "obs_utc": "2026-11-27T17:25:00Z", "temp_c": -1, "dewp_c": -6, "speci": false, "raw": "METAR EHAM 271725Z 11006KT CAVOK M01/M06 Q1026 NOSIG"}
