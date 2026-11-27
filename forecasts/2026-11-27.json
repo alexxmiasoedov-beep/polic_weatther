@@ -118,6 +118,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "san-francisco": {
+   "bucket": "62-63°F",
+   "prob_pct": 56.0,
+   "last": 56.0,
+   "bid": 43.0,
+   "ask": 55.0,
+   "consensus": 62.7,
+   "fact": "KSFO 20 UTC 14.4°C=57.9°F at 12:00 local, slow rise (57.0→57.9); 5-min 14°C",
+   "kalshi": "62-63 @49, 64-65 @30, ≤61 @17",
+   "cut": "23:07 Минск",
+   "bet": null,
+   "note": "лидер PM = NWS 64 калибр. 62,7; 60-61 растёт (28→39) — станции нужно +4°F за 2–3 ч",
+   "ts_utc": "2026-11-27T20:06:14Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "top10": {
