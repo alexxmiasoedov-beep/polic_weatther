@@ -824,3 +824,6 @@
 {"ts_utc": "2026-11-27T12:14:59Z", "station": "ZHHH", "obs_utc": "2026-11-27T12:00:00Z", "temp_c": 16, "dewp_c": 7, "speci": false, "raw": "METAR ZHHH 271200Z 13002MPS 090V160 CAVOK 16/07 Q1023 NOSIG"}
 {"ts_utc": "2026-11-27T12:14:59Z", "station": "ZSPD", "obs_utc": "2026-11-27T12:00:00Z", "temp_c": 15, "dewp_c": 7, "speci": false, "raw": "METAR ZSPD 271200Z 30003MPS CAVOK 15/07 Q1020 NOSIG"}
 {"ts_utc": "2026-11-27T12:14:59Z", "station": "ZUCK", "obs_utc": "2026-11-27T12:00:00Z", "temp_c": 14, "dewp_c": 9, "speci": false, "raw": "METAR ZUCK 271200Z 35001MPS CAVOK 14/09 Q1026 NOSIG"}
+{"ts_utc": "2026-11-27T12:24:11Z", "station": "EDDM", "obs_utc": "2026-11-27T12:20:00Z", "temp_c": 0, "dewp_c": -2, "speci": false, "raw": "METAR EDDM 271220Z AUTO 02003KT 350V050 9999 SCT009 BKN012 OVC040 M00/M02 Q1020 TEMPO BKN010"}
+{"ts_utc": "2026-11-27T12:24:11Z", "station": "EFHK", "obs_utc": "2026-11-27T12:20:00Z", "temp_c": -4, "dewp_c": -6, "speci": false, "raw": "METAR EFHK 271220Z 34007KT 9999 FEW008 M04/M06 Q1032 TEMPO BKN008"}
+{"ts_utc": "2026-11-27T12:24:11Z", "station": "LLBG", "obs_utc": "2026-11-27T12:20:00Z", "temp_c": 24, "dewp_c": 17, "speci": false, "raw": "METAR LLBG 271220Z 29010KT CAVOK 24/17 Q1015 NOSIG RMK FEW120"}
