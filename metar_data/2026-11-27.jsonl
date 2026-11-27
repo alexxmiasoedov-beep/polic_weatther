@@ -440,3 +440,11 @@
 {"ts_utc": "2026-11-27T06:25:12Z", "station": "LLBG", "obs_utc": "2026-11-27T06:20:00Z", "temp_c": 19, "dewp_c": 14, "speci": false, "raw": "METAR LLBG 270620Z VRB02KT CAVOK 19/14 Q1017 NOSIG"}
 {"ts_utc": "2026-11-27T06:25:12Z", "station": "LTAC", "obs_utc": "2026-11-27T06:20:00Z", "temp_c": -1, "dewp_c": -3, "speci": false, "raw": "METAR LTAC 270620Z VRB02KT 6000 NSC M01/M03 Q1023 NOSIG"}
 {"ts_utc": "2026-11-27T06:25:12Z", "station": "LTFM", "obs_utc": "2026-11-27T06:20:00Z", "temp_c": 13, "dewp_c": 5, "speci": false, "raw": "METAR LTFM 270620Z 20014KT CAVOK 13/05 Q1017 NOSIG"}
+{"ts_utc": "2026-11-27T06:34:20Z", "station": "LIMC", "obs_utc": "2026-11-27T06:20:00Z", "temp_c": 5, "dewp_c": 4, "speci": false, "raw": "METAR LIMC 270620Z 36004KT 9999 3500SW BCFG SCT007 05/04 Q1012 NOSIG"}
+{"ts_utc": "2026-11-27T06:34:20Z", "station": "FACT", "obs_utc": "2026-11-27T06:24:00Z", "temp_c": 19, "dewp_c": 13, "speci": true, "raw": "SPECI FACT 270624Z 32011KT CAVOK 19/13 Q1011 NOSIG"}
+{"ts_utc": "2026-11-27T06:34:20Z", "station": "EHAM", "obs_utc": "2026-11-27T06:25:00Z", "temp_c": -3, "dewp_c": -5, "speci": false, "raw": "METAR EHAM 270625Z 08010KT 9999 FEW024 M03/M05 Q1023 NOSIG"}
+{"ts_utc": "2026-11-27T06:34:20Z", "station": "EPWA", "obs_utc": "2026-11-27T06:30:00Z", "temp_c": -1, "dewp_c": -5, "speci": false, "raw": "METAR EPWA 270630Z 08010KT 9999 BKN018 M01/M05 Q1024 NOSIG"}
+{"ts_utc": "2026-11-27T06:34:20Z", "station": "LFPB", "obs_utc": "2026-11-27T06:30:00Z", "temp_c": -2, "dewp_c": -3, "speci": false, "raw": "METAR LFPB 270630Z AUTO 08005KT 7000 FEW019 OVC180 M02/M03 Q1020 NOSIG"}
+{"ts_utc": "2026-11-27T06:34:20Z", "station": "NZWN", "obs_utc": "2026-11-27T06:30:00Z", "temp_c": 15, "dewp_c": 7, "speci": false, "raw": "METAR NZWN 270630Z AUTO 17016KT 9999 NCD 15/07 Q1028"}
+{"ts_utc": "2026-11-27T06:34:20Z", "station": "VHHH", "obs_utc": "2026-11-27T06:30:00Z", "temp_c": 25, "dewp_c": 16, "speci": false, "raw": "METAR VHHH 270630Z 32006KT 9999 FEW040 25/16 Q1018 NOSIG"}
+{"ts_utc": "2026-11-27T06:34:20Z", "station": "WSSS", "obs_utc": "2026-11-27T06:30:00Z", "temp_c": 29, "dewp_c": 25, "speci": false, "raw": "METAR WSSS 270630Z 09008KT 340V150 4000 -TSRA FEW014 FEW017CB SCT018TCU 29/25 Q1011 RESHRA BECMG FM0715 TL0730 6000 NSW"}
