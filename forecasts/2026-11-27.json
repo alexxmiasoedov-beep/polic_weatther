@@ -135,6 +135,23 @@
    "winner": null,
    "hit": null,
    "pnl_pick": null
+  },
+  "atlanta": {
+   "bucket": "50-51°F",
+   "prob_pct": 63.0,
+   "last": 63.0,
+   "bid": 58.0,
+   "ask": 81.0,
+   "consensus": null,
+   "fact": "KATL 20 UTC 9.4°C=48.9°F (day max so far), rising 46.9→48.0→48.9; 5-min 9°C; no cooling sign",
+   "kalshi": "51° to 52° @89 (границы сдвинуты)",
+   "cut": "23:25 Минск",
+   "bet": null,
+   "note": "лидер PM = NWS 51; 48-49 (11) — фейд против станции без признака остывания запрещён; нужно +0.6°C до 50°F",
+   "ts_utc": "2026-11-27T20:26:25Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
   }
  },
  "top10": {
