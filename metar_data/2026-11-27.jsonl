@@ -1404,3 +1404,10 @@
 {"ts_utc": "2026-11-27T21:09:42Z", "station": "ZSPD", "obs_utc": "2026-11-27T21:00:00Z", "temp_c": 11, "dewp_c": 4, "speci": false, "raw": "METAR ZSPD 272100Z 26003MPS CAVOK 11/04 Q1022 NOSIG"}
 {"ts_utc": "2026-11-27T21:09:42Z", "station": "ZUCK", "obs_utc": "2026-11-27T21:00:00Z", "temp_c": 10, "dewp_c": 8, "speci": false, "raw": "METAR ZUCK 272100Z 03002MPS 6000 NSC 10/08 Q1025 NOSIG"}
 {"ts_utc": "2026-11-27T21:09:42Z", "station": "MMMX", "obs_utc": "2026-11-27T21:02:00Z", "temp_c": 9, "dewp_c": 7, "speci": true, "raw": "SPECI MMMX 272102Z 32006KT 2SM RA HZ BKN015 OVC070 09/07 A3030 NOSIG RMK 8/77/ BR ARND RAB01"}
+{"ts_utc": "2026-11-27T21:26:12Z", "station": "EDDM", "obs_utc": "2026-11-27T21:20:00Z", "temp_c": -1, "dewp_c": -2, "speci": false, "raw": "METAR EDDM 272120Z AUTO 02003KT 310V050 6000 BKN006 BKN010 OVC045 M01/M02 Q1025 TEMPO SCT005 BKN011"}
+{"ts_utc": "2026-11-27T21:26:12Z", "station": "EFHK", "obs_utc": "2026-11-27T21:20:00Z", "temp_c": -5, "dewp_c": -5, "speci": false, "raw": "METAR EFHK 272120Z VRB02KT 9999 BKN002 M05/M05 Q1037 NOSIG"}
+{"ts_utc": "2026-11-27T21:26:12Z", "station": "EGLC", "obs_utc": "2026-11-27T21:20:00Z", "temp_c": 5, "dewp_c": 2, "speci": false, "raw": "METAR EGLC 272120Z AUTO 11010KT 9999 BKN013 OVC018 05/02 Q1022"}
+{"ts_utc": "2026-11-27T21:26:12Z", "station": "LIMC", "obs_utc": "2026-11-27T21:20:00Z", "temp_c": 7, "dewp_c": 5, "speci": false, "raw": "METAR LIMC 272120Z 04003KT 010V080 9999 BKN058 07/05 Q1019 NOSIG"}
+{"ts_utc": "2026-11-27T21:26:12Z", "station": "LLBG", "obs_utc": "2026-11-27T21:20:00Z", "temp_c": 18, "dewp_c": 15, "speci": false, "raw": "METAR LLBG 272120Z VRB03KT CAVOK 18/15 Q1015 NOSIG"}
+{"ts_utc": "2026-11-27T21:26:12Z", "station": "LTAC", "obs_utc": "2026-11-27T21:20:00Z", "temp_c": 2, "dewp_c": -1, "speci": false, "raw": "METAR LTAC 272120Z VRB01KT 7000 NSC 02/M01 Q1020 NOSIG"}
+{"ts_utc": "2026-11-27T21:26:12Z", "station": "LTFM", "obs_utc": "2026-11-27T21:20:00Z", "temp_c": 14, "dewp_c": 8, "speci": false, "raw": "METAR LTFM 272120Z 20008KT 9999 SCT035 BKN080 14/08 Q1017 NOSIG"}
