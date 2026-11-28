@@ -1,0 +1,55 @@
+{
+ "picks": {
+  "singapore": {
+   "bucket": "31°C",
+   "prob_pct": 49.0,
+   "last": 49.0,
+   "bid": 37.0,
+   "ask": 49.0,
+   "consensus": 30.7,
+   "fact": null,
+   "kalshi": null,
+   "cut": "04:07 Минск",
+   "bet": null,
+   "note": "лидер PM = консенсус; 30°C и 32°C по 26",
+   "ts_utc": "2026-11-28T01:05:54Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  },
+  "tel-aviv": {
+   "bucket": "25°C",
+   "prob_pct": 54.0,
+   "last": 54.0,
+   "bid": 49.0,
+   "ask": 54.0,
+   "consensus": 25.0,
+   "fact": null,
+   "kalshi": null,
+   "cut": "04:07 Минск",
+   "bet": null,
+   "note": "лидер PM = консенсус; 26°C 39",
+   "ts_utc": "2026-11-28T01:05:54Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  },
+  "kuala-lumpur": {
+   "bucket": "32°C",
+   "prob_pct": 38.0,
+   "last": 38.0,
+   "bid": 25.0,
+   "ask": 35.0,
+   "consensus": 30.7,
+   "fact": null,
+   "kalshi": null,
+   "cut": "04:07 Минск",
+   "bet": null,
+   "note": "лидер PM по last; спор с 31°C (32, bid выше); консенсус 30,7 — один сигнал, факта нет, отклонения нет",
+   "ts_utc": "2026-11-28T01:05:54Z",
+   "winner": null,
+   "hit": null,
+   "pnl_pick": null
+  }
+ }
+}
