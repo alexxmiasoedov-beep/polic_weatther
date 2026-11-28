@@ -494,3 +494,11 @@
 {"ts_utc": "2026-11-28T07:08:50Z", "station": "ZSPD", "obs_utc": "2026-11-28T07:00:00Z", "temp_c": 16, "dewp_c": -5, "speci": false, "raw": "METAR ZSPD 280700Z 31009MPS CAVOK 16/M05 Q1025 NOSIG"}
 {"ts_utc": "2026-11-28T07:08:50Z", "station": "ZUCK", "obs_utc": "2026-11-28T07:00:00Z", "temp_c": 21, "dewp_c": 8, "speci": false, "raw": "METAR ZUCK 280700Z 03003MPS 360V070 CAVOK 21/08 Q1022 NOSIG"}
 {"ts_utc": "2026-11-28T07:08:50Z", "station": "KSEA", "obs_utc": "2026-11-28T07:03:00Z", "temp_c": 7.8, "dewp_c": 7.2, "speci": true, "raw": "SPECI KSEA 280703Z 00000KT 8SM SCT005 BKN037 08/07 A3017 RMK AO2 T00780072 $"}
+{"ts_utc": "2026-11-28T07:27:11Z", "station": "KSEA", "obs_utc": "2026-11-28T07:18:00Z", "temp_c": 7.8, "dewp_c": 7.2, "speci": true, "raw": "SPECI KSEA 280718Z 00000KT 7SM BKN005 OVC036 08/07 A3019 RMK AO2 PRESRR T00780072 $"}
+{"ts_utc": "2026-11-28T07:27:11Z", "station": "EDDM", "obs_utc": "2026-11-28T07:20:00Z", "temp_c": -2, "dewp_c": -4, "speci": false, "raw": "METAR EDDM 280720Z AUTO 07006KT CAVOK M02/M04 Q1029 NOSIG"}
+{"ts_utc": "2026-11-28T07:27:11Z", "station": "EFHK", "obs_utc": "2026-11-28T07:20:00Z", "temp_c": -7, "dewp_c": -7, "speci": false, "raw": "METAR EFHK 280720Z VRB02KT 0700 R04L/P2000N R15/0900D R22L/0700D R22R/0450D FZFG BKN002 M07/M07 Q1040 TEMPO 1200 BR"}
+{"ts_utc": "2026-11-28T07:27:11Z", "station": "EGLC", "obs_utc": "2026-11-28T07:20:00Z", "temp_c": 6, "dewp_c": 3, "speci": false, "raw": "METAR EGLC 280720Z AUTO 11010KT 9999 OVC011 06/03 Q1021"}
+{"ts_utc": "2026-11-28T07:27:11Z", "station": "LIMC", "obs_utc": "2026-11-28T07:20:00Z", "temp_c": 0, "dewp_c": -1, "speci": false, "raw": "METAR LIMC 280720Z 05005KT CAVOK 00/M01 Q1024 NOSIG"}
+{"ts_utc": "2026-11-28T07:27:11Z", "station": "LLBG", "obs_utc": "2026-11-28T07:20:00Z", "temp_c": 21, "dewp_c": 14, "speci": false, "raw": "METAR LLBG 280720Z VRB02KT CAVOK 21/14 Q1015 NOSIG"}
+{"ts_utc": "2026-11-28T07:27:11Z", "station": "LTAC", "obs_utc": "2026-11-28T07:20:00Z", "temp_c": 3, "dewp_c": 0, "speci": false, "raw": "METAR LTAC 280720Z VRB02KT 4500 BR NSC 03/00 Q1019 NOSIG"}
+{"ts_utc": "2026-11-28T07:27:11Z", "station": "LTFM", "obs_utc": "2026-11-28T07:20:00Z", "temp_c": 12, "dewp_c": 12, "speci": false, "raw": "METAR LTFM 280720Z 34011KT 1600 0800SW R35R/P1500N R17L/P1500N R34L/1200N R36/P1500N BCFG BKN003 12/12 Q1018 NOSIG"}
