@@ -17603,3 +17603,13 @@
 {"ts_utc": "2026-11-28T03:53:49Z", "iteration": 8, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 2.1}
 {"ts_utc": "2026-11-28T03:54:49Z", "iteration": 9, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 2.0}
 {"ts_utc": "2026-11-28T03:55:49Z", "iteration": 10, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 1.7}
+{"ts_utc": "2026-11-28T03:55:56Z", "iteration": 1, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 1.8}
+{"ts_utc": "2026-11-28T03:56:56Z", "iteration": 2, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 1.8}
+{"ts_utc": "2026-11-28T03:57:56Z", "iteration": 3, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 1.7}
+{"ts_utc": "2026-11-28T03:58:56Z", "iteration": 4, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 2.1}
+{"ts_utc": "2026-11-28T03:59:56Z", "iteration": 5, "active": ["busan", "seoul", "tokyo", "wellington"], "metar_stations": 4, "iter_seconds": 1.8}
+{"ts_utc": "2026-11-28T04:00:59Z", "iteration": 6, "active": ["beijing", "busan", "chongqing", "kuala-lumpur", "manila", "seoul", "shanghai", "singapore", "taipei", "tokyo", "wuhan"], "metar_stations": 11, "iter_seconds": 5.3}
+{"ts_utc": "2026-11-28T04:01:59Z", "iteration": 7, "active": ["beijing", "busan", "chongqing", "kuala-lumpur", "manila", "seoul", "shanghai", "singapore", "taipei", "tokyo", "wuhan"], "metar_stations": 11, "iter_seconds": 5.0}
+{"ts_utc": "2026-11-28T04:02:59Z", "iteration": 8, "active": ["beijing", "busan", "chongqing", "kuala-lumpur", "manila", "seoul", "shanghai", "singapore", "taipei", "tokyo", "wuhan"], "metar_stations": 11, "iter_seconds": 5.0}
+{"ts_utc": "2026-11-28T04:03:59Z", "iteration": 9, "active": ["beijing", "busan", "chongqing", "kuala-lumpur", "manila", "seoul", "shanghai", "singapore", "taipei", "tokyo", "wuhan"], "metar_stations": 11, "iter_seconds": 4.7}
+{"ts_utc": "2026-11-28T04:04:59Z", "iteration": 10, "active": ["beijing", "busan", "chongqing", "kuala-lumpur", "manila", "seoul", "shanghai", "singapore", "taipei", "tokyo", "wuhan"], "metar_stations": 11, "iter_seconds": 5.0}
